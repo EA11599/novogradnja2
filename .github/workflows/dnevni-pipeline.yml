@@ -1,0 +1,33 @@
+name: Dnevni pipeline — dozvole
+
+on:
+  schedule:
+    # 06:00 po srednjoeuropskom vremenu (05:00 UTC zimi / 04:00 UTC ljeti — cron je uvijek u UTC)
+    - cron: "0 5 * * *"
+  workflow_dispatch: {} # omogućava ručno pokretanje s GitHub sučelja
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm install
+
+      - name: Pokreni pipeline
+        run: npm run fetch
+
+      - name: Commitaj ažurirani dnevnik
+        run: |
+          git config user.name "dozvole-bot"
+          git config user.email "actions@github.com"
+          git add data/dozvole/dnevnik.json data/dozvole/manifest.json
+          git diff --staged --quiet && echo "Nema promjena." || git commit -m "Dnevno ažuriranje dozvola $(date -u +%Y-%m-%d)"
+          git push

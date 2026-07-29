@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dozvole — praćenje izdanih građevinskih dozvola</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0E2238; --bg-panel:#14304C; --bg-panel-2:#183a5c; --line:#8FD3E8; --line-dim:rgba(143,211,232,0.18);
+    --accent:#E8871E; --dozvola:#5FA8F0; --text:#EAF2F8; --text-muted:#8FA9C2; --green:#6FCF97; --red:#E85D5D;
+  }
+  *{box-sizing:border-box;}
+  .site-nav{
+    display:flex; gap:2px; max-width:1200px; margin:0 auto; padding:14px 20px 0;
+  }
+  .site-nav-link{
+    font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:.04em;
+    color:var(--text-muted); text-decoration:none; padding:8px 14px; border:1px solid var(--line-dim);
+    border-bottom:none; background:transparent;
+  }
+  .site-nav-link.active{ color:var(--dozvola); background:var(--bg-panel); border-color:var(--dozvola); }
+  .site-nav-link:hover:not(.active){ color:var(--line); }
+  body{
+    margin:0;
+    background:
+      repeating-linear-gradient(0deg, var(--line-dim) 0px, var(--line-dim) 1px, transparent 1px, transparent 40px),
+      repeating-linear-gradient(90deg, var(--line-dim) 0px, var(--line-dim) 1px, transparent 1px, transparent 40px),
+      var(--bg);
+    color:var(--text); font-family:'Inter', sans-serif; padding: 32px 20px 80px; min-height:100vh;
+  }
+  .wrap{ max-width: 1200px; margin: 0 auto; }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace; color:var(--dozvola); letter-spacing:.14em;
+    font-size:12px; text-transform:uppercase; display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{ content:""; width:18px; height:1px; background:var(--dozvola); display:inline-block; }
+  h1{ font-family:'Space Grotesk', sans-serif; font-weight:700; font-size:clamp(28px,5vw,46px); margin:10px 0 6px; }
+  .sub{ color:var(--text-muted); font-size:15px; max-width:75ch; line-height:1.6; }
+
+  .hero-results{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:24px 0; }
+  @media (max-width:700px){ .hero-results{ grid-template-columns:1fr; } }
+  .stat{ background:var(--bg-panel); border:1px solid var(--line-dim); padding:16px 18px; position:relative; }
+  .stat::before{ content:attr(data-tag); position:absolute; top:-9px; left:14px; background:var(--bg);
+    padding:0 6px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--dozvola); letter-spacing:.08em; }
+  .stat .num{ font-family:'IBM Plex Mono',monospace; font-size:clamp(20px,3vw,28px); font-weight:600; }
+  .stat .lbl{ color:var(--text-muted); font-size:12px; margin-top:4px; }
+  .stat.accent .num{ color:var(--dozvola); }
+
+  .results-grid{ display:grid; grid-template-columns:260px 1fr; gap:24px; margin-top:10px; }
+  @media (max-width:800px){ .results-grid{ grid-template-columns:1fr; } }
+  .sidebar{ background:var(--bg-panel); border:1px solid var(--line-dim); padding:16px; align-self:start; position:sticky; top:20px; }
+  .sidebar h3{ font-family:'Space Grotesk',sans-serif; font-size:14px; margin:0 0 10px; color:var(--line); }
+  .search-box{
+    width:100%; background:var(--bg); border:1px solid var(--line-dim); color:var(--text); padding:9px 10px;
+    font-family:'IBM Plex Mono',monospace; font-size:12.5px; border-radius:2px; margin-bottom:16px;
+  }
+  .search-box::placeholder{ color:var(--text-muted); }
+  .filter-group{ margin-bottom:14px; border-bottom:1px solid var(--line-dim); padding-bottom:12px; }
+  .filter-group summary{ cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--line); margin-bottom:6px; }
+  .filter-opt{ display:flex; align-items:center; gap:6px; font-size:12.5px; color:var(--text-muted); padding:3px 0; cursor:pointer; }
+  .filter-opt input{ accent-color:var(--dozvola); }
+
+  .list-toolbar{ display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; flex-wrap:wrap; gap:10px; }
+  .count-line{ font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--text-muted); }
+  .btn-map{
+    font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; border:none; border-radius:3px;
+    padding:9px 16px; cursor:pointer; background:var(--dozvola); color:#0E2238; transition:opacity .15s;
+  }
+  .btn-map:hover{ opacity:.88; }
+  .btn-map:disabled{ opacity:.35; cursor:not-allowed; }
+
+  .list{ display:flex; flex-direction:column; gap:10px; }
+  .card{
+    background:var(--bg-panel); border:1px solid var(--line-dim); padding:16px 18px;
+    display:grid; grid-template-columns:100px 1fr auto; gap:16px; align-items:start;
+  }
+  @media (max-width:700px){ .card{ grid-template-columns:1fr; } }
+  .card .date{ font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--text-muted); }
+  .card .addr{ font-family:'Space Grotesk',sans-serif; font-size:15px; font-weight:600; margin-bottom:3px; }
+  .card .addr.missing{ color:var(--text-muted); font-weight:400; font-style:italic; font-family:'Inter',sans-serif; font-size:13.5px; }
+  .card .meta{ font-size:12.5px; color:var(--text-muted); line-height:1.6; }
+  .card .meta b{ color:var(--text); font-weight:600; }
+  .card .applicant.private{ font-style:italic; }
+  .badge{
+    font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.05em;
+    padding:3px 8px; border-radius:3px; text-transform:uppercase; white-space:nowrap; display:inline-block; margin-bottom:6px;
+  }
+  .badge.gradjevinska{ background:rgba(95,168,240,0.16); color:var(--dozvola); }
+  .badge.lokacijska{ background:rgba(232,135,30,0.16); color:var(--accent); }
+  .badge.uporabna{ background:rgba(111,207,151,0.16); color:var(--green); }
+  .card .actions{ display:flex; flex-direction:column; align-items:flex-end; gap:6px; text-align:right; }
+  .card .classification{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--text-muted); }
+  .card .find-link{
+    font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--line); text-decoration:none;
+    border:1px dashed var(--line); padding:5px 10px; border-radius:2px; white-space:nowrap;
+  }
+  .card .find-link:hover{ background:rgba(143,211,232,0.08); }
+
+  .empty-state, .loading-state{
+    background:var(--bg-panel); border:1px solid var(--line-dim); padding:40px 24px; text-align:center;
+  }
+  .empty-state h3{ font-family:'Space Grotesk',sans-serif; margin:0 0 8px; }
+  .empty-state p{ color:var(--text-muted); font-size:13.5px; max-width:60ch; margin:0 auto; line-height:1.6; }
+  .loading-state{ color:var(--text-muted); font-family:'IBM Plex Mono',monospace; font-size:13px; }
+
+  footer.note{ color:var(--text-muted); font-size:12.5px; margin-top:28px; line-height:1.7; max-width:80ch; }
+</style>
+</head>
+<body>
+<div class="site-nav">
+  <a href="index.html" class="site-nav-link">Usporedba zgrada</a>
+  <a href="dozvole.html" class="site-nav-link active">Dozvole</a>
+</div>
+
+<div class="wrap">
+  <div class="eyebrow">EDOZVOLA OGLASNA PLOČA · CIJELA HRVATSKA · DNEVNI AUTOMATSKI PIPELINE</div>
+  <h1>Dozvole — najavljena gradnja</h1>
+  <p class="sub">Rastući dnevnik građevinskih, lokacijskih i uporabnih dozvola izdanih u Republici Hrvatskoj, prikupljen automatski svaki dan s javne eDozvola oglasne ploče. Rani signal — dozvola prethodi stvarnoj izgradnji mjesecima do godinama.</p>
+
+  <div class="hero-results">
+    <div class="stat accent" data-tag="UKUPNO"><div class="num" id="statTotal">—</div><div class="lbl">zapisa u dnevniku</div></div>
+    <div class="stat" data-tag="ZADNJE AŽURIRANJE"><div class="num" id="statLastRun">—</div><div class="lbl">posljednji pipeline run</div></div>
+    <div class="stat" data-tag="S ADRESOM"><div class="num" id="statWithAddress">—</div><div class="lbl">zapisa s prepoznatom adresom</div></div>
+  </div>
+
+  <div id="content">
+    <div class="loading-state">Učitavam dnevnik...</div>
+  </div>
+
+  <footer class="note">
+    Podaci preuzeti s javne eDozvola oglasne ploče (Ministarstvo prostornoga uređenja, graditeljstva i državne imovine). Klasifikacijska oznaka uz svaki zapis omogućava pronalazak izvornog dokumenta na oglasnoj ploči. Privatni investitori se prikazuju anonimizirano; podaci o tvrtkama (OIB isključen) ostaju vidljivi. Zapisi bez prepoznate adrese znače da automatski dohvat/parsiranje dokumenta za taj predmet nije uspio — klasifikacijska oznaka i dalje omogućava ručnu provjeru.
+  </footer>
+</div>
+
+<script>
+const ACT_BADGE_CLASS = {
+  "Građevinska dozvola": "gradjevinska",
+  "Lokacijska dozvola": "lokacijska",
+  "Uporabna dozvola": "uporabna",
+};
+
+let allEntries = [];
+let currentFiltered = [];
+let activeTypes = new Set(["Građevinska dozvola", "Lokacijska dozvola", "Uporabna dozvola"]);
+let onlyWithAddress = false;
+let searchText = "";
+
+async function init() {
+  let entries = [];
+  let manifest = { lastRun: null, totalEntries: 0 };
+  try {
+    const [dRes, mRes] = await Promise.all([
+      fetch("data/dozvole/dnevnik.json"),
+      fetch("data/dozvole/manifest.json"),
+    ]);
+    entries = await dRes.json();
+    manifest = await mRes.json();
+  } catch (e) {
+    document.getElementById("content").innerHTML =
+      '<div class="empty-state"><h3>Ne mogu učitati dnevnik</h3><p>Provjeri postoje li data/dozvole/dnevnik.json i data/dozvole/manifest.json u repozitoriju.</p></div>';
+    return;
+  }
+
+  allEntries = entries;
+  document.getElementById("statTotal").textContent = entries.length;
+  document.getElementById("statWithAddress").textContent = entries.filter(e => e.address).length;
+  document.getElementById("statLastRun").textContent = manifest.lastRun
+    ? new Date(manifest.lastRun).toLocaleDateString("hr-HR")
+    : "još nikad";
+
+  renderContent();
+}
+
+function renderContent() {
+  const container = document.getElementById("content");
+
+  if (allEntries.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <h3>Dnevnik je još prazan</h3>
+        <p>Pipeline se pokreće jednom dnevno. Ako je repozitorij tek postavljen, prvi zapisi pojavit će se nakon prvog automatskog ili ručnog pokretanja (Actions → Dnevni pipeline — dozvole → Run workflow).</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="results-grid">
+      <div class="sidebar">
+        <h3>Pretraga</h3>
+        <input class="search-box" id="searchInput" placeholder="grad, ulica, investitor..." />
+        <h3>Vrsta akta</h3>
+        <div id="typeFilters"></div>
+        <label class="filter-opt" style="margin-top:10px;">
+          <input type="checkbox" id="onlyAddress" /> Samo s prepoznatom adresom
+        </label>
+      </div>
+      <div class="main">
+        <div class="list-toolbar">
+          <div class="count-line" id="countLine"></div>
+          <button class="btn-map" id="mapBtn">Prikaži na karti ↗</button>
+        </div>
+        <div class="list" id="list"></div>
+      </div>
+    </div>`;
+
+  const typeFiltersEl = document.getElementById("typeFilters");
+  Object.keys(ACT_BADGE_CLASS).forEach(type => {
+    const label = document.createElement("label");
+    label.className = "filter-opt";
+    label.innerHTML = `<input type="checkbox" checked data-type="${type}" /> ${type}`;
+    label.querySelector("input").addEventListener("change", (e) => {
+      if (e.target.checked) activeTypes.add(type); else activeTypes.delete(type);
+      renderList();
+    });
+    typeFiltersEl.appendChild(label);
+  });
+
+  document.getElementById("searchInput").addEventListener("input", (e) => {
+    searchText = e.target.value.toLowerCase();
+    renderList();
+  });
+  document.getElementById("onlyAddress").addEventListener("change", (e) => {
+    onlyWithAddress = e.target.checked;
+    renderList();
+  });
+  document.getElementById("mapBtn").addEventListener("click", () => {
+    openMap(currentFiltered);
+  });
+
+  renderList();
+}
+
+function renderList() {
+  const filtered = allEntries.filter(e => {
+    if (!activeTypes.has(e.actType)) return false;
+    if (onlyWithAddress && !e.address) return false;
+    if (searchText) {
+      const haystack = `${e.address || ""} ${e.roughLocation || ""} ${e.applicant || ""}`.toLowerCase();
+      if (!haystack.includes(searchText)) return false;
+    }
+    return true;
+  });
+
+  currentFiltered = filtered;
+  const withCoords = filtered.filter(e => e.coordinates).length;
+  document.getElementById("countLine").textContent =
+    `${filtered.length} od ${allEntries.length} zapisa · ${withCoords} s poznatom lokacijom`;
+  const mapBtn = document.getElementById("mapBtn");
+  if (mapBtn) mapBtn.disabled = withCoords === 0;
+
+  const listEl = document.getElementById("list");
+  if (filtered.length === 0) {
+    listEl.innerHTML = '<div class="empty-state"><h3>Nema rezultata</h3><p>Promijeni filtere ili pretragu.</p></div>';
+    return;
+  }
+
+  listEl.innerHTML = filtered.map(e => {
+    const badgeClass = ACT_BADGE_CLASS[e.actType] || "gradjevinska";
+    const dateStr = new Date(e.createdDate).toLocaleDateString("hr-HR");
+    const addressHtml = e.address
+      ? `<div class="addr">${escapeHtml(e.address)}</div>`
+      : `<div class="addr missing">Adresa nije automatski prepoznata (${escapeHtml(e.documentIssue || "razlog nepoznat")})</div>`;
+    const isPrivate = e.applicant === "Privatni investitor";
+
+    return `
+      <div class="card">
+        <div class="date">${dateStr}</div>
+        <div>
+          <span class="badge ${badgeClass}">${escapeHtml(e.actType)}</span>
+          ${addressHtml}
+          <div class="meta">
+            ${e.roughLocation ? `<b>${escapeHtml(e.roughLocation)}</b> · ` : ""}
+            ${e.buildingType ? escapeHtml(e.buildingType) : "vrsta projekta nepoznata"}
+            ${e.cadastralParcel ? ` · k.č. ${escapeHtml(e.cadastralParcel)}, K.O. ${escapeHtml(e.cadastralMunicipality)}` : ""}
+            <br>
+            <span class="applicant ${isPrivate ? 'private' : ''}">${escapeHtml(e.applicant || "nepoznat investitor")}</span>
+          </div>
+        </div>
+        <div class="actions">
+          <div class="classification">${escapeHtml(e.classification || "")}</div>
+          <a class="find-link" href="${e.noticeBoardUrl}" target="_blank" rel="noopener">Pronađi na oglasnoj ploči ↗</a>
+        </div>
+      </div>`;
+  }).join("");
+}
+
+function escapeHtml(str) {
+  return String(str).replace(/[&<>"']/g, c => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  }[c]));
+}
+
+const ACT_COLORS = {
+  "Građevinska dozvola": "#5FA8F0",
+  "Lokacijska dozvola": "#E8871E",
+  "Uporabna dozvola": "#6FCF97",
+};
+
+// Gradi samostalnu HTML stranicu s Leaflet kartom, kao string, korak po korak.
+// VAŽNO: <script> tagovi unutar generiranog stringa moraju biti sastavljeni
+// spajanjem ('<' + 'script' + '>'), nikad kao doslovni tekst — inače parser
+// preglednika prereže OVU stranicu (index.html) na tom mjestu čim naiđe na
+// taj niz znakova, bez obzira nalazi li se unutar JS stringa.
+function buildMapHtml(entries) {
+  const points = entries
+    .filter(e => e.coordinates)
+    .map(e => ({
+      lat: e.coordinates.lat,
+      lon: e.coordinates.lon,
+      address: e.address,
+      actType: e.actType,
+      buildingType: e.buildingType || "",
+      applicant: e.applicant || "",
+      date: e.createdDate,
+      color: ACT_COLORS[e.actType] || "#5FA8F0",
+    }));
+
+  const openTag = "<" + "script";
+  const closeTag = "<" + "/script" + ">";
+
+  const parts = [];
+  parts.push("<!DOCTYPE html><html lang=\"hr\"><head><meta charset=\"UTF-8\">");
+  parts.push("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">");
+  parts.push("<title>Dozvole na karti</title>");
+  parts.push("<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css\">");
+  parts.push("<style>");
+  parts.push("body{margin:0;font-family:'Inter',sans-serif;background:#0E2238;color:#EAF2F8;}");
+  parts.push("#map{position:absolute;top:0;left:0;right:0;bottom:0;}");
+  parts.push(".legend{position:absolute;bottom:16px;left:16px;background:rgba(20,48,76,0.94);border:1px solid rgba(143,211,232,0.3);border-radius:8px;padding:10px 14px;font-size:12px;z-index:500;line-height:1.7;}");
+  parts.push(".dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:6px;}");
+  parts.push(".leaflet-popup-content-wrapper{background:#14304C;color:#EAF2F8;}");
+  parts.push(".leaflet-popup-tip{background:#14304C;}");
+  parts.push("</style></head><body>");
+  parts.push("<div id=\"map\"></div>");
+  parts.push("<div class=\"legend\" id=\"legend\"></div>");
+  parts.push(openTag + " src=\"https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js\">" + closeTag);
+  parts.push(openTag + ">");
+  parts.push("const points = " + JSON.stringify(points) + ";");
+  parts.push("document.getElementById('legend').textContent = points.length + ' dozvola s poznatom lokacijom';");
+  parts.push("const map = L.map('map').setView([45.3, 16.3], 7);");
+  parts.push("L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '&copy; OpenStreetMap'}).addTo(map);");
+  parts.push("points.forEach(function(p){");
+  parts.push("  const marker = L.circleMarker([p.lat, p.lon], {radius:8, color:p.color, fillColor:p.color, fillOpacity:0.85, weight:2}).addTo(map);");
+  parts.push("  const dateStr = new Date(p.date).toLocaleDateString('hr-HR');");
+  parts.push("  marker.bindPopup('<b>' + p.address + '</b><br>' + p.actType + '<br>' + p.buildingType + '<br><i>' + p.applicant + '</i><br><span style=\"color:#8FA9C2\">' + dateStr + '</span>');");
+  parts.push("});");
+  parts.push("if (points.length) { const bounds = points.map(function(p){ return [p.lat, p.lon]; }); map.fitBounds(bounds, {padding:[50,50]}); }");
+  parts.push(closeTag);
+  parts.push("</body></html>");
+
+  return parts.join("");
+}
+
+function openMap(entries) {
+  const html = buildMapHtml(entries);
+  const blob = new Blob([html], { type: "text/html" });
+  const url = URL.createObjectURL(blob);
+  window.open(url, "_blank");
+}
+
+init();
+</script>
+
+</body>
+</html>
