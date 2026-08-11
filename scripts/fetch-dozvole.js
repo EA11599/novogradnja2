@@ -1,36 +1,48 @@
 // Dnevni pipeline za praćenje izdanih dozvola preko eDozvola oglasne ploče.
-// Pokreće se preko GitHub Actions (vidi .github/workflows/dnevni-pipeline.yml),
-// ali radi identično i lokalno: `npm install && npm run fetch`
 //
-// STATUS DIJELOVA (29.07.2026):
-//   ✅ POTVRĐENO RADI:  case-acts/search (lista dozvola, ne treba PDF)
+// PROMJENA U ODNOSU NA PRVU VERZIJU: umjesto ručnih fetch() poziva iz Node-a,
+// koristimo Puppeteer (pravi Chrome u pozadini, "headless"). Razlog: otkriveno
+// je da case-acts/search zahtijeva Bearer token koji edozvola.gov.hr
+// dodjeljuje kroz Keycloak "silent SSO" mehanizam (skriveni iframe +
+// postMessage + kolačići) prilikom normalnog učitavanja stranice u
+// pregledniku — taj tok je prekompliciran/lomljiv za ručno oponašanje.
+// Puppeteer to zaobilazi jednostavno: otvori pravu stranicu, pričekaj da se
+// autentificira sama, pa iz TE iste (već prijavljene) stranice pozove naše
+// fetch()-ove — oni onda automatski nose ispravan token/kolačiće.
+//
+// STATUS DIJELOVA (30.07.2026):
 //   ✅ POTVRĐENO RADI:  regex ekstrakcija adrese/tipa iz teksta PDF-a
-//   ⚠️  NEPOTVRĐENO:    mehanički dohvat SADRŽAJA PDF-a bez ljudskog klika
-//                       (vidi fetchDocumentBuffer ispod — ima fallback ako ne uspije)
+//   ✅ RIJEŠENO:        case-acts/search 401 problem (Puppeteer pristup)
+//   ⚠️  I DALJE NEPOTVRĐENO: hoće li dohvat SADRŽAJA PDF-a (preview-file →
+//       document-preview) uspjeti i iz autentificirane sesije, ili je taj
+//       dio ipak vezan uz osobnu (ne anonimnu) prijavu. Skripta i dalje ima
+//       fallback ako ne uspije — vidi fetchDocumentText.
 
 const fs = require("fs");
 const path = require("path");
 const pdfParse = require("pdf-parse");
+const puppeteer = require("puppeteer");
 
 const API_BASE = "https://edozvola.gov.hr/api";
+const NOTICE_BOARD_URL = "https://edozvola.gov.hr/notice-board";
 const DATA_DIR = path.join(__dirname, "..", "data", "dozvole");
 const DNEVNIK_PATH = path.join(DATA_DIR, "dnevnik.json");
 const MANIFEST_PATH = path.join(DATA_DIR, "manifest.json");
 
-// Vrste akata koje želimo zadržati u listi. Sve ostalo (javni pozivi,
-// rješenja o izmjeni i sl.) se odbacuje. Lako proširiti/skratiti.
 const RELEVANT_ACT_TYPES = new Set([
   "Građevinska dozvola",
   "Lokacijska dozvola",
   "Uporabna dozvola",
 ]);
 
-// Regex obrazac potvrđen na stvarnom primjeru rješenja:
-// "na k.č.br. X, K.O. Y – lokacija; Z"
 const LOCATION_PATTERN =
   /na k\.č\.br\.\s*([\d/]+),\s*K\.O\.\s*([A-ZŠĐČĆŽ ]+)\s*[–-]\s*lokacija;\s*(.+?)(?:,\s*u skladu\b|\.\s|\n|$)/is;
 const BUILDING_TYPE_PATTERN =
   /–\s*(izgradnja|rekonstrukcija)[^,]*,\s*([\d.]+[a-z]?)\s*skupine/i;
+
+// Nominatim NIJE iza edozvola autentifikacije — ide direktno preko Node-a,
+// ne treba Puppeteer za ovaj poziv.
+const NOMINATIM_USER_AGENT = "dozvole-pipeline/1.0 (ealeksic11@gmail.com)";
 
 function isCompany(name) {
   return /d\.o\.o\.|j\.d\.o\.o\.|d\.d\.|obrt|j\.t\.d\./i.test(name || "");
@@ -47,94 +59,6 @@ function loadJson(filePath, fallback) {
 function saveJson(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
 }
-
-// --- KORAK 1: Lista akata (potvrđeno radi, nema CORS problema server-side) ---
-async function fetchCaseActsPage(page, size = 50) {
-  const url =
-    `${API_BASE}/cases/case-acts/search?page=${page}&size=${size}` +
-    `&column=createdDate&direction=desc&searchParam=`;
-  const res = await fetch(url, { headers: { Accept: "application/json" } });
-  if (!res.ok) throw new Error(`case-acts/search vratio status ${res.status}`);
-  return res.json();
-}
-
-// Dohvaća sve nove akte dok ne naiđe na već obrađeni idCaseAct (dedupe)
-// ili dok ne prođe kroz razuman broj stranica (sigurnosna kočnica).
-async function fetchNewCaseActs(seenIds, maxPages = 20) {
-  const collected = [];
-  for (let page = 0; page < maxPages; page++) {
-    const data = await fetchCaseActsPage(page);
-    if (!data.content || data.content.length === 0) break;
-
-    let hitKnown = false;
-    for (const item of data.content) {
-      if (seenIds.has(item.idCaseAct)) {
-        hitKnown = true;
-        continue;
-      }
-      if (RELEVANT_ACT_TYPES.has(item.name)) {
-        collected.push(item);
-      }
-    }
-    if (hitKnown || data.last) break;
-
-    // Pristojna pauza prema serveru između stranica.
-    await new Promise((r) => setTimeout(r, 500));
-  }
-  return collected;
-}
-
-// --- KORAK 2: Sadržaj PDF-a — OVO JE NEPOTVRĐENI DIO ---
-//
-// Poznato: GET /api/cases/case-acts/{id}/preview-file vraća JSON oblika
-//   { "url": "/document-preview/case-act/{uuid}", ... }
-// a ta ruta je frontend (SPA) stranica, ne sirovi PDF. Kad je otvorena
-// "hladno" (bez postojeće anonimne sesije iz normalnog učitavanja stranice),
-// preusmjerava na NIAS prijavu — testirano i potvrđeno.
-//
-// Moguće da postoji zaseban API poziv koji ta SPA stranica interno radi da
-// dohvati stvarni sadržaj (npr. base64 ili blob) koristeći anonimni token
-// koji aplikacija sama sebi dodijeli pri učitavanju (vidjeli smo pozive
-// poput "authenticate-public-user", "init?client_id=edozvolaPublicCli...").
-// Taj poziv NIJE identificiran — sljedeći korak prije nego se ovo osloni na
-// automatizaciju je otvoriti jedan dokument normalno (ne hladno) i pogledati
-// Network tab ZA VRIJEME prikaza PDF-a, ne za vrijeme klika na ikonu.
-//
-// Dok se to ne potvrdi, funkcija pokušava direktan pristup i JASNO javlja
-// neuspjeh po stavci, umjesto da tiho vrati prazne podatke.
-async function fetchDocumentText(idCaseAct) {
-  try {
-    const previewRes = await fetch(
-      `${API_BASE}/cases/case-acts/${idCaseAct}/preview-file`,
-      { headers: { Accept: "application/json" } }
-    );
-    if (!previewRes.ok) return { text: null, reason: `preview-file status ${previewRes.status}` };
-    const preview = await previewRes.json();
-    if (!preview.url) return { text: null, reason: "preview-file nema 'url' polje" };
-
-    const docRes = await fetch(`https://edozvola.gov.hr${preview.url}`);
-    const contentType = docRes.headers.get("content-type") || "";
-
-    if (contentType.includes("application/pdf")) {
-      const buf = Buffer.from(await docRes.arrayBuffer());
-      const parsed = await pdfParse(buf);
-      return { text: parsed.text, reason: null };
-    }
-
-    // Nije PDF (vjerojatno HTML stranica prijave/SPA shell) — poznati neuspjeh.
-    return { text: null, reason: `document-preview nije vratio PDF (content-type: ${contentType})` };
-  } catch (err) {
-    return { text: null, reason: `greška: ${err.message}` };
-  }
-}
-
-// --- KORAK 3: Geokodiranje adrese (Nominatim, besplatan OSM geokoder) ---
-//
-// Poštivanje Nominatim uvjeta korištenja: max 1 zahtjev/sekundi, vlastiti
-// User-Agent koji identificira aplikaciju. VAŽNO: prije pravog korištenja
-// zamijeni "kontakt@tvoja-domena.hr" ispod stvarnim kontaktom — Nominatim
-// blokira zahtjeve s generičkim/lažnim User-Agentom.
-const NOMINATIM_USER_AGENT = "dozvole-pipeline/1.0 (kontakt@tvoja-domena.hr)";
 
 async function geocodeAddress(addressText) {
   try {
@@ -163,6 +87,81 @@ function extractFromPdfText(pdfText) {
   };
 }
 
+// --- Pozivi koji se izvršavaju UNUTAR autentificirane stranice preko page.evaluate ---
+
+async function fetchCaseActsPage(page, pageNum, size = 50) {
+  const url =
+    `${API_BASE}/cases/case-acts/search?page=${pageNum}&size=${size}` +
+    `&column=createdDate&direction=desc&searchParam=`;
+  return page.evaluate(async (u) => {
+    const res = await fetch(u, { headers: { Accept: "application/json" } });
+    if (!res.ok) throw new Error(`case-acts/search vratio status ${res.status}`);
+    return res.json();
+  }, url);
+}
+
+async function fetchNewCaseActs(page, seenIds, maxPages = 20) {
+  const collected = [];
+  for (let p = 0; p < maxPages; p++) {
+    const data = await fetchCaseActsPage(page, p);
+    if (!data.content || data.content.length === 0) break;
+
+    let hitKnown = false;
+    for (const item of data.content) {
+      if (seenIds.has(item.idCaseAct)) {
+        hitKnown = true;
+        continue;
+      }
+      if (RELEVANT_ACT_TYPES.has(item.name)) collected.push(item);
+    }
+    if (hitKnown || data.last) break;
+    await new Promise((r) => setTimeout(r, 500));
+  }
+  return collected;
+}
+
+// Dohvat sadržaja PDF-a iz autentificirane stranice. Binarni sadržaj se
+// unutar page.evaluate pretvori u base64 (jer page.evaluate može vratiti
+// samo serijalizirljive podatke Node-u), pa se u Node-u dekodira natrag.
+async function fetchDocumentText(page, idCaseAct) {
+  try {
+    const preview = await page.evaluate(async (url) => {
+      const res = await fetch(url, { headers: { Accept: "application/json" } });
+      if (!res.ok) return { error: `preview-file status ${res.status}` };
+      return res.json();
+    }, `${API_BASE}/cases/case-acts/${idCaseAct}/preview-file`);
+
+    if (preview.error) return { text: null, reason: preview.error };
+    if (!preview.url) return { text: null, reason: "preview-file nema 'url' polje" };
+
+    const docResult = await page.evaluate(async (relUrl) => {
+      const res = await fetch(`https://edozvola.gov.hr${relUrl}`);
+      const contentType = res.headers.get("content-type") || "";
+      if (!contentType.includes("application/pdf")) {
+        return { ok: false, contentType, status: res.status };
+      }
+      const buf = await res.arrayBuffer();
+      const bytes = new Uint8Array(buf);
+      let binary = "";
+      for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+      return { ok: true, base64: btoa(binary) };
+    }, preview.url);
+
+    if (!docResult.ok) {
+      return {
+        text: null,
+        reason: `document-preview nije vratio PDF (status ${docResult.status}, content-type: ${docResult.contentType})`,
+      };
+    }
+
+    const buf = Buffer.from(docResult.base64, "base64");
+    const parsed = await pdfParse(buf);
+    return { text: parsed.text, reason: null };
+  } catch (err) {
+    return { text: null, reason: `greška: ${err.message}` };
+  }
+}
+
 // --- Glavni tijek ---
 async function main() {
   fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -171,52 +170,64 @@ async function main() {
   const manifest = loadJson(MANIFEST_PATH, { lastRun: null, totalEntries: 0 });
   const seenIds = new Set(dnevnik.map((d) => d.idCaseAct));
 
-  console.log(`Postojeći dnevnik: ${dnevnik.length} zapisa. Tražim nove...`);
+  console.log(`Postojeći dnevnik: ${dnevnik.length} zapisa.`);
+  console.log("Pokrećem headless preglednik i učitavam oglasnu ploču...");
 
-  const newActs = await fetchNewCaseActs(seenIds);
-  console.log(`Pronađeno ${newActs.length} novih relevantnih akata.`);
+  const browser = await puppeteer.launch({
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
 
-  for (const act of newActs) {
-    const { text, reason } = await fetchDocumentText(act.idCaseAct);
-    const extracted = text ? extractFromPdfText(text) : null;
+  let newActs = [];
 
-    let coordinates = null;
-    if (extracted?.address) {
-      // Pauza PRIJE geokodiranja — poštuje Nominatim ograničenje od 1 zahtjeva/s,
-      // odvojeno od pauze prema edozvola.gov.hr niže u petlji.
-      await new Promise((r) => setTimeout(r, 1100));
-      coordinates = await geocodeAddress(extracted.address);
-      if (!coordinates) {
-        console.warn(`  ⚠ Geokodiranje nije uspjelo za: ${extracted.address}`);
+  try {
+    const page = await browser.newPage();
+    await page.goto(NOTICE_BOARD_URL, { waitUntil: "networkidle2", timeout: 60000 });
+    // Dodatna pauza da se Keycloak silent SSO (iframe/postMessage) sigurno
+    // stigne dovršiti prije prvog našeg poziva.
+    await new Promise((r) => setTimeout(r, 3000));
+
+    console.log("Stranica učitana, tražim nove akte...");
+    newActs = await fetchNewCaseActs(page, seenIds);
+    console.log(`Pronađeno ${newActs.length} novih relevantnih akata.`);
+
+    for (const act of newActs) {
+      const { text, reason } = await fetchDocumentText(page, act.idCaseAct);
+      const extracted = text ? extractFromPdfText(text) : null;
+
+      let coordinates = null;
+      if (extracted?.address) {
+        await new Promise((r) => setTimeout(r, 1100)); // Nominatim: 1 zahtjev/s
+        coordinates = await geocodeAddress(extracted.address);
+        if (!coordinates) console.warn(`  ⚠ Geokodiranje nije uspjelo za: ${extracted.address}`);
       }
+
+      const entry = {
+        idCaseAct: act.idCaseAct,
+        classification: act.classification,
+        actType: act.name,
+        createdDate: act.createdDate,
+        roughLocation: act.locations || null,
+        applicant: isCompany(act.applicantName) ? act.applicantName : "Privatni investitor",
+        address: extracted?.address || null,
+        buildingType: extracted?.buildingType || null,
+        cadastralParcel: extracted?.cadastralParcel || null,
+        cadastralMunicipality: extracted?.cadastralMunicipality || null,
+        coordinates,
+        documentStatus: text ? (extracted ? "ok" : "pdf_bez_prepoznatog_obrasca") : "pdf_nedostupan",
+        documentIssue: reason,
+        noticeBoardUrl: NOTICE_BOARD_URL,
+      };
+
+      dnevnik.push(entry);
+      seenIds.add(act.idCaseAct);
+
+      if (!text) console.warn(`  ⚠ ${act.classification}: ${reason}`);
+
+      await new Promise((r) => setTimeout(r, 800));
     }
-
-    const entry = {
-      idCaseAct: act.idCaseAct,
-      classification: act.classification,
-      actType: act.name,
-      createdDate: act.createdDate,
-      roughLocation: act.locations || null,
-      applicant: isCompany(act.applicantName) ? act.applicantName : "Privatni investitor",
-      address: extracted?.address || null,
-      buildingType: extracted?.buildingType || null,
-      cadastralParcel: extracted?.cadastralParcel || null,
-      cadastralMunicipality: extracted?.cadastralMunicipality || null,
-      coordinates: coordinates,
-      documentStatus: text ? (extracted ? "ok" : "pdf_bez_prepoznatog_obrasca") : "pdf_nedostupan",
-      documentIssue: reason,
-      noticeBoardUrl: "https://edozvola.gov.hr/notice-board",
-    };
-
-    dnevnik.push(entry);
-    seenIds.add(act.idCaseAct);
-
-    if (!text) {
-      console.warn(`  ⚠ ${act.classification}: ${reason}`);
-    }
-
-    // Pristojna pauza prije sljedećeg PDF poziva.
-    await new Promise((r) => setTimeout(r, 800));
+  } finally {
+    await browser.close();
   }
 
   dnevnik.sort((a, b) => new Date(b.createdDate) - new Date(a.createdDate));

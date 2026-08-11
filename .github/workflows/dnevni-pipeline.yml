@@ -21,6 +21,9 @@ jobs:
 
       - run: npm install
 
+      - name: Instaliraj sistemske ovisnosti za headless Chrome
+        run: npx puppeteer browsers install chrome
+
       - name: Pokreni pipeline
         run: npm run fetch
 

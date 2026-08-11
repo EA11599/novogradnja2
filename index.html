@@ -134,6 +134,9 @@
   .badge-existing{ background:rgba(143,211,232,0.1); color:var(--line); }
   .badge-confirmed{ background:rgba(217,70,239,0.2); color:#D946EF; }
   .badge-unconfirmed{ background:rgba(232,135,30,0.2); color:#E8871E; }
+  .dgu-badge{ display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600;
+    padding:2px 8px; border-radius:10px; margin-left:8px; background:rgba(111,207,151,0.15); color:#6FCF97; }
+  .dgu-extra{ display:block; font-size:11px; color:var(--text-muted); margin-top:2px; }
   .details{ display:none; background:rgba(0,0,0,0.2); padding:14px 16px; border-bottom:1px solid var(--line-dim); }
   .details.open{ display:block; }
   .details .tag{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--text-muted); margin-bottom:3px; }
@@ -277,6 +280,20 @@ function setupDropzone(zoneId, inputId, fnameId, onFile){
 let oldGeojson = null, newGeojson = null, roadsGeojson = null;
 let idField = null;
 let comparedResults = null; // { features: [...], addressField info }
+
+// DGU sloj (Faza A+B) — velik fajl (~20-ak MB), namjerno se učitava u
+// pozadini, NE blokira prikaz stranice ni usporedbu. Dok se ne učita,
+// sve zgrade jednostavno koriste postojeći fallback ("najbliža ulica" /
+// "adresa nepoznata") — ništa se ne kvari, samo se "Službena adresa"
+// značka pojavi malo kasnije, kad podaci stignu.
+let dguAddresses = null;
+fetch('data/building-addresses.json')
+  .then(r => r.ok ? r.json() : null)
+  .then(data => {
+    dguAddresses = data;
+    if(comparedResults) render(); // ako je usporedba već prikazana, osvježi je s DGU adresama
+  })
+  .catch(() => { /* tiho odustani — fallback ostaje aktivan */ });
 
 async function parseShapefileZip(file){
   const buf = await file.arrayBuffer();
@@ -948,7 +965,15 @@ function render(){
   const toRender = filtered.slice(0, MAX);
   listEl.innerHTML = toRender.map((f, idx) => {
     let addrHtml;
-    if(f.address) addrHtml = `<span class="addr">${f.address}</span>`;
+    const dgu = dguAddresses && dguAddresses[f.id];
+    if(dgu){
+      const primary = Array.isArray(dgu) ? dgu[0] : dgu;
+      const extra = Array.isArray(dgu) && dgu.length > 1
+        ? `<span class="dgu-extra"> + ${dgu.length - 1} dodatna adresa u ovoj zgradi</span>` : '';
+      addrHtml = `<span class="addr">${primary.street} ${primary.houseNumber}</span>
+        <span class="dgu-badge">Službena adresa</span>${extra}`;
+    }
+    else if(f.address) addrHtml = `<span class="addr">${f.address}</span>`;
     else if(f.nearestStreet) addrHtml = `<span class="addr unknown">adresa nepoznata</span><span class="nearstreet">≈ ${f.nearestStreetDist} m od: ${f.nearestStreet} (procjena)</span>`;
     else addrHtml = `<span class="addr unknown">adresa nepoznata</span>`;
     let badge;
