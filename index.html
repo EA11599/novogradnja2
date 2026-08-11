@@ -750,7 +750,7 @@ document.getElementById('showMapBtn').addEventListener('click', () => {
     showUnconfirmed: catUnconfirmed.checked,
   };
 
-  const html = buildMapPageHtml(geojson, all.length, initial);
+  const html = buildMapPageHtml(geojson, all.length, initial, new URL('data/zagreb-adrese.geojson', window.location.href).href);
   const blob = new Blob([html], { type: 'text/html' });
   const url = URL.createObjectURL(blob);
   window.open(url, '_blank');
@@ -811,7 +811,7 @@ document.getElementById('exportExcelBtn').addEventListener('click', () => {
   dl.textContent = `Excel preuzet — ${rows.length.toLocaleString('hr-HR')} redaka.`;
   dl.className = 'status-line ok';
 });
-function buildMapPageHtml(geojson, count, initial){
+function buildMapPageHtml(geojson, count, initial, addressesUrl){
   const dataStr = JSON.stringify(geojson);
   const initialStr = JSON.stringify(initial);
   var scriptOpen = '<' + 'script';
@@ -820,7 +820,10 @@ function buildMapPageHtml(geojson, count, initial){
   parts.push('<!DOCTYPE html><html lang="hr"><head><meta charset="UTF-8" />');
   parts.push('<title>Karta - ' + count + ' zgrada</title>');
   parts.push('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />');
+  parts.push('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />');
+  parts.push('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />');
   parts.push(scriptOpen + ' src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js">' + scriptClose);
+  parts.push(scriptOpen + ' src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js">' + scriptClose);
   parts.push('<style>');
   parts.push('html,body,#map{margin:0;padding:0;height:100%;width:100%;font-family:sans-serif;}');
   parts.push(':root{--bg:#14304C;--line:#8FD3E8;--linedim:rgba(143,211,232,0.25);--accent:#E8871E;--text:#EAF2F8;--muted:#9FB8CC;}');
@@ -845,6 +848,8 @@ function buildMapPageHtml(geojson, count, initial){
   parts.push('<div class="fp-row"><label><input type="checkbox" id="mHideUnchanged"> Sakrij nepromijenjene</label></div>');
   parts.push('<div class="fp-row"><label><input type="checkbox" id="mConfirmed"> \u{1F7E3} Potvrdjena novogradnja</label></div>');
   parts.push('<div class="fp-row"><label><input type="checkbox" id="mUnconfirmed"> \u{1F7E0} Novi zapis</label></div>');
+  parts.push('<div class="fp-row" style="border-top:1px solid var(--linedim);padding-top:8px;margin-top:2px;"><label><input type="checkbox" id="mAddresses"> \u{1F535} Sve DGU adrese (uklj. neizgra\u0111eno)</label></div>');
+  parts.push('<div id="mAddrStatus" style="font-size:10.5px;color:var(--muted);margin:2px 0 6px;"></div>');
   parts.push('<div class="fp-logic"><button id="mLogicAnd" class="active">I (mora sve)</button><button id="mLogicOr">ILI (barem jedno)</button></div>');
   parts.push('<div id="mFilterGroups"></div>');
   parts.push('<div class="fp-count" id="fpCount"></div>');
@@ -852,6 +857,7 @@ function buildMapPageHtml(geojson, count, initial){
   parts.push(scriptOpen + '>');
   parts.push('const DATA = ' + dataStr + ';');
   parts.push('const INITIAL = ' + initialStr + ';');
+  parts.push('const ADDRESSES_URL = ' + JSON.stringify(addressesUrl) + ';');
   parts.push('document.getElementById("mHideUnchanged").checked = INITIAL.hideUnchanged;');
   parts.push('document.getElementById("mConfirmed").checked = INITIAL.showConfirmed;');
   parts.push('document.getElementById("mUnconfirmed").checked = INITIAL.showUnconfirmed;');
@@ -942,6 +948,34 @@ function buildMapPageHtml(geojson, count, initial){
   parts.push('document.getElementById("mUnconfirmed").addEventListener("change", renderLayer);');
   parts.push('document.getElementById("mLogicAnd").onclick = function(){ mLogicMode="AND"; document.getElementById("mLogicAnd").className="active"; document.getElementById("mLogicOr").className=""; renderLayer(); };');
   parts.push('document.getElementById("mLogicOr").onclick = function(){ mLogicMode="OR"; document.getElementById("mLogicOr").className="active"; document.getElementById("mLogicAnd").className=""; renderLayer(); };');
+  parts.push('var addressCluster = null, addressesLoaded = false, addressesLoading = false;');
+  parts.push('function loadAddresses(){');
+  parts.push('  var statusEl = document.getElementById("mAddrStatus");');
+  parts.push('  if(addressesLoaded || addressesLoading){ if(addressCluster) map.addLayer(addressCluster); return; }');
+  parts.push('  addressesLoading = true;');
+  parts.push('  statusEl.textContent = "Ucitavam DGU adrese...";');
+  parts.push('  fetch(ADDRESSES_URL).then(function(r){ if(!r.ok) throw new Error("status " + r.status); return r.json(); }).then(function(gj){');
+  parts.push('    addressCluster = L.markerClusterGroup({ chunkedLoading: true, maxClusterRadius: 60 });');
+  parts.push('    gj.features.forEach(function(f){');
+  parts.push('      var c = f.geometry.coordinates, p = f.properties;');
+  parts.push('      var m = L.circleMarker([c[1], c[0]], { radius: 5, color: "#2E7DE6", fillColor: "#2E7DE6", fillOpacity: 0.85, weight: 1 });');
+  parts.push('      var label = (p.street || "") + " " + (p.houseNumber || "");');
+  parts.push('      m.bindPopup("<b>" + label + "</b><br>" + (p.settlement || "") + " " + (p.postcode || "") + " " + (p.city || "") + "<br><i style=\\"color:#888\\">DGU adresa</i>");');
+  parts.push('      addressCluster.addLayer(m);');
+  parts.push('    });');
+  parts.push('    map.addLayer(addressCluster);');
+  parts.push('    addressesLoaded = true; addressesLoading = false;');
+  parts.push('    statusEl.textContent = gj.features.length.toLocaleString("hr-HR") + " DGU adresa ucitano.";');
+  parts.push('  }).catch(function(err){');
+  parts.push('    addressesLoading = false;');
+  parts.push('    statusEl.textContent = "Adrese nisu dostupne (" + err.message + ").";');
+  parts.push('    document.getElementById("mAddresses").checked = false;');
+  parts.push('  });');
+  parts.push('}');
+  parts.push('document.getElementById("mAddresses").addEventListener("change", function(e){');
+  parts.push('  if(e.target.checked) loadAddresses();');
+  parts.push('  else if(addressCluster) map.removeLayer(addressCluster);');
+  parts.push('});');
   parts.push('buildTagFilterUI();');
   parts.push('renderLayer();');
   parts.push(scriptClose);
