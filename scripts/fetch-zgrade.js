@@ -104,6 +104,14 @@ async function fetchNoveZgrade(fromISO) {
     throw new Error(`Overpass je vratio ne-JSON odgovor (vjerojatno greška/rate-limit):\n${text.slice(0, 1500)}`);
   }
 
+  // Dijagnostika: Overpass zna vratiti 200 OK ali s "remark" upozorenjem
+  // (npr. djelomični rezultat zbog timeouta) — ispišimo to ako postoji, i
+  // koliko je elemenata stiglo prije lokalnog filtriranja.
+  if (parsed.remark) {
+    console.log(`Overpass remark: ${parsed.remark}`);
+  }
+  console.log(`Overpass vratio ${(parsed.elements || []).length} elemenata prije filtriranja (od toga sa version=1: ${(parsed.elements || []).filter(el => Number(el.version) === 1).length}).`);
+
   // version === 1 => prva verzija tog elementa ikad => stvarno nov, ne
   // izmjena postojeće zgrade koja je slučajno uhvaćena "newer" filterom.
   // Number(...) jer Overpass zna vratiti version kao string, a strogo ===1
