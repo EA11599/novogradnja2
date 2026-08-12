@@ -49,12 +49,15 @@ function saveManifest(manifest) {
 
 // Vrijeme od kojeg gledamo nove zgrade: ili odmah nakon zadnjeg zabilježenog
 // pokretanja (bez rupa i bez preklapanja), ili — ako je ovo prvi put —
-// FIRST_RUN_LOOKBACK_DAYS dana unatrag.
-function computeFromTimestamp(manifest) {
+// FIRST_RUN_LOOKBACK_DAYS dana unatrag OD onoga što ohsome stvarno ima
+// (toISO), ne od pravog "sada" — ohsome-ova baza kasni za stvarnošću, pa bi
+// računanje od pravog "sada" moglo dati period koji uopće ne postoji u
+// njihovim podacima.
+function computeFromTimestamp(manifest, toISO) {
   if (manifest.entries.length > 0) {
     return manifest.entries[manifest.entries.length - 1].to;
   }
-  const d = new Date();
+  const d = new Date(toISO);
   d.setUTCDate(d.getUTCDate() - cfg.FIRST_RUN_LOOKBACK_DAYS);
   return d.toISOString().slice(0, 19);
 }
@@ -151,8 +154,8 @@ async function main() {
   const granica = await getHrGranica();
   const manifest = loadManifest();
 
-  const fromISO = computeFromTimestamp(manifest);
   const toISO = (await getOhsomeLatestTimestamp()).slice(0, 19);
+  const fromISO = computeFromTimestamp(manifest, toISO);
 
   if (new Date(toISO) <= new Date(fromISO)) {
     console.log("Nema novog vremenskog prozora za obraditi (ohsome jos nema svježijih podataka od zadnjeg pokretanja) — preskačem.");
