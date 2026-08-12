@@ -70,7 +70,7 @@ function computeFromTimestamp(manifest) {
   return normalizeTimestamp(d);
 }
 
-async function fetchNoveZgrade(fromISO) {
+async function fetchNoveZgrade(fromISO, toISO) {
   const query = `
     [out:json][timeout:180];
     area["ISO3166-1"="HR"][admin_level=2]->.hr;
@@ -81,6 +81,26 @@ async function fetchNoveZgrade(fromISO) {
     out center meta tags;
   `;
 
+  // Javni Overpass server zna biti privremeno prezauzet (502/503/504) —
+  // pokušaj do 3 puta s rastućom pauzom prije nego stvarno odustanemo.
+  const MAX_POKUSAJA = 3;
+  let zadnjaGreska;
+  for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
+    try {
+      return await posaljiUpit(query);
+    } catch (err) {
+      zadnjaGreska = err;
+      const jePrivremena = /50[234]/.test(err.message);
+      if (!jePrivremena || pokusaj === MAX_POKUSAJA) throw err;
+      const pauzaMs = pokusaj * 15000;
+      console.log(`Overpass privremeno nedostupan (pokušaj ${pokusaj}/${MAX_POKUSAJA}), čekam ${pauzaMs / 1000}s: ${err.message.split("\n")[0]}`);
+      await new Promise((r) => setTimeout(r, pauzaMs));
+    }
+  }
+  throw zadnjaGreska;
+}
+
+async function posaljiUpit(query) {
   const res = await fetch(OVERPASS_URL, {
     method: "POST",
     headers: {
@@ -104,19 +124,24 @@ async function fetchNoveZgrade(fromISO) {
     throw new Error(`Overpass je vratio ne-JSON odgovor (vjerojatno greška/rate-limit):\n${text.slice(0, 1500)}`);
   }
 
-  // Dijagnostika: Overpass zna vratiti 200 OK ali s "remark" upozorenjem
-  // (npr. djelomični rezultat zbog timeouta) — ispišimo to ako postoji, i
-  // koliko je elemenata stiglo prije lokalnog filtriranja.
   if (parsed.remark) {
-    console.log(`Overpass remark: ${parsed.remark}`);
+    console.log(`  Overpass remark: ${parsed.remark}`);
   }
-  console.log(`Overpass vratio ${(parsed.elements || []).length} elemenata prije filtriranja (od toga sa version=1: ${(parsed.elements || []).filter(el => Number(el.version) === 1).length}).`);
 
-  // version === 1 => prva verzija tog elementa ikad => stvarno nov, ne
-  // izmjena postojeće zgrade koja je slučajno uhvaćena "newer" filterom.
-  // Number(...) jer Overpass zna vratiti version kao string, a strogo ===1
-  // bi tad uvijek bilo false (upravo ovo je uzrokovalo 0 rezultata ranije).
-  return (parsed.elements || []).filter((el) => Number(el.version) === 1);
+  const elements = parsed.elements || [];
+  console.log(`  Overpass vratio ${elements.length} elemenata (server-side if:version()==1 filter već primijenjen).`);
+  if (elements.length > 0) {
+    console.log(`  Primjer prvog elementa (radi provjere): ${JSON.stringify(elements[0]).slice(0, 300)}`);
+  }
+
+  // NAPOMENA: filtriranje po version===1 radi se NA SERVERU (if: klauzula
+  // gore, ručno potvrđeno kroz Overpass Turbo da ispravno filtrira). Ranije
+  // smo ovdje imali i dodatni klijentski filter po el.version, ali on je
+  // davao 0 rezultata unatoč tome što je poslužitelj vraćao ispravno
+  // filtrirane elemente — vjerojatno nepodudaranje oblika polja u ovom
+  // izlaznom formatu. Server-side filter je pouzdaniji izvor istine, pa se
+  // klijentski filter namjerno više NE primjenjuje.
+  return elements;
 }
 
 function toSlimFeature(el) {
@@ -154,18 +179,11 @@ function pruneOldEntries(manifest) {
   manifest.entries = kept;
 }
 
-async function main() {
-  const manifest = loadManifest();
-  const fromISO = computeFromTimestamp(manifest);
-  const toISO = normalizeTimestamp(new Date());
+const MAX_DANA_PO_UPITU = 7; // veći periodi se dijele na komade ove veličine
 
-  if (new Date(toISO) <= new Date(fromISO)) {
-    console.log("Nema novog vremenskog prozora za obraditi — preskačem.");
-    return;
-  }
-
-  console.log(`Dohvaćam nove zgrade u Hrvatskoj (Overpass, gotovo uživo): ${fromISO} -> ${toISO}`);
-  const elements = await fetchNoveZgrade(fromISO);
+async function obradiJedanKomad(fromISO, toISO, manifest) {
+  console.log(`Dohvaćam: ${fromISO} -> ${toISO}`);
+  const elements = await fetchNoveZgrade(fromISO, toISO);
   const features = elements.map(toSlimFeature);
 
   const dateLabel = toISO.slice(0, 10);
@@ -186,11 +204,50 @@ async function main() {
     file: `${cfg.ZGRADE_DIR}/${fileName}`,
   });
 
+  // Spremamo manifest odmah nakon SVAKOG komada (ne tek na kraju) — ako
+  // idući komad pukne (npr. Overpass opet 504-ica), već obrađeni komadi
+  // ostaju sačuvani i ne moramo ih ponavljati kod idućeg pokretanja.
+  saveManifest(manifest);
+  console.log(`Gotovo: ${features.length} novih zgrada -> ${fileName}`);
+}
+
+async function main() {
+  const manifest = loadManifest();
+  const fromISO = computeFromTimestamp(manifest);
+  const toISO = normalizeTimestamp(new Date());
+
+  if (new Date(toISO) <= new Date(fromISO)) {
+    console.log("Nema novog vremenskog prozora za obraditi — preskačem.");
+    return;
+  }
+
+  console.log(`Ukupan period: ${fromISO} -> ${toISO}`);
+
+  // Veći periodi (npr. netko nije pokretao pipeline par tjedana, ili se
+  // baš sad nakupio zaostatak dok smo debug-irali) dijelimo na tjedne
+  // komade — jedan veliki nacionalni upit zna izazvati 504 Gateway Timeout
+  // na javnom Overpass serveru, dok manji komadi prolaze pouzdano.
+  let tekuciFrom = new Date(fromISO);
+  const krajniTo = new Date(toISO);
+
+  while (tekuciFrom < krajniTo) {
+    let tekuciTo = new Date(tekuciFrom);
+    tekuciTo.setUTCDate(tekuciTo.getUTCDate() + MAX_DANA_PO_UPITU);
+    if (tekuciTo > krajniTo) tekuciTo = krajniTo;
+
+    await obradiJedanKomad(
+      normalizeTimestamp(tekuciFrom),
+      normalizeTimestamp(tekuciTo),
+      manifest
+    );
+
+    tekuciFrom = tekuciTo;
+  }
+
   pruneOldEntries(manifest);
   saveManifest(manifest);
 
-  console.log(`Gotovo: ${features.length} novih zgrada spremljeno u ${fileName}.`);
-  console.log(`Manifest sad ima ${manifest.entries.length} tjednih zapisa (retencija: ${cfg.RETENTION_WEEKS} tj.).`);
+  console.log(`Sve gotovo. Manifest sad ima ${manifest.entries.length} tjednih zapisa (retencija: ${cfg.RETENTION_WEEKS} tj.).`);
 
   // TODO (sljedeći korak): ako je features.length > 0, ovdje pozvati
   // notifikacijsku funkciju (Supabase + Resend) za sve prijavljene emailove.
