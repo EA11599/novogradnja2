@@ -1,594 +1,567 @@
 <!DOCTYPE html>
 <html lang="hr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Usporedba OSM shapefileova — nove zgrade</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Novogradnja — praćenje novih zgrada u Hrvatskoj</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/shpjs@latest/dist/shp.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <style>
   :root{
-    --bg:#0E2238; --bg-panel:#14304C; --bg-panel-2:#183a5c; --line:#8FD3E8; --line-dim:rgba(143,211,232,0.18);
-    --accent:#E8871E; --text:#EAF2F8; --text-muted:#8FA9C2; --green:#6FCF97; --red:#E85D5D;
+    --bg: #F0EFED;
+    --card: #FFFFFF;
+    --accent: #E8871E;
+    --accent-dark: #B6650C;
+    --accent-tint: #FCEBD4;
+    --text: #1A1A1A;
+    --text-secondary: #6B6B6B;
+    --text-tertiary: #9B9894;
+    --border: #E2E0DC;
+    --radius: 14px;
+    --radius-sm: 8px;
+    --shadow: 0 1px 3px rgba(20,18,14,0.06), 0 1px 2px rgba(20,18,14,0.05);
+    --shadow-lg: 0 8px 24px rgba(20,18,14,0.08), 0 2px 6px rgba(20,18,14,0.05);
+    --font-display: 'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
   }
-  *{box-sizing:border-box;}
-  .site-nav{
-    display:flex; gap:2px; max-width:1100px; margin:0 auto; padding:14px 20px 0;
-  }
-  .site-nav-link{
-    font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:.04em;
-    color:var(--text-muted); text-decoration:none; padding:8px 14px; border:1px solid var(--line-dim);
-    border-bottom:none; background:transparent;
-  }
-  .site-nav-link.active{ color:var(--accent); background:var(--bg-panel); border-color:var(--accent); }
-  .site-nav-link:hover:not(.active){ color:var(--line); }
+  *{ box-sizing: border-box; }
   body{
     margin:0;
-    background:
-      repeating-linear-gradient(0deg, var(--line-dim) 0px, var(--line-dim) 1px, transparent 1px, transparent 40px),
-      repeating-linear-gradient(90deg, var(--line-dim) 0px, var(--line-dim) 1px, transparent 1px, transparent 40px),
-      var(--bg);
-    color:var(--text); font-family:'Inter', sans-serif; padding: 32px 20px 80px; min-height:100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
   }
-  .wrap{ max-width: 1100px; margin: 0 auto; }
-  .eyebrow{
-    font-family:'IBM Plex Mono', monospace; color:var(--accent); letter-spacing:.14em;
-    font-size:12px; text-transform:uppercase; display:flex; align-items:center; gap:10px;
+  a{ color: var(--accent-dark); }
+
+  /* ---------- nav ---------- */
+  .site-nav{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px 24px 0;
+    display:flex;
+    gap:8px;
   }
-  .eyebrow::before{ content:""; width:18px; height:1px; background:var(--accent); display:inline-block; }
-  h1{ font-family:'Space Grotesk', sans-serif; font-weight:700; font-size:clamp(28px,5vw,46px); margin:10px 0 6px; }
-  .sub{ color:var(--text-muted); font-size:15px; max-width:70ch; line-height:1.6; }
-
-  .steps{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:28px 0; }
-  @media (max-width:800px){ .steps{ grid-template-columns:1fr; } }
-  .step{ background:var(--bg-panel); border:1px solid var(--line-dim); padding:16px 18px; }
-  .step .n{ font-family:'IBM Plex Mono',monospace; color:var(--accent); font-size:12px; letter-spacing:.1em; }
-  .step h4{ margin:6px 0 4px; font-family:'Space Grotesk',sans-serif; font-size:15px; }
-  .step p{ margin:0; color:var(--text-muted); font-size:13px; line-height:1.5; }
-
-  .panel{ background:var(--bg-panel); border:1px solid var(--line-dim); padding:24px; margin-bottom:20px; }
-  .panel h2{ font-family:'Space Grotesk',sans-serif; font-size:18px; margin:0 0 4px; }
-  .panel .desc{ color:var(--text-muted); font-size:13px; margin-bottom:18px; }
-
-  .dropzones{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
-  @media (max-width:700px){ .dropzones{ grid-template-columns:1fr; } }
-  .dropzone{
-    border:2px dashed var(--line-dim); border-radius:4px; padding:28px 16px; text-align:center;
-    cursor:pointer; transition:border-color .15s, background .15s; position:relative;
+  .site-nav-link{
+    font-family: var(--font-mono);
+    font-size: 13px;
+    text-decoration:none;
+    color: var(--text-secondary);
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1px solid transparent;
   }
-  .dropzone:hover, .dropzone.dragover{ border-color:var(--line); background:rgba(143,211,232,0.06); }
-  .dropzone.filled{ border-color:var(--green); background:rgba(111,207,151,0.06); }
-  .dropzone .tag{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--line); letter-spacing:.08em; text-transform:uppercase; }
-  .dropzone .fname{ margin-top:8px; font-size:13px; color:var(--text); word-break:break-all; }
-  .dropzone .hint{ margin-top:6px; font-size:12px; color:var(--text-muted); }
-  .dropzone input{ display:none; }
-
-  .btn{
-    font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:14px; border:none; border-radius:3px;
-    padding:12px 22px; cursor:pointer; transition:opacity .15s;
+  .site-nav-link.active{
+    color: var(--accent-dark);
+    background: var(--accent-tint);
+    border-color: var(--accent);
   }
-  .btn:disabled{ opacity:.4; cursor:not-allowed; }
-  .btn-primary{ background:var(--accent); color:#161616; }
-  .btn-primary:hover:not(:disabled){ opacity:.88; }
-  .btn-ghost{ background:transparent; border:1px dashed var(--line); color:var(--line); }
-  .btn-ghost:hover{ background:rgba(143,211,232,0.08); }
+  .site-nav-link:hover:not(.active){ color: var(--text); }
 
-  .field-picker{ display:flex; gap:10px; align-items:center; margin-top:14px; flex-wrap:wrap; }
-  .field-picker select{
-    background:var(--bg); border:1px solid var(--line-dim); color:var(--text); padding:8px 12px;
-    font-family:'IBM Plex Mono',monospace; font-size:13px; border-radius:2px;
+  /* ---------- header ---------- */
+  header.hero{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 28px 24px 8px;
   }
-  .field-picker label{ font-size:13px; color:var(--text-muted); }
+  header.hero h1{
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+    font-size: clamp(30px, 4vw, 42px);
+    font-weight: 800;
+    margin: 0 0 8px;
+    letter-spacing: -0.025em;
+  }
+  header.hero p{
+    color: var(--text-secondary);
+    font-size: 16px;
+    max-width: 640px;
+    margin: 0;
+  }
+  .updated-tag{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: 999px;
+    margin-top: 14px;
+  }
+  .updated-dot{
+    width:7px; height:7px; border-radius:50%;
+    background: #2E9E5B;
+    flex-shrink:0;
+  }
 
-  .status-line{ font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--text-muted); margin-top:14px; min-height:20px; }
-  .status-line.err{ color:var(--red); }
-  .status-line.ok{ color:var(--green); }
+  main{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px 24px 60px;
+  }
 
-  .action-row{ display:flex; gap:12px; margin-top:18px; align-items:center; flex-wrap:wrap; }
+  /* ---------- controls ---------- */
+  .controls-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:12px;
+    margin: 18px 0;
+  }
+  .window-select{
+    display:flex;
+    gap:6px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 4px;
+    border-radius: 999px;
+    box-shadow: var(--shadow);
+  }
+  .window-btn{
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+    color: var(--text-secondary);
+    padding: 8px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .window-btn.active{
+    background: var(--text);
+    color: #fff;
+  }
+  .window-btn:hover:not(.active){ color: var(--text); }
 
-  /* Rezultati */
-  #results{ display:none; }
-  .hero-results{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:20px 0; }
-  @media (max-width:700px){ .hero-results{ grid-template-columns:1fr; } }
-  .stat{ background:var(--bg-panel); border:1px solid var(--line-dim); padding:16px 18px; position:relative; }
-  .stat::before{ content:attr(data-tag); position:absolute; top:-9px; left:14px; background:var(--bg);
-    padding:0 6px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:var(--line); letter-spacing:.08em; }
-  .stat .num{ font-family:'IBM Plex Mono',monospace; font-size:clamp(20px,3vw,28px); font-weight:600; }
-  .stat .lbl{ color:var(--text-muted); font-size:12px; margin-top:4px; }
-  .stat.accent .num{ color:var(--accent); }
+  /* ---------- stat cards ---------- */
+  .stats-grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+  .stat-card{
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    box-shadow: var(--shadow);
+  }
+  .stat-label{
+    font-size: 12.5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-tertiary);
+    margin-bottom: 10px;
+  }
+  .stat-value{
+    font-family: var(--font-mono);
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--text);
+  }
+  .stat-value .unit{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-left: 4px;
+  }
 
-  .results-grid{ display:grid; grid-template-columns:260px 1fr; gap:24px; }
-  @media (max-width:800px){ .results-grid{ grid-template-columns:1fr; } }
-  .sidebar{ background:var(--bg-panel); border:1px solid var(--line-dim); padding:16px; align-self:start; position:sticky; top:20px; }
-  .sidebar h3{ font-family:'Space Grotesk',sans-serif; font-size:14px; margin:0 0 10px; color:var(--line); }
-  .logic-toggle{ display:flex; border:1px solid var(--line-dim); border-radius:2px; overflow:hidden; margin-bottom:14px; }
-  .logic-toggle button{ flex:1; background:transparent; border:none; color:var(--text-muted); padding:7px 0;
-    font-family:'IBM Plex Mono',monospace; font-size:12px; cursor:pointer; }
-  .logic-toggle button.active{ background:var(--accent); color:#161616; font-weight:600; }
-  .filter-group{ margin-bottom:14px; border-bottom:1px solid var(--line-dim); padding-bottom:12px; }
-  .filter-group summary{ cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--line); margin-bottom:6px; }
-  .filter-opt{ display:flex; align-items:center; gap:6px; font-size:12px; color:var(--text-muted); padding:2px 0; }
-  .filter-opt input{ accent-color:var(--accent); }
-  .filter-opt .fc{ color:var(--text-muted); font-family:'IBM Plex Mono',monospace; font-size:11px; margin-left:auto; }
-  .clear-btn{ width:100%; background:transparent; border:1px dashed var(--line); color:var(--line); padding:7px 0;
-    font-family:'IBM Plex Mono',monospace; font-size:12px; cursor:pointer; border-radius:2px; }
+  /* ---------- main grid: map + sidebar ---------- */
+  .content-grid{
+    display:grid;
+    grid-template-columns: 1fr 340px;
+    gap: 16px;
+    align-items: start;
+  }
+  .panel{
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow:hidden;
+  }
+  .panel-header{
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .panel-title{
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    font-size: 16px;
+  }
+  #map{ height: 520px; width: 100%; background: #E9E7E2; }
 
-  .controls{ display:flex; gap:10px; margin-bottom:12px; flex-wrap:wrap; }
-  input[type=text]{ flex:1; min-width:220px; background:var(--bg-panel); border:1px solid var(--line-dim); color:var(--text);
-    padding:10px 14px; font-family:'Inter',sans-serif; font-size:14px; border-radius:2px; }
-  label.chk{ display:flex; align-items:center; gap:6px; color:var(--text-muted); font-size:13px;
-    background:var(--bg-panel); border:1px solid var(--line-dim); padding:0 14px; border-radius:2px; white-space:nowrap; }
-  .count-line{ color:var(--text-muted); font-size:12px; margin-bottom:10px; font-family:'IBM Plex Mono',monospace; }
-  .list{ border:1px solid var(--line-dim); }
-  .row{ display:grid; grid-template-columns:1fr auto; gap:10px; padding:12px 16px; border-bottom:1px solid var(--line-dim);
-    cursor:pointer; background:var(--bg-panel); }
-  .row:hover{ background:var(--bg-panel-2); }
-  .row .addr{ font-size:14px; }
-  .row .addr.unknown{ color:var(--text-muted); font-style:italic; }
-  .row .nearstreet{ display:block; font-size:11px; color:var(--accent); margin-top:2px; font-family:'IBM Plex Mono',monospace; }
-  .row .id{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--line); align-self:center; }
-  .badge-status{ font-family:'IBM Plex Mono',monospace; font-size:10px; padding:2px 7px; border-radius:10px; align-self:center; }
-  .badge-new{ background:rgba(232,135,30,0.18); color:var(--accent); }
-  .badge-existing{ background:rgba(143,211,232,0.1); color:var(--line); }
-  .badge-confirmed{ background:rgba(217,70,239,0.2); color:#D946EF; }
-  .badge-unconfirmed{ background:rgba(232,135,30,0.2); color:#E8871E; }
-  .dgu-badge{ display:inline-block; font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600;
-    padding:2px 8px; border-radius:10px; margin-left:8px; background:rgba(111,207,151,0.15); color:#6FCF97; }
-  .dgu-extra{ display:block; font-size:11px; color:var(--text-muted); margin-top:2px; }
-  .details{ display:none; background:rgba(0,0,0,0.2); padding:14px 16px; border-bottom:1px solid var(--line-dim); }
-  .details.open{ display:block; }
-  .details .tag{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--text-muted); margin-bottom:3px; }
-  .details .tag span{ color:var(--line); }
-  .details a{ color:var(--accent); text-decoration:none; font-family:'IBM Plex Mono',monospace; font-size:12px; }
-  .details a:hover{ text-decoration:underline; }
-  .empty{ padding:30px; text-align:center; color:var(--text-muted); font-family:'IBM Plex Mono',monospace; font-size:13px; }
-  .note{ color:var(--text-muted); font-size:12px; margin-top:18px; line-height:1.6; }
-  .roads-status{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--text-muted); margin-top:10px; }
-  #roadsFallback{ display:none; margin-top:12px; }
+  .legend{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    color: var(--text-secondary);
+  }
+  .legend-swatch{ width:12px; height:12px; border-radius:3px; }
+
+  /* sidebar county list */
+  .zup-list{
+    max-height: 520px;
+    overflow-y: auto;
+  }
+  .zup-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding: 11px 20px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+  }
+  .zup-row:last-child{ border-bottom:none; }
+  .zup-row:hover{ background: #FAFAF9; }
+  .zup-row input[type=checkbox]{
+    accent-color: var(--accent);
+    width:16px; height:16px; flex-shrink:0;
+  }
+  .zup-name{
+    flex:1;
+    font-size: 13.5px;
+    font-weight: 500;
+    color: var(--text);
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .zup-count{
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--accent-dark);
+    background: var(--accent-tint);
+    padding: 2px 8px;
+    border-radius: 999px;
+    min-width: 30px;
+    text-align:center;
+  }
+  .zup-count.zero{
+    color: var(--text-tertiary);
+    background: transparent;
+  }
+
+  /* ---------- building list ---------- */
+  .list-section{ margin-top: 16px; }
+  .list-toolbar{
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    display:flex;
+    gap:10px;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  .search-input{
+    flex:1;
+    min-width: 220px;
+    font-family: var(--font-body);
+    font-size: 14px;
+    padding: 9px 14px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg);
+    color: var(--text);
+  }
+  .search-input:focus{ outline: 2px solid var(--accent); outline-offset: -1px; }
+  .btn-export{
+    font-family: var(--font-body);
+    font-size: 13.5px;
+    font-weight: 600;
+    padding: 9px 16px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .btn-export:hover{ border-color: var(--accent); color: var(--accent-dark); }
+
+  table.building-table{
+    width:100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+  }
+  .building-table th{
+    text-align:left;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-tertiary);
+    font-weight: 600;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border);
+    background: #FAFAF9;
+  }
+  .building-table td{
+    padding: 11px 20px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+  .building-table tr:last-child td{ border-bottom:none; }
+  .building-table tr:hover td{ background: #FAFAF9; }
+  .muted{ color: var(--text-tertiary); }
+  .badge-tip{
+    font-family: var(--font-mono);
+    font-size: 11px;
+    padding: 2px 7px;
+    border-radius: 5px;
+    background: var(--accent-tint);
+    color: var(--accent-dark);
+  }
+  .list-footer{
+    padding: 12px 20px;
+    font-size: 12.5px;
+    color: var(--text-tertiary);
+    font-family: var(--font-mono);
+  }
+  .empty-state{
+    padding: 60px 20px;
+    text-align:center;
+    color: var(--text-secondary);
+  }
+  .empty-state .big{
+    font-family: var(--font-display);
+    font-size: 18px;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+
+  /* ---------- facet filteri (tip zgrade / katovi) ---------- */
+  .filter-toggle-row{
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border);
+    display:flex;
+    gap: 10px;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+  .filter-toggle-btn{
+    font-family: var(--font-body);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text-secondary);
+    cursor: pointer;
+  }
+  .filter-toggle-btn.has-active{
+    border-color: var(--accent);
+    color: var(--accent-dark);
+    background: var(--accent-tint);
+  }
+  .facet-panel{
+    display:none;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    background: #FAFAF9;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .facet-panel.open{ display:flex; }
+  .facet-group{ min-width: 180px; }
+  .facet-group-title{
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-tertiary);
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .facet-opt{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size: 13px;
+    padding: 3px 0;
+    cursor:pointer;
+  }
+  .facet-opt input{ accent-color: var(--accent); }
+  .facet-opt .fc{
+    margin-left:auto;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text-tertiary);
+  }
+
+  /* ---------- modal (detalji zgrade) ---------- */
+  .modal-overlay{
+    display:none;
+    position: fixed; inset: 0;
+    background: rgba(20,18,14,0.45);
+    z-index: 1000;
+    align-items:center;
+    justify-content:center;
+    padding: 20px;
+  }
+  .modal-overlay.open{ display:flex; }
+  .modal-card{
+    background: var(--card);
+    border-radius: var(--radius);
+    max-width: 420px;
+    width: 100%;
+    box-shadow: var(--shadow-lg);
+    padding: 24px;
+    max-height: 80vh;
+    overflow-y:auto;
+  }
+  .modal-card h3{
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    margin: 0 0 4px;
+    font-size: 19px;
+  }
+  .modal-close{
+    float:right;
+    background:none;
+    border:none;
+    font-size: 20px;
+    color: var(--text-secondary);
+    cursor:pointer;
+    line-height:1;
+  }
+  .modal-tags{
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: #444;
+    background: var(--bg);
+    border-radius: var(--radius-sm);
+    padding: 10px 12px;
+    margin-top: 12px;
+  }
+  .modal-gmaps{
+    display:inline-block;
+    margin-top: 10px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--accent-dark);
+    text-decoration:none;
+  }
+  .building-table tbody tr{ cursor: pointer; }
+
+  @media (max-width: 900px){
+    .content-grid{ grid-template-columns: 1fr; }
+    .stats-grid{ grid-template-columns: 1fr 1fr; }
+    #map{ height: 360px; }
+    .zup-list{ max-height: 320px; }
+  }
+  @media (max-width: 520px){
+    .stats-grid{ grid-template-columns: 1fr; }
+  }
+
+  :focus-visible{ outline: 2px solid var(--accent); outline-offset: 2px; }
 </style>
 </head>
 <body>
+
 <div class="site-nav">
   <a href="index.html" class="site-nav-link active">Usporedba zgrada</a>
   <!-- Dozvole privremeno isključene iz navigacije dok se ne usavrši ekstrakcija PDF-ova. Stranica ostaje u repozitoriju za kasnije. -->
 </div>
-<div class="wrap">
 
-  <div class="eyebrow">OSM SHAPEFILE ALAT · GRAD ZAGREB (ILI BILO KOJE PODRUČJE)</div>
-  <h1>Usporedba dva OSM snimka</h1>
-  <p class="sub">Učitajte dva shapefile snimka zgrada iz različitih trenutaka (npr. Geofabrik ekstrakti preuzeti u razmaku od nekoliko tjedana) i alat će izlistati sve zgrade koje su se pojavile između njih — s adresom (ako postoji), svim OSM podacima, i mogućnošću filtriranja.</p>
+<header class="hero">
+  <h1>Nove zgrade u Hrvatskoj</h1>
+  <p>Automatsko tjedno praćenje novoizgrađenih objekata na temelju OpenStreetMap podataka, po županijama.</p>
+  <div class="updated-tag" id="updatedTag"><span class="updated-dot"></span> Učitavanje...</div>
+</header>
 
-  <div class="steps">
-    <div class="step"><span class="n">01</span><h4>Učitajte dva snimka</h4><p>Stariji i noviji shapefile zgrada, svaki zapakiran kao .zip (.shp + .shx + .dbf + .prj zajedno).</p></div>
-    <div class="step"><span class="n">02</span><h4>Alat uspoređuje</h4><p>Sve se radi u vašem pregledniku — datoteke se nigdje ne šalju niti spremaju na server.</p></div>
-    <div class="step"><span class="n">03</span><h4>Pregled i filtriranje</h4><p>Lista novih zgrada s adresom, tagovima i filterima po bilo kojem podatku koji postoji.</p></div>
+<main>
+  <div class="controls-row">
+    <div class="window-select" id="windowSelect"><!-- popunjava JS --></div>
   </div>
 
-  <div class="panel" id="uploadPanel">
-    <h2>1. Odaberi dva datuma za usporedbu</h2>
-    <div class="desc">Snimci se automatski učitavaju iz pripremljene arhive — ne treba ništa uploadati.</div>
-
-    <div class="dropzones">
-      <div class="dropzone" id="dzOld" style="cursor:default;">
-        <div class="tag">Stariji snimak</div>
-        <select id="dateOldSelect" style="width:100%; margin-top:8px; background:var(--bg); border:1px solid var(--line-dim); color:var(--text); padding:8px; font-family:'IBM Plex Mono',monospace; font-size:13px; border-radius:2px;"></select>
-      </div>
-      <div class="dropzone" id="dzNew" style="cursor:default;">
-        <div class="tag">Noviji snimak</div>
-        <select id="dateNewSelect" style="width:100%; margin-top:8px; background:var(--bg); border:1px solid var(--line-dim); color:var(--text); padding:8px; font-family:'IBM Plex Mono',monospace; font-size:13px; border-radius:2px;"></select>
-      </div>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">Nove zgrade</div>
+      <div class="stat-value" id="statTotal">–</div>
     </div>
-
-    <div class="field-picker" id="fieldPicker" style="display:none;">
-      <label>Polje za jedinstveni ID zgrade:</label>
-      <select id="idFieldSelect"></select>
-      <span style="color:var(--text-muted); font-size:12px;">(automatski predložen — promijeni ako nije točno)</span>
+    <div class="stat-card">
+      <div class="stat-label">Tjedni prosjek</div>
+      <div class="stat-value" id="statAvg">–</div>
     </div>
-
-    <div class="action-row">
-      <button class="btn btn-primary" id="compareBtn" disabled>Usporedi</button>
-      <span class="status-line" id="statusLine"></span>
+    <div class="stat-card">
+      <div class="stat-label">Aktivne županije</div>
+      <div class="stat-value" id="statZupanije">–<span class="unit">/ 21</span></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Zadnje ažurirano</div>
+      <div class="stat-value" id="statUpdated" style="font-size:20px;">–</div>
     </div>
   </div>
 
-
-  <div id="results">
-    <div class="panel" style="margin-bottom:20px;">
-      <h2>2. Rezultat usporedbe</h2>
-      <div class="desc" id="resultDesc"></div>
-      <div class="hero-results">
-        <div class="stat accent" data-tag="NOVO"><div class="num" id="statTotal">—</div><div class="lbl">novih zgrada</div></div>
-        <div class="stat" data-tag="UKUPNO NOVIJI" ><div class="num" id="statNewTotal">—</div><div class="lbl">zgrada u novijem snimku</div></div>
-        <div class="stat" data-tag="ADRESA/PODACI"><div class="num" id="statAddr">—</div><div class="lbl">novih zgrada s prepoznatom adresom</div></div>
-      </div>
-      <div class="roads-status" id="roadsStatus"></div>
-      <div class="action-row" style="margin-top:14px;">
-        <button class="btn btn-primary" id="showMapBtn">Označi sve na OSM karti</button>
-        <button class="btn btn-ghost" id="exportExcelBtn">Preuzmi Excel (sve nove zgrade)</button>
-        <span class="status-line" id="mapStatus"></span>
-      </div>
-      <div id="roadsFallback">
-        <div class="desc">Automatski dohvat cesta nije uspio (javni servis je možda trenutno zauzet). Možete ručno učitati shapefile cesta (npr. <code>gis_osm_roads_free_1</code>) da omogućite prikaz najbliže ulice:</div>
-        <div class="dropzone" id="dzRoads" style="max-width:400px;">
-          <div class="tag">Shapefile cesta (opcionalno)</div>
-          <div class="fname" id="fnameRoads">Klikni ili povuci .zip ovdje</div>
-          <input type="file" id="fileRoads" accept=".zip" />
+  <div class="content-grid">
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-title">Karta aktivnosti</div>
+        <div style="display:flex;align-items:center;gap:14px;">
+          <div class="legend" id="legend"></div>
+          <button class="btn-export" id="detailMapBtn" style="padding:7px 14px;">Pogledaj detaljnije →</button>
         </div>
       </div>
+      <div id="map"></div>
     </div>
-
-    <div class="results-grid">
-      <div class="sidebar">
-        <h3>Filteri po podacima</h3>
-        <div class="logic-toggle">
-          <button id="logicAnd" class="active">I (mora sve)</button>
-          <button id="logicOr">ILI (barem jedno)</button>
-        </div>
-        <div id="filterGroups"></div>
-        <button class="clear-btn" id="clearFilters">Očisti filtere</button>
+    <div class="panel">
+      <div class="panel-header">
+        <div class="panel-title">Županije</div>
+        <button class="btn-export" id="clearZupBtn" style="padding:5px 10px;font-size:12px;">Poništi</button>
       </div>
-
-      <div class="main">
-        <div class="controls">
-          <input type="text" id="searchBox" placeholder="Pretraži po adresi, ulici ili ID-ju..." />
-          <label class="chk"><input type="checkbox" id="onlyNew" checked /> Sakrij nepromijenjene</label>
-          <label class="chk"><input type="checkbox" id="catConfirmed" checked /> 🟣 Potvrđena novogradnja</label>
-          <label class="chk"><input type="checkbox" id="catUnconfirmed" checked /> 🟠 Novi zapis (nepotvrđeno)</label>
-        </div>
-        <div class="count-line" id="countLine"></div>
-        <div class="list" id="list"></div>
-      </div>
+      <div class="zup-list" id="zupList"><!-- popunjava JS --></div>
     </div>
-
-    <p class="note">"Novo" znači da zgrada postoji u novijem snimku a nije postojala (isti ID) u starijem — ne nužno novoizgrađeno u stvarnosti, ovisi kad je netko unio podatak u OSM. Ako adresa nije upisana u OSM-u, prikazuje se najbliža imenovana ulica kao procjena lokacije, ne stvarna adresa.</p>
   </div>
 
+  <div class="panel list-section">
+    <div class="list-toolbar">
+      <input type="text" class="search-input" id="searchBox" placeholder="Pretraži po adresi, mjestu ili županiji...">
+      <button class="filter-toggle-btn" id="facetToggleBtn">Filteri ▾</button>
+      <button class="btn-export" id="exportBtn">Izvoz u Excel</button>
+    </div>
+    <div class="facet-panel" id="facetPanel"></div>
+    <div id="tableWrap"></div>
+    <div class="list-footer" id="listFooter"></div>
+    <div class="list-footer" id="roadsStatus" style="padding-top:0;"></div>
+  </div>
+</main>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-card" id="modalCard"></div>
 </div>
 
 <script>
-/* ---------- Pomocne funkcije ---------- */
-
-function setStatus(msg, cls){
-  const el = document.getElementById('statusLine');
-  el.textContent = msg;
-  el.className = 'status-line' + (cls ? ' ' + cls : '');
-}
-
-function setupDropzone(zoneId, inputId, fnameId, onFile){
-  const zone = document.getElementById(zoneId);
-  const input = document.getElementById(inputId);
-  const fname = document.getElementById(fnameId);
-  zone.addEventListener('click', () => input.click());
-  zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('dragover'); });
-  zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
-  zone.addEventListener('drop', e => {
-    e.preventDefault(); zone.classList.remove('dragover');
-    if(e.dataTransfer.files.length){ input.files = e.dataTransfer.files; handleChange(); }
-  });
-  input.addEventListener('change', handleChange);
-  function handleChange(){
-    if(!input.files.length) return;
-    const file = input.files[0];
-    fname.textContent = file.name;
-    zone.classList.add('filled');
-    onFile(file);
-  }
-}
-
-let oldGeojson = null, newGeojson = null, roadsGeojson = null;
-let idField = null;
-let comparedResults = null; // { features: [...], addressField info }
-
-// DGU sloj (Faza A+B) — velik fajl (~20-ak MB), namjerno se učitava u
-// pozadini, NE blokira prikaz stranice ni usporedbu. Dok se ne učita,
-// sve zgrade jednostavno koriste postojeći fallback ("najbliža ulica" /
-// "adresa nepoznata") — ništa se ne kvari, samo se "Službena adresa"
-// značka pojavi malo kasnije, kad podaci stignu.
-let dguAddresses = null;
-fetch('data/building-addresses.json')
-  .then(r => r.ok ? r.json() : null)
-  .then(data => {
-    dguAddresses = data;
-    if(comparedResults) render(); // ako je usporedba već prikazana, osvježi je s DGU adresama
-  })
-  .catch(() => { /* tiho odustani — fallback ostaje aktivan */ });
-
-async function parseShapefileZip(file){
-  const buf = await file.arrayBuffer();
-  const result = await shp(buf);
-  // shpjs moze vratiti FeatureCollection ili niz njih (vise slojeva u zipu) - uzimamo prvi/najveci
-  if(Array.isArray(result)){
-    result.sort((a,b) => (b.features?.length||0) - (a.features?.length||0));
-    return result[0];
-  }
-  return result;
-}
-
-function collectPropertyKeys(geojson){
-  const keys = new Set();
-  geojson.features.forEach(f => Object.keys(f.properties || {}).forEach(k => keys.add(k)));
-  return [...keys];
-}
-
-function guessIdField(keys){
-  const candidates = ['osm_id','OSM_ID','osm_ID','id','ID','fid','FID'];
-  for(const c of candidates){ if(keys.includes(c)) return c; }
-  return keys[0] || null;
-}
-
-/* ---------- Ucitavanje popisa dostupnih pripremljenih snimaka ---------- */
-
-let manifest = null;
-const dateOldSelect = document.getElementById('dateOldSelect');
-const dateNewSelect = document.getElementById('dateNewSelect');
-
-async function loadManifest(){
-  try{
-    const res = await fetch('data/manifest.json', { cache: 'no-store' });
-    if(!res.ok) throw new Error('HTTP ' + res.status);
-    manifest = await res.json();
-    const opts = '<option value="">-- odaberi datum --</option>' +
-      manifest.snapshots.map(s => `<option value="${s.file}">${s.label}</option>`).join('');
-    dateOldSelect.innerHTML = opts;
-    dateNewSelect.innerHTML = opts;
-    checkReady();
-    setStatus(`Dostupno ${manifest.snapshots.length} pripremljenih snimaka — odaberi oba datuma.`, 'ok');
-  }catch(e){
-    setStatus('Greška pri učitavanju popisa dostupnih snimaka: ' + e.message, 'err');
-    console.error(e);
-  }
-}
-
-async function fetchShapefileZip(path){
-  const res = await fetch(path);
-  if(!res.ok) throw new Error('HTTP ' + res.status + ' za ' + path);
-  const buf = await res.arrayBuffer();
-  const result = await shp(buf);
-  if(Array.isArray(result)){
-    result.sort((a,b) => (b.features?.length||0) - (a.features?.length||0));
-    return result[0];
-  }
-  return result;
-}
-
-dateOldSelect.addEventListener('change', checkReady);
-dateNewSelect.addEventListener('change', checkReady);
-
-function checkReady(){
-  const oldVal = dateOldSelect.value, newVal = dateNewSelect.value;
-  const btn = document.getElementById('compareBtn');
-
-  if(!oldVal || !newVal){
-    btn.disabled = true;
-    setStatus('', '');
-    return;
-  }
-  if(oldVal === newVal){
-    btn.disabled = true;
-    setStatus('Stariji i noviji snimak ne mogu biti isti datum.', 'err');
-    return;
-  }
-  const oldSnap = manifest.snapshots.find(s => s.file === oldVal);
-  const newSnap = manifest.snapshots.find(s => s.file === newVal);
-  if(oldSnap && newSnap && oldSnap.date >= newSnap.date){
-    btn.disabled = true;
-    setStatus('"Noviji snimak" mora biti kasniji datum od "Starijeg snimka".', 'err');
-    return;
-  }
-  btn.disabled = false;
-  setStatus('', '');
-}
-
-loadManifest();
-
-document.getElementById('compareBtn').addEventListener('click', runComparison);
-
-/* ---------- Usporedba ---------- */
-
-function findAddress(props){
-  // Pokrivamo raznolike konvencije naziva polja (OSM tag stil, shapefile stil s podvlakom, kratice)
-  const norm = k => k.toLowerCase().replace(/[:_]/g,'');
-  const get = (exactCandidates, substringCandidates) => {
-    // 1. prvo trazimo TOCNO podudaranje (izbjegava lazne pozitivne pri kratkim skracenicama)
-    for(const key of Object.keys(props)){
-      const nk = norm(key);
-      if(exactCandidates.includes(nk)) return props[key];
-    }
-    // 2. zatim substring podudaranje samo za jednoznacne, dugacke nazive
-    for(const key of Object.keys(props)){
-      const nk = norm(key);
-      for(const p of substringCandidates){ if(nk.includes(p)) return props[key]; }
-    }
-    return null;
-  };
-  const street = get(['addrstreet','street','addrstr','str'], ['street']);
-  const hn = get(['addrhousenumber','addrhn','housenumber','hn','addrno','no'], ['housenumber']);
-  const city = get(['addrcity','city'], ['city']) || '';
-  if(street){
-    return [`${street}${hn ? ' ' + hn : ''}`, city].filter(Boolean).join(', ');
-  }
+const $ = (sel) => document.querySelector(sel);
+function prikazAdrese(f){
+  const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
+  if (prava) return prava;
+  if (f._nearestStreet) return '~' + f._nearestStreetDist + 'm od ' + f._nearestStreet;
   return null;
 }
 
-function bboxOf(geojson){
-  let minLat=90, maxLat=-90, minLon=180, maxLon=-180;
-  function walk(coords, depth){
-    if(depth === 0){ // [lon, lat]
-      const [lon, lat] = coords;
-      if(lat < minLat) minLat = lat; if(lat > maxLat) maxLat = lat;
-      if(lon < minLon) minLon = lon; if(lon > maxLon) maxLon = lon;
-    } else {
-      coords.forEach(c => walk(c, depth - 1));
-    }
-  }
-  geojson.features.forEach(f => {
-    const g = f.geometry;
-    if(!g) return;
-    const depth = g.type === 'Polygon' ? 2 : g.type === 'MultiPolygon' ? 3 : g.type === 'Point' ? 0 : 1;
-    walk(g.coordinates, depth);
-  });
-  return { minLat, maxLat, minLon, maxLon };
-}
+function tag(f, k){ return (f.tags && f.tags[k]) || null; }
 
-function centroidOf(geometry){
-  let pts = [];
-  if(geometry.type === 'Polygon') pts = geometry.coordinates[0];
-  else if(geometry.type === 'MultiPolygon') pts = geometry.coordinates[0][0];
-  else if(geometry.type === 'Point') pts = [geometry.coordinates];
-  if(!pts.length) return [null, null];
-  let lon = 0, lat = 0;
-  pts.forEach(p => { lon += p[0]; lat += p[1]; });
-  return [lat / pts.length, lon / pts.length];
-}
-
-
-/* ---------- Prepoznavanje potvrdene novogradnje preko promjene building=construction taga ---------- */
-
-function findBuildingType(props){
-  const norm = k => k.toLowerCase().replace(/[:_]/g,'');
-  for(const key of Object.keys(props)){
-    if(norm(key) === 'building') return props[key];
-  }
-  for(const key of Object.keys(props)){
-    const nk = norm(key);
-    if(nk === 'type' || nk === 'fclass') return props[key];
-  }
-  return null;
-}
-
-function classifyByConstructionTag(features, oldGeojsonData, idFieldName){
-  const oldById = new Map();
-  oldGeojsonData.features.forEach(f => {
-    oldById.set(String(f.properties[idFieldName]), f.properties);
-  });
-
-  features.forEach(f => {
-    if(f.status === 'new'){
-      f.displayCategory = 'new_unconfirmed';
-      return;
-    }
-    const oldProps = oldById.get(f.id);
-    if(oldProps){
-      const oldType = findBuildingType(oldProps);
-      const newType = findBuildingType(f.props);
-      if(oldType && String(oldType).toLowerCase() === 'construction' &&
-         newType && String(newType).toLowerCase() !== 'construction'){
-        f.displayCategory = 'confirmed_construction';
-        return;
-      }
-    }
-    f.displayCategory = 'existing_unchanged';
-  });
-}
-
-async function runComparison(){
-  setStatus('Dohvaćam odabrane snimke...', '');
-  document.getElementById('compareBtn').disabled = true;
-
-  try{
-    oldGeojson = await fetchShapefileZip(dateOldSelect.value);
-    newGeojson = await fetchShapefileZip(dateNewSelect.value);
-  }catch(e){
-    setStatus('Greška pri dohvaćanju pripremljenih snimaka: ' + e.message, 'err');
-    console.error(e);
-    document.getElementById('compareBtn').disabled = false;
-    return;
-  }
-
-  const keys = collectPropertyKeys(newGeojson);
-  idField = guessIdField(keys);
-
-  setStatus('Uspoređujem...', '');
-
-  const oldIds = new Set(oldGeojson.features.map(f => String(f.properties[idField])));
-
-  const features = newGeojson.features.map(f => {
-    const id = String(f.properties[idField]);
-    const status = oldIds.has(id) ? 'existing' : 'new';
-    const [lat, lon] = centroidOf(f.geometry);
-    return { id, status, props: f.properties, lat, lon, address: findAddress(f.properties), geometry: f.geometry };
-  });
-
-  const newCount = features.filter(f => f.status === 'new').length;
-  const withAddr = features.filter(f => f.status === 'new' && f.address).length;
-
-  classifyByConstructionTag(features, oldGeojson, idField);
-
-  comparedResults = { features };
-
-  document.getElementById('resultDesc').textContent =
-    `${oldGeojson.features.length.toLocaleString('hr-HR')} objekata u starijem snimku, ${newGeojson.features.length.toLocaleString('hr-HR')} u novijem. Podudaranje po polju "${idField}".`;
-  document.getElementById('statTotal').textContent = newCount.toLocaleString('hr-HR');
-  document.getElementById('statNewTotal').textContent = newGeojson.features.length.toLocaleString('hr-HR');
-  document.getElementById('statAddr').textContent = withAddr.toLocaleString('hr-HR');
-
-  document.getElementById('results').style.display = 'block';
-  document.getElementById('results').scrollIntoView({ behavior:'smooth' });
-  setStatus(`Gotovo. ${newCount} novih zgrada.`, 'ok');
-  document.getElementById('compareBtn').disabled = false;
-
-  buildFilters(features.filter(f => f.displayCategory !== 'existing_unchanged'));
-  render();
-
-  // Pokusaj automatskog dohvata cesta za "najblizu ulicu" (samo za nove zgrade bez adrese)
-  const needRoads = features.some(f => f.status === 'new' && !f.address);
-  if(needRoads){
-    document.getElementById('roadsStatus').textContent = 'Dohvaćam podatke o cestama za prikaz najbliže ulice...';
-    try{
-      const bbox = bboxOf(newGeojson);
-      roadsGeojson = await fetchRoadsAuto(bbox);
-      computeNearestStreets(features, roadsGeojson);
-      document.getElementById('roadsStatus').textContent = `Ceste uspješno dohvaćene (${roadsGeojson.features.length} segmenata) — najbliža ulica prikazana za zgrade bez adrese.`;
-      render();
-    }catch(e){
-      console.error(e);
-      document.getElementById('roadsStatus').textContent = 'Automatski dohvat cesta nije uspio.';
-      document.getElementById('roadsFallback').style.display = 'block';
-      setupDropzone('dzRoads','fileRoads','fnameRoads', async (file) => {
-        try{
-          roadsGeojson = await parseShapefileZip(file);
-          computeNearestStreets(features, roadsGeojson);
-          document.getElementById('roadsStatus').textContent = `Ceste učitane iz vašeg filea (${roadsGeojson.features.length} objekata) — najbliža ulica prikazana.`;
-          render();
-        }catch(err){
-          document.getElementById('roadsStatus').textContent = 'Greška pri čitanju shapefilea cesta: ' + err.message;
-        }
-      });
-    }
-  }
-}
-
-/* ---------- Automatski dohvat cesta (Overpass, s rezervnim mirrorima) ---------- */
-
-async function fetchRoadsAuto(bbox){
-  const mirrors = [
-    'https://overpass-api.de/api/interpreter',
-    'https://overpass.kumi.systems/api/interpreter',
-  ];
-  const query = `[out:json][timeout:30];way["highway"]["name"](${bbox.minLat},${bbox.minLon},${bbox.maxLat},${bbox.maxLon});out geom;`;
-  let lastErr;
-  for(const mirror of mirrors){
-    try{
-      const resp = await fetch(mirror, {
-        method: 'POST',
-        body: 'data=' + encodeURIComponent(query),
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      });
-      if(!resp.ok) throw new Error('HTTP ' + resp.status);
-      const body = await resp.json();
-      const features = (body.elements || []).map(el => ({
-        name: el.tags?.name,
-        points: (el.geometry || []).map(p => [p.lat, p.lon]),
-      })).filter(r => r.name && r.points.length);
-      if(!features.length) throw new Error('Prazan odgovor');
-      return { features };
-    }catch(e){ lastErr = e; }
-  }
-  throw lastErr || new Error('Nepoznata greška');
-}
-
+// ---------- najbliža cesta (automatski, za zgrade bez addr:street) ----------
 function haversineM(lat1, lon1, lat2, lon2){
   const R = 6371000;
   const p1 = lat1*Math.PI/180, p2 = lat2*Math.PI/180;
@@ -596,438 +569,776 @@ function haversineM(lat1, lon1, lat2, lon2){
   const a = Math.sin(dphi/2)**2 + Math.cos(p1)*Math.cos(p2)*Math.sin(dlambda/2)**2;
   return 2*R*Math.asin(Math.sqrt(a));
 }
+async function fetchRoadsAuto(bbox){
+  const mirrors = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
+  const query = '[out:json][timeout:60];way["highway"]["name"](' + bbox.minLat + ',' + bbox.minLon + ',' + bbox.maxLat + ',' + bbox.maxLon + ');out geom;';
+  let lastErr;
+  for (const mirror of mirrors){
+    try{
+      const resp = await fetch(mirror, { method:'POST', body:'data='+encodeURIComponent(query), headers:{'Content-Type':'application/x-www-form-urlencoded'} });
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const body = await resp.json();
+      const roads = (body.elements||[]).map(el => ({ name: el.tags && el.tags.name, points: (el.geometry||[]).map(p => [p.lat,p.lon]) })).filter(r => r.name && r.points.length);
+      if (!roads.length) throw new Error('Prazan odgovor');
+      return roads;
+    }catch(e){ lastErr = e; }
+  }
+  throw lastErr || new Error('Nepoznata greška');
+}
 
-function computeNearestStreets(features, roads){
-  // Jednostavan grid-bucket index za brzu pretragu (bez vanjskih biblioteka)
-  const CELL = 0.003; // ~300m
-  const grid = {};
-  function cellKey(lat, lon){ return Math.floor(lat/CELL) + '_' + Math.floor(lon/CELL); }
-  roads.features.forEach(r => {
-    r.points.forEach(([lat, lon]) => {
-      const key = cellKey(lat, lon);
-      if(!grid[key]) grid[key] = [];
-      grid[key].push([lat, lon, r.name]);
-    });
+async function izracunajNajblizeCeste(features){
+  const statusEl = $('#roadsStatus');
+  const bezAdrese = features.filter(f => !tag(f,'addr:street') && f.lat !== null && f.lon !== null && !f._nearestStreet);
+  if (!bezAdrese.length) { statusEl.textContent = ''; return; }
+
+  const poZupaniji = {};
+  bezAdrese.forEach(f => {
+    const key = f.zupanija || '__bez__';
+    (poZupaniji[key] = poZupaniji[key] || []).push(f);
   });
-  features.forEach(f => {
-    if(f.status !== 'new' || f.address || f.lat == null) return;
-    const cLat = Math.floor(f.lat/CELL), cLon = Math.floor(f.lon/CELL);
-    let best = null, bestDist = Infinity;
-    for(let dl=-2; dl<=2; dl++){
-      for(let dn=-2; dn<=2; dn++){
-        const key = (cLat+dl) + '_' + (cLon+dn);
-        const pts = grid[key];
-        if(!pts) continue;
-        pts.forEach(([lat,lon,name]) => {
-          const d = haversineM(f.lat, f.lon, lat, lon);
-          if(d < bestDist){ bestDist = d; best = name; }
-        });
-      }
+
+  let obradjeno = 0;
+  const ukupnoZupanija = Object.keys(poZupaniji).length;
+  statusEl.textContent = 'Tražim najbliže ceste za ' + bezAdrese.length + ' zgrada bez adrese...';
+
+  for (const [zupanija, skupina] of Object.entries(poZupaniji)){
+    const lats = skupina.map(f=>f.lat), lons = skupina.map(f=>f.lon);
+    const bbox = { minLat: Math.min(...lats)-0.01, maxLat: Math.max(...lats)+0.01, minLon: Math.min(...lons)-0.01, maxLon: Math.max(...lons)+0.01 };
+    try{
+      const roads = await fetchRoadsAuto(bbox);
+      const CELL = 0.003;
+      const grid = {};
+      const key = (lat,lon) => Math.floor(lat/CELL) + '_' + Math.floor(lon/CELL);
+      roads.forEach(r => r.points.forEach(([lat,lon]) => {
+        const k = key(lat,lon);
+        (grid[k] = grid[k]||[]).push([lat,lon,r.name]);
+      }));
+      skupina.forEach(f => {
+        const cLat = Math.floor(f.lat/CELL), cLon = Math.floor(f.lon/CELL);
+        let best = null, bestDist = Infinity;
+        for (let dl=-2; dl<=2; dl++) for (let dn=-2; dn<=2; dn++){
+          const pts = grid[(cLat+dl)+'_'+(cLon+dn)];
+          if (!pts) continue;
+          pts.forEach(([lat,lon,name]) => { const d = haversineM(f.lat,f.lon,lat,lon); if (d<bestDist){ bestDist=d; best=name; } });
+        }
+        if (best){ f._nearestStreet = best; f._nearestStreetDist = Math.round(bestDist); }
+      });
+    }catch(err){
+      console.warn('Najbliža cesta nije dohvaćena za ' + zupanija + ':', err.message);
     }
-    if(best){ f.nearestStreet = best; f.nearestStreetDist = Math.round(bestDist); }
+    // osvježi prikaz nakon svake županije, ne tek na kraju - korisnik vidi rezultate postupno
+    obradjeno++;
+    statusEl.textContent = 'Najbliže ceste: ' + obradjeno + '/' + ukupnoZupanija + ' županija obrađeno.';
+    updateTable();
+  }
+  statusEl.textContent = 'Najbliže ceste izračunate za zgrade bez adrese.';
+}
+
+let manifest = null;
+let zupanijeGeo = null;
+let cachedChunks = {};      // file -> parsed diff data
+let allFeaturesInWindow = []; // trenutno spojene zgrade za odabrani prozor
+let selectedZupanije = new Set(); // prazan set = sve prikazane
+let selectedBuildingTypes = new Set();
+let selectedLevels = new Set();
+let facetPanelOpen = false;
+let map, geoLayer, markerLayer;
+let currentWindowWeeks = null; // null = sve
+
+const WINDOW_OPTIONS = [
+  { label: '1 tjedan', weeks: 1 },
+  { label: '4 tjedna', weeks: 4 },
+  { label: '3 mjeseca', weeks: null }, // null = sve dostupno (cijela retencija)
+];
+
+async function init(){
+  const [manifestRes, zupRes] = await Promise.all([
+    fetch('data/zgrade/manifest.json', { cache: 'no-store' }),
+    fetch('data/zupanije.geojson', { cache: 'no-store' }),
+  ]);
+  manifest = await manifestRes.json();
+  zupanijeGeo = await zupRes.json();
+
+  renderWindowButtons();
+  initMap();
+
+  const zadnji = manifest.entries[manifest.entries.length - 1];
+  if (zadnji){
+    $('#updatedTag').innerHTML = '<span class="updated-dot"></span> Zadnje ažuriranje: ' + formatDatum(zadnji.to);
+  } else {
+    $('#updatedTag').innerHTML = '<span class="updated-dot"></span> Još nema podataka';
+  }
+
+  // default: prikaži sve dostupno
+  await selectWindow(null);
+}
+
+function renderWindowButtons(){
+  const wrap = $('#windowSelect');
+  wrap.innerHTML = '';
+  WINDOW_OPTIONS.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'window-btn' + (i === WINDOW_OPTIONS.length - 1 ? ' active' : '');
+    btn.textContent = opt.label;
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.window-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      selectWindow(opt.weeks);
+    });
+    wrap.appendChild(btn);
   });
 }
 
-const PRIORITY_KEYS = ['building','type','fclass','building:levels','house','roof:shape'];
+function entriesForWindow(weeks){
+  if (!manifest.entries.length) return [];
+  if (weeks === null) return manifest.entries.slice();
+  const cutoff = new Date(manifest.entries[manifest.entries.length - 1].to);
+  cutoff.setUTCDate(cutoff.getUTCDate() - weeks * 7);
+  return manifest.entries.filter(e => new Date(e.to) > cutoff);
+}
 
-let activeFilters = {};
-let logicMode = 'AND';
+async function selectWindow(weeks){
+  currentWindowWeeks = weeks;
+  const entries = entriesForWindow(weeks);
 
-function buildFilters(features){
-  activeFilters = {};
-  const tagCounts = {};
+  const dataSets = await Promise.all(entries.map(async (e) => {
+    if (!cachedChunks[e.file]){
+      const res = await fetch(e.file, { cache: 'no-store' });
+      cachedChunks[e.file] = await res.json();
+    }
+    return cachedChunks[e.file];
+  }));
+
+  allFeaturesInWindow = [];
+  dataSets.forEach(d => allFeaturesInWindow.push(...d.features));
+  selectedBuildingTypes.clear();
+  selectedLevels.clear();
+
+  updateStats(entries);
+  updateZupanijeList();
+  updateMap();
+  updateTable();
+  if (facetPanelOpen) renderFacetPanel();
+
+  // Radi u pozadini - ne čekamo da završi prije prikaza ostatka stranice.
+  // updateTable() se poziva iznutra nakon svake obrađene županije.
+  izracunajNajblizeCeste(allFeaturesInWindow);
+}
+
+function updateStats(entries){
+  $('#statTotal').textContent = allFeaturesInWindow.length.toLocaleString('hr-HR');
+  const tjedana = Math.max(entries.length, 1);
+  $('#statAvg').textContent = Math.round(allFeaturesInWindow.length / tjedana).toLocaleString('hr-HR');
+
+  const counts = countByZupanija(allFeaturesInWindow);
+  const aktivne = Object.keys(counts).filter(z => counts[z] > 0).length;
+  $('#statZupanije').innerHTML = aktivne + '<span class="unit">/ 21</span>';
+
+  const zadnji = entries[entries.length - 1];
+  $('#statUpdated').textContent = zadnji ? formatDatum(zadnji.to) : '–';
+}
+
+function countByZupanija(features){
+  const counts = {};
+  zupanijeGeo.features.forEach(f => counts[f.properties.naziv] = 0);
   features.forEach(f => {
-    Object.entries(f.props || {}).forEach(([k,v]) => {
-      const lk = k.toLowerCase();
-      if(lk.includes('addr') || v === null || v === '') return;
-      if(!tagCounts[k]) tagCounts[k] = {};
-      tagCounts[k][v] = (tagCounts[k][v]||0) + 1;
-    });
+    if (f.zupanija) counts[f.zupanija] = (counts[f.zupanija] || 0) + 1;
   });
-  const keysToShow = [
-    ...PRIORITY_KEYS.filter(k => tagCounts[k]),
-    ...Object.keys(tagCounts).filter(k => !PRIORITY_KEYS.includes(k) &&
-      Object.values(tagCounts[k]).some(c => c >= 3)).sort()
-  ];
-  const container = document.getElementById('filterGroups');
-  container.innerHTML = '';
-  keysToShow.slice(0,12).forEach(key => {
-    const values = Object.entries(tagCounts[key]).sort((a,b)=>b[1]-a[1]).slice(0,10);
-    const details = document.createElement('details');
-    details.className = 'filter-group';
-    const summary = document.createElement('summary');
-    summary.textContent = key;
-    details.appendChild(summary);
-    values.forEach(([val,count]) => {
-      const label = document.createElement('label');
-      label.className = 'filter-opt';
-      label.innerHTML = `<input type="checkbox" data-key="${key}" data-val="${val}"> ${val} <span class="fc">${count}</span>`;
-      details.appendChild(label);
-    });
-    container.appendChild(details);
-  });
-  container.onchange = e => {
-    if(e.target.type !== 'checkbox') return;
-    const key = e.target.dataset.key, val = e.target.dataset.val;
-    if(!activeFilters[key]) activeFilters[key] = new Set();
-    if(e.target.checked) activeFilters[key].add(val); else activeFilters[key].delete(val);
-    if(activeFilters[key].size === 0) delete activeFilters[key];
-    render();
-  };
+  return counts;
 }
 
-document.getElementById('logicAnd').onclick = () => { logicMode='AND';
-  document.getElementById('logicAnd').classList.add('active');
-  document.getElementById('logicOr').classList.remove('active'); render(); };
-document.getElementById('logicOr').onclick = () => { logicMode='OR';
-  document.getElementById('logicOr').classList.add('active');
-  document.getElementById('logicAnd').classList.remove('active'); render(); };
-document.getElementById('clearFilters').onclick = () => {
-  activeFilters = {};
-  document.querySelectorAll('#filterGroups input[type=checkbox]').forEach(cb => cb.checked=false);
-  render();
-};
-
-function matchesFilters(f){
-  const keys = Object.keys(activeFilters);
-  if(!keys.length) return true;
-  const checks = keys.map(k => activeFilters[k].has(String(f.props[k])));
-  return logicMode === 'AND' ? checks.every(Boolean) : checks.some(Boolean);
+function initMap(){
+  map = L.map('map', { scrollWheelZoom: false }).setView([45.15, 16.8], 7);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© OpenStreetMap, © CARTO',
+    maxZoom: 18,
+  }).addTo(map);
+  geoLayer = L.geoJSON(null).addTo(map);
+  markerLayer = L.layerGroup().addTo(map);
 }
 
-/* ---------- Render liste ---------- */
+function colorScale(count, max){
+  if (count === 0 || max === 0) return '#EDEBE7';
+  // log skala jer razlika izmedu tjedana zna biti velika (npr. bulk-import tjedan)
+  const t = Math.log(count + 1) / Math.log(max + 1);
+  // interpolacija izmedu blijedo-narancaste i tamno-narancaste
+  const lo = [252, 235, 212]; // --accent-tint
+  const hi = [182, 101, 12];  // --accent-dark
+  const rgb = lo.map((c, i) => Math.round(c + (hi[i] - c) * t));
+  return 'rgb(' + rgb.join(',') + ')';
+}
 
-const searchBox = document.getElementById('searchBox');
-const onlyNew = document.getElementById('onlyNew');
-const catConfirmed = document.getElementById('catConfirmed');
-const catUnconfirmed = document.getElementById('catUnconfirmed');
-searchBox.addEventListener('input', render);
-onlyNew.addEventListener('change', render);
-catConfirmed.addEventListener('change', render);
-catUnconfirmed.addEventListener('change', render);
+function updateMap(){
+  const counts = countByZupanija(allFeaturesInWindow);
+  const max = Math.max(...Object.values(counts), 1);
+
+  geoLayer.clearLayers();
+  geoLayer.addData(zupanijeGeo);
+  geoLayer.setStyle((f) => {
+    const c = counts[f.properties.naziv] || 0;
+    const isFiltered = selectedZupanije.size > 0 && !selectedZupanije.has(f.properties.naziv);
+    return {
+      fillColor: colorScale(c, max),
+      fillOpacity: isFiltered ? 0.25 : 0.85,
+      color: '#fff',
+      weight: 1.5,
+      opacity: 1,
+    };
+  });
+  geoLayer.eachLayer((layer) => {
+    const naziv = layer.feature.properties.naziv;
+    const c = counts[naziv] || 0;
+    layer.bindTooltip(naziv + ': ' + c + ' novih zgrada', { sticky: true });
+    layer.on('click', () => toggleZupanija(naziv));
+  });
+
+  // legenda
+  $('#legend').innerHTML =
+    '<span class="legend-swatch" style="background:' + colorScale(0, max) + '"></span>0' +
+    '<span class="legend-swatch" style="background:' + colorScale(max, max) + ';margin-left:8px;"></span>' + max;
+
+  // markeri pojedinačnih zgrada (prikazujemo do razumne granice radi performansi)
+  markerLayer.clearLayers();
+  const filtered = getFilteredFeatures();
+  const MAX_MARKERA = 1500;
+  filtered.slice(0, MAX_MARKERA).forEach(f => {
+    if (f.lat === null || f.lon === null) return;
+    const m = L.circleMarker([f.lat, f.lon], {
+      radius: 4,
+      color: '#B6650C',
+      weight: 1,
+      fillColor: '#E8871E',
+      fillOpacity: 0.85,
+    });
+    m.bindPopup(opisZgrade(f));
+    markerLayer.addLayer(m);
+  });
+}
+
+function opisZgrade(f){
+  const adresa = prikazAdrese(f) || 'Adresa nepoznata';
+  const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
+  const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) =>
+    '<div>' + k + ' = ' + v + '</div>').join('');
+  return '<div style="min-width:200px;">' +
+    '<b>' + adresa + '</b><br>' +
+    (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
+    '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
+    '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +
+    '<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;color:#6B6B6B;">Svi podaci</summary>' +
+    '<div style="font-family:var(--font-mono);font-size:11.5px;margin-top:4px;color:#444;">' + tagoviHtml + '</div></details>' +
+    '</div>';
+}
+
+function toggleZupanija(naziv){
+  if (selectedZupanije.has(naziv)) selectedZupanije.delete(naziv);
+  else selectedZupanije.add(naziv);
+  updateZupanijeList();
+  updateMap();
+  updateTable();
+  if (facetPanelOpen) renderFacetPanel();
+}
+
+function updateZupanijeList(){
+  const counts = countByZupanija(allFeaturesInWindow);
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+
+  const wrap = $('#zupList');
+  wrap.innerHTML = '';
+  sorted.forEach(([naziv, count]) => {
+    const row = document.createElement('div');
+    row.className = 'zup-row';
+    const checked = selectedZupanije.size === 0 || selectedZupanije.has(naziv);
+    row.innerHTML =
+      '<input type="checkbox" ' + (checked ? 'checked' : '') + '>' +
+      '<span class="zup-name">' + naziv + '</span>' +
+      '<span class="zup-count' + (count === 0 ? ' zero' : '') + '">' + count + '</span>';
+    row.addEventListener('click', (e) => {
+      if (e.target.tagName !== 'INPUT') toggleZupanija(naziv);
+    });
+    row.querySelector('input').addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleZupanija(naziv);
+    });
+    wrap.appendChild(row);
+  });
+}
+
+$('#clearZupBtn').addEventListener('click', () => {
+  selectedZupanije.clear();
+  updateZupanijeList();
+  updateMap();
+  updateTable();
+});
 
 function getFilteredFeatures(){
-  if(!comparedResults) return [];
-  const q = searchBox.value.trim().toLowerCase();
-  const hideUnchanged = onlyNew.checked;
-  return comparedResults.features.filter(f => {
-    if(hideUnchanged && f.displayCategory === 'existing_unchanged') return false;
-    if(f.displayCategory === 'confirmed_construction' && !catConfirmed.checked) return false;
-    if(f.displayCategory === 'new_unconfirmed' && !catUnconfirmed.checked) return false;
-    if(!matchesFilters(f)) return false;
-    if(!q) return true;
-    return (f.address && f.address.toLowerCase().includes(q)) ||
-           (f.nearestStreet && f.nearestStreet.toLowerCase().includes(q)) ||
-           f.id.toLowerCase().includes(q);
+  const q = ($('#searchBox').value || '').toLowerCase().trim();
+  return allFeaturesInWindow.filter(f => {
+    if (selectedZupanije.size > 0 && !selectedZupanije.has(f.zupanija)) return false;
+    if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
+    if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
+    if (!q) return true;
+    const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'name'), tag(f,'building')]
+      .filter(Boolean).join(' ').toLowerCase();
+    return hay.includes(q);
   });
 }
 
+function facetCounts(features, key, fallback){
+  const counts = {};
+  features.forEach(f => {
+    const v = tag(f, key) || fallback;
+    counts[v] = (counts[v] || 0) + 1;
+  });
+  return Object.entries(counts).sort((a,b) => b[1] - a[1]);
+}
 
-/* ---------- Prikaz na karti (novi tab, Leaflet + OSM plocice) ---------- */
-
-document.getElementById('showMapBtn').addEventListener('click', () => {
-  const dl = document.getElementById('mapStatus');
-  const all = comparedResults ? comparedResults.features.filter(f => f.geometry) : [];
-  if(!all.length){
-    dl.textContent = 'Nema podataka za prikaz. Prvo pokreni usporedbu.';
-    dl.className = 'status-line err';
-    return;
-  }
-
-  const geojson = {
-    type: 'FeatureCollection',
-    features: all.map(f => ({
-      type: 'Feature',
-      geometry: f.geometry,
-      properties: { id: f.id, status: f.status, address: f.address, nearestStreet: f.nearestStreet,
-        nearestStreetDist: f.nearestStreetDist, displayCategory: f.displayCategory, tags: f.props },
-    })),
-  };
-
-  const initial = {
-    hideUnchanged: onlyNew.checked,
-    showConfirmed: catConfirmed.checked,
-    showUnconfirmed: catUnconfirmed.checked,
-  };
-
-  const html = buildMapPageHtml(geojson, all.length, initial, new URL('data/zagreb-adrese.geojson', window.location.href).href);
-  const blob = new Blob([html], { type: 'text/html' });
-  const url = URL.createObjectURL(blob);
-  window.open(url, '_blank');
-  dl.textContent = `Otvorena karta s ${all.length.toLocaleString('hr-HR')} zgrada (filteri dostupni na karti).`;
-  dl.className = 'status-line ok';
-});
-
-
-document.getElementById('exportExcelBtn').addEventListener('click', () => {
-  const dl = document.getElementById('mapStatus');
-  if(typeof XLSX === 'undefined'){
-    dl.textContent = 'Excel biblioteka nije učitana (provjeri internet vezu ili osvježi stranicu).';
-    dl.className = 'status-line err';
-    return;
-  }
-  if(!comparedResults){
-    dl.textContent = 'Prvo pokreni usporedbu.';
-    dl.className = 'status-line err';
-    return;
-  }
-  const features = comparedResults.features.filter(f => f.displayCategory !== 'existing_unchanged');
-  if(!features.length){
-    dl.textContent = 'Nema novih zgrada za izvoz.';
-    dl.className = 'status-line err';
-    return;
-  }
-
-  const keySet = new Set();
-  features.forEach(f => Object.keys(f.props || {}).forEach(k => keySet.add(k)));
-  const keys = [...keySet];
-
-  const rows = features.map(f => {
-    const row = {
-      osm_id: f.id,
-      kategorija: f.displayCategory === 'confirmed_construction' ? 'Potvrđena novogradnja' : 'Novi zapis (nepotvrđeno)',
-    };
-    keys.forEach(k => { row[k] = (f.props[k] != null) ? f.props[k] : ''; });
-    row.link = (f.lat != null) ? `https://www.google.com/maps?q=${f.lat},${f.lon}` : '';
-    return row;
+function renderFacetPanel(){
+  // facet opcije se računaju na skupu nakon zupanija+pretraga filtera, ali PRIJE
+  // vlastite facet selekcije, tako da brojke ostanu smislene dok biraš opcije
+  const baseline = allFeaturesInWindow.filter(f => {
+    if (selectedZupanije.size > 0 && !selectedZupanije.has(f.zupanija)) return false;
+    const q = ($('#searchBox').value || '').toLowerCase().trim();
+    if (!q) return true;
+    const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'name'), tag(f,'building')]
+      .filter(Boolean).join(' ').toLowerCase();
+    return hay.includes(q);
   });
 
-  const ws = XLSX.utils.json_to_sheet(rows);
-  const headers = Object.keys(rows[0] || {});
-  const linkColIndex = headers.indexOf('link');
-  if(linkColIndex !== -1){
-    rows.forEach((row, i) => {
-      if(!row.link) return;
-      const cellRef = XLSX.utils.encode_cell({ r: i + 1, c: linkColIndex });
-      if(ws[cellRef]){
-        ws[cellRef].l = { Target: row.link, Tooltip: 'Otvori u Google Maps' };
-      }
+  const buildingCounts = facetCounts(baseline, 'building', '(bez oznake)').slice(0, 10);
+  const levelCounts = facetCounts(baseline, 'building:levels', '(nepoznato)')
+    .sort((a,b) => (parseInt(a[0]) || 99) - (parseInt(b[0]) || 99)).slice(0, 10);
+
+  const grupa = (naslov, entries, selectedSet) => {
+    let html = '<div class="facet-group"><div class="facet-group-title">' + naslov + '</div>';
+    entries.forEach(([val, count]) => {
+      const checked = selectedSet.has(val);
+      html += '<label class="facet-opt"><input type="checkbox" data-val="' + val.replace(/"/g,'&quot;') + '" ' + (checked ? 'checked' : '') + '>' +
+        val + '<span class="fc">' + count + '</span></label>';
     });
+    html += '</div>';
+    return html;
+  };
+
+  const panel = $('#facetPanel');
+  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels);
+
+  const groups = panel.querySelectorAll('.facet-group');
+  groups[0].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
+    toggleSet(selectedBuildingTypes, e.target.dataset.val);
+    updateTable();
+    updateMap();
+  }));
+  groups[1].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
+    toggleSet(selectedLevels, e.target.dataset.val);
+    updateTable();
+    updateMap();
+  }));
+
+  $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0);
+}
+
+function toggleSet(set, val){
+  if (set.has(val)) set.delete(val); else set.add(val);
+}
+
+$('#facetToggleBtn').addEventListener('click', () => {
+  facetPanelOpen = !facetPanelOpen;
+  $('#facetPanel').classList.toggle('open', facetPanelOpen);
+  if (facetPanelOpen) renderFacetPanel();
+});
+
+function updateTable(){
+  const filtered = getFilteredFeatures();
+  const wrap = $('#tableWrap');
+
+  if (filtered.length === 0){
+    wrap.innerHTML = '<div class="empty-state"><div class="big">Nema rezultata</div>Pokušaj promijeniti razdoblje, županiju ili pretragu.</div>';
+    $('#listFooter').textContent = '';
+    return;
   }
+
+  const MAX_REDAKA = 500;
+  let html = '<table class="building-table"><thead><tr>' +
+    '<th>Adresa</th><th>Mjesto</th><th>Županija</th><th>Tip</th><th>Datum</th>' +
+    '</tr></thead><tbody>';
+
+  const prikazano = filtered.slice(0, MAX_REDAKA);
+  prikazano.forEach((f, i) => {
+    const adresa = prikazAdrese(f);
+    html += '<tr data-idx="' + i + '">' +
+      '<td>' + (adresa || '<span class="muted">—</span>') + '</td>' +
+      '<td>' + (tag(f,'addr:city') || '<span class="muted">—</span>') + '</td>' +
+      '<td>' + (f.zupanija ? '<span class="badge-tip">' + f.zupanija + '</span>' : '<span class="muted">—</span>') + '</td>' +
+      '<td>' + (tag(f,'building') || '<span class="muted">—</span>') + '</td>' +
+      '<td class="muted">' + formatDatum(f.validFrom) + '</td>' +
+      '</tr>';
+  });
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+
+  wrap.querySelectorAll('tbody tr').forEach(tr => {
+    tr.addEventListener('click', () => openModal(prikazano[+tr.dataset.idx]));
+  });
+
+  $('#listFooter').textContent = filtered.length > MAX_REDAKA
+    ? 'Prikazano ' + MAX_REDAKA.toLocaleString('hr-HR') + ' od ' + filtered.length.toLocaleString('hr-HR') + ' — suzi pretragu za više detalja.'
+    : filtered.length.toLocaleString('hr-HR') + ' zgrada';
+}
+
+function openModal(f){
+  const adresa = prikazAdrese(f) || 'Adresa nepoznata';
+  const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
+  const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('') || '<div class="muted">Nema dodatnih oznaka</div>';
+  $('#modalCard').innerHTML =
+    '<button class="modal-close" id="modalCloseBtn">×</button>' +
+    '<h3>' + adresa + '</h3>' +
+    '<div style="color:var(--text-secondary);font-size:13.5px;">' + (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') + '</div>' +
+    '<div style="color:var(--text-secondary);font-size:13px;margin-top:4px;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
+    '<a class="modal-gmaps" href="' + gmaps + '" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>' +
+    '<div class="modal-tags">' + tagoviHtml + '</div>';
+  $('#modalOverlay').classList.add('open');
+}
+
+$('#modalOverlay').addEventListener('click', (e) => {
+  if (e.target.id === 'modalOverlay' || e.target.id === 'modalCloseBtn') {
+    $('#modalOverlay').classList.remove('open');
+  }
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') $('#modalOverlay').classList.remove('open');
+});
+
+$('#searchBox').addEventListener('input', () => {
+  updateTable();
+  if (facetPanelOpen) renderFacetPanel();
+});
+
+$('#exportBtn').addEventListener('click', () => {
+  const filtered = getFilteredFeatures();
+  const rows = filtered.map(f => ({
+    Adresa: [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' '),
+    Mjesto: tag(f,'addr:city') || '',
+    Zupanija: f.zupanija || '',
+    Tip: tag(f,'building') || '',
+    Datum: f.validFrom || '',
+    Lat: f.lat,
+    Lon: f.lon,
+  }));
+  const ws = XLSX.utils.json_to_sheet(rows);
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'Nove zgrade');
-  XLSX.writeFile(wb, 'nove_zgrade.xlsx');
-
-  dl.textContent = `Excel preuzet — ${rows.length.toLocaleString('hr-HR')} redaka.`;
-  dl.className = 'status-line ok';
+  XLSX.writeFile(wb, 'nove-zgrade.xlsx');
 });
-function buildMapPageHtml(geojson, count, initial, addressesUrl){
-  const dataStr = JSON.stringify(geojson);
-  const initialStr = JSON.stringify(initial);
-  var scriptOpen = '<' + 'script';
-  var scriptClose = '<' + '/script>';
-  var parts = [];
-  parts.push('<!DOCTYPE html><html lang="hr"><head><meta charset="UTF-8" />');
-  parts.push('<title>Karta - ' + count + ' zgrada</title>');
-  parts.push('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />');
-  parts.push('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />');
-  parts.push('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />');
-  parts.push(scriptOpen + ' src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js">' + scriptClose);
-  parts.push(scriptOpen + ' src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js">' + scriptClose);
-  parts.push('<style>');
-  parts.push('html,body,#map{margin:0;padding:0;height:100%;width:100%;font-family:sans-serif;}');
-  parts.push(':root{--bg:#14304C;--line:#8FD3E8;--linedim:rgba(143,211,232,0.25);--accent:#E8871E;--text:#EAF2F8;--muted:#9FB8CC;}');
-  parts.push('.info-box{position:absolute;top:10px;left:50px;z-index:1000;background:var(--bg);color:var(--text);padding:8px 14px;border-radius:4px;font-family:monospace;font-size:13px;border:1px solid var(--linedim);}');
-  parts.push('.filter-panel{position:absolute;top:10px;right:10px;z-index:1000;background:var(--bg);color:var(--text);border:1px solid var(--linedim);border-radius:6px;padding:12px;width:230px;max-height:88vh;overflow-y:auto;font-family:sans-serif;font-size:12px;box-shadow:0 2px 10px rgba(0,0,0,0.4);}');
-  parts.push('.filter-panel h4{margin:0 0 8px;font-size:13px;color:var(--line);}');
-  parts.push('.fp-row{display:flex;align-items:center;gap:6px;margin-bottom:6px;}');
-  parts.push('.fp-logic{display:flex;border:1px solid var(--linedim);border-radius:3px;overflow:hidden;margin:8px 0;}');
-  parts.push('.fp-logic button{flex:1;background:transparent;border:none;color:var(--muted);padding:5px 0;font-size:11px;cursor:pointer;}');
-  parts.push('.fp-logic button.active{background:var(--accent);color:#161616;font-weight:600;}');
-  parts.push('.filter-panel details{margin-bottom:6px;border-bottom:1px solid var(--linedim);padding-bottom:4px;}');
-  parts.push('.filter-panel summary{cursor:pointer;color:var(--line);font-family:monospace;font-size:11px;}');
-  parts.push('.fp-opt{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--muted);padding:2px 0;}');
-  parts.push('.fp-opt span{margin-left:auto;font-family:monospace;}');
-  parts.push('.fp-count{font-family:monospace;font-size:11px;color:var(--muted);margin-top:8px;border-top:1px solid var(--linedim);padding-top:8px;}');
-  parts.push('.leaflet-popup-content{font-size:12px;max-width:260px;} .leaflet-popup-content b{color:#c05a00;} .tagrow{font-family:monospace;font-size:11px;color:#444;}');
-  parts.push('</style>');
-  parts.push('</head><body><div id="map"></div>');
-  parts.push('<div class="info-box" id="countBox">' + count.toLocaleString('hr-HR') + ' zgrada prikazano</div>');
-  parts.push('<div class="filter-panel">');
-  parts.push('<h4>Filteri</h4>');
-  parts.push('<div class="fp-row"><label><input type="checkbox" id="mHideUnchanged"> Sakrij nepromijenjene</label></div>');
-  parts.push('<div class="fp-row"><label><input type="checkbox" id="mConfirmed"> \u{1F7E3} Potvrdjena novogradnja</label></div>');
-  parts.push('<div class="fp-row"><label><input type="checkbox" id="mUnconfirmed"> \u{1F7E0} Novi zapis</label></div>');
-  parts.push('<div class="fp-row" style="border-top:1px solid var(--linedim);padding-top:8px;margin-top:2px;"><label><input type="checkbox" id="mAddresses"> \u{1F535} Sve DGU adrese (uklj. neizgra\u0111eno)</label></div>');
-  parts.push('<div id="mAddrStatus" style="font-size:10.5px;color:var(--muted);margin:2px 0 6px;"></div>');
-  parts.push('<div class="fp-logic"><button id="mLogicAnd" class="active">I (mora sve)</button><button id="mLogicOr">ILI (barem jedno)</button></div>');
-  parts.push('<div id="mFilterGroups"></div>');
-  parts.push('<div class="fp-count" id="fpCount"></div>');
-  parts.push('</div>');
-  parts.push(scriptOpen + '>');
-  parts.push('const DATA = ' + dataStr + ';');
-  parts.push('const INITIAL = ' + initialStr + ';');
-  parts.push('const ADDRESSES_URL = ' + JSON.stringify(addressesUrl) + ';');
-  parts.push('document.getElementById("mHideUnchanged").checked = INITIAL.hideUnchanged;');
-  parts.push('document.getElementById("mConfirmed").checked = INITIAL.showConfirmed;');
-  parts.push('document.getElementById("mUnconfirmed").checked = INITIAL.showUnconfirmed;');
-  parts.push('function colorFor(p){ if(p.displayCategory === "confirmed_construction") return "#D946EF"; if(p.displayCategory === "new_unconfirmed") return "#E8871E"; return "#8FD3E8"; }');
-  parts.push('const map = L.map("map", { preferCanvas: true });');
-  parts.push('L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "&copy; OpenStreetMap suradnici", maxZoom: 19 }).addTo(map);');
-  parts.push('function styleFn(f){ var c = colorFor(f.properties); var op = f.properties.displayCategory === "existing_unchanged" ? 0.15 : 0.55; return { color: c, weight: 2, fillColor: c, fillOpacity: op }; }');
-  parts.push('function onEachFn(feature, lyr){');
-  parts.push('  var p = feature.properties;');
-  parts.push('  var addrLine = p.address ? p.address : (p.nearestStreet ? ("priblizno " + p.nearestStreetDist + " m od " + p.nearestStreet + " (procjena)") : "adresa nepoznata");');
-  parts.push('  var tagsHtml = "";');
-  parts.push('  for(var k in (p.tags || {})){ tagsHtml += "<div class=\\"tagrow\\">" + k + " = " + p.tags[k] + "</div>"; }');
-  parts.push('  var statusLabel = p.displayCategory === "confirmed_construction" ? "POTVRDJENA NOVOGRADNJA" : p.displayCategory === "new_unconfirmed" ? "NOVI ZAPIS (nepotvrdjeno)" : "postojeca";');
-  parts.push('  lyr.bindPopup("<b>" + statusLabel + "</b><br>" + addrLine + "<br><span style=\\"color:#888\\">" + p.id + "</span><hr style=\\"margin:6px 0;\\">" + tagsHtml);');
-  parts.push('}');
-  parts.push('var PRIORITY_KEYS = ["building","type","fclass","building:levels","house","roof:shape"];');
-  parts.push('var mActiveFilters = {};');
-  parts.push('var mLogicMode = "AND";');
-  parts.push('function buildTagFilterUI(){');
-  parts.push('  var tagCounts = {};');
-  parts.push('  DATA.features.forEach(function(f){');
-  parts.push('    var tags = f.properties.tags || {};');
-  parts.push('    Object.keys(tags).forEach(function(k){');
-  parts.push('      if(k.toLowerCase().indexOf("addr") !== -1) return;');
-  parts.push('      var v = tags[k];');
-  parts.push('      if(v == null || v === "") return;');
-  parts.push('      if(!tagCounts[k]) tagCounts[k] = {};');
-  parts.push('      tagCounts[k][v] = (tagCounts[k][v] || 0) + 1;');
-  parts.push('    });');
-  parts.push('  });');
-  parts.push('  var keys = PRIORITY_KEYS.filter(function(k){ return tagCounts[k]; });');
-  parts.push('  Object.keys(tagCounts).forEach(function(k){');
-  parts.push('    if(PRIORITY_KEYS.indexOf(k) !== -1) return;');
-  parts.push('    var vals = Object.keys(tagCounts[k]).map(function(v){ return tagCounts[k][v]; });');
-  parts.push('    if(vals.some(function(c){ return c >= 3; })) keys.push(k);');
-  parts.push('  });');
-  parts.push('  keys.sort();');
-  parts.push('  var container = document.getElementById("mFilterGroups");');
-  parts.push('  container.innerHTML = "";');
-  parts.push('  keys.slice(0,10).forEach(function(key){');
-  parts.push('    var entries = Object.keys(tagCounts[key]).map(function(v){ return [v, tagCounts[key][v]]; });');
-  parts.push('    entries.sort(function(a,b){ return b[1]-a[1]; });');
-  parts.push('    entries = entries.slice(0,8);');
-  parts.push('    var det = document.createElement("details");');
-  parts.push('    var html = "<summary>" + key + "</summary>";');
-  parts.push('    entries.forEach(function(e){');
-  parts.push('      html += "<label class=\\"fp-opt\\"><input type=\\"checkbox\\" data-key=\\"" + key + "\\" data-val=\\"" + e[0] + "\\"> " + e[0] + " <span>" + e[1] + "</span></label>";');
-  parts.push('    });');
-  parts.push('    det.innerHTML = html;');
-  parts.push('    container.appendChild(det);');
-  parts.push('  });');
-  parts.push('  container.onchange = function(e){');
-  parts.push('    if(e.target.type !== "checkbox") return;');
-  parts.push('    var key = e.target.dataset.key, val = e.target.dataset.val;');
-  parts.push('    if(!mActiveFilters[key]) mActiveFilters[key] = {};');
-  parts.push('    if(e.target.checked) mActiveFilters[key][val] = true; else delete mActiveFilters[key][val];');
-  parts.push('    if(Object.keys(mActiveFilters[key]).length === 0) delete mActiveFilters[key];');
-  parts.push('    renderLayer();');
-  parts.push('  };');
-  parts.push('}');
-  parts.push('function matchesTagFilters(f){');
-  parts.push('  var keys = Object.keys(mActiveFilters);');
-  parts.push('  if(!keys.length) return true;');
-  parts.push('  var tags = f.properties.tags || {};');
-  parts.push('  var checks = keys.map(function(k){ return !!mActiveFilters[k][String(tags[k])]; });');
-  parts.push('  return mLogicMode === "AND" ? checks.every(Boolean) : checks.some(Boolean);');
-  parts.push('}');
-  parts.push('var geoLayer = null;');
-  parts.push('function renderLayer(){');
-  parts.push('  var hideUnchanged = document.getElementById("mHideUnchanged").checked;');
-  parts.push('  var showConfirmed = document.getElementById("mConfirmed").checked;');
-  parts.push('  var showUnconfirmed = document.getElementById("mUnconfirmed").checked;');
-  parts.push('  var filteredFeatures = DATA.features.filter(function(f){');
-  parts.push('    var dc = f.properties.displayCategory;');
-  parts.push('    if(hideUnchanged && dc === "existing_unchanged") return false;');
-  parts.push('    if(dc === "confirmed_construction" && !showConfirmed) return false;');
-  parts.push('    if(dc === "new_unconfirmed" && !showUnconfirmed) return false;');
-  parts.push('    return matchesTagFilters(f);');
-  parts.push('  });');
-  parts.push('  if(geoLayer) map.removeLayer(geoLayer);');
-  parts.push('  geoLayer = L.geoJSON({ type: "FeatureCollection", features: filteredFeatures }, { renderer: L.canvas(), style: styleFn, onEachFeature: onEachFn }).addTo(map);');
-  parts.push('  document.getElementById("countBox").textContent = filteredFeatures.length.toLocaleString("hr-HR") + " zgrada prikazano";');
-  parts.push('  document.getElementById("fpCount").textContent = "Prikazano " + filteredFeatures.length.toLocaleString("hr-HR") + " od " + DATA.features.length.toLocaleString("hr-HR");');
-  parts.push('  if(filteredFeatures.length) map.fitBounds(geoLayer.getBounds(), { padding: [30,30] });');
-  parts.push('}');
-  parts.push('document.getElementById("mHideUnchanged").addEventListener("change", renderLayer);');
-  parts.push('document.getElementById("mConfirmed").addEventListener("change", renderLayer);');
-  parts.push('document.getElementById("mUnconfirmed").addEventListener("change", renderLayer);');
-  parts.push('document.getElementById("mLogicAnd").onclick = function(){ mLogicMode="AND"; document.getElementById("mLogicAnd").className="active"; document.getElementById("mLogicOr").className=""; renderLayer(); };');
-  parts.push('document.getElementById("mLogicOr").onclick = function(){ mLogicMode="OR"; document.getElementById("mLogicOr").className="active"; document.getElementById("mLogicAnd").className=""; renderLayer(); };');
-  parts.push('var addressCluster = null, addressesLoaded = false, addressesLoading = false;');
-  parts.push('function loadAddresses(){');
-  parts.push('  var statusEl = document.getElementById("mAddrStatus");');
-  parts.push('  if(addressesLoaded || addressesLoading){ if(addressCluster) map.addLayer(addressCluster); return; }');
-  parts.push('  addressesLoading = true;');
-  parts.push('  statusEl.textContent = "Ucitavam DGU adrese...";');
-  parts.push('  fetch(ADDRESSES_URL).then(function(r){ if(!r.ok) throw new Error("status " + r.status); return r.json(); }).then(function(gj){');
-  parts.push('    addressCluster = L.markerClusterGroup({ chunkedLoading: true, maxClusterRadius: 60 });');
-  parts.push('    gj.features.forEach(function(f){');
-  parts.push('      var c = f.geometry.coordinates, p = f.properties;');
-  parts.push('      var m = L.circleMarker([c[1], c[0]], { radius: 5, color: "#2E7DE6", fillColor: "#2E7DE6", fillOpacity: 0.85, weight: 1 });');
-  parts.push('      var label = (p.street || "") + " " + (p.houseNumber || "");');
-  parts.push('      m.bindPopup("<b>" + label + "</b><br>" + (p.settlement || "") + " " + (p.postcode || "") + " " + (p.city || "") + "<br><i style=\\"color:#888\\">DGU adresa</i>");');
-  parts.push('      addressCluster.addLayer(m);');
-  parts.push('    });');
-  parts.push('    map.addLayer(addressCluster);');
-  parts.push('    addressesLoaded = true; addressesLoading = false;');
-  parts.push('    statusEl.textContent = gj.features.length.toLocaleString("hr-HR") + " DGU adresa ucitano.";');
-  parts.push('  }).catch(function(err){');
-  parts.push('    addressesLoading = false;');
-  parts.push('    statusEl.textContent = "Adrese nisu dostupne (" + err.message + ").";');
-  parts.push('    document.getElementById("mAddresses").checked = false;');
-  parts.push('  });');
-  parts.push('}');
-  parts.push('document.getElementById("mAddresses").addEventListener("change", function(e){');
-  parts.push('  if(e.target.checked) loadAddresses();');
-  parts.push('  else if(addressCluster) map.removeLayer(addressCluster);');
-  parts.push('});');
-  parts.push('buildTagFilterUI();');
-  parts.push('renderLayer();');
-  parts.push(scriptClose);
-  parts.push('</body></html>');
-  return parts.join('\n');
+
+$('#detailMapBtn').addEventListener('click', () => {
+  const html = buildDetailMapHtml(allFeaturesInWindow, zupanijeGeo);
+  const blob = new Blob([html], { type: 'text/html' });
+  window.open(URL.createObjectURL(blob), '_blank');
+});
+
+function buildDetailMapHtml(features, zupanije){
+  const featuresJson = JSON.stringify(features.filter(f => f.lat !== null && f.lon !== null));
+  const zupanijeJson = JSON.stringify(zupanije);
+  const dguUrl = new URL('data/zagreb-adrese.geojson', window.location.href).href;
+  return `<!DOCTYPE html>
+<html lang="hr"><head><meta charset="UTF-8">
+<title>Nove zgrade — detaljna karta</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"><\/script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"><\/script>
+<style>
+  :root{
+    --bg:#F0EFED; --card:#FFFFFF; --accent:#E8871E; --accent-dark:#B6650C; --accent-tint:#FCEBD4;
+    --text:#1A1A1A; --text-secondary:#6B6B6B; --border:#E2E0DC;
+    --font-display:'Inter',sans-serif; --font-body:'Inter',sans-serif; --font-mono:'IBM Plex Mono',monospace;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; height:100%; font-family:var(--font-body); color:var(--text); }
+  #app{ display:flex; height:100vh; }
+  #sidebar{
+    width:340px; flex-shrink:0; background:var(--card); border-right:1px solid var(--border);
+    display:flex; flex-direction:column; overflow:hidden;
+  }
+  #sidebar-header{ padding:18px 20px; border-bottom:1px solid var(--border); }
+  #sidebar-header h1{ font-family:var(--font-display); font-weight:800; letter-spacing:-0.02em; font-size:19px; margin:0 0 4px; }
+  #sidebar-header p{ margin:0; font-size:12.5px; color:var(--text-secondary); font-family:var(--font-mono); }
+  .search-input{ width:100%; font-family:var(--font-body); font-size:14px; padding:9px 12px; border:1px solid var(--border); border-radius:8px; background:var(--bg); color:var(--text); margin:14px 0 0; }
+  .search-input:focus{ outline:2px solid var(--accent); outline-offset:-1px; }
+  #filters{ flex:1; overflow-y:auto; padding: 6px 0; }
+  .filter-group-title{ font-size:11px; text-transform:uppercase; letter-spacing:0.05em; color:#9B9894; font-weight:700; padding:12px 20px 6px; display:flex; justify-content:space-between; align-items:center; }
+  .zup-row, .facet-row{ display:flex; align-items:center; gap:10px; padding:6px 20px; cursor:pointer; font-size:13px; }
+  .zup-row:hover, .facet-row:hover{ background:#FAFAF9; }
+  .zup-row input, .facet-row input{ accent-color:var(--accent); }
+  .cnt{ margin-left:auto; font-family:var(--font-mono); font-size:11px; color:var(--accent-dark); background:var(--accent-tint); padding:1px 7px; border-radius:999px; }
+  .extra-toggle-row{ padding:10px 20px; border-top:1px solid var(--border); font-size:13px; }
+  .extra-toggle-row label{ display:flex; align-items:center; gap:8px; cursor:pointer; }
+  .extra-toggle-row input{ accent-color:var(--accent); }
+  .extra-toggle-row .note{ color:var(--text-secondary); font-size:11.5px; margin:4px 0 0 24px; }
+  #roadsStatus{ font-size:11.5px; color:var(--text-secondary); margin-top:6px; min-height:14px; }
+  #stats{ padding:14px 20px; border-top:1px solid var(--border); font-family:var(--font-mono); font-size:12.5px; color:var(--text-secondary); }
+  #stats b{ color:var(--text); font-size:15px; }
+  #map{ flex:1; }
+  .leaflet-popup-content{ font-family:var(--font-body); font-size:13px; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="sidebar">
+    <div id="sidebar-header">
+      <h1>Nove zgrade</h1>
+      <p id="rangeLabel"></p>
+      <input class="search-input" id="q" placeholder="Pretraži adresu, mjesto...">
+    </div>
+    <div id="filters">
+      <div class="filter-group-title">Županije</div>
+      <div id="zupList"></div>
+      <div class="filter-group-title">Tip zgrade</div>
+      <div id="buildingList"></div>
+      <div class="filter-group-title">Katovi</div>
+      <div id="levelsList"></div>
+    </div>
+    <div class="extra-toggle-row">
+      <label><input type="checkbox" id="dguToggle"> Prikaži DGU adrese (samo Grad Zagreb)</label>
+      <div class="note">Nacionalni DGU sloj još nije dostupan — točke se učitavaju samo za zagrebačko područje.</div>
+      <div id="roadsStatus" style="margin-top:8px;"></div>
+    </div>
+    <div id="stats"></div>
+  </div>
+  <div id="map"></div>
+</div>
+<script>
+const FEATURES = ${featuresJson};
+const ZUPANIJE = ${zupanijeJson};
+const DGU_URL = ${JSON.stringify(dguUrl)};
+let selectedZup = new Set();
+let selectedBuilding = new Set();
+let selectedLevels = new Set();
+
+function tag(f,k){ return (f.tags && f.tags[k]) || null; }
+
+const map = L.map('map', { zoomControl: true }).setView([45.15, 16.8], 7);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 }).addTo(map);
+L.geoJSON(ZUPANIJE, { style: { color: '#3388ff', weight: 1, fillOpacity: 0, opacity: 0.35 } }).addTo(map);
+
+// Zgrade (obrisi/tocke) - UVIJEK vidljive, DGU sloj ih nikad ne sakriva
+const cluster = L.markerClusterGroup({ maxClusterRadius: 40, disableClusteringAtZoom: 15 });
+map.addLayer(cluster);
+
+// DGU adresne tocke - odvojen sloj, ukljucuje/iskljucuje se neovisno
+let dguCluster = null, dguLoaded = false, dguLoading = false;
+document.getElementById('dguToggle').addEventListener('change', (e) => {
+  if (e.target.checked) loadDgu(); else if (dguCluster) map.removeLayer(dguCluster);
+});
+function loadDgu(){
+  if (dguLoaded){ if (dguCluster) map.addLayer(dguCluster); return; }
+  if (dguLoading) return;
+  dguLoading = true;
+  fetch(DGU_URL).then(r => { if(!r.ok) throw new Error('status ' + r.status); return r.json(); }).then(gj => {
+    dguCluster = L.markerClusterGroup({ chunkedLoading: true, maxClusterRadius: 60 });
+    gj.features.forEach(f => {
+      const c = f.geometry.coordinates, p = f.properties;
+      const m = L.circleMarker([c[1], c[0]], { radius: 5, color: '#2E7DE6', fillColor: '#2E7DE6', fillOpacity: 0.85, weight: 1 });
+      const label = (p.street || '') + ' ' + (p.houseNumber || '');
+      m.bindPopup('<b>' + label + '</b><br>' + (p.settlement || '') + ' ' + (p.postcode || '') + ' ' + (p.city || '') + '<br><i style="color:#888">DGU adresa</i>');
+      dguCluster.addLayer(m);
+    });
+    map.addLayer(dguCluster);
+    dguLoaded = true; dguLoading = false;
+  }).catch(err => {
+    dguLoading = false;
+    document.getElementById('dguToggle').checked = false;
+    alert('DGU adrese nisu dostupne: ' + err.message);
+  });
 }
 
+// ---------- najbliza cesta (rucno pokretanje, samo za trenutno vidljive zgrade) ----------
+function haversineM(lat1, lon1, lat2, lon2){
+  const R = 6371000;
+  const p1 = lat1*Math.PI/180, p2 = lat2*Math.PI/180;
+  const dphi = (lat2-lat1)*Math.PI/180, dlambda = (lon2-lon1)*Math.PI/180;
+  const a = Math.sin(dphi/2)**2 + Math.cos(p1)*Math.cos(p2)*Math.sin(dlambda/2)**2;
+  return 2*R*Math.asin(Math.sqrt(a));
+}
+async function fetchRoadsAuto(bbox){
+  const mirrors = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
+  const query = '[out:json][timeout:30];way["highway"]["name"](' + bbox.minLat + ',' + bbox.minLon + ',' + bbox.maxLat + ',' + bbox.maxLon + ');out geom;';
+  let lastErr;
+  for (const mirror of mirrors){
+    try{
+      const resp = await fetch(mirror, { method:'POST', body:'data='+encodeURIComponent(query), headers:{'Content-Type':'application/x-www-form-urlencoded'} });
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const body = await resp.json();
+      const roads = (body.elements||[]).map(el => ({ name: el.tags && el.tags.name, points: (el.geometry||[]).map(p => [p.lat,p.lon]) })).filter(r => r.name && r.points.length);
+      if (!roads.length) throw new Error('Prazan odgovor');
+      return roads;
+    }catch(e){ lastErr = e; }
+  }
+  throw lastErr || new Error('Nepoznata greška');
+}
+async function izracunajNajblizeCeste(features){
+  const statusEl = document.getElementById('roadsStatus');
+  const bezAdrese = features.filter(f => !tag(f,'addr:street') && !f._nearestStreet);
+  if (!bezAdrese.length) return;
+
+  const poZupaniji = {};
+  bezAdrese.forEach(f => {
+    const key = f.zupanija || '__bez__';
+    (poZupaniji[key] = poZupaniji[key] || []).push(f);
+  });
+
+  let obradjeno = 0;
+  const ukupnoZupanija = Object.keys(poZupaniji).length;
+  statusEl.textContent = 'Tražim najbliže ceste za zgrade bez adrese...';
+
+  for (const [zupanija, skupina] of Object.entries(poZupaniji)){
+    const lats = skupina.map(f=>f.lat), lons = skupina.map(f=>f.lon);
+    const bbox = { minLat: Math.min(...lats)-0.01, maxLat: Math.max(...lats)+0.01, minLon: Math.min(...lons)-0.01, maxLon: Math.max(...lons)+0.01 };
+    try{
+      const roads = await fetchRoadsAuto(bbox);
+      const CELL = 0.003;
+      const grid = {};
+      const key = (lat,lon) => Math.floor(lat/CELL) + '_' + Math.floor(lon/CELL);
+      roads.forEach(r => r.points.forEach(([lat,lon]) => {
+        const k = key(lat,lon);
+        (grid[k] = grid[k]||[]).push([lat,lon,r.name]);
+      }));
+      skupina.forEach(f => {
+        const cLat = Math.floor(f.lat/CELL), cLon = Math.floor(f.lon/CELL);
+        let best = null, bestDist = Infinity;
+        for (let dl=-2; dl<=2; dl++) for (let dn=-2; dn<=2; dn++){
+          const pts = grid[(cLat+dl)+'_'+(cLon+dn)];
+          if (!pts) continue;
+          pts.forEach(([lat,lon,name]) => { const d = haversineM(f.lat,f.lon,lat,lon); if (d<bestDist){ bestDist=d; best=name; } });
+        }
+        if (best){ f._nearestStreet = best; f._nearestStreetDist = Math.round(bestDist); }
+      });
+    }catch(err){
+      console.warn('Najbliža cesta nije dohvaćena za ' + zupanija + ':', err.message);
+    }
+    obradjeno++;
+    statusEl.textContent = 'Najbliže ceste: ' + obradjeno + '/' + ukupnoZupanija + ' županija obrađeno.';
+    render();
+  }
+  statusEl.textContent = 'Najbliže ceste izračunate.';
+}
+
+function opis(f){
+  let adresa = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
+  if (!adresa && f._nearestStreet) adresa = '~' + f._nearestStreetDist + 'm od ' + f._nearestStreet;
+  if (!adresa) adresa = 'Adresa nepoznata';
+  const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
+  const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('');
+  return '<div style="min-width:210px;">' +
+    '<b>' + adresa + '</b><br>' +
+    (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
+    '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + (f.validFrom ? ' · ' + f.validFrom.slice(0,10) : '') + '</div>' +
+    '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +
+    '<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;color:#6B6B6B;">Svi podaci</summary>' +
+    '<div style="font-family:var(--font-mono);font-size:11.5px;margin-top:4px;color:#444;">' + tagoviHtml + '</div></details>' +
+    '</div>';
+}
+
+function trenutnoVidljive(){
+  const q = document.getElementById('q').value.toLowerCase().trim();
+  return FEATURES.filter(f => {
+    if (selectedZup.size > 0 && !selectedZup.has(f.zupanija)) return false;
+    if (selectedBuilding.size > 0 && !selectedBuilding.has(tag(f,'building') || '(bez oznake)')) return false;
+    if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
+    if (q){
+      const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'building')].filter(Boolean).join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
 
 function render(){
-  if(!comparedResults) return;
-  const filtered = getFilteredFeatures();
-  document.getElementById('countLine').textContent =
-    `Prikazano ${filtered.length.toLocaleString('hr-HR')} od ${comparedResults.features.length.toLocaleString('hr-HR')}`;
-
-  const listEl = document.getElementById('list');
-  if(!filtered.length){
-    listEl.innerHTML = '<div class="empty">Nema rezultata za zadani filter.</div>';
-    return;
-  }
-  const MAX = 500;
-  const toRender = filtered.slice(0, MAX);
-  listEl.innerHTML = toRender.map((f, idx) => {
-    let addrHtml;
-    const dgu = dguAddresses && dguAddresses[f.id];
-    if(dgu){
-      const primary = Array.isArray(dgu) ? dgu[0] : dgu;
-      const extra = Array.isArray(dgu) && dgu.length > 1
-        ? `<span class="dgu-extra"> + ${dgu.length - 1} dodatna adresa u ovoj zgradi</span>` : '';
-      addrHtml = `<span class="addr">${primary.street} ${primary.houseNumber}</span>
-        <span class="dgu-badge">Službena adresa</span>${extra}`;
+  cluster.clearLayers();
+  const vidljive = trenutnoVidljive();
+  vidljive.forEach(f => {
+    let layer;
+    if (f.obris && f.obris.length >= 3){
+      const latlngs = f.obris.map(p => [p[1], p[0]]);
+      layer = L.polygon(latlngs, { color: '#B6650C', weight: 1.5, fillColor: '#E8871E', fillOpacity: 0.7 });
+    } else {
+      layer = L.circleMarker([f.lat, f.lon], { radius: 5, color: '#B6650C', weight: 1, fillColor: '#E8871E', fillOpacity: 0.85 });
     }
-    else if(f.address) addrHtml = `<span class="addr">${f.address}</span>`;
-    else if(f.nearestStreet) addrHtml = `<span class="addr unknown">adresa nepoznata</span><span class="nearstreet">≈ ${f.nearestStreetDist} m od: ${f.nearestStreet} (procjena)</span>`;
-    else addrHtml = `<span class="addr unknown">adresa nepoznata</span>`;
-    let badge;
-    if(f.displayCategory === 'confirmed_construction') badge = '<span class="badge-status badge-confirmed">POTVRĐENA NOVOGRADNJA</span>';
-    else if(f.displayCategory === 'new_unconfirmed') badge = '<span class="badge-status badge-unconfirmed">NOVI ZAPIS (nepotvrđeno)</span>';
-    else badge = '<span class="badge-status badge-existing">postojeća</span>';
-    const tagsHtml = Object.entries(f.props||{}).map(([k,v]) => `<div class="tag"><span>${k}</span> = ${v}</div>`).join('');
-    const mapLink = (f.lat != null) ? `<a href="https://www.google.com/maps?q=${f.lat},${f.lon}" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>` : '';
-    return `
-      <div class="row" onclick="document.getElementById('d-${idx}').classList.toggle('open')">
-        ${addrHtml}
-        <div style="display:flex; gap:8px;">${badge}<span class="id">${f.id}</span></div>
-      </div>
-      <div class="details" id="d-${idx}">${mapLink}<div style="margin-top:8px;">${tagsHtml}</div></div>
-    `;
-  }).join('');
-  if(filtered.length > MAX){
-    listEl.innerHTML += `<div class="empty">Prikazano prvih ${MAX} od ${filtered.length}. Suzite pretragu ili filtere.</div>`;
-  }
+    layer.bindPopup(opis(f));
+    cluster.addLayer(layer);
+  });
+  document.getElementById('stats').innerHTML = '<b>' + vidljive.length.toLocaleString('hr-HR') + '</b> prikazanih zgrada';
 }
+
+function buildZupList(){
+  const counts = {};
+  ZUPANIJE.features.forEach(f => counts[f.properties.naziv] = 0);
+  FEATURES.forEach(f => { if (f.zupanija) counts[f.zupanija] = (counts[f.zupanija]||0)+1; });
+  const sorted = Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+  const wrap = document.getElementById('zupList');
+  wrap.innerHTML = '';
+  sorted.forEach(([naziv, c]) => {
+    const row = document.createElement('div');
+    row.className = 'zup-row';
+    row.innerHTML = '<input type="checkbox" checked><span>' + naziv + '</span><span class="cnt">' + c + '</span>';
+    row.querySelector('input').addEventListener('change', (e) => {
+      if (e.target.checked) selectedZup.delete(naziv); else selectedZup.add(naziv);
+      render();
+    });
+    wrap.appendChild(row);
+  });
+}
+
+function buildFacetList(containerId, key, fallback, selectedSet){
+  const counts = {};
+  FEATURES.forEach(f => {
+    const v = tag(f, key) || fallback;
+    counts[v] = (counts[v]||0) + 1;
+  });
+  let entries = Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+  if (key === 'building:levels') entries = entries.sort((a,b) => (parseInt(a[0])||99) - (parseInt(b[0])||99));
+  entries = entries.slice(0, 10);
+  const wrap = document.getElementById(containerId);
+  wrap.innerHTML = '';
+  entries.forEach(([val, c]) => {
+    const row = document.createElement('div');
+    row.className = 'facet-row';
+    row.innerHTML = '<input type="checkbox"><span>' + val + '</span><span class="cnt">' + c + '</span>';
+    row.querySelector('input').addEventListener('change', (e) => {
+      if (e.target.checked) selectedSet.add(val); else selectedSet.delete(val);
+      render();
+    });
+    wrap.appendChild(row);
+  });
+}
+
+document.getElementById('q').addEventListener('input', render);
+document.getElementById('rangeLabel').textContent = FEATURES.length.toLocaleString('hr-HR') + ' zgrada u odabranom razdoblju';
+buildZupList();
+buildFacetList('buildingList', 'building', '(bez oznake)', selectedBuilding);
+buildFacetList('levelsList', 'building:levels', '(nepoznato)', selectedLevels);
+render();
+izracunajNajblizeCeste(FEATURES);
+<\/script>
+</body></html>`;
+}
+
+function formatDatum(iso){
+  if (!iso) return '–';
+  const d = new Date(iso);
+  if (isNaN(d)) return '–';
+  return d.toLocaleDateString('hr-HR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+init().catch(err => {
+  console.error(err);
+  $('#updatedTag').innerHTML = '<span class="updated-dot" style="background:#C0392B;"></span> Greška pri učitavanju podataka';
+});
 </script>
+
 </body>
 </html>
