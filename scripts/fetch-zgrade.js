@@ -17,6 +17,23 @@ const ZGRADE_DIR = path.join(REPO_ROOT, cfg.ZGRADE_DIR);
 const MANIFEST_PATH = path.join(ZGRADE_DIR, "manifest.json");
 
 const OHSOME_URL = "https://api.ohsome.org/v1/contributions/geometry";
+const OHSOME_METADATA_URL = "https://api.ohsome.org/v1/metadata";
+
+// ohsome-ova podatkovna baza (OSHDB) NIJE ažurna "uživo" do ovog trenutka —
+// replicira se s kašnjenjem (u praksi i do par tjedana). Zato prije svakog
+// upita pitamo /metadata do kojeg trenutka stvarno ima podataka, umjesto da
+// nagađamo "sada" — inače ohsome vrati 404 s porukom da traženi period
+// izlazi izvan raspoloživog raspona.
+async function getOhsomeLatestTimestamp() {
+  const res = await fetch(OHSOME_METADATA_URL, {
+    headers: { "User-Agent": cfg.USER_AGENT },
+  });
+  if (!res.ok) {
+    throw new Error(`ohsome /metadata neuspio: HTTP ${res.status}`);
+  }
+  const data = await res.json();
+  return data.extractRegion.temporalExtent.toTimestamp;
+}
 
 function loadManifest() {
   if (!fs.existsSync(MANIFEST_PATH)) {
@@ -135,10 +152,10 @@ async function main() {
   const manifest = loadManifest();
 
   const fromISO = computeFromTimestamp(manifest);
-  const toISO = new Date().toISOString().slice(0, 19);
+  const toISO = (await getOhsomeLatestTimestamp()).slice(0, 19);
 
   if (new Date(toISO) <= new Date(fromISO)) {
-    console.log("Nema novog vremenskog prozora za obraditi (from >= to) — preskačem.");
+    console.log("Nema novog vremenskog prozora za obraditi (ohsome jos nema svježijih podataka od zadnjeg pokretanja) — preskačem.");
     return;
   }
 
