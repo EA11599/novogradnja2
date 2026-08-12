@@ -1,30 +1,50 @@
 # novogradnja2
 
-Dvije povezane stranice, jedan repozitorij:
+Status: **`index.html`** (praćenje novih zgrada) je u aktivnoj upotrebi, na
+razini cijele Hrvatske. **`dozvole.html`** postoji u repozitoriju ali je
+privremeno isključena iz navigacije dok se ekstrakcija PDF dozvola ne
+usavrši — kod ostaje netaknut za kasnije.
 
-- **`index.html`** — usporedba dva OSM shapefile snimka zgrada (izvorna
-  `novogradnja` funkcionalnost, nepromijenjena).
-- **`dozvole.html`** — dnevnik izdanih dozvola s eDozvola oglasne ploče, s
-  listom, filterima i kartom. Podaci dolaze iz automatskog dnevnog pipelinea
-  (`scripts/fetch-dozvole.js`, pokreće ga GitHub Actions).
+## Kako radi praćenje zgrada (novo, nacionalna razina)
 
-Navigacija na vrhu obje stranice omogućava prebacivanje između njih.
+Umjesto ranijeg ručnog uploada dva shapefile snimka, sad postoji **tjedni
+automatski pipeline** (`scripts/fetch-zgrade.js`, pokreće ga GitHub Actions
+— `.github/workflows/tjedni-pipeline-zgrade.yml`, svaki ponedjeljak):
+
+1. Dohvati granicu Hrvatske (jednom, keš-irano u `data/hr-granica.geojson`).
+2. Upitom prema **ohsome API-ju** (`contributions/geometry`,
+   `contributionType=creation`) dohvati SVE zgrade novokreirane u OSM-u od
+   zadnjeg pokretanja do sada — nacionalno, bez potrebe za skidanjem i
+   lokalnim uspoređivanjem cijelog nacionalnog sloja zgrada (to bi bilo
+   presporo i preveliko za besplatan GitHub repo).
+3. Spremi tu razliku kao malu datoteku `data/zgrade/novo-YYYY-MM-DD.json`.
+4. Obriši diff-datoteke starije od `RETENTION_WEEKS` (zadano 13 tjedana ≈ 3
+   mjeseca — mijenja se u `scripts/zgrade-config.js`, jedno mjesto za sva
+   podešavanja).
+
+**Napomena:** ohsome API je u prošlosti znao vraćati 500 grešku i na
+naizgled ispravne upite (vjerojatno privremeni server-side problem, ne
+naša greška) — prvo pokretanje pipelinea treba provjeriti preko GitHub
+Actions loga da stvarno prođe, prije nego se osloni na tjedni raspored.
 
 ## Struktura podataka
 
 ```
 data/
-  manifest.json              ← snimci zgrada za usporedbu (index.html)
-  zgrade_*.zip                ← sami shapefile snimci
+  hr-granica.geojson          ← keš granice Hrvatske (Nominatim, dohvaća se jednom)
+  zgrade/
+    manifest.json              ← popis tjednih diff-datoteka (datum, broj novih zgrada)
+    novo-YYYY-MM-DD.json        ← nove zgrade otkrivene tog tjedna
   dozvole/
-    dnevnik.json              ← rastući dnevnik dozvola (dozvole.html)
-    manifest.json             ← status zadnjeg pokretanja pipelinea
+    dnevnik.json                ← rastući dnevnik dozvola (dozvole.html, trenutno neaktivno)
+    manifest.json
 ```
 
-Namjerno odvojeno od `data/manifest.json` (koji je vezan uz `index.html`
-usporedbu) da ne dođe do sudara imena.
+Stari `data/manifest.json` i `data/zgrade_*.zip` (ručni shapefile snimci)
+ostaju u repozitoriju kao povijesni podaci dok se frontend ne prebaci na
+novi format — vidi otvorenu stavku niže.
 
-## Pipeline za dozvole
+## Pipeline za dozvole (trenutno neaktivan u navigaciji)
 
 ```
 npm install
@@ -34,6 +54,18 @@ npm run fetch
 Detalji, uključujući **otvoreno pitanje oko dohvata sadržaja PDF-a** i
 **potrebnu izmjenu `NOMINATIM_USER_AGENT` prije prvog pokretanja**, opisani
 su izravno u `scripts/fetch-dozvole.js` kao komentari uz relevantne funkcije.
+
+## Otvorene stavke
+
+- [ ] **Frontend za `index.html` još čita stari format** (dva puna shapefile
+      snimka iz `data/manifest.json`). Treba prebaciti na čitanje novog
+      `data/zgrade/manifest.json` + spajanje `novo-*.json` datoteka po
+      odabranom vremenskom prozoru. Sljedeći korak nakon što se potvrdi da
+      pipeline stvarno vraća podatke.
+- [ ] Notifikacije (email, kasnije push) — treba Supabase (baza pretplatnika)
+      + Resend (slanje emailova); kuka je već ostavljena kao TODO komentar
+      na dnu `scripts/fetch-zgrade.js`.
+- [ ] Vlastita domena, kad bude budžeta.
 
 ## Kako postaviti na GitHub
 

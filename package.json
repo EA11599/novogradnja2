@@ -5,7 +5,8 @@
   "description": "Dnevni pipeline koji prati izdane građevinske dozvole preko eDozvola oglasne ploče",
   "type": "commonjs",
   "scripts": {
-    "fetch": "node scripts/fetch-dozvole.js"
+    "fetch": "node scripts/fetch-dozvole.js",
+    "fetch:zgrade": "node scripts/fetch-zgrade.js"
   },
   "dependencies": {
     "pdf-parse": "^1.1.1",
