@@ -71,12 +71,19 @@ function computeFromTimestamp(manifest) {
 }
 
 async function fetchNoveZgrade(fromISO, toISO) {
+  // VAŽNO: koristimo "changed:from,to" (PRAVI raspon, dvije granice), NE
+  // "newer:from" — potonji ima SAMO donju granicu i uvijek vraća "sve
+  // novije od X do stvarnog trenutka upita", bez obzira na naš namjeravani
+  // kraj perioda. To je uzrokovalo preklapanje/dupliciranje podataka između
+  // tjednih komada (svaki komad je zapravo dohvaćao cijeli preostali rep,
+  // ne samo svoj tjedan). "changed" je sporiji od "newer" na vrlo velikim
+  // upitima, ali ispravan — i naši komadi su svakako mali (≤7 dana).
   const query = `
     [out:json][timeout:180];
     area["ISO3166-1"="HR"][admin_level=2]->.hr;
     (
-      way["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
-      relation["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
+      way["building"](changed:"${fromISO}","${toISO}")(area.hr)(if:version()==1);
+      relation["building"](changed:"${fromISO}","${toISO}")(area.hr)(if:version()==1);
     );
     out center meta tags;
   `;
