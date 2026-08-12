@@ -4,18 +4,10 @@ module.exports = {
   // Koliko tjedana povijesti (diff-datoteka) čuvamo. 13 tjedana ≈ 3 mjeseca.
   RETENTION_WEEKS: 13,
 
-  // ohsome filter — samo zgrade (way/relation geometrija, bez pojedinačnih
-  // node-ova koji su npr. adresne točke unutar drugih objekata).
-  OHSOME_FILTER: "building=* and geometry:polygon",
-
-  // Kontakt koji šaljemo kao User-Agent na sve vanjske servise (Nominatim,
-  // ohsome) — obavezna dobra praksa, zamijeni pravim kontaktom prije
-  // prvog pravog pokretanja u produkciji.
+  // Kontakt koji šaljemo kao User-Agent na Overpass API — obavezna dobra
+  // praksa, zamijeni pravim kontaktom prije prvog pravog pokretanja u
+  // produkciji.
   USER_AGENT: "novogradnja2-pipeline/1.0 (kontakt: ea11599 na GitHubu)",
-
-  // Gdje se sprema (i keš-ira) granica Hrvatske, da je ne dohvaćamo iznova
-  // svaki tjedan.
-  BOUNDARY_FILE: "data/hr-granica.geojson",
 
   // Direktorij s tjednim diff-datotekama i njihovim manifestom.
   ZGRADE_DIR: "data/zgrade",
