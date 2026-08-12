@@ -14,13 +14,15 @@ const REPO_ROOT = path.join(__dirname, "..");
 const OUTPUT_PATH = path.join(REPO_ROOT, "data", "zupanije.geojson");
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 
-// admin_level=6 + boundary=administrative je standardna OSM oznaka za
-// hrvatske županije (Grad Zagreb je posebna, admin_level=6 relacija s
-// istim statusom kao županija — uključena je automatski ovim upitom).
+// NAPOMENA: prvi pokušaj je koristio admin_level=6 + area["ISO3166-1"="HR"]
+// filter, što je pogrešno vratilo SRPSKE upravne okruge (Overpass-ov area
+// filter zna imati rubne slučajeve na granicama). Ispravno rješenje:
+// hrvatske županije su admin_level=4 (ne 6), i filtriramo direktno po
+// ISO3166-2 kodu (HR-01 do HR-21) — precizno, bez oslanjanja na area
+// geometriju za samo filtriranje.
 const QUERY = `
   [out:json][timeout:180];
-  area["ISO3166-1"="HR"][admin_level=2]->.hr;
-  relation["admin_level"="6"]["boundary"="administrative"](area.hr);
+  relation["boundary"="administrative"]["ISO3166-2"~"^HR-"];
   out geom;
 `;
 
@@ -59,6 +61,10 @@ async function main() {
 
   console.log(`Zadržano ${geojson.features.length} poligona županija:`);
   geojson.features.forEach((f) => console.log(`  - ${f.properties.naziv}`));
+
+  if (geojson.features.length !== 21) {
+    console.log(`UPOZORENJE: očekivano točno 21 (20 županija + Grad Zagreb), dobiveno ${geojson.features.length}. Provjeri popis iznad prije korištenja.`);
+  }
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(geojson));
   console.log(`Spremljeno u data/zupanije.geojson`);
