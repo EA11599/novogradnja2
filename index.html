@@ -542,7 +542,6 @@
     <div class="facet-panel" id="facetPanel"></div>
     <div id="tableWrap"></div>
     <div class="list-footer" id="listFooter"></div>
-    <div class="list-footer" id="roadsStatus" style="padding-top:0;"></div>
   </div>
 </main>
 
@@ -552,87 +551,19 @@
 
 <script>
 const $ = (sel) => document.querySelector(sel);
+function tag(f, k){ return (f.tags && f.tags[k]) || null; }
+
+// Najbliža cesta se računa u pipeline-u (GitHub Actions), NE ovdje —
+// izravni pozivi prema Overpass-u iz preglednika s GitHub Pages domene
+// blokirani su CORS politikom servera. Ovdje samo čitamo gotov podatak
+// koji je pipeline već spremio (f.nearestStreet / f.nearestStreetDist).
 function prikazAdrese(f){
   const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
   if (prava) return prava;
-  if (f._nearestStreet) return '~' + f._nearestStreetDist + 'm od ' + f._nearestStreet;
+  if (f.nearestStreet) return '~' + f.nearestStreetDist + 'm od ' + f.nearestStreet;
   return null;
 }
 
-function tag(f, k){ return (f.tags && f.tags[k]) || null; }
-
-// ---------- najbliža cesta (automatski, za zgrade bez addr:street) ----------
-function haversineM(lat1, lon1, lat2, lon2){
-  const R = 6371000;
-  const p1 = lat1*Math.PI/180, p2 = lat2*Math.PI/180;
-  const dphi = (lat2-lat1)*Math.PI/180, dlambda = (lon2-lon1)*Math.PI/180;
-  const a = Math.sin(dphi/2)**2 + Math.cos(p1)*Math.cos(p2)*Math.sin(dlambda/2)**2;
-  return 2*R*Math.asin(Math.sqrt(a));
-}
-async function fetchRoadsAuto(bbox){
-  const mirrors = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
-  const query = '[out:json][timeout:60];way["highway"]["name"](' + bbox.minLat + ',' + bbox.minLon + ',' + bbox.maxLat + ',' + bbox.maxLon + ');out geom;';
-  let lastErr;
-  for (const mirror of mirrors){
-    try{
-      const resp = await fetch(mirror, { method:'POST', body:'data='+encodeURIComponent(query), headers:{'Content-Type':'application/x-www-form-urlencoded'} });
-      if (!resp.ok) throw new Error('HTTP ' + resp.status);
-      const body = await resp.json();
-      const roads = (body.elements||[]).map(el => ({ name: el.tags && el.tags.name, points: (el.geometry||[]).map(p => [p.lat,p.lon]) })).filter(r => r.name && r.points.length);
-      if (!roads.length) throw new Error('Prazan odgovor');
-      return roads;
-    }catch(e){ lastErr = e; }
-  }
-  throw lastErr || new Error('Nepoznata greška');
-}
-
-async function izracunajNajblizeCeste(features){
-  const statusEl = $('#roadsStatus');
-  const bezAdrese = features.filter(f => !tag(f,'addr:street') && f.lat !== null && f.lon !== null && !f._nearestStreet);
-  if (!bezAdrese.length) { statusEl.textContent = ''; return; }
-
-  const poZupaniji = {};
-  bezAdrese.forEach(f => {
-    const key = f.zupanija || '__bez__';
-    (poZupaniji[key] = poZupaniji[key] || []).push(f);
-  });
-
-  let obradjeno = 0;
-  const ukupnoZupanija = Object.keys(poZupaniji).length;
-  statusEl.textContent = 'Tražim najbliže ceste za ' + bezAdrese.length + ' zgrada bez adrese...';
-
-  for (const [zupanija, skupina] of Object.entries(poZupaniji)){
-    const lats = skupina.map(f=>f.lat), lons = skupina.map(f=>f.lon);
-    const bbox = { minLat: Math.min(...lats)-0.01, maxLat: Math.max(...lats)+0.01, minLon: Math.min(...lons)-0.01, maxLon: Math.max(...lons)+0.01 };
-    try{
-      const roads = await fetchRoadsAuto(bbox);
-      const CELL = 0.003;
-      const grid = {};
-      const key = (lat,lon) => Math.floor(lat/CELL) + '_' + Math.floor(lon/CELL);
-      roads.forEach(r => r.points.forEach(([lat,lon]) => {
-        const k = key(lat,lon);
-        (grid[k] = grid[k]||[]).push([lat,lon,r.name]);
-      }));
-      skupina.forEach(f => {
-        const cLat = Math.floor(f.lat/CELL), cLon = Math.floor(f.lon/CELL);
-        let best = null, bestDist = Infinity;
-        for (let dl=-2; dl<=2; dl++) for (let dn=-2; dn<=2; dn++){
-          const pts = grid[(cLat+dl)+'_'+(cLon+dn)];
-          if (!pts) continue;
-          pts.forEach(([lat,lon,name]) => { const d = haversineM(f.lat,f.lon,lat,lon); if (d<bestDist){ bestDist=d; best=name; } });
-        }
-        if (best){ f._nearestStreet = best; f._nearestStreetDist = Math.round(bestDist); }
-      });
-    }catch(err){
-      console.warn('Najbliža cesta nije dohvaćena za ' + zupanija + ':', err.message);
-    }
-    // osvježi prikaz nakon svake županije, ne tek na kraju - korisnik vidi rezultate postupno
-    obradjeno++;
-    statusEl.textContent = 'Najbliže ceste: ' + obradjeno + '/' + ukupnoZupanija + ' županija obrađeno.';
-    updateTable();
-  }
-  statusEl.textContent = 'Najbliže ceste izračunate za zgrade bez adrese.';
-}
 
 let manifest = null;
 let zupanijeGeo = null;
@@ -719,10 +650,6 @@ async function selectWindow(weeks){
   updateMap();
   updateTable();
   if (facetPanelOpen) renderFacetPanel();
-
-  // Radi u pozadini - ne čekamo da završi prije prikaza ostatka stranice.
-  // updateTable() se poziva iznutra nakon svake obrađene županije.
-  izracunajNajblizeCeste(allFeaturesInWindow);
 }
 
 function updateStats(entries){
@@ -1105,7 +1032,6 @@ function buildDetailMapHtml(features, zupanije){
     <div class="extra-toggle-row">
       <label><input type="checkbox" id="dguToggle"> Prikaži DGU adrese (samo Grad Zagreb)</label>
       <div class="note">Nacionalni DGU sloj još nije dostupan — točke se učitavaju samo za zagrebačko područje.</div>
-      <div id="roadsStatus" style="margin-top:8px;"></div>
     </div>
     <div id="stats"></div>
   </div>
@@ -1156,80 +1082,12 @@ function loadDgu(){
   });
 }
 
-// ---------- najbliza cesta (rucno pokretanje, samo za trenutno vidljive zgrade) ----------
-function haversineM(lat1, lon1, lat2, lon2){
-  const R = 6371000;
-  const p1 = lat1*Math.PI/180, p2 = lat2*Math.PI/180;
-  const dphi = (lat2-lat1)*Math.PI/180, dlambda = (lon2-lon1)*Math.PI/180;
-  const a = Math.sin(dphi/2)**2 + Math.cos(p1)*Math.cos(p2)*Math.sin(dlambda/2)**2;
-  return 2*R*Math.asin(Math.sqrt(a));
-}
-async function fetchRoadsAuto(bbox){
-  const mirrors = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
-  const query = '[out:json][timeout:30];way["highway"]["name"](' + bbox.minLat + ',' + bbox.minLon + ',' + bbox.maxLat + ',' + bbox.maxLon + ');out geom;';
-  let lastErr;
-  for (const mirror of mirrors){
-    try{
-      const resp = await fetch(mirror, { method:'POST', body:'data='+encodeURIComponent(query), headers:{'Content-Type':'application/x-www-form-urlencoded'} });
-      if (!resp.ok) throw new Error('HTTP ' + resp.status);
-      const body = await resp.json();
-      const roads = (body.elements||[]).map(el => ({ name: el.tags && el.tags.name, points: (el.geometry||[]).map(p => [p.lat,p.lon]) })).filter(r => r.name && r.points.length);
-      if (!roads.length) throw new Error('Prazan odgovor');
-      return roads;
-    }catch(e){ lastErr = e; }
-  }
-  throw lastErr || new Error('Nepoznata greška');
-}
-async function izracunajNajblizeCeste(features){
-  const statusEl = document.getElementById('roadsStatus');
-  const bezAdrese = features.filter(f => !tag(f,'addr:street') && !f._nearestStreet);
-  if (!bezAdrese.length) return;
-
-  const poZupaniji = {};
-  bezAdrese.forEach(f => {
-    const key = f.zupanija || '__bez__';
-    (poZupaniji[key] = poZupaniji[key] || []).push(f);
-  });
-
-  let obradjeno = 0;
-  const ukupnoZupanija = Object.keys(poZupaniji).length;
-  statusEl.textContent = 'Tražim najbliže ceste za zgrade bez adrese...';
-
-  for (const [zupanija, skupina] of Object.entries(poZupaniji)){
-    const lats = skupina.map(f=>f.lat), lons = skupina.map(f=>f.lon);
-    const bbox = { minLat: Math.min(...lats)-0.01, maxLat: Math.max(...lats)+0.01, minLon: Math.min(...lons)-0.01, maxLon: Math.max(...lons)+0.01 };
-    try{
-      const roads = await fetchRoadsAuto(bbox);
-      const CELL = 0.003;
-      const grid = {};
-      const key = (lat,lon) => Math.floor(lat/CELL) + '_' + Math.floor(lon/CELL);
-      roads.forEach(r => r.points.forEach(([lat,lon]) => {
-        const k = key(lat,lon);
-        (grid[k] = grid[k]||[]).push([lat,lon,r.name]);
-      }));
-      skupina.forEach(f => {
-        const cLat = Math.floor(f.lat/CELL), cLon = Math.floor(f.lon/CELL);
-        let best = null, bestDist = Infinity;
-        for (let dl=-2; dl<=2; dl++) for (let dn=-2; dn<=2; dn++){
-          const pts = grid[(cLat+dl)+'_'+(cLon+dn)];
-          if (!pts) continue;
-          pts.forEach(([lat,lon,name]) => { const d = haversineM(f.lat,f.lon,lat,lon); if (d<bestDist){ bestDist=d; best=name; } });
-        }
-        if (best){ f._nearestStreet = best; f._nearestStreetDist = Math.round(bestDist); }
-      });
-    }catch(err){
-      console.warn('Najbliža cesta nije dohvaćena za ' + zupanija + ':', err.message);
-    }
-    obradjeno++;
-    statusEl.textContent = 'Najbliže ceste: ' + obradjeno + '/' + ukupnoZupanija + ' županija obrađeno.';
-    render();
-  }
-  statusEl.textContent = 'Najbliže ceste izračunate.';
-}
+// Najbliža cesta se računa u pipeline-u (GitHub Actions), ne ovdje uživo —
+// vidi scripts/lib/najbliza-cesta.js. Ovdje samo čitamo gotov podatak.
 
 function opis(f){
   let adresa = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
-  if (!adresa && f._nearestStreet) adresa = '~' + f._nearestStreetDist + 'm od ' + f._nearestStreet;
+  if (!adresa && f.nearestStreet) adresa = '~' + f.nearestStreetDist + 'm od ' + f.nearestStreet;
   if (!adresa) adresa = 'Adresa nepoznata';
   const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('');
@@ -1322,7 +1180,6 @@ buildZupList();
 buildFacetList('buildingList', 'building', '(bez oznake)', selectedBuilding);
 buildFacetList('levelsList', 'building:levels', '(nepoznato)', selectedLevels);
 render();
-izracunajNajblizeCeste(FEATURES);
 <\/script>
 </body></html>`;
 }

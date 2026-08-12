@@ -20,6 +20,7 @@ const path = require("path");
 const cfg = require("./zgrade-config");
 const booleanPointInPolygon = require("@turf/boolean-point-in-polygon").default;
 const { point: turfPoint } = require("@turf/helpers");
+const { dodajNajblizuCestu } = require("./lib/najbliza-cesta");
 
 const REPO_ROOT = path.join(__dirname, "..");
 const ZGRADE_DIR = path.join(REPO_ROOT, cfg.ZGRADE_DIR);
@@ -99,7 +100,7 @@ async function fetchNoveZgrade(fromISO, toISO) {
       way["building"](changed:"${fromISO}","${toISO}")(area.hr)(if:version()==1);
       relation["building"](changed:"${fromISO}","${toISO}")(area.hr)(if:version()==1);
     );
-    out center meta tags;
+    out geom meta tags;
   `;
 
   // Javni Overpass server zna biti privremeno prezauzet (502/503/504) —
@@ -167,21 +168,43 @@ async function posaljiUpit(query) {
 
 function toSlimFeature(el, zupanije) {
   const tags = el.tags || {};
-  const center = el.center || {};
-  const lat = typeof center.lat === "number" ? +center.lat.toFixed(6) : null;
-  const lon = typeof center.lon === "number" ? +center.lon.toFixed(6) : null;
+  // "out geom" daje puni niz čvorova za way (el.geometry: [{lat,lon},...]) —
+  // to je pravi obris zgrade, ne samo centar. Za relacije (multipoligoni,
+  // rijetki slučaj — svega par posto zgrada) Overpass vraća složeniju
+  // strukturu (members s pod-geometrijama); to za sada ne rastavljamo u
+  // poligon (frontend će za njih prikazati samo točku), da ne kompliciramo
+  // pipeline radi manjine slučajeva.
+  let obris = null;
+  let lat = null, lon = null;
+
+  if (el.type === "way" && Array.isArray(el.geometry) && el.geometry.length > 0) {
+    obris = el.geometry
+      .filter((n) => n && typeof n.lat === "number" && typeof n.lon === "number")
+      .map((n) => [+n.lon.toFixed(6), +n.lat.toFixed(6)]);
+    const centroid = centroidOfRing(obris);
+    lat = centroid[1];
+    lon = centroid[0];
+  } else if (el.center) {
+    lat = typeof el.center.lat === "number" ? +el.center.lat.toFixed(6) : null;
+    lon = typeof el.center.lon === "number" ? +el.center.lon.toFixed(6) : null;
+  }
+
   return {
     id: `${el.type}/${el.id}`,
     lat,
     lon,
-    building: tags.building || null,
-    name: tags.name || null,
-    addr_street: tags["addr:street"] || null,
-    addr_housenumber: tags["addr:housenumber"] || null,
-    addr_city: tags["addr:city"] || null,
+    obris, // niz [lon,lat] točaka ili null (relacije / nedostupna geometrija)
+    tags,  // SVE sirove OSM oznake (building, addr:*, building:levels, name, ...) — ne biramo unaprijed koje su bitne
     zupanija: pronadjiZupaniju(zupanije, lon, lat),
     validFrom: el.timestamp || null,
   };
+}
+
+function centroidOfRing(ring) {
+  if (!ring || ring.length === 0) return [null, null];
+  let sx = 0, sy = 0;
+  for (const [x, y] of ring) { sx += x; sy += y; }
+  return [sx / ring.length, sy / ring.length];
 }
 
 function pruneOldEntries(manifest) {
@@ -209,6 +232,9 @@ async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   console.log(`Dohvaćam: ${fromISO} -> ${toISO}`);
   const elements = await fetchNoveZgrade(fromISO, toISO);
   const features = elements.map((el) => toSlimFeature(el, zupanije));
+
+  console.log(`  Računam najbližu cestu za zgrade bez addr:street...`);
+  await dodajNajblizuCestu(features);
 
   const dateLabel = toISO.slice(0, 10);
   const fileName = `novo-${dateLabel}.json`;

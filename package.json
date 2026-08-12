@@ -7,7 +7,8 @@
   "scripts": {
     "fetch": "node scripts/fetch-dozvole.js",
     "fetch:zgrade": "node scripts/fetch-zgrade.js",
-    "fetch:zupanije": "node scripts/fetch-zupanije.js"
+    "fetch:zupanije": "node scripts/fetch-zupanije.js",
+    "backfill:najbliza-cesta": "node scripts/backfill-nearest-street.js"
   },
   "dependencies": {
     "@turf/boolean-point-in-polygon": "^7.4.0",
