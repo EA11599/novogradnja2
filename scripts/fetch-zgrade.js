@@ -47,8 +47,12 @@ async function fetchNoveZgrade(granica, fromISO, toISO) {
     bpolys: JSON.stringify({ type: "FeatureCollection", features: [granica] }),
     filter: cfg.OHSOME_FILTER,
     time: `${fromISO},${toISO}`,
-    contributionType: "creation",
-    properties: "tags",
+    // "/contributions/geometry" NE podržava contributionType kao filter
+    // parametar (to postoji samo na /contributions/count i sličnima) —
+    // umjesto toga tražimo metadata, koja uz svaki element vrati zastavicu
+    // @creation/@deletion/@tagChange/@geometryChange, pa filtriramo lokalno.
+    properties: "metadata,tags",
+    clipGeometry: "true",
   });
 
   const res = await fetch(OHSOME_URL, {
@@ -69,7 +73,13 @@ async function fetchNoveZgrade(granica, fromISO, toISO) {
       `ohsome ${res.status} ${res.statusText}\nOdgovor: ${text.slice(0, 1000)}`
     );
   }
-  return JSON.parse(text);
+  const parsed = JSON.parse(text);
+  // Lokalni filter: zadrži samo elemente koji su STVARNO novonastali u ovom
+  // periodu (ne tag/geometry promjene postojećih zgrada).
+  parsed.features = (parsed.features || []).filter(
+    (f) => f.properties && f.properties["@creation"] === true
+  );
+  return parsed;
 }
 
 function toSlimFeature(f) {
@@ -84,7 +94,7 @@ function toSlimFeature(f) {
     addr_street: props["addr:street"] || null,
     addr_housenumber: props["addr:housenumber"] || null,
     addr_city: props["addr:city"] || null,
-    validFrom: props["@validFrom"] || null,
+    validFrom: props["@timestamp"] || null,
   };
 }
 
