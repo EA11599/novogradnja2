@@ -75,8 +75,8 @@ async function fetchNoveZgrade(fromISO) {
     [out:json][timeout:180];
     area["ISO3166-1"="HR"][admin_level=2]->.hr;
     (
-      way["building"](newer:"${fromISO}")(area.hr);
-      relation["building"](newer:"${fromISO}")(area.hr);
+      way["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
+      relation["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
     );
     out center meta tags;
   `;
@@ -106,7 +106,9 @@ async function fetchNoveZgrade(fromISO) {
 
   // version === 1 => prva verzija tog elementa ikad => stvarno nov, ne
   // izmjena postojeće zgrade koja je slučajno uhvaćena "newer" filterom.
-  return (parsed.elements || []).filter((el) => el.version === 1);
+  // Number(...) jer Overpass zna vratiti version kao string, a strogo ===1
+  // bi tad uvijek bilo false (upravo ovo je uzrokovalo 0 rezultata ranije).
+  return (parsed.elements || []).filter((el) => Number(el.version) === 1);
 }
 
 function toSlimFeature(el) {
