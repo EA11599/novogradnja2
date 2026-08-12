@@ -48,17 +48,26 @@ function saveManifest(manifest) {
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
 }
 
+// Overpass zahtijeva TOČAN format "yyyy-mm-ddThh:mm:ssZ" (sa sekundama).
+// Stari zapisi u manifestu (spremljeni dok je pipeline još koristio ohsome)
+// znaju biti u formatu bez sekundi (npr. "2026-07-27T09:00Z") — ovo
+// normalizira bilo koji ispravan ISO string u točan oblik koji Overpass
+// očekuje.
+function normalizeTimestamp(ts) {
+  return new Date(ts).toISOString().slice(0, 19) + "Z";
+}
+
 // Vrijeme od kojeg gledamo nove zgrade: odmah nakon zadnjeg zabilježenog
 // pokretanja (bez rupa i bez preklapanja), ili — ako je ovo prvi put —
 // FIRST_RUN_LOOKBACK_DAYS dana unatrag od pravog "sada" (Overpass je uživo,
 // pa za razliku od ohsome-a ovdje "sada" stvarno znači sada).
 function computeFromTimestamp(manifest) {
   if (manifest.entries.length > 0) {
-    return manifest.entries[manifest.entries.length - 1].to;
+    return normalizeTimestamp(manifest.entries[manifest.entries.length - 1].to);
   }
   const d = new Date();
   d.setUTCDate(d.getUTCDate() - cfg.FIRST_RUN_LOOKBACK_DAYS);
-  return d.toISOString().slice(0, 19) + "Z";
+  return normalizeTimestamp(d);
 }
 
 async function fetchNoveZgrade(fromISO) {
@@ -138,7 +147,7 @@ function pruneOldEntries(manifest) {
 async function main() {
   const manifest = loadManifest();
   const fromISO = computeFromTimestamp(manifest);
-  const toISO = new Date().toISOString().slice(0, 19) + "Z";
+  const toISO = normalizeTimestamp(new Date());
 
   if (new Date(toISO) <= new Date(fromISO)) {
     console.log("Nema novog vremenskog prozora za obraditi — preskačem.");
