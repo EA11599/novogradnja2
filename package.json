@@ -6,9 +6,13 @@
   "type": "commonjs",
   "scripts": {
     "fetch": "node scripts/fetch-dozvole.js",
-    "fetch:zgrade": "node scripts/fetch-zgrade.js"
+    "fetch:zgrade": "node scripts/fetch-zgrade.js",
+    "fetch:zupanije": "node scripts/fetch-zupanije.js"
   },
   "dependencies": {
+    "@turf/boolean-point-in-polygon": "^7.4.0",
+    "@turf/helpers": "^7.4.0",
+    "osmtogeojson": "^3.0.0-beta.5",
     "pdf-parse": "^1.1.1",
     "puppeteer": "^23.0.0"
   }

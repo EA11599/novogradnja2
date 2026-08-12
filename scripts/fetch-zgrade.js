@@ -1,22 +1,11 @@
 // Tjedni pipeline: dohvaća SVE zgrade novokreirane u OSM-u na području
-// Hrvatske u zadanom vremenskom prozoru (koristi ohsome "contributions"
-// endpoint — vraća samo ono što je stvarno promijenjeno/dodano, pa ne
-// moramo skidati i lokalno uspoređivati cijeli nacionalni sloj zgrada
-// svaki put, što ne bi stalo u besplatan GitHub repo).
-//
-// Pokreće se preko GitHub Actions (.github/workflows/tjedni-pipeline-zgrade.yml)
-// jednom tjedno. Može se pokrenuti i ručno: `npm run fetch:zgrade`.
-
-// Tjedni pipeline: dohvaća SVE zgrade novokreirane u OSM-u na području
 // Hrvatske u zadanom vremenskom prozoru.
 //
 // Koristi Overpass API (overpass-api.de), NE ohsome — Overpass radi nad
 // glavnom OSM bazom koja se ažurira MINUTNO (gotovo uživo), dok ohsome ima
 // vlastitu repliciranu bazu koja zna kasniti i tjednima za stvarnošću (to
 // smo utvrdili u praksi: tražili "do danas", ohsome je imao podatke samo
-// do prije 2+ tjedna). Overpass-ov `newer:` filter efikasno vraća samo
-// elemente promijenjene/nastale nakon zadanog trenutka, bez potrebe da
-// skidamo cijeli nacionalni sloj zgrada.
+// do prije 2+ tjedna).
 //
 // Da razlikujemo STVARNO nove zgrade od običnih izmjena postojećih (npr.
 // netko doda adresu na staru zgradu), gledamo `version === 1` — to znači
@@ -29,15 +18,40 @@
 const fs = require("fs");
 const path = require("path");
 const cfg = require("./zgrade-config");
+const booleanPointInPolygon = require("@turf/boolean-point-in-polygon").default;
+const { point: turfPoint } = require("@turf/helpers");
 
 const REPO_ROOT = path.join(__dirname, "..");
 const ZGRADE_DIR = path.join(REPO_ROOT, cfg.ZGRADE_DIR);
 const MANIFEST_PATH = path.join(ZGRADE_DIR, "manifest.json");
+const ZUPANIJE_PATH = path.join(REPO_ROOT, "data", "zupanije.geojson");
 
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 
+// Učitava granice županija (jednom po pokretanju) da svakoj novoj zgradi
+// možemo pridružiti županiju preko point-in-polygon provjere. Ako datoteka
+// još ne postoji (npr. dohvati-zupanije.yml se nikad nije pokrenuo), samo
+// nastavljamo bez tog polja — ne rušimo cijeli pipeline zbog toga.
+function loadZupanije() {
+  if (!fs.existsSync(ZUPANIJE_PATH)) {
+    console.log("Napomena: data/zupanije.geojson ne postoji — zgrade neće imati pridruženu županiju. Pokreni 'Dohvati granice zupanija' workflow.");
+    return null;
+  }
+  return JSON.parse(fs.readFileSync(ZUPANIJE_PATH, "utf8"));
+}
+
+function pronadjiZupaniju(zupanije, lon, lat) {
+  if (!zupanije || lon === null || lat === null) return null;
+  const pt = turfPoint([lon, lat]);
+  for (const f of zupanije.features) {
+    if (booleanPointInPolygon(pt, f)) return f.properties.naziv;
+  }
+  return null;
+}
+
 function loadManifest() {
   if (!fs.existsSync(MANIFEST_PATH)) {
+
     return { entries: [] };
   }
   return JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf8"));
@@ -151,18 +165,21 @@ async function posaljiUpit(query) {
   return elements;
 }
 
-function toSlimFeature(el) {
+function toSlimFeature(el, zupanije) {
   const tags = el.tags || {};
   const center = el.center || {};
+  const lat = typeof center.lat === "number" ? +center.lat.toFixed(6) : null;
+  const lon = typeof center.lon === "number" ? +center.lon.toFixed(6) : null;
   return {
     id: `${el.type}/${el.id}`,
-    lat: typeof center.lat === "number" ? +center.lat.toFixed(6) : null,
-    lon: typeof center.lon === "number" ? +center.lon.toFixed(6) : null,
+    lat,
+    lon,
     building: tags.building || null,
     name: tags.name || null,
     addr_street: tags["addr:street"] || null,
     addr_housenumber: tags["addr:housenumber"] || null,
     addr_city: tags["addr:city"] || null,
+    zupanija: pronadjiZupaniju(zupanije, lon, lat),
     validFrom: el.timestamp || null,
   };
 }
@@ -188,10 +205,10 @@ function pruneOldEntries(manifest) {
 
 const MAX_DANA_PO_UPITU = 7; // veći periodi se dijele na komade ove veličine
 
-async function obradiJedanKomad(fromISO, toISO, manifest) {
+async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   console.log(`Dohvaćam: ${fromISO} -> ${toISO}`);
   const elements = await fetchNoveZgrade(fromISO, toISO);
-  const features = elements.map(toSlimFeature);
+  const features = elements.map((el) => toSlimFeature(el, zupanije));
 
   const dateLabel = toISO.slice(0, 10);
   const fileName = `novo-${dateLabel}.json`;
@@ -220,6 +237,7 @@ async function obradiJedanKomad(fromISO, toISO, manifest) {
 
 async function main() {
   const manifest = loadManifest();
+  const zupanije = loadZupanije();
   const fromISO = computeFromTimestamp(manifest);
   const toISO = normalizeTimestamp(new Date());
 
@@ -245,7 +263,8 @@ async function main() {
     await obradiJedanKomad(
       normalizeTimestamp(tekuciFrom),
       normalizeTimestamp(tekuciTo),
-      manifest
+      manifest,
+      zupanije
     );
 
     tekuciFrom = tekuciTo;

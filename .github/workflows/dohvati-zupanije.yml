@@ -1,0 +1,37 @@
+name: Dohvati granice zupanija (jednokratno)
+
+on:
+  workflow_dispatch: {}   # samo ručno pokretanje - granice se ne mijenjaju
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-zupanije:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preuzmi repozitorij
+        uses: actions/checkout@v4
+
+      - name: Postavi Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instaliraj ovisnosti
+        run: PUPPETEER_SKIP_DOWNLOAD=true npm install
+
+      - name: Pokreni dohvat granica županija
+        run: node scripts/fetch-zupanije.js
+
+      - name: Commitaj promjene
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/zupanije.geojson
+          if git diff --cached --quiet; then
+            echo "Nema promjena za commit."
+          else
+            git commit -m "Dohvacene granice zupanija"
+            git push
+          fi
