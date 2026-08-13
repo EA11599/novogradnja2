@@ -1,0 +1,41 @@
+name: Mjesecni dohvat DGU adresa
+
+on:
+  schedule:
+    # 1. u mjesecu, 03:00 UTC
+    - cron: "0 3 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-dgu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preuzmi repozitorij
+        uses: actions/checkout@v4
+
+      - name: Postavi Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instaliraj ovisnosti
+        run: PUPPETEER_SKIP_DOWNLOAD=true npm install
+
+      - name: Pokreni dohvat i obradu DGU adresa
+        run: node scripts/fetch-dgu-adrese.js
+
+      - name: Obriši staru "dgu-latest" objavu (ako postoji)
+        run: gh release delete dgu-latest --yes --cleanup-tag || true
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Objavi novu "dgu-latest" objavu s datotekama po županiji
+        run: |
+          gh release create dgu-latest .tmp-dgu-out/*.geojson \
+            --title "DGU adrese (najnovije)" \
+            --notes "Automatski mjesečno ažurirano iz DGU INSPIRE ATOM servisa. Datoteka po županiji."
+        env:
+          GH_TOKEN: ${{ github.token }}

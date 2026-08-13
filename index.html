@@ -977,7 +977,6 @@ $('#detailMapBtn').addEventListener('click', () => {
 function buildDetailMapHtml(features, zupanije){
   const featuresJson = JSON.stringify(features.filter(f => f.lat !== null && f.lon !== null));
   const zupanijeJson = JSON.stringify(zupanije);
-  const dguUrl = new URL('data/zagreb-adrese.geojson', window.location.href).href;
   return `<!DOCTYPE html>
 <html lang="hr"><head><meta charset="UTF-8">
 <title>Nove zgrade — detaljna karta</title>
@@ -1040,8 +1039,9 @@ function buildDetailMapHtml(features, zupanije){
       <div id="levelsList"></div>
     </div>
     <div class="extra-toggle-row">
-      <label><input type="checkbox" id="dguToggle"> Prikaži DGU adrese (samo Grad Zagreb)</label>
-      <div class="note">Nacionalni DGU sloj još nije dostupan — točke se učitavaju samo za zagrebačko područje.</div>
+      <label><input type="checkbox" id="dguToggle"> Prikaži DGU adrese</label>
+      <div class="note">Učitava se po županiji, samo za trenutno vidljive (ovisi o kvačicama iznad). Ažurira se mjesečno.</div>
+      <div id="dguStatus" style="font-size:11.5px;color:var(--text-secondary);margin-top:4px;"></div>
     </div>
     <div id="stats"></div>
   </div>
@@ -1050,12 +1050,15 @@ function buildDetailMapHtml(features, zupanije){
 <script>
 const FEATURES = ${featuresJson};
 const ZUPANIJE = ${zupanijeJson};
-const DGU_URL = ${JSON.stringify(dguUrl)};
+const DGU_BASE_URL = "https://github.com/EA11599/novogradnja2/releases/download/dgu-latest/";
 let selectedZup = new Set();
 let selectedBuilding = new Set();
 let selectedLevels = new Set();
 
 function tag(f,k){ return (f.tags && f.tags[k]) || null; }
+function slug(naziv){
+  return naziv.replace(/đ/g,'dj').replace(/Đ/g,'Dj').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+}
 
 const map = L.map('map', { zoomControl: true }).setView([45.15, 16.8], 7);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 }).addTo(map);
@@ -1065,31 +1068,46 @@ L.geoJSON(ZUPANIJE, { style: { color: '#3388ff', weight: 1, fillOpacity: 0, opac
 const cluster = L.markerClusterGroup({ maxClusterRadius: 40, disableClusteringAtZoom: 15 });
 map.addLayer(cluster);
 
-// DGU adresne tocke - odvojen sloj, ukljucuje/iskljucuje se neovisno
-let dguCluster = null, dguLoaded = false, dguLoading = false;
+// DGU adresne tocke - odvojen sloj, po zupaniji (GitHub Release asset), ucitava se
+// samo za trenutno VIDLJIVE zupanije (ne skida se cijela drzava odjednom).
+// Vec ucitane zupanije se pamte (dguLoadedZup) da se ne skidaju ponovno.
+const dguCluster = L.markerClusterGroup({ chunkedLoading: true, maxClusterRadius: 60 });
+let dguLoadedZup = new Set();
+let dguEnabled = false;
+
 document.getElementById('dguToggle').addEventListener('change', (e) => {
-  if (e.target.checked) loadDgu(); else if (dguCluster) map.removeLayer(dguCluster);
+  dguEnabled = e.target.checked;
+  if (dguEnabled) { map.addLayer(dguCluster); ucitajDguZaVidljive(); }
+  else { map.removeLayer(dguCluster); }
 });
-function loadDgu(){
-  if (dguLoaded){ if (dguCluster) map.addLayer(dguCluster); return; }
-  if (dguLoading) return;
-  dguLoading = true;
-  fetch(DGU_URL).then(r => { if(!r.ok) throw new Error('status ' + r.status); return r.json(); }).then(gj => {
-    dguCluster = L.markerClusterGroup({ chunkedLoading: true, maxClusterRadius: 60 });
-    gj.features.forEach(f => {
-      const c = f.geometry.coordinates, p = f.properties;
-      const m = L.circleMarker([c[1], c[0]], { radius: 5, color: '#2E7DE6', fillColor: '#2E7DE6', fillOpacity: 0.85, weight: 1 });
-      const label = (p.street || '') + ' ' + (p.houseNumber || '');
-      m.bindPopup('<b>' + label + '</b><br>' + (p.settlement || '') + ' ' + (p.postcode || '') + ' ' + (p.city || '') + '<br><i style="color:#888">DGU adresa</i>');
-      dguCluster.addLayer(m);
-    });
-    map.addLayer(dguCluster);
-    dguLoaded = true; dguLoading = false;
-  }).catch(err => {
-    dguLoading = false;
-    document.getElementById('dguToggle').checked = false;
-    alert('DGU adrese nisu dostupne: ' + err.message);
-  });
+
+async function ucitajDguZaVidljive(){
+  const statusEl = document.getElementById('dguStatus');
+  const vidljiveZup = ZUPANIJE.features.map(f => f.properties.naziv).filter(n => !selectedZup.has(n));
+  const zaUcitati = vidljiveZup.filter(n => !dguLoadedZup.has(n));
+  if (!zaUcitati.length) { statusEl.textContent = ''; return; }
+
+  let ucitano = 0;
+  for (const naziv of zaUcitati) {
+    statusEl.textContent = 'Učitavam DGU adrese: ' + naziv + '... (' + (ucitano+1) + '/' + zaUcitati.length + ')';
+    try {
+      const res = await fetch(DGU_BASE_URL + slug(naziv) + '.geojson');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const gj = await res.json();
+      gj.features.forEach(f => {
+        const c = f.geometry.coordinates, p = f.properties;
+        const m = L.circleMarker([c[1], c[0]], { radius: 5, color: '#2E7DE6', fillColor: '#2E7DE6', fillOpacity: 0.85, weight: 1 });
+        const label = (p.street || '') + ' ' + (p.houseNumber || '');
+        m.bindPopup('<b>' + label + '</b><br>' + (p.settlement || '') + ' ' + (p.postcode || '') + ' ' + (p.city || '') + '<br><i style="color:#888">DGU adresa</i>');
+        dguCluster.addLayer(m);
+      });
+      dguLoadedZup.add(naziv);
+    } catch (err) {
+      console.warn('DGU adrese nisu dostupne za ' + naziv + ':', err.message);
+    }
+    ucitano++;
+  }
+  statusEl.textContent = 'DGU adrese učitane za ' + dguLoadedZup.size + '/' + ZUPANIJE.features.length + ' županija.';
 }
 
 // Najbliža cesta se računa u pipeline-u (GitHub Actions), ne ovdje uživo —
@@ -1114,7 +1132,7 @@ function opis(f){
 function trenutnoVidljive(){
   const q = document.getElementById('q').value.toLowerCase().trim();
   return FEATURES.filter(f => {
-    if (selectedZup.size > 0 && !selectedZup.has(f.zupanija)) return false;
+    if (selectedZup.has(f.zupanija)) return false;
     if (selectedBuilding.size > 0 && !selectedBuilding.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
     if (q){
@@ -1156,6 +1174,7 @@ function buildZupList(){
     row.querySelector('input').addEventListener('change', (e) => {
       if (e.target.checked) selectedZup.delete(naziv); else selectedZup.add(naziv);
       render();
+      if (dguEnabled) ucitajDguZaVidljive();
     });
     wrap.appendChild(row);
   });

@@ -8,6 +8,7 @@
     "fetch": "node scripts/fetch-dozvole.js",
     "fetch:zgrade": "node scripts/fetch-zgrade.js",
     "fetch:zupanije": "node scripts/fetch-zupanije.js",
+    "fetch:dgu": "node scripts/fetch-dgu-adrese.js",
     "backfill:najbliza-cesta": "node scripts/backfill-nearest-street.js"
   },
   "dependencies": {
@@ -15,6 +16,9 @@
     "@turf/helpers": "^7.4.0",
     "osmtogeojson": "^3.0.0-beta.5",
     "pdf-parse": "^1.1.1",
-    "puppeteer": "^23.0.0"
+    "proj4": "^2.21.0",
+    "puppeteer": "^23.0.0",
+    "sax": "^1.6.1",
+    "unzipper": "^0.12.5"
   }
 }
