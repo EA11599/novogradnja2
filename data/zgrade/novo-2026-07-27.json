@@ -196,7 +196,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Mučići",
+      "nearestStreetDist": 45
     },
     {
       "id": "way/1541091225",
@@ -212,7 +214,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Mučići",
+      "nearestStreetDist": 41
     },
     {
       "id": "way/1544016574",
@@ -571,7 +575,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Vele Mune",
+      "nearestStreetDist": 17
     },
     {
       "id": "relation/21129682",
@@ -1069,7 +1075,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 430
     },
     {
       "id": "way/1544688164",
@@ -1085,7 +1093,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 374
     },
     {
       "id": "way/1544688165",
@@ -1101,7 +1111,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 516
     },
     {
       "id": "way/1544688166",
@@ -1117,7 +1129,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 403
     },
     {
       "id": "way/1544688167",
@@ -1133,7 +1147,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 354
     },
     {
       "id": "way/1544688168",
@@ -1149,7 +1165,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 366
     },
     {
       "id": "way/1544688169",
@@ -1165,7 +1183,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 333
     },
     {
       "id": "way/1544688170",
@@ -1181,7 +1201,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 353
     },
     {
       "id": "way/1544688171",
@@ -1197,7 +1219,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 395
     },
     {
       "id": "way/1544688172",
@@ -1213,7 +1237,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Ante Starčevića",
+      "nearestStreetDist": 461
     },
     {
       "id": "way/1544803282",
@@ -2638,7 +2664,9 @@
       "tags": {
         "building": "apartments"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Eugena Kvaternika",
+      "nearestStreetDist": 56
     },
     {
       "id": "way/1544001308",
@@ -2654,7 +2682,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica doktora Franje Tuđmana",
+      "nearestStreetDist": 37
     },
     {
       "id": "way/1540954209",
@@ -2784,7 +2814,9 @@
         "name": "Villa Grovermann",
         "addr:housenumber": "406c"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Put hrmentuna",
+      "nearestStreetDist": 67
     },
     {
       "id": "way/1543330709",
@@ -2800,7 +2832,9 @@
       "tags": {
         "building": "shed"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Put hrmentuna",
+      "nearestStreetDist": 15
     },
     {
       "id": "way/1544675171",
@@ -2835,7 +2869,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 315
     },
     {
       "id": "way/1544568131",
@@ -2851,7 +2887,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 348
     },
     {
       "id": "way/1544625783",
@@ -2867,7 +2905,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 185
     },
     {
       "id": "way/1544625788",
@@ -2883,7 +2923,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 171
     },
     {
       "id": "way/1544643418",
@@ -2899,7 +2941,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 444
     },
     {
       "id": "way/1544675172",
@@ -5458,7 +5502,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Rogovske Opatije",
+      "nearestStreetDist": 281
     },
     {
       "id": "way/1543317907",
@@ -5586,7 +5632,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 89
     },
     {
       "id": "way/1544568125",
@@ -5602,7 +5650,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 117
     },
     {
       "id": "way/1544568127",
@@ -5618,7 +5668,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 109
     },
     {
       "id": "way/1544568129",
@@ -5634,7 +5686,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 140
     },
     {
       "id": "way/1544625781",
@@ -5650,7 +5704,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 214
     },
     {
       "id": "way/1544625782",
@@ -5666,7 +5722,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 15
     },
     {
       "id": "way/1544625784",
@@ -5682,7 +5740,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 182
     },
     {
       "id": "way/1544625785",
@@ -5698,7 +5758,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 312
     },
     {
       "id": "way/1544625786",
@@ -5714,7 +5776,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 214
     },
     {
       "id": "way/1544638450",
@@ -5730,7 +5794,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 370
     },
     {
       "id": "way/1544638451",
@@ -5746,7 +5812,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 393
     },
     {
       "id": "way/1544638452",
@@ -5762,7 +5830,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 305
     },
     {
       "id": "way/1544643413",
@@ -5778,7 +5848,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 641
     },
     {
       "id": "way/1544643414",
@@ -5794,7 +5866,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 27
     },
     {
       "id": "way/1544643415",
@@ -5810,7 +5884,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 662
     },
     {
       "id": "way/1544643416",
@@ -5826,7 +5902,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 661
     },
     {
       "id": "way/1544643417",
@@ -5842,7 +5920,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica mirnog suživota",
+      "nearestStreetDist": 206
     },
     {
       "id": "way/1544753416",
@@ -10391,7 +10471,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 32
     },
     {
       "id": "way/1544688174",
@@ -10407,7 +10489,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 36
     },
     {
       "id": "way/1544688175",
@@ -10423,7 +10507,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 43
     },
     {
       "id": "way/1544688176",
@@ -10439,7 +10525,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 48
     },
     {
       "id": "way/1544688177",
@@ -10455,7 +10543,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 43
     },
     {
       "id": "way/1544688178",
@@ -10471,7 +10561,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 44
     },
     {
       "id": "way/1544688179",
@@ -10487,7 +10579,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 60
     },
     {
       "id": "way/1544688180",
@@ -10503,7 +10597,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 64
     },
     {
       "id": "way/1544688181",
@@ -10519,7 +10615,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 63
     },
     {
       "id": "way/1544688182",
@@ -10535,7 +10633,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 28
     },
     {
       "id": "way/1544688183",
@@ -10551,7 +10651,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 29
     },
     {
       "id": "way/1544688184",
@@ -10567,7 +10669,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 37
     },
     {
       "id": "way/1544688185",
@@ -10583,7 +10687,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 50
     },
     {
       "id": "way/1544688186",
@@ -10599,7 +10705,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 49
     },
     {
       "id": "way/1544688187",
@@ -10615,7 +10723,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 32
     },
     {
       "id": "way/1544688188",
@@ -10631,7 +10741,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 87
     },
     {
       "id": "way/1544688189",
@@ -10647,7 +10759,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 75
     },
     {
       "id": "way/1544688190",
@@ -10663,7 +10777,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 109
     },
     {
       "id": "way/1544688191",
@@ -10679,7 +10795,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 101
     },
     {
       "id": "way/1544688192",
@@ -10695,7 +10813,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 115
     },
     {
       "id": "way/1544688193",
@@ -10711,7 +10831,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 120
     },
     {
       "id": "way/1544688194",
@@ -10727,7 +10849,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 103
     },
     {
       "id": "way/1544688195",
@@ -10743,7 +10867,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 37
     },
     {
       "id": "way/1544688196",
@@ -10759,7 +10885,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 46
     },
     {
       "id": "way/1544688197",
@@ -10775,7 +10903,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 69
     },
     {
       "id": "way/1544688198",
@@ -10791,7 +10921,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 101
     },
     {
       "id": "way/1544688199",
@@ -10807,7 +10939,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 84
     },
     {
       "id": "way/1544688200",
@@ -10823,7 +10957,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 60
     },
     {
       "id": "way/1544688201",
@@ -10839,7 +10975,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 27
     },
     {
       "id": "way/1544688202",
@@ -10855,7 +10993,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 40
     },
     {
       "id": "way/1544688203",
@@ -10871,7 +11011,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 53
     },
     {
       "id": "way/1544688204",
@@ -10887,7 +11029,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Grobljanska ulica",
+      "nearestStreetDist": 142
     },
     {
       "id": "way/1541094041",
@@ -10903,7 +11047,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Kras",
+      "nearestStreetDist": 232
     },
     {
       "id": "way/1543170711",
@@ -13805,7 +13951,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Ulica Josip Bana Jelačića",
+      "nearestStreetDist": 24
     },
     {
       "id": "way/1543097077",
@@ -13875,7 +14023,9 @@
       "tags": {
         "building": "garage"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XXI",
+      "nearestStreetDist": 23
     },
     {
       "id": "way/1543097094",
@@ -13909,7 +14059,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XIX",
+      "nearestStreetDist": 23
     },
     {
       "id": "way/1543097100",
@@ -13979,7 +14131,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina VII",
+      "nearestStreetDist": 32
     },
     {
       "id": "way/1543097113",
@@ -14067,7 +14221,9 @@
       "tags": {
         "building": "garage"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XXI",
+      "nearestStreetDist": 21
     },
     {
       "id": "way/1543097125",
@@ -14155,7 +14311,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XXI",
+      "nearestStreetDist": 21
     },
     {
       "id": "way/1543097141",
@@ -14189,7 +14347,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XIX",
+      "nearestStreetDist": 18
     },
     {
       "id": "way/1543097147",
@@ -14313,7 +14473,9 @@
       "tags": {
         "building": "garage"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XXI",
+      "nearestStreetDist": 23
     },
     {
       "id": "way/1543097183",
@@ -14347,7 +14509,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XI",
+      "nearestStreetDist": 22
     },
     {
       "id": "way/1543914480",
@@ -14363,7 +14527,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XI",
+      "nearestStreetDist": 16
     },
     {
       "id": "way/1543914489",
@@ -14415,7 +14581,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina VIII",
+      "nearestStreetDist": 17
     },
     {
       "id": "way/1543914504",
@@ -14431,7 +14599,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina IX",
+      "nearestStreetDist": 17
     },
     {
       "id": "way/1543914516",
@@ -14465,7 +14635,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina VIII",
+      "nearestStreetDist": 5
     },
     {
       "id": "way/1543914532",
@@ -14571,7 +14743,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XIII",
+      "nearestStreetDist": 18
     },
     {
       "id": "way/1543914558",
@@ -14641,7 +14815,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Put Velike Slatine",
+      "nearestStreetDist": 23
     },
     {
       "id": "way/1543914570",
@@ -14675,7 +14851,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XI",
+      "nearestStreetDist": 26
     },
     {
       "id": "way/1543914584",
@@ -14799,7 +14977,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Velika Slatina XII",
+      "nearestStreetDist": 37
     },
     {
       "id": "way/1544323316",
@@ -18858,7 +19038,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 244
     },
     {
       "id": "way/1543328910",
@@ -18874,7 +19056,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 238
     },
     {
       "id": "way/1543328911",
@@ -18890,7 +19074,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 350
     },
     {
       "id": "way/1543328912",
@@ -18906,7 +19092,9 @@
       "tags": {
         "building": "roof"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 153
     },
     {
       "id": "way/1543328914",
@@ -18922,7 +19110,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 361
     },
     {
       "id": "way/1544752172",
@@ -18938,7 +19128,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 417
     },
     {
       "id": "way/1544752173",
@@ -18954,7 +19146,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 425
     },
     {
       "id": "way/1544752174",
@@ -18970,7 +19164,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 437
     },
     {
       "id": "way/1544752175",
@@ -18986,7 +19182,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 429
     },
     {
       "id": "way/1544752176",
@@ -19002,7 +19200,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 446
     },
     {
       "id": "way/1544752177",
@@ -19018,7 +19218,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 434
     },
     {
       "id": "way/1544752178",
@@ -19034,7 +19236,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 441
     },
     {
       "id": "way/1544752179",
@@ -19050,7 +19254,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 454
     },
     {
       "id": "way/1544752180",
@@ -19066,7 +19272,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 459
     },
     {
       "id": "way/1544752181",
@@ -19082,7 +19290,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 446
     },
     {
       "id": "way/1544756497",
@@ -19098,7 +19308,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 401
     },
     {
       "id": "way/1544756498",
@@ -19114,7 +19326,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 392
     },
     {
       "id": "way/1544756499",
@@ -19130,7 +19344,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 408
     },
     {
       "id": "way/1544756500",
@@ -19146,7 +19362,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 413
     },
     {
       "id": "way/1544756501",
@@ -19162,7 +19380,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 419
     },
     {
       "id": "way/1544756502",
@@ -19178,7 +19398,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 399
     },
     {
       "id": "way/1544756503",
@@ -19194,7 +19416,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 410
     },
     {
       "id": "way/1544756504",
@@ -19210,7 +19434,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 415
     },
     {
       "id": "way/1544756505",
@@ -19226,7 +19452,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 427
     },
     {
       "id": "way/1544756506",
@@ -19242,7 +19470,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 423
     },
     {
       "id": "way/1544756507",
@@ -19258,7 +19488,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 377
     },
     {
       "id": "way/1544756508",
@@ -19274,7 +19506,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 389
     },
     {
       "id": "way/1544756509",
@@ -19290,7 +19524,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 382
     },
     {
       "id": "way/1544756510",
@@ -19306,7 +19542,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 375
     },
     {
       "id": "way/1544756511",
@@ -19322,7 +19560,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 371
     },
     {
       "id": "way/1544756512",
@@ -19338,7 +19578,9 @@
       "tags": {
         "building": "mobile_home"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "I",
+      "nearestStreetDist": 366
     }
   ]
 }

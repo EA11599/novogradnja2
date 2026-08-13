@@ -661,7 +661,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Šetnica Golina",
+      "nearestStreetDist": 122
     },
     {
       "id": "way/1548568855",
@@ -8731,7 +8733,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Put Bunara",
+      "nearestStreetDist": 162
     },
     {
       "id": "way/1548934404",
@@ -8747,7 +8751,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Tutikova",
+      "nearestStreetDist": 156
     },
     {
       "id": "way/1548934405",
@@ -8763,7 +8769,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Put Bunara",
+      "nearestStreetDist": 139
     },
     {
       "id": "way/1548934406",
@@ -8779,7 +8787,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Put Bunara",
+      "nearestStreetDist": 112
     },
     {
       "id": "way/1548934407",
@@ -8795,7 +8805,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Tutikova",
+      "nearestStreetDist": 127
     },
     {
       "id": "way/1548934408",
@@ -8811,7 +8823,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Tutikova",
+      "nearestStreetDist": 135
     },
     {
       "id": "way/1548934409",
@@ -8827,7 +8841,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Tutikova",
+      "nearestStreetDist": 115
     },
     {
       "id": "way/1548934410",
@@ -8843,7 +8859,9 @@
       "tags": {
         "building": "yes"
       },
-      "obris": null
+      "obris": null,
+      "nearestStreet": "Tutikova",
+      "nearestStreetDist": 98
     },
     {
       "id": "way/1548934828",
