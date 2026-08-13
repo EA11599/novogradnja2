@@ -28,7 +28,7 @@ async function posaljiUpit(fromISO) {
       way["building"](newer:"${fromISO}")(${HR_BBOX});
       relation["building"](newer:"${fromISO}")(${HR_BBOX});
     );
-    out geom meta tags;
+    out meta;
   `;
 
   console.log("--- TOČAN UPIT ---");
