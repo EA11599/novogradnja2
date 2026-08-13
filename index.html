@@ -561,12 +561,20 @@ function tag(f, k){ return (f.tags && f.tags[k]) || null; }
 function prikazAdrese(f){
   const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
   if (prava) return prava;
+  if (f.dguAdresa) return [f.dguAdresa.street, f.dguAdresa.houseNumber].filter(Boolean).join(' ');
   if (f.nearestStreet) return '~' + f.nearestStreetDist + 'm od ' + f.nearestStreet;
   return null;
 }
+// "Približna" = samo procjena (najbliža cesta). DGU adresa je point-in-polygon
+// potvrđena (DGU točka je doslovno unutar obrisa zgrade), pa se NE tretira
+// kao približna, iako nije izvorno iz OSM-a.
 function jeAdresaPriblizna(f){
   const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
-  return !prava && !!f.nearestStreet;
+  return !prava && !f.dguAdresa && !!f.nearestStreet;
+}
+function jeAdresaIzDgu(f){
+  const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
+  return !prava && !!f.dguAdresa;
 }
 
 
@@ -750,11 +758,12 @@ function updateMap(){
 function opisZgrade(f){
   const adresa = prikazAdrese(f) || 'Adresa nepoznata';
   const adresaStil = jeAdresaPriblizna(f) ? ' style="font-style:italic;color:#6B6B6B;"' : '';
+  const dguNapomena = jeAdresaIzDgu(f) ? ' <span style="font-size:10px;color:#6B6B6B;">(DGU)</span>' : '';
   const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) =>
     '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:200px;">' +
-    '<b' + adresaStil + '>' + adresa + '</b><br>' +
+    '<b' + adresaStil + '>' + adresa + '</b>' + dguNapomena + '<br>' +
     (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
     '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +
@@ -900,7 +909,9 @@ function updateTable(){
   prikazano.forEach((f, i) => {
     const adresa = prikazAdrese(f);
     const adresaHtml = adresa
-      ? (jeAdresaPriblizna(f) ? '<span class="approx-addr">' + adresa + '</span>' : adresa)
+      ? (jeAdresaPriblizna(f) ? '<span class="approx-addr">' + adresa + '</span>'
+        : jeAdresaIzDgu(f) ? adresa + ' <span class="badge-tip" style="font-size:10px;">DGU</span>'
+        : adresa)
       : '<span class="muted">—</span>';
     html += '<tr data-idx="' + i + '">' +
       '<td>' + adresaHtml + '</td>' +
@@ -925,11 +936,12 @@ function updateTable(){
 function openModal(f){
   const adresa = prikazAdrese(f) || 'Adresa nepoznata';
   const adresaStil = jeAdresaPriblizna(f) ? ' style="font-style:italic;"' : '';
+  const dguNapomena = jeAdresaIzDgu(f) ? ' <span style="font-size:11px;color:var(--text-secondary);font-weight:400;">(DGU)</span>' : '';
   const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('') || '<div class="muted">Nema dodatnih oznaka</div>';
   $('#modalCard').innerHTML =
     '<button class="modal-close" id="modalCloseBtn">×</button>' +
-    '<h3' + adresaStil + '>' + adresa + '</h3>' +
+    '<h3' + adresaStil + '>' + adresa + dguNapomena + '</h3>' +
     '<div style="color:var(--text-secondary);font-size:13.5px;">' + (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') + '</div>' +
     '<div style="color:var(--text-secondary);font-size:13px;margin-top:4px;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a class="modal-gmaps" href="' + gmaps + '" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>' +
@@ -1116,12 +1128,17 @@ async function ucitajDguZaVidljive(){
 
 function opis(f){
   let adresa = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
+  let dguNapomena = '';
+  if (!adresa && f.dguAdresa) {
+    adresa = [f.dguAdresa.street, f.dguAdresa.houseNumber].filter(Boolean).join(' ');
+    dguNapomena = ' <span style="font-size:10px;color:#6B6B6B;">(DGU)</span>';
+  }
   if (!adresa && f.nearestStreet) adresa = '~' + f.nearestStreetDist + 'm od ' + f.nearestStreet;
   if (!adresa) adresa = 'Adresa nepoznata';
   const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:210px;">' +
-    '<b>' + adresa + '</b><br>' +
+    '<b>' + adresa + '</b>' + dguNapomena + '<br>' +
     (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
     '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + (f.validFrom ? ' · ' + f.validFrom.slice(0,10) : '') + '</div>' +
     '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +

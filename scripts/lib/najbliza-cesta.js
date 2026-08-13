@@ -45,7 +45,7 @@ async function fetchCeste(bbox) {
 // zgradama koje nemaju addr:street. Grupira po županiji da bbox ne bude
 // prevelik (cijela država odjednom bi bila presporo/preveliko).
 async function dodajNajblizuCestu(features) {
-  const bezAdrese = features.filter((f) => f.tags && !f.tags["addr:street"] && f.lat !== null && f.lon !== null);
+  const bezAdrese = features.filter((f) => f.tags && !f.tags["addr:street"] && !f.dguAdresa && f.lat !== null && f.lon !== null);
   if (bezAdrese.length === 0) return;
 
   const poZupaniji = {};

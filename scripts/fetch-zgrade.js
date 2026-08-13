@@ -21,6 +21,7 @@ const cfg = require("./zgrade-config");
 const booleanPointInPolygon = require("@turf/boolean-point-in-polygon").default;
 const { point: turfPoint } = require("@turf/helpers");
 const { dodajNajblizuCestu } = require("./lib/najbliza-cesta");
+const { dodajDguAdrese } = require("./lib/dgu-spajanje");
 
 const REPO_ROOT = path.join(__dirname, "..");
 const ZGRADE_DIR = path.join(REPO_ROOT, cfg.ZGRADE_DIR);
@@ -233,7 +234,11 @@ async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   const elements = await fetchNoveZgrade(fromISO, toISO);
   const features = elements.map((el) => toSlimFeature(el, zupanije));
 
-  console.log(`  Računam najbližu cestu za zgrade bez addr:street...`);
+  console.log(`  Tražim DGU adrese unutar obrisa zgrada bez addr:street...`);
+  const dguNadjeno = dodajDguAdrese(features);
+  console.log(`  DGU adresa pronađena za ${dguNadjeno} zgrada.`);
+
+  console.log(`  Računam najbližu cestu za preostale zgrade bez adrese...`);
   await dodajNajblizuCestu(features);
 
   const dateLabel = toISO.slice(0, 10);
