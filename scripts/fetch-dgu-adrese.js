@@ -110,9 +110,20 @@ async function main() {
   await raspakirajGml();
 
   const zupanije = JSON.parse(fs.readFileSync(path.join(REPO_ROOT, "data", "zupanije.geojson"), "utf8"));
-  const poZupaniji = {}; // slug -> { naziv, features: [] }
+  const OUT_DIR = path.join(REPO_ROOT, ".tmp-dgu-out");
+  fs.mkdirSync(OUT_DIR, { recursive: true });
+
+  // Umjesto gomilanja svih zapisa u memoriji pa pisanja na kraju (što je
+  // uzrokovalo "heap out of memory" na ~1.6M zadržanih zapisa), otvaramo
+  // po jedan write stream za svaku županiju odmah, i pišemo svaki zapis
+  // NA DISK čim se obradi. U svakom trenutku držimo u memoriji samo
+  // trenutni zapis, ne cijelu povijest.
+  const poZupaniji = {}; // slug -> { naziv, poly, stream, count, prviZapis }
   zupanije.features.forEach((f) => {
-    poZupaniji[slug(f.properties.naziv)] = { naziv: f.properties.naziv, poly: f, features: [] };
+    const key = slug(f.properties.naziv);
+    const stream = fs.createWriteStream(path.join(OUT_DIR, `${key}.geojson`));
+    stream.write('{"type":"FeatureCollection","features":[');
+    poZupaniji[key] = { naziv: f.properties.naziv, poly: f, stream, count: 0, prviZapis: true };
   });
 
   let ukupno = 0, zadrzano = 0, regexNeuspio = 0, izvanZupanije = 0, ispisanoUzoraka = 0;
@@ -142,11 +153,15 @@ async function main() {
     }
     if (!nasaoZupaniju) { izvanZupanije++; return; }
 
-    poZupaniji[nasaoZupaniju].features.push({
+    const zapis = poZupaniji[nasaoZupaniju];
+    const feature = {
       type: "Feature",
       geometry: { type: "Point", coordinates: [+lon.toFixed(6), +lat.toFixed(6)] },
       properties: { street, houseNumber, settlement, postcode, city },
-    });
+    };
+    zapis.stream.write((zapis.prviZapis ? "" : ",") + JSON.stringify(feature));
+    zapis.prviZapis = false;
+    zapis.count++;
     zadrzano++;
 
     if (ukupno % 200000 === 0) console.log(`  ...obrađeno ${ukupno.toLocaleString()} zapisa`);
@@ -157,12 +172,10 @@ async function main() {
   console.log(`Adresa nije prepoznata regexom: ${regexNeuspio.toLocaleString()}`);
   console.log(`Izvan svih županijskih poligona: ${izvanZupanije.toLocaleString()}`);
 
-  const OUT_DIR = path.join(REPO_ROOT, ".tmp-dgu-out");
-  fs.mkdirSync(OUT_DIR, { recursive: true });
-  for (const [key, { naziv, features }] of Object.entries(poZupaniji)) {
-    const geojson = { type: "FeatureCollection", properties: { zupanija: naziv, count: features.length }, features };
-    fs.writeFileSync(path.join(OUT_DIR, `${key}.geojson`), JSON.stringify(geojson));
-    console.log(`  ${naziv}: ${features.length.toLocaleString()} adresa -> ${key}.geojson`);
+  for (const [, zapis] of Object.entries(poZupaniji)) {
+    zapis.stream.end("]}");
+    await new Promise((resolve) => zapis.stream.on("finish", resolve));
+    console.log(`  ${zapis.naziv}: ${zapis.count.toLocaleString()} adresa`);
   }
 
   // Čišćenje privremenih velikih datoteka (zip + gml) - ne trebaju nakon parsiranja.

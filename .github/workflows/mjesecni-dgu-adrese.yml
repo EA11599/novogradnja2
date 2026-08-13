@@ -25,7 +25,7 @@ jobs:
         run: PUPPETEER_SKIP_DOWNLOAD=true npm install
 
       - name: Pokreni dohvat i obradu DGU adresa
-        run: node scripts/fetch-dgu-adrese.js
+        run: node --max-old-space-size=6144 scripts/fetch-dgu-adrese.js
 
       - name: Obriši staru "dgu-latest" objavu (ako postoji)
         run: gh release delete dgu-latest --yes --cleanup-tag || true
