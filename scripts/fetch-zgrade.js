@@ -87,19 +87,24 @@ function computeFromTimestamp(manifest) {
 }
 
 async function fetchNoveZgrade(fromISO, toISO) {
-  // VAŽNO: koristimo "changed:from,to" (PRAVI raspon, dvije granice), NE
-  // "newer:from" — potonji ima SAMO donju granicu i uvijek vraća "sve
-  // novije od X do stvarnog trenutka upita", bez obzira na naš namjeravani
-  // kraj perioda. To je uzrokovalo preklapanje/dupliciranje podataka između
-  // tjednih komada (svaki komad je zapravo dohvaćao cijeli preostali rep,
-  // ne samo svoj tjedan). "changed" je sporiji od "newer" na vrlo velikim
-  // upitima, ali ispravan — i naši komadi su svakako mali (≤7 dana).
+  // VAŽNO: koristimo "newer:from" (NE "changed:from,to"). Otkrili smo da
+  // Overpass gubi "meta" polja (timestamp, version, ...) kad se koristi
+  // "changed:" filter s dva argumenta — potvrđeno testirano, čak i BEZ
+  // if:version() filtera. "newer:" nema taj problem (naš prvi tjedni
+  // dohvat, koji je koristio newer:, ima ispravne datume za sve zgrade).
+  //
+  // "newer:" ima samo donju granicu (nema "do" datuma) — zato RUČNO
+  // filtriramo elemente po njihovom stvarnom timestamp polju da ostanu
+  // samo oni unutar [fromISO, toISO), umjesto da se oslanjamo na servera
+  // da to napravi. Ovo rješava i dupliciranje između tjednih komada (svaki
+  // komad je prije dohvaćao cijeli preostali rep unatrag) I nedostajuće
+  // datume — riješeno oboje odjednom.
   const query = `
     [out:json][timeout:180];
     area["ISO3166-1"="HR"][admin_level=2]->.hr;
     (
-      way["building"](changed:"${fromISO}","${toISO}")(area.hr)(if:version()==1);
-      relation["building"](changed:"${fromISO}","${toISO}")(area.hr)(if:version()==1);
+      way["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
+      relation["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
     );
     out geom meta tags;
   `;
@@ -110,7 +115,17 @@ async function fetchNoveZgrade(fromISO, toISO) {
   let zadnjaGreska;
   for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
     try {
-      return await posaljiUpit(query);
+      const elements = await posaljiUpit(query);
+      // Ručno filtriranje po timestamp polju - "newer:" nema gornju granicu
+      // pa je server mogao vratiti i elemente novije od našeg toISO (već
+      // obrađene u idućem tjednom pokretanju). Elementi bez timestampa se
+      // preskaču (ne možemo potvrditi da pripadaju ovom prozoru).
+      const odFiltrirano = elements.filter((el) => {
+        if (!el.timestamp) return false;
+        return el.timestamp >= fromISO && el.timestamp < toISO;
+      });
+      console.log(`  Nakon filtriranja po vremenskom prozoru [${fromISO}, ${toISO}): ${odFiltrirano.length}/${elements.length} elemenata.`);
+      return odFiltrirano;
     } catch (err) {
       zadnjaGreska = err;
       const jePrivremena = /50[234]/.test(err.message);

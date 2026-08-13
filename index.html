@@ -314,6 +314,13 @@
     border-bottom: 1px solid var(--border);
     background: #FAFAF9;
   }
+  .building-table th.sortable-th{
+    cursor: pointer;
+    user-select: none;
+  }
+  .building-table th.sortable-th:hover{
+    color: var(--accent-dark);
+  }
   .building-table td{
     padding: 11px 20px;
     border-bottom: 1px solid var(--border);
@@ -563,6 +570,10 @@ function prikazAdrese(f){
   if (prava) return prava;
   if (f.dguAdresa) return [f.dguAdresa.street, f.dguAdresa.houseNumber].filter(Boolean).join(' ');
   if (f.nearestStreet) return '~' + f.nearestStreetDist + 'm od ' + f.nearestStreet;
+  // Krajnji fallback - stupac Adresa nikad ne smije biti prazan. Ako baš
+  // ništa drugo ne postoji (npr. najbliža cesta nije izračunata za tu
+  // županiju), prikaži barem koordinate.
+  if (f.lat !== null && f.lon !== null) return f.lat.toFixed(5) + ', ' + f.lon.toFixed(5);
   return null;
 }
 // "Približna" = samo procjena (najbliža cesta). DGU adresa je point-in-polygon
@@ -570,7 +581,7 @@ function prikazAdrese(f){
 // kao približna, iako nije izvorno iz OSM-a.
 function jeAdresaPriblizna(f){
   const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
-  return !prava && !f.dguAdresa && !!f.nearestStreet;
+  return !prava && !f.dguAdresa;
 }
 function jeAdresaIzDgu(f){
   const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
@@ -737,19 +748,31 @@ function updateMap(){
     '<span class="legend-swatch" style="background:' + colorScale(0, max) + '"></span>0' +
     '<span class="legend-swatch" style="background:' + colorScale(max, max) + ';margin-left:8px;"></span>' + max;
 
-  // markeri pojedinačnih zgrada (prikazujemo do razumne granice radi performansi)
+  // obrisi zgrada (kad postoje) ili tocke, obojano narancasto - prikazujemo
+  // do razumne granice radi performansi
   markerLayer.clearLayers();
   const filtered = getFilteredFeatures();
   const MAX_MARKERA = 1500;
   filtered.slice(0, MAX_MARKERA).forEach(f => {
     if (f.lat === null || f.lon === null) return;
-    const m = L.circleMarker([f.lat, f.lon], {
-      radius: 4,
-      color: '#B6650C',
-      weight: 1,
-      fillColor: '#E8871E',
-      fillOpacity: 0.85,
-    });
+    let m;
+    if (f.obris && f.obris.length >= 3){
+      const latlngs = f.obris.map(p => [p[1], p[0]]);
+      m = L.polygon(latlngs, {
+        color: '#B6650C',
+        weight: 1.5,
+        fillColor: '#E8871E',
+        fillOpacity: 0.75,
+      });
+    } else {
+      m = L.circleMarker([f.lat, f.lon], {
+        radius: 4,
+        color: '#B6650C',
+        weight: 1,
+        fillColor: '#E8871E',
+        fillOpacity: 0.85,
+      });
+    }
     m.bindPopup(opisZgrade(f));
     markerLayer.addLayer(m);
   });
@@ -890,8 +913,49 @@ $('#facetToggleBtn').addEventListener('click', () => {
   if (facetPanelOpen) renderFacetPanel();
 });
 
-function updateTable(){
-  const filtered = getFilteredFeatures();
+const PO_STRANICI = 500;
+let trenutnaStranica = 1;
+let sortStupac = null; // 'adresa' | 'mjesto' | 'zupanija' | 'tip' | 'datum'
+let sortSmjer = 1; // 1 = uzlazno (A->Ž / najstarije), -1 = silazno (Ž->A / najnovije)
+
+function vrijednostZaSort(f, stupac){
+  switch(stupac){
+    case 'adresa': return (prikazAdrese(f) || '').toLowerCase();
+    case 'mjesto': return (tag(f,'addr:city') || (f.dguAdresa && f.dguAdresa.settlement) || '').toLowerCase();
+    case 'zupanija': return (f.zupanija || '').toLowerCase();
+    case 'tip': return (tag(f,'building') || '').toLowerCase();
+    case 'datum': return f.validFrom || '';
+    default: return '';
+  }
+}
+
+function sortiraj(niz){
+  if (!sortStupac) return niz;
+  const kopija = niz.slice();
+  kopija.sort((a, b) => {
+    const va = vrijednostZaSort(a, sortStupac), vb = vrijednostZaSort(b, sortStupac);
+    if (va < vb) return -1 * sortSmjer;
+    if (va > vb) return 1 * sortSmjer;
+    return 0;
+  });
+  return kopija;
+}
+
+function postaviSort(stupac){
+  if (sortStupac === stupac) sortSmjer *= -1;
+  else { sortStupac = stupac; sortSmjer = 1; }
+  trenutnaStranica = 1;
+  updateTable();
+}
+
+function strelica(stupac){
+  if (sortStupac !== stupac) return '';
+  return sortSmjer === 1 ? ' ↑' : ' ↓';
+}
+
+function updateTable(resetPage = true){
+  if (resetPage) trenutnaStranica = 1;
+  const filtered = sortiraj(getFilteredFeatures());
   const wrap = $('#tableWrap');
 
   if (filtered.length === 0){
@@ -900,12 +964,17 @@ function updateTable(){
     return;
   }
 
-  const MAX_REDAKA = 500;
+  const ukupnoStranica = Math.max(1, Math.ceil(filtered.length / PO_STRANICI));
+  if (trenutnaStranica > ukupnoStranica) trenutnaStranica = ukupnoStranica;
+  const pocetak = (trenutnaStranica - 1) * PO_STRANICI;
+  const prikazano = filtered.slice(pocetak, pocetak + PO_STRANICI);
+
+  const th = (stupac, naslov) => '<th class="sortable-th" data-sort="' + stupac + '">' + naslov + strelica(stupac) + '</th>';
+
   let html = '<table class="building-table"><thead><tr>' +
-    '<th>Adresa</th><th>Mjesto</th><th>Županija</th><th>Tip</th><th>Datum</th>' +
+    th('adresa','Adresa') + th('mjesto','Mjesto') + th('zupanija','Županija') + th('tip','Tip') + th('datum','Datum') +
     '</tr></thead><tbody>';
 
-  const prikazano = filtered.slice(0, MAX_REDAKA);
   prikazano.forEach((f, i) => {
     const adresa = prikazAdrese(f);
     const adresaHtml = adresa
@@ -915,7 +984,7 @@ function updateTable(){
       : '<span class="muted">—</span>';
     html += '<tr data-idx="' + i + '">' +
       '<td>' + adresaHtml + '</td>' +
-      '<td>' + (tag(f,'addr:city') || '<span class="muted">—</span>') + '</td>' +
+      '<td>' + (tag(f,'addr:city') || (f.dguAdresa && f.dguAdresa.settlement) || '<span class="muted">—</span>') + '</td>' +
       '<td>' + (f.zupanija ? '<span class="badge-tip">' + f.zupanija + '</span>' : '<span class="muted">—</span>') + '</td>' +
       '<td>' + (tag(f,'building') || '<span class="muted">—</span>') + '</td>' +
       '<td class="muted">' + formatDatum(f.validFrom) + '</td>' +
@@ -924,13 +993,42 @@ function updateTable(){
   html += '</tbody></table>';
   wrap.innerHTML = html;
 
+  wrap.querySelectorAll('th.sortable-th').forEach(el => {
+    el.addEventListener('click', () => postaviSort(el.dataset.sort));
+  });
   wrap.querySelectorAll('tbody tr').forEach(tr => {
     tr.addEventListener('click', () => openModal(prikazano[+tr.dataset.idx]));
   });
 
-  $('#listFooter').textContent = filtered.length > MAX_REDAKA
-    ? 'Prikazano ' + MAX_REDAKA.toLocaleString('hr-HR') + ' od ' + filtered.length.toLocaleString('hr-HR') + ' — suzi pretragu za više detalja.'
-    : filtered.length.toLocaleString('hr-HR') + ' zgrada';
+  const footerEl = $('#listFooter');
+  footerEl.innerHTML = '';
+  const info = document.createElement('span');
+  info.textContent = filtered.length.toLocaleString('hr-HR') + ' zgrada' +
+    (ukupnoStranica > 1 ? ' — stranica ' + trenutnaStranica + '/' + ukupnoStranica : '');
+  footerEl.appendChild(info);
+
+  if (ukupnoStranica > 1){
+    const nav = document.createElement('div');
+    nav.style.cssText = 'display:flex;gap:8px;align-items:center;';
+    const prevBtn = document.createElement('button');
+    prevBtn.textContent = '← Prethodna';
+    prevBtn.className = 'btn-export';
+    prevBtn.style.cssText = 'padding:5px 12px;font-size:12px;';
+    prevBtn.disabled = trenutnaStranica === 1;
+    prevBtn.addEventListener('click', () => { trenutnaStranica--; updateTable(false); });
+    const nextBtn = document.createElement('button');
+    nextBtn.textContent = 'Sljedeća →';
+    nextBtn.className = 'btn-export';
+    nextBtn.style.cssText = 'padding:5px 12px;font-size:12px;';
+    nextBtn.disabled = trenutnaStranica === ukupnoStranica;
+    nextBtn.addEventListener('click', () => { trenutnaStranica++; updateTable(false); });
+    nav.appendChild(prevBtn);
+    nav.appendChild(nextBtn);
+    footerEl.appendChild(nav);
+    footerEl.style.cssText = 'display:flex;justify-content:space-between;align-items:center;';
+  } else {
+    footerEl.style.cssText = '';
+  }
 }
 
 function openModal(f){
@@ -966,11 +1064,14 @@ $('#searchBox').addEventListener('input', () => {
 $('#exportBtn').addEventListener('click', () => {
   const filtered = getFilteredFeatures();
   const rows = filtered.map(f => ({
-    Adresa: [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' '),
-    Mjesto: tag(f,'addr:city') || '',
+    Adresa: prikazAdrese(f) || '',
+    Mjesto: tag(f,'addr:city') || (f.dguAdresa ? f.dguAdresa.settlement : '') || '',
     Zupanija: f.zupanija || '',
     Tip: tag(f,'building') || '',
-    Datum: f.validFrom || '',
+    Datum: formatDatum(f.validFrom),
+    'Google Maps': f.lat !== null && f.lon !== null
+      ? 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon
+      : '',
     Lat: f.lat,
     Lon: f.lon,
   }));
