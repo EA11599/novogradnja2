@@ -34,7 +34,11 @@
       "validFrom": "2026-07-25T14:45:51Z",
       "zupanija": "Istarska županija",
       "tags": {
-        "building": "service"
+        "building": "service",
+        "building:levels": "1",
+        "power": "substation",
+        "roof:shape": "gabled",
+        "substation": "minor_distribution"
       },
       "obris": null
     },
@@ -248,7 +252,10 @@
       "validFrom": "2026-07-24T10:42:09Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:housenumber": "18",
+        "addr:street": "Ulica Rafe Barišića",
+        "ref:HR:kucni_broj": "22110969"
       },
       "obris": null,
       "nearestStreet": "Božjakovinska ulica",
@@ -268,7 +275,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Božjakovinska ulica",
-        "addr:housenumber": "30"
+        "addr:housenumber": "30",
+        "ref:HR:kucni_broj": "22110967"
       },
       "obris": null
     },
@@ -287,7 +295,8 @@
         "building": "house",
         "addr:street": "Ravnjanska ulica",
         "addr:housenumber": "20",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "ref:HR:kucni_broj": "22112166"
       },
       "obris": null
     },
@@ -537,7 +546,9 @@
       "validFrom": "2026-07-22T11:57:42Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "fuel",
+        "self_service": "yes"
       },
       "obris": null,
       "nearestStreet": "Ulica bana Josipa Jelačića",
@@ -555,7 +566,8 @@
       "validFrom": "2026-07-22T11:57:42Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "roof"
+        "building": "roof",
+        "amenity": "fuel"
       },
       "obris": null,
       "nearestStreet": "Ulica bana Josipa Jelačića",
@@ -591,7 +603,12 @@
       "validFrom": "2026-07-22T12:12:31Z",
       "zupanija": "Šibensko-kninska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:city": "Šibenik",
+        "addr:housenumber": "6",
+        "addr:postcode": "22000",
+        "addr:street": "Obala Hrvatske mornarice",
+        "type": "multipolygon"
       },
       "obris": null,
       "nearestStreet": "Obala Hrvatske mornarice",
@@ -1271,7 +1288,8 @@
       "validFrom": "2026-07-26T12:29:12Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "office"
+        "building": "office",
+        "office": "camping"
       },
       "obris": null,
       "nearestStreet": "Pristup Rock Oak camping and auto camp",
@@ -1307,7 +1325,9 @@
       "validFrom": "2026-07-21T17:15:39Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "service"
+        "building": "service",
+        "power": "substation",
+        "substation": "minor_distribution"
       },
       "obris": null,
       "nearestStreet": "Ljubljanica",
@@ -1327,7 +1347,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Psunjska ulica",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "22099932"
       },
       "obris": null
     },
@@ -1343,7 +1364,8 @@
       "validFrom": "2026-07-25T21:29:09Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Ozaljska ulica",
@@ -1363,7 +1385,9 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vladimira Nazora",
-        "addr:city": "Betina"
+        "addr:city": "Betina",
+        "addr:country": "HR",
+        "addr:postcode": "22244"
       },
       "obris": null
     },
@@ -2083,7 +2107,9 @@
       "tags": {
         "building": "house",
         "addr:housenumber": "5/2",
-        "addr:city": "Buzet"
+        "addr:city": "Buzet",
+        "addr:place": "Selca",
+        "addr:postcode": "52420"
       },
       "obris": null,
       "nearestStreet": "Komarov most",
@@ -2103,7 +2129,9 @@
       "tags": {
         "building": "yes",
         "addr:housenumber": "2",
-        "addr:city": "Buzet"
+        "addr:city": "Buzet",
+        "addr:place": "Selca",
+        "addr:postcode": "52420"
       },
       "obris": null
     },
@@ -2251,7 +2279,9 @@
       "tags": {
         "building": "yes",
         "addr:housenumber": "32",
-        "addr:city": "Buzet"
+        "addr:city": "Buzet",
+        "addr:place": "Brnozi",
+        "addr:postcode": "52420"
       },
       "obris": null
     },
@@ -2301,7 +2331,9 @@
       "tags": {
         "building": "yes",
         "addr:housenumber": "31",
-        "addr:city": "Buzet"
+        "addr:city": "Buzet",
+        "addr:place": "Brnozi",
+        "addr:postcode": "52420"
       },
       "obris": null
     },
@@ -2399,7 +2431,9 @@
       "tags": {
         "building": "yes",
         "addr:housenumber": "1",
-        "addr:city": "Buzet"
+        "addr:city": "Buzet",
+        "addr:place": "Sovinjak",
+        "addr:postcode": "52420"
       },
       "obris": null
     },
@@ -2433,7 +2467,9 @@
       "tags": {
         "building": "yes",
         "addr:housenumber": "3",
-        "addr:city": "Buzet"
+        "addr:city": "Buzet",
+        "addr:place": "Sovinjak",
+        "addr:postcode": "52420"
       },
       "obris": null
     },
@@ -2451,7 +2487,9 @@
       "tags": {
         "building": "yes",
         "addr:housenumber": "3a",
-        "addr:city": "Buzet"
+        "addr:city": "Buzet",
+        "addr:place": "Sovinjak",
+        "addr:postcode": "52420"
       },
       "obris": null
     },
@@ -2517,7 +2555,9 @@
       "tags": {
         "building": "yes",
         "addr:housenumber": "14",
-        "addr:city": "Buzet"
+        "addr:city": "Buzet",
+        "addr:place": "Sovinjak",
+        "addr:postcode": "52420"
       },
       "obris": null
     },
@@ -2552,7 +2592,12 @@
       "zupanija": "Istarska županija",
       "tags": {
         "building": "yes",
-        "name": "Dom za starije osobe Pazin"
+        "name": "Dom za starije osobe Pazin",
+        "amenity": "social_facility",
+        "building:levels": "2",
+        "social_facility": "group_home",
+        "social_facility:for": "senior",
+        "wheelchair": "designated"
       },
       "obris": null,
       "nearestStreet": "Vranica",
@@ -2570,7 +2615,8 @@
       "validFrom": "2026-07-22T11:26:08Z",
       "zupanija": "Istarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "height": "4"
       },
       "obris": null,
       "nearestStreet": "Vranica",
@@ -2589,7 +2635,19 @@
       "zupanija": "Istarska županija",
       "tags": {
         "building": "yes",
-        "name": "Sport Mediteran Cassa"
+        "name": "Sport Mediteran Cassa",
+        "building:levels": "1",
+        "check_date": "2026-07-26",
+        "email": "info@sport-mediteran.hr",
+        "opening_hours": "09:00-19:00",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+385 91 784 8085",
+        "roof:shape": "skillion",
+        "shop": "rental",
+        "website": "https://sport-mediteran.hr/"
       },
       "obris": null,
       "nearestStreet": "Plava Laguna",
@@ -2607,7 +2665,9 @@
       "validFrom": "2026-07-20T21:10:33Z",
       "zupanija": "Istarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Brulo",
@@ -2626,7 +2686,12 @@
       "zupanija": "Istarska županija",
       "tags": {
         "building": "service",
-        "name": "TS KRISTAL (BRULO)"
+        "name": "TS KRISTAL (BRULO)",
+        "building:levels": "1",
+        "power": "substation",
+        "roof:shape": "flat",
+        "substation": "minor_distribution",
+        "voltage": "22000"
       },
       "obris": null,
       "nearestStreet": "Brulo",
@@ -2701,7 +2766,8 @@
         "building": "garage",
         "addr:street": "Zatka",
         "addr:housenumber": "50",
-        "addr:city": "Veprinac"
+        "addr:city": "Veprinac",
+        "addr:postcode": "51414"
       },
       "obris": null
     },
@@ -2718,7 +2784,9 @@
       "zupanija": "Grad Zagreb",
       "tags": {
         "building": "bleachers",
-        "name": "Tribina istok"
+        "name": "Tribina istok",
+        "leisure": "bleachers",
+        "panoramax": "6d3c22f6-37a7-4a06-aec1-85cdd4a4e76e"
       },
       "obris": null,
       "nearestStreet": "Trg kardinala Franje Šepera",
@@ -2738,7 +2806,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Trg Nikole Zrinskog",
-        "addr:housenumber": "14/1"
+        "addr:housenumber": "14/1",
+        "ref:HR:kucni_broj": "22073000"
       },
       "obris": null
     },
@@ -2756,7 +2825,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Trg Nikole Zrinskog",
-        "addr:housenumber": "19/1"
+        "addr:housenumber": "19/1",
+        "ref:HR:kucni_broj": "22121176"
       },
       "obris": null
     },
@@ -2775,7 +2845,11 @@
         "building": "yes",
         "addr:street": "Križna cesta",
         "addr:housenumber": "17/1",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "ref:HR:kucni_broj": "22134702",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -2794,7 +2868,11 @@
         "building": "yes",
         "addr:street": "Križna cesta",
         "addr:housenumber": "17/2",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "ref:HR:kucni_broj": "22134703",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -2812,7 +2890,8 @@
       "tags": {
         "building": "house",
         "name": "Villa Grovermann",
-        "addr:housenumber": "406c"
+        "addr:housenumber": "406c",
+        "addr:place": "Mali Iž"
       },
       "obris": null,
       "nearestStreet": "Put hrmentuna",
@@ -2851,7 +2930,11 @@
         "building": "yes",
         "addr:street": "Križna cesta",
         "addr:housenumber": "15A",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "ref:HR:kucni_broj": "22103877",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -2960,7 +3043,11 @@
         "building": "yes",
         "addr:street": "Trnjanski nasip",
         "addr:housenumber": "75",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "ref:HR:kucni_broj": "22104528",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -2979,7 +3066,11 @@
         "building": "yes",
         "addr:street": "Trnjanski nasip",
         "addr:housenumber": "77",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "ref:HR:kucni_broj": "22104529",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -3016,7 +3107,9 @@
         "building": "house",
         "addr:street": "Trnjanski nasip IV.",
         "addr:housenumber": "5A",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "ref:HR:kucni_broj": "22117671"
       },
       "obris": null
     },
@@ -3035,7 +3128,9 @@
         "building": "house",
         "addr:street": "Trnjanski nasip IV.",
         "addr:housenumber": "7/1",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "ref:HR:kucni_broj": "22134174"
       },
       "obris": null
     },
@@ -3180,7 +3275,9 @@
         "building": "house",
         "addr:street": "Ninska ulica",
         "addr:housenumber": "5",
-        "addr:city": "Sesvete"
+        "addr:city": "Sesvete",
+        "addr:postcode": "10360",
+        "ref:HR:kucni_broj": "22054345"
       },
       "obris": null
     },
@@ -3198,7 +3295,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "31/1"
+        "addr:housenumber": "31/1",
+        "ref:HR:kucni_broj": "22136263"
       },
       "obris": null
     },
@@ -3216,7 +3314,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "36"
+        "addr:housenumber": "36",
+        "ref:HR:kucni_broj": "22054492"
       },
       "obris": null
     },
@@ -3234,7 +3333,9 @@
       "tags": {
         "building": "house",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "26"
+        "addr:housenumber": "26",
+        "house": "terraced",
+        "ref:HR:kucni_broj": "22054499"
       },
       "obris": null
     },
@@ -3252,7 +3353,9 @@
       "tags": {
         "building": "house",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "24"
+        "addr:housenumber": "24",
+        "house": "terraced",
+        "ref:HR:kucni_broj": "22054500"
       },
       "obris": null
     },
@@ -3270,7 +3373,9 @@
       "tags": {
         "building": "house",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "22"
+        "addr:housenumber": "22",
+        "house": "terraced",
+        "ref:HR:kucni_broj": "22054501"
       },
       "obris": null
     },
@@ -3288,7 +3393,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "32A"
+        "addr:housenumber": "32A",
+        "ref:HR:kucni_broj": "22054505"
       },
       "obris": null
     },
@@ -3306,7 +3412,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "32/1"
+        "addr:housenumber": "32/1",
+        "ref:HR:kucni_broj": "22054506"
       },
       "obris": null
     },
@@ -3324,7 +3431,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "30/1"
+        "addr:housenumber": "30/1",
+        "ref:HR:kucni_broj": "2184105812"
       },
       "obris": null
     },
@@ -3342,7 +3450,9 @@
       "tags": {
         "building": "house",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "18"
+        "addr:housenumber": "18",
+        "house": "terraced",
+        "ref:HR:kucni_broj": "22054503"
       },
       "obris": null
     },
@@ -3360,7 +3470,9 @@
       "tags": {
         "building": "house",
         "addr:street": "Karlovačka ulica",
-        "addr:housenumber": "28"
+        "addr:housenumber": "28",
+        "house": "terraced",
+        "ref:HR:kucni_broj": "22054498"
       },
       "obris": null
     },
@@ -3378,7 +3490,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Hercegovačka ulica",
-        "addr:housenumber": "16"
+        "addr:housenumber": "16",
+        "ref:HR:kucni_broj": "22094073"
       },
       "obris": null
     },
@@ -3396,7 +3509,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Hercegovačka ulica",
-        "addr:housenumber": "13"
+        "addr:housenumber": "13",
+        "ref:HR:kucni_broj": "22094076"
       },
       "obris": null
     },
@@ -3450,7 +3564,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "58/1"
+        "addr:housenumber": "58/1",
+        "ref:HR:kucni_broj": "22055046"
       },
       "obris": null
     },
@@ -3468,7 +3583,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "58"
+        "addr:housenumber": "58",
+        "ref:HR:kucni_broj": "22052631"
       },
       "obris": null
     },
@@ -3486,7 +3602,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "52D"
+        "addr:housenumber": "52D",
+        "ref:HR:kucni_broj": "22122807"
       },
       "obris": null
     },
@@ -3504,7 +3621,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "52A"
+        "addr:housenumber": "52A",
+        "ref:HR:kucni_broj": "22054030"
       },
       "obris": null
     },
@@ -3522,7 +3640,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "52C"
+        "addr:housenumber": "52C",
+        "ref:HR:kucni_broj": "22120821"
       },
       "obris": null
     },
@@ -3540,7 +3659,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "50"
+        "addr:housenumber": "50",
+        "ref:HR:kucni_broj": "22052628"
       },
       "obris": null
     },
@@ -3558,7 +3678,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "48E"
+        "addr:housenumber": "48E",
+        "ref:HR:kucni_broj": "2175036414"
       },
       "obris": null
     },
@@ -3576,7 +3697,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "48D"
+        "addr:housenumber": "48D",
+        "ref:HR:kucni_broj": "22054031"
       },
       "obris": null
     },
@@ -3594,7 +3716,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "38"
+        "addr:housenumber": "38",
+        "ref:HR:kucni_broj": "22052619"
       },
       "obris": null
     },
@@ -3612,7 +3735,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "34A/1"
+        "addr:housenumber": "34A/1",
+        "ref:HR:kucni_broj": "2039526963"
       },
       "obris": null
     },
@@ -3630,7 +3754,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "30B"
+        "addr:housenumber": "30B",
+        "ref:HR:kucni_broj": "22054049"
       },
       "obris": null
     },
@@ -3666,7 +3791,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "24"
+        "addr:housenumber": "24",
+        "ref:HR:kucni_broj": "22054357"
       },
       "obris": null
     },
@@ -3684,7 +3810,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "20A"
+        "addr:housenumber": "20A",
+        "ref:HR:kucni_broj": "22054354"
       },
       "obris": null
     },
@@ -3702,7 +3829,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Bjelovarska ulica",
-        "addr:housenumber": "18"
+        "addr:housenumber": "18",
+        "ref:HR:kucni_broj": "22054355"
       },
       "obris": null
     },
@@ -3738,7 +3866,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Livadarski odvojak",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "22054493"
       },
       "obris": null
     },
@@ -3756,7 +3885,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Livadarski odvojak",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "ref:HR:kucni_broj": "22052652"
       },
       "obris": null
     },
@@ -3774,7 +3904,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Livadarski odvojak",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "ref:HR:kucni_broj": "22052653"
       },
       "obris": null
     },
@@ -3792,7 +3923,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Remetska ulica",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "22052641"
       },
       "obris": null
     },
@@ -3810,7 +3942,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Modruška ulica",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "ref:HR:kucni_broj": "22054469"
       },
       "obris": null
     },
@@ -4492,7 +4625,10 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "house"
+        "building": "house",
+        "addr:city": "Bedekovčina",
+        "addr:housenumber": "65",
+        "addr:street": "Ulica Antuna Mihanovića"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4528,7 +4664,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4546,7 +4683,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4564,7 +4702,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4582,7 +4721,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4600,7 +4740,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4618,7 +4759,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4636,7 +4778,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4654,7 +4797,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4672,7 +4816,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4708,7 +4853,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4744,7 +4890,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4762,7 +4909,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4780,7 +4928,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4798,7 +4947,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4816,7 +4966,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4834,7 +4985,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4852,7 +5004,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4870,7 +5023,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4888,7 +5042,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4906,7 +5061,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4924,7 +5080,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4942,7 +5099,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4960,7 +5118,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4978,7 +5137,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -4996,7 +5156,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5014,7 +5175,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5032,7 +5194,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5050,7 +5213,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5068,7 +5232,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5086,7 +5251,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5104,7 +5270,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5122,7 +5289,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5140,7 +5308,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5158,7 +5327,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5176,7 +5346,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5194,7 +5365,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5212,7 +5384,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5230,7 +5403,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5248,7 +5422,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5266,7 +5441,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5284,7 +5460,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5302,7 +5479,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5320,7 +5498,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5338,7 +5517,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5356,7 +5536,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5374,7 +5555,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5410,7 +5592,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5428,7 +5611,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5446,7 +5630,8 @@
       "validFrom": "2026-07-27T04:13:49Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5482,7 +5667,8 @@
       "validFrom": "2026-07-27T04:59:18Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "roof"
+        "building": "roof",
+        "layer": "1"
       },
       "obris": null,
       "nearestStreet": "Ulica Antuna Mihanovića",
@@ -5500,7 +5686,10 @@
       "validFrom": "2026-07-25T07:41:12Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Rogovske Opatije",
@@ -5518,7 +5707,8 @@
       "validFrom": "2026-07-23T18:44:51Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "3"
       },
       "obris": null
     },
@@ -5534,7 +5724,8 @@
       "validFrom": "2026-07-23T18:44:51Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "3"
       },
       "obris": null
     },
@@ -5550,7 +5741,8 @@
       "validFrom": "2026-07-23T18:44:51Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "3"
       },
       "obris": null
     },
@@ -5566,7 +5758,8 @@
       "validFrom": "2026-07-23T18:44:51Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "3"
       },
       "obris": null
     },
@@ -5582,7 +5775,8 @@
       "validFrom": "2026-07-23T18:44:51Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "3"
       },
       "obris": null
     },
@@ -5598,7 +5792,8 @@
       "validFrom": "2026-07-23T18:44:51Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "3"
       },
       "obris": null
     },
@@ -5614,7 +5809,8 @@
       "validFrom": "2026-07-23T18:44:51Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "3"
       },
       "obris": null
     },
@@ -6590,7 +6786,8 @@
       "tags": {
         "building": "apartments",
         "addr:street": "Put Bokulje",
-        "addr:housenumber": "36"
+        "addr:housenumber": "36",
+        "addr:housename": "haBour"
       },
       "obris": null
     },
@@ -6643,7 +6840,8 @@
       "tags": {
         "building": "apartments",
         "addr:street": "Put Bokulje",
-        "addr:housenumber": "34"
+        "addr:housenumber": "34",
+        "addr:housename": "hAbour"
       },
       "obris": null
     },
@@ -6677,7 +6875,8 @@
       "zupanija": "Zadarska županija",
       "tags": {
         "building": "apartments",
-        "addr:street": "Put Bokulje"
+        "addr:street": "Put Bokulje",
+        "construction": "yes"
       },
       "obris": null
     },
@@ -8223,7 +8422,11 @@
       "validFrom": "2026-07-26T13:00:39Z",
       "zupanija": "Šibensko-kninska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:city": "Šibenik",
+        "addr:housenumber": "7A",
+        "addr:postcode": "22000",
+        "addr:street": "Ulica Eugena Kvaternika"
       },
       "obris": null,
       "nearestStreet": "Ulica Eugena Kvaternika",
@@ -8295,7 +8498,9 @@
       "validFrom": "2026-07-26T13:00:39Z",
       "zupanija": "Šibensko-kninska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:housenumber": "10",
+        "addr:street": "Ulica Eugena Kvaternika"
       },
       "obris": null,
       "nearestStreet": "Ulica Eugena Kvaternika",
@@ -8316,7 +8521,8 @@
         "building": "yes",
         "addr:street": "Sarajevska ulica",
         "addr:housenumber": "7A",
-        "addr:city": "Šibenik"
+        "addr:city": "Šibenik",
+        "addr:postcode": "22000"
       },
       "obris": null
     },
@@ -8353,7 +8559,8 @@
         "building": "yes",
         "addr:street": "Ulica Vladimira Nazora",
         "addr:housenumber": "3",
-        "addr:city": "Šibenik"
+        "addr:city": "Šibenik",
+        "addr:postcode": "22000"
       },
       "obris": null
     },
@@ -8372,7 +8579,8 @@
         "building": "yes",
         "addr:street": "Ulica Vladimira Nazora",
         "addr:housenumber": "11A",
-        "addr:city": "Šibenik"
+        "addr:city": "Šibenik",
+        "addr:postcode": "22000"
       },
       "obris": null
     },
@@ -8391,7 +8599,8 @@
         "building": "yes",
         "addr:street": "Ulica Eugena Kvaternika",
         "addr:housenumber": "6",
-        "addr:city": "Šibenik"
+        "addr:city": "Šibenik",
+        "addr:postcode": "22000"
       },
       "obris": null
     },
@@ -8410,7 +8619,8 @@
         "building": "yes",
         "addr:street": "Ulica Eugena Kvaternika",
         "addr:housenumber": "8A",
-        "addr:city": "Šibenik"
+        "addr:city": "Šibenik",
+        "addr:postcode": "22000"
       },
       "obris": null
     },
@@ -8429,7 +8639,8 @@
         "building": "yes",
         "addr:street": "Ulica Eugena Kvaternika",
         "addr:housenumber": "8",
-        "addr:city": "Šibenik"
+        "addr:city": "Šibenik",
+        "addr:postcode": "22000"
       },
       "obris": null
     },
@@ -8556,7 +8767,8 @@
         "building": "yes",
         "addr:street": "Ulica fra Stjepana Zlatovića",
         "addr:housenumber": "8",
-        "addr:city": "Šibenik"
+        "addr:city": "Šibenik",
+        "addr:postcode": "22000"
       },
       "obris": null
     },
@@ -8575,7 +8787,8 @@
         "building": "yes",
         "addr:street": "Ulica fra Stjepana Zlatovića",
         "addr:housenumber": "10",
-        "addr:city": "Šibenik"
+        "addr:city": "Šibenik",
+        "addr:postcode": "22000"
       },
       "obris": null
     },
@@ -8594,7 +8807,8 @@
         "building": "yes",
         "addr:street": "Ulica fra Stjepana Zlatovića",
         "addr:housenumber": "18",
-        "addr:city": "Šibenik"
+        "addr:city": "Šibenik",
+        "addr:postcode": "22000"
       },
       "obris": null
     },
@@ -8887,7 +9101,9 @@
         "building": "apartments",
         "addr:street": "Lovinčićeva ulica",
         "addr:housenumber": "1D",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "building:levels": "9"
       },
       "obris": null
     },
@@ -8939,7 +9155,8 @@
       "validFrom": "2026-07-22T11:14:21Z",
       "zupanija": "Ličko-senjska županija",
       "tags": {
-        "building": "roof"
+        "building": "roof",
+        "layer": "1"
       },
       "obris": null,
       "nearestStreet": "Put Porta",
@@ -10435,7 +10652,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Ljube Mrakovčića",
-        "addr:housenumber": "22"
+        "addr:housenumber": "22",
+        "ref:HR:kucni_broj": "654309"
       },
       "obris": null
     },
@@ -10453,7 +10671,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Ljube Mrakovčića",
-        "addr:housenumber": "29"
+        "addr:housenumber": "29",
+        "ref:HR:kucni_broj": "654318"
       },
       "obris": null
     },
@@ -11065,7 +11284,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Gorjanska ulica",
-        "addr:housenumber": "44/1"
+        "addr:housenumber": "44/1",
+        "panoramax": "4973628c-a5cc-4ce9-aa22-2d50893a7f61"
       },
       "obris": null
     },
@@ -11309,7 +11529,8 @@
       "validFrom": "2026-07-21T09:46:04Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "roof"
+        "building": "roof",
+        "roof:shape": "hipped"
       },
       "obris": null
     },
@@ -13949,7 +14170,11 @@
       "validFrom": "2026-07-21T21:49:06Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica Josip Bana Jelačića",
@@ -13969,7 +14194,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "18B"
+        "addr:housenumber": "18B",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -13987,7 +14215,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14005,7 +14237,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "22C"
+        "addr:housenumber": "22C",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14021,7 +14256,8 @@
       "validFrom": "2026-07-22T22:40:23Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "garage"
+        "building": "garage",
+        "building:levels": "1"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XXI",
@@ -14041,7 +14277,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "24A"
+        "addr:housenumber": "24A",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14057,7 +14296,11 @@
       "validFrom": "2026-07-22T22:40:23Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XIX",
@@ -14077,7 +14320,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina VII",
-        "addr:housenumber": "32"
+        "addr:housenumber": "32",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null
     },
@@ -14095,7 +14341,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "24"
+        "addr:housenumber": "24",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14113,7 +14362,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "26C"
+        "addr:housenumber": "26C",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14129,7 +14381,11 @@
       "validFrom": "2026-07-22T22:40:23Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina VII",
@@ -14149,7 +14405,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "18"
+        "addr:housenumber": "18",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14167,7 +14426,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "17A"
+        "addr:housenumber": "17A",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -14185,7 +14445,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "24C"
+        "addr:housenumber": "24C",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14203,7 +14466,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "22"
+        "addr:housenumber": "22",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14219,7 +14485,8 @@
       "validFrom": "2026-07-22T22:40:23Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "garage"
+        "building": "garage",
+        "building:levels": "1"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XXI",
@@ -14239,7 +14506,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "26A"
+        "addr:housenumber": "26A",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14257,7 +14527,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "18A"
+        "addr:housenumber": "18A",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14275,7 +14548,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina VII",
-        "addr:housenumber": "30"
+        "addr:housenumber": "30",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14293,7 +14570,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "building:levels": "2",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null
     },
@@ -14309,7 +14589,10 @@
       "validFrom": "2026-07-22T22:40:23Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XXI",
@@ -14329,7 +14612,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "15"
+        "addr:housenumber": "15",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14345,7 +14631,10 @@
       "validFrom": "2026-07-22T22:40:23Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XIX",
@@ -14365,7 +14654,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "24B"
+        "addr:housenumber": "24B",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14383,7 +14675,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "22B"
+        "addr:housenumber": "22B",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14401,7 +14696,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "18C"
+        "addr:housenumber": "18C",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14419,7 +14717,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "26B"
+        "addr:housenumber": "26B",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14437,7 +14738,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "22A"
+        "addr:housenumber": "22A",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14455,7 +14759,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "18D"
+        "addr:housenumber": "18D",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14471,7 +14778,9 @@
       "validFrom": "2026-07-22T22:40:23Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "garage"
+        "building": "garage",
+        "building:levels": "1",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XXI",
@@ -14491,7 +14800,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIX",
-        "addr:housenumber": "26"
+        "addr:housenumber": "26",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14507,7 +14819,8 @@
       "validFrom": "2026-07-24T01:54:44Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XI",
@@ -14525,7 +14838,10 @@
       "validFrom": "2026-07-24T01:54:44Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XI",
@@ -14545,7 +14861,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Velike Slatine",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "hipped"
       },
       "obris": null
     },
@@ -14563,7 +14882,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina VIII",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14579,7 +14901,8 @@
       "validFrom": "2026-07-24T01:54:44Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina VIII",
@@ -14597,7 +14920,10 @@
       "validFrom": "2026-07-24T01:54:44Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina IX",
@@ -14617,7 +14943,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina IX",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14633,7 +14963,12 @@
       "validFrom": "2026-07-24T01:54:44Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "denomination": "catholic",
+        "historic": "wayside_shrine",
+        "religion": "christian",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina VIII",
@@ -14653,7 +14988,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina X",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -14671,7 +15007,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina X",
-        "addr:housenumber": "9"
+        "addr:housenumber": "9",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -14689,7 +15026,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Velike Slatine",
-        "addr:housenumber": "54C"
+        "addr:housenumber": "54C",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14707,7 +15047,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIII",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -14725,7 +15066,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XI",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "building:levels": "1",
+        "roof:colour": "black",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14741,7 +15085,10 @@
       "validFrom": "2026-07-24T01:54:44Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XIII",
@@ -14761,7 +15108,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina X",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -14779,7 +15127,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Velike Slatine",
-        "addr:housenumber": "21A"
+        "addr:housenumber": "21A",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -14797,7 +15146,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina IX",
-        "addr:housenumber": "9"
+        "addr:housenumber": "9",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14813,7 +15165,10 @@
       "validFrom": "2026-07-24T01:54:44Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Put Velike Slatine",
@@ -14833,7 +15188,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIII",
-        "addr:housenumber": "1a"
+        "addr:housenumber": "1a",
+        "building:levels": "2",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null
     },
@@ -14849,7 +15207,10 @@
       "validFrom": "2026-07-24T01:54:44Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "skillion"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XI",
@@ -14869,7 +15230,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Velike Slatine",
-        "addr:housenumber": "52"
+        "addr:housenumber": "52",
+        "building:levels": "3",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped"
       },
       "obris": null
     },
@@ -14887,7 +15252,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina VIII",
-        "addr:housenumber": "6A"
+        "addr:housenumber": "6A",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14905,7 +15273,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina X",
-        "addr:housenumber": "5A"
+        "addr:housenumber": "5A",
+        "building:levels": "1",
+        "roof:colour": "black",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14923,7 +15294,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina VIII",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -14941,7 +15313,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XIII",
-        "addr:housenumber": "6"
+        "addr:housenumber": "6",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14959,7 +15335,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Velike Slatine",
-        "addr:housenumber": "29"
+        "addr:housenumber": "29",
+        "building:levels": "2",
+        "roof:colour": "grey",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -14975,7 +15355,10 @@
       "validFrom": "2026-07-24T23:17:45Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Velika Slatina XII",
@@ -14995,7 +15378,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Velika Slatina XVI",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "building:levels": "2",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null
     },
@@ -18038,7 +18424,8 @@
         "building": "yes",
         "addr:street": "Horvatova ulica",
         "addr:housenumber": "29C",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10010"
       },
       "obris": null
     },
@@ -18057,7 +18444,8 @@
         "building": "yes",
         "addr:street": "Horvatova ulica",
         "addr:housenumber": "29B",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10010"
       },
       "obris": null
     },
@@ -18076,7 +18464,8 @@
         "building": "yes",
         "addr:street": "Zelengorska ulica",
         "addr:housenumber": "3/1",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10010"
       },
       "obris": null
     },
@@ -18095,7 +18484,8 @@
         "building": "yes",
         "addr:street": "Zelengorska ulica",
         "addr:housenumber": "4A",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10010"
       },
       "obris": null
     },
@@ -18114,7 +18504,8 @@
         "building": "yes",
         "addr:street": "Mrkšina ulica",
         "addr:housenumber": "1",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10020"
       },
       "obris": null
     },
@@ -18133,7 +18524,8 @@
         "building": "yes",
         "addr:street": "Horvatova ulica",
         "addr:housenumber": "65",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10010"
       },
       "obris": null
     },
@@ -18258,7 +18650,9 @@
       "zupanija": "Grad Zagreb",
       "tags": {
         "building": "yes",
-        "name": "Bazeni Špansko"
+        "name": "Bazeni Špansko",
+        "leisure": "sports_centre",
+        "sport": "swimming"
       },
       "obris": null,
       "nearestStreet": "Ulica Drage Stipca",
@@ -18500,7 +18894,8 @@
       "validFrom": "2026-07-22T18:55:00Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "tourism": "apartment"
       },
       "obris": null,
       "nearestStreet": "Grabovac",
@@ -18518,7 +18913,8 @@
       "validFrom": "2026-07-22T18:55:00Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "tourism": "apartment"
       },
       "obris": null,
       "nearestStreet": "Grabovac",
@@ -19090,7 +19486,8 @@
       "validFrom": "2026-07-23T19:48:19Z",
       "zupanija": "Primorsko-goranska županija",
       "tags": {
-        "building": "roof"
+        "building": "roof",
+        "building:use": "foodservice"
       },
       "obris": null,
       "nearestStreet": "I",

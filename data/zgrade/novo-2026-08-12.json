@@ -732,7 +732,10 @@
       "zupanija": "Istarska županija",
       "tags": {
         "building": "church",
-        "name": "Crkva Sv Jakov"
+        "name": "Crkva Sv Jakov",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "religion": "christian"
       },
       "obris": null,
       "nearestStreet": "Kršan",
@@ -3192,7 +3195,8 @@
       "validFrom": "2026-08-10T13:56:26Z",
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Letićani",
@@ -3210,7 +3214,8 @@
       "validFrom": "2026-08-10T13:56:26Z",
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Letićani",
@@ -3228,7 +3233,8 @@
       "validFrom": "2026-08-10T13:56:26Z",
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Letićani",
@@ -3246,7 +3252,8 @@
       "validFrom": "2026-08-10T13:56:26Z",
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Letićani",
@@ -4326,7 +4333,12 @@
       "validFrom": "2026-08-10T15:23:57Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "building:levels": "4",
+        "panoramax": "7bacea52-7246-4f01-9efb-0446542bdc26",
+        "roof:levels": "1",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Trg Marka Marulića",
@@ -5163,7 +5175,8 @@
       "zupanija": "Zadarska županija",
       "tags": {
         "building": "house",
-        "addr:housenumber": "399"
+        "addr:housenumber": "399",
+        "addr:place": "Mali Iž"
       },
       "obris": null,
       "nearestStreet": "Živkov put",
@@ -5253,7 +5266,9 @@
       "validFrom": "2026-08-11T09:00:29Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "man_made": "tower",
+        "tower:type": "bell_tower"
       },
       "obris": null,
       "nearestStreet": "Ulica bana Tome Erdödija Bakača",
@@ -5272,7 +5287,11 @@
       "zupanija": "Zagrebačka županija",
       "tags": {
         "building": "yes",
-        "name": "Franjevački samostan i crkva Blažene Djevice Marije, Jastrebarsko"
+        "name": "Franjevački samostan i crkva Blažene Djevice Marije, Jastrebarsko",
+        "amenity": "monastery",
+        "community": "OFM",
+        "denomination": "roman_catholic",
+        "religion": "christian"
       },
       "obris": null,
       "nearestStreet": "Ulica bana Tome Erdödija Bakača",
@@ -7721,7 +7740,8 @@
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
         "building": "yes",
-        "name": "Mjesni dom Gornja Ploščica"
+        "name": "Mjesni dom Gornja Ploščica",
+        "amenity": "community_centre"
       },
       "obris": null
     },
@@ -7738,7 +7758,9 @@
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
         "building": "yes",
-        "name": "kapela sv. Jakova"
+        "name": "kapela sv. Jakova",
+        "amenity": "place_of_worship",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -7756,7 +7778,12 @@
       "tags": {
         "building": "apartments",
         "addr:street": "Masarykova ulica",
-        "addr:housenumber": "23"
+        "addr:housenumber": "23",
+        "building:levels": "4",
+        "panoramax": "06aaca5d-55ba-4fe9-bf0d-9e2c87e2b510",
+        "ref:HR:kucni_broj": "22073511",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -7772,7 +7799,8 @@
       "validFrom": "2026-08-11T13:36:52Z",
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "community_centre"
       },
       "obris": null
     },
@@ -7915,7 +7943,8 @@
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
         "building": "yes",
-        "name": "Mjesni dom Lončarica"
+        "name": "Mjesni dom Lončarica",
+        "amenity": "community_centre"
       },
       "obris": null,
       "nearestStreet": "Brza cesta Virovitica – Daruvar – Okučani",
@@ -7933,7 +7962,9 @@
       "validFrom": "2026-08-11T15:32:28Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica baruna Trenka",
@@ -7951,7 +7982,9 @@
       "validFrom": "2026-08-11T15:32:28Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Gajeva ulica",
@@ -7971,7 +8004,9 @@
       "tags": {
         "building": "apartments",
         "addr:street": "Ulica baruna Trenka",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -7987,7 +8022,9 @@
       "validFrom": "2026-08-11T15:32:28Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica baruna Trenka",
@@ -8005,7 +8042,9 @@
       "validFrom": "2026-08-11T15:32:28Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica baruna Trenka",
@@ -8024,7 +8063,9 @@
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
         "building": "yes",
-        "name": "kapela sv. Petra"
+        "name": "kapela sv. Petra",
+        "amenity": "place_of_worship",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -8058,7 +8099,8 @@
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
         "building": "yes",
-        "name": "Mjesni dom Velika Babina G ora"
+        "name": "Mjesni dom Velika Babina G ora",
+        "amenity": "community_centre"
       },
       "obris": null
     },
@@ -8075,7 +8117,10 @@
       "zupanija": "Bjelovarsko-bilogorska županija",
       "tags": {
         "building": "yes",
-        "name": "zvonik sv. Ilije"
+        "name": "zvonik sv. Ilije",
+        "amenity": "place_of_worship",
+        "denomination": "orthodox",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -12496,7 +12541,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "65",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12515,7 +12561,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "63",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12534,7 +12581,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "61b",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12553,7 +12601,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "61a",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12572,7 +12621,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "61",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12591,7 +12641,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "59",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12610,7 +12661,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "57",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12629,7 +12681,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "55",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12648,7 +12701,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "53",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12667,7 +12721,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "51",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12686,7 +12741,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "49",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12705,7 +12761,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "49",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12724,7 +12781,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "47",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12743,7 +12801,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "45",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12762,7 +12821,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "45",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12781,7 +12841,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "43",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12799,7 +12860,9 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:housenumber": "43",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12818,7 +12881,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "39",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12837,7 +12901,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "37",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12856,7 +12921,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "35",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12875,7 +12941,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "35",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12894,7 +12961,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "33",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12913,7 +12981,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "31",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12932,7 +13001,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "29",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12951,7 +13021,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "27a",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12970,7 +13041,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "25",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -12989,7 +13061,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "27",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13008,7 +13081,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "21",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13027,7 +13101,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "19",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13046,7 +13121,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "23",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13065,7 +13141,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "17",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13084,7 +13161,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "15",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13103,7 +13181,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "13",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13122,7 +13201,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "13",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13141,7 +13221,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "11",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13160,7 +13241,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "9",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13179,7 +13261,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "7",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13198,7 +13281,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "5a",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13217,7 +13301,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "5",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13236,7 +13321,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "3",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -13255,7 +13341,8 @@
         "building": "house",
         "addr:street": "Ulica biskupa Antuna Mandića",
         "addr:housenumber": "1",
-        "addr:city": "Đakovo"
+        "addr:city": "Đakovo",
+        "addr:postcode": "31400"
       },
       "obris": null
     },
@@ -14622,7 +14709,8 @@
       "validFrom": "2026-08-12T14:38:28Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "service"
+        "building": "service",
+        "panoramax": "cbc6a403-7b45-4eae-a0a5-56d92a35da0a"
       },
       "obris": null,
       "nearestStreet": "Trg Ivana, Antuna i Vladimira Mažuranića",
@@ -14640,7 +14728,8 @@
       "validFrom": "2026-08-12T20:52:41Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "garage"
+        "building": "garage",
+        "panoramax": "535d3304-cae5-48e4-bf7b-69b31fd77eae"
       },
       "obris": null,
       "nearestStreet": "Trg Ivana, Antuna i Vladimira Mažuranića",
@@ -14676,7 +14765,10 @@
       "validFrom": "2026-08-12T15:23:18Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "building:levels": "3",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Preradovićeva ulica",
@@ -14694,7 +14786,9 @@
       "validFrom": "2026-08-12T15:28:36Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Andrije Hebranga",
@@ -14712,7 +14806,9 @@
       "validFrom": "2026-08-12T15:28:36Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Andrije Hebranga",
@@ -14730,7 +14826,9 @@
       "validFrom": "2026-08-12T15:28:36Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Gajeva ulica",
@@ -14748,7 +14846,9 @@
       "validFrom": "2026-08-12T15:29:34Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Gajeva ulica",
@@ -14787,7 +14887,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "46",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -14824,7 +14925,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "48",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -14843,7 +14945,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "50",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -14880,7 +14983,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "55",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -14899,7 +15003,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "58",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -14936,7 +15041,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "162",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -14955,7 +15061,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "161",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -14974,7 +15081,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "163",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -14993,7 +15101,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "164",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15066,7 +15175,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "44",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15085,7 +15195,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "43",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15104,7 +15215,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "43A",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15141,7 +15253,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "42",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15178,7 +15291,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "197",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15197,7 +15311,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "168",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15234,7 +15349,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "201",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15253,7 +15369,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "204",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15308,7 +15425,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "205",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15327,7 +15445,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "207",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15346,7 +15465,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "206",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15437,7 +15557,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "52",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15475,7 +15596,9 @@
         "name": "Termo Kiki",
         "addr:street": "Gradiščak",
         "addr:housenumber": "48a",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313",
+        "craft": "hvac"
       },
       "obris": null
     },
@@ -15602,7 +15725,8 @@
         "building": "house",
         "addr:street": "Gradiščak",
         "addr:housenumber": "53",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -15657,7 +15781,11 @@
       "tags": {
         "building": "yes",
         "name": "Bivši Pavlinski samostan Blažene Djevice Marije",
-        "addr:city": "Polje Čepić"
+        "addr:city": "Polje Čepić",
+        "amenity": "monastery",
+        "denomination": "roman_catholic",
+        "religion": "christian",
+        "type": "multipolygon"
       },
       "obris": null
     }

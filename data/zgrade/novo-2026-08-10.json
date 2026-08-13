@@ -6580,7 +6580,11 @@
       "validFrom": "2026-08-03T12:15:22Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "shelter_type": "public_transport"
       },
       "obris": null,
       "nearestStreet": "Ulica Pavla Lončara",
@@ -6598,7 +6602,11 @@
       "validFrom": "2026-08-03T12:15:22Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "shelter_type": "public_transport"
       },
       "obris": null,
       "nearestStreet": "Ulica Pavla Lončara",
@@ -6616,7 +6624,11 @@
       "validFrom": "2026-08-03T12:15:22Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "shelter_type": "public_transport"
       },
       "obris": null,
       "nearestStreet": "Ulica Matije Skurjenija",
@@ -7134,7 +7146,11 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Mitrovićeva ulica",
@@ -7152,7 +7168,9 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "4",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Stojakova ulica",
@@ -7171,7 +7189,14 @@
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
         "building": "yes",
-        "name": "Dječje vrtić Liliput Trpinja"
+        "name": "Dječje vrtić Liliput Trpinja",
+        "amenity": "kindergarten",
+        "building:levels": "1",
+        "isced:level": "1",
+        "level": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Vukajlova ulica",
@@ -7189,7 +7214,10 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Vukajlova ulica",
@@ -7207,7 +7235,9 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "4",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Ćirićeva ulica",
@@ -7225,7 +7255,9 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "4",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Ćirićeva ulica",
@@ -7243,7 +7275,9 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "4",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Ćirićeva ulica",
@@ -7261,7 +7295,10 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Mitrovićeva ulica",
@@ -7297,7 +7334,8 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1"
       },
       "obris": null,
       "nearestStreet": "Ćirićeva ulica",
@@ -7315,7 +7353,9 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "4",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Ćirićeva ulica",
@@ -7333,7 +7373,11 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Vukajlova ulica",
@@ -7351,7 +7395,10 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Stojakova ulica",
@@ -7369,7 +7416,9 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "4",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Ćirićeva ulica",
@@ -7387,7 +7436,9 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "4",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Ćirićeva ulica",
@@ -7405,7 +7456,9 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "4",
+        "man_made": "silo"
       },
       "obris": null,
       "nearestStreet": "Stojakova ulica",
@@ -7423,7 +7476,10 @@
       "validFrom": "2026-08-03T18:01:53Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "2",
+        "roof:colour": "grey",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ćirićeva ulica",
@@ -7441,7 +7497,8 @@
       "validFrom": "2026-08-03T18:02:18Z",
       "zupanija": "Međimurska županija",
       "tags": {
-        "building": "service"
+        "building": "service",
+        "power": "substation"
       },
       "obris": null,
       "nearestStreet": "Ulica Stjepana Radića",
@@ -7459,7 +7516,10 @@
       "validFrom": "2026-08-03T18:06:04Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Odvojak Patkovićeva",
@@ -7477,7 +7537,11 @@
       "validFrom": "2026-08-03T18:06:04Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Odvojak Patkovićeva",
@@ -7495,7 +7559,10 @@
       "validFrom": "2026-08-03T18:06:04Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Odvojak Patkovićeva",
@@ -7552,7 +7619,8 @@
         "building": "yes",
         "addr:street": "Jurovčak",
         "addr:housenumber": "5",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -7622,7 +7690,10 @@
       "validFrom": "2026-08-03T18:30:07Z",
       "zupanija": "Međimurska županija",
       "tags": {
-        "building": "kiosk"
+        "building": "kiosk",
+        "operator": "Elektra Čakovec",
+        "power": "substation",
+        "substation": "minor_distribution"
       },
       "obris": null,
       "nearestStreet": "Martinska ulica",
@@ -7698,7 +7769,10 @@
         "name": "PRO-LIM Limarija Posavec",
         "addr:street": "Ruđera Boškovića",
         "addr:housenumber": "4",
-        "addr:city": "Nedelišće"
+        "addr:city": "Nedelišće",
+        "addr:postcode": "40305",
+        "craft": "blacksmith",
+        "operator": "Rudolf Posavec"
       },
       "obris": null
     },
@@ -8524,7 +8598,11 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica Augusta Cesarca",
@@ -8542,7 +8620,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Školska ulica",
@@ -8560,7 +8641,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "black",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica Vojina Bakića",
@@ -8578,7 +8662,11 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica Matije Gupca",
@@ -8596,7 +8684,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica Vojina Bakića",
@@ -8614,7 +8705,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Dore Pejačević",
@@ -8632,7 +8726,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Dore Pejačević",
@@ -8650,7 +8747,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Augusta Cesarca",
@@ -8668,7 +8768,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica Vojina Bakića",
@@ -8686,7 +8789,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Vojina Bakića",
@@ -8704,7 +8810,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Vojina Bakića",
@@ -8722,7 +8831,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Vojina Bakića",
@@ -8740,7 +8852,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica domovinske zahvalnosti",
@@ -8758,7 +8873,11 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica domovinske zahvalnosti",
@@ -8776,7 +8895,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:colour": "grey",
+        "building:levels": "1",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Vojina Bakića",
@@ -8794,7 +8916,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica Vojina Bakića",
@@ -8812,7 +8937,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica Vojina Bakića",
@@ -8830,7 +8958,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Dore Pejačević",
@@ -8848,7 +8979,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica kralja Petra Svačića",
@@ -8866,7 +9000,11 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "black",
+        "roof:material": "roof_tiles",
+        "roof:shape": "pyramidal"
       },
       "obris": null,
       "nearestStreet": "Ulica Augusta Cesarca",
@@ -8884,7 +9022,10 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica Augusta Cesarca",
@@ -8902,7 +9043,11 @@
       "validFrom": "2026-08-03T19:17:10Z",
       "zupanija": "Osječko-baranjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Ulica Augusta Cesarca",
@@ -8922,7 +9067,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Školska ulica",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "506277"
       },
       "obris": null
     },
@@ -8940,7 +9086,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vinogradska ulica",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "506331"
       },
       "obris": null
     },
@@ -9030,7 +9177,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vinogradska ulica",
-        "addr:housenumber": "9"
+        "addr:housenumber": "9",
+        "ref:HR:kucni_broj": "506338"
       },
       "obris": null
     },
@@ -9102,7 +9250,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vinogradska ulica",
-        "addr:housenumber": "23"
+        "addr:housenumber": "23",
+        "ref:HR:kucni_broj": "506697"
       },
       "obris": null
     },
@@ -9138,7 +9287,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vinogradska ulica",
-        "addr:housenumber": "1A"
+        "addr:housenumber": "1A",
+        "ref:HR:kucni_broj": "2111515836"
       },
       "obris": null
     },
@@ -9156,7 +9306,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vinogradska ulica",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "ref:HR:kucni_broj": "506330"
       },
       "obris": null
     },
@@ -9174,7 +9325,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vinogradska ulica",
-        "addr:housenumber": "6"
+        "addr:housenumber": "6",
+        "ref:HR:kucni_broj": "506335"
       },
       "obris": null
     },
@@ -9192,7 +9344,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Lanterne",
-        "addr:housenumber": "20"
+        "addr:housenumber": "20",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -9210,7 +9366,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Lanterna I",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -9228,7 +9388,9 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Lanterne",
-        "addr:housenumber": "16A"
+        "addr:housenumber": "16A",
+        "building:levels": "1",
+        "roof:colour": "black"
       },
       "obris": null
     },
@@ -9246,7 +9408,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Lanterna I",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -9264,7 +9430,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Lanterne",
-        "addr:housenumber": "14F"
+        "addr:housenumber": "14F",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -9282,7 +9449,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Lanterne",
-        "addr:housenumber": "14D"
+        "addr:housenumber": "14D",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -9300,7 +9471,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Lanterna I",
-        "addr:housenumber": "17"
+        "addr:housenumber": "17",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null
     },
@@ -9318,7 +9492,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Lanterne",
-        "addr:housenumber": "16"
+        "addr:housenumber": "16",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -9336,7 +9513,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Lanterne",
-        "addr:housenumber": "22"
+        "addr:housenumber": "22",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null
     },
@@ -9460,7 +9640,10 @@
       "validFrom": "2026-08-04T08:30:37Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "skillion"
       },
       "obris": null,
       "nearestStreet": "Put Lanterne",
@@ -9480,7 +9663,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Lanterne",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -9498,7 +9685,9 @@
       "tags": {
         "building": "ruins",
         "addr:housenumber": "18",
-        "addr:city": "Novi Dvori Klanječki"
+        "addr:city": "Novi Dvori Klanječki",
+        "addr:postcode": "49290",
+        "wikidata": "Q121636349"
       },
       "obris": null,
       "nearestStreet": "Gredice",
@@ -9518,7 +9707,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Fallerovo šetalište",
-        "addr:housenumber": "82/1"
+        "addr:housenumber": "82/1",
+        "ref:HR:kucni_broj": "2155964905"
       },
       "obris": null
     },
@@ -9536,7 +9726,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Fallerovo šetalište",
-        "addr:housenumber": "78/1"
+        "addr:housenumber": "78/1",
+        "ref:HR:kucni_broj": "22134804"
       },
       "obris": null
     },
@@ -9554,7 +9745,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Fallerovo šetalište",
-        "addr:housenumber": "78/2"
+        "addr:housenumber": "78/2",
+        "ref:HR:kucni_broj": "22135567"
       },
       "obris": null
     },
@@ -9572,7 +9764,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Fallerovo šetalište",
-        "addr:housenumber": "56/1"
+        "addr:housenumber": "56/1",
+        "ref:HR:kucni_broj": "2126683102"
       },
       "obris": null
     },
@@ -9771,7 +9964,8 @@
         "building": "house",
         "addr:street": "Železna Gora",
         "addr:housenumber": "131",
-        "addr:city": "Štrigova"
+        "addr:city": "Štrigova",
+        "addr:postcode": "40312"
       },
       "obris": null
     },
@@ -9862,7 +10056,8 @@
         "building": "house",
         "addr:street": "Brezovec",
         "addr:housenumber": "8e",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -9881,7 +10076,8 @@
         "building": "house",
         "addr:street": "Brezovec",
         "addr:housenumber": "8f",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -9900,7 +10096,8 @@
         "building": "house",
         "addr:street": "Brezovec",
         "addr:housenumber": "26",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -10027,7 +10224,8 @@
         "building": "house",
         "addr:street": "Brezovec",
         "addr:housenumber": "12",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -10064,7 +10262,8 @@
         "building": "house",
         "addr:street": "Brezovec",
         "addr:housenumber": "29",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -10083,7 +10282,8 @@
         "building": "house",
         "addr:street": "Jurovec",
         "addr:housenumber": "64",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -10102,7 +10302,8 @@
         "building": "house",
         "addr:street": "Jurovec",
         "addr:housenumber": "32",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -10121,7 +10322,8 @@
         "building": "house",
         "addr:street": "Jurovec",
         "addr:housenumber": "57b",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -10140,7 +10342,8 @@
         "building": "house",
         "addr:street": "Jurovec",
         "addr:housenumber": "57",
-        "addr:city": "Sveti Martin na Muri"
+        "addr:city": "Sveti Martin na Muri",
+        "addr:postcode": "40313"
       },
       "obris": null
     },
@@ -10230,7 +10433,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Maksimilijana Vrhovca",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "ref:HR:kucni_broj": "1177322"
       },
       "obris": null
     },
@@ -10248,7 +10452,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Maksimilijana Vrhovca",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "ref:HR:kucni_broj": "1177323"
       },
       "obris": null
     },
@@ -10266,7 +10471,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Maksimilijana Vrhovca",
-        "addr:housenumber": "17"
+        "addr:housenumber": "17",
+        "ref:HR:kucni_broj": "1177336"
       },
       "obris": null
     },
@@ -10284,7 +10490,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Maksimilijana Vrhovca",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "ref:HR:kucni_broj": "1177331"
       },
       "obris": null
     },
@@ -10320,7 +10527,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica grada Ravensburga",
-        "addr:housenumber": "19/1"
+        "addr:housenumber": "19/1",
+        "ref:HR:kucni_broj": "17009869"
       },
       "obris": null
     },
@@ -10338,7 +10546,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica grada Ravensburga",
-        "addr:housenumber": "21/1"
+        "addr:housenumber": "21/1",
+        "ref:HR:kucni_broj": "17009871"
       },
       "obris": null
     },
@@ -10374,7 +10583,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica grada Ravensburga",
-        "addr:housenumber": "14/1"
+        "addr:housenumber": "14/1",
+        "ref:HR:kucni_broj": "2173266962"
       },
       "obris": null
     },
@@ -10392,7 +10602,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Berek - Kapelica",
-        "addr:housenumber": "26"
+        "addr:housenumber": "26",
+        "ref:HR:kucni_broj": "124533",
+        "source:addr": "DGU",
+        "source:addr:date": "2021-01-01"
       },
       "obris": null
     },
@@ -10410,7 +10623,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mlinarska ulica",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "ref:HR:kucni_broj": "124540",
+        "source:addr": "DGU",
+        "source:addr:date": "2021-01-01"
       },
       "obris": null
     },
@@ -10446,7 +10662,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mlinarska ulica",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "124546",
+        "source:addr": "DGU",
+        "source:addr:date": "2021-01-01"
       },
       "obris": null
     },
@@ -10482,7 +10701,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Oluja '95.",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "ref:HR:kucni_broj": "124983",
+        "source:addr": "DGU",
+        "source:addr:date": "2021-01-01"
       },
       "obris": null
     },
@@ -10500,7 +10722,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Jelaski put",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "124190",
+        "source:addr": "DGU",
+        "source:addr:date": "2021-01-01"
       },
       "obris": null
     },
@@ -10518,7 +10743,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Jelaski put",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "ref:HR:kucni_broj": "124189",
+        "source:addr": "DGU",
+        "source:addr:date": "2021-01-01"
       },
       "obris": null
     },
@@ -10536,7 +10764,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Pavića strana",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "15008398",
+        "source:addr": "DGU",
+        "source:addr:date": "2021-01-01"
       },
       "obris": null
     },
@@ -10554,7 +10785,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Marijanovića put",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "124960",
+        "source:addr": "DGU",
+        "source:addr:date": "2021-01-01"
       },
       "obris": null
     },
@@ -10680,7 +10914,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Stjepana Lazara - Šokca",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "ref:HR:kucni_broj": "823260"
       },
       "obris": null
     },
@@ -10698,7 +10933,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Stjepana Lazara - Šokca",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "ref:HR:kucni_broj": "823261"
       },
       "obris": null
     },
@@ -10734,7 +10970,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ante Kovačića",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "822799"
       },
       "obris": null
     },
@@ -10806,7 +11043,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ante Kovačića",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "ref:HR:kucni_broj": "822800"
       },
       "obris": null
     },
@@ -10842,7 +11080,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Ante Kovačića",
-        "addr:housenumber": "5A"
+        "addr:housenumber": "5A",
+        "ref:HR:kucni_broj": "2164180356"
       },
       "obris": null
     },
@@ -10860,7 +11099,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Ante Kovačića",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "ref:HR:kucni_broj": "822801"
       },
       "obris": null
     },
@@ -10878,7 +11118,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Ante Kovačića",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "822802"
       },
       "obris": null
     },
@@ -10896,7 +11137,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Ante Kovačića",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "ref:HR:kucni_broj": "1448516"
       },
       "obris": null
     },
@@ -10932,7 +11174,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Ante Kovačića",
-        "addr:housenumber": "13"
+        "addr:housenumber": "13",
+        "ref:HR:kucni_broj": "17013110"
       },
       "obris": null
     },
@@ -10986,7 +11229,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Ante Kovačića",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "ref:HR:kucni_broj": "1448515"
       },
       "obris": null
     },
@@ -11004,7 +11248,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Ante Kovačića",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "ref:HR:kucni_broj": "2078073272"
       },
       "obris": null
     },
@@ -11040,7 +11285,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "ref:HR:kucni_broj": "822809"
       },
       "obris": null
     },
@@ -11076,7 +11322,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "822811"
       },
       "obris": null
     },
@@ -11130,7 +11377,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "9"
+        "addr:housenumber": "9",
+        "ref:HR:kucni_broj": "822810"
       },
       "obris": null
     },
@@ -11148,7 +11396,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "ref:HR:kucni_broj": "822812"
       },
       "obris": null
     },
@@ -11166,7 +11415,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "10A"
+        "addr:housenumber": "10A",
+        "ref:HR:kucni_broj": "17014832"
       },
       "obris": null
     },
@@ -11184,7 +11434,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "ref:HR:kucni_broj": "822813"
       },
       "obris": null
     },
@@ -11238,7 +11489,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "13"
+        "addr:housenumber": "13",
+        "ref:HR:kucni_broj": "822814"
       },
       "obris": null
     },
@@ -11256,7 +11508,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "15"
+        "addr:housenumber": "15",
+        "ref:HR:kucni_broj": "822815"
       },
       "obris": null
     },
@@ -11310,7 +11563,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "ref:HR:kucni_broj": "822816"
       },
       "obris": null
     },
@@ -11346,7 +11600,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "ref:HR:kucni_broj": "822817"
       },
       "obris": null
     },
@@ -11400,7 +11655,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "31"
+        "addr:housenumber": "31",
+        "ref:HR:kucni_broj": "822822"
       },
       "obris": null
     },
@@ -11418,7 +11674,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "29"
+        "addr:housenumber": "29",
+        "ref:HR:kucni_broj": "822821"
       },
       "obris": null
     },
@@ -11436,7 +11693,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "27"
+        "addr:housenumber": "27",
+        "ref:HR:kucni_broj": "822820"
       },
       "obris": null
     },
@@ -11490,7 +11748,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Augusta Šenoe",
-        "addr:housenumber": "27A"
+        "addr:housenumber": "27A",
+        "ref:HR:kucni_broj": "17013112"
       },
       "obris": null
     },
@@ -11778,7 +12037,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Varaždinska ulica",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "ref:HR:kucni_broj": "823198"
       },
       "obris": null
     },
@@ -11958,7 +12218,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Varaždinska ulica",
-        "addr:housenumber": "20/1"
+        "addr:housenumber": "20/1",
+        "ref:HR:kucni_broj": "2140735523"
       },
       "obris": null
     },
@@ -12030,7 +12291,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Varaždinska ulica",
-        "addr:housenumber": "29/1"
+        "addr:housenumber": "29/1",
+        "ref:HR:kucni_broj": "823221"
       },
       "obris": null
     },
@@ -12066,7 +12328,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Varaždinska ulica",
-        "addr:housenumber": "36"
+        "addr:housenumber": "36",
+        "ref:HR:kucni_broj": "823228"
       },
       "obris": null
     },
@@ -12156,7 +12419,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Varaždinska ulica",
-        "addr:housenumber": "31/1"
+        "addr:housenumber": "31/1",
+        "ref:HR:kucni_broj": "17014006"
       },
       "obris": null
     },
@@ -12174,7 +12438,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Varaždinska ulica",
-        "addr:housenumber": "57A"
+        "addr:housenumber": "57A",
+        "ref:HR:kucni_broj": "823245"
       },
       "obris": null
     },
@@ -12336,7 +12601,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Varaždinska ulica",
-        "addr:housenumber": "56A"
+        "addr:housenumber": "56A",
+        "ref:HR:kucni_broj": "2053958057"
       },
       "obris": null
     },
@@ -12498,7 +12764,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Frankopanska ulica",
-        "addr:housenumber": "11/1"
+        "addr:housenumber": "11/1",
+        "abandoned": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -12534,7 +12803,11 @@
       "tags": {
         "building": "apartments",
         "addr:street": "Frankopanska ulica",
-        "addr:housenumber": "5A/1"
+        "addr:housenumber": "5A/1",
+        "building:levels": "3",
+        "noaddress": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -12606,7 +12879,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vrtna ulica",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "ref:HR:kucni_broj": "823251"
       },
       "obris": null
     },
@@ -12642,7 +12916,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vrtna ulica",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "823252"
       },
       "obris": null
     },
@@ -12660,7 +12935,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vrtna ulica",
-        "addr:housenumber": "14"
+        "addr:housenumber": "14",
+        "ref:HR:kucni_broj": "823253"
       },
       "obris": null
     },
@@ -12714,7 +12990,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vrtna ulica",
-        "addr:housenumber": "16"
+        "addr:housenumber": "16",
+        "ref:HR:kucni_broj": "823254"
       },
       "obris": null
     },
@@ -12732,7 +13009,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vrtna ulica",
-        "addr:housenumber": "18"
+        "addr:housenumber": "18",
+        "ref:HR:kucni_broj": "2171870490"
       },
       "obris": null
     },
@@ -12804,7 +13082,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ljudevita Gaja",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "823177"
       },
       "obris": null
     },
@@ -12822,7 +13101,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ljudevita Gaja",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "ref:HR:kucni_broj": "1449182"
       },
       "obris": null
     },
@@ -12840,7 +13120,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ljudevita Gaja",
-        "addr:housenumber": "27"
+        "addr:housenumber": "27",
+        "ref:HR:kucni_broj": "17013106"
       },
       "obris": null
     },
@@ -12858,7 +13139,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ljudevita Gaja",
-        "addr:housenumber": "20"
+        "addr:housenumber": "20",
+        "ref:HR:kucni_broj": "2154921842"
       },
       "obris": null
     },
@@ -12876,7 +13158,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ljudevita Gaja",
-        "addr:housenumber": "22"
+        "addr:housenumber": "22",
+        "ref:HR:kucni_broj": "2163808795"
       },
       "obris": null
     },
@@ -12930,7 +13213,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ljudevita Gaja",
-        "addr:housenumber": "30"
+        "addr:housenumber": "30",
+        "ref:HR:kucni_broj": "17013105"
       },
       "obris": null
     },
@@ -13094,7 +13378,17 @@
         "name": "Hotel Villa Bacchus",
         "addr:street": "Obala sv. Nikole",
         "addr:housenumber": "89",
-        "addr:city": "Baška Voda"
+        "addr:city": "Baška Voda",
+        "email": "booking@hotel-bacchus.hr",
+        "internet_access": "wlan",
+        "mobile": "+385 99 797 2351",
+        "phone": "+385 21 695 190",
+        "sauna": "yes",
+        "spa": "yes",
+        "stars": "4",
+        "swimming_pool": "yes",
+        "tourism": "hotel",
+        "website": "https://www.hotel-bacchus.hr/"
       },
       "obris": null
     },
@@ -13112,7 +13406,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Kratka ulica",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "ref:HR:kucni_broj": "1408569"
       },
       "obris": null
     },
@@ -13130,7 +13425,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Kratka ulica",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "ref:HR:kucni_broj": "1408568"
       },
       "obris": null
     },
@@ -13148,7 +13444,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Kratka ulica",
-        "addr:housenumber": "50"
+        "addr:housenumber": "50",
+        "ref:HR:kucni_broj": "17012690"
       },
       "obris": null
     },
@@ -13166,7 +13463,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Kratka ulica",
-        "addr:housenumber": "52"
+        "addr:housenumber": "52",
+        "ref:HR:kucni_broj": "2180776624"
       },
       "obris": null
     },
@@ -21352,7 +21650,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "ref:HR:kucni_broj": "1408572"
       },
       "obris": null
     },
@@ -21370,7 +21669,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "ref:HR:kucni_broj": "1408571"
       },
       "obris": null
     },
@@ -21424,7 +21724,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "1408575"
       },
       "obris": null
     },
@@ -21442,7 +21743,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "ref:HR:kucni_broj": "1408573"
       },
       "obris": null
     },
@@ -21460,7 +21762,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "9"
+        "addr:housenumber": "9",
+        "ref:HR:kucni_broj": "1408574"
       },
       "obris": null
     },
@@ -21496,7 +21799,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "ref:HR:kucni_broj": "1408576"
       },
       "obris": null
     },
@@ -21568,7 +21872,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "18"
+        "addr:housenumber": "18",
+        "ref:HR:kucni_broj": "1408577"
       },
       "obris": null
     },
@@ -21586,7 +21891,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "40"
+        "addr:housenumber": "40",
+        "ref:HR:kucni_broj": "17015004"
       },
       "obris": null
     },
@@ -21640,7 +21946,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "ref:HR:kucni_broj": "17012758"
       },
       "obris": null
     },
@@ -21658,7 +21965,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Nova ulica",
-        "addr:housenumber": "28"
+        "addr:housenumber": "28",
+        "ref:HR:kucni_broj": "17012753"
       },
       "obris": null
     },
@@ -22000,7 +22308,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bosiljke Paske",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "ref:HR:kucni_broj": "2185378449"
       },
       "obris": null
     },
@@ -22018,7 +22327,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bosiljke Paske",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "2166872159"
       },
       "obris": null
     },
@@ -22036,7 +22346,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bosiljke Paske",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "ref:HR:kucni_broj": "2185063471"
       },
       "obris": null
     },
@@ -22054,7 +22365,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bosiljke Paske",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "ref:HR:kucni_broj": "2166872195"
       },
       "obris": null
     },
@@ -22072,7 +22384,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bosiljke Paske",
-        "addr:housenumber": "13"
+        "addr:housenumber": "13",
+        "ref:HR:kucni_broj": "2177097607"
       },
       "obris": null
     },
@@ -22090,7 +22403,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bosiljke Paske",
-        "addr:housenumber": "14"
+        "addr:housenumber": "14",
+        "ref:HR:kucni_broj": "2178007239"
       },
       "obris": null
     },
@@ -22108,7 +22422,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bosiljke Paske",
-        "addr:housenumber": "12A"
+        "addr:housenumber": "12A",
+        "ref:HR:kucni_broj": "2185375288"
       },
       "obris": null
     },
@@ -22199,7 +22514,8 @@
         "building": "house",
         "addr:street": "Varaždinska ulica",
         "addr:housenumber": "31",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -22272,7 +22588,8 @@
         "building": "house",
         "addr:street": "Varaždinska ulica",
         "addr:housenumber": "38b",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -22291,7 +22608,8 @@
         "building": "house",
         "addr:street": "Varaždinska ulica",
         "addr:housenumber": "38a",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -22845,7 +23163,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "166"
+        "addr:housenumber": "166",
+        "ref:HR:kucni_broj": "14003658"
       },
       "obris": null
     },
@@ -22863,7 +23182,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "154"
+        "addr:housenumber": "154",
+        "ref:HR:kucni_broj": "14003652"
       },
       "obris": null
     },
@@ -22881,7 +23201,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "160"
+        "addr:housenumber": "160",
+        "ref:HR:kucni_broj": "14003655"
       },
       "obris": null
     },
@@ -22899,7 +23220,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "164"
+        "addr:housenumber": "164",
+        "ref:HR:kucni_broj": "14003657"
       },
       "obris": null
     },
@@ -22917,7 +23239,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "162"
+        "addr:housenumber": "162",
+        "ref:HR:kucni_broj": "14003656"
       },
       "obris": null
     },
@@ -22935,7 +23258,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "158"
+        "addr:housenumber": "158",
+        "ref:HR:kucni_broj": "14003654"
       },
       "obris": null
     },
@@ -22953,7 +23277,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "156"
+        "addr:housenumber": "156",
+        "ref:HR:kucni_broj": "14003653"
       },
       "obris": null
     },
@@ -22971,7 +23296,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "ref:HR:kucni_broj": "14001276"
       },
       "obris": null
     },
@@ -22989,7 +23315,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "17"
+        "addr:housenumber": "17",
+        "ref:HR:kucni_broj": "14003441"
       },
       "obris": null
     },
@@ -23007,7 +23334,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "117A"
+        "addr:housenumber": "117A",
+        "ref:HR:kucni_broj": "14003491"
       },
       "obris": null
     },
@@ -23043,7 +23371,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "109"
+        "addr:housenumber": "109",
+        "ref:HR:kucni_broj": "14003486"
       },
       "obris": null
     },
@@ -23061,7 +23390,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "111"
+        "addr:housenumber": "111",
+        "ref:HR:kucni_broj": "14003487"
       },
       "obris": null
     },
@@ -23079,7 +23409,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "113"
+        "addr:housenumber": "113",
+        "ref:HR:kucni_broj": "14003488"
       },
       "obris": null
     },
@@ -23097,7 +23428,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "115"
+        "addr:housenumber": "115",
+        "ref:HR:kucni_broj": "14003489"
       },
       "obris": null
     },
@@ -23149,7 +23481,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "39"
+        "addr:housenumber": "39",
+        "ref:HR:kucni_broj": "14003450"
       },
       "obris": null
     },
@@ -23183,7 +23516,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "41"
+        "addr:housenumber": "41",
+        "ref:HR:kucni_broj": "14003451"
       },
       "obris": null
     },
@@ -23201,7 +23535,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "37"
+        "addr:housenumber": "37",
+        "ref:HR:kucni_broj": "14003449"
       },
       "obris": null
     },
@@ -23219,7 +23554,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "39A"
+        "addr:housenumber": "39A",
+        "ref:HR:kucni_broj": "2154989187"
       },
       "obris": null
     },
@@ -23285,7 +23621,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "31"
+        "addr:housenumber": "31",
+        "ref:HR:kucni_broj": "14003446"
       },
       "obris": null
     },
@@ -23335,7 +23672,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "33"
+        "addr:housenumber": "33",
+        "ref:HR:kucni_broj": "14003447"
       },
       "obris": null
     },
@@ -23353,7 +23691,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "35"
+        "addr:housenumber": "35",
+        "ref:HR:kucni_broj": "14003448"
       },
       "obris": null
     },
@@ -23371,7 +23710,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "47"
+        "addr:housenumber": "47",
+        "ref:HR:kucni_broj": "14003454"
       },
       "obris": null
     },
@@ -23389,7 +23729,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "45"
+        "addr:housenumber": "45",
+        "ref:HR:kucni_broj": "14003453"
       },
       "obris": null
     },
@@ -23407,7 +23748,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "22"
+        "addr:housenumber": "22",
+        "ref:HR:kucni_broj": "14003587"
       },
       "obris": null
     },
@@ -23425,7 +23767,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "26"
+        "addr:housenumber": "26",
+        "ref:HR:kucni_broj": "14003589"
       },
       "obris": null
     },
@@ -23443,7 +23786,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "168"
+        "addr:housenumber": "168",
+        "ref:HR:kucni_broj": "14003659"
       },
       "obris": null
     },
@@ -23461,7 +23805,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "42"
+        "addr:housenumber": "42",
+        "ref:HR:kucni_broj": "14003596"
       },
       "obris": null
     },
@@ -23479,7 +23824,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "28"
+        "addr:housenumber": "28",
+        "ref:HR:kucni_broj": "14003590"
       },
       "obris": null
     },
@@ -23497,7 +23843,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "48"
+        "addr:housenumber": "48",
+        "ref:HR:kucni_broj": "14003598"
       },
       "obris": null
     },
@@ -23515,7 +23862,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "46"
+        "addr:housenumber": "46",
+        "ref:HR:kucni_broj": "2163006797"
       },
       "obris": null
     },
@@ -23551,7 +23899,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "204"
+        "addr:housenumber": "204",
+        "ref:HR:kucni_broj": "14015730"
       },
       "obris": null
     },
@@ -23569,7 +23918,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "122"
+        "addr:housenumber": "122",
+        "ref:HR:kucni_broj": "14003634"
       },
       "obris": null
     },
@@ -23587,7 +23937,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "104"
+        "addr:housenumber": "104",
+        "ref:HR:kucni_broj": "14003626"
       },
       "obris": null
     },
@@ -23623,7 +23974,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "110"
+        "addr:housenumber": "110",
+        "ref:HR:kucni_broj": "14003629"
       },
       "obris": null
     },
@@ -23713,7 +24065,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "152B"
+        "addr:housenumber": "152B",
+        "ref:HR:kucni_broj": "14003651"
       },
       "obris": null
     },
@@ -23731,7 +24084,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "152A"
+        "addr:housenumber": "152A",
+        "ref:HR:kucni_broj": "14003650"
       },
       "obris": null
     },
@@ -23749,7 +24103,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "152C"
+        "addr:housenumber": "152C",
+        "ref:HR:kucni_broj": "2154988992"
       },
       "obris": null
     },
@@ -23767,7 +24122,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "152"
+        "addr:housenumber": "152",
+        "ref:HR:kucni_broj": "14003649"
       },
       "obris": null
     },
@@ -23785,7 +24141,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "148"
+        "addr:housenumber": "148",
+        "ref:HR:kucni_broj": "14003647"
       },
       "obris": null
     },
@@ -23803,7 +24160,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "144"
+        "addr:housenumber": "144",
+        "ref:HR:kucni_broj": "14003645"
       },
       "obris": null
     },
@@ -23821,7 +24179,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "146"
+        "addr:housenumber": "146",
+        "ref:HR:kucni_broj": "14003646"
       },
       "obris": null
     },
@@ -23857,7 +24216,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "142"
+        "addr:housenumber": "142",
+        "ref:HR:kucni_broj": "14003644"
       },
       "obris": null
     },
@@ -23893,7 +24253,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "130"
+        "addr:housenumber": "130",
+        "ref:HR:kucni_broj": "14003638"
       },
       "obris": null
     },
@@ -23929,7 +24290,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "132"
+        "addr:housenumber": "132",
+        "ref:HR:kucni_broj": "14003639"
       },
       "obris": null
     },
@@ -23947,7 +24309,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "134"
+        "addr:housenumber": "134",
+        "ref:HR:kucni_broj": "14003640"
       },
       "obris": null
     },
@@ -23965,7 +24328,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "138"
+        "addr:housenumber": "138",
+        "ref:HR:kucni_broj": "14003642"
       },
       "obris": null
     },
@@ -23983,7 +24347,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "140"
+        "addr:housenumber": "140",
+        "ref:HR:kucni_broj": "14003643"
       },
       "obris": null
     },
@@ -24055,7 +24420,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "114"
+        "addr:housenumber": "114",
+        "ref:HR:kucni_broj": "14003631"
       },
       "obris": null
     },
@@ -24073,7 +24439,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "128"
+        "addr:housenumber": "128",
+        "ref:HR:kucni_broj": "14003637"
       },
       "obris": null
     },
@@ -24091,7 +24458,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "126"
+        "addr:housenumber": "126",
+        "ref:HR:kucni_broj": "14003636"
       },
       "obris": null
     },
@@ -24127,7 +24495,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "124"
+        "addr:housenumber": "124",
+        "ref:HR:kucni_broj": "14003635"
       },
       "obris": null
     },
@@ -24199,7 +24568,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "120"
+        "addr:housenumber": "120",
+        "ref:HR:kucni_broj": "14003633"
       },
       "obris": null
     },
@@ -24217,7 +24587,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "118"
+        "addr:housenumber": "118",
+        "ref:HR:kucni_broj": "14003632"
       },
       "obris": null
     },
@@ -24235,7 +24606,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "208"
+        "addr:housenumber": "208",
+        "ref:HR:kucni_broj": "2173267371"
       },
       "obris": null
     },
@@ -24271,7 +24643,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "206"
+        "addr:housenumber": "206",
+        "ref:HR:kucni_broj": "14015731"
       },
       "obris": null
     },
@@ -24289,7 +24662,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "121"
+        "addr:housenumber": "121",
+        "ref:HR:kucni_broj": "14003493"
       },
       "obris": null
     },
@@ -24323,7 +24697,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "119"
+        "addr:housenumber": "119",
+        "ref:HR:kucni_broj": "14003492"
       },
       "obris": null
     },
@@ -24341,7 +24716,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "127"
+        "addr:housenumber": "127",
+        "ref:HR:kucni_broj": "14003495"
       },
       "obris": null
     },
@@ -24375,7 +24751,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "129"
+        "addr:housenumber": "129",
+        "ref:HR:kucni_broj": "14003496"
       },
       "obris": null
     },
@@ -24409,7 +24786,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "125"
+        "addr:housenumber": "125",
+        "ref:HR:kucni_broj": "14015714"
       },
       "obris": null
     },
@@ -24427,7 +24805,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "121B"
+        "addr:housenumber": "121B",
+        "ref:HR:kucni_broj": "14022082"
       },
       "obris": null
     },
@@ -24445,7 +24824,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "103"
+        "addr:housenumber": "103",
+        "ref:HR:kucni_broj": "14003483"
       },
       "obris": null
     },
@@ -24463,7 +24843,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "105"
+        "addr:housenumber": "105",
+        "ref:HR:kucni_broj": "14003484"
       },
       "obris": null
     },
@@ -24481,7 +24862,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Glavna cesta",
-        "addr:housenumber": "107"
+        "addr:housenumber": "107",
+        "ref:HR:kucni_broj": "14003485"
       },
       "obris": null
     },
@@ -24499,7 +24881,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "26"
+        "addr:housenumber": "26",
+        "ref:HR:kucni_broj": "14004803"
       },
       "obris": null
     },
@@ -24517,7 +24900,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "34"
+        "addr:housenumber": "34",
+        "ref:HR:kucni_broj": "14004805"
       },
       "obris": null
     },
@@ -24535,7 +24919,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "7A"
+        "addr:housenumber": "7A",
+        "ref:HR:kucni_broj": "14004776"
       },
       "obris": null
     },
@@ -24553,7 +24938,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "ref:HR:kucni_broj": "1020426"
       },
       "obris": null
     },
@@ -24589,7 +24975,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "3A"
+        "addr:housenumber": "3A",
+        "ref:HR:kucni_broj": "14004773"
       },
       "obris": null
     },
@@ -24607,7 +24994,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "3B"
+        "addr:housenumber": "3B",
+        "ref:HR:kucni_broj": "14004774"
       },
       "obris": null
     },
@@ -24643,7 +25031,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "14004791"
       },
       "obris": null
     },
@@ -24661,7 +25050,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "16"
+        "addr:housenumber": "16",
+        "ref:HR:kucni_broj": "14004797"
       },
       "obris": null
     },
@@ -24679,7 +25069,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "6"
+        "addr:housenumber": "6",
+        "ref:HR:kucni_broj": "14004789"
       },
       "obris": null
     },
@@ -24697,7 +25088,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "ref:HR:kucni_broj": "1020423"
       },
       "obris": null
     },
@@ -24715,7 +25107,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "ref:HR:kucni_broj": "2163677248"
       },
       "obris": null
     },
@@ -24733,7 +25126,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "19B"
+        "addr:housenumber": "19B",
+        "ref:HR:kucni_broj": "2173594172"
       },
       "obris": null
     },
@@ -24751,7 +25145,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "4A"
+        "addr:housenumber": "4A",
+        "ref:HR:kucni_broj": "1018616"
       },
       "obris": null
     },
@@ -24769,7 +25164,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XII",
-        "addr:housenumber": "22a"
+        "addr:housenumber": "22a",
+        "ref:HR:kucni_broj": "14004755"
       },
       "obris": null
     },
@@ -24787,7 +25183,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XII",
-        "addr:housenumber": "24"
+        "addr:housenumber": "24",
+        "ref:HR:kucni_broj": "1018609"
       },
       "obris": null
     },
@@ -24805,7 +25202,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "7A"
+        "addr:housenumber": "7A",
+        "ref:HR:kucni_broj": "2184229291"
       },
       "obris": null
     },
@@ -24823,7 +25221,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Trg Srime",
-        "addr:housenumber": "20"
+        "addr:housenumber": "20",
+        "ref:HR:kucni_broj": "1040599"
       },
       "obris": null
     },
@@ -24949,7 +25348,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "20"
+        "addr:housenumber": "20",
+        "ref:HR:kucni_broj": "1018630"
       },
       "obris": null
     },
@@ -24967,7 +25367,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "24"
+        "addr:housenumber": "24",
+        "ref:HR:kucni_broj": "1018632"
       },
       "obris": null
     },
@@ -24985,7 +25386,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "14"
+        "addr:housenumber": "14",
+        "ref:HR:kucni_broj": "1018627"
       },
       "obris": null
     },
@@ -25003,7 +25405,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "16"
+        "addr:housenumber": "16",
+        "ref:HR:kucni_broj": "1018628"
       },
       "obris": null
     },
@@ -25021,7 +25424,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "ref:HR:kucni_broj": "1018625"
       },
       "obris": null
     },
@@ -25039,7 +25443,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "1018623"
       },
       "obris": null
     },
@@ -25057,7 +25462,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "10A"
+        "addr:housenumber": "10A",
+        "ref:HR:kucni_broj": "1018636"
       },
       "obris": null
     },
@@ -25075,7 +25481,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "4E"
+        "addr:housenumber": "4E",
+        "ref:HR:kucni_broj": "2158206029"
       },
       "obris": null
     },
@@ -25147,7 +25554,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "ref:HR:kucni_broj": "1018621"
       },
       "obris": null
     },
@@ -25165,7 +25573,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XIII",
-        "addr:housenumber": "6"
+        "addr:housenumber": "6",
+        "ref:HR:kucni_broj": "1018619"
       },
       "obris": null
     },
@@ -25183,7 +25592,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "73E"
+        "addr:housenumber": "73E",
+        "ref:HR:kucni_broj": "2126702334"
       },
       "obris": null
     },
@@ -25219,7 +25629,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "29"
+        "addr:housenumber": "29",
+        "ref:HR:kucni_broj": "1040616"
       },
       "obris": null
     },
@@ -25237,7 +25648,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Srima I",
-        "addr:housenumber": "31R"
+        "addr:housenumber": "31R",
+        "ref:HR:kucni_broj": "2173747937"
       },
       "obris": null
     },
@@ -25273,7 +25685,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "31M"
+        "addr:housenumber": "31M",
+        "ref:HR:kucni_broj": "2168930920"
       },
       "obris": null
     },
@@ -25291,7 +25704,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "31L"
+        "addr:housenumber": "31L",
+        "ref:HR:kucni_broj": "2173582249"
       },
       "obris": null
     },
@@ -25309,7 +25723,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "31J"
+        "addr:housenumber": "31J",
+        "ref:HR:kucni_broj": "2154989131"
       },
       "obris": null
     },
@@ -25327,7 +25742,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "31G"
+        "addr:housenumber": "31G",
+        "ref:HR:kucni_broj": "14020748"
       },
       "obris": null
     },
@@ -25345,7 +25761,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "31F"
+        "addr:housenumber": "31F",
+        "ref:HR:kucni_broj": "14024512"
       },
       "obris": null
     },
@@ -25363,7 +25780,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "31E"
+        "addr:housenumber": "31E",
+        "ref:HR:kucni_broj": "14023508"
       },
       "obris": null
     },
@@ -25381,7 +25799,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "136"
+        "addr:housenumber": "136",
+        "ref:HR:kucni_broj": "1042438"
       },
       "obris": null
     },
@@ -25399,7 +25818,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima XVI",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "ref:HR:kucni_broj": "14004793"
       },
       "obris": null
     },
@@ -25417,7 +25837,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Srima I",
-        "addr:housenumber": "93E"
+        "addr:housenumber": "93E",
+        "ref:HR:kucni_broj": "2154989135"
       },
       "obris": null
     },
@@ -25435,7 +25856,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "93F"
+        "addr:housenumber": "93F",
+        "ref:HR:kucni_broj": "2154989163"
       },
       "obris": null
     },
@@ -25453,7 +25875,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "93C"
+        "addr:housenumber": "93C",
+        "ref:HR:kucni_broj": "2154989171"
       },
       "obris": null
     },
@@ -25471,7 +25894,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "93D"
+        "addr:housenumber": "93D",
+        "ref:HR:kucni_broj": "2154989175"
       },
       "obris": null
     },
@@ -25525,7 +25949,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "100C"
+        "addr:housenumber": "100C",
+        "ref:HR:kucni_broj": "14003918"
       },
       "obris": null
     },
@@ -25543,7 +25968,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "110"
+        "addr:housenumber": "110",
+        "ref:HR:kucni_broj": "1042424"
       },
       "obris": null
     },
@@ -25561,7 +25987,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Srima I",
-        "addr:housenumber": "73B"
+        "addr:housenumber": "73B",
+        "ref:HR:kucni_broj": "14003810"
       },
       "obris": null
     },
@@ -25615,7 +26042,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "71"
+        "addr:housenumber": "71",
+        "ref:HR:kucni_broj": "1042391"
       },
       "obris": null
     },
@@ -25633,7 +26061,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "75B"
+        "addr:housenumber": "75B",
+        "ref:HR:kucni_broj": "14003812"
       },
       "obris": null
     },
@@ -25651,7 +26080,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "75A"
+        "addr:housenumber": "75A",
+        "ref:HR:kucni_broj": "14003811"
       },
       "obris": null
     },
@@ -25669,7 +26099,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "83"
+        "addr:housenumber": "83",
+        "ref:HR:kucni_broj": "1042399"
       },
       "obris": null
     },
@@ -25687,7 +26118,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Srima I",
-        "addr:housenumber": "100"
+        "addr:housenumber": "100",
+        "ref:HR:kucni_broj": "1042413"
       },
       "obris": null
     },
@@ -25705,7 +26137,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "69A"
+        "addr:housenumber": "69A",
+        "ref:HR:kucni_broj": "2150715304"
       },
       "obris": null
     },
@@ -25723,7 +26156,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "69B"
+        "addr:housenumber": "69B",
+        "ref:HR:kucni_broj": "2150715416"
       },
       "obris": null
     },
@@ -25741,7 +26175,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "67B"
+        "addr:housenumber": "67B",
+        "ref:HR:kucni_broj": "2159668402"
       },
       "obris": null
     },
@@ -25759,7 +26194,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "65A"
+        "addr:housenumber": "65A",
+        "ref:HR:kucni_broj": "2155690382"
       },
       "obris": null
     },
@@ -25777,7 +26213,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "61A"
+        "addr:housenumber": "61A",
+        "building:colour": "white",
+        "building:material": "plaster",
+        "ref:HR:kucni_broj": "2128708975"
       },
       "obris": null
     },
@@ -25795,7 +26234,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Srima I",
-        "addr:housenumber": "59A"
+        "addr:housenumber": "59A",
+        "ref:HR:kucni_broj": "14003808"
       },
       "obris": null
     },
@@ -25885,7 +26325,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "58A"
+        "addr:housenumber": "58A",
+        "ref:HR:kucni_broj": "1042374"
       },
       "obris": null
     },
@@ -26119,7 +26560,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "22A"
+        "addr:housenumber": "22A",
+        "ref:HR:kucni_broj": "14003816"
       },
       "obris": null
     },
@@ -26137,7 +26579,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "14"
+        "addr:housenumber": "14",
+        "ref:HR:kucni_broj": "1040607"
       },
       "obris": null
     },
@@ -26155,7 +26598,9 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "building:material": "plaster",
+        "ref:HR:kucni_broj": "14003804"
       },
       "obris": null
     },
@@ -26173,7 +26618,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Srima I",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "building:colour": "white",
+        "building:material": "plaster",
+        "ref:HR:kucni_broj": "14003805"
       },
       "obris": null
     },
@@ -26191,7 +26639,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "102"
+        "addr:housenumber": "102",
+        "ref:HR:kucni_broj": "14001272"
       },
       "obris": null
     },
@@ -26209,7 +26658,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "202"
+        "addr:housenumber": "202",
+        "ref:HR:kucni_broj": "14023875"
       },
       "obris": null
     },
@@ -26227,7 +26677,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "190B"
+        "addr:housenumber": "190B",
+        "ref:HR:kucni_broj": "14024041"
       },
       "obris": null
     },
@@ -26245,7 +26696,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "184"
+        "addr:housenumber": "184",
+        "ref:HR:kucni_broj": "14000315"
       },
       "obris": null
     },
@@ -26263,7 +26715,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "176"
+        "addr:housenumber": "176",
+        "ref:HR:kucni_broj": "14001198"
       },
       "obris": null
     },
@@ -26281,7 +26734,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "170A"
+        "addr:housenumber": "170A",
+        "ref:HR:kucni_broj": "2154988969"
       },
       "obris": null
     },
@@ -26331,7 +26785,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "166"
+        "addr:housenumber": "166",
+        "ref:HR:kucni_broj": "14000623"
       },
       "obris": null
     },
@@ -26349,7 +26804,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "156"
+        "addr:housenumber": "156",
+        "ref:HR:kucni_broj": "14000716"
       },
       "obris": null
     },
@@ -26367,7 +26823,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "150"
+        "addr:housenumber": "150",
+        "ref:HR:kucni_broj": "14000209"
       },
       "obris": null
     },
@@ -26385,7 +26842,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "112"
+        "addr:housenumber": "112",
+        "ref:HR:kucni_broj": "14001589"
       },
       "obris": null
     },
@@ -26403,7 +26861,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "142A"
+        "addr:housenumber": "142A",
+        "ref:HR:kucni_broj": "2166731444"
       },
       "obris": null
     },
@@ -26421,7 +26880,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "132"
+        "addr:housenumber": "132",
+        "ref:HR:kucni_broj": "14015733"
       },
       "obris": null
     },
@@ -26439,7 +26899,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "120A"
+        "addr:housenumber": "120A",
+        "ref:HR:kucni_broj": "14024411"
       },
       "obris": null
     },
@@ -26457,7 +26918,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "35"
+        "addr:housenumber": "35",
+        "ref:HR:kucni_broj": "14001396"
       },
       "obris": null
     },
@@ -26507,7 +26969,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "15"
+        "addr:housenumber": "15",
+        "ref:HR:kucni_broj": "14000316"
       },
       "obris": null
     },
@@ -26525,7 +26988,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "13"
+        "addr:housenumber": "13",
+        "ref:HR:kucni_broj": "14000028"
       },
       "obris": null
     },
@@ -26543,7 +27007,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Čista Velika I",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "ref:HR:kucni_broj": "14001457"
       },
       "obris": null
     },
@@ -26561,7 +27026,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Pudarica",
-        "addr:housenumber": "3A"
+        "addr:housenumber": "3A",
+        "ref:HR:kucni_broj": "1251444"
       },
       "obris": null
     },
@@ -26615,7 +27081,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Pudarica",
-        "addr:housenumber": "31"
+        "addr:housenumber": "31",
+        "ref:HR:kucni_broj": "1251468"
       },
       "obris": null
     },
@@ -26633,7 +27100,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Prvomajska ulica",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "ref:HR:kucni_broj": "2164041903"
       },
       "obris": null
     },
@@ -26651,7 +27119,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Prvomajska ulica",
-        "addr:housenumber": "17"
+        "addr:housenumber": "17",
+        "ref:HR:kucni_broj": "1251438"
       },
       "obris": null
     },
@@ -26705,7 +27174,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Prvomajska ulica",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "ref:HR:kucni_broj": "1251439"
       },
       "obris": null
     },
@@ -26723,7 +27193,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Prvomajska ulica",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "ref:HR:kucni_broj": "1220265"
       },
       "obris": null
     },
@@ -26741,7 +27212,9 @@
       "tags": {
         "building": "apartments",
         "addr:street": "Prvomajska ulica",
-        "addr:housenumber": "6A"
+        "addr:housenumber": "6A",
+        "building:material": "plaster",
+        "ref:HR:kucni_broj": "14004598"
       },
       "obris": null
     },
@@ -55665,7 +56138,9 @@
       "validFrom": "2026-08-06T10:09:51Z",
       "zupanija": "Koprivničko-križevačka županija",
       "tags": {
-        "building": "transformer_tower"
+        "building": "transformer_tower",
+        "power": "substation",
+        "substation": "minor_distribution"
       },
       "obris": null,
       "nearestStreet": "Ulica hrvatske državnosti",
@@ -82173,7 +82648,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Ulica Bosiljke Paske",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "ref:HR:kucni_broj": "2185375162"
       },
       "obris": null
     },
@@ -82191,7 +82667,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bosiljke Paske",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "ref:HR:kucni_broj": "2166872181"
       },
       "obris": null
     },
@@ -82209,7 +82686,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Božidara Vančika",
-        "addr:housenumber": "13"
+        "addr:housenumber": "13",
+        "ref:HR:kucni_broj": "1184440"
       },
       "obris": null
     },
@@ -82227,7 +82705,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ivana Padovca",
-        "addr:housenumber": "4A"
+        "addr:housenumber": "4A",
+        "ref:HR:kucni_broj": "1182719"
       },
       "obris": null
     },
@@ -82245,7 +82724,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bagrema",
-        "addr:housenumber": "15"
+        "addr:housenumber": "15",
+        "ref:HR:kucni_broj": "17012069"
       },
       "obris": null
     },
@@ -82389,7 +82869,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Bagrema",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "ref:HR:kucni_broj": "2009171776"
       },
       "obris": null
     },
@@ -82425,7 +82906,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Novoveška cesta",
-        "addr:housenumber": "34"
+        "addr:housenumber": "34",
+        "ref:HR:kucni_broj": "2174129868"
       },
       "obris": null
     },
@@ -82461,7 +82943,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Novoveška cesta",
-        "addr:housenumber": "32"
+        "addr:housenumber": "32",
+        "ref:HR:kucni_broj": "2174129864"
       },
       "obris": null
     },
@@ -82479,7 +82962,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Vladimira Nazora",
-        "addr:housenumber": "12/1"
+        "addr:housenumber": "12/1",
+        "ref:HR:kucni_broj": "17014626"
       },
       "obris": null
     },
@@ -82497,7 +82981,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Graberje",
-        "addr:housenumber": "15/1"
+        "addr:housenumber": "15/1",
+        "ref:HR:kucni_broj": "17010426"
       },
       "obris": null
     },
@@ -82515,7 +83000,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Dravska park-šuma",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "ref:HR:kucni_broj": "17011997"
       },
       "obris": null
     },
@@ -82587,7 +83073,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vinokovčak",
-        "addr:housenumber": "27"
+        "addr:housenumber": "27",
+        "ref:HR:kucni_broj": "17011904"
       },
       "obris": null
     },
@@ -82605,7 +83092,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Vinokovčak",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "ref:HR:kucni_broj": "17011903"
       },
       "obris": null
     },
@@ -82623,7 +83111,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ivana Sokača",
-        "addr:housenumber": "9"
+        "addr:housenumber": "9",
+        "ref:HR:kucni_broj": "17012675"
       },
       "obris": null
     },
@@ -82641,7 +83130,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Splitska ulica",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "2140712224"
       },
       "obris": null
     },
@@ -82659,7 +83149,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Metalska ulica",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "ref:HR:kucni_broj": "1171645"
       },
       "obris": null
     },
@@ -82713,7 +83204,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Metalska ulica",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "1171642"
       },
       "obris": null
     },
@@ -82731,7 +83223,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Metalska ulica",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "ref:HR:kucni_broj": "1171643"
       },
       "obris": null
     },
@@ -82767,7 +83260,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ivana Lalanguea",
-        "addr:housenumber": "17"
+        "addr:housenumber": "17",
+        "ref:HR:kucni_broj": "2039334447"
       },
       "obris": null
     },
@@ -82785,7 +83279,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Ulica Ivana Lalanguea",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "ref:HR:kucni_broj": "2039334465"
       },
       "obris": null
     },
@@ -82803,7 +83298,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Macinka",
-        "addr:housenumber": "1A"
+        "addr:housenumber": "1A",
+        "ref:HR:kucni_broj": "17011910"
       },
       "obris": null
     },
@@ -82821,7 +83317,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Macinka",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "ref:HR:kucni_broj": "1448634"
       },
       "obris": null
     },
@@ -82839,7 +83336,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Macinka",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "ref:HR:kucni_broj": "17011911"
       },
       "obris": null
     },
@@ -82857,7 +83355,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Macinka",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "ref:HR:kucni_broj": "17011912"
       },
       "obris": null
     },
@@ -82875,7 +83374,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Kratka ulica",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "1169961"
       },
       "obris": null
     },
@@ -82893,7 +83393,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Kratka ulica",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "ref:HR:kucni_broj": "1169963"
       },
       "obris": null
     },
@@ -82911,7 +83412,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Kratka ulica",
-        "addr:housenumber": "6"
+        "addr:housenumber": "6",
+        "ref:HR:kucni_broj": "1169964"
       },
       "obris": null
     },
@@ -82929,7 +83431,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Pavlinska ulica",
-        "addr:housenumber": "5/1"
+        "addr:housenumber": "5/1",
+        "ref:HR:kucni_broj": "2127808668"
       },
       "obris": null
     },
@@ -86333,7 +86836,8 @@
         "name": "Residence Bella Vista",
         "addr:street": "Seline",
         "addr:housenumber": "17",
-        "addr:city": "Bibinje"
+        "addr:city": "Bibinje",
+        "addr:postcode": "23205"
       },
       "obris": null
     },
@@ -86369,7 +86873,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Torova",
-        "addr:housenumber": "35"
+        "addr:housenumber": "35",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null
     },
@@ -86387,7 +86894,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Torova",
-        "addr:housenumber": "33A"
+        "addr:housenumber": "33A",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -86403,7 +86914,11 @@
       "validFrom": "2026-08-07T12:18:23Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Put Torova",
@@ -86423,7 +86938,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Torova",
-        "addr:housenumber": "33E"
+        "addr:housenumber": "33E",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -86441,7 +86960,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Pedinke",
-        "addr:housenumber": "6"
+        "addr:housenumber": "6",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -86460,7 +86983,9 @@
         "building": "yes",
         "addr:street": "Trg Republike Hrvatske",
         "addr:housenumber": "14/1",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "panoramax": "6e4739e6-06c6-47df-a084-ad913d5c7e6b"
       },
       "obris": null
     },
@@ -86494,7 +87019,10 @@
       "validFrom": "2026-08-07T15:56:32Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "garages"
+        "building": "garages",
+        "panoramax": "419bb206-d640-4d86-bb58-b7641228a29a",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Frankopanska",
@@ -86512,7 +87040,8 @@
       "validFrom": "2026-08-07T16:03:23Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "panoramax": "1d6e76ca-72f8-425d-b129-a3744edbb94d"
       },
       "obris": null,
       "nearestStreet": "Frankopanska",
@@ -89413,7 +89942,8 @@
         "building": "house",
         "addr:street": "Ludbreška ulica",
         "addr:housenumber": "106",
-        "addr:city": "Trnovec Bartolovečki"
+        "addr:city": "Trnovec Bartolovečki",
+        "addr:postcode": "42202"
       },
       "obris": null
     },
@@ -89522,7 +90052,8 @@
         "building": "yes",
         "addr:street": "Ludbreška ulica",
         "addr:housenumber": "116",
-        "addr:city": "Trnovec Bartolovečki"
+        "addr:city": "Trnovec Bartolovečki",
+        "addr:postcode": "42202"
       },
       "obris": null
     },
@@ -89595,7 +90126,8 @@
         "building": "house",
         "addr:street": "Ulica Vladimira Nazora",
         "addr:housenumber": "9",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -93024,7 +93556,8 @@
         "building": "yes",
         "addr:street": "Čakovečka ulica",
         "addr:housenumber": "22a",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -93043,7 +93576,8 @@
         "building": "house",
         "addr:street": "Čakovečka ulica",
         "addr:housenumber": "24",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -93062,7 +93596,8 @@
         "building": "yes",
         "addr:street": "Čakovečka ulica",
         "addr:housenumber": "26",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -93081,7 +93616,8 @@
         "building": "yes",
         "addr:street": "Čakovečka ulica",
         "addr:housenumber": "28",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -93100,7 +93636,8 @@
         "building": "house",
         "addr:street": "Čakovečka ulica",
         "addr:housenumber": "30",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -93155,7 +93692,8 @@
         "building": "house",
         "addr:street": "Varaždinska ulica",
         "addr:housenumber": "34",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -93192,7 +93730,8 @@
         "building": "house",
         "addr:street": "Varaždinska ulica",
         "addr:housenumber": "32",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -93247,7 +93786,8 @@
         "building": "house",
         "addr:street": "Varaždinska ulica",
         "addr:housenumber": "36",
-        "addr:city": "Gornji Hrašćan"
+        "addr:city": "Gornji Hrašćan",
+        "addr:postcode": "40306"
       },
       "obris": null
     },
@@ -93283,7 +93823,12 @@
       "tags": {
         "building": "yes",
         "addr:street": "Trg bana Josipa Jelačića",
-        "addr:housenumber": "15/1"
+        "addr:housenumber": "15/1",
+        "building:levels": "2",
+        "panoramax": "5d2f77c0-8047-4cbf-b5fc-2253f6201436",
+        "ref:HR:kucni_broj": "22075302",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -93299,7 +93844,8 @@
       "validFrom": "2026-08-08T13:37:15Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "panoramax": "29906bed-b3fc-4bb5-a2b0-9a3a6f552a7a"
       },
       "obris": null,
       "nearestStreet": "Marićev prolaz",
@@ -96277,7 +96823,10 @@
         "name": "Rocca Riviera",
         "addr:street": "Jadranska ulica",
         "addr:housenumber": "23",
-        "addr:city": "Umag"
+        "addr:city": "Umag",
+        "addr:postcode": "52470",
+        "building:levels": "4",
+        "smoking": "outside"
       },
       "obris": null
     },
@@ -96293,7 +96842,8 @@
       "validFrom": "2026-08-08T21:46:23Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -96379,7 +96929,8 @@
       "validFrom": "2026-08-08T23:03:30Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "abandoned": "yes"
       },
       "obris": null,
       "nearestStreet": "Stančaki",
@@ -96415,7 +96966,11 @@
       "validFrom": "2026-08-08T23:37:49Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "wall_loops",
+        "covered": "no",
+        "surface": "gravel"
       },
       "obris": null,
       "nearestStreet": "Lazina",
@@ -96433,7 +96988,10 @@
       "validFrom": "2026-08-08T23:54:01Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "farm_auxiliary"
+        "building": "farm_auxiliary",
+        "building:levels": "1",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Lazina",
@@ -97531,7 +98089,11 @@
       "validFrom": "2026-08-09T12:00:10Z",
       "zupanija": null,
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "construction_date": "1900",
+        "ref:gurs:sta_sid": "20019444",
+        "source:construction_date": "GURS",
+        "source:geometry": "GURS"
       },
       "obris": null,
       "nearestStreet": "Radovica",
@@ -97549,7 +98111,11 @@
       "validFrom": "2026-08-09T12:00:10Z",
       "zupanija": null,
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "construction_date": "1900",
+        "ref:gurs:sta_sid": "20019390",
+        "source:construction_date": "GURS",
+        "source:geometry": "GURS"
       },
       "obris": null,
       "nearestStreet": "Radovica",
@@ -97567,7 +98133,11 @@
       "validFrom": "2026-08-09T12:00:10Z",
       "zupanija": null,
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "construction_date": "1957",
+        "ref:gurs:sta_sid": "20019414",
+        "source:construction_date": "GURS",
+        "source:geometry": "GURS"
       },
       "obris": null
     },
@@ -97586,7 +98156,14 @@
         "building": "yes",
         "addr:street": "Radovica",
         "addr:housenumber": "183",
-        "addr:city": "Metlika"
+        "addr:city": "Metlika",
+        "addr:postcode": "8330",
+        "construction_date": "2018",
+        "ref:gurs:hs_mid": "20035021",
+        "ref:gurs:sta_sid": "34858777",
+        "source:addr": "GURS",
+        "source:construction_date": "GURS",
+        "source:geometry": "GURS"
       },
       "obris": null
     },
@@ -97602,7 +98179,11 @@
       "validFrom": "2026-08-09T13:10:46Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Put Pedinke",
@@ -97622,7 +98203,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Pedinke",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -97638,7 +98223,10 @@
       "validFrom": "2026-08-09T13:10:46Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Put Pedinke",
@@ -97658,7 +98246,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Pedinke",
-        "addr:housenumber": "15"
+        "addr:housenumber": "15",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -97676,7 +98268,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Pedinke",
-        "addr:housenumber": "17"
+        "addr:housenumber": "17",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -97694,7 +98290,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Pedinke",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "building:levels": "2"
       },
       "obris": null
     },
@@ -97710,7 +98307,8 @@
       "validFrom": "2026-08-09T14:18:05Z",
       "zupanija": "Virovitičko-podravska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "car_wash"
       },
       "obris": null,
       "nearestStreet": "Ulica Ante Starčevića",
@@ -97732,7 +98330,9 @@
         "name": "SoLeo",
         "addr:street": "Dalmatinska ulica",
         "addr:housenumber": "58",
-        "addr:city": "Orahovica"
+        "addr:city": "Orahovica",
+        "addr:postcode": "33515",
+        "amenity": "bar"
       },
       "obris": null
     },
@@ -98001,7 +98601,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938179"
       },
       "obris": null
     },
@@ -98018,7 +98620,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "6A"
+        "addr:housenumber": "6A",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "13015710"
       },
       "obris": null
     },
@@ -98035,7 +98639,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938178"
       },
       "obris": null
     },
@@ -98052,7 +98658,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "7A"
+        "addr:housenumber": "7A",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "13015709"
       },
       "obris": null
     },
@@ -98069,7 +98677,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "10A"
+        "addr:housenumber": "10A",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938182"
       },
       "obris": null
     },
@@ -98086,7 +98696,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "8A"
+        "addr:housenumber": "8A",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938180"
       },
       "obris": null
     },
@@ -98103,7 +98715,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938173"
       },
       "obris": null
     },
@@ -98120,7 +98734,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938172"
       },
       "obris": null
     },
@@ -98169,7 +98785,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938175"
       },
       "obris": null
     },
@@ -98186,7 +98804,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938176"
       },
       "obris": null
     },
@@ -98203,7 +98823,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "22"
+        "addr:housenumber": "22",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938195"
       },
       "obris": null
     },
@@ -98252,7 +98874,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938194"
       },
       "obris": null
     },
@@ -98301,7 +98925,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "20"
+        "addr:housenumber": "20",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938193"
       },
       "obris": null
     },
@@ -98334,7 +98960,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938192"
       },
       "obris": null
     },
@@ -98351,7 +98979,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "18A"
+        "addr:housenumber": "18A",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938191"
       },
       "obris": null
     },
@@ -98368,7 +98998,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "15A"
+        "addr:housenumber": "15A",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938187"
       },
       "obris": null
     },
@@ -98385,7 +99017,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "18"
+        "addr:housenumber": "18",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938190"
       },
       "obris": null
     },
@@ -98402,7 +99036,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "17"
+        "addr:housenumber": "17",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938189"
       },
       "obris": null
     },
@@ -98419,7 +99055,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "16"
+        "addr:housenumber": "16",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938188"
       },
       "obris": null
     },
@@ -98436,7 +99074,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "15"
+        "addr:housenumber": "15",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938186"
       },
       "obris": null
     },
@@ -98453,7 +99093,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "14"
+        "addr:housenumber": "14",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938185"
       },
       "obris": null
     },
@@ -98470,7 +99112,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "13"
+        "addr:housenumber": "13",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938184"
       },
       "obris": null
     },
@@ -98487,7 +99131,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "11A"
+        "addr:housenumber": "11A",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "2154876463"
       },
       "obris": null
     },
@@ -98504,7 +99150,9 @@
       "zupanija": "Primorsko-goranska županija",
       "tags": {
         "building": "yes",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "addr:place": "Rim",
+        "ref:HR:kucni_broj": "938183"
       },
       "obris": null
     },
@@ -98732,7 +99380,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "31/1"
+        "addr:housenumber": "31/1",
+        "ref:HR:kucni_broj": "2125015217"
       },
       "obris": null
     },
@@ -98750,7 +99399,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "39"
+        "addr:housenumber": "39",
+        "ref:HR:kucni_broj": "22040615"
       },
       "obris": null
     },
@@ -98768,7 +99418,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "84A"
+        "addr:housenumber": "84A",
+        "ref:HR:kucni_broj": "22037960"
       },
       "obris": null
     },
@@ -98786,7 +99437,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "40"
+        "addr:housenumber": "40",
+        "ref:HR:kucni_broj": "22040609"
       },
       "obris": null
     },
@@ -98804,7 +99456,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "38"
+        "addr:housenumber": "38",
+        "ref:HR:kucni_broj": "2189838637"
       },
       "obris": null
     },
@@ -98822,7 +99475,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "ref:HR:kucni_broj": "2144004172"
       },
       "obris": null
     },
@@ -98840,7 +99494,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "37/1"
+        "addr:housenumber": "37/1",
+        "ref:HR:kucni_broj": "22116427"
       },
       "obris": null
     },
@@ -98858,7 +99513,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "81"
+        "addr:housenumber": "81",
+        "ref:HR:kucni_broj": "2143463637"
       },
       "obris": null
     },
@@ -98876,7 +99532,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "84C"
+        "addr:housenumber": "84C",
+        "ref:HR:kucni_broj": "22037962"
       },
       "obris": null
     },
@@ -98894,7 +99551,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "79"
+        "addr:housenumber": "79",
+        "ref:HR:kucni_broj": "22040642"
       },
       "obris": null
     },
@@ -98912,7 +99570,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "73"
+        "addr:housenumber": "73",
+        "ref:HR:kucni_broj": "22037959"
       },
       "obris": null
     },
@@ -98930,7 +99589,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "71A"
+        "addr:housenumber": "71A",
+        "ref:HR:kucni_broj": "22133637"
       },
       "obris": null
     },
@@ -98948,7 +99608,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "65A"
+        "addr:housenumber": "65A",
+        "ref:HR:kucni_broj": "22041258"
       },
       "obris": null
     },
@@ -98966,7 +99627,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "78B"
+        "addr:housenumber": "78B",
+        "ref:HR:kucni_broj": "22041757"
       },
       "obris": null
     },
@@ -98984,7 +99646,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "78"
+        "addr:housenumber": "78",
+        "ref:HR:kucni_broj": "22037957"
       },
       "obris": null
     },
@@ -99002,7 +99665,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "51"
+        "addr:housenumber": "51",
+        "ref:HR:kucni_broj": "22041917"
       },
       "obris": null
     },
@@ -99020,7 +99684,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "39B"
+        "addr:housenumber": "39B",
+        "ref:HR:kucni_broj": "22038086"
       },
       "obris": null
     },
@@ -99038,7 +99703,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "33A"
+        "addr:housenumber": "33A",
+        "ref:HR:kucni_broj": "22040620"
       },
       "obris": null
     },
@@ -99056,7 +99722,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "31A"
+        "addr:housenumber": "31A",
+        "ref:HR:kucni_broj": "22040646"
       },
       "obris": null
     },
@@ -99074,7 +99741,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "15"
+        "addr:housenumber": "15",
+        "ref:HR:kucni_broj": "22041185"
       },
       "obris": null
     },
@@ -99092,7 +99760,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "15B"
+        "addr:housenumber": "15B",
+        "ref:HR:kucni_broj": "22040630"
       },
       "obris": null
     },
@@ -99110,7 +99779,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "ref:HR:kucni_broj": "22040628"
       },
       "obris": null
     },
@@ -99128,7 +99798,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "21C"
+        "addr:housenumber": "21C",
+        "ref:HR:kucni_broj": "2164755042"
       },
       "obris": null
     },
@@ -99146,7 +99817,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "21A"
+        "addr:housenumber": "21A",
+        "ref:HR:kucni_broj": "2144362596"
       },
       "obris": null
     },
@@ -99164,7 +99836,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "21B"
+        "addr:housenumber": "21B",
+        "ref:HR:kucni_broj": "2144362641"
       },
       "obris": null
     },
@@ -99182,7 +99855,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "31D"
+        "addr:housenumber": "31D",
+        "ref:HR:kucni_broj": "2093003304"
       },
       "obris": null
     },
@@ -99200,7 +99874,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "36/1"
+        "addr:housenumber": "36/1",
+        "ref:HR:kucni_broj": "22125368"
       },
       "obris": null
     },
@@ -99218,7 +99893,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "18"
+        "addr:housenumber": "18",
+        "ref:HR:kucni_broj": "22040635"
       },
       "obris": null
     },
@@ -99236,7 +99912,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "20"
+        "addr:housenumber": "20",
+        "ref:HR:kucni_broj": "22040634"
       },
       "obris": null
     },
@@ -99254,7 +99931,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "14A"
+        "addr:housenumber": "14A",
+        "ref:HR:kucni_broj": "22040754"
       },
       "obris": null
     },
@@ -99272,7 +99950,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "16A"
+        "addr:housenumber": "16A",
+        "ref:HR:kucni_broj": "2144317245"
       },
       "obris": null
     },
@@ -99290,7 +99969,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "13/1"
+        "addr:housenumber": "13/1",
+        "ref:HR:kucni_broj": "22041624"
       },
       "obris": null
     },
@@ -99308,7 +99988,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "11A"
+        "addr:housenumber": "11A",
+        "ref:HR:kucni_broj": "22039408"
       },
       "obris": null
     },
@@ -99326,7 +100007,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "9"
+        "addr:housenumber": "9",
+        "ref:HR:kucni_broj": "22040757"
       },
       "obris": null
     },
@@ -99344,7 +100026,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "7A"
+        "addr:housenumber": "7A",
+        "ref:HR:kucni_broj": "22040758"
       },
       "obris": null
     },
@@ -99362,7 +100045,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "3B"
+        "addr:housenumber": "3B",
+        "ref:HR:kucni_broj": "22038069"
       },
       "obris": null
     },
@@ -99380,7 +100064,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "5A"
+        "addr:housenumber": "5A",
+        "ref:HR:kucni_broj": "22040760"
       },
       "obris": null
     },
@@ -99398,7 +100083,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Rim",
-        "addr:housenumber": "1A"
+        "addr:housenumber": "1A",
+        "ref:HR:kucni_broj": "22134967"
       },
       "obris": null
     },
@@ -102870,7 +103556,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "ref:HR:kucni_broj": "14023060"
       },
       "obris": null
     },
@@ -102920,7 +103607,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "ref:HR:kucni_broj": "14023062"
       },
       "obris": null
     },
@@ -102938,7 +103626,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "24"
+        "addr:housenumber": "24",
+        "ref:HR:kucni_broj": "14023084"
       },
       "obris": null
     },
@@ -102972,7 +103661,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "22"
+        "addr:housenumber": "22",
+        "ref:HR:kucni_broj": "14023082"
       },
       "obris": null
     },
@@ -103022,7 +103712,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "26"
+        "addr:housenumber": "26",
+        "ref:HR:kucni_broj": "14023086"
       },
       "obris": null
     },
@@ -103040,7 +103731,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "28"
+        "addr:housenumber": "28",
+        "ref:HR:kucni_broj": "14023088"
       },
       "obris": null
     },
@@ -103090,7 +103782,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "ref:HR:kucni_broj": "14023066"
       },
       "obris": null
     },
@@ -103108,7 +103801,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "ref:HR:kucni_broj": "14023064"
       },
       "obris": null
     },
@@ -103142,7 +103836,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "30"
+        "addr:housenumber": "30",
+        "ref:HR:kucni_broj": "14023090"
       },
       "obris": null
     },
@@ -103176,7 +103871,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Perković selo",
-        "addr:housenumber": "32"
+        "addr:housenumber": "32",
+        "ref:HR:kucni_broj": "14023092"
       },
       "obris": null
     },
@@ -103210,7 +103906,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "36"
+        "addr:housenumber": "36",
+        "ref:HR:kucni_broj": "14023094"
       },
       "obris": null
     },
@@ -103228,7 +103925,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "34"
+        "addr:housenumber": "34",
+        "ref:HR:kucni_broj": "14023093"
       },
       "obris": null
     },
@@ -103262,7 +103960,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "38"
+        "addr:housenumber": "38",
+        "ref:HR:kucni_broj": "14023095"
       },
       "obris": null
     },
@@ -103280,7 +103979,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "40"
+        "addr:housenumber": "40",
+        "ref:HR:kucni_broj": "14023096"
       },
       "obris": null
     },
@@ -103298,7 +103998,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "44"
+        "addr:housenumber": "44",
+        "ref:HR:kucni_broj": "14023098"
       },
       "obris": null
     },
@@ -103316,7 +104017,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "42"
+        "addr:housenumber": "42",
+        "ref:HR:kucni_broj": "14023097"
       },
       "obris": null
     },
@@ -103334,7 +104036,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "46"
+        "addr:housenumber": "46",
+        "ref:HR:kucni_broj": "14023099"
       },
       "obris": null
     },
@@ -103368,7 +104071,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "48A"
+        "addr:housenumber": "48A",
+        "ref:HR:kucni_broj": "2154988312"
       },
       "obris": null
     },
@@ -103386,7 +104090,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "48"
+        "addr:housenumber": "48",
+        "ref:HR:kucni_broj": "14023100"
       },
       "obris": null
     },
@@ -103420,7 +104125,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "50"
+        "addr:housenumber": "50",
+        "ref:HR:kucni_broj": "14023101"
       },
       "obris": null
     },
@@ -103486,7 +104192,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "54"
+        "addr:housenumber": "54",
+        "ref:HR:kucni_broj": "14023103"
       },
       "obris": null
     },
@@ -103520,7 +104227,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "52"
+        "addr:housenumber": "52",
+        "ref:HR:kucni_broj": "14023102"
       },
       "obris": null
     },
@@ -103570,7 +104278,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "9"
+        "addr:housenumber": "9",
+        "ref:HR:kucni_broj": "14023069"
       },
       "obris": null
     },
@@ -103588,7 +104297,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "9A"
+        "addr:housenumber": "9A",
+        "ref:HR:kucni_broj": "2179750343"
       },
       "obris": null
     },
@@ -103606,7 +104316,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "7A"
+        "addr:housenumber": "7A",
+        "ref:HR:kucni_broj": "14023067"
       },
       "obris": null
     },
@@ -103624,7 +104335,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "ref:HR:kucni_broj": "14023071"
       },
       "obris": null
     },
@@ -103642,7 +104354,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "13"
+        "addr:housenumber": "13",
+        "ref:HR:kucni_broj": "14023073"
       },
       "obris": null
     },
@@ -103694,7 +104407,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "15"
+        "addr:housenumber": "15",
+        "ref:HR:kucni_broj": "14023075"
       },
       "obris": null
     },
@@ -103712,7 +104426,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "17"
+        "addr:housenumber": "17",
+        "ref:HR:kucni_broj": "14023077"
       },
       "obris": null
     },
@@ -103746,7 +104461,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "31"
+        "addr:housenumber": "31",
+        "ref:HR:kucni_broj": "14023091"
       },
       "obris": null
     },
@@ -103764,7 +104480,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "20"
+        "addr:housenumber": "20",
+        "ref:HR:kucni_broj": "14023080"
       },
       "obris": null
     },
@@ -103782,7 +104499,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "18"
+        "addr:housenumber": "18",
+        "ref:HR:kucni_broj": "14023078"
       },
       "obris": null
     },
@@ -103800,7 +104518,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Perković selo",
-        "addr:housenumber": "16"
+        "addr:housenumber": "16",
+        "ref:HR:kucni_broj": "14023076"
       },
       "obris": null
     },
@@ -103818,7 +104537,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Perković selo",
-        "addr:housenumber": "14"
+        "addr:housenumber": "14",
+        "ref:HR:kucni_broj": "14023074"
       },
       "obris": null
     },
@@ -103854,7 +104574,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "ref:HR:kucni_broj": "14023072"
       },
       "obris": null
     },
@@ -103872,7 +104593,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "14023070"
       },
       "obris": null
     },
@@ -103890,7 +104612,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "ref:HR:kucni_broj": "14023068"
       },
       "obris": null
     },
@@ -103944,7 +104667,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "ref:HR:kucni_broj": "14023063"
       },
       "obris": null
     },
@@ -103962,7 +104686,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "6"
+        "addr:housenumber": "6",
+        "ref:HR:kucni_broj": "14023065"
       },
       "obris": null
     },
@@ -103980,7 +104705,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "14023061"
       },
       "obris": null
     },
@@ -104016,7 +104742,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "29"
+        "addr:housenumber": "29",
+        "ref:HR:kucni_broj": "14023089"
       },
       "obris": null
     },
@@ -104070,7 +104797,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "25"
+        "addr:housenumber": "25",
+        "ref:HR:kucni_broj": "14023085"
       },
       "obris": null
     },
@@ -104106,7 +104834,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "21"
+        "addr:housenumber": "21",
+        "ref:HR:kucni_broj": "14023081"
       },
       "obris": null
     },
@@ -104124,7 +104853,8 @@
       "tags": {
         "building": "maybe",
         "addr:street": "Perković selo",
-        "addr:housenumber": "23"
+        "addr:housenumber": "23",
+        "ref:HR:kucni_broj": "14023083"
       },
       "obris": null
     },
@@ -104142,7 +104872,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "19"
+        "addr:housenumber": "19",
+        "ref:HR:kucni_broj": "14023079"
       },
       "obris": null
     },
@@ -104160,7 +104891,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "56"
+        "addr:housenumber": "56",
+        "ref:HR:kucni_broj": "14023104"
       },
       "obris": null
     },
@@ -104178,7 +104910,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "58"
+        "addr:housenumber": "58",
+        "ref:HR:kucni_broj": "14022639"
       },
       "obris": null
     },
@@ -104232,7 +104965,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perković selo",
-        "addr:housenumber": "27"
+        "addr:housenumber": "27",
+        "ref:HR:kucni_broj": "14023087"
       },
       "obris": null
     },
@@ -104250,7 +104984,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "3A"
+        "addr:housenumber": "3A",
+        "ref:HR:kucni_broj": "2134363034"
       },
       "obris": null
     },
@@ -104286,7 +105021,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "3B"
+        "addr:housenumber": "3B",
+        "ref:HR:kucni_broj": "2134363061"
       },
       "obris": null
     },
@@ -104304,7 +105040,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "3E"
+        "addr:housenumber": "3E",
+        "ref:HR:kucni_broj": "2134363089"
       },
       "obris": null
     },
@@ -104376,7 +105113,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "ref:HR:kucni_broj": "14023109"
       },
       "obris": null
     },
@@ -104430,7 +105168,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "22"
+        "addr:housenumber": "22",
+        "ref:HR:kucni_broj": "14023120"
       },
       "obris": null
     },
@@ -104448,7 +105187,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "ref:HR:kucni_broj": "14023111"
       },
       "obris": null
     },
@@ -104466,7 +105206,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "3"
+        "addr:housenumber": "3",
+        "ref:HR:kucni_broj": "14023107"
       },
       "obris": null
     },
@@ -104502,7 +105243,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "ref:HR:kucni_broj": "14023105"
       },
       "obris": null
     },
@@ -104538,7 +105280,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "18A"
+        "addr:housenumber": "18A",
+        "ref:HR:kucni_broj": "14023118"
       },
       "obris": null
     },
@@ -104556,7 +105299,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "18"
+        "addr:housenumber": "18",
+        "ref:HR:kucni_broj": "14023117"
       },
       "obris": null
     },
@@ -104574,7 +105318,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "20"
+        "addr:housenumber": "20",
+        "ref:HR:kucni_broj": "14023119"
       },
       "obris": null
     },
@@ -104592,7 +105337,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "ref:HR:kucni_broj": "14023114"
       },
       "obris": null
     },
@@ -104610,7 +105356,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "16"
+        "addr:housenumber": "16",
+        "ref:HR:kucni_broj": "14023116"
       },
       "obris": null
     },
@@ -104646,7 +105393,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "14"
+        "addr:housenumber": "14",
+        "ref:HR:kucni_broj": "14023115"
       },
       "obris": null
     },
@@ -104754,7 +105502,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "10"
+        "addr:housenumber": "10",
+        "ref:HR:kucni_broj": "14023113"
       },
       "obris": null
     },
@@ -104880,7 +105629,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "8"
+        "addr:housenumber": "8",
+        "ref:HR:kucni_broj": "14023112"
       },
       "obris": null
     },
@@ -104898,7 +105648,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "6"
+        "addr:housenumber": "6",
+        "ref:HR:kucni_broj": "14023110"
       },
       "obris": null
     },
@@ -104934,7 +105685,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "ref:HR:kucni_broj": "14023108"
       },
       "obris": null
     },
@@ -104952,7 +105704,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Mrdeže",
-        "addr:housenumber": "2"
+        "addr:housenumber": "2",
+        "ref:HR:kucni_broj": "14023106"
       },
       "obris": null
     },
@@ -104986,7 +105739,8 @@
       "validFrom": "2026-08-10T06:38:48Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "roof"
+        "building": "roof",
+        "layer": "1"
       },
       "obris": null,
       "nearestStreet": "Avenija Ivana Pavla II.",
@@ -105059,7 +105813,8 @@
       "validFrom": "2026-08-10T06:49:45Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "building:levels": "5"
       },
       "obris": null,
       "nearestStreet": "Ninska ulica",
@@ -105095,7 +105850,8 @@
       "validFrom": "2026-08-10T06:49:45Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "building:levels": "5"
       },
       "obris": null,
       "nearestStreet": "Đakovačka ulica",
@@ -105113,7 +105869,8 @@
       "validFrom": "2026-08-10T06:49:45Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "building:levels": "5"
       },
       "obris": null,
       "nearestStreet": "Zagrebačka ulica",
@@ -105384,7 +106141,16 @@
       "zupanija": "Grad Zagreb",
       "tags": {
         "building": "office",
-        "name": "Zgrada Hrvatsko-slavonske zemaljske centralne štedionice"
+        "name": "Zgrada Hrvatsko-slavonske zemaljske centralne štedionice",
+        "architect:wikidata": "Q7938107",
+        "building:levels": "4",
+        "heritage": "3",
+        "heritage:operator": "uzkb",
+        "ref:hr:uzkb": "Z-5253",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "start_date": "1905..1906",
+        "type": "multipolygon"
       },
       "obris": null,
       "nearestStreet": "Gundulićeva ulica",
@@ -105402,7 +106168,8 @@
       "validFrom": "2026-08-08T18:38:35Z",
       "zupanija": "Istarska županija",
       "tags": {
-        "building": "stadium"
+        "building": "stadium",
+        "type": "multipolygon"
       },
       "obris": null,
       "nearestStreet": "Savudrujska ulica",

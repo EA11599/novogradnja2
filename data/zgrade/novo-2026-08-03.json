@@ -2242,7 +2242,8 @@
         "building": "yes",
         "addr:street": "Nova cesta",
         "addr:housenumber": "3c",
-        "addr:city": "Vinjerac"
+        "addr:city": "Vinjerac",
+        "addr:postcode": "23247"
       },
       "obris": null
     },
@@ -2261,7 +2262,8 @@
         "building": "yes",
         "addr:street": "Nova cesta",
         "addr:housenumber": "3b",
-        "addr:city": "Vinjerac"
+        "addr:city": "Vinjerac",
+        "addr:postcode": "23247"
       },
       "obris": null
     },
@@ -2334,7 +2336,8 @@
         "building": "yes",
         "addr:street": "Ulica Jakova Gotovca",
         "addr:housenumber": "9A",
-        "addr:city": "Zadar"
+        "addr:city": "Zadar",
+        "ref:HR:kucni_broj": "2181457071"
       },
       "obris": null
     },
@@ -2353,7 +2356,10 @@
         "building": "yes",
         "name": "Pivac market",
         "addr:street": "Ulica hrvatskih branitelja",
-        "addr:city": "Vebovsko"
+        "addr:city": "Vebovsko",
+        "payment:account_cards": "yes",
+        "payment:cash": "yes",
+        "shop": "convenience"
       },
       "obris": null
     },
@@ -2640,7 +2646,8 @@
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
         "building": "yes",
-        "name": "Frizerski salon Marina ART"
+        "name": "Frizerski salon Marina ART",
+        "shop": "hairdresser"
       },
       "obris": null,
       "nearestStreet": "Kolodvorska ulica",
@@ -2660,7 +2667,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Perivoj Vladimira Nazora",
-        "addr:housenumber": "4"
+        "addr:housenumber": "4",
+        "ref:HR:kucni_broj": "1300652"
       },
       "obris": null
     },
@@ -2694,7 +2702,8 @@
       "validFrom": "2026-07-27T16:05:42Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "apartments"
+        "building": "apartments",
+        "panoramax": "048c7c20-36f7-4b8a-ab4e-49d51c17edbe"
       },
       "obris": null,
       "nearestStreet": "Tratinska ulica",
@@ -2714,7 +2723,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Torovi VI",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -2730,7 +2740,8 @@
       "validFrom": "2026-07-27T16:13:11Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1"
       },
       "obris": null,
       "nearestStreet": "Torovi III",
@@ -2750,7 +2761,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Torovi IV",
-        "addr:housenumber": "31A"
+        "addr:housenumber": "31A",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -2768,7 +2783,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Torovi V",
-        "addr:housenumber": "5"
+        "addr:housenumber": "5",
+        "building:levels": "3",
+        "roof:colour": "black",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -2786,7 +2804,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Torovi IV",
-        "addr:housenumber": "23B"
+        "addr:housenumber": "23B",
+        "building:levels": "3",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -2804,7 +2825,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Torova",
-        "addr:housenumber": "7"
+        "addr:housenumber": "7",
+        "building:levels": "2",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null
     },
@@ -2820,7 +2844,10 @@
       "validFrom": "2026-07-27T16:13:11Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Torovi IV",
@@ -2838,7 +2865,10 @@
       "validFrom": "2026-07-27T16:13:11Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Torovi IV",
@@ -2856,7 +2886,10 @@
       "validFrom": "2026-07-27T16:13:11Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:colour": "red",
+        "roof:shape": "hipped"
       },
       "obris": null,
       "nearestStreet": "Torovi VIII",
@@ -2874,7 +2907,8 @@
       "validFrom": "2026-07-27T16:13:11Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1"
       },
       "obris": null,
       "nearestStreet": "Put Torova",
@@ -2894,7 +2928,11 @@
       "tags": {
         "building": "yes",
         "addr:street": "Torovi VII",
-        "addr:housenumber": "1"
+        "addr:housenumber": "1",
+        "building:levels": "2",
+        "roof:colour": "red",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       },
       "obris": null
     },
@@ -2912,7 +2950,10 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Torova",
-        "addr:housenumber": "27B"
+        "addr:housenumber": "27B",
+        "building:levels": "1",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
       },
       "obris": null
     },
@@ -2930,7 +2971,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Put Torova",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "building:levels": "1"
       },
       "obris": null
     },
@@ -2946,7 +2988,8 @@
       "validFrom": "2026-07-27T16:13:11Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1"
       },
       "obris": null,
       "nearestStreet": "Torovi V",
@@ -3562,7 +3605,14 @@
         "name": "Veterinarska ambulanta Crikvenica",
         "addr:street": "Kotorska ulica",
         "addr:housenumber": "28",
-        "addr:city": "Crikvenica"
+        "addr:city": "Crikvenica",
+        "addr:postcode": "51260",
+        "amenity": "veterinary",
+        "email": "veterinari.ck@gmail.com",
+        "emergency:phone": "+385 99 1911 978",
+        "layer": "0",
+        "opening_hours": "Mo,We 09:00-15:00; Tu,Th 13:00-19:00; Fr 09:00-13:00; Sa 09:00-12:00; Su off",
+        "phone": "+385 51 241 932"
       },
       "obris": null
     },
@@ -3578,7 +3628,9 @@
       "validFrom": "2026-07-28T06:35:35Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "industrial"
+        "building": "industrial",
+        "power": "substation",
+        "substation": "minor_distribution"
       },
       "obris": null,
       "nearestStreet": "Ulica Jure Petrekovića",
@@ -4028,7 +4080,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Šetalište 25. travnja",
-        "addr:housenumber": "11"
+        "addr:housenumber": "11",
+        "ref:HR:kucni_broj": "654752"
       },
       "obris": null
     },
@@ -4046,7 +4099,8 @@
       "tags": {
         "building": "yes",
         "addr:street": "Šetalište 25. travnja",
-        "addr:housenumber": "12"
+        "addr:housenumber": "12",
+        "ref:HR:kucni_broj": "654753"
       },
       "obris": null
     },
@@ -4062,7 +4116,9 @@
       "validFrom": "2026-07-28T12:54:43Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "industrial"
+        "building": "industrial",
+        "power": "substation",
+        "substation": "minor_distribution"
       },
       "obris": null,
       "nearestStreet": "Trg mladosti",
@@ -4080,7 +4136,8 @@
       "validFrom": "2026-07-28T12:57:58Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "roof"
+        "building": "roof",
+        "layer": "1"
       },
       "obris": null,
       "nearestStreet": "Hrastelnica",
@@ -4098,7 +4155,8 @@
       "validFrom": "2026-07-28T12:57:58Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1"
       },
       "obris": null,
       "nearestStreet": "Hrastelnica",
@@ -4116,7 +4174,9 @@
       "validFrom": "2026-07-28T13:06:51Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "industrial"
+        "building": "industrial",
+        "power": "substation",
+        "substation": "minor_distribution"
       },
       "obris": null,
       "nearestStreet": "Ulica bana Josipa Jelačića",
@@ -4548,7 +4608,9 @@
       "validFrom": "2026-07-28T17:58:07Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "1",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Risnjak",
@@ -4566,7 +4628,8 @@
       "validFrom": "2026-07-29T10:02:56Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Desni odvojak Risnjak",
@@ -4638,7 +4701,9 @@
       "validFrom": "2026-07-29T11:44:04Z",
       "zupanija": "Zagrebačka županija",
       "tags": {
-        "building": "power_substation"
+        "building": "power_substation",
+        "power": "substation",
+        "substation": "minor_distribution"
       },
       "obris": null,
       "nearestStreet": "Ulica Ljudevita Vukatinovića",
@@ -6388,7 +6453,9 @@
       "validFrom": "2026-07-29T17:08:19Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "noaddress": "yes",
+        "panoramax": "93ef3504-632e-460c-9b66-d036ee66c739"
       },
       "obris": null,
       "nearestStreet": "Pile III.",
@@ -6408,7 +6475,8 @@
       "tags": {
         "building": "house",
         "addr:street": "Pile III.",
-        "addr:housenumber": "42"
+        "addr:housenumber": "42",
+        "ref:HR:kucni_broj": "22083646"
       },
       "obris": null
     },
@@ -10852,7 +10920,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -10870,7 +10939,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -10888,7 +10958,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -10906,7 +10977,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -10924,7 +10996,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -10942,7 +11015,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -10960,7 +11034,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -11050,7 +11125,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -11086,7 +11162,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -11104,7 +11181,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -11122,7 +11200,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica kneza Branimira",
@@ -11140,7 +11219,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "garage"
+        "building": "garage",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Ulica kneza Branimira",
@@ -11158,7 +11238,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica kneza Branimira",
@@ -11176,7 +11257,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Donja Švarča",
@@ -11194,7 +11276,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Ulica kneza Branimira",
@@ -11212,7 +11295,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Ulica kneza Branimira",
@@ -11230,7 +11314,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "flat"
       },
       "obris": null,
       "nearestStreet": "Ulica kneza Branimira",
@@ -11302,7 +11387,8 @@
       "validFrom": "2026-07-30T16:34:48Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "roof:shape": "gabled"
       },
       "obris": null,
       "nearestStreet": "Ulica kneza Branimira",
@@ -11338,7 +11424,9 @@
       "validFrom": "2026-07-30T21:14:02Z",
       "zupanija": "Grad Zagreb",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
       },
       "obris": null,
       "nearestStreet": "Prilaz baruna Filipovića",
@@ -20075,7 +20163,8 @@
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
         "building": "house",
-        "addr:street": "Barutana"
+        "addr:street": "Barutana",
+        "building:levels": "2"
       },
       "obris": null
     },
@@ -20091,7 +20180,8 @@
       "validFrom": "2026-07-31T16:03:56Z",
       "zupanija": "Vukovarsko-srijemska županija",
       "tags": {
-        "building": "house"
+        "building": "house",
+        "building:levels": "2"
       },
       "obris": null,
       "nearestStreet": "Barutana",
@@ -20415,7 +20505,14 @@
       "validFrom": "2026-07-31T22:22:15Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "service"
+        "building": "service",
+        "frequency": "50",
+        "operator": "HEP ODS",
+        "operator:wikidata": "Q108169061",
+        "power": "substation",
+        "substation": "transition",
+        "utility": "power",
+        "voltage": "35000"
       },
       "obris": null,
       "nearestStreet": "Kameničine",
@@ -20433,7 +20530,14 @@
       "validFrom": "2026-07-31T22:22:15Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "service"
+        "building": "service",
+        "frequency": "50",
+        "operator": "HEP ODS",
+        "operator:wikidata": "Q108169061",
+        "power": "substation",
+        "substation": "transition",
+        "utility": "power",
+        "voltage": "35000"
       },
       "obris": null
     },
@@ -20449,7 +20553,14 @@
       "validFrom": "2026-07-31T23:13:29Z",
       "zupanija": "Zadarska županija",
       "tags": {
-        "building": "service"
+        "building": "service",
+        "frequency": "50",
+        "operator": "HEP ODS",
+        "operator:wikidata": "Q108169061",
+        "power": "substation",
+        "substation": "transition",
+        "utility": "power",
+        "voltage": "35000"
       },
       "obris": null,
       "nearestStreet": "Ul. 17",
@@ -20467,7 +20578,8 @@
       "validFrom": "2026-08-01T12:56:10Z",
       "zupanija": "Krapinsko-zagorska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "panoramax": "ed9faa21-3487-40ac-8ce0-96004d110504"
       },
       "obris": null,
       "nearestStreet": "Trg Matije Gupca",
@@ -20772,7 +20884,10 @@
       "validFrom": "2026-08-01T20:45:15Z",
       "zupanija": "Brodsko-posavska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "place_of_worship",
+        "denomination": "serbian_orthodox",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -20788,7 +20903,10 @@
       "validFrom": "2026-08-01T21:23:56Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "place_of_worship",
+        "denomination": "serbian_orthodox",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -20804,7 +20922,10 @@
       "validFrom": "2026-08-01T21:23:56Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "place_of_worship",
+        "denomination": "serbian_orthodox",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -20820,7 +20941,10 @@
       "validFrom": "2026-08-01T21:23:56Z",
       "zupanija": "Karlovačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "place_of_worship",
+        "denomination": "serbian_orthodox",
+        "religion": "christian"
       },
       "obris": null,
       "nearestStreet": "Ogulinska ulica",
@@ -20838,7 +20962,10 @@
       "validFrom": "2026-08-01T21:23:56Z",
       "zupanija": "Šibensko-kninska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "place_of_worship",
+        "denomination": "serbian_orthodox",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -20854,7 +20981,10 @@
       "validFrom": "2026-08-01T21:23:56Z",
       "zupanija": "Ličko-senjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "place_of_worship",
+        "denomination": "serbian_orthodox",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -20870,7 +21000,10 @@
       "validFrom": "2026-08-01T21:23:56Z",
       "zupanija": "Ličko-senjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "place_of_worship",
+        "denomination": "serbian_orthodox",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -20886,7 +21019,10 @@
       "validFrom": "2026-08-01T21:23:56Z",
       "zupanija": "Ličko-senjska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "amenity": "place_of_worship",
+        "denomination": "serbian_orthodox",
+        "religion": "christian"
       },
       "obris": null
     },
@@ -20902,7 +21038,8 @@
       "validFrom": "2026-08-01T21:45:03Z",
       "zupanija": "Primorsko-goranska županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "building:levels": "5"
       },
       "obris": null,
       "nearestStreet": "Uski prolaz",
@@ -20924,7 +21061,8 @@
         "name": "I. osnovna škola Petrinja",
         "addr:street": "Ulica Mije Srnaka",
         "addr:housenumber": "1",
-        "addr:city": "Petrinja"
+        "addr:city": "Petrinja",
+        "addr:postcode": "44250"
       },
       "obris": null
     },
@@ -20944,7 +21082,8 @@
         "name": "Veteranski centar Petrinja",
         "addr:street": "Ulica Ivana Mažuranića",
         "addr:housenumber": "11",
-        "addr:city": "Petrinja"
+        "addr:city": "Petrinja",
+        "addr:postcode": "44250"
       },
       "obris": null
     },
@@ -20978,7 +21117,8 @@
       "validFrom": "2026-08-01T22:30:52Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:unit": "3"
       },
       "obris": null,
       "nearestStreet": "Sisačka ulica",
@@ -20996,7 +21136,8 @@
       "validFrom": "2026-08-01T22:30:52Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:unit": "3/1"
       },
       "obris": null,
       "nearestStreet": "Sisačka ulica",
@@ -21014,7 +21155,8 @@
       "validFrom": "2026-08-01T22:30:52Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:unit": "3/2"
       },
       "obris": null,
       "nearestStreet": "Sisačka ulica",
@@ -21032,7 +21174,8 @@
       "validFrom": "2026-08-01T22:30:52Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:unit": "3/3"
       },
       "obris": null,
       "nearestStreet": "Sisačka ulica",
@@ -21050,7 +21193,8 @@
       "validFrom": "2026-08-01T22:30:52Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:unit": "3/7"
       },
       "obris": null,
       "nearestStreet": "Ulica Mirka Antolića",
@@ -21068,7 +21212,8 @@
       "validFrom": "2026-08-01T22:30:52Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:unit": "3/6"
       },
       "obris": null,
       "nearestStreet": "Ulica Mirka Antolića",
@@ -21086,7 +21231,8 @@
       "validFrom": "2026-08-01T22:30:52Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:unit": "3/5"
       },
       "obris": null,
       "nearestStreet": "Ulica Mirka Antolića",
@@ -21104,7 +21250,8 @@
       "validFrom": "2026-08-01T22:30:52Z",
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
-        "building": "yes"
+        "building": "yes",
+        "addr:unit": "3/4"
       },
       "obris": null,
       "nearestStreet": "Ulica Mirka Antolića",
@@ -21141,7 +21288,10 @@
       "zupanija": "Sisačko-moslavačka županija",
       "tags": {
         "building": "yes",
-        "name": "Tisak"
+        "name": "Tisak",
+        "brand": "Tisak",
+        "brand:wikidata": "Q12643627",
+        "shop": "kiosk"
       },
       "obris": null,
       "nearestStreet": "Trg dr. Franje Tuđmana",
@@ -21162,7 +21312,8 @@
         "building": "yes",
         "addr:street": "Odranski prilaz",
         "addr:housenumber": "5",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10020"
       },
       "obris": null
     },
@@ -21181,7 +21332,8 @@
         "building": "yes",
         "addr:street": "Odranski prilaz",
         "addr:housenumber": "11",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10020"
       },
       "obris": null
     },
@@ -21218,7 +21370,8 @@
         "building": "house",
         "addr:street": "Velika cesta",
         "addr:housenumber": "3",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10010"
       },
       "obris": null
     },
@@ -21237,7 +21390,8 @@
         "building": "house",
         "addr:street": "Velika cesta",
         "addr:housenumber": "5",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10010"
       },
       "obris": null
     },
@@ -21256,7 +21410,8 @@
         "building": "yes",
         "addr:street": "Velika cesta",
         "addr:housenumber": "3/1",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10010"
       },
       "obris": null
     },
@@ -21275,7 +21430,8 @@
         "building": "house",
         "addr:street": "Malomlačka ulica",
         "addr:housenumber": "154",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10020"
       },
       "obris": null
     },
@@ -21294,7 +21450,8 @@
         "building": "yes",
         "addr:street": "Velika cesta",
         "addr:housenumber": "26B",
-        "addr:city": "Zagreb"
+        "addr:city": "Zagreb",
+        "addr:postcode": "10020"
       },
       "obris": null
     },
@@ -23514,7 +23671,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "2"
       },
       "obris": null
     },
@@ -23530,7 +23688,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "3"
       },
       "obris": null
     },
@@ -23546,7 +23705,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "4"
       },
       "obris": null
     },
@@ -23562,7 +23722,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "5"
       },
       "obris": null
     },
@@ -23578,7 +23739,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "6"
       },
       "obris": null
     },
@@ -23594,7 +23756,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "7"
       },
       "obris": null
     },
@@ -23610,7 +23773,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "10"
       },
       "obris": null
     },
@@ -23626,7 +23790,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "11"
       },
       "obris": null
     },
@@ -23642,7 +23807,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "12"
       },
       "obris": null
     },
@@ -23658,7 +23824,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "13"
       },
       "obris": null
     },
@@ -23674,7 +23841,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "14"
       },
       "obris": null
     },
@@ -23690,7 +23858,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "15"
       },
       "obris": null
     },
@@ -23706,7 +23875,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "23"
       },
       "obris": null
     },
@@ -23722,7 +23892,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "22"
       },
       "obris": null
     },
@@ -23738,7 +23909,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "21"
       },
       "obris": null
     },
@@ -23754,7 +23926,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "20"
       },
       "obris": null
     },
@@ -23770,7 +23943,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "19"
       },
       "obris": null
     },
@@ -23786,7 +23960,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "18"
       },
       "obris": null
     },
@@ -23802,7 +23977,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "17"
       },
       "obris": null
     },
@@ -23818,7 +23994,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "9"
       },
       "obris": null
     },
@@ -23834,7 +24011,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "8A"
       },
       "obris": null
     },
@@ -23850,7 +24028,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "8"
       },
       "obris": null
     },
@@ -23866,7 +24045,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "16"
       },
       "obris": null
     },
@@ -23882,7 +24062,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "1"
       },
       "obris": null
     },
@@ -23898,7 +24079,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "24"
       },
       "obris": null
     },
@@ -23914,7 +24096,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "33"
       },
       "obris": null
     },
@@ -23930,7 +24113,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "25"
       },
       "obris": null
     },
@@ -23946,7 +24130,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "26"
       },
       "obris": null
     },
@@ -23962,7 +24147,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "27"
       },
       "obris": null
     },
@@ -23978,7 +24164,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "28"
       },
       "obris": null
     },
@@ -23994,7 +24181,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "29"
       },
       "obris": null
     },
@@ -24010,7 +24198,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "30"
       },
       "obris": null
     },
@@ -24026,7 +24215,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "31"
       },
       "obris": null
     },
@@ -24042,7 +24232,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "32"
       },
       "obris": null
     },
@@ -24058,7 +24249,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "40"
       },
       "obris": null
     },
@@ -24074,7 +24266,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "39"
       },
       "obris": null
     },
@@ -24090,7 +24283,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "38"
       },
       "obris": null
     },
@@ -24106,7 +24300,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "37"
       },
       "obris": null
     },
@@ -24122,7 +24317,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "36"
       },
       "obris": null
     },
@@ -24138,7 +24334,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "35"
       },
       "obris": null
     },
@@ -24154,7 +24351,8 @@
       "validFrom": "2026-08-03T05:27:24Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "34"
       },
       "obris": null
     },
@@ -24170,7 +24368,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "46"
       },
       "obris": null
     },
@@ -24186,7 +24385,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "45"
       },
       "obris": null
     },
@@ -24202,7 +24402,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "44"
       },
       "obris": null
     },
@@ -24218,7 +24419,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "43"
       },
       "obris": null
     },
@@ -24234,7 +24436,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "42"
       },
       "obris": null
     },
@@ -24250,7 +24453,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "49"
       },
       "obris": null
     },
@@ -24266,7 +24470,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "48"
       },
       "obris": null
     },
@@ -24282,7 +24487,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "47"
       },
       "obris": null
     },
@@ -24298,7 +24504,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "41"
       },
       "obris": null
     },
@@ -24314,7 +24521,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "50"
       },
       "obris": null
     },
@@ -24330,7 +24538,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "51"
       },
       "obris": null
     },
@@ -24346,7 +24555,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "52"
       },
       "obris": null
     },
@@ -24362,7 +24572,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "53"
       },
       "obris": null
     },
@@ -24378,7 +24589,8 @@
       "validFrom": "2026-08-03T05:30:21Z",
       "zupanija": "Splitsko-dalmatinska županija",
       "tags": {
-        "building": "static_caravan"
+        "building": "static_caravan",
+        "ref": "54"
       },
       "obris": null
     },
@@ -24397,7 +24609,9 @@
         "building": "apartments",
         "addr:street": "Dubrovačka ulica",
         "addr:housenumber": "51",
-        "addr:city": "Osijek"
+        "addr:city": "Osijek",
+        "addr:postcode": "31000",
+        "building:levels": "3"
       },
       "obris": null
     },
@@ -24416,7 +24630,9 @@
         "building": "apartments",
         "addr:street": "Dubrovačka ulica",
         "addr:housenumber": "53",
-        "addr:city": "Osijek"
+        "addr:city": "Osijek",
+        "addr:postcode": "31000",
+        "building:levels": "3"
       },
       "obris": null
     },
@@ -24435,7 +24651,8 @@
         "building": "apartments",
         "addr:street": "Dubrovačka ulica",
         "addr:housenumber": "55",
-        "addr:city": "Osijek"
+        "addr:city": "Osijek",
+        "addr:postcode": "31000"
       },
       "obris": null
     },
@@ -24454,7 +24671,8 @@
         "building": "apartments",
         "addr:street": "Dubrovačka ulica",
         "addr:housenumber": "57",
-        "addr:city": "Osijek"
+        "addr:city": "Osijek",
+        "addr:postcode": "31000"
       },
       "obris": null
     },
@@ -24471,7 +24689,8 @@
       "zupanija": "Zadarska županija",
       "tags": {
         "building": "construction",
-        "addr:street": "Put Bokulje"
+        "addr:street": "Put Bokulje",
+        "construction": "yes"
       },
       "obris": null
     },
@@ -24488,7 +24707,8 @@
       "zupanija": "Zadarska županija",
       "tags": {
         "building": "construction",
-        "addr:street": "Put Bokulje"
+        "addr:street": "Put Bokulje",
+        "construction": "yes"
       },
       "obris": null
     },
@@ -24505,7 +24725,8 @@
       "zupanija": "Zadarska županija",
       "tags": {
         "building": "construction",
-        "addr:street": "Put Bokulje"
+        "addr:street": "Put Bokulje",
+        "construction": "yes"
       },
       "obris": null
     },
@@ -24522,7 +24743,8 @@
       "zupanija": "Zadarska županija",
       "tags": {
         "building": "construction",
-        "addr:street": "Put Bokulje"
+        "addr:street": "Put Bokulje",
+        "construction": "yes"
       },
       "obris": null
     }
