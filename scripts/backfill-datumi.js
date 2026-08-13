@@ -71,15 +71,24 @@ async function main() {
   const elementi = await posaljiUpit(najranijaGranica);
   console.log(`Overpass vratio ${elementi.length} elemenata.`);
 
+  const saTimestampom = elementi.filter((el) => el.timestamp).length;
+  console.log(`Od toga sa timestamp poljem: ${saTimestampom}/${elementi.length}`);
+  if (elementi.length > 0) {
+    console.log(`Primjer prvog elementa: ${JSON.stringify(elementi[0]).slice(0, 400)}`);
+  }
+
   // id -> timestamp lookup
   const timestampPoId = {};
   elementi.forEach((el) => {
     if (el.timestamp) timestampPoId[`${el.type}/${el.id}`] = el.timestamp;
   });
+  const primjerNovihId = Object.keys(timestampPoId).slice(0, 3);
+  console.log(`Primjer id-jeva iz novog dohvata: ${JSON.stringify(primjerNovihId)}`);
 
   for (const entry of zaPopravak) {
     const filePath = path.join(REPO_ROOT, entry.file);
     const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    console.log(`Primjer id-jeva u ${entry.file}: ${JSON.stringify(data.features.slice(0,3).map(f => f.id))}`);
     let popunjeno = 0;
     data.features.forEach((f) => {
       if (!f.validFrom && timestampPoId[f.id]) {
