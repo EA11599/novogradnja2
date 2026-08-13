@@ -31,27 +31,42 @@ async function posaljiUpit(fromISO) {
     out geom meta tags;
   `;
 
-  const MAX_POKUSAJA = 3;
-  for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
-    try {
-      const res = await fetch(OVERPASS_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded", "User-Agent": cfg.USER_AGENT },
-        body: new URLSearchParams({ data: query }),
-      });
-      const text = await res.text();
-      if (!res.ok) throw new Error(`Overpass ${res.status}: ${text.slice(0, 500)}`);
-      const parsed = JSON.parse(text);
-      return parsed.elements || [];
-    } catch (err) {
-      if (pokusaj === MAX_POKUSAJA) throw err;
-      const jePrivremena = /50[234]/.test(err.message);
-      if (!jePrivremena) throw err;
-      const pauza = pokusaj * 15000;
-      console.log(`Privremena greška (pokušaj ${pokusaj}/${MAX_POKUSAJA}), čekam ${pauza / 1000}s...`);
-      await new Promise((r) => setTimeout(r, pauza));
+  console.log("--- TOČAN UPIT ---");
+  console.log(query);
+  console.log("--- KRAJ UPITA ---");
+
+  const MIRRORS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
+
+  for (const mirrorUrl of MIRRORS) {
+    console.log(`Pokušavam mirror: ${mirrorUrl}`);
+    const MAX_POKUSAJA = 2;
+    for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
+      try {
+        const res = await fetch(mirrorUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded", "User-Agent": cfg.USER_AGENT },
+          body: new URLSearchParams({ data: query }),
+        });
+        const text = await res.text();
+        if (!res.ok) throw new Error(`Overpass ${res.status}: ${text.slice(0, 500)}`);
+        const parsed = JSON.parse(text);
+        const elements = parsed.elements || [];
+        const saTimestampom = elements.filter((el) => el.timestamp).length;
+        console.log(`  ${mirrorUrl}: vratio ${elements.length} elemenata, ${saTimestampom} sa timestampom.`);
+        if (saTimestampom > 0 || elements.length === 0) return elements;
+        console.log(`  Ovaj mirror nema meta podatke, pokušavam sljedeći...`);
+        break; // probaj sljedeći mirror umjesto ponavljanja istog
+      } catch (err) {
+        if (pokusaj === MAX_POKUSAJA) break;
+        const jePrivremena = /50[234]/.test(err.message);
+        if (!jePrivremena) break;
+        const pauza = pokusaj * 15000;
+        console.log(`  Privremena greška (pokušaj ${pokusaj}/${MAX_POKUSAJA}), čekam ${pauza / 1000}s...`);
+        await new Promise((r) => setTimeout(r, pauza));
+      }
     }
   }
+  throw new Error("Nijedan mirror nije vratio elemente s meta podacima.");
 }
 
 async function main() {
