@@ -2,8 +2,8 @@ name: Mjesecni dohvat DGU adresa
 
 on:
   schedule:
-    # 1. u mjesecu, 03:00 UTC
-    - cron: "0 3 1 * *"
+    # 1. u mjesecu, 01:00 UTC (03:00 po hrvatskom ljetnom vremenu)
+    - cron: "0 1 1 * *"
   workflow_dispatch: {}
 
 permissions:

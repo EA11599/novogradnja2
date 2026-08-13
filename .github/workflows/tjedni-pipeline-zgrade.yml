@@ -2,8 +2,8 @@ name: Tjedno azuriranje novih zgrada
 
 on:
   schedule:
-    # Svaki ponedjeljak u 04:00 UTC (06:00 po hrvatskom ljetnom vremenu).
-    - cron: "0 4 * * 1"
+    # Svaki ponedjeljak u 01:00 UTC (03:00 po hrvatskom ljetnom vremenu).
+    - cron: "0 1 * * 1"
   workflow_dispatch: {}   # omogućava ručno pokretanje preko Actions taba
 
 permissions:
