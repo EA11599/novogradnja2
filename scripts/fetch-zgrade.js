@@ -99,12 +99,28 @@ async function fetchNoveZgrade(fromISO, toISO) {
   // da to napravi. Ovo rješava i dupliciranje između tjednih komada (svaki
   // komad je prije dohvaćao cijeli preostali rep unatrag) I nedostajuće
   // datume — riješeno oboje odjednom.
+  //
+  // "newer:" ima samo donju granicu (nema "do" datuma) — zato RUČNO
+  // filtriramo elemente po njihovom stvarnom timestamp polju da ostanu
+  // samo oni unutar [fromISO, toISO), umjesto da se oslanjamo na servera
+  // da to napravi. Ovo rješava i dupliciranje između tjednih komada (svaki
+  // komad je prije dohvaćao cijeli preostali rep unatrag) I nedostajuće
+  // datume — riješeno oboje odjednom.
+  //
+  // NAPOMENA (jako bitno, opsežno testirano): I area["ISO3166-1"="HR"]->.hr
+  // filter I if:version() klauzula ZASEBNO brišu meta podatke (timestamp,
+  // version, ...) na ovom Overpass serveru — potvrđeno izravnim testovima,
+  // neovisno jedno o drugom i neovisno o newer/changed izboru. Rješenje:
+  // koristimo bounding box (ne area) I version===1 provjeru RADIMO NA
+  // KLIJENTU (ne if: na serveru). Bbox nije precizan oblik države (uhvati
+  // i djeliće susjednih zemalja), rješavamo to naknadno - zgrade kojima
+  // pronadjiZupaniju() ne nađe županiju (izvan Hrvatske) se odbacuju niže.
+  const HR_BBOX = "42.30,13.30,46.60,19.50"; // minLat,minLon,maxLat,maxLon
   const query = `
     [out:json][timeout:180];
-    area["ISO3166-1"="HR"][admin_level=2]->.hr;
     (
-      way["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
-      relation["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
+      way["building"](newer:"${fromISO}")(${HR_BBOX});
+      relation["building"](newer:"${fromISO}")(${HR_BBOX});
     );
     out geom meta tags;
   `;
@@ -120,11 +136,15 @@ async function fetchNoveZgrade(fromISO, toISO) {
       // pa je server mogao vratiti i elemente novije od našeg toISO (već
       // obrađene u idućem tjednom pokretanju). Elementi bez timestampa se
       // preskaču (ne možemo potvrditi da pripadaju ovom prozoru).
+      // Number(el.version)===1 je NAŠA zamjena za if:version()==1 (koji smo
+      // morali maknuti sa servera jer briše meta podatke) - Number() jer
+      // Overpass zna vratiti version kao string.
       const odFiltrirano = elements.filter((el) => {
         if (!el.timestamp) return false;
+        if (Number(el.version) !== 1) return false;
         return el.timestamp >= fromISO && el.timestamp < toISO;
       });
-      console.log(`  Nakon filtriranja po vremenskom prozoru [${fromISO}, ${toISO}): ${odFiltrirano.length}/${elements.length} elemenata.`);
+      console.log(`  Nakon filtriranja po vremenskom prozoru i version===1 [${fromISO}, ${toISO}): ${odFiltrirano.length}/${elements.length} elemenata.`);
       return odFiltrirano;
     } catch (err) {
       zadnjaGreska = err;
@@ -167,18 +187,13 @@ async function posaljiUpit(query) {
   }
 
   const elements = parsed.elements || [];
-  console.log(`  Overpass vratio ${elements.length} elemenata (server-side if:version()==1 filter već primijenjen).`);
+  console.log(`  Overpass vratio ${elements.length} elemenata (filtriranje version===1 i vremenskog prozora slijedi na klijentu).`);
   if (elements.length > 0) {
     console.log(`  Primjer prvog elementa (radi provjere): ${JSON.stringify(elements[0]).slice(0, 300)}`);
   }
 
-  // NAPOMENA: filtriranje po version===1 radi se NA SERVERU (if: klauzula
-  // gore, ručno potvrđeno kroz Overpass Turbo da ispravno filtrira). Ranije
-  // smo ovdje imali i dodatni klijentski filter po el.version, ali on je
-  // davao 0 rezultata unatoč tome što je poslužitelj vraćao ispravno
-  // filtrirane elemente — vjerojatno nepodudaranje oblika polja u ovom
-  // izlaznom formatu. Server-side filter je pouzdaniji izvor istine, pa se
-  // klijentski filter namjerno više NE primjenjuje.
+  // version===1 i vremenski prozor filtriramo iznad (u fetchNoveZgrade),
+  // ne ovdje - ova funkcija samo šalje upit i vraća sirov odgovor.
   return elements;
 }
 

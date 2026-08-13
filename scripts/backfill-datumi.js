@@ -18,12 +18,15 @@ const MANIFEST_PATH = path.join(ZGRADE_DIR, "manifest.json");
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 
 async function posaljiUpit(fromISO) {
+  // Vidi opsežnu napomenu u fetch-zgrade.js: area[] filter I if:version()
+  // klauzula ZASEBNO brišu meta podatke na ovom Overpass serveru - zato
+  // koristimo bbox (ne area) i version===1 filtriramo na klijentu.
+  const HR_BBOX = "42.30,13.30,46.60,19.50";
   const query = `
     [out:json][timeout:180];
-    area["ISO3166-1"="HR"][admin_level=2]->.hr;
     (
-      way["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
-      relation["building"](newer:"${fromISO}")(area.hr)(if:version()==1);
+      way["building"](newer:"${fromISO}")(${HR_BBOX});
+      relation["building"](newer:"${fromISO}")(${HR_BBOX});
     );
     out geom meta tags;
   `;
