@@ -181,7 +181,7 @@ async function main() {
   // Čišćenje privremenih velikih datoteka (zip + gml) - ne trebaju nakon parsiranja.
   fs.rmSync(TMP_DIR, { recursive: true, force: true });
 
-  console.log(`\nGotovo. Izlazne datoteke su u ${OUT_DIR} — sljedeći korak (workflow) ih uploada kao Release assets.`);
+  console.log(`\nGotovo. Izlazne datoteke su u ${OUT_DIR} — sljedeći korak (workflow) ih premješta u data/dgu-adrese/ i commita.`);
 }
 
 main().catch((err) => {

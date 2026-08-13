@@ -27,15 +27,20 @@ jobs:
       - name: Pokreni dohvat i obradu DGU adresa
         run: node --max-old-space-size=6144 scripts/fetch-dgu-adrese.js
 
-      - name: Obriši staru "dgu-latest" objavu (ako postoji)
-        run: gh release delete dgu-latest --yes --cleanup-tag || true
-        env:
-          GH_TOKEN: ${{ github.token }}
-
-      - name: Objavi novu "dgu-latest" objavu s datotekama po županiji
+      - name: Prebaci rezultate u data/dgu-adrese
         run: |
-          gh release create dgu-latest .tmp-dgu-out/*.geojson \
-            --title "DGU adrese (najnovije)" \
-            --notes "Automatski mjesečno ažurirano iz DGU INSPIRE ATOM servisa. Datoteka po županiji."
-        env:
-          GH_TOKEN: ${{ github.token }}
+          rm -rf data/dgu-adrese
+          mkdir -p data/dgu-adrese
+          mv .tmp-dgu-out/*.geojson data/dgu-adrese/
+
+      - name: Commitaj promjene
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/dgu-adrese
+          if git diff --cached --quiet; then
+            echo "Nema promjena za commit."
+          else
+            git commit -m "Mjesecno azuriranje DGU adresa"
+            git push
+          fi

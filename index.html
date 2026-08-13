@@ -977,6 +977,7 @@ $('#detailMapBtn').addEventListener('click', () => {
 function buildDetailMapHtml(features, zupanije){
   const featuresJson = JSON.stringify(features.filter(f => f.lat !== null && f.lon !== null));
   const zupanijeJson = JSON.stringify(zupanije);
+  const dguBaseUrl = new URL('data/dgu-adrese/', window.location.href).href;
   return `<!DOCTYPE html>
 <html lang="hr"><head><meta charset="UTF-8">
 <title>Nove zgrade — detaljna karta</title>
@@ -1050,7 +1051,7 @@ function buildDetailMapHtml(features, zupanije){
 <script>
 const FEATURES = ${featuresJson};
 const ZUPANIJE = ${zupanijeJson};
-const DGU_BASE_URL = "https://github.com/EA11599/novogradnja2/releases/download/dgu-latest/";
+const DGU_BASE_URL = ${JSON.stringify(dguBaseUrl)};
 let selectedZup = new Set();
 let selectedBuilding = new Set();
 let selectedLevels = new Set();
