@@ -85,7 +85,11 @@ function parsirajGmlStrujno(onZapis) {
       const naziv = nodeName.split(":").pop();
       if (naziv === "Address") {
         if (pos && altId) {
-          const [x, y] = pos.trim().split(/\s+/).map(Number);
+          // INSPIRE GML za EPSG:3035 obično slijedi "authority-compliant"
+          // redoslijed osi (sjever, istok / Y, X), NE uobičajeni (istok,
+          // sjever) na koji smo navikli iz web-mapping konteksta. Zato prvi
+          // broj tretiramo kao Y (northing), drugi kao X (easting).
+          const [y, x] = pos.trim().split(/\s+/).map(Number);
           if (Number.isFinite(x) && Number.isFinite(y)) {
             onZapis(x, y, altId.trim());
           }
@@ -111,7 +115,7 @@ async function main() {
     poZupaniji[slug(f.properties.naziv)] = { naziv: f.properties.naziv, poly: f, features: [] };
   });
 
-  let ukupno = 0, zadrzano = 0, regexNeuspio = 0, izvanZupanije = 0;
+  let ukupno = 0, zadrzano = 0, regexNeuspio = 0, izvanZupanije = 0, ispisanoUzoraka = 0;
 
   console.log("Parsiram Address.gml (strujno, cijela Hrvatska)...");
   await parsirajGmlStrujno((x, y, altId) => {
@@ -122,6 +126,14 @@ async function main() {
 
     const [lon, lat] = proj4("EPSG:3035", "EPSG:4326", [x, y]);
     if (!Number.isFinite(lon) || !Number.isFinite(lat)) return;
+
+    // Dijagnostika: ispiši prvih 5 primjera da odmah vidimo jesu li
+    // koordinate razumne za Hrvatsku (lon ~13-19, lat ~42-46) prije nego
+    // čekamo cijelu obradu do kraja.
+    if (ispisanoUzoraka < 5) {
+      console.log(`  UZORAK: "${altId}" -> raw(${x.toFixed(1)}, ${y.toFixed(1)}) -> lon/lat(${lon.toFixed(4)}, ${lat.toFixed(4)})`);
+      ispisanoUzoraka++;
+    }
 
     const pt = turfPoint([lon, lat]);
     let nasaoZupaniju = null;
