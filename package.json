@@ -9,7 +9,8 @@
     "fetch:zgrade": "node scripts/fetch-zgrade.js",
     "fetch:zupanije": "node scripts/fetch-zupanije.js",
     "fetch:dgu": "node scripts/fetch-dgu-adrese.js",
-    "backfill:najbliza-cesta": "node scripts/backfill-nearest-street.js"
+    "backfill:najbliza-cesta": "node scripts/backfill-nearest-street.js",
+    "backfill:datumi": "node scripts/backfill-datumi.js"
   },
   "dependencies": {
     "@turf/boolean-point-in-polygon": "^7.4.0",

@@ -470,6 +470,32 @@
     text-decoration:none;
   }
   .building-table tbody tr{ cursor: pointer; }
+  .modal-choice-btn{
+    display:block;
+    width:100%;
+    text-align:left;
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .modal-choice-btn:hover{
+    border-color: var(--accent);
+    background: var(--accent-tint);
+  }
+  .modal-choice-btn .sub{
+    display:block;
+    font-weight: 400;
+    font-size: 12.5px;
+    color: var(--text-secondary);
+    margin-top: 2px;
+  }
 
   @media (max-width: 900px){
     .content-grid{ grid-template-columns: 1fr; }
@@ -849,6 +875,20 @@ function getFilteredFeatures(){
   });
 }
 
+// Isto kao getFilteredFeatures, ali BEZ filtera po županiji - koristi se za
+// izvoz u Excel po sheetovima, gdje o županijama odlučujemo zasebno.
+function getFilteredFeaturesBezZupanije(){
+  const q = ($('#searchBox').value || '').toLowerCase().trim();
+  return allFeaturesInWindow.filter(f => {
+    if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
+    if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
+    if (!q) return true;
+    const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'name'), tag(f,'building')]
+      .filter(Boolean).join(' ').toLowerCase();
+    return hay.includes(q);
+  });
+}
+
 function facetCounts(features, key, fallback){
   const counts = {};
   features.forEach(f => {
@@ -1061,9 +1101,8 @@ $('#searchBox').addEventListener('input', () => {
   if (facetPanelOpen) renderFacetPanel();
 });
 
-$('#exportBtn').addEventListener('click', () => {
-  const filtered = getFilteredFeatures();
-  const rows = filtered.map(f => ({
+function redakZaIzvoz(f){
+  return {
     Adresa: prikazAdrese(f) || '',
     Mjesto: tag(f,'addr:city') || (f.dguAdresa ? f.dguAdresa.settlement : '') || '',
     Zupanija: f.zupanija || '',
@@ -1074,11 +1113,72 @@ $('#exportBtn').addEventListener('click', () => {
       : '',
     Lat: f.lat,
     Lon: f.lon,
-  }));
-  const ws = XLSX.utils.json_to_sheet(rows);
+  };
+}
+
+function nazivDatoteke(){
+  const danas = new Date();
+  const datum = danas.getFullYear() + '-' + String(danas.getMonth()+1).padStart(2,'0') + '-' + String(danas.getDate()).padStart(2,'0');
+  return 'ng-' + datum + '.xlsx';
+}
+
+function sanitizirajNazivSheeta(naziv){
+  // Excel ograničenja: max 31 znak, bez : \ / ? * [ ]
+  return naziv.replace(/[:\\\/\?\*\[\]]/g, '').slice(0, 31);
+}
+
+function izvrsiIzvoz(samoOveZupanije){
+  const sveOznamke = getFilteredFeaturesBezZupanije();
+  const poZupaniji = {};
+  sveOznamke.forEach(f => {
+    const naziv = f.zupanija || 'Nepoznato';
+    if (samoOveZupanije && !samoOveZupanije.has(naziv)) return;
+    (poZupaniji[naziv] = poZupaniji[naziv] || []).push(f);
+  });
+
   const wb = XLSX.utils.book_new();
-  XLSX.utils.book_append_sheet(wb, ws, 'Nove zgrade');
-  XLSX.writeFile(wb, 'nove-zgrade.xlsx');
+  const poredaneZupanije = Object.keys(poZupaniji).sort((a,b) => a.localeCompare(b, 'hr'));
+
+  if (poredaneZupanije.length === 0){
+    alert('Nema podataka za izvoz s trenutnim filterima.');
+    return;
+  }
+
+  poredaneZupanije.forEach(naziv => {
+    const rows = poZupaniji[naziv].map(redakZaIzvoz);
+    const ws = XLSX.utils.json_to_sheet(rows);
+    XLSX.utils.book_append_sheet(wb, ws, sanitizirajNazivSheeta(naziv));
+  });
+
+  XLSX.writeFile(wb, nazivDatoteke());
+}
+
+function otvoriIzborZupanijaModal(){
+  const brojOdabranih = selectedZupanije.size;
+  $('#modalCard').innerHTML =
+    '<button class="modal-close" id="modalCloseBtn">×</button>' +
+    '<h3>Izvoz u Excel</h3>' +
+    '<div style="color:var(--text-secondary);font-size:13.5px;margin-top:4px;">Odabrano je ' + brojOdabranih + ' županija filterom. Što želiš izvesti?</div>' +
+    '<button class="modal-choice-btn" id="izvozSamoOdabraneBtn">Samo odabrane županije<span class="sub">' + Array.from(selectedZupanije).join(', ') + '</span></button>' +
+    '<button class="modal-choice-btn" id="izvozSveBtn">Sve županije<span class="sub">Svaka županija u zasebnom sheetu</span></button>';
+  $('#modalOverlay').classList.add('open');
+
+  $('#izvozSamoOdabraneBtn').addEventListener('click', () => {
+    $('#modalOverlay').classList.remove('open');
+    izvrsiIzvoz(new Set(selectedZupanije));
+  });
+  $('#izvozSveBtn').addEventListener('click', () => {
+    $('#modalOverlay').classList.remove('open');
+    izvrsiIzvoz(null);
+  });
+}
+
+$('#exportBtn').addEventListener('click', () => {
+  if (selectedZupanije.size > 0) {
+    otvoriIzborZupanijaModal();
+  } else {
+    izvrsiIzvoz(null);
+  }
 });
 
 $('#detailMapBtn').addEventListener('click', () => {

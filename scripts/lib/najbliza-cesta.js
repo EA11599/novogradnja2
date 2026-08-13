@@ -23,22 +23,35 @@ function haversineM(lat1, lon1, lat2, lon2) {
 
 async function fetchCeste(bbox) {
   const query = `[out:json][timeout:60];way["highway"]["name"](${bbox.minLat},${bbox.minLon},${bbox.maxLat},${bbox.maxLon});out geom;`;
-  const res = await fetch(OVERPASS_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      "User-Agent": cfg.USER_AGENT,
-    },
-    body: new URLSearchParams({ data: query }),
-  });
-  if (!res.ok) throw new Error(`Overpass ${res.status} ${res.statusText}`);
-  const body = await res.json();
-  return (body.elements || [])
-    .map((el) => ({
-      name: el.tags && el.tags.name,
-      points: (el.geometry || []).map((p) => [p.lat, p.lon]),
-    }))
-    .filter((r) => r.name && r.points.length);
+
+  const MAX_POKUSAJA = 3;
+  for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
+    const res = await fetch(OVERPASS_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": cfg.USER_AGENT,
+      },
+      body: new URLSearchParams({ data: query }),
+    });
+    if (res.ok) {
+      const body = await res.json();
+      return (body.elements || [])
+        .map((el) => ({
+          name: el.tags && el.tags.name,
+          points: (el.geometry || []).map((p) => [p.lat, p.lon]),
+        }))
+        .filter((r) => r.name && r.points.length);
+    }
+    // 429 (rate limit) i 502/503/504 su privremeni - pokušaj ponovno uz pauzu
+    const jePrivremena = res.status === 429 || (res.status >= 502 && res.status <= 504);
+    if (!jePrivremena || pokusaj === MAX_POKUSAJA) {
+      throw new Error(`Overpass ${res.status} ${res.statusText}`);
+    }
+    const pauza = pokusaj * 20000;
+    console.log(`    Overpass ${res.status} (pokušaj ${pokusaj}/${MAX_POKUSAJA}), čekam ${pauza / 1000}s...`);
+    await new Promise((r) => setTimeout(r, pauza));
+  }
 }
 
 // Mutira features u mjestu - dodaje nearestStreet / nearestStreetDist
@@ -96,6 +109,8 @@ async function dodajNajblizuCestu(features) {
     } catch (err) {
       console.log(`  Najbliža cesta nije dohvaćena za ${zupanija || "bez županije"}: ${err.message}`);
     }
+    // mala pauza između županija - smanjuje rizik od rate-limita na javnom serveru
+    await new Promise((r) => setTimeout(r, 2000));
   }
 }
 
