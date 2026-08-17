@@ -118,37 +118,23 @@ async function fetchNoveZgrade(fromISO, toISO) {
     out geom meta tags;
   `;
 
-  // Javni Overpass server zna biti privremeno prezauzet (502/503/504) —
-  // pokušaj do 3 puta s rastućom pauzom prije nego stvarno odustanemo.
-  const MAX_POKUSAJA = 3;
-  let zadnjaGreska;
-  for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
-    try {
-      const elements = await posaljiUpit(query);
-      // Ručno filtriranje po timestamp polju - "newer:" nema gornju granicu
-      // pa je server mogao vratiti i elemente novije od našeg toISO (već
-      // obrađene u idućem tjednom pokretanju). Elementi bez timestampa se
-      // preskaču (ne možemo potvrditi da pripadaju ovom prozoru).
-      // Number(el.version)===1 je NAŠA zamjena za if:version()==1 (koji smo
-      // morali maknuti sa servera jer briše meta podatke) - Number() jer
-      // Overpass zna vratiti version kao string.
-      const odFiltrirano = elements.filter((el) => {
-        if (!el.timestamp) return false;
-        if (Number(el.version) !== 1) return false;
-        return el.timestamp >= fromISO && el.timestamp < toISO;
-      });
-      console.log(`  Nakon filtriranja po vremenskom prozoru i version===1 [${fromISO}, ${toISO}): ${odFiltrirano.length}/${elements.length} elemenata.`);
-      return odFiltrirano;
-    } catch (err) {
-      zadnjaGreska = err;
-      const jePrivremena = /50[234]/.test(err.message);
-      if (!jePrivremena || pokusaj === MAX_POKUSAJA) throw err;
-      const pauzaMs = pokusaj * 15000;
-      console.log(`Overpass privremeno nedostupan (pokušaj ${pokusaj}/${MAX_POKUSAJA}), čekam ${pauzaMs / 1000}s: ${err.message.split("\n")[0]}`);
-      await new Promise((r) => setTimeout(r, pauzaMs));
-    }
-  }
-  throw zadnjaGreska;
+  // Sav retry (i za meta problem i za privremene HTTP greške poput 504) je
+  // sad unutar posaljiUpit, u jednoj petlji - vidi tamo za detalje.
+  const elements = await posaljiUpit(query);
+  // Ručno filtriranje po timestamp polju - "newer:" nema gornju granicu
+  // pa je server mogao vratiti i elemente novije od našeg toISO (već
+  // obrađene u idućem tjednom pokretanju). Elementi bez timestampa se
+  // preskaču (ne možemo potvrditi da pripadaju ovom prozoru).
+  // Number(el.version)===1 je NAŠA zamjena za if:version()==1 (koji smo
+  // morali maknuti sa servera jer briše meta podatke) - Number() jer
+  // Overpass zna vratiti version kao string.
+  const odFiltrirano = elements.filter((el) => {
+    if (!el.timestamp) return false;
+    if (Number(el.version) !== 1) return false;
+    return el.timestamp >= fromISO && el.timestamp < toISO;
+  });
+  console.log(`  Nakon filtriranja po vremenskom prozoru i version===1 [${fromISO}, ${toISO}): ${odFiltrirano.length}/${elements.length} elemenata.`);
+  return odFiltrirano;
 }
 
 async function posaljiUpit(query) {
@@ -163,56 +149,68 @@ async function posaljiUpit(query) {
   // način) — NIJE pouzdana zamjena. Umjesto prebacivanja na drugi mirror,
   // ponavljamo ISTI (glavni) server, jer je problem nasumičan po node-u -
   // ponavljanje vrlo vjerojatno pogodi "dobar" node unutar par pokušaja.
-  const MAX_POKUSAJA = 5;
+  const MAX_POKUSAJA = 6;
   let najveciBrojElemenataBezMeta = 0;
+  let zadnjaGreska;
 
   for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
-    const res = await fetch(OVERPASS_URL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        "User-Agent": cfg.USER_AGENT,
-      },
-      body: new URLSearchParams({ data: query }),
-    });
-
-    const text = await res.text();
-    if (!res.ok) {
-      throw new Error(`Overpass ${res.status} ${res.statusText}\nOdgovor: ${text.slice(0, 1500)}`);
-    }
-
-    let parsed;
     try {
-      parsed = JSON.parse(text);
-    } catch {
-      throw new Error(`Overpass je vratio ne-JSON odgovor (vjerojatno greška/rate-limit):\n${text.slice(0, 1500)}`);
-    }
+      const res = await fetch(OVERPASS_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "User-Agent": cfg.USER_AGENT,
+        },
+        body: new URLSearchParams({ data: query }),
+      });
 
-    if (parsed.remark) {
-      console.log(`  Overpass remark: ${parsed.remark}`);
-    }
+      const text = await res.text();
+      if (!res.ok) {
+        throw new Error(`Overpass ${res.status} ${res.statusText}\nOdgovor: ${text.slice(0, 1500)}`);
+      }
 
-    const elements = parsed.elements || [];
-    const saTimestampom = elements.filter((el) => el.timestamp).length;
-    console.log(`  Pokušaj ${pokusaj}/${MAX_POKUSAJA}: vratio ${elements.length} elemenata, ${saTimestampom} sa timestampom.`);
+      let parsed;
+      try {
+        parsed = JSON.parse(text);
+      } catch {
+        throw new Error(`Overpass je vratio ne-JSON odgovor (vjerojatno greška/rate-limit):\n${text.slice(0, 1500)}`);
+      }
 
-    if (elements.length === 0 && najveciBrojElemenataBezMeta === 0) {
-      // Stvarno prazan odgovor, i nijedan prošli pokušaj nije nagovijestio
-      // da ima podataka - legitimna nula.
-      return elements;
-    }
-    if (saTimestampom > 0) {
-      console.log(`  Primjer prvog elementa (radi provjere): ${JSON.stringify(elements[0]).slice(0, 300)}`);
-      return elements;
-    }
+      if (parsed.remark) {
+        console.log(`  Overpass remark: ${parsed.remark}`);
+      }
 
-    // Elementi postoje (znamo da IMA podataka za ovaj period), ali bez
-    // meta - loš node. Pamtimo da smo to vidjeli i pokušavamo ponovno.
-    najveciBrojElemenataBezMeta = Math.max(najveciBrojElemenataBezMeta, elements.length);
-    console.log(`  UPOZORENJE: odgovor bez meta podataka (poznat problem loše rutiranog node-a), pokušavam ponovno...`);
-    await new Promise((r) => setTimeout(r, pokusaj * 5000));
+      const elements = parsed.elements || [];
+      const saTimestampom = elements.filter((el) => el.timestamp).length;
+      console.log(`  Pokušaj ${pokusaj}/${MAX_POKUSAJA}: vratio ${elements.length} elemenata, ${saTimestampom} sa timestampom.`);
+
+      if (elements.length === 0 && najveciBrojElemenataBezMeta === 0) {
+        // Stvarno prazan odgovor, i nijedan prošli pokušaj nije nagovijestio
+        // da ima podataka - legitimna nula.
+        return elements;
+      }
+      if (saTimestampom > 0) {
+        console.log(`  Primjer prvog elementa (radi provjere): ${JSON.stringify(elements[0]).slice(0, 300)}`);
+        return elements;
+      }
+
+      // Elementi postoje (znamo da IMA podataka za ovaj period), ali bez
+      // meta - loš node. Pamtimo da smo to vidjeli i pokušavamo ponovno.
+      najveciBrojElemenataBezMeta = Math.max(najveciBrojElemenataBezMeta, elements.length);
+      console.log(`  UPOZORENJE: odgovor bez meta podataka (poznat problem loše rutiranog node-a), pokušavam ponovno...`);
+    } catch (err) {
+      zadnjaGreska = err;
+      const jePrivremena = /50[234]/.test(err.message);
+      console.log(`  Pokušaj ${pokusaj}/${MAX_POKUSAJA} neuspio: ${err.message.split("\n")[0]}${jePrivremena ? " (privremeno, pokušavam ponovno)" : ""}`);
+    }
+    if (pokusaj < MAX_POKUSAJA) {
+      const pauzaMs = pokusaj * 12000;
+      console.log(`  Čekam ${pauzaMs / 1000}s prije sljedećeg pokušaja...`);
+      await new Promise((r) => setTimeout(r, pauzaMs));
+    }
   }
 
+  if (zadnjaGreska) throw zadnjaGreska;
   throw new Error(`Overpass dosljedno vraća elemente bez meta podataka nakon ${MAX_POKUSAJA} pokušaja (${najveciBrojElemenataBezMeta} elemenata bez timestampa) - vjerojatno svi node-ovi trenutno imaju problem, pokušaj kasnije.`);
 }
 
