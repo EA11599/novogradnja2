@@ -33,7 +33,15 @@
         "building": "yes"
       },
       "zupanija": "Krapinsko-zagorska županija",
-      "validFrom": "2026-08-17T15:04:46Z"
+      "validFrom": "2026-08-17T15:04:46Z",
+      "dguAdresa": {
+        "street": "Poljanica Bistrička",
+        "houseNumber": "149",
+        "settlement": "Poljanica Bistrička",
+        "postcode": "49246",
+        "city": "Marija Bistrica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550388455",
@@ -974,7 +982,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Ulica Elvira Vrha",
-      "nearestStreetDist": 85
+      "nearestStreetDist": 85,
+      "dguAdresa": {
+        "street": "Žurkovo",
+        "houseNumber": "4",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397108",
@@ -1016,7 +1032,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 713
+      "nearestStreetDist": 713,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "14A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397109",
@@ -1084,7 +1108,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 653
+      "nearestStreetDist": 653,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "19",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397113",
@@ -1192,7 +1224,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 713
+      "nearestStreetDist": 713,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "12",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397115",
@@ -1254,7 +1294,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 696
+      "nearestStreetDist": 696,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "17",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397116",
@@ -1370,7 +1418,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 794
+      "nearestStreetDist": 794,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "11",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397119",
@@ -1404,7 +1460,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 755
+      "nearestStreetDist": 755,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "8",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 2
     },
     {
       "id": "way/1550397120",
@@ -1488,7 +1552,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 647
+      "nearestStreetDist": 647,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "18",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397127",
@@ -1538,7 +1610,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Šodići",
-      "nearestStreetDist": 63
+      "nearestStreetDist": 63,
+      "dguAdresa": {
+        "street": "Kostrenskih boraca",
+        "houseNumber": "18",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397131",
@@ -1572,7 +1652,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Ulica Elvira Vrha",
-      "nearestStreetDist": 59
+      "nearestStreetDist": 59,
+      "dguAdresa": {
+        "street": "Žurkovo",
+        "houseNumber": "9",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397134",
@@ -1640,7 +1728,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 699
+      "nearestStreetDist": 699,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "16",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397139",
@@ -1722,7 +1818,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 670
+      "nearestStreetDist": 670,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "12B",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397140",
@@ -1806,7 +1910,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Ulica Elvira Vrha",
-      "nearestStreetDist": 106
+      "nearestStreetDist": 106,
+      "dguAdresa": {
+        "street": "Žurkovo",
+        "houseNumber": "3",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397142",
@@ -1840,7 +1952,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 617
+      "nearestStreetDist": 617,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "20",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397143",
@@ -1890,7 +2010,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 708
+      "nearestStreetDist": 708,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "14",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397144",
@@ -1932,7 +2060,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 717
+      "nearestStreetDist": 717,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "14B",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397145",
@@ -2016,7 +2152,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 617
+      "nearestStreetDist": 617,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "21",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397147",
@@ -2062,7 +2206,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 593
+      "nearestStreetDist": 593,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "2",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397148",
@@ -2188,7 +2340,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 629
+      "nearestStreetDist": 629,
+      "dguAdresa": {
+        "street": "Ulica Ivice Opačka Paje",
+        "houseNumber": "1",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397152",
@@ -2280,7 +2440,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 711
+      "nearestStreetDist": 711,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "12A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397157",
@@ -2318,7 +2486,15 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 689
+      "nearestStreetDist": 689,
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "17A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550397158",
@@ -2428,7 +2604,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 21
+      "nearestStreetDist": 21,
+      "dguAdresa": {
+        "street": "Ulica Vladimira Nazora",
+        "houseNumber": "22",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550406310",
@@ -3261,7 +3445,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 15
+      "nearestStreetDist": 15,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "46",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550409413",
@@ -3295,7 +3487,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 12
+      "nearestStreetDist": 12,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "52",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550409414",
@@ -3567,7 +3767,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 26
+      "nearestStreetDist": 26,
+      "dguAdresa": {
+        "street": "Zavojna ulica",
+        "houseNumber": "8",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550409429",
@@ -4154,7 +4362,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "21",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410494",
@@ -4188,7 +4404,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 49
+      "nearestStreetDist": 49,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "19",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410495",
@@ -4222,7 +4446,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "17",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410496",
@@ -4256,7 +4488,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "15",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410497",
@@ -4290,7 +4530,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "13",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410498",
@@ -4462,7 +4710,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica braće Radić",
-      "nearestStreetDist": 22
+      "nearestStreetDist": 22,
+      "dguAdresa": {
+        "street": "Ulica braće Radić",
+        "houseNumber": "29",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410503",
@@ -4496,7 +4752,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica braće Radić",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "dguAdresa": {
+        "street": "Ulica braće Radić",
+        "houseNumber": "27",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410504",
@@ -4564,7 +4828,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica braće Radić",
-      "nearestStreetDist": 22
+      "nearestStreetDist": 22,
+      "dguAdresa": {
+        "street": "Ulica braće Radić",
+        "houseNumber": "23",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410506",
@@ -4598,7 +4870,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica braće Radić",
-      "nearestStreetDist": 17
+      "nearestStreetDist": 17,
+      "dguAdresa": {
+        "street": "Ulica braće Radić",
+        "houseNumber": "25",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410507",
@@ -4632,7 +4912,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica braće Radić",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "dguAdresa": {
+        "street": "Ulica braće Radić",
+        "houseNumber": "20",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410508",
@@ -4943,7 +5231,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "7",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410517",
@@ -4977,7 +5273,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 13
+      "nearestStreetDist": 13,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "9",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410518",
@@ -5114,7 +5418,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 17
+      "nearestStreetDist": 17,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "1",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410522",
@@ -5148,7 +5460,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 13
+      "nearestStreetDist": 13,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "3",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410523",
@@ -5493,7 +5813,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:47:23Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "56",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550410721",
@@ -5665,7 +5993,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:47:23Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 28
+      "nearestStreetDist": 28,
+      "dguAdresa": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "54/1",
+        "settlement": "Gojanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550416147",
@@ -6318,7 +6654,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "dguAdresa": {
+        "street": "Prigradska ulica",
+        "houseNumber": "8",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420737",
@@ -6352,7 +6696,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 15
+      "nearestStreetDist": 15,
+      "dguAdresa": {
+        "street": "Prigradska ulica",
+        "houseNumber": "1",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420738",
@@ -6454,7 +6806,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 48
+      "nearestStreetDist": 48,
+      "dguAdresa": {
+        "street": "Varaždinska ulica",
+        "houseNumber": "20",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420741",
@@ -6488,7 +6848,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 57
+      "nearestStreetDist": 57,
+      "dguAdresa": {
+        "street": "Varaždinska ulica",
+        "houseNumber": "20A",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420742",
@@ -6556,7 +6924,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 12
+      "nearestStreetDist": 12,
+      "dguAdresa": {
+        "street": "Prigradska ulica",
+        "houseNumber": "4",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420744",
@@ -6590,7 +6966,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "dguAdresa": {
+        "street": "Prigradska ulica",
+        "houseNumber": "5",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420745",
@@ -6624,7 +7008,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 12
+      "nearestStreetDist": 12,
+      "dguAdresa": {
+        "street": "Prigradska ulica",
+        "houseNumber": "6",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420746",
@@ -6658,7 +7050,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "dguAdresa": {
+        "street": "Prigradska ulica",
+        "houseNumber": "10",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420747",
@@ -6692,7 +7092,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 21
+      "nearestStreetDist": 21,
+      "dguAdresa": {
+        "street": "Prigradska ulica",
+        "houseNumber": "14",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420748",
@@ -6760,7 +7168,15 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 42
+      "nearestStreetDist": 42,
+      "dguAdresa": {
+        "street": "Prigradska ulica",
+        "houseNumber": "17",
+        "settlement": "Nedeljanec",
+        "postcode": "42205",
+        "city": "Vidovec"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550420750",

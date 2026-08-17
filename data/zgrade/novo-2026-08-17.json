@@ -2874,7 +2874,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov objekta terrakota/crvene boje koji predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:04.714Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Hum",
+        "houseNumber": "6",
+        "settlement": "Hum",
+        "postcode": "52425",
+        "city": "Roč"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550189398",
@@ -2914,7 +2922,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov građevine s karakterističnom crvenom/okerpnom bojom tipičnom za stambene zgrade.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:04.950Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Hum",
+        "houseNumber": "3/2",
+        "settlement": "Hum",
+        "postcode": "52425",
+        "city": "Roč"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550189399",
@@ -2966,7 +2982,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov crveno-smeđe boje s vidljivom građevinom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:04.426Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Hum",
+        "houseNumber": "8/1",
+        "settlement": "Hum",
+        "postcode": "52425",
+        "city": "Roč"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550213328",
@@ -3007,7 +3031,15 @@
         "obrazlozenje": "U centru snimke je vidljiva kvadratna zgrada sa tamnim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:04.204Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Vidikovac",
+        "houseNumber": "3",
+        "settlement": "Velika Rakovica",
+        "postcode": "10430",
+        "city": "Samobor"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550213329",
@@ -3048,7 +3080,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom, vjerojatno stambena zgrada sa vidljivim crvenim/ružičastim krovnim pokrivačem.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:04.873Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Koletići",
+        "houseNumber": "4",
+        "settlement": "Velika Rakovica",
+        "postcode": "10430",
+        "city": "Samobor"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550213330",
@@ -3089,7 +3129,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom okružena zelenilom i pristupnom cestom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:07.218Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Voćnjaci",
+        "houseNumber": "24",
+        "settlement": "Velika Rakovica",
+        "postcode": "10430",
+        "city": "Samobor"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550213331",
@@ -3170,7 +3218,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna struktura крова/građevine sa jasno definiranim rubovima, светлијом bojom od okolnog terena i vegetacije.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:07.428Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Koletići",
+        "houseNumber": "11",
+        "settlement": "Velika Rakovica",
+        "postcode": "10430",
+        "city": "Samobor"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550213333",
@@ -3558,7 +3614,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim i smeđim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:12.924Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Stjepana Stepanića",
+        "houseNumber": "2",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295180",
@@ -3646,7 +3710,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom i постројenim strukturama oko nje.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:14.542Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Stjepana Stepanića",
+        "houseNumber": "4",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295182",
@@ -3858,7 +3930,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi građevina sa crvenim krovom okružena manjim pomoćnim objektima.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:16.700Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Stjepana Radočaja",
+        "houseNumber": "1",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295191",
@@ -3954,7 +4034,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi pravokutna građevina sa sivim/betonskim krovom i vidljivim dijelovima zgradnog kompleksa.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:17.045Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Stjepana Stepanića",
+        "houseNumber": "6",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295193",
@@ -4010,7 +4098,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim krovom i betonskom konstrukcijom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:19.492Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Stjepana Radočaja",
+        "houseNumber": "5",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295194",
@@ -4114,7 +4210,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom okružena zelenim površinama i drugim strukturama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:19.382Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Stjepana Stepanića",
+        "houseNumber": "8",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295196",
@@ -4230,7 +4334,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s vidljivim krovom crvene boje.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:19.963Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Stjepana Stepanića",
+        "houseNumber": "10",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295198",
@@ -4482,7 +4594,15 @@
         "obrazlozenje": "U centru snimke vidljivi su krovovi nekoliko zgrada sa različitim bojama (crvenkastim i tamnim), što ukazuje na izgrađene objekte.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:22.385Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Lomnička",
+        "houseNumber": "93",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295203",
@@ -4714,7 +4834,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa crvenim/ružičastim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:25.121Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Stjepana Radočaja",
+        "houseNumber": "7",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295208",
@@ -4770,7 +4898,15 @@
         "obrazlozenje": "U centru kadra vidljiva je tamna građevina s krovom, okružena zelenim površinama i drugim objektima.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:27.460Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Ulica Stjepana Radočaja",
+        "houseNumber": "9",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295209",
@@ -4954,7 +5090,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa crvenom/crnom bojom i vidljiva su očita obrisa objekta.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:27.719Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Lomnička",
+        "houseNumber": "91",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295458",
@@ -5086,7 +5230,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:30.040Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Horvatova ulica",
+        "houseNumber": "48",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295461",
@@ -5158,7 +5310,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi više građevina s vidljivim krovovima u različitim bojama (crvena, siva, pink).",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:30.163Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Horvatova ulica",
+        "houseNumber": "46",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295462",
@@ -5266,7 +5426,15 @@
         "obrazlozenje": "Vidljivi su krovovi nekoliko zgrada sa različitim bojama (crvene, sive, zelene nijanse) i jasno definirane građevine.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:30.002Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Horvatova ulica",
+        "houseNumber": "44",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550295464",
@@ -5350,7 +5518,15 @@
         "obrazlozenje": "Na snimci se vide samo poljoprivredne površine sa vegetacijom i putnom infrastrukturom, bez vidljive izgrađene zgrade ili krova.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:32.790Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Nikole Tesle",
+        "houseNumber": "6",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550301005",
@@ -5430,7 +5606,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov zgrade sa karakterističnom strukturom i senkom koja ukazuje na izgrađenu strukturu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:42.320Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Nikole Tesle",
+        "houseNumber": "8",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550301351",
@@ -5482,7 +5666,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov zgrade s jasno vidljivim strukturama i geometrijskim oblicima karakterističnim za izgrađenu građevinu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:32.624Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Nikole Tesle",
+        "houseNumber": "78",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 2
     },
     {
       "id": "way/1550305288",
@@ -5524,7 +5716,15 @@
         "obrazlozenje": "Snimka prikazuje samo praznu, otvorenu površinu bez vidljivih zgrada ili građevina.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:44.083Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Pavleka Miškine",
+        "houseNumber": "102",
+        "settlement": "Ždala",
+        "postcode": "48332",
+        "city": "Ždala"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322581",
@@ -5580,7 +5780,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terakota krovom i jasno vidljivom strukturom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:45.337Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "28",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 2
     },
     {
       "id": "way/1550322582",
@@ -5620,7 +5828,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom, jasno razlikovana od okolnih zelenih površina.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:45.233Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "49",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322583",
@@ -5664,7 +5880,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa tamnim krovom okružena vegetacijom i drugim građevinama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:45.075Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "42",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322584",
@@ -5704,7 +5928,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s krovom svijetle boje, okružena zelenim vegetacijom i poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:45.446Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "44",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322585",
@@ -5744,7 +5976,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina sa jasno vidljivim krovom crvene/roze boje.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:47.468Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "15",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322586",
@@ -5784,7 +6024,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi bijeli krov zgrade okružen crvenim krovovima susjednih građevina i vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:47.927Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "30",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322587",
@@ -5848,7 +6096,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/terrakota krovna površina sa jasnim obrisima koja pripada izgrađenoj zgradi.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:47.769Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "53C",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322588",
@@ -5888,7 +6144,15 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada sa crvenim/ružičastim krovom okružena zelenim vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:47.680Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "4",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322589",
@@ -5936,7 +6200,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva beža/svijetla zgrada s krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:47.611Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "2",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322590",
@@ -6036,7 +6308,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura s jasno vidljivim krovom i građevinom, prikazana iz zrakoplovne perspektive.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:50.230Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "54H",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 2
     },
     {
       "id": "way/1550322591",
@@ -6092,7 +6372,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:50.231Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Glavani",
+        "houseNumber": "83A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322592",
@@ -6140,7 +6428,15 @@
         "obrazlozenje": "U centru kadra vidljiv je rdeći/narandžasti krov građevine okružen zelenilom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:50.644Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "52A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322593",
@@ -6180,7 +6476,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/rozim krovom i jasno definiranim kontorама.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:49.930Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "18",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322594",
@@ -6244,7 +6548,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/roze krovna konstrukcija koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:50.174Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "29",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322595",
@@ -6324,7 +6636,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna struktura zgrade sa krovom, vidljive su njene konture i obris.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:52.980Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "36",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322597",
@@ -6428,7 +6748,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:53.888Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "17",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322599",
@@ -6476,7 +6804,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa crvenom/ružičastom bojom, kao i dio okolnih zgrada sa različitim bojama krovova.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:52.930Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "25",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322600",
@@ -6548,7 +6884,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom i plavim bazenom na njoj.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:55.872Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "54C",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322601",
@@ -6600,7 +6944,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta građevina sa krovom, okružena zelenim površinama i parcelama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:56.096Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "24",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322602",
@@ -6640,7 +6992,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenijom/ružičastom bojom krova i jasno definiranim obrisa građevine.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:56.333Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "10",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322603",
@@ -6692,7 +7052,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom, jasno razlikovana od okoline.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:56.127Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "8",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322604",
@@ -6732,7 +7100,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva crvena/ružičasta krovna površina građevine",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:56.239Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "22",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 2
     },
     {
       "id": "way/1550322605",
@@ -6824,7 +7200,15 @@
         "obrazlozenje": "U centru snimke vidljiva je reddkasta/crvena građevina sa krovom, okružena zelenilom i šumom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:58.911Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "53A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322608",
@@ -6876,7 +7260,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/ružičastim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:58.864Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "23",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322609",
@@ -6928,7 +7320,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov crvene/ružičaste boje sa vidljivom strukturom građevine.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:58.553Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "47",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322610",
@@ -6968,7 +7368,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/crenim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:39:58.513Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "38",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322611",
@@ -7112,7 +7520,15 @@
         "obrazlozenje": "Jasno se vidi zgrada s krovom u centru snimke, okružena zelenom vegetacijom i parkiralištem.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:01.522Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "54G",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322614",
@@ -7168,7 +7584,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim krovom i jasno definiranim rubovima.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:01.597Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "3",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322615",
@@ -7208,7 +7632,15 @@
         "obrazlozenje": "U centru kadra vidljiva je bela/svetla građevina sa krovom, okružena poljima i vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:01.286Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "23A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322616",
@@ -7264,7 +7696,15 @@
         "obrazlozenje": "U centru kadra vidljiv je svijetli krov zgrade/građevine окруженог zelenim površinama i drugim strukturama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:03.884Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Glavani",
+        "houseNumber": "82",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322619",
@@ -7384,7 +7824,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa crvenim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:04.047Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "42A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322622",
@@ -7456,7 +7904,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina sa krovom, bijele i crvene boje, sa vidljikom okolnih građevina i putanja.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:04.082Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "53/2",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322623",
@@ -7520,7 +7976,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/narančastim krovom i tamnim dijelovima koje karakteriziraju izgrađenu strukturu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:07.329Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "54D",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322624",
@@ -7616,7 +8080,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina s vidljivim krovom, okružena parkiralištem i pristupnim putovima.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:06.770Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Glavani",
+        "houseNumber": "82E",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322626",
@@ -7656,7 +8128,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom i tamnim sjenkama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:06.262Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "35",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322627",
@@ -7696,7 +8176,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade sa strukturom tipičnom za stambenu ili poslovnu izgradnju.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:06.438Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "54",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322628",
@@ -7748,7 +8236,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom i jasno definiranim konturama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:09.629Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "50",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322629",
@@ -7796,7 +8292,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:09.641Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "51",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322630",
@@ -7928,7 +8432,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenim/roza krovom i pravokutnim oblikom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:09.335Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "29A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322633",
@@ -7968,7 +8480,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov crvene/ružičaste boje koji je jasno vidljiv i predstavlja izgrađenu građevinu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:11.870Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "24",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322634",
@@ -8032,7 +8552,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenkastvim/ružičastim krovom okružena okolnim strukturama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:12.185Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "33",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322636",
@@ -8072,7 +8600,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim crvenim/ružičastim krovom i drugih građevina oko nje.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:12.223Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "41",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322637",
@@ -8120,7 +8656,15 @@
         "obrazlozenje": "U centru kadra je vidljiva betonska ili asfaltna površina koja predstavlja krov/platformu izgrađene građevine, okružena vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:11.916Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "54I",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322638",
@@ -8192,7 +8736,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna površina sa jasno vidljivim kontourama zgrade.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:11.906Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Glavani",
+        "houseNumber": "82A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322639",
@@ -8232,7 +8784,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/ružičastim krovom",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:14.442Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "23",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322640",
@@ -8328,7 +8888,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa crvenim krovom okružena parkiralištima i zelenim površinama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:14.602Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "53B",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322642",
@@ -8384,7 +8952,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/roza krovna konstrukcija koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:14.279Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "9",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322643",
@@ -8424,7 +9000,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:14.311Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "16",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322644",
@@ -8472,7 +9056,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna površina koja jasno označava prisutnost izgrađene građevine.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:17.343Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "30A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322645",
@@ -8544,7 +9136,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:17.019Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "3A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322646",
@@ -8636,7 +9236,15 @@
         "obrazlozenje": "Jasno je vidljiva velika siva/betonska zgrada sa krovom u centru snimke, okružena vegetacijom i infrastrukturom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:16.940Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "4B",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322648",
@@ -8772,7 +9380,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine sa crvenim/smeđim pločicama, jasno označen na ortofoto snimci.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:19.560Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "54E",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322651",
@@ -8848,7 +9464,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta građevina (krov) sa zelenim površinama oko nje.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:19.779Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "26",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322652",
@@ -8888,7 +9512,15 @@
         "obrazlozenje": "U centru kadra vidljiva je reddasto-smeđa struktura krova okružena zelenom vegetacijom, koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:19.510Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "19",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322653",
@@ -8936,7 +9568,15 @@
         "obrazlozenje": "U centru kadra vidljiva je betonska ili asfaltna površina sa strukturom koja liči na krov industrijske ili poljoprivredne zgrade.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:25.607Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Rožići",
+        "houseNumber": "5A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322654",
@@ -8976,7 +9616,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva crvena/ružičasta krovna površina s nekoliko dijelova, što predstavlja izgrađenu građevinu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:28.148Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "12",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322655",
@@ -9040,7 +9688,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s crvenkastvim/ružičastim krovom i značajnim ogradom oko parcele.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:28.990Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "4A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322656",
@@ -9096,7 +9752,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom crvene/ružičaste boje.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:28.379Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "48",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322657",
@@ -9160,7 +9824,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/narančasti krov zgrade sa vidljivim strukturama i dijelovima građevine.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:28.354Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "54F",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322658",
@@ -9264,7 +9936,15 @@
         "obrazlozenje": "Jasno je vidljiva crvena/narančasta zgrada sa krovom u centru kadra, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:31.878Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "10A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322660",
@@ -9304,7 +9984,15 @@
         "obrazlozenje": "U centru kadra vidljivi su crveni/rozi krovovi zgrada i građevina sa jakim senama što ukazuje na izgrađenu strukturu.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:31.594Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "46",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322661",
@@ -9344,7 +10032,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/ružičastim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:31.229Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "40",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322663",
@@ -9384,7 +10080,15 @@
         "obrazlozenje": "U centru kadra vidljiv je reddkasti krov zgrade okružen zelenim površinama i dijelom susjednih objekata.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:31.099Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "51A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322664",
@@ -9464,7 +10168,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/ružičastim krovom i vidljivim kontourama građevine.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:34.998Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "34",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322666",
@@ -9552,7 +10264,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, vidljivi su dijelovi građevine sa jasno vidljivim strukturama i različitim bojama krovnog pokrivača.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:34.366Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "6",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322668",
@@ -9592,7 +10312,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi reddasta/ružičasta krovna konstrukcija glavne zgrade sa manjim pratećim zgradama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:34.127Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "53D",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322670",
@@ -9676,7 +10404,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim crvenim/roze krovom i betonskom strukturom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:37.293Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "39A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322672",
@@ -9736,7 +10472,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta građevina sa vidljivim krovom, okružena parcelama i zelenim površinama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:37.644Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "11",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 6
     },
     {
       "id": "way/1550322673",
@@ -9920,7 +10664,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi bijela krovna struktura građevine okružena zelenilom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:38.234Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "53/1",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322676",
@@ -9960,7 +10712,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade sa pripadajućim strukturama oko nje.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:41.115Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "45",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322677",
@@ -10000,7 +10760,15 @@
         "obrazlozenje": "U centru snimke vidljiva je jasno izgrađena zgrada sa krovomlight sive boje, okružena cestom i vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:41.323Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "8",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322678",
@@ -10056,7 +10824,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenim/terakota krovom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:40.381Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "3B",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322679",
@@ -10180,7 +10956,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim krovom i oko nje su vidljive druge građevine i zelene površine.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:44.057Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "16A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322682",
@@ -10220,7 +11004,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/tirkizni krov izgrađene zgrade sa vidljivim rubovima i strukturom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:43.668Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "17",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322683",
@@ -10260,7 +11052,15 @@
         "obrazlozenje": "U centru kadra vidljiva je betonska/asfaltna površina s crvenijom građevinom (krov) u donjem dijelu i zelenim površinama oko nje.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:43.615Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Glavani",
+        "houseNumber": "81A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322684",
@@ -10312,7 +11112,15 @@
         "obrazlozenje": "U centru kadra vidljiv je reddkasti krov građevine okružen zelenilom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:43.402Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "52",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322685",
@@ -10448,7 +11256,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa crvenom/ružičastom bojom i prilaznim putanjama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:46.253Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "20",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322688",
@@ -10568,7 +11384,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/rozičastim krovom i okolnim strukturama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:46.028Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "16",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322691",
@@ -10608,7 +11432,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/narančasti krov zgrade s vidljivom strukturom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:48.560Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "13",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322692",
@@ -10656,7 +11488,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva građevina s pravokutnim krovom i tamnosivom bojom, okružena terenom i vegetacijom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:48.419Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Glavani",
+        "houseNumber": "81C",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322693",
@@ -10696,7 +11536,15 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada s jasno vidljivim krovom u bež/smeđoj boji, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:48.583Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "1",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322694",
@@ -10776,7 +11624,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov građevine svetle boje sa pravokutnim oblikom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:48.550Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "54A",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322696",
@@ -10816,7 +11672,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa sivim/betonskim krovom okružena crvenim krovovima okolnih zgrada.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:50.668Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "20",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322697",
@@ -10856,7 +11720,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/terrakota krovom i prizemnom strukturom.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:50.872Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "39",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322698",
@@ -10904,7 +11776,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom i jasno definiranim obrisima.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:50.696Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Sveta Lucija",
+        "houseNumber": "4",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550322699",
@@ -10952,7 +11832,15 @@
         "obrazlozenje": "U centru kadra vidljiva je betonska ili asfaltna površina sa nekoliko zgrada sa crvenim i sivim krovovima te zelenim površinama između njih.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:51.393Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "31",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 2
     },
     {
       "id": "way/1550322700",
@@ -11040,7 +11928,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terrakota krovom i jasno definiranim obrisima.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:53.790Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Žuknica",
+        "houseNumber": "37",
+        "settlement": "Kostrena",
+        "postcode": "51221",
+        "city": "Kostrena"
+      },
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550337002",
@@ -11116,7 +12012,15 @@
         "obrazlozenje": "U centru snimke vidljiva je jasna pravokutna struktura s krovom u smeđoj/crvenkastoj boji koja se razlikuje od okolnog terena.",
         "izvor": "DGU ortofoto 2022",
         "provjereno": "2026-08-17T20:40:53.716Z"
-      }
+      },
+      "dguAdresa": {
+        "street": "Veli Iž",
+        "houseNumber": "1F",
+        "settlement": "Veli Iž",
+        "postcode": "23284",
+        "city": "Veli Iž"
+      },
+      "dguBrojJedinica": 1
     }
   ]
 }
