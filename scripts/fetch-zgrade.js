@@ -330,8 +330,13 @@ async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   console.log(`  Računam najbližu cestu za preostale zgrade bez adrese...`);
   await dodajNajblizuCestu(features);
 
-  const dateLabel = toISO.slice(0, 10);
-  const fileName = `novo-${dateLabel}.json`;
+  const dateLabel = toISO.slice(0, 10); // samo za "date" prikazno polje u manifestu
+  // Naziv DATOTEKE koristi puno vrijeme (ne samo datum) da se izbjegne sudar
+  // kad dva komada u istom danu (npr. ručno pokretanje pipelinea više puta
+  // dnevno) dobiju isto ime i drugi tiho prepiše prvi - to se stvarno
+  // dogodilo 13.8. i izgubili smo 146 zapisa prije ovog popravka.
+  const fileTimeLabel = toISO.replace(/[-:]/g, "").replace("T", "T").slice(0, 15); // npr. 20260813T120814
+  const fileName = `novo-${fileTimeLabel}.json`;
   const filePath = path.join(ZGRADE_DIR, fileName);
 
   fs.mkdirSync(ZGRADE_DIR, { recursive: true });
