@@ -12,7 +12,8 @@
     "backfill:najbliza-cesta": "node scripts/backfill-nearest-street.js",
     "backfill:datumi": "node scripts/backfill-datumi.js",
     "backfill:oznake": "node scripts/backfill-oznake.js",
-    "satelit:verifikacija": "node scripts/satelit-verifikacija.js"
+    "satelit:verifikacija": "node scripts/satelit-verifikacija.js",
+    "backfill:obris": "node scripts/backfill-obris.js"
   },
   "dependencies": {
     "@turf/boolean-point-in-polygon": "^7.4.0",

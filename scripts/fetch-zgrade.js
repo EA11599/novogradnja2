@@ -139,18 +139,31 @@ async function fetchNoveZgrade(fromISO, toISO) {
 
   console.log(`  Prolaz 2/2: dohvaćam geometriju za ${wayIds.length} way + ${relationIds.length} relation elemenata...`);
 
-  const geomDijelovi = [];
-  if (wayIds.length > 0) geomDijelovi.push(`way(id:${wayIds.join(",")});`);
-  if (relationIds.length > 0) geomDijelovi.push(`relation(id:${relationIds.join(",")});`);
-
-  const geomQuery = `
-    [out:json][timeout:180];
-    (
-      ${geomDijelovi.join("\n      ")}
-    );
-    out geom center;
-  `;
-  const geomElementi = await posaljiUpit(geomQuery, { ocekujMeta: false });
+  // VAŽNO (otkriveno 17.8.): "out geom center;" zajedno na istom izlazu je
+  // dosljedno vraćao SAMO center, nikad geometry - čak i za way-ove kojima
+  // je geometry trebao biti trivijalan (out geom radi pouzdano samostalno,
+  // dokazano cijelu sesiju). Rješenje: razdvojiti izlaz po tipu - way-ovi
+  // dobivaju "out geom;" (samostalno), relacije "out center;" (samostalno),
+  // nikad kombinirano u istoj out naredbi.
+  let geomElementi = [];
+  if (wayIds.length > 0) {
+    const wayQuery = `
+      [out:json][timeout:180];
+      way(id:${wayIds.join(",")});
+      out geom;
+    `;
+    const wayElementi = await posaljiUpit(wayQuery, { ocekujMeta: false });
+    geomElementi = geomElementi.concat(wayElementi);
+  }
+  if (relationIds.length > 0) {
+    const relationQuery = `
+      [out:json][timeout:180];
+      relation(id:${relationIds.join(",")});
+      out center;
+    `;
+    const relationElementi = await posaljiUpit(relationQuery, { ocekujMeta: false });
+    geomElementi = geomElementi.concat(relationElementi);
+  }
   console.log(`  Geom prolaz vratio ${geomElementi.length} elemenata.`);
   if (geomElementi.length > 0) {
     console.log(`  Primjer prvog geom elementa: ${JSON.stringify(geomElementi[0]).slice(0, 400)}`);
