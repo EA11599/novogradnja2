@@ -1,0 +1,2641 @@
+{
+  "from": "2026-08-17T13:56:56Z",
+  "to": "2026-08-17T21:16:02Z",
+  "count": 199,
+  "features": [
+    {
+      "id": "way/1550364959",
+      "lat": 46.037218,
+      "lon": 16.152403,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Krapinsko-zagorska županija",
+      "validFrom": "2026-08-17T15:04:46Z"
+    },
+    {
+      "id": "way/1550388455",
+      "lat": 46.291451,
+      "lon": 16.304026,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Varaždinska ulica",
+      "nearestStreetDist": 50
+    },
+    {
+      "id": "way/1550388456",
+      "lat": 46.291432,
+      "lon": 16.304251,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Varaždinska ulica",
+      "nearestStreetDist": 59
+    },
+    {
+      "id": "way/1550388457",
+      "lat": 46.291487,
+      "lon": 16.304445,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Varaždinska ulica",
+      "nearestStreetDist": 64
+    },
+    {
+      "id": "way/1550388458",
+      "lat": 46.291542,
+      "lon": 16.30499,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Gorčica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293527"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z"
+    },
+    {
+      "id": "way/1550388459",
+      "lat": 46.291386,
+      "lon": 16.304974,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Gorčica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293529"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z"
+    },
+    {
+      "id": "way/1550388460",
+      "lat": 46.29156,
+      "lon": 16.305222,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 82
+    },
+    {
+      "id": "way/1550388461",
+      "lat": 46.291465,
+      "lon": 16.305354,
+      "obris": null,
+      "tags": {
+        "building": "greenhouse"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 96
+    },
+    {
+      "id": "way/1550388462",
+      "lat": 46.291458,
+      "lon": 16.305494,
+      "obris": null,
+      "tags": {
+        "building": "greenhouse"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Varaždinska ulica",
+      "nearestStreetDist": 102
+    },
+    {
+      "id": "way/1550388463",
+      "lat": 46.291088,
+      "lon": 16.30549,
+      "obris": null,
+      "tags": {
+        "building": "greenhouse"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 138
+    },
+    {
+      "id": "way/1550388464",
+      "lat": 46.291097,
+      "lon": 16.305328,
+      "obris": null,
+      "tags": {
+        "building": "greenhouse"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Varaždinska ulica",
+      "nearestStreetDist": 131
+    },
+    {
+      "id": "way/1550388465",
+      "lat": 46.291327,
+      "lon": 16.305224,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 105
+    },
+    {
+      "id": "way/1550388466",
+      "lat": 46.291214,
+      "lon": 16.305038,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Varaždinska ulica",
+      "nearestStreetDist": 109
+    },
+    {
+      "id": "way/1550388467",
+      "lat": 46.290559,
+      "lon": 16.304969,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Gorčica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2126705450"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z"
+    },
+    {
+      "id": "way/1550388468",
+      "lat": 46.290586,
+      "lon": 16.30518,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:35:01Z",
+      "nearestStreet": "Varaždinska ulica",
+      "nearestStreetDist": 177
+    },
+    {
+      "id": "way/1550389043",
+      "lat": 46.285293,
+      "lon": 16.29968,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 16
+    },
+    {
+      "id": "way/1550389044",
+      "lat": 46.284681,
+      "lon": 16.301115,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 37
+    },
+    {
+      "id": "way/1550389045",
+      "lat": 46.284515,
+      "lon": 16.300664,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z",
+      "nearestStreet": "Ulica Tina Ujevića",
+      "nearestStreetDist": 40
+    },
+    {
+      "id": "way/1550389046",
+      "lat": 46.284702,
+      "lon": 16.300732,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z",
+      "nearestStreet": "Ulica Tina Ujevića",
+      "nearestStreetDist": 52
+    },
+    {
+      "id": "way/1550389047",
+      "lat": 46.284838,
+      "lon": 16.300256,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 39
+    },
+    {
+      "id": "way/1550389048",
+      "lat": 46.285025,
+      "lon": 16.299567,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 43
+    },
+    {
+      "id": "way/1550389049",
+      "lat": 46.28492,
+      "lon": 16.299605,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z",
+      "nearestStreet": "Ulica Tina Ujevića",
+      "nearestStreetDist": 49
+    },
+    {
+      "id": "way/1550389050",
+      "lat": 46.285062,
+      "lon": 16.299436,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 46
+    },
+    {
+      "id": "way/1550389051",
+      "lat": 46.285172,
+      "lon": 16.298862,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Ulica Tina Ujevića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293949"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z"
+    },
+    {
+      "id": "way/1550389052",
+      "lat": 46.284965,
+      "lon": 16.298633,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Ulica Tina Ujevića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293950"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z"
+    },
+    {
+      "id": "way/1550389053",
+      "lat": 46.284426,
+      "lon": 16.299591,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Ulica Tina Ujevića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2161051839"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z"
+    },
+    {
+      "id": "way/1550389054",
+      "lat": 46.284468,
+      "lon": 16.29922,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "23",
+        "addr:street": "Ulica Tina Ujevića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2166503133"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T17:38:02Z"
+    },
+    {
+      "id": "way/1550397107",
+      "lat": 45.30711,
+      "lon": 14.489183,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Ulica Elvira Vrha",
+      "nearestStreetDist": 85
+    },
+    {
+      "id": "way/1550397108",
+      "lat": 45.299835,
+      "lon": 14.493421,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 713
+    },
+    {
+      "id": "way/1550397109",
+      "lat": 45.30856,
+      "lon": 14.485834,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 129
+    },
+    {
+      "id": "way/1550397110",
+      "lat": 45.299109,
+      "lon": 14.495248,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 653
+    },
+    {
+      "id": "way/1550397113",
+      "lat": 45.301384,
+      "lon": 14.490319,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Suzanićev put",
+      "nearestStreetDist": 684
+    },
+    {
+      "id": "way/1550397114",
+      "lat": 45.30046,
+      "lon": 14.492838,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 713
+    },
+    {
+      "id": "way/1550397115",
+      "lat": 45.298988,
+      "lon": 14.494665,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 696
+    },
+    {
+      "id": "way/1550397116",
+      "lat": 45.298113,
+      "lon": 14.495687,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 712
+    },
+    {
+      "id": "way/1550397117",
+      "lat": 45.298234,
+      "lon": 14.493946,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 794
+    },
+    {
+      "id": "way/1550397119",
+      "lat": 45.300483,
+      "lon": 14.492024,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Suzanićev put",
+      "nearestStreetDist": 755
+    },
+    {
+      "id": "way/1550397120",
+      "lat": 45.307054,
+      "lon": 14.490114,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Ulica Elvira Vrha",
+      "nearestStreetDist": 81
+    },
+    {
+      "id": "way/1550397122",
+      "lat": 45.299036,
+      "lon": 14.495467,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 647
+    },
+    {
+      "id": "way/1550397127",
+      "lat": 45.307428,
+      "lon": 14.490783,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Šodići",
+      "nearestStreetDist": 63
+    },
+    {
+      "id": "way/1550397131",
+      "lat": 45.308295,
+      "lon": 14.488038,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Ulica Elvira Vrha",
+      "nearestStreetDist": 59
+    },
+    {
+      "id": "way/1550397134",
+      "lat": 45.309189,
+      "lon": 14.486676,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 62
+    },
+    {
+      "id": "way/1550397138",
+      "lat": 45.299233,
+      "lon": 14.494323,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 699
+    },
+    {
+      "id": "way/1550397139",
+      "lat": 45.301182,
+      "lon": 14.492595,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 670
+    },
+    {
+      "id": "way/1550397140",
+      "lat": 45.305311,
+      "lon": 14.487336,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Ulica Elvira Vrha",
+      "nearestStreetDist": 332
+    },
+    {
+      "id": "way/1550397141",
+      "lat": 45.307091,
+      "lon": 14.488797,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Ulica Elvira Vrha",
+      "nearestStreetDist": 106
+    },
+    {
+      "id": "way/1550397142",
+      "lat": 45.299334,
+      "lon": 14.495592,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 617
+    },
+    {
+      "id": "way/1550397143",
+      "lat": 45.299534,
+      "lon": 14.493844,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 708
+    },
+    {
+      "id": "way/1550397144",
+      "lat": 45.299971,
+      "lon": 14.493211,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 717
+    },
+    {
+      "id": "way/1550397145",
+      "lat": 45.307468,
+      "lon": 14.48545,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 252
+    },
+    {
+      "id": "way/1550397146",
+      "lat": 45.299172,
+      "lon": 14.495818,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 617
+    },
+    {
+      "id": "way/1550397147",
+      "lat": 45.302082,
+      "lon": 14.491074,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Suzanićev put",
+      "nearestStreetDist": 593
+    },
+    {
+      "id": "way/1550397148",
+      "lat": 45.298432,
+      "lon": 14.49331,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 817
+    },
+    {
+      "id": "way/1550397149",
+      "lat": 45.307071,
+      "lon": 14.489674,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Ulica Elvira Vrha",
+      "nearestStreetDist": 77
+    },
+    {
+      "id": "way/1550397150",
+      "lat": 45.301021,
+      "lon": 14.493419,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 629
+    },
+    {
+      "id": "way/1550397152",
+      "lat": 45.304747,
+      "lon": 14.487831,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Ulica Elvira Vrha",
+      "nearestStreetDist": 367
+    },
+    {
+      "id": "way/1550397154",
+      "lat": 45.300629,
+      "lon": 14.492626,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 711
+    },
+    {
+      "id": "way/1550397157",
+      "lat": 45.298911,
+      "lon": 14.494896,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 689
+    },
+    {
+      "id": "way/1550397158",
+      "lat": 45.294426,
+      "lon": 14.499966,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Ul Žarka Pezelja",
+      "nearestStreetDist": 616
+    },
+    {
+      "id": "way/1550397159",
+      "lat": 45.308469,
+      "lon": 14.485616,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-08-17T18:25:08Z",
+      "nearestStreet": "Jadranska magistrala",
+      "nearestStreetDist": 140
+    },
+    {
+      "id": "way/1550406309",
+      "lat": 46.285343,
+      "lon": 16.300536,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 21
+    },
+    {
+      "id": "way/1550406310",
+      "lat": 46.285652,
+      "lon": 16.300585,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 56
+    },
+    {
+      "id": "way/1550406311",
+      "lat": 46.285617,
+      "lon": 16.300853,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 59
+    },
+    {
+      "id": "way/1550406312",
+      "lat": 46.285608,
+      "lon": 16.301109,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 69
+    },
+    {
+      "id": "way/1550406313",
+      "lat": 46.285446,
+      "lon": 16.300865,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 45
+    },
+    {
+      "id": "way/1550406314",
+      "lat": 46.285511,
+      "lon": 16.301112,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 64
+    },
+    {
+      "id": "way/1550406315",
+      "lat": 46.285332,
+      "lon": 16.301196,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 45
+    },
+    {
+      "id": "way/1550406316",
+      "lat": 46.285271,
+      "lon": 16.301839,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 45
+    },
+    {
+      "id": "way/1550406317",
+      "lat": 46.285377,
+      "lon": 16.302206,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 61
+    },
+    {
+      "id": "way/1550406318",
+      "lat": 46.285388,
+      "lon": 16.302621,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 62
+    },
+    {
+      "id": "way/1550406319",
+      "lat": 46.285114,
+      "lon": 16.302591,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 33
+    },
+    {
+      "id": "way/1550406320",
+      "lat": 46.285353,
+      "lon": 16.302965,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "4A",
+        "addr:street": "Ulica Vladimira Nazora",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2161012785"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:21:41Z"
+    },
+    {
+      "id": "way/1550409396",
+      "lat": 46.283916,
+      "lon": 16.304596,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 30
+    },
+    {
+      "id": "way/1550409397",
+      "lat": 46.283813,
+      "lon": 16.304867,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 54
+    },
+    {
+      "id": "way/1550409398",
+      "lat": 46.283788,
+      "lon": 16.30454,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 30
+    },
+    {
+      "id": "way/1550409401",
+      "lat": 46.283911,
+      "lon": 16.304992,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 58
+    },
+    {
+      "id": "way/1550409402",
+      "lat": 46.283728,
+      "lon": 16.304993,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 66
+    },
+    {
+      "id": "way/1550409403",
+      "lat": 46.283664,
+      "lon": 16.304572,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 35
+    },
+    {
+      "id": "way/1550409406",
+      "lat": 46.285218,
+      "lon": 16.303056,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 49
+    },
+    {
+      "id": "way/1550409407",
+      "lat": 46.285051,
+      "lon": 16.303033,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 31
+    },
+    {
+      "id": "way/1550409408",
+      "lat": 46.28524,
+      "lon": 16.303416,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 38
+    },
+    {
+      "id": "way/1550409409",
+      "lat": 46.285128,
+      "lon": 16.303928,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 36
+    },
+    {
+      "id": "way/1550409410",
+      "lat": 46.285176,
+      "lon": 16.304101,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 30
+    },
+    {
+      "id": "way/1550409411",
+      "lat": 46.28508,
+      "lon": 16.304161,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 37
+    },
+    {
+      "id": "way/1550409412",
+      "lat": 46.285314,
+      "lon": 16.304118,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 15
+    },
+    {
+      "id": "way/1550409413",
+      "lat": 46.285158,
+      "lon": 16.304874,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 12
+    },
+    {
+      "id": "way/1550409414",
+      "lat": 46.285042,
+      "lon": 16.304603,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 30
+    },
+    {
+      "id": "way/1550409415",
+      "lat": 46.284836,
+      "lon": 16.304531,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 13
+    },
+    {
+      "id": "way/1550409416",
+      "lat": 46.284047,
+      "lon": 16.303534,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Plitvička ulica",
+      "nearestStreetDist": 25
+    },
+    {
+      "id": "way/1550409419",
+      "lat": 46.284332,
+      "lon": 16.304873,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 35
+    },
+    {
+      "id": "way/1550409422",
+      "lat": 46.284173,
+      "lon": 16.303783,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 39
+    },
+    {
+      "id": "way/1550409423",
+      "lat": 46.28385,
+      "lon": 16.303644,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Plitvička ulica",
+      "nearestStreetDist": 11
+    },
+    {
+      "id": "way/1550409424",
+      "lat": 46.28396,
+      "lon": 16.303802,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Plitvička ulica",
+      "nearestStreetDist": 18
+    },
+    {
+      "id": "way/1550409428",
+      "lat": 46.284306,
+      "lon": 16.304141,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 26
+    },
+    {
+      "id": "way/1550409429",
+      "lat": 46.284637,
+      "lon": 16.304146,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 18
+    },
+    {
+      "id": "way/1550409430",
+      "lat": 46.284632,
+      "lon": 16.303887,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 23
+    },
+    {
+      "id": "way/1550409431",
+      "lat": 46.284324,
+      "lon": 16.303561,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Plitvička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293943"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z"
+    },
+    {
+      "id": "way/1550409432",
+      "lat": 46.283971,
+      "lon": 16.30327,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Plitvička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293945"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z"
+    },
+    {
+      "id": "way/1550409433",
+      "lat": 46.284413,
+      "lon": 16.30217,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Tina Ujevića",
+      "nearestStreetDist": 35
+    },
+    {
+      "id": "way/1550409434",
+      "lat": 46.283972,
+      "lon": 16.30135,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Tina Ujevića",
+      "nearestStreetDist": 37
+    },
+    {
+      "id": "way/1550409435",
+      "lat": 46.283947,
+      "lon": 16.301479,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z",
+      "nearestStreet": "Ulica Tina Ujevića",
+      "nearestStreetDist": 33
+    },
+    {
+      "id": "way/1550409436",
+      "lat": 46.284113,
+      "lon": 16.301428,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Ulica Tina Ujevića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2039421225"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z"
+    },
+    {
+      "id": "way/1550409437",
+      "lat": 46.283972,
+      "lon": 16.302423,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Plitvička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293942"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z"
+    },
+    {
+      "id": "way/1550409438",
+      "lat": 46.28383,
+      "lon": 16.302329,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Plitvička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293944"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z"
+    },
+    {
+      "id": "way/1550409439",
+      "lat": 46.283697,
+      "lon": 16.303012,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:street": "Plitvička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293946"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z"
+    },
+    {
+      "id": "way/1550409440",
+      "lat": 46.28336,
+      "lon": 16.302216,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:street": "Plitvička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293947"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z"
+    },
+    {
+      "id": "way/1550409441",
+      "lat": 46.283224,
+      "lon": 16.302167,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "Plitvička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293948"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z"
+    },
+    {
+      "id": "way/1550409442",
+      "lat": 46.281523,
+      "lon": 16.303876,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "Plitvička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17013911"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:38:18Z"
+    },
+    {
+      "id": "way/1550410491",
+      "lat": 46.287978,
+      "lon": 16.301031,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica braće Radić",
+      "nearestStreetDist": 17
+    },
+    {
+      "id": "way/1550410492",
+      "lat": 46.286549,
+      "lon": 16.301447,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 37
+    },
+    {
+      "id": "way/1550410493",
+      "lat": 46.286389,
+      "lon": 16.301565,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 20
+    },
+    {
+      "id": "way/1550410494",
+      "lat": 46.286661,
+      "lon": 16.301454,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 49
+    },
+    {
+      "id": "way/1550410495",
+      "lat": 46.286392,
+      "lon": 16.301069,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 19
+    },
+    {
+      "id": "way/1550410496",
+      "lat": 46.2864,
+      "lon": 16.300857,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 19
+    },
+    {
+      "id": "way/1550410497",
+      "lat": 46.286366,
+      "lon": 16.300496,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 16
+    },
+    {
+      "id": "way/1550410498",
+      "lat": 46.286798,
+      "lon": 16.300944,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 63
+    },
+    {
+      "id": "way/1550410499",
+      "lat": 46.287067,
+      "lon": 16.300621,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 29
+    },
+    {
+      "id": "way/1550410500",
+      "lat": 46.287193,
+      "lon": 16.300655,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293980"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410501",
+      "lat": 46.287211,
+      "lon": 16.300997,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "1A",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2180429855"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410502",
+      "lat": 46.287388,
+      "lon": 16.301687,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica braće Radić",
+      "nearestStreetDist": 22
+    },
+    {
+      "id": "way/1550410503",
+      "lat": 46.287543,
+      "lon": 16.301616,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica braće Radić",
+      "nearestStreetDist": 30
+    },
+    {
+      "id": "way/1550410504",
+      "lat": 46.287949,
+      "lon": 16.30148,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica braće Radić",
+      "nearestStreetDist": 31
+    },
+    {
+      "id": "way/1550410505",
+      "lat": 46.28795,
+      "lon": 16.301316,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica braće Radić",
+      "nearestStreetDist": 22
+    },
+    {
+      "id": "way/1550410506",
+      "lat": 46.287813,
+      "lon": 16.301344,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica braće Radić",
+      "nearestStreetDist": 17
+    },
+    {
+      "id": "way/1550410507",
+      "lat": 46.287615,
+      "lon": 16.301012,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica braće Radić",
+      "nearestStreetDist": 11
+    },
+    {
+      "id": "way/1550410508",
+      "lat": 46.287514,
+      "lon": 16.300634,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2103634434"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410509",
+      "lat": 46.287483,
+      "lon": 16.300467,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17009556"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410510",
+      "lat": 46.287697,
+      "lon": 16.300508,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 43
+    },
+    {
+      "id": "way/1550410511",
+      "lat": 46.287636,
+      "lon": 16.300154,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 36
+    },
+    {
+      "id": "way/1550410512",
+      "lat": 46.287453,
+      "lon": 16.300077,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293981"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410513",
+      "lat": 46.28713,
+      "lon": 16.30018,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1448913"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410514",
+      "lat": 46.287176,
+      "lon": 16.299931,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17013915"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410515",
+      "lat": 46.286806,
+      "lon": 16.299819,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 60
+    },
+    {
+      "id": "way/1550410516",
+      "lat": 46.286392,
+      "lon": 16.299585,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 19
+    },
+    {
+      "id": "way/1550410517",
+      "lat": 46.286332,
+      "lon": 16.299754,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 13
+    },
+    {
+      "id": "way/1550410518",
+      "lat": 46.287188,
+      "lon": 16.299272,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2134977914"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410519",
+      "lat": 46.286771,
+      "lon": 16.299238,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 40
+    },
+    {
+      "id": "way/1550410520",
+      "lat": 46.28665,
+      "lon": 16.298962,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 34
+    },
+    {
+      "id": "way/1550410521",
+      "lat": 46.286434,
+      "lon": 16.298877,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 17
+    },
+    {
+      "id": "way/1550410522",
+      "lat": 46.286413,
+      "lon": 16.299108,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 13
+    },
+    {
+      "id": "way/1550410523",
+      "lat": 46.287174,
+      "lon": 16.298481,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "22",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1448587"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410524",
+      "lat": 46.28696,
+      "lon": 16.298511,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "24",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17013914"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410525",
+      "lat": 46.286992,
+      "lon": 16.298333,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 34
+    },
+    {
+      "id": "way/1550410526",
+      "lat": 46.286849,
+      "lon": 16.298351,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 33
+    },
+    {
+      "id": "way/1550410527",
+      "lat": 46.28683,
+      "lon": 16.298505,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293982"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410528",
+      "lat": 46.28648,
+      "lon": 16.298421,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293983"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410529",
+      "lat": 46.286343,
+      "lon": 16.298102,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z",
+      "nearestStreet": "Vrtna ulica",
+      "nearestStreetDist": 45
+    },
+    {
+      "id": "way/1550410530",
+      "lat": 46.286315,
+      "lon": 16.298441,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "32",
+        "addr:street": "Vrtna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293984"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:45:34Z"
+    },
+    {
+      "id": "way/1550410719",
+      "lat": 46.284894,
+      "lon": 16.306445,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:47:23Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 19
+    },
+    {
+      "id": "way/1550410720",
+      "lat": 46.284876,
+      "lon": 16.305396,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:47:23Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 11
+    },
+    {
+      "id": "way/1550410721",
+      "lat": 46.28489,
+      "lon": 16.305542,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:47:23Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 11
+    },
+    {
+      "id": "way/1550410722",
+      "lat": 46.284837,
+      "lon": 16.30601,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Zavojna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293985"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:47:23Z"
+    },
+    {
+      "id": "way/1550410723",
+      "lat": 46.284879,
+      "lon": 16.305254,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Zavojna ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293986"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:47:23Z"
+    },
+    {
+      "id": "way/1550410724",
+      "lat": 46.284987,
+      "lon": 16.304771,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:47:23Z",
+      "nearestStreet": "Zavojna ulica",
+      "nearestStreetDist": 30
+    },
+    {
+      "id": "way/1550410725",
+      "lat": 46.284966,
+      "lon": 16.304996,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T19:47:23Z",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 28
+    },
+    {
+      "id": "way/1550416147",
+      "lat": 46.148366,
+      "lon": 16.052609,
+      "obris": null,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "religion": "christian"
+      },
+      "zupanija": "Krapinsko-zagorska županija",
+      "validFrom": "2026-08-17T20:19:48Z"
+    },
+    {
+      "id": "way/1550418146",
+      "lat": 46.145554,
+      "lon": 16.067246,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Krapinsko-zagorska županija",
+      "validFrom": "2026-08-17T20:29:40Z",
+      "nearestStreet": "Ulica Josipa Vedrine",
+      "nearestStreetDist": 5
+    },
+    {
+      "id": "way/1550420147",
+      "lat": 46.51412,
+      "lon": 16.429955,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z",
+      "nearestStreet": "Ulica Antuna Mihanovića",
+      "nearestStreetDist": 36
+    },
+    {
+      "id": "way/1550420148",
+      "lat": 46.514251,
+      "lon": 16.429887,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z",
+      "nearestStreet": "Ulica Antuna Mihanovića",
+      "nearestStreetDist": 21
+    },
+    {
+      "id": "way/1550420149",
+      "lat": 46.514547,
+      "lon": 16.428995,
+      "obris": null,
+      "tags": {
+        "building": "allotment_house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z",
+      "nearestStreet": "Martinska ulica",
+      "nearestStreetDist": 20
+    },
+    {
+      "id": "way/1550420150",
+      "lat": 46.515443,
+      "lon": 16.42888,
+      "obris": null,
+      "tags": {
+        "addr:city": "Mursko Središće",
+        "addr:housenumber": "80",
+        "addr:postcode": "40315",
+        "addr:street": "Martinska ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z"
+    },
+    {
+      "id": "way/1550420151",
+      "lat": 46.51536,
+      "lon": 16.428989,
+      "obris": null,
+      "tags": {
+        "building": "garage"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z",
+      "nearestStreet": "Martinska ulica",
+      "nearestStreetDist": 62
+    },
+    {
+      "id": "way/1550420152",
+      "lat": 46.514861,
+      "lon": 16.429843,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z",
+      "nearestStreet": "Martinska ulica",
+      "nearestStreetDist": 30
+    },
+    {
+      "id": "way/1550420153",
+      "lat": 46.514814,
+      "lon": 16.430398,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z",
+      "nearestStreet": "Martinska ulica",
+      "nearestStreetDist": 47
+    },
+    {
+      "id": "way/1550420154",
+      "lat": 46.514449,
+      "lon": 16.430667,
+      "obris": null,
+      "tags": {
+        "addr:city": "Mursko Središće",
+        "addr:housenumber": "60",
+        "addr:postcode": "40315",
+        "addr:street": "Martinska ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z"
+    },
+    {
+      "id": "way/1550420155",
+      "lat": 46.514384,
+      "lon": 16.431837,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z",
+      "nearestStreet": "Martinska ulica",
+      "nearestStreetDist": 40
+    },
+    {
+      "id": "way/1550420156",
+      "lat": 46.514369,
+      "lon": 16.431888,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z",
+      "nearestStreet": "Martinska ulica",
+      "nearestStreetDist": 40
+    },
+    {
+      "id": "way/1550420157",
+      "lat": 46.514636,
+      "lon": 16.433874,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-08-17T20:44:00Z",
+      "nearestStreet": "Martinska ulica",
+      "nearestStreetDist": 9
+    },
+    {
+      "id": "way/1550420614",
+      "lat": 46.106172,
+      "lon": 16.064643,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Krapinsko-zagorska županija",
+      "validFrom": "2026-08-17T20:48:21Z",
+      "nearestStreet": "Ulica Ksavera Šandora Gjalskog",
+      "nearestStreetDist": 3
+    },
+    {
+      "id": "way/1550420735",
+      "lat": 46.292089,
+      "lon": 16.305396,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293522"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420736",
+      "lat": 46.292524,
+      "lon": 16.301969,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 27
+    },
+    {
+      "id": "way/1550420737",
+      "lat": 46.292191,
+      "lon": 16.304221,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 15
+    },
+    {
+      "id": "way/1550420738",
+      "lat": 46.292096,
+      "lon": 16.303348,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 30
+    },
+    {
+      "id": "way/1550420739",
+      "lat": 46.292071,
+      "lon": 16.303169,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 31
+    },
+    {
+      "id": "way/1550420740",
+      "lat": 46.291963,
+      "lon": 16.302521,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Varaždinska ulica",
+      "nearestStreetDist": 48
+    },
+    {
+      "id": "way/1550420741",
+      "lat": 46.291905,
+      "lon": 16.302246,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Varaždinska ulica",
+      "nearestStreetDist": 57
+    },
+    {
+      "id": "way/1550420742",
+      "lat": 46.2922,
+      "lon": 16.301188,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 82
+    },
+    {
+      "id": "way/1550420743",
+      "lat": 46.292341,
+      "lon": 16.302716,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 12
+    },
+    {
+      "id": "way/1550420744",
+      "lat": 46.292416,
+      "lon": 16.302471,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 16
+    },
+    {
+      "id": "way/1550420745",
+      "lat": 46.292501,
+      "lon": 16.302251,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 12
+    },
+    {
+      "id": "way/1550420746",
+      "lat": 46.292704,
+      "lon": 16.301561,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 19
+    },
+    {
+      "id": "way/1550420747",
+      "lat": 46.292973,
+      "lon": 16.301041,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 21
+    },
+    {
+      "id": "way/1550420748",
+      "lat": 46.293808,
+      "lon": 16.299691,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 37
+    },
+    {
+      "id": "way/1550420749",
+      "lat": 46.293383,
+      "lon": 16.299984,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 42
+    },
+    {
+      "id": "way/1550420750",
+      "lat": 46.293151,
+      "lon": 16.300445,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Prigradska ulica",
+      "nearestStreetDist": 30
+    },
+    {
+      "id": "way/1550420751",
+      "lat": 46.294065,
+      "lon": 16.300552,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "48",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2177853310"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420752",
+      "lat": 46.293761,
+      "lon": 16.301724,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "40A",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293536"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420753",
+      "lat": 46.293815,
+      "lon": 16.300953,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "44",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1449062"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420754",
+      "lat": 46.29365,
+      "lon": 16.300961,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "42",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293537"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420755",
+      "lat": 46.29354,
+      "lon": 16.301138,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "40",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293535"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420756",
+      "lat": 46.293372,
+      "lon": 16.301282,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "38",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293534"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420757",
+      "lat": 46.293411,
+      "lon": 16.301592,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Ulica Ljudevita Gaja",
+      "nearestStreetDist": 36
+    },
+    {
+      "id": "way/1550420758",
+      "lat": 46.293231,
+      "lon": 16.302455,
+      "obris": null,
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z",
+      "nearestStreet": "Ulica Ljudevita Gaja",
+      "nearestStreetDist": 48
+    },
+    {
+      "id": "way/1550420759",
+      "lat": 46.293082,
+      "lon": 16.302239,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293532"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420760",
+      "lat": 46.292995,
+      "lon": 16.302425,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "28",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2154921950"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420761",
+      "lat": 46.2929,
+      "lon": 16.302663,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293531"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420762",
+      "lat": 46.292731,
+      "lon": 16.303106,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17012528"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420763",
+      "lat": 46.292703,
+      "lon": 16.303738,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "16",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293530"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    },
+    {
+      "id": "way/1550420764",
+      "lat": 46.292647,
+      "lon": 16.305211,
+      "obris": null,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Ulica Ljudevita Gaja",
+        "building": "yes",
+        "ref:HR:kucni_broj": "293523"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-17T20:48:36Z"
+    }
+  ]
+}
