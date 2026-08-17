@@ -100,13 +100,6 @@ async function fetchNoveZgrade(fromISO, toISO) {
   // komad je prije dohvaćao cijeli preostali rep unatrag) I nedostajuće
   // datume — riješeno oboje odjednom.
   //
-  // "newer:" ima samo donju granicu (nema "do" datuma) — zato RUČNO
-  // filtriramo elemente po njihovom stvarnom timestamp polju da ostanu
-  // samo oni unutar [fromISO, toISO), umjesto da se oslanjamo na servera
-  // da to napravi. Ovo rješava i dupliciranje između tjednih komada (svaki
-  // komad je prije dohvaćao cijeli preostali rep unatrag) I nedostajuće
-  // datume — riješeno oboje odjednom.
-  //
   // NAPOMENA (jako bitno, opsežno testirano): I area["ISO3166-1"="HR"]->.hr
   // filter I if:version() klauzula ZASEBNO brišu meta podatke (timestamp,
   // version, ...) na ovom Overpass serveru — potvrđeno izravnim testovima,
@@ -159,42 +152,59 @@ async function fetchNoveZgrade(fromISO, toISO) {
 }
 
 async function posaljiUpit(query) {
-  const res = await fetch(OVERPASS_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      "User-Agent": cfg.USER_AGENT,
-    },
-    body: new URLSearchParams({ data: query }),
-  });
+  // NAPOMENA (bitno, otkriveno 17.8.): javni Overpass server je load-
+  // balansiran preko više backend node-ova, i BAREM JEDAN od njih briše
+  // meta podatke (timestamp, version) čak i s ispravnim upitom (bbox, bez
+  // if:version()) — nasumično, isti upit ista skripta zna raditi ili ne
+  // raditi ovisno koji node servisira zahtjev. Zato provjeravamo ima li
+  // odgovor stvarno meta podatke, i ako nema, pokušavamo drugi mirror.
+  const MIRRORS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
 
-  const text = await res.text();
-  if (!res.ok) {
-    throw new Error(
-      `Overpass ${res.status} ${res.statusText}\nOdgovor: ${text.slice(0, 1500)}`
-    );
+  for (const mirrorUrl of MIRRORS) {
+    const res = await fetch(mirrorUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": cfg.USER_AGENT,
+      },
+      body: new URLSearchParams({ data: query }),
+    });
+
+    const text = await res.text();
+    if (!res.ok) {
+      throw new Error(
+        `Overpass (${mirrorUrl}) ${res.status} ${res.statusText}\nOdgovor: ${text.slice(0, 1500)}`
+      );
+    }
+
+    let parsed;
+    try {
+      parsed = JSON.parse(text);
+    } catch {
+      throw new Error(`Overpass je vratio ne-JSON odgovor (vjerojatno greška/rate-limit):\n${text.slice(0, 1500)}`);
+    }
+
+    if (parsed.remark) {
+      console.log(`  Overpass remark: ${parsed.remark}`);
+    }
+
+    const elements = parsed.elements || [];
+    const saTimestampom = elements.filter((el) => el.timestamp).length;
+    console.log(`  ${mirrorUrl}: vratio ${elements.length} elemenata, ${saTimestampom} sa timestampom.`);
+
+    if (elements.length === 0 || saTimestampom > 0) {
+      // Prazan odgovor je legitiman (stvarno nema promjena), ili imamo
+      // meta podatke - u oba slučaja ovo je iskoristiv odgovor.
+      if (elements.length > 0) {
+        console.log(`  Primjer prvog elementa (radi provjere): ${JSON.stringify(elements[0]).slice(0, 300)}`);
+      }
+      return elements;
+    }
+
+    console.log(`  UPOZORENJE: ${mirrorUrl} je vratio elemente BEZ meta podataka (poznat problem loše rutiranog node-a) - pokušavam sljedeći mirror...`);
   }
 
-  let parsed;
-  try {
-    parsed = JSON.parse(text);
-  } catch {
-    throw new Error(`Overpass je vratio ne-JSON odgovor (vjerojatno greška/rate-limit):\n${text.slice(0, 1500)}`);
-  }
-
-  if (parsed.remark) {
-    console.log(`  Overpass remark: ${parsed.remark}`);
-  }
-
-  const elements = parsed.elements || [];
-  console.log(`  Overpass vratio ${elements.length} elemenata (filtriranje version===1 i vremenskog prozora slijedi na klijentu).`);
-  if (elements.length > 0) {
-    console.log(`  Primjer prvog elementa (radi provjere): ${JSON.stringify(elements[0]).slice(0, 300)}`);
-  }
-
-  // version===1 i vremenski prozor filtriramo iznad (u fetchNoveZgrade),
-  // ne ovdje - ova funkcija samo šalje upit i vraća sirov odgovor.
-  return elements;
+  throw new Error("Nijedan Overpass mirror nije vratio elemente s meta podacima (svi bez timestampa).");
 }
 
 function toSlimFeature(el, zupanije) {
