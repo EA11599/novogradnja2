@@ -310,7 +310,18 @@ const MAX_DANA_PO_UPITU = 3; // veći periodi se dijele na komade ove veličine 
 async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   console.log(`Dohvaćam: ${fromISO} -> ${toISO}`);
   const elements = await fetchNoveZgrade(fromISO, toISO);
-  const features = elements.map((el) => toSlimFeature(el, zupanije));
+  const sveFeatures = elements.map((el) => toSlimFeature(el, zupanije));
+
+  // VAŽNO: bbox (koristimo ga umjesto area filtera zbog meta-problema)
+  // NIJE precizan oblik Hrvatske - hvata i djeliće susjednih zemalja
+  // (Slovenija, Bosna, Srbija, Crna Gora, Mađarska). Zgrade koje
+  // pronadjiZupaniju() nije uspio smjestiti ni u jednu od 21 županije su
+  // (gotovo sigurno) izvan Hrvatske - odbacujemo ih ovdje, prije spremanja.
+  const features = sveFeatures.filter((f) => f.zupanija);
+  const odbaceno = sveFeatures.length - features.length;
+  if (odbaceno > 0) {
+    console.log(`  Odbačeno ${odbaceno} zgrada bez pridružene županije (izvan Hrvatske, bbox rub).`);
+  }
 
   console.log(`  Tražim DGU adrese unutar obrisa zgrada bez addr:street...`);
   const dguNadjeno = dodajDguAdrese(features);
