@@ -12,7 +12,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:52:32Z"
+      "validFrom": "2026-08-16T15:52:32Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela/svjetla zgrada s krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:41.285Z"
+      }
     },
     {
       "id": "way/1550170315",
@@ -23,7 +29,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:52:32Z"
+      "validFrom": "2026-08-16T15:52:32Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa vidljivim krovom svetle boje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:41.525Z"
+      }
     },
     {
       "id": "way/1550170316",
@@ -34,7 +46,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:52:32Z"
+      "validFrom": "2026-08-16T15:52:32Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je reddkasta/ružičasta struktura krova u centru snimke, jasno razlikovana od zelene vegetacije oko nje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:41.722Z"
+      }
     },
     {
       "id": "way/1550170317",
@@ -45,7 +63,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:52:32Z"
+      "validFrom": "2026-08-16T15:52:32Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke je jasno vidljiva reddasta/smeđa krovna struktura građevine okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:41.464Z"
+      }
     },
     {
       "id": "way/1550170318",
@@ -70,7 +94,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana građevina sa crvenim/kestenjastim krovom okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:41.859Z"
+      }
     },
     {
       "id": "way/1550170927",
@@ -81,7 +111,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada sa krovom tamnije boje, okružena travnatim površinama i drugim strukturama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:44.163Z"
+      }
     },
     {
       "id": "way/1550170928",
@@ -302,7 +338,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:55:35Z"
+      "validFrom": "2026-08-16T15:55:35Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s krovom (smeđe-crvene boje) okružena zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:44.211Z"
+      }
     },
     {
       "id": "way/1550171227",
@@ -411,7 +453,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva bijela/svijetla građevina s krovom u centru snimke, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:43.927Z"
+      }
     },
     {
       "id": "way/1550171688",
@@ -436,7 +484,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide krovovi više zgrada sa karakterističnim crvenim/ružičastim i sivim pokrovom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:51.257Z"
+      }
     },
     {
       "id": "way/1550171690",
@@ -447,7 +501,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krovota crvene/smeđe boje sa характеристичном strukturom, što indicira izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:44.384Z"
+      }
     },
     {
       "id": "way/1550171691",
@@ -486,7 +546,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, okružena parcelama i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:53.571Z"
+      }
     },
     {
       "id": "way/1550171694",
@@ -497,7 +563,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom, vjerojatno kuća ili manjom gospodarskom zgradom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:54.045Z"
+      }
     },
     {
       "id": "way/1550171695",
@@ -508,7 +580,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom, vidljive su jasne linije objekta i njegova sjena na terenu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:53.971Z"
+      }
     },
     {
       "id": "way/1550171696",
@@ -533,7 +611,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je jasno izgrađen objekt sa krovom, vjerovatno stambena zgrada, okružen zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:53.816Z"
+      }
     },
     {
       "id": "way/1550171739",
@@ -558,7 +642,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa svetlim krovom okružena zelenicama i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:54.719Z"
+      }
     },
     {
       "id": "way/1550171741",
@@ -569,7 +659,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi zgraда sa jasnim konturama, bijele i sive boje, što ukazuje na izgrađene strukture.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:57.615Z"
+      }
     },
     {
       "id": "way/1550171742",
@@ -594,7 +690,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa sivom/smeđom bojom, okružen zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:57.035Z"
+      }
     },
     {
       "id": "way/1550171775",
@@ -661,7 +763,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom boje terakote/crvenkaste boje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:56.721Z"
+      }
     },
     {
       "id": "way/1550172110",
@@ -700,7 +808,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov crvene/smeđe boje koji pripada izgrađenoj zgradi.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:56.989Z"
+      }
     },
     {
       "id": "way/1550172113",
@@ -795,7 +909,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi najmanje tri građevine sa vidljivim krovovima, uključujući dvije građevine sa crvenim/terakota krovovima i jednu sa svjetlijim krovom u centru kadra.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:57.138Z"
+      }
     },
     {
       "id": "way/1550172120",
@@ -820,7 +940,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:05Z"
+      "validFrom": "2026-08-16T16:06:05Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je siva/betonska građevina sa krovom, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:02.305Z"
+      }
     },
     {
       "id": "way/1550172856",
@@ -887,7 +1013,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa sivim/betonskim krovom okružena vegetacijom i parkiralištem.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:00.111Z"
+      }
     },
     {
       "id": "way/1550173028",
@@ -912,7 +1044,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine smeđe-crvene boje sa jasno vidljivim oblicima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:59.996Z"
+      }
     },
     {
       "id": "way/1550173030",
@@ -951,7 +1089,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je beli/svetao krov industrijske ili poljoprivredne građevine sa jasno definisanim konturama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:00.673Z"
+      }
     },
     {
       "id": "way/1550173033",
@@ -976,7 +1120,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:07:15Z"
+      "validFrom": "2026-08-16T16:07:15Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa crvenim/smeđim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:38:59.688Z"
+      }
     },
     {
       "id": "way/1550173060",
@@ -1031,7 +1181,13 @@
       "zupanija": "Istarska županija",
       "validFrom": "2026-08-16T17:44:16Z",
       "nearestStreet": "Pješačka staza",
-      "nearestStreetDist": 650
+      "nearestStreetDist": 650,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov objekta terrakota/crvene boje koji predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:04.714Z"
+      }
     },
     {
       "id": "way/1550189398",
@@ -1044,7 +1200,13 @@
       "zupanija": "Istarska županija",
       "validFrom": "2026-08-16T17:44:16Z",
       "nearestStreet": "Pješačka staza",
-      "nearestStreetDist": 646
+      "nearestStreetDist": 646,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine s karakterističnom crvenom/okerpnom bojom tipičnom za stambene zgrade.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:04.950Z"
+      }
     },
     {
       "id": "way/1550189399",
@@ -1061,7 +1223,13 @@
       "zupanija": "Istarska županija",
       "validFrom": "2026-08-16T17:44:16Z",
       "nearestStreet": "Pješačka staza",
-      "nearestStreetDist": 613
+      "nearestStreetDist": 613,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov crveno-smeđe boje s vidljivom građevinom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:04.426Z"
+      }
     },
     {
       "id": "way/1550213328",
@@ -1075,7 +1243,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-16T20:05:04Z",
       "nearestStreet": "Koletići",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke je vidljiva kvadratna zgrada sa tamnim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:04.204Z"
+      }
     },
     {
       "id": "way/1550213329",
@@ -1089,7 +1263,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-16T20:05:04Z",
       "nearestStreet": "Koletići",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom, vjerojatno stambena zgrada sa vidljivim crvenim/ružičastim krovnim pokrivačem.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:04.873Z"
+      }
     },
     {
       "id": "way/1550213330",
@@ -1103,7 +1283,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-16T20:05:04Z",
       "nearestStreet": "Koletići",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom okružena zelenilom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:07.218Z"
+      }
     },
     {
       "id": "way/1550213331",
@@ -1116,7 +1302,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-16T20:05:04Z",
       "nearestStreet": "Koletići",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom (svijetla pravokutna forma) okružena vodom i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:07.828Z"
+      }
     },
     {
       "id": "way/1550213332",
@@ -1130,7 +1322,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-16T20:05:04Z",
       "nearestStreet": "Koletići",
-      "nearestStreetDist": 9
+      "nearestStreetDist": 9,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna struktura крова/građevine sa jasno definiranim rubovima, светлијом bojom od okolnog terena i vegetacije.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:07.428Z"
+      }
     },
     {
       "id": "way/1550213333",
@@ -1144,7 +1342,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-16T20:05:04Z",
       "nearestStreet": "Koletići",
-      "nearestStreetDist": 8
+      "nearestStreetDist": 8,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna crvenkasta/ružičasta krovna struktura okružena sa zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:07.311Z"
+      }
     },
     {
       "id": "way/1550216494",
@@ -1157,7 +1361,13 @@
       "zupanija": "Krapinsko-zagorska županija",
       "validFrom": "2026-08-16T20:22:43Z",
       "nearestStreet": "Petrova Gora",
-      "nearestStreetDist": 725
+      "nearestStreetDist": 725,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je siva građevina (zgrada) s krovom, jasno razvidljiva na satelitskoj snimci.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:07.281Z"
+      }
     },
     {
       "id": "way/1550218123",
@@ -1171,7 +1381,13 @@
         "religion": "christian"
       },
       "zupanija": "Krapinsko-zagorska županija",
-      "validFrom": "2026-08-16T20:34:48Z"
+      "validFrom": "2026-08-16T20:34:48Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su dijelovi krovova住 građevina sa različitim bojama (crvena, plava) i pravilnim geometrijskim oblicima karakterističnim za izgrađene strukture.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:10.417Z"
+      }
     },
     {
       "id": "way/1550227276",
@@ -1183,7 +1399,13 @@
         "building:levels": "1"
       },
       "zupanija": "Zadarska županija",
-      "validFrom": "2026-08-16T21:33:52Z"
+      "validFrom": "2026-08-16T21:33:52Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska površina (verovatno krov ili asfaltna površina) svetle boje okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:10.191Z"
+      }
     },
     {
       "id": "way/1550227281",
@@ -1195,7 +1417,13 @@
         "building:levels": "1"
       },
       "zupanija": "Zadarska županija",
-      "validFrom": "2026-08-16T21:33:52Z"
+      "validFrom": "2026-08-16T21:33:52Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno je vidljiva bijela građevina s krovom, okružena asfaltnom površinom i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:10.220Z"
+      }
     },
     {
       "id": "way/1550248132",
@@ -1208,7 +1436,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-08-17T00:27:34Z",
       "nearestStreet": "Šetnica Kanal Svetog Ante",
-      "nearestStreetDist": 112
+      "nearestStreetDist": 112,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je krov industrijske ili poslovne zgrade sa karakterističnom strukturom i светлосним otvorima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:10.004Z"
+      }
     },
     {
       "id": "way/1550290126",
@@ -1221,7 +1455,13 @@
         "fee": "no"
       },
       "zupanija": "Primorsko-goranska županija",
-      "validFrom": "2026-08-17T07:49:15Z"
+      "validFrom": "2026-08-17T07:49:15Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim/ružičastim krovom L-oblika sa vidljivim periferijom objekta.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:10.498Z"
+      }
     },
     {
       "id": "way/1550295178",
@@ -1234,7 +1474,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 28
+      "nearestStreetDist": 28,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/terrakota krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:12.567Z"
+      }
     },
     {
       "id": "way/1550295179",
@@ -1247,7 +1493,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim i smeđim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:12.924Z"
+      }
     },
     {
       "id": "way/1550295180",
@@ -1260,7 +1512,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna zgrada sa krovom, okružena manjim strukturama i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:12.731Z"
+      }
     },
     {
       "id": "way/1550295181",
@@ -1273,7 +1531,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 25
+      "nearestStreetDist": 25,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom i постројenim strukturama oko nje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:14.542Z"
+      }
     },
     {
       "id": "way/1550295182",
@@ -1286,7 +1550,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 44
+      "nearestStreetDist": 44,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov građevine sa okolnim objektima i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:12.551Z"
+      }
     },
     {
       "id": "way/1550295183",
@@ -1299,7 +1569,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 39
+      "nearestStreetDist": 39,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva crvena/ružičasta krovna konstrukcija koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:16.960Z"
+      }
     },
     {
       "id": "way/1550295184",
@@ -1312,7 +1588,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim krovom okružena ostalim građevinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:16.809Z"
+      }
     },
     {
       "id": "way/1550295185",
@@ -1325,7 +1607,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 26
+      "nearestStreetDist": 26,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina sa crvenim krovom okružena manjim pomoćnim objektima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:16.700Z"
+      }
     },
     {
       "id": "way/1550295191",
@@ -1338,7 +1626,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa karakterističnom tamnom bojom i jasno definiranim rubovima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:16.621Z"
+      }
     },
     {
       "id": "way/1550295192",
@@ -1351,7 +1645,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 14
+      "nearestStreetDist": 14,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi pravokutna građevina sa sivim/betonskim krovom i vidljivim dijelovima zgradnog kompleksa.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:17.045Z"
+      }
     },
     {
       "id": "way/1550295193",
@@ -1364,7 +1664,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim krovom i betonskom konstrukcijom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:19.492Z"
+      }
     },
     {
       "id": "way/1550295194",
@@ -1377,7 +1683,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa karakterističnim krovom i jasno definiranim obrисима građevine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:19.413Z"
+      }
     },
     {
       "id": "way/1550295195",
@@ -1390,7 +1702,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 23
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom okružena zelenim površinama i drugim strukturama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:19.382Z"
+      }
     },
     {
       "id": "way/1550295196",
@@ -1403,7 +1721,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:19.345Z"
+      }
     },
     {
       "id": "way/1550295197",
@@ -1416,7 +1740,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 23
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s vidljivim krovom crvene boje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:19.963Z"
+      }
     },
     {
       "id": "way/1550295198",
@@ -1429,7 +1759,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 21
+      "nearestStreetDist": 21,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov crvene/ružičaste boje koji pripada izgrađenoj zgradi.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:22.492Z"
+      }
     },
     {
       "id": "way/1550295199",
@@ -1442,7 +1778,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov crvene/ružičaste boje sa видљивом građevinom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:22.939Z"
+      }
     },
     {
       "id": "way/1550295200",
@@ -1455,7 +1797,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno razlikovane građevine sa krovovima u različitim bojama (crvena, plava, smeđa), što ukazuje na izgrađene zgrade.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:22.364Z"
+      }
     },
     {
       "id": "way/1550295201",
@@ -1468,7 +1816,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina sa crvenim/terakota krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:22.317Z"
+      }
     },
     {
       "id": "way/1550295202",
@@ -1481,7 +1835,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Lomnička ulica",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljivi su krovovi nekoliko zgrada sa različitim bojama (crvenkastim i tamnim), što ukazuje na izgrađene objekte.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:22.385Z"
+      }
     },
     {
       "id": "way/1550295203",
@@ -1494,7 +1854,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 15
+      "nearestStreetDist": 15,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov crvene/smeđe boje s karakterističnom strukturom građevine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:25.164Z"
+      }
     },
     {
       "id": "way/1550295204",
@@ -1507,7 +1873,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa crvenim/橙 krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:24.987Z"
+      }
     },
     {
       "id": "way/1550295205",
@@ -1520,7 +1892,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine/zgrade crvene/narančaste boje sa strukturom koja ukazuje na izgrađenu konstrukciju.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:25.297Z"
+      }
     },
     {
       "id": "way/1550295206",
@@ -1533,7 +1911,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/terracotta krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:25.391Z"
+      }
     },
     {
       "id": "way/1550295207",
@@ -1546,7 +1930,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 22
+      "nearestStreetDist": 22,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa crvenim/ružičastim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:25.121Z"
+      }
     },
     {
       "id": "way/1550295208",
@@ -1559,7 +1949,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna građevina s krovom, okružena zelenim površinama i drugim objektima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:27.460Z"
+      }
     },
     {
       "id": "way/1550295209",
@@ -1572,7 +1968,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 10
+      "nearestStreetDist": 10,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terakotastim krovom i dijelovima građevine sa sjenovitim konturama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:27.550Z"
+      }
     },
     {
       "id": "way/1550295210",
@@ -1585,7 +1987,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom, okružena sa zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:27.628Z"
+      }
     },
     {
       "id": "way/1550295211",
@@ -1598,7 +2006,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 14
+      "nearestStreetDist": 14,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa crvenom/crnom bojom i vidljiva su očita obrisa objekta.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:27.719Z"
+      }
     },
     {
       "id": "way/1550295458",
@@ -1611,7 +2025,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 23
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa crvenkastavim krovom i темnom bojom, jasno razlikuje se od vegetacije i ostalih elemenata na snimci.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:27.578Z"
+      }
     },
     {
       "id": "way/1550295459",
@@ -1624,7 +2044,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Horvatova ulica",
-      "nearestStreetDist": 28
+      "nearestStreetDist": 28,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom, najvjerojatnije stambena zgrada sa видљивим krovnim pokrivačem.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:29.969Z"
+      }
     },
     {
       "id": "way/1550295460",
@@ -1637,7 +2063,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Horvatova ulica",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:30.040Z"
+      }
     },
     {
       "id": "way/1550295461",
@@ -1650,7 +2082,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Horvatova ulica",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi više građevina s vidljivim krovovima u različitim bojama (crvena, siva, pink).",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:30.163Z"
+      }
     },
     {
       "id": "way/1550295462",
@@ -1663,7 +2101,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Horvatova ulica",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi nekoliko zgrada sa različito obojenim krovovima (crveni, plavi, sivi tonovi) i zelene površine između njih.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:30.266Z"
+      }
     },
     {
       "id": "way/1550295463",
@@ -1676,7 +2120,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Horvatova ulica",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljivi su krovovi nekoliko zgrada sa različitim bojama (crvene, sive, zelene nijanse) i jasno definirane građevine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:30.002Z"
+      }
     },
     {
       "id": "way/1550295464",
@@ -1689,7 +2139,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Horvatova ulica",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa više boja (crvena, siva, crna), što ukazuje na izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:32.416Z"
+      }
     },
     {
       "id": "way/1550301004",
@@ -1702,7 +2158,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T09:03:18Z",
       "nearestStreet": "Ulica Nikole Tesle",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Na snimci se vide samo poljoprivredne površine sa vegetacijom i putnom infrastrukturom, bez vidljive izgrađene zgrade ili krova.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:32.790Z"
+      }
     },
     {
       "id": "way/1550301005",
@@ -1715,7 +2177,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T09:03:18Z",
       "nearestStreet": "Ulica Nikole Tesle",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom, svjetlije boje, koja contrasta sa okolnim poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:32.627Z"
+      }
     },
     {
       "id": "way/1550301006",
@@ -1728,7 +2196,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T09:03:18Z",
       "nearestStreet": "Ulica Nikole Tesle",
-      "nearestStreetDist": 25
+      "nearestStreetDist": 25,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov zgrade sa karakterističnom strukturom i senkom koja ukazuje na izgrađenu strukturu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:42.320Z"
+      }
     },
     {
       "id": "way/1550301351",
@@ -1741,7 +2215,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T09:05:59Z",
       "nearestStreet": "Ulica Slavka Kolara",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov zgrade s jasno vidljivim strukturama i geometrijskim oblicima karakterističnim za izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:32.624Z"
+      }
     },
     {
       "id": "way/1550305288",
@@ -1756,7 +2236,13 @@
       "zupanija": "Koprivničko-križevačka županija",
       "validFrom": "2026-08-17T09:27:29Z",
       "nearestStreet": "Pavleka Miškine",
-      "nearestStreetDist": 76
+      "nearestStreetDist": 76,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje samo praznu, otvorenu površinu bez vidljivih zgrada ili građevina.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:44.083Z"
+      }
     },
     {
       "id": "way/1550322581",
@@ -1769,7 +2255,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 211
+      "nearestStreetDist": 211,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terakota krovom i jasno vidljivom strukturom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:45.337Z"
+      }
     },
     {
       "id": "way/1550322582",
@@ -1782,7 +2274,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 257
+      "nearestStreetDist": 257,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom, jasno razlikovana od okolnih zelenih površina.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:45.233Z"
+      }
     },
     {
       "id": "way/1550322583",
@@ -1795,7 +2293,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 223
+      "nearestStreetDist": 223,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa tamnim krovom okružena vegetacijom i drugim građevinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:45.075Z"
+      }
     },
     {
       "id": "way/1550322584",
@@ -1808,7 +2312,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 224
+      "nearestStreetDist": 224,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s krovom svijetle boje, okružena zelenim vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:45.446Z"
+      }
     },
     {
       "id": "way/1550322585",
@@ -1821,7 +2331,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa jasno vidljivim krovom crvene/roze boje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:47.468Z"
+      }
     },
     {
       "id": "way/1550322586",
@@ -1834,7 +2350,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 230
+      "nearestStreetDist": 230,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijeli krov zgrade okružen crvenim krovovima susjednih građevina i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:47.927Z"
+      }
     },
     {
       "id": "way/1550322587",
@@ -1847,7 +2369,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 238
+      "nearestStreetDist": 238,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/terrakota krovna površina sa jasnim obrisima koja pripada izgrađenoj zgradi.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:47.769Z"
+      }
     },
     {
       "id": "way/1550322588",
@@ -1860,7 +2388,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 114
+      "nearestStreetDist": 114,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada sa crvenim/ružičastim krovom okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:47.680Z"
+      }
     },
     {
       "id": "way/1550322589",
@@ -1873,7 +2407,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 15
+      "nearestStreetDist": 15,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva beža/svijetla zgrada s krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:47.611Z"
+      }
     },
     {
       "id": "way/1550322590",
@@ -1886,7 +2426,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 365
+      "nearestStreetDist": 365,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura s jasno vidljivim krovom i građevinom, prikazana iz zrakoplovne perspektive.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:50.230Z"
+      }
     },
     {
       "id": "way/1550322591",
@@ -1899,7 +2445,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 62
+      "nearestStreetDist": 62,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:50.231Z"
+      }
     },
     {
       "id": "way/1550322592",
@@ -1912,7 +2464,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 291
+      "nearestStreetDist": 291,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je rdeći/narandžasti krov građevine okružen zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:50.644Z"
+      }
     },
     {
       "id": "way/1550322593",
@@ -1925,7 +2483,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/rozim krovom i jasno definiranim kontorама.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:49.930Z"
+      }
     },
     {
       "id": "way/1550322594",
@@ -1938,7 +2502,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 257
+      "nearestStreetDist": 257,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/roze krovna konstrukcija koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:50.174Z"
+      }
     },
     {
       "id": "way/1550322595",
@@ -1951,7 +2521,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 14
+      "nearestStreetDist": 14,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:53.001Z"
+      }
     },
     {
       "id": "way/1550322596",
@@ -1964,7 +2540,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 237
+      "nearestStreetDist": 237,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna struktura zgrade sa krovom, vidljive su njene konture i obris.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:52.980Z"
+      }
     },
     {
       "id": "way/1550322597",
@@ -1977,7 +2559,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 232
+      "nearestStreetDist": 232,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljive su jasne strukture krovova i građevinskih objekata sa karakterističnim pravokutnim oblicima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:53.314Z"
+      }
     },
     {
       "id": "way/1550322598",
@@ -1990,7 +2578,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 23
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:53.888Z"
+      }
     },
     {
       "id": "way/1550322599",
@@ -2003,7 +2597,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 183
+      "nearestStreetDist": 183,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa crvenom/ružičastom bojom, kao i dio okolnih zgrada sa različitim bojama krovova.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:52.930Z"
+      }
     },
     {
       "id": "way/1550322600",
@@ -2016,7 +2616,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 289
+      "nearestStreetDist": 289,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom i plavim bazenom na njoj.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:55.872Z"
+      }
     },
     {
       "id": "way/1550322601",
@@ -2029,7 +2635,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 152
+      "nearestStreetDist": 152,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta građevina sa krovom, okružena zelenim površinama i parcelama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:56.096Z"
+      }
     },
     {
       "id": "way/1550322602",
@@ -2042,7 +2654,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 33
+      "nearestStreetDist": 33,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenijom/ružičastom bojom krova i jasno definiranim obrisa građevine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:56.333Z"
+      }
     },
     {
       "id": "way/1550322603",
@@ -2055,7 +2673,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 106
+      "nearestStreetDist": 106,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom, jasno razlikovana od okoline.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:56.127Z"
+      }
     },
     {
       "id": "way/1550322604",
@@ -2068,7 +2692,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 7
+      "nearestStreetDist": 7,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva crvena/ružičasta krovna površina građevine",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:56.239Z"
+      }
     },
     {
       "id": "way/1550322605",
@@ -2081,7 +2711,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 277
+      "nearestStreetDist": 277,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina sa crvenim/terkaota krovom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:58.234Z"
+      }
     },
     {
       "id": "way/1550322607",
@@ -2094,7 +2730,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 271
+      "nearestStreetDist": 271,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je reddkasta/crvena građevina sa krovom, okružena zelenilom i šumom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:58.911Z"
+      }
     },
     {
       "id": "way/1550322608",
@@ -2107,7 +2749,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 13
+      "nearestStreetDist": 13,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/ružičastim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:58.864Z"
+      }
     },
     {
       "id": "way/1550322609",
@@ -2120,7 +2768,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 247
+      "nearestStreetDist": 247,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov crvene/ružičaste boje sa vidljivom strukturom građevine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:58.553Z"
+      }
     },
     {
       "id": "way/1550322610",
@@ -2133,7 +2787,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 209
+      "nearestStreetDist": 209,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/crenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:39:58.513Z"
+      }
     },
     {
       "id": "way/1550322611",
@@ -2146,7 +2806,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 206
+      "nearestStreetDist": 206,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasnoDefinirana zgrada sa svetlim krovom okružena zelenim površinama i ostalim strukturama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:01.205Z"
+      }
     },
     {
       "id": "way/1550322612",
@@ -2159,7 +2825,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 53
+      "nearestStreetDist": 53,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi pravokutna zgrada s vidljivim krovom (crvenkaste boje) i okolnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:01.004Z"
+      }
     },
     {
       "id": "way/1550322613",
@@ -2172,7 +2844,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 348
+      "nearestStreetDist": 348,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi zgrada s krovom u centru snimke, okružena zelenom vegetacijom i parkiralištem.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:01.522Z"
+      }
     },
     {
       "id": "way/1550322614",
@@ -2185,7 +2863,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim krovom i jasno definiranim rubovima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:01.597Z"
+      }
     },
     {
       "id": "way/1550322615",
@@ -2198,7 +2882,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 182
+      "nearestStreetDist": 182,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bela/svetla građevina sa krovom, okružena poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:01.286Z"
+      }
     },
     {
       "id": "way/1550322616",
@@ -2211,7 +2901,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 48
+      "nearestStreetDist": 48,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je svijetli krov zgrade/građevine окруженог zelenim površinama i drugim strukturama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:03.884Z"
+      }
     },
     {
       "id": "way/1550322619",
@@ -2224,7 +2920,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 251
+      "nearestStreetDist": 251,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krovišta i građevine sa crvenim i sivim krovovima okružene zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:03.954Z"
+      }
     },
     {
       "id": "way/1550322620",
@@ -2237,7 +2939,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 44
+      "nearestStreetDist": 44,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/rozim krovom i okružujućom infrastrukturom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:04.071Z"
+      }
     },
     {
       "id": "way/1550322621",
@@ -2250,7 +2958,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 241
+      "nearestStreetDist": 241,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa crvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:04.047Z"
+      }
     },
     {
       "id": "way/1550322622",
@@ -2263,7 +2977,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 238
+      "nearestStreetDist": 238,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina sa krovom, bijele i crvene boje, sa vidljikom okolnih građevina i putanja.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:04.082Z"
+      }
     },
     {
       "id": "way/1550322623",
@@ -2276,7 +2996,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 292
+      "nearestStreetDist": 292,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/narančastim krovom i tamnim dijelovima koje karakteriziraju izgrađenu strukturu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:07.329Z"
+      }
     },
     {
       "id": "way/1550322624",
@@ -2289,7 +3015,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 237
+      "nearestStreetDist": 237,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim krovom i beigom bojom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:06.339Z"
+      }
     },
     {
       "id": "way/1550322625",
@@ -2302,7 +3034,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina s vidljivim krovom, okružena parkiralištem i pristupnim putovima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:06.770Z"
+      }
     },
     {
       "id": "way/1550322626",
@@ -2315,7 +3053,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 226
+      "nearestStreetDist": 226,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom i tamnim sjenkama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:06.262Z"
+      }
     },
     {
       "id": "way/1550322627",
@@ -2328,7 +3072,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 282
+      "nearestStreetDist": 282,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade sa strukturom tipičnom za stambenu ili poslovnu izgradnju.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:06.438Z"
+      }
     },
     {
       "id": "way/1550322628",
@@ -2341,7 +3091,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 257
+      "nearestStreetDist": 257,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom i jasno definiranim konturama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:09.629Z"
+      }
     },
     {
       "id": "way/1550322629",
@@ -2354,7 +3110,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 259
+      "nearestStreetDist": 259,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:09.641Z"
+      }
     },
     {
       "id": "way/1550322630",
@@ -2367,7 +3129,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 278
+      "nearestStreetDist": 278,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su crveni/terakota krovovi i strukture zgrada uz betonsku cestu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:09.587Z"
+      }
     },
     {
       "id": "way/1550322631",
@@ -2380,7 +3148,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 14
+      "nearestStreetDist": 14,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna konstrukcija stambene zgrade.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:09.344Z"
+      }
     },
     {
       "id": "way/1550322632",
@@ -2393,7 +3167,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 257
+      "nearestStreetDist": 257,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenim/roza krovom i pravokutnim oblikom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:09.335Z"
+      }
     },
     {
       "id": "way/1550322633",
@@ -2406,7 +3186,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 15
+      "nearestStreetDist": 15,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov crvene/ružičaste boje koji je jasno vidljiv i predstavlja izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:11.870Z"
+      }
     },
     {
       "id": "way/1550322634",
@@ -2419,7 +3205,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 233
+      "nearestStreetDist": 233,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenkastvim/ružičastim krovom okružena okolnim strukturama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:12.185Z"
+      }
     },
     {
       "id": "way/1550322636",
@@ -2432,7 +3224,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 220
+      "nearestStreetDist": 220,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim crvenim/ružičastim krovom i drugih građevina oko nje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:12.223Z"
+      }
     },
     {
       "id": "way/1550322637",
@@ -2445,7 +3243,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 360
+      "nearestStreetDist": 360,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva betonska ili asfaltna površina koja predstavlja krov/platformu izgrađene građevine, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:11.916Z"
+      }
     },
     {
       "id": "way/1550322638",
@@ -2458,7 +3262,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna površina sa jasno vidljivim kontourama zgrade.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:11.906Z"
+      }
     },
     {
       "id": "way/1550322639",
@@ -2471,7 +3281,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 166
+      "nearestStreetDist": 166,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/ružičastim krovom",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:14.442Z"
+      }
     },
     {
       "id": "way/1550322640",
@@ -2484,7 +3300,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 90
+      "nearestStreetDist": 90,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov crvene/ružičaste boje s pravokutnom oblikom, što indicira izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:14.847Z"
+      }
     },
     {
       "id": "way/1550322641",
@@ -2497,7 +3319,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 228
+      "nearestStreetDist": 228,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa crvenim krovom okružena parkiralištima i zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:14.602Z"
+      }
     },
     {
       "id": "way/1550322642",
@@ -2510,7 +3338,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 17
+      "nearestStreetDist": 17,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/roza krovna konstrukcija koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:14.279Z"
+      }
     },
     {
       "id": "way/1550322643",
@@ -2523,7 +3357,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:14.311Z"
+      }
     },
     {
       "id": "way/1550322644",
@@ -2536,7 +3376,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 207
+      "nearestStreetDist": 207,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna površina koja jasno označava prisutnost izgrađene građevine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:17.343Z"
+      }
     },
     {
       "id": "way/1550322645",
@@ -2549,7 +3395,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 92
+      "nearestStreetDist": 92,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:17.019Z"
+      }
     },
     {
       "id": "way/1550322646",
@@ -2562,7 +3414,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 197
+      "nearestStreetDist": 197,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva betonska/cementna struktura sa jasno vidljivim krovom i građevinom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:17.104Z"
+      }
     },
     {
       "id": "way/1550322647",
@@ -2575,7 +3433,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 62
+      "nearestStreetDist": 62,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva velika siva/betonska zgrada sa krovom u centru snimke, okružena vegetacijom i infrastrukturom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:16.940Z"
+      }
     },
     {
       "id": "way/1550322648",
@@ -2588,7 +3452,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 172
+      "nearestStreetDist": 172,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi svetla struktura koja predstavlja krov ili građevinu okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:17.178Z"
+      }
     },
     {
       "id": "way/1550322649",
@@ -2601,7 +3471,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv krov građevine crvene/ružičaste boje sa okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:19.438Z"
+      }
     },
     {
       "id": "way/1550322650",
@@ -2614,7 +3490,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 334
+      "nearestStreetDist": 334,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa crvenim/smeđim pločicama, jasno označen na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:19.560Z"
+      }
     },
     {
       "id": "way/1550322651",
@@ -2627,7 +3509,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 208
+      "nearestStreetDist": 208,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta građevina (krov) sa zelenim površinama oko nje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:19.779Z"
+      }
     },
     {
       "id": "way/1550322652",
@@ -2640,7 +3528,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 63
+      "nearestStreetDist": 63,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je reddasto-smeđa struktura krova okružena zelenom vegetacijom, koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:19.510Z"
+      }
     },
     {
       "id": "way/1550322653",
@@ -2653,7 +3547,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 546
+      "nearestStreetDist": 546,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska ili asfaltna površina sa strukturom koja liči na krov industrijske ili poljoprivredne zgrade.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:25.607Z"
+      }
     },
     {
       "id": "way/1550322654",
@@ -2666,7 +3566,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 139
+      "nearestStreetDist": 139,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva crvena/ružičasta krovna površina s nekoliko dijelova, što predstavlja izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:28.148Z"
+      }
     },
     {
       "id": "way/1550322655",
@@ -2679,7 +3585,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s crvenkastvim/ružičastim krovom i značajnim ogradom oko parcele.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:28.990Z"
+      }
     },
     {
       "id": "way/1550322656",
@@ -2692,7 +3604,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 257
+      "nearestStreetDist": 257,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom crvene/ružičaste boje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:28.379Z"
+      }
     },
     {
       "id": "way/1550322657",
@@ -2705,7 +3623,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 341
+      "nearestStreetDist": 341,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/narančasti krov zgrade sa vidljivim strukturama i dijelovima građevine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:28.354Z"
+      }
     },
     {
       "id": "way/1550322658",
@@ -2718,7 +3642,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 253
+      "nearestStreetDist": 253,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bela/svetla zgrada sa krovom, okružena zelenim površinama i putanjama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:28.416Z"
+      }
     },
     {
       "id": "way/1550322659",
@@ -2731,7 +3661,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 33
+      "nearestStreetDist": 33,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva crvena/narančasta zgrada sa krovom u centru kadra, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:31.878Z"
+      }
     },
     {
       "id": "way/1550322660",
@@ -2744,7 +3680,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 247
+      "nearestStreetDist": 247,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su crveni/rozi krovovi zgrada i građevina sa jakim senama što ukazuje na izgrađenu strukturu.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:31.594Z"
+      }
     },
     {
       "id": "way/1550322661",
@@ -2757,7 +3699,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 219
+      "nearestStreetDist": 219,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/ružičastim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:31.229Z"
+      }
     },
     {
       "id": "way/1550322663",
@@ -2770,7 +3718,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 250
+      "nearestStreetDist": 250,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je reddkasti krov zgrade okružen zelenim površinama i dijelom susjednih objekata.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:31.099Z"
+      }
     },
     {
       "id": "way/1550322664",
@@ -2783,7 +3737,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 22
+      "nearestStreetDist": 22,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je jasnoDefiniran krov zgrade/građevine, svjetlije boje, okružen zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:31.428Z"
+      }
     },
     {
       "id": "way/1550322665",
@@ -2796,7 +3756,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 234
+      "nearestStreetDist": 234,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/ružičastim krovom i vidljivim kontourama građevine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:34.998Z"
+      }
     },
     {
       "id": "way/1550322666",
@@ -2809,7 +3775,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 285
+      "nearestStreetDist": 285,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je jasno definirani krov građevine sa svetlijom bojom, okružen vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:34.311Z"
+      }
     },
     {
       "id": "way/1550322667",
@@ -2822,7 +3794,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 13
+      "nearestStreetDist": 13,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, vidljivi su dijelovi građevine sa jasno vidljivim strukturama i različitim bojama krovnog pokrivača.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:34.366Z"
+      }
     },
     {
       "id": "way/1550322668",
@@ -2835,7 +3813,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 218
+      "nearestStreetDist": 218,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddasta/ružičasta krovna konstrukcija glavne zgrade sa manjim pratećim zgradama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:34.127Z"
+      }
     },
     {
       "id": "way/1550322670",
@@ -2848,7 +3832,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 192
+      "nearestStreetDist": 192,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina sa krovom, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:34.172Z"
+      }
     },
     {
       "id": "way/1550322671",
@@ -2861,7 +3851,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 224
+      "nearestStreetDist": 224,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim crvenim/roze krovom i betonskom strukturom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:37.293Z"
+      }
     },
     {
       "id": "way/1550322672",
@@ -2874,7 +3870,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 131
+      "nearestStreetDist": 131,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta građevina sa vidljivim krovom, okružena parcelama i zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:37.644Z"
+      }
     },
     {
       "id": "way/1550322673",
@@ -2887,7 +3889,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 154
+      "nearestStreetDist": 154,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:37.192Z"
+      }
     },
     {
       "id": "way/1550322674",
@@ -2900,7 +3908,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 244
+      "nearestStreetDist": 244,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bela/svetla građevina sa krovom, okružena crveним krovovima i zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:37.259Z"
+      }
     },
     {
       "id": "way/1550322675",
@@ -2913,7 +3927,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 233
+      "nearestStreetDist": 233,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela krovna struktura građevine okružena zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:38.234Z"
+      }
     },
     {
       "id": "way/1550322676",
@@ -2926,7 +3946,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 238
+      "nearestStreetDist": 238,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade sa pripadajućim strukturama oko nje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:41.115Z"
+      }
     },
     {
       "id": "way/1550322677",
@@ -2939,7 +3965,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 13
+      "nearestStreetDist": 13,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasno izgrađena zgrada sa krovomlight sive boje, okružena cestom i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:41.323Z"
+      }
     },
     {
       "id": "way/1550322678",
@@ -2952,7 +3984,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 84
+      "nearestStreetDist": 84,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenim/terakota krovom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:40.381Z"
+      }
     },
     {
       "id": "way/1550322679",
@@ -2965,7 +4003,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 249
+      "nearestStreetDist": 249,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada u različitim bojama (crvena, smeđa, bijela) što jasno указuje na izgrađene strukture.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:40.749Z"
+      }
     },
     {
       "id": "way/1550322680",
@@ -2978,7 +4022,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 231
+      "nearestStreetDist": 231,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:40.329Z"
+      }
     },
     {
       "id": "way/1550322681",
@@ -2991,7 +4041,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim krovom i oko nje su vidljive druge građevine i zelene površine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:44.057Z"
+      }
     },
     {
       "id": "way/1550322682",
@@ -3004,7 +4060,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 122
+      "nearestStreetDist": 122,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/tirkizni krov izgrađene zgrade sa vidljivim rubovima i strukturom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:43.668Z"
+      }
     },
     {
       "id": "way/1550322683",
@@ -3017,7 +4079,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 68
+      "nearestStreetDist": 68,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska/asfaltna površina s crvenijom građevinom (krov) u donjem dijelu i zelenim površinama oko nje.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:43.615Z"
+      }
     },
     {
       "id": "way/1550322684",
@@ -3030,7 +4098,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 269
+      "nearestStreetDist": 269,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je reddkasti krov građevine okružen zelenilom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:43.402Z"
+      }
     },
     {
       "id": "way/1550322685",
@@ -3043,7 +4117,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 231
+      "nearestStreetDist": 231,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom i jasno vidljivim konturama građevine.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:43.643Z"
+      }
     },
     {
       "id": "way/1550322686",
@@ -3056,7 +4136,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 532
+      "nearestStreetDist": 532,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa krovom, okružena vegetacijom i dijelom obale rijeke.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:46.032Z"
+      }
     },
     {
       "id": "way/1550322687",
@@ -3069,7 +4155,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 7
+      "nearestStreetDist": 7,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa crvenom/ružičastom bojom i prilaznim putanjama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:46.253Z"
+      }
     },
     {
       "id": "way/1550322688",
@@ -3082,7 +4174,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 287
+      "nearestStreetDist": 287,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine smeđe/crvene boje s jasnim obrисима.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:46.234Z"
+      }
     },
     {
       "id": "way/1550322689",
@@ -3095,7 +4193,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 208
+      "nearestStreetDist": 208,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom, vjerojatno zgrada ili poljoprivredna građevina.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:46.137Z"
+      }
     },
     {
       "id": "way/1550322690",
@@ -3108,7 +4212,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 131
+      "nearestStreetDist": 131,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/rozičastim krovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:46.028Z"
+      }
     },
     {
       "id": "way/1550322691",
@@ -3121,7 +4231,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/narančasti krov zgrade s vidljivom strukturom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:48.560Z"
+      }
     },
     {
       "id": "way/1550322692",
@@ -3134,7 +4250,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 84
+      "nearestStreetDist": 84,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s pravokutnim krovom i tamnosivom bojom, okružena terenom i vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:48.419Z"
+      }
     },
     {
       "id": "way/1550322693",
@@ -3147,7 +4269,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada s jasno vidljivim krovom u bež/smeđoj boji, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:48.583Z"
+      }
     },
     {
       "id": "way/1550322694",
@@ -3160,7 +4288,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 235
+      "nearestStreetDist": 235,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terrakota krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:48.273Z"
+      }
     },
     {
       "id": "way/1550322695",
@@ -3173,7 +4307,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 295
+      "nearestStreetDist": 295,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine svetle boje sa pravokutnim oblikom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:48.550Z"
+      }
     },
     {
       "id": "way/1550322696",
@@ -3186,7 +4326,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 132
+      "nearestStreetDist": 132,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa sivim/betonskim krovom okružena crvenim krovovima okolnih zgrada.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:50.668Z"
+      }
     },
     {
       "id": "way/1550322697",
@@ -3199,7 +4345,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 217
+      "nearestStreetDist": 217,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/terrakota krovom i prizemnom strukturom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:50.872Z"
+      }
     },
     {
       "id": "way/1550322698",
@@ -3212,7 +4364,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 9
+      "nearestStreetDist": 9,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom i jasno definiranim obrisima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:50.696Z"
+      }
     },
     {
       "id": "way/1550322699",
@@ -3225,7 +4383,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 227
+      "nearestStreetDist": 227,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska ili asfaltna površina sa nekoliko zgrada sa crvenim i sivim krovovima te zelenim površinama između njih.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:51.393Z"
+      }
     },
     {
       "id": "way/1550322700",
@@ -3238,7 +4402,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 87
+      "nearestStreetDist": 87,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa terakota/crvenim krovom i jasno definiranim obrisima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:50.938Z"
+      }
     },
     {
       "id": "way/1550322701",
@@ -3251,7 +4421,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 217
+      "nearestStreetDist": 217,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terrakota krovom i jasno definiranim obrisima.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:53.790Z"
+      }
     },
     {
       "id": "way/1550337002",
@@ -3262,7 +4438,13 @@
         "building": "yes"
       },
       "zupanija": "Zadarska županija",
-      "validFrom": "2026-08-17T12:34:09Z"
+      "validFrom": "2026-08-17T12:34:09Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bela/svetla zgrada sa krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:53.562Z"
+      }
     },
     {
       "id": "way/1550337004",
@@ -3273,7 +4455,13 @@
         "building": "house"
       },
       "zupanija": "Zadarska županija",
-      "validFrom": "2026-08-17T12:34:09Z"
+      "validFrom": "2026-08-17T12:34:09Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasna pravokutna struktura s krovom u smeđoj/crvenkastoj boji koja se razlikuje od okolnog terena.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-17T20:40:53.716Z"
+      }
     }
   ]
 }
