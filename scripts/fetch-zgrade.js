@@ -106,13 +106,18 @@ async function fetchNoveZgrade(fromISO, toISO) {
   // SAMO za taj (puno manji) filtrirani skup, po eksplicitnim ID-jevima.
   const HR_BBOX = "42.30,13.30,46.60,19.50"; // minLat,minLon,maxLat,maxLon
 
+  // "out meta;" (NE "out meta tags;") - eksplicitno kombiniranje "meta" i
+  // "tags" zajedno je (opet, otkriveno 17.8.) dosljedno gubilo meta na
+  // velikim nacionalnim upitima, iako "meta" već po Overpass hijerarhiji
+  // (ids < skel < body < meta) sam po sebi uključuje tags. Samo "out meta;"
+  // je dokazano pouzdano (58464/58464 elemenata s timestampom u backfillu).
   const metaQuery = `
     [out:json][timeout:180];
     (
       way["building"](newer:"${fromISO}")(${HR_BBOX});
       relation["building"](newer:"${fromISO}")(${HR_BBOX});
     );
-    out meta tags;
+    out meta;
   `;
 
   console.log("  Prolaz 1/2: dohvaćam meta+tags (bez geometrije, lagan upit)...");
