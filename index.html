@@ -570,6 +570,9 @@
   <div class="panel list-section">
     <div class="list-toolbar">
       <input type="text" class="search-input" id="searchBox" placeholder="Pretraži po adresi, mjestu ili županiji...">
+      <label id="satelitFilterLabel" style="display:none;align-items:center;gap:6px;font-size:13px;color:var(--text-secondary);white-space:nowrap;">
+        <input type="checkbox" id="satelitFilterCheckbox"> Samo satelitski kandidati
+      </label>
       <button class="filter-toggle-btn" id="facetToggleBtn">Filteri ▾</button>
       <button class="btn-export" id="exportBtn">Izvoz u Excel</button>
     </div>
@@ -614,12 +617,38 @@ function jeAdresaIzDgu(f){
   return !prava && !!f.dguAdresa;
 }
 
+// Satelitski bedž - vidi scripts/satelit-verifikacija.js za kako se
+// satelitProvjera popunjava. "kandidat" = nema zgrade na DGU 2022 ortofotu
+// (vjerojatno stvarno nova), "stara" = zgrada VEĆ vidljiva 2022. (samo
+// naknadno mapirana u OSM, ne nova gradnja).
+function escapeHtml(tekst){
+  const div = document.createElement('div');
+  div.textContent = tekst == null ? '' : String(tekst);
+  return div.innerHTML;
+}
+function satelitBedz(f){
+  if (!f.satelitProvjera) return '';
+  const s = f.satelitProvjera;
+  const obrazlozenje = escapeHtml(s.obrazlozenje);
+  if (s.status === 'kandidat') {
+    return ' <span title="' + obrazlozenje + '" style="font-size:10px;background:#DCFCE7;color:#166534;padding:1px 6px;border-radius:999px;">satelit: kandidat</span>';
+  }
+  if (s.status === 'stara') {
+    return ' <span title="' + obrazlozenje + '" style="font-size:10px;background:#F3F4F6;color:#6B7280;padding:1px 6px;border-radius:999px;">satelit: postojala 2022.</span>';
+  }
+  if (s.status === 'neizvjesno') {
+    return ' <span title="' + obrazlozenje + '" style="font-size:10px;background:#FEF3C7;color:#92400E;padding:1px 6px;border-radius:999px;">satelit: neizvjesno</span>';
+  }
+  return '';
+}
+
 
 let manifest = null;
 let zupanijeGeo = null;
 let cachedChunks = {};      // file -> parsed diff data
 let allFeaturesInWindow = []; // trenutno spojene zgrade za odabrani prozor
 let selectedZupanije = new Set(); // prazan set = sve prikazane
+let samoSatelitskiKandidati = false;
 let selectedBuildingTypes = new Set();
 let selectedLevels = new Set();
 let facetPanelOpen = false;
@@ -694,6 +723,10 @@ async function selectWindow(weeks){
   dataSets.forEach(d => allFeaturesInWindow.push(...d.features));
   selectedBuildingTypes.clear();
   selectedLevels.clear();
+
+  const imaSatelitskihPodataka = allFeaturesInWindow.some(f => f.satelitProvjera);
+  $('#satelitFilterLabel').style.display = imaSatelitskihPodataka ? 'flex' : 'none';
+  if (!imaSatelitskihPodataka) { samoSatelitskiKandidati = false; $('#satelitFilterCheckbox').checked = false; }
 
   updateStats(entries);
   updateZupanijeList();
@@ -812,7 +845,7 @@ function opisZgrade(f){
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) =>
     '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:200px;">' +
-    '<b' + adresaStil + '>' + adresa + '</b>' + dguNapomena + '<br>' +
+    '<b' + adresaStil + '>' + adresa + '</b>' + dguNapomena + satelitBedz(f) + '<br>' +
     (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
     '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +
@@ -868,6 +901,7 @@ function getFilteredFeatures(){
     if (selectedZupanije.size > 0 && !selectedZupanije.has(f.zupanija)) return false;
     if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
+    if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
     if (!q) return true;
     const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'name'), tag(f,'building')]
       .filter(Boolean).join(' ').toLowerCase();
@@ -1079,7 +1113,7 @@ function openModal(f){
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('') || '<div class="muted">Nema dodatnih oznaka</div>';
   $('#modalCard').innerHTML =
     '<button class="modal-close" id="modalCloseBtn">×</button>' +
-    '<h3' + adresaStil + '>' + adresa + dguNapomena + '</h3>' +
+    '<h3' + adresaStil + '>' + adresa + dguNapomena + satelitBedz(f) + '</h3>' +
     '<div style="color:var(--text-secondary);font-size:13.5px;">' + (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') + '</div>' +
     '<div style="color:var(--text-secondary);font-size:13px;margin-top:4px;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a class="modal-gmaps" href="' + gmaps + '" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>' +
@@ -1099,6 +1133,12 @@ document.addEventListener('keydown', (e) => {
 $('#searchBox').addEventListener('input', () => {
   updateTable();
   if (facetPanelOpen) renderFacetPanel();
+});
+
+$('#satelitFilterCheckbox').addEventListener('change', (e) => {
+  samoSatelitskiKandidati = e.target.checked;
+  updateTable();
+  updateMap();
 });
 
 function redakZaIzvoz(f){
@@ -1336,10 +1376,22 @@ function opis(f){
   }
   if (!adresa && f.nearestStreet) adresa = '~' + f.nearestStreetDist + 'm od ' + f.nearestStreet;
   if (!adresa) adresa = 'Adresa nepoznata';
+  let satelitNapomena = '';
+  if (f.satelitProvjera) {
+    const s = f.satelitProvjera;
+    const boje = { kandidat: ['#DCFCE7','#166534','kandidat'], stara: ['#F3F4F6','#6B7280','postojala 2022.'], neizvjesno: ['#FEF3C7','#92400E','neizvjesno'] };
+    const b = boje[s.status];
+    if (b) {
+      const div = document.createElement('div');
+      div.textContent = s.obrazlozenje || '';
+      const obrazlozenjeEsc = div.innerHTML;
+      satelitNapomena = ' <span title="' + obrazlozenjeEsc + '" style="font-size:10px;background:' + b[0] + ';color:' + b[1] + ';padding:1px 6px;border-radius:999px;">satelit: ' + b[2] + '</span>';
+    }
+  }
   const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:210px;">' +
-    '<b>' + adresa + '</b>' + dguNapomena + '<br>' +
+    '<b>' + adresa + '</b>' + dguNapomena + satelitNapomena + '<br>' +
     (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
     '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + (f.validFrom ? ' · ' + f.validFrom.slice(0,10) : '') + '</div>' +
     '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +
