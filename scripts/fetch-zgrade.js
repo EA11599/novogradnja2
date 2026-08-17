@@ -90,77 +90,92 @@ async function fetchNoveZgrade(fromISO, toISO) {
   // VAŽNO: koristimo "newer:from" (NE "changed:from,to"). Otkrili smo da
   // Overpass gubi "meta" polja (timestamp, version, ...) kad se koristi
   // "changed:" filter s dva argumenta — potvrđeno testirano, čak i BEZ
-  // if:version() filtera. "newer:" nema taj problem (naš prvi tjedni
-  // dohvat, koji je koristio newer:, ima ispravne datume za sve zgrade).
+  // if:version() filtera. "newer:" nema taj problem.
   //
   // "newer:" ima samo donju granicu (nema "do" datuma) — zato RUČNO
   // filtriramo elemente po njihovom stvarnom timestamp polju da ostanu
-  // samo oni unutar [fromISO, toISO), umjesto da se oslanjamo na servera
-  // da to napravi. Ovo rješava i dupliciranje između tjednih komada (svaki
-  // komad je prije dohvaćao cijeli preostali rep unatrag) I nedostajuće
-  // datume — riješeno oboje odjednom.
+  // samo oni unutar [fromISO, toISO).
   //
-  // NAPOMENA (jako bitno, opsežno testirano): I area["ISO3166-1"="HR"]->.hr
-  // filter I if:version() klauzula ZASEBNO brišu meta podatke (timestamp,
-  // version, ...) na ovom Overpass serveru — potvrđeno izravnim testovima,
-  // neovisno jedno o drugom i neovisno o newer/changed izboru. Rješenje:
-  // koristimo bounding box (ne area) I version===1 provjeru RADIMO NA
-  // KLIJENTU (ne if: na serveru). Bbox nije precizan oblik države (uhvati
-  // i djeliće susjednih zemalja), rješavamo to naknadno - zgrade kojima
-  // pronadjiZupaniju() ne nađe županiju (izvan Hrvatske) se odbacuju niže.
+  // DVOPROLAZNI PRISTUP (otkriveno 17.8. - bitno): kombinacija "geom" +
+  // "meta" na VELIKOM nacionalnom upitu (tisuće elemenata) dosljedno gubi
+  // meta podatke, čak i uz cache-buster koji isključuje keširanje kao
+  // uzrok. Manji upiti (samo "meta", bez "geom") pouzdano rade i za velike
+  // odgovore (potvrđeno: 58464/58464 s timestampom u ranijem backfillu).
+  // Zato: prvi prolaz dohvaća samo meta+tags (lagano, pouzdano) da
+  // utvrdimo KOJE zgrade su stvarno nove; drugi prolaz dohvaća geometriju
+  // SAMO za taj (puno manji) filtrirani skup, po eksplicitnim ID-jevima.
   const HR_BBOX = "42.30,13.30,46.60,19.50"; // minLat,minLon,maxLat,maxLon
-  const query = `
+
+  const metaQuery = `
     [out:json][timeout:180];
     (
       way["building"](newer:"${fromISO}")(${HR_BBOX});
       relation["building"](newer:"${fromISO}")(${HR_BBOX});
     );
-    out geom meta tags;
+    out meta tags;
   `;
 
-  // Sav retry (i za meta problem i za privremene HTTP greške poput 504) je
-  // sad unutar posaljiUpit, u jednoj petlji - vidi tamo za detalje.
-  const elements = await posaljiUpit(query);
-  // Ručno filtriranje po timestamp polju - "newer:" nema gornju granicu
-  // pa je server mogao vratiti i elemente novije od našeg toISO (već
-  // obrađene u idućem tjednom pokretanju). Elementi bez timestampa se
-  // preskaču (ne možemo potvrditi da pripadaju ovom prozoru).
-  // Number(el.version)===1 je NAŠA zamjena za if:version()==1 (koji smo
-  // morali maknuti sa servera jer briše meta podatke) - Number() jer
-  // Overpass zna vratiti version kao string.
-  const odFiltrirano = elements.filter((el) => {
+  console.log("  Prolaz 1/2: dohvaćam meta+tags (bez geometrije, lagan upit)...");
+  const metaElementi = await posaljiUpit(metaQuery);
+
+  const odFiltrirano = metaElementi.filter((el) => {
     if (!el.timestamp) return false;
     if (Number(el.version) !== 1) return false;
     return el.timestamp >= fromISO && el.timestamp < toISO;
   });
-  console.log(`  Nakon filtriranja po vremenskom prozoru i version===1 [${fromISO}, ${toISO}): ${odFiltrirano.length}/${elements.length} elemenata.`);
-  return odFiltrirano;
+  console.log(`  Nakon filtriranja po vremenskom prozoru i version===1 [${fromISO}, ${toISO}): ${odFiltrirano.length}/${metaElementi.length} elemenata.`);
+
+  if (odFiltrirano.length === 0) return [];
+
+  // Drugi prolaz: dohvati geometriju SAMO za filtrirane elemente, po
+  // eksplicitnim ID-jevima - puno manji upit (stotine, ne tisuće).
+  const wayIds = odFiltrirano.filter((el) => el.type === "way").map((el) => el.id);
+  const relationIds = odFiltrirano.filter((el) => el.type === "relation").map((el) => el.id);
+
+  console.log(`  Prolaz 2/2: dohvaćam geometriju za ${wayIds.length} way + ${relationIds.length} relation elemenata...`);
+
+  const geomDijelovi = [];
+  if (wayIds.length > 0) geomDijelovi.push(`way(id:${wayIds.join(",")});`);
+  if (relationIds.length > 0) geomDijelovi.push(`relation(id:${relationIds.join(",")});`);
+
+  const geomQuery = `
+    [out:json][timeout:180];
+    (
+      ${geomDijelovi.join("\n      ")}
+    );
+    out geom center;
+  `;
+  const geomElementi = await posaljiUpit(geomQuery, { ocekujMeta: false });
+
+  const geometrijaPoId = {};
+  geomElementi.forEach((el) => {
+    geometrijaPoId[`${el.type}/${el.id}`] = el.geometry || el.center || null;
+  });
+
+  // Spoji: meta podaci iz prvog prolaza + geometrija iz drugog prolaza.
+  const spojeno = odFiltrirano.map((el) => {
+    const g = geometrijaPoId[`${el.type}/${el.id}`];
+    if (Array.isArray(g)) return { ...el, geometry: g };
+    if (g && typeof g.lat === "number") return { ...el, center: g };
+    return el; // geometrija nedostupna - toSlimFeature će ovo tretirati kao točku bez obrisa
+  });
+
+  return spojeno;
 }
 
-async function posaljiUpit(query) {
+async function posaljiUpit(query, { ocekujMeta = true } = {}) {
   // NAPOMENA (bitno, otkriveno 17.8.): javni Overpass server je load-
-  // balansiran preko više backend node-ova, i BAREM JEDAN od njih briše
-  // meta podatke (timestamp, version) čak i s ispravnim upitom (bbox, bez
-  // if:version()) — nasumično, isti upit ista skripta zna raditi ili ne
-  // raditi ovisno koji node servisira zahtjev.
-  //
-  // kumi.systems mirror smo probali kao fallback, ali dosljedno vraća 0
-  // elemenata za "newer:" upite (vjerojatno ne podržava taj filter na isti
-  // način) — NIJE pouzdana zamjena. Umjesto prebacivanja na drugi mirror,
-  // ponavljamo ISTI (glavni) server, jer je problem nasumičan po node-u -
-  // ponavljanje vrlo vjerojatno pogodi "dobar" node unutar par pokušaja.
+  // balansiran preko više backend node-ova. Za VELIKE upite s "geom"+"meta"
+  // zajedno, meta zna dosljedno nedostajati (potvrđeno cache-busterom da
+  // nije keširanje) - zato smo prešli na dvoprolazni pristup gdje ovaj
+  // problem zaobilazimo posve (meta-upit nikad ne traži geom). Retry ovdje
+  // ostaje kao opća zaštita od 502/503/504 i sličnih privremenih grešaka.
   const MAX_POKUSAJA = 6;
   let najveciBrojElemenataBezMeta = 0;
   let zadnjaGreska;
 
   for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
     try {
-      // Cache-buster: mijenjamo tekst upita svaki pokušaj (bezopasan
-      // komentar s nasumičnim brojem) da izbjegnemo da Overpass vrati
-      // identičan keširani odgovor kao prošli put - vidjeli smo tri puta
-      // zaredom IDENTIČAN broj elemenata (9399) bez meta podataka, što jako
-      // sugerira keširanje na serverskoj strani, ne stvarno ponovno
-      // izvršavanje upita.
       const queryUniknjen = `// pokusaj-${pokusaj}-${Date.now()}-${Math.random().toString(36).slice(2)}\n${query}`;
       const res = await fetch(OVERPASS_URL, {
         method: "POST",
@@ -188,12 +203,18 @@ async function posaljiUpit(query) {
       }
 
       const elements = parsed.elements || [];
+
+      if (!ocekujMeta) {
+        // Drugi prolaz (samo geometrija) - meta nije ni tražena, ne
+        // provjeravamo je.
+        console.log(`  Pokušaj ${pokusaj}/${MAX_POKUSAJA}: vratio ${elements.length} elemenata (geometrija).`);
+        return elements;
+      }
+
       const saTimestampom = elements.filter((el) => el.timestamp).length;
       console.log(`  Pokušaj ${pokusaj}/${MAX_POKUSAJA}: vratio ${elements.length} elemenata, ${saTimestampom} sa timestampom.`);
 
       if (elements.length === 0 && najveciBrojElemenataBezMeta === 0) {
-        // Stvarno prazan odgovor, i nijedan prošli pokušaj nije nagovijestio
-        // da ima podataka - legitimna nula.
         return elements;
       }
       if (saTimestampom > 0) {
@@ -201,10 +222,8 @@ async function posaljiUpit(query) {
         return elements;
       }
 
-      // Elementi postoje (znamo da IMA podataka za ovaj period), ali bez
-      // meta - loš node. Pamtimo da smo to vidjeli i pokušavamo ponovno.
       najveciBrojElemenataBezMeta = Math.max(najveciBrojElemenataBezMeta, elements.length);
-      console.log(`  UPOZORENJE: odgovor bez meta podataka (poznat problem loše rutiranog node-a), pokušavam ponovno...`);
+      console.log(`  UPOZORENJE: odgovor bez meta podataka, pokušavam ponovno...`);
     } catch (err) {
       zadnjaGreska = err;
       const jePrivremena = /50[234]/.test(err.message);
