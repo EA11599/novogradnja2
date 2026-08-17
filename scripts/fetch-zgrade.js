@@ -155,13 +155,20 @@ async function posaljiUpit(query) {
 
   for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
     try {
+      // Cache-buster: mijenjamo tekst upita svaki pokušaj (bezopasan
+      // komentar s nasumičnim brojem) da izbjegnemo da Overpass vrati
+      // identičan keširani odgovor kao prošli put - vidjeli smo tri puta
+      // zaredom IDENTIČAN broj elemenata (9399) bez meta podataka, što jako
+      // sugerira keširanje na serverskoj strani, ne stvarno ponovno
+      // izvršavanje upita.
+      const queryUniknjen = `// pokusaj-${pokusaj}-${Date.now()}-${Math.random().toString(36).slice(2)}\n${query}`;
       const res = await fetch(OVERPASS_URL, {
         method: "POST",
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
           "User-Agent": cfg.USER_AGENT,
         },
-        body: new URLSearchParams({ data: query }),
+        body: new URLSearchParams({ data: queryUniknjen }),
       });
 
       const text = await res.text();
@@ -274,7 +281,7 @@ function pruneOldEntries(manifest) {
   manifest.entries = kept;
 }
 
-const MAX_DANA_PO_UPITU = 7; // veći periodi se dijele na komade ove veličine
+const MAX_DANA_PO_UPITU = 3; // veći periodi se dijele na komade ove veličine (smanjeno s 7 na 3 - manji upiti su pouzdaniji)
 
 async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   console.log(`Dohvaćam: ${fromISO} -> ${toISO}`);
