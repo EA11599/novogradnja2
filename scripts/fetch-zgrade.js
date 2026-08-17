@@ -151,6 +151,10 @@ async function fetchNoveZgrade(fromISO, toISO) {
     out geom center;
   `;
   const geomElementi = await posaljiUpit(geomQuery, { ocekujMeta: false });
+  console.log(`  Geom prolaz vratio ${geomElementi.length} elemenata.`);
+  if (geomElementi.length > 0) {
+    console.log(`  Primjer prvog geom elementa: ${JSON.stringify(geomElementi[0]).slice(0, 400)}`);
+  }
 
   const geometrijaPoId = {};
   geomElementi.forEach((el) => {
@@ -158,12 +162,15 @@ async function fetchNoveZgrade(fromISO, toISO) {
   });
 
   // Spoji: meta podaci iz prvog prolaza + geometrija iz drugog prolaza.
+  let spojenoBrojac = 0, nespojenoBrojac = 0;
   const spojeno = odFiltrirano.map((el) => {
     const g = geometrijaPoId[`${el.type}/${el.id}`];
-    if (Array.isArray(g)) return { ...el, geometry: g };
-    if (g && typeof g.lat === "number") return { ...el, center: g };
+    if (Array.isArray(g)) { spojenoBrojac++; return { ...el, geometry: g }; }
+    if (g && typeof g.lat === "number") { spojenoBrojac++; return { ...el, center: g }; }
+    nespojenoBrojac++;
     return el; // geometrija nedostupna - toSlimFeature će ovo tretirati kao točku bez obrisa
   });
+  console.log(`  Spajanje meta+geometrija: ${spojenoBrojac} uspješno spojeno, ${nespojenoBrojac} bez geometrije.`);
 
   return spojeno;
 }
