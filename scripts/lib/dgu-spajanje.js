@@ -58,13 +58,15 @@ function zatvoriPrsten(ring) {
   return ring;
 }
 
-// Vraća DGU properties (street, houseNumber, settlement, postcode, city) ako
-// je pronađena DGU točka unutar obrisa zgrade, inače null.
-function pronadjiDguAdresu(feature) {
-  if (!feature.obris || feature.obris.length < 3 || !feature.zupanija) return null;
+// Vraća SVE DGU properties (street, houseNumber, settlement, postcode, city)
+// pronađene unutar obrisa zgrade - ne staje na prvoj. Broj pronađenih
+// adresa je signal je li zgrada obiteljska kuća (1 adresa) ili stambena
+// zgrada s više jedinica (2+ adresa, svaki stan ima svoju službenu adresu).
+function pronadjiSveDguAdrese(feature) {
+  if (!feature.obris || feature.obris.length < 3 || !feature.zupanija) return [];
 
   const grid = ucitajGridZaZupaniju(feature.zupanija);
-  if (!grid) return null;
+  if (!grid) return [];
 
   const lons = feature.obris.map((p) => p[0]);
   const lats = feature.obris.map((p) => p[1]);
@@ -76,30 +78,42 @@ function pronadjiDguAdresu(feature) {
 
   const poly = { type: "Feature", properties: {}, geometry: { type: "Polygon", coordinates: [zatvoriPrsten(feature.obris)] } };
 
+  const rezultati = [];
   for (let cx = cMinLon - 1; cx <= cMaxLon + 1; cx++) {
     for (let cy = cMinLat - 1; cy <= cMaxLat + 1; cy++) {
       const kandidati = grid[cx + "_" + cy];
       if (!kandidati) continue;
       for (const kandidat of kandidati) {
         if (booleanPointInPolygon([kandidat.lon, kandidat.lat], poly)) {
-          return kandidat.props;
+          rezultati.push(kandidat.props);
         }
       }
     }
   }
-  return null;
+  return rezultati;
 }
 
-// Primjenjuje pronadjiDguAdresu na cijeli niz feature-a (mutira ih u mjestu -
-// dodaje dguAdresa polje). Vraća broj pronađenih poklapanja, radi ispisa.
+// Zadržano radi kompatibilnosti - vraća samo prvu pronađenu adresu (ili null).
+function pronadjiDguAdresu(feature) {
+  const sve = pronadjiSveDguAdrese(feature);
+  return sve.length > 0 ? sve[0] : null;
+}
+
+// Primjenjuje pronadjiSveDguAdrese na cijeli niz feature-a (mutira ih u
+// mjestu - dodaje dguAdresa i dguBrojJedinica polja). Vraća broj pronađenih
+// poklapanja, radi ispisa.
 function dodajDguAdrese(features) {
   let nadjeno = 0;
   for (const f of features) {
     if (f.tags && f.tags["addr:street"]) continue; // već ima OSM adresu, ne treba DGU
-    const dguProps = pronadjiDguAdresu(f);
-    if (dguProps) { f.dguAdresa = dguProps; nadjeno++; }
+    const sveAdrese = pronadjiSveDguAdrese(f);
+    if (sveAdrese.length > 0) {
+      f.dguAdresa = sveAdrese[0]; // glavna prikazana adresa - i dalje prva
+      f.dguBrojJedinica = sveAdrese.length; // broj DGU adresa unutar obrisa
+      nadjeno++;
+    }
   }
   return nadjeno;
 }
 
-module.exports = { dodajDguAdrese, pronadjiDguAdresu, slug };
+module.exports = { dodajDguAdrese, pronadjiDguAdresu, pronadjiSveDguAdrese, slug };

@@ -617,6 +617,19 @@ function jeAdresaIzDgu(f){
   return !prava && !!f.dguAdresa;
 }
 
+// Broj DGU adresa unutar obrisa zgrade kao signal tipa zgrade - 1 adresa =
+// vjerojatno obiteljska kuća, 2+ = vjerojatno stambena zgrada s više
+// jedinica (svaki stan ima svoju službenu DGU adresu). Grubi signal, ne
+// potvrda - vidi scripts/lib/dgu-spajanje.js za detalje i ograničenja.
+function tipZgradeBedz(f){
+  const n = f.dguBrojJedinica;
+  if (!n) return '';
+  if (n === 1) {
+    return ' <span style="font-size:10px;background:#EFF6FF;color:#1E40AF;padding:1px 6px;border-radius:999px;" title="1 DGU adresa unutar obrisa">obiteljska kuća</span>';
+  }
+  return ' <span style="font-size:10px;background:#EDE9FE;color:#5B21B6;padding:1px 6px;border-radius:999px;" title="' + n + ' DGU adresa unutar obrisa">stambena zgrada (~' + n + ' jed.)</span>';
+}
+
 // Satelitski bedž - vidi scripts/satelit-verifikacija.js za kako se
 // satelitProvjera popunjava. "kandidat" = nema zgrade na DGU 2022 ortofotu
 // (vjerojatno stvarno nova), "stara" = zgrada VEĆ vidljiva 2022. (samo
@@ -845,7 +858,7 @@ function opisZgrade(f){
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) =>
     '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:200px;">' +
-    '<b' + adresaStil + '>' + adresa + '</b>' + dguNapomena + satelitBedz(f) + '<br>' +
+    '<b' + adresaStil + '>' + adresa + '</b>' + dguNapomena + satelitBedz(f) + tipZgradeBedz(f) + '<br>' +
     (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
     '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +
@@ -1113,7 +1126,7 @@ function openModal(f){
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('') || '<div class="muted">Nema dodatnih oznaka</div>';
   $('#modalCard').innerHTML =
     '<button class="modal-close" id="modalCloseBtn">×</button>' +
-    '<h3' + adresaStil + '>' + adresa + dguNapomena + satelitBedz(f) + '</h3>' +
+    '<h3' + adresaStil + '>' + adresa + dguNapomena + satelitBedz(f) + tipZgradeBedz(f) + '</h3>' +
     '<div style="color:var(--text-secondary);font-size:13.5px;">' + (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') + '</div>' +
     '<div style="color:var(--text-secondary);font-size:13px;margin-top:4px;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a class="modal-gmaps" href="' + gmaps + '" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>' +
