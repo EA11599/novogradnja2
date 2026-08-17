@@ -156,12 +156,18 @@ async function posaljiUpit(query) {
   // balansiran preko više backend node-ova, i BAREM JEDAN od njih briše
   // meta podatke (timestamp, version) čak i s ispravnim upitom (bbox, bez
   // if:version()) — nasumično, isti upit ista skripta zna raditi ili ne
-  // raditi ovisno koji node servisira zahtjev. Zato provjeravamo ima li
-  // odgovor stvarno meta podatke, i ako nema, pokušavamo drugi mirror.
-  const MIRRORS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
+  // raditi ovisno koji node servisira zahtjev.
+  //
+  // kumi.systems mirror smo probali kao fallback, ali dosljedno vraća 0
+  // elemenata za "newer:" upite (vjerojatno ne podržava taj filter na isti
+  // način) — NIJE pouzdana zamjena. Umjesto prebacivanja na drugi mirror,
+  // ponavljamo ISTI (glavni) server, jer je problem nasumičan po node-u -
+  // ponavljanje vrlo vjerojatno pogodi "dobar" node unutar par pokušaja.
+  const MAX_POKUSAJA = 5;
+  let najveciBrojElemenataBezMeta = 0;
 
-  for (const mirrorUrl of MIRRORS) {
-    const res = await fetch(mirrorUrl, {
+  for (let pokusaj = 1; pokusaj <= MAX_POKUSAJA; pokusaj++) {
+    const res = await fetch(OVERPASS_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
@@ -172,9 +178,7 @@ async function posaljiUpit(query) {
 
     const text = await res.text();
     if (!res.ok) {
-      throw new Error(
-        `Overpass (${mirrorUrl}) ${res.status} ${res.statusText}\nOdgovor: ${text.slice(0, 1500)}`
-      );
+      throw new Error(`Overpass ${res.status} ${res.statusText}\nOdgovor: ${text.slice(0, 1500)}`);
     }
 
     let parsed;
@@ -190,21 +194,26 @@ async function posaljiUpit(query) {
 
     const elements = parsed.elements || [];
     const saTimestampom = elements.filter((el) => el.timestamp).length;
-    console.log(`  ${mirrorUrl}: vratio ${elements.length} elemenata, ${saTimestampom} sa timestampom.`);
+    console.log(`  Pokušaj ${pokusaj}/${MAX_POKUSAJA}: vratio ${elements.length} elemenata, ${saTimestampom} sa timestampom.`);
 
-    if (elements.length === 0 || saTimestampom > 0) {
-      // Prazan odgovor je legitiman (stvarno nema promjena), ili imamo
-      // meta podatke - u oba slučaja ovo je iskoristiv odgovor.
-      if (elements.length > 0) {
-        console.log(`  Primjer prvog elementa (radi provjere): ${JSON.stringify(elements[0]).slice(0, 300)}`);
-      }
+    if (elements.length === 0 && najveciBrojElemenataBezMeta === 0) {
+      // Stvarno prazan odgovor, i nijedan prošli pokušaj nije nagovijestio
+      // da ima podataka - legitimna nula.
+      return elements;
+    }
+    if (saTimestampom > 0) {
+      console.log(`  Primjer prvog elementa (radi provjere): ${JSON.stringify(elements[0]).slice(0, 300)}`);
       return elements;
     }
 
-    console.log(`  UPOZORENJE: ${mirrorUrl} je vratio elemente BEZ meta podataka (poznat problem loše rutiranog node-a) - pokušavam sljedeći mirror...`);
+    // Elementi postoje (znamo da IMA podataka za ovaj period), ali bez
+    // meta - loš node. Pamtimo da smo to vidjeli i pokušavamo ponovno.
+    najveciBrojElemenataBezMeta = Math.max(najveciBrojElemenataBezMeta, elements.length);
+    console.log(`  UPOZORENJE: odgovor bez meta podataka (poznat problem loše rutiranog node-a), pokušavam ponovno...`);
+    await new Promise((r) => setTimeout(r, pokusaj * 5000));
   }
 
-  throw new Error("Nijedan Overpass mirror nije vratio elemente s meta podacima (svi bez timestampa).");
+  throw new Error(`Overpass dosljedno vraća elemente bez meta podataka nakon ${MAX_POKUSAJA} pokušaja (${najveciBrojElemenataBezMeta} elemenata bez timestampa) - vjerojatno svi node-ovi trenutno imaju problem, pokušaj kasnije.`);
 }
 
 function toSlimFeature(el, zupanije) {
