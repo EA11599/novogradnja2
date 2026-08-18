@@ -573,6 +573,9 @@
       <label id="satelitFilterLabel" style="display:none;align-items:center;gap:6px;font-size:13px;color:var(--text-secondary);white-space:nowrap;">
         <input type="checkbox" id="satelitFilterCheckbox"> Samo satelitski kandidati
       </label>
+      <label id="dguJedinicaFilterLabel" style="display:none;align-items:center;gap:6px;font-size:13px;color:var(--text-secondary);white-space:nowrap;">
+        <input type="checkbox" id="dguJedinicaFilterCheckbox"> Samo zgrade s više DGU adresa
+      </label>
       <button class="filter-toggle-btn" id="facetToggleBtn">Filteri ▾</button>
       <button class="btn-export" id="exportBtn">Izvoz u Excel</button>
     </div>
@@ -617,17 +620,16 @@ function jeAdresaIzDgu(f){
   return !prava && !!f.dguAdresa;
 }
 
-// Broj DGU adresa unutar obrisa zgrade kao signal tipa zgrade - 1 adresa =
-// vjerojatno obiteljska kuća, 2+ = vjerojatno stambena zgrada s više
-// jedinica (svaki stan ima svoju službenu DGU adresu). Grubi signal, ne
-// potvrda - vidi scripts/lib/dgu-spajanje.js za detalje i ograničenja.
+// Broj DGU adresa unutar obrisa zgrade - neutralan brojčani signal, ne
+// interpretiramo ga kao "kuća" ili "zgrada" (DGU adrese unutar jednog
+// obrisa najvjerojatnije odgovaraju zasebnim ulazima/stubištima, ali to
+// nije potvrđeno pa namjerno ostajemo neutralni). Vidi
+// scripts/lib/dgu-spajanje.js za detalje i ograničenja.
 function tipZgradeBedz(f){
   const n = f.dguBrojJedinica;
   if (!n) return '';
-  if (n === 1) {
-    return ' <span style="font-size:10px;background:#EFF6FF;color:#1E40AF;padding:1px 6px;border-radius:999px;" title="1 DGU adresa unutar obrisa">obiteljska kuća</span>';
-  }
-  return ' <span style="font-size:10px;background:#EDE9FE;color:#5B21B6;padding:1px 6px;border-radius:999px;" title="' + n + ' DGU adresa unutar obrisa">stambena zgrada (~' + n + ' jed.)</span>';
+  const tekst = n === 1 ? '1 DGU adresa' : n + ' zasebnih DGU adresa';
+  return ' <span style="font-size:10px;background:#EDE9FE;color:#5B21B6;padding:1px 6px;border-radius:999px;">' + tekst + '</span>';
 }
 
 // Satelitski bedž - vidi scripts/satelit-verifikacija.js za kako se
@@ -662,6 +664,7 @@ let cachedChunks = {};      // file -> parsed diff data
 let allFeaturesInWindow = []; // trenutno spojene zgrade za odabrani prozor
 let selectedZupanije = new Set(); // prazan set = sve prikazane
 let samoSatelitskiKandidati = false;
+let samoViseDguAdresa = false;
 let selectedBuildingTypes = new Set();
 let selectedLevels = new Set();
 let facetPanelOpen = false;
@@ -740,6 +743,10 @@ async function selectWindow(weeks){
   const imaSatelitskihPodataka = allFeaturesInWindow.some(f => f.satelitProvjera);
   $('#satelitFilterLabel').style.display = imaSatelitskihPodataka ? 'flex' : 'none';
   if (!imaSatelitskihPodataka) { samoSatelitskiKandidati = false; $('#satelitFilterCheckbox').checked = false; }
+
+  const imaDguBrojaJedinica = allFeaturesInWindow.some(f => f.dguBrojJedinica > 1);
+  $('#dguJedinicaFilterLabel').style.display = imaDguBrojaJedinica ? 'flex' : 'none';
+  if (!imaDguBrojaJedinica) { samoViseDguAdresa = false; $('#dguJedinicaFilterCheckbox').checked = false; }
 
   updateStats(entries);
   updateZupanijeList();
@@ -820,31 +827,21 @@ function updateMap(){
     '<span class="legend-swatch" style="background:' + colorScale(0, max) + '"></span>0' +
     '<span class="legend-swatch" style="background:' + colorScale(max, max) + ';margin-left:8px;"></span>' + max;
 
-  // obrisi zgrada (kad postoje) ili tocke, obojano narancasto - prikazujemo
-  // do razumne granice radi performansi
+  // markeri pojedinačnih zgrada (jednostavne točkice, ne obrisi - obrisi su
+  // rezervirani za detaljnu kartu) - prikazujemo do razumne granice radi
+  // performansi
   markerLayer.clearLayers();
   const filtered = getFilteredFeatures();
   const MAX_MARKERA = 1500;
   filtered.slice(0, MAX_MARKERA).forEach(f => {
     if (f.lat === null || f.lon === null) return;
-    let m;
-    if (f.obris && f.obris.length >= 3){
-      const latlngs = f.obris.map(p => [p[1], p[0]]);
-      m = L.polygon(latlngs, {
-        color: '#B6650C',
-        weight: 1.5,
-        fillColor: '#E8871E',
-        fillOpacity: 0.75,
-      });
-    } else {
-      m = L.circleMarker([f.lat, f.lon], {
-        radius: 4,
-        color: '#B6650C',
-        weight: 1,
-        fillColor: '#E8871E',
-        fillOpacity: 0.85,
-      });
-    }
+    const m = L.circleMarker([f.lat, f.lon], {
+      radius: 4,
+      color: '#B6650C',
+      weight: 1,
+      fillColor: '#E8871E',
+      fillOpacity: 0.85,
+    });
     m.bindPopup(opisZgrade(f));
     markerLayer.addLayer(m);
   });
@@ -915,6 +912,7 @@ function getFilteredFeatures(){
     if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
     if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
+    if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
     const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'name'), tag(f,'building')]
       .filter(Boolean).join(' ').toLowerCase();
@@ -1150,6 +1148,12 @@ $('#searchBox').addEventListener('input', () => {
 
 $('#satelitFilterCheckbox').addEventListener('change', (e) => {
   samoSatelitskiKandidati = e.target.checked;
+  updateTable();
+  updateMap();
+});
+
+$('#dguJedinicaFilterCheckbox').addEventListener('change', (e) => {
+  samoViseDguAdresa = e.target.checked;
   updateTable();
   updateMap();
 });
