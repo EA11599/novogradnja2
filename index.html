@@ -638,6 +638,52 @@ function jeAdresaPriblizna(f){
   const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
   return !prava && !f.dguAdresa;
 }
+// Kombinira sve dostupne signale (masovni unos, satelit, DGU nova adresa,
+// DGU postojeća adresa) u jedan indikator pouzdanosti - umjesto da
+// korisnik sam mentalno zbraja odvojene bedževe. Ne tvrdi ništa
+// definitivno, samo objedinjuje ono što već znamo.
+function izracunajPouzdanost(f){
+  const pozitivni = [];
+  const negativni = [];
+
+  if (f.masovniUnos) {
+    negativni.push('Dio masovnog unosa (' + f.masovniUnos.brojZgrada + ' zgrada u istoj OSM sesiji) - vjerojatno digitalizacija, ne nova gradnja');
+  }
+  if (f.satelitProvjera && f.satelitProvjera.status === 'stara') {
+    negativni.push('Zgrada vidljiva na DGU ortofotu iz 2022. - vjerojatno je postojala i prije');
+  }
+  if (f.dguNovaAdresaPoklapanje) {
+    pozitivni.push('Nova DGU adresa (' + formatDatum(f.dguNovaAdresaPoklapanje.datum) + ') poklapa se s ovom lokacijom - neovisan izvor se slaže');
+  }
+  if (f.satelitProvjera && f.satelitProvjera.status === 'kandidat') {
+    pozitivni.push('Nema zgrade na DGU ortofotu 2022. - kandidat za stvarnu novogradnju');
+  }
+  if (f.dguAdresa) {
+    pozitivni.push('DGU adresa potvrđena unutar obrisa zgrade');
+  }
+
+  let tier = 'nepoznato';
+  if (pozitivni.length >= 2) tier = 'visoka';
+  else if (pozitivni.length === 1 && negativni.length === 0) tier = 'srednja';
+  else if (negativni.length > 0 && pozitivni.length === 0) tier = 'niska';
+  else if (pozitivni.length > 0 && negativni.length > 0) tier = 'srednja'; // konfliktni signali
+
+  return { tier, razlozi: [...pozitivni, ...negativni] };
+}
+
+function pouzdanostBedz(f){
+  const { tier, razlozi } = izracunajPouzdanost(f);
+  if (tier === 'nepoznato') return '';
+  const stilovi = {
+    visoka: ['#DCFCE7', '#166534', 'visoka pouzdanost'],
+    srednja: ['#FEF3C7', '#92400E', 'srednja pouzdanost'],
+    niska: ['#F3F4F6', '#6B7280', 'niska pouzdanost'],
+  };
+  const [bg, fg, tekst] = stilovi[tier];
+  const naslov = escapeHtml(razlozi.join(' • '));
+  return ' <span title="' + naslov + '" style="font-size:10px;font-weight:700;background:' + bg + ';color:' + fg + ';padding:1px 7px;border-radius:999px;">' + tekst + '</span>';
+}
+
 function jeAdresaIzDgu(f){
   const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
   return !prava && !!f.dguAdresa;
@@ -925,7 +971,7 @@ function opisZgrade(f){
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) =>
     '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:200px;">' +
-    '<b' + adresaStil + '>' + adresa + '</b>' + dguNapomena + satelitBedz(f) + tipZgradeBedz(f) + '<br>' +
+    '<b' + adresaStil + '>' + adresa + '</b>' + dguNapomena + pouzdanostBedz(f) + satelitBedz(f) + tipZgradeBedz(f) + '<br>' +
     (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
     '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +
@@ -1082,6 +1128,10 @@ function vrijednostZaSort(f, stupac){
     case 'zupanija': return (f.zupanija || '').toLowerCase();
     case 'tip': return (tag(f,'building') || '').toLowerCase();
     case 'datum': return f.validFrom || '';
+    case 'pouzdanost': {
+      const rang = { visoka: 3, srednja: 2, niska: 1, nepoznato: 0 };
+      return rang[izracunajPouzdanost(f).tier] || 0;
+    }
     default: return '';
   }
 }
@@ -1129,7 +1179,7 @@ function updateTable(resetPage = true){
   const th = (stupac, naslov) => '<th class="sortable-th" data-sort="' + stupac + '">' + naslov + strelica(stupac) + '</th>';
 
   let html = '<table class="building-table"><thead><tr>' +
-    th('adresa','Adresa') + th('mjesto','Mjesto') + th('zupanija','Županija') + th('tip','Tip') + th('datum','Datum') +
+    th('adresa','Adresa') + th('mjesto','Mjesto') + th('zupanija','Županija') + th('tip','Tip') + th('datum','Datum') + th('pouzdanost','Pouzdanost') +
     '</tr></thead><tbody>';
 
   prikazano.forEach((f, i) => {
@@ -1145,6 +1195,7 @@ function updateTable(resetPage = true){
       '<td>' + (f.zupanija ? '<span class="badge-tip">' + f.zupanija + '</span>' : '<span class="muted">—</span>') + '</td>' +
       '<td>' + (tag(f,'building') || '<span class="muted">—</span>') + '</td>' +
       '<td class="muted">' + formatDatum(f.validFrom) + '</td>' +
+      '<td>' + (pouzdanostBedz(f) || '<span class="muted">—</span>') + '</td>' +
       '</tr>';
   });
   html += '</tbody></table>';
@@ -1196,7 +1247,7 @@ function openModal(f){
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('') || '<div class="muted">Nema dodatnih oznaka</div>';
   $('#modalCard').innerHTML =
     '<button class="modal-close" id="modalCloseBtn">×</button>' +
-    '<h3' + adresaStil + '>' + adresa + dguNapomena + satelitBedz(f) + tipZgradeBedz(f) + '</h3>' +
+    '<h3' + adresaStil + '>' + adresa + dguNapomena + pouzdanostBedz(f) + satelitBedz(f) + tipZgradeBedz(f) + '</h3>' +
     '<div style="color:var(--text-secondary);font-size:13.5px;">' + (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') + '</div>' +
     '<div style="color:var(--text-secondary);font-size:13px;margin-top:4px;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a class="modal-gmaps" href="' + gmaps + '" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>' +
@@ -1568,10 +1619,29 @@ function opis(f){
       satelitNapomena = ' <span title="' + obrazlozenjeEsc + '" style="font-size:10px;background:' + b[0] + ';color:' + b[1] + ';padding:1px 6px;border-radius:999px;">satelit: ' + b[2] + '</span>';
     }
   }
+  let pouzdanostNapomena = '';
+  {
+    const poz = [], neg = [];
+    if (f.masovniUnos) neg.push('masovni unos (' + f.masovniUnos.brojZgrada + ' zgrada)');
+    if (f.satelitProvjera && f.satelitProvjera.status === 'stara') neg.push('vidljiva na ortofotu 2022.');
+    if (f.dguNovaAdresaPoklapanje) poz.push('nova DGU adresa se poklapa');
+    if (f.satelitProvjera && f.satelitProvjera.status === 'kandidat') poz.push('nema je na ortofotu 2022.');
+    if (f.dguAdresa) poz.push('DGU adresa potvrđena');
+    let tier = null;
+    if (poz.length >= 2) tier = ['#DCFCE7','#166534','visoka pouzdanost'];
+    else if (poz.length === 1 && neg.length === 0) tier = ['#FEF3C7','#92400E','srednja pouzdanost'];
+    else if (neg.length > 0 && poz.length === 0) tier = ['#F3F4F6','#6B7280','niska pouzdanost'];
+    else if (poz.length > 0 && neg.length > 0) tier = ['#FEF3C7','#92400E','srednja pouzdanost'];
+    if (tier) {
+      const div2 = document.createElement('div');
+      div2.textContent = [...poz, ...neg].join(' • ');
+      pouzdanostNapomena = ' <span title="' + div2.innerHTML + '" style="font-size:10px;font-weight:700;background:' + tier[0] + ';color:' + tier[1] + ';padding:1px 7px;border-radius:999px;">' + tier[2] + '</span>';
+    }
+  }
   const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:210px;">' +
-    '<b>' + adresa + '</b>' + dguNapomena + satelitNapomena + '<br>' +
+    '<b>' + adresa + '</b>' + dguNapomena + pouzdanostNapomena + satelitNapomena + '<br>' +
     (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
     '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + (f.validFrom ? ' · ' + f.validFrom.slice(0,10) : '') + '</div>' +
     '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +

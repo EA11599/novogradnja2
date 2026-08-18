@@ -296,6 +296,8 @@ function toSlimFeature(el, zupanije) {
     tags,  // SVE sirove OSM oznake (building, addr:*, building:levels, name, ...) — ne biramo unaprijed koje su bitne
     zupanija: pronadjiZupaniju(zupanije, lon, lat),
     validFrom: el.timestamp || null,
+    changeset: el.changeset || null,
+    osmUser: el.user || null,
   };
 }
 
@@ -327,6 +329,32 @@ function pruneOldEntries(manifest) {
 
 const MAX_DANA_PO_UPITU = 3; // veći periodi se dijele na komade ove veličine (smanjeno s 7 na 3 - manji upiti su pouzdaniji)
 
+// Detekcija "masovnog unosa": ako je puno zgrada (iznad praga) uneseno u
+// ISTOM changesetu (jedna uređivačka sesija), vjerojatnije je da je riječ o
+// digitalizaciji postojećeg naselja s ortofota nego o organskoj novogradnji
+// (koja je obično raštrkana, od različitih korisnika). Ne dokazuje ništa
+// samo po sebi - samo dodatni signal, vidi UI za napomenu korisniku.
+const PRAG_MASOVNOG_UNOSA = 20;
+
+function oznaciMasovniUnos(features) {
+  const poChangesetu = {};
+  features.forEach((f) => {
+    if (!f.changeset) return;
+    (poChangesetu[f.changeset] = poChangesetu[f.changeset] || []).push(f);
+  });
+
+  let oznaceno = 0;
+  Object.entries(poChangesetu).forEach(([changeset, grupa]) => {
+    if (grupa.length >= PRAG_MASOVNOG_UNOSA) {
+      grupa.forEach((f) => {
+        f.masovniUnos = { changeset: Number(changeset), brojZgrada: grupa.length, korisnik: grupa[0].osmUser };
+        oznaceno++;
+      });
+    }
+  });
+  return oznaceno;
+}
+
 async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   console.log(`Dohvaćam: ${fromISO} -> ${toISO}`);
   const elements = await fetchNoveZgrade(fromISO, toISO);
@@ -349,6 +377,11 @@ async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
 
   console.log(`  Računam najbližu cestu za preostale zgrade bez adrese...`);
   await dodajNajblizuCestu(features);
+
+  const brojMasovnih = oznaciMasovniUnos(features);
+  if (brojMasovnih > 0) {
+    console.log(`  Označeno ${brojMasovnih} zgrada kao "masovni unos" (isti changeset, puno zgrada odjednom).`);
+  }
 
   const dateLabel = toISO.slice(0, 10); // samo za "date" prikazno polje u manifestu
   // Naziv DATOTEKE koristi puno vrijeme (ne samo datum) da se izbjegne sudar
