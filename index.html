@@ -728,13 +728,18 @@ async function loadDguNoveAdrese(){
     $('#dguNoveAdresePanel').style.display = 'block';
     $('#dguNoveAdreseStat').textContent = podaci.count.toLocaleString('hr-HR') + ' novih DGU adresa (' + formatDatum(podaci.datum) + ')';
 
-    let html = '<table class="building-table"><thead><tr><th>Adresa</th><th>Naselje</th><th>Grad</th><th>Poštanski broj</th></tr></thead><tbody>';
+    let html = '<table class="building-table"><thead><tr><th>Adresa</th><th>Naselje</th><th>Grad</th><th>Poštanski broj</th><th>Karta</th></tr></thead><tbody>';
     podaci.features.slice(0, 500).forEach(f => {
       const p = f.properties;
+      const coords = f.geometry && f.geometry.coordinates;
+      const gmapsLink = coords
+        ? '<a href="https://www.google.com/maps/search/?api=1&query=' + coords[1] + ',' + coords[0] + '" target="_blank" rel="noopener">Google Maps ↗</a>'
+        : '<span class="muted">—</span>';
       html += '<tr><td>' + [p.street, p.houseNumber].filter(Boolean).join(' ') + '</td>' +
         '<td>' + (p.settlement || '<span class="muted">—</span>') + '</td>' +
         '<td>' + (p.city || '<span class="muted">—</span>') + '</td>' +
-        '<td>' + (p.postcode || '<span class="muted">—</span>') + '</td></tr>';
+        '<td>' + (p.postcode || '<span class="muted">—</span>') + '</td>' +
+        '<td>' + gmapsLink + '</td></tr>';
     });
     html += '</tbody></table>';
     if (podaci.features.length > 500) {
