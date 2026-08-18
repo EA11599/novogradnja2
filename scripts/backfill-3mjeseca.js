@@ -22,6 +22,34 @@ const {
   MAX_DANA_PO_UPITU,
 } = require("./fetch-zgrade");
 
+// Pronalazi sljedeću "prazninu" u pokrivenosti počevši od zadanog datuma -
+// ne oslanja se samo na "najraniji zapis" jer to daje POGREŠAN odgovor
+// nakon djelomičnog (prekinutog) backfilla: ako je backfill stao na pola
+// (npr. 18.5.-27.5. gotovo, 27.5.-20.7. još nedostaje), "najraniji zapis"
+// bi bio 18.5. - isti kao ciljani početak - pa bi skripta pogrešno
+// zaključila da je sve gotovo i preskočila preostalu prazninu bez ikakvog
+// upozorenja. Ovo umjesto toga stvarno prolazi kroz sortiranu vremensku
+// liniju i traži prvi pravi prekid pokrivenosti.
+function pronadjiSljedecuPrazninu(manifest, pocetakTrazenja, krajTrazenja) {
+  const sortirano = [...manifest.entries].sort((a, b) => new Date(a.from) - new Date(b.from));
+  let pokazivac = new Date(pocetakTrazenja);
+
+  for (const e of sortirano) {
+    const eFrom = new Date(e.from);
+    const eTo = new Date(e.to);
+    if (eFrom > pokazivac) {
+      // Praznina pronađena - od pokazivača do početka ovog zapisa.
+      const prazninaTo = eFrom < krajTrazenja ? eFrom : krajTrazenja;
+      return { from: pokazivac, to: prazninaTo };
+    }
+    if (eTo > pokazivac) pokazivac = eTo;
+    if (pokazivac >= krajTrazenja) break;
+  }
+
+  if (pokazivac < krajTrazenja) return { from: pokazivac, to: krajTrazenja };
+  return null; // nema praznine - potpuno pokriveno
+}
+
 async function main() {
   const manifest = loadManifest();
   const zupanije = loadZupanije();
@@ -31,22 +59,27 @@ async function main() {
     return;
   }
 
-  const najraniji = manifest.entries.reduce((min, e) => (new Date(e.from) < new Date(min.from) ? e : min));
-  const krajBackfilla = new Date(najraniji.from); // do ovoga već imamo podatke
-
   const pocetakBackfilla = new Date();
   pocetakBackfilla.setUTCMonth(pocetakBackfilla.getUTCMonth() - 3);
 
-  if (pocetakBackfilla >= krajBackfilla) {
-    console.log("Već imamo podatke za zadnja 3 mjeseca (ili više) - backfill nije potreban.");
-    console.log(`Najraniji postojeći zapis: ${najraniji.from}, ciljani početak: ${pocetakBackfilla.toISOString()}`);
+  // Krajnja granica traženja praznine - trenutak kad su počeli POUZDANO
+  // kontinuirani (ne-backfillani) podaci. Uzimamo najkasniji "from" među
+  // zapisima koji NISU dio backfilla (heuristika: prije prvog pokretanja
+  // ove skripte) nije pouzdano odrediti, pa umjesto toga jednostavno
+  // tražimo prazninu do "sada" - ako već postoji kontinuirana pokrivenost
+  // do trenutnog vremena, praznina se neće naći.
+  const sada = new Date();
+
+  const praznina = pronadjiSljedecuPrazninu(manifest, pocetakBackfilla, sada);
+  if (!praznina) {
+    console.log("Već imamo kontinuiranu pokrivenost za zadnja 3 mjeseca - backfill nije potreban.");
     return;
   }
 
-  console.log(`Backfill period: ${pocetakBackfilla.toISOString()} -> ${krajBackfilla.toISOString()}`);
-  console.log(`(Postojeći podaci pokrivaju od ${najraniji.from} nadalje - ne diramo taj dio.)`);
+  console.log(`Backfill period (praznina u pokrivenosti): ${praznina.from.toISOString()} -> ${praznina.to.toISOString()}`);
 
-  let tekuciFrom = new Date(pocetakBackfilla);
+  let tekuciFrom = new Date(praznina.from);
+  const krajBackfilla = new Date(praznina.to);
   while (tekuciFrom < krajBackfilla) {
     let tekuciTo = new Date(tekuciFrom);
     tekuciTo.setUTCDate(tekuciTo.getUTCDate() + MAX_DANA_PO_UPITU);
@@ -59,12 +92,6 @@ async function main() {
       zupanije
     );
 
-    // KRITIČNO: sortiraj i spremi nakon SVAKOG komada, ne tek na kraju -
-    // obradiJedanKomad gura starije zapise na kraj niza (push), a backfill
-    // je dugotrajan (~20 komada) pa se lako može prekinuti na pola. Bez
-    // ovoga bi prekid ostavio manifest u nesortiranom stanju, kvareći
-    // "zadnji zapis = najnoviji" pretpostavku koju frontend i ostale
-    // skripte koriste za "zadnjih 7 dana" prozor.
     manifest.entries.sort((a, b) => new Date(a.to) - new Date(b.to));
     saveManifest(manifest);
 
@@ -74,7 +101,7 @@ async function main() {
   pruneOldEntries(manifest);
   saveManifest(manifest);
 
-  console.log(`\nBackfill gotov. Manifest sad ima ${manifest.entries.length} zapisa.`);
+  console.log(`\nOvaj dio backfilla gotov. Manifest sad ima ${manifest.entries.length} zapisa. Pokreni skriptu ponovno da provjeriš ima li još praznina (npr. ako je Overpass rušio upite usred ovog pokretanja).`);
 }
 
 main().catch((err) => {
