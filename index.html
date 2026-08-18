@@ -146,7 +146,7 @@
   /* ---------- stat cards ---------- */
   .stats-grid{
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 14px;
     margin-bottom: 18px;
   }
@@ -156,6 +156,11 @@
     border-radius: var(--radius);
     padding: 20px 22px;
     box-shadow: var(--shadow);
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+  }
+  #statDguNoveCard:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
   }
   .stat-label{
     font-size: 12.5px;
@@ -545,6 +550,10 @@
       <div class="stat-label">Zadnje ažurirano</div>
       <div class="stat-value" id="statUpdated" style="font-size:20px;">–</div>
     </div>
+    <div class="stat-card" id="statDguNoveCard" style="display:none; cursor:pointer; border-color: var(--accent);" title="Klikni za popis novih DGU adresa">
+      <div class="stat-label">Nove DGU adrese</div>
+      <div class="stat-value" id="statDguNove" style="color: var(--accent-dark);">–</div>
+    </div>
   </div>
 
   <div class="content-grid">
@@ -585,14 +594,16 @@
   </div>
 
   <div class="panel" id="dguNoveAdresePanel" style="display:none; margin-top: 20px;">
-    <h2 style="font-size:18px; margin:0 0 4px;">Nove DGU adrese</h2>
-    <div style="color:var(--text-secondary); font-size:13px; margin-bottom:12px;">
-      Adrese koje su se pojavile u službenom DGU adresnom registru od zadnje mjesečne usporedbe.
-      <strong>Napomena:</strong> ovo NIJE potvrda nove gradnje — nova DGU adresa može biti i naknadno
-      unesen ili ispravljen stariji zapis (administrativno ažuriranje), isto kao i s OSM podacima.
-      Ažurira se mjesečno, odvojeno od tjednog praćenja OSM zgrada iznad.
+    <div style="padding: 20px 20px 4px;">
+      <h2 style="font-size:18px; margin:0 0 6px;">Nove DGU adrese</h2>
+      <div style="color:var(--text-secondary); font-size:13px; line-height:1.5; margin-bottom:14px;">
+        Adrese koje su se pojavile u službenom DGU adresnom registru od zadnje mjesečne usporedbe.
+        <strong>Napomena:</strong> ovo NIJE potvrda nove gradnje — nova DGU adresa može biti i naknadno
+        unesen ili ispravljen stariji zapis (administrativno ažuriranje), isto kao i s OSM podacima.
+        Ažurira se mjesečno, odvojeno od tjednog praćenja OSM zgrada iznad.
+      </div>
+      <div id="dguNoveAdreseStat" style="font-size:14px; font-weight:600; margin-bottom:14px;"></div>
     </div>
-    <div id="dguNoveAdreseStat" style="font-size:14px; font-weight:600; margin-bottom:12px;"></div>
     <div id="dguNoveAdreseTableWrap"></div>
   </div>
 </main>
@@ -727,6 +738,13 @@ async function loadDguNoveAdrese(){
 
     $('#dguNoveAdresePanel').style.display = 'block';
     $('#dguNoveAdreseStat').textContent = podaci.count.toLocaleString('hr-HR') + ' novih DGU adresa (' + formatDatum(podaci.datum) + ')';
+
+    $('#statDguNove').textContent = podaci.count.toLocaleString('hr-HR');
+    const kartica = $('#statDguNoveCard');
+    kartica.style.display = 'block';
+    kartica.addEventListener('click', () => {
+      $('#dguNoveAdresePanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
 
     let html = '<table class="building-table"><thead><tr><th>Adresa</th><th>Naselje</th><th>Grad</th><th>Poštanski broj</th><th>Karta</th></tr></thead><tbody>';
     podaci.features.slice(0, 500).forEach(f => {
