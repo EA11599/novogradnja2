@@ -1,0 +1,1581 @@
+{
+  "from": "2026-08-17T21:16:02Z",
+  "to": "2026-08-18T13:42:16Z",
+  "count": 36,
+  "features": [
+    {
+      "id": "way/1550435694",
+      "lat": 45.0121348,
+      "lon": 13.9101956,
+      "obris": [
+        [
+          13.91019,
+          45.012113
+        ],
+        [
+          13.910234,
+          45.01215
+        ],
+        [
+          13.910204,
+          45.012168
+        ],
+        [
+          13.91016,
+          45.01213
+        ],
+        [
+          13.91019,
+          45.012113
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "building:colour": "beige",
+        "building:levels": "1",
+        "building:material": "block",
+        "roof:colour": "red",
+        "roof:direction": "along",
+        "roof:material": "roof_tiles",
+        "roof:shape": "skillion"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-17T22:41:50Z",
+      "changeset": 187612168,
+      "osmUser": "Toddy6493",
+      "nearestStreet": "Butkovići",
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom i pratećim strukturama, jasno prepoznatljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:47:58.810Z"
+      }
+    },
+    {
+      "id": "way/1550459095",
+      "lat": 45.31280114285715,
+      "lon": 18.405590999999998,
+      "obris": [
+        [
+          18.405722,
+          45.312747
+        ],
+        [
+          18.405747,
+          45.312802
+        ],
+        [
+          18.405537,
+          45.312851
+        ],
+        [
+          18.40552,
+          45.312816
+        ],
+        [
+          18.405449,
+          45.312832
+        ],
+        [
+          18.40544,
+          45.312813
+        ],
+        [
+          18.405722,
+          45.312747
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "34a",
+        "addr:postcode": "31400",
+        "addr:street": "Pašin prolaz",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459096",
+      "lat": 45.3140578,
+      "lon": 18.4067866,
+      "obris": [
+        [
+          18.406741,
+          45.314098
+        ],
+        [
+          18.406713,
+          45.314024
+        ],
+        [
+          18.406855,
+          45.313997
+        ],
+        [
+          18.406883,
+          45.314072
+        ],
+        [
+          18.406741,
+          45.314098
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "2a",
+        "addr:postcode": "31400",
+        "addr:street": "Diljska ulica",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459108",
+      "lat": 45.310128857142864,
+      "lon": 18.403787857142856,
+      "obris": [
+        [
+          18.403638,
+          45.310124
+        ],
+        [
+          18.403721,
+          45.310026
+        ],
+        [
+          18.403864,
+          45.310087
+        ],
+        [
+          18.403835,
+          45.310121
+        ],
+        [
+          18.403943,
+          45.310169
+        ],
+        [
+          18.403876,
+          45.310251
+        ],
+        [
+          18.403638,
+          45.310124
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "1a",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica kralja Petra Krešimira",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459109",
+      "lat": 45.31237900000001,
+      "lon": 18.4019126,
+      "obris": [
+        [
+          18.401869,
+          45.312334
+        ],
+        [
+          18.401829,
+          45.312378
+        ],
+        [
+          18.401978,
+          45.312446
+        ],
+        [
+          18.402018,
+          45.312403
+        ],
+        [
+          18.401869,
+          45.312334
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "38a",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica kneza Branimira",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459110",
+      "lat": 45.312207,
+      "lon": 18.4015772,
+      "obris": [
+        [
+          18.401486,
+          45.312201
+        ],
+        [
+          18.401645,
+          45.312283
+        ],
+        [
+          18.401714,
+          45.312216
+        ],
+        [
+          18.401555,
+          45.312134
+        ],
+        [
+          18.401486,
+          45.312201
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "23a",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica kneza Branimira",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459111",
+      "lat": 45.3106442,
+      "lon": 18.401100400000004,
+      "obris": [
+        [
+          18.401064,
+          45.310715
+        ],
+        [
+          18.401004,
+          45.310568
+        ],
+        [
+          18.401155,
+          45.310538
+        ],
+        [
+          18.401215,
+          45.310685
+        ],
+        [
+          18.401064,
+          45.310715
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "2c",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica Tina Ujevića",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459112",
+      "lat": 45.310954200000005,
+      "lon": 18.400924600000003,
+      "obris": [
+        [
+          18.400872,
+          45.310985
+        ],
+        [
+          18.400853,
+          45.310937
+        ],
+        [
+          18.401004,
+          45.310908
+        ],
+        [
+          18.401022,
+          45.310956
+        ],
+        [
+          18.400872,
+          45.310985
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "1",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica Tina Ujevića",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459113",
+      "lat": 45.310991200000004,
+      "lon": 18.4009386,
+      "obris": [
+        [
+          18.400872,
+          45.310985
+        ],
+        [
+          18.400888,
+          45.311029
+        ],
+        [
+          18.401039,
+          45.311001
+        ],
+        [
+          18.401022,
+          45.310956
+        ],
+        [
+          18.400872,
+          45.310985
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "3",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica Tina Ujevića",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459114",
+      "lat": 45.3129122,
+      "lon": 18.3969078,
+      "obris": [
+        [
+          18.396847,
+          45.312971
+        ],
+        [
+          18.396795,
+          45.312886
+        ],
+        [
+          18.396999,
+          45.312824
+        ],
+        [
+          18.397051,
+          45.312909
+        ],
+        [
+          18.396847,
+          45.312971
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "78",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica kralja Zvonimira",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459116",
+      "lat": 45.312287600000005,
+      "lon": 18.396116,
+      "obris": [
+        [
+          18.39606,
+          45.312336
+        ],
+        [
+          18.396041,
+          45.31223
+        ],
+        [
+          18.3962,
+          45.312215
+        ],
+        [
+          18.396219,
+          45.312321
+        ],
+        [
+          18.39606,
+          45.312336
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "5",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica 122. brigade Hrvatske vojske",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459117",
+      "lat": 45.31230479999999,
+      "lon": 18.395744,
+      "obris": [
+        [
+          18.395678,
+          45.312366
+        ],
+        [
+          18.395653,
+          45.31223
+        ],
+        [
+          18.395843,
+          45.312213
+        ],
+        [
+          18.395868,
+          45.312349
+        ],
+        [
+          18.395678,
+          45.312366
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "9",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica 122. brigade Hrvatske vojske",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459118",
+      "lat": 45.31232414285715,
+      "lon": 18.39527671428571,
+      "obris": [
+        [
+          18.395233,
+          45.312422
+        ],
+        [
+          18.395196,
+          45.31225
+        ],
+        [
+          18.395286,
+          45.31224
+        ],
+        [
+          18.395292,
+          45.312266
+        ],
+        [
+          18.395333,
+          45.312261
+        ],
+        [
+          18.395364,
+          45.312408
+        ],
+        [
+          18.395233,
+          45.312422
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "13",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica 122. brigade Hrvatske vojske",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459119",
+      "lat": 45.3124278,
+      "lon": 18.3944202,
+      "obris": [
+        [
+          18.394363,
+          45.312497
+        ],
+        [
+          18.394332,
+          45.312341
+        ],
+        [
+          18.394506,
+          45.312324
+        ],
+        [
+          18.394537,
+          45.31248
+        ],
+        [
+          18.394363,
+          45.312497
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "17",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica 122. brigade Hrvatske vojske",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459120",
+      "lat": 45.3110668,
+      "lon": 18.391531399999998,
+      "obris": [
+        [
+          18.391493,
+          45.311026
+        ],
+        [
+          18.391565,
+          45.311018
+        ],
+        [
+          18.391589,
+          45.311128
+        ],
+        [
+          18.391517,
+          45.311136
+        ],
+        [
+          18.391493,
+          45.311026
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "147b",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica Franje Račkog",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459121",
+      "lat": 45.3114606,
+      "lon": 18.380437800000003,
+      "obris": [
+        [
+          18.380299,
+          45.311588
+        ],
+        [
+          18.380241,
+          45.311311
+        ],
+        [
+          18.380646,
+          45.31127
+        ],
+        [
+          18.380704,
+          45.311546
+        ],
+        [
+          18.380299,
+          45.311588
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "209",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica Franje Račkog",
+        "building": "yes"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459122",
+      "lat": 45.31211079999999,
+      "lon": 18.3855568,
+      "obris": [
+        [
+          18.385479,
+          45.312168
+        ],
+        [
+          18.385453,
+          45.31205
+        ],
+        [
+          18.385673,
+          45.312025
+        ],
+        [
+          18.3857,
+          45.312143
+        ],
+        [
+          18.385479,
+          45.312168
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "192",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica Franje Račkog",
+        "building": "yes"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550459123",
+      "lat": 45.31172185714286,
+      "lon": 18.39054714285714,
+      "obris": [
+        [
+          18.390496,
+          45.311777
+        ],
+        [
+          18.390478,
+          45.311683
+        ],
+        [
+          18.390555,
+          45.311676
+        ],
+        [
+          18.390558,
+          45.311691
+        ],
+        [
+          18.390616,
+          45.311685
+        ],
+        [
+          18.390631,
+          45.311764
+        ],
+        [
+          18.390496,
+          45.311777
+        ]
+      ],
+      "tags": {
+        "addr:city": "Đakovo",
+        "addr:housenumber": "160a",
+        "addr:postcode": "31400",
+        "addr:street": "Ulica Franje Račkog",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-08-18T01:50:26Z",
+      "changeset": 187615378,
+      "osmUser": "TheBladecatcher"
+    },
+    {
+      "id": "way/1550488325",
+      "lat": 45.61287757142857,
+      "lon": 17.54025157142857,
+      "obris": [
+        [
+          17.540228,
+          45.612835
+        ],
+        [
+          17.540229,
+          45.612895
+        ],
+        [
+          17.540247,
+          45.612895
+        ],
+        [
+          17.540248,
+          45.612924
+        ],
+        [
+          17.540291,
+          45.612924
+        ],
+        [
+          17.54029,
+          45.612835
+        ],
+        [
+          17.540228,
+          45.612835
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje praznu površinu bez vidljivih zgrada ili krovova u centralnom dijelu kadra.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:47:57.867Z"
+      }
+    },
+    {
+      "id": "way/1550488326",
+      "lat": 45.6129124,
+      "lon": 17.540028799999998,
+      "obris": [
+        [
+          17.539981,
+          45.612879
+        ],
+        [
+          17.540098,
+          45.612877
+        ],
+        [
+          17.540101,
+          45.612963
+        ],
+        [
+          17.539983,
+          45.612964
+        ],
+        [
+          17.539981,
+          45.612879
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Dubrovačka",
+        "houseNumber": "37",
+        "settlement": "Voćin",
+        "postcode": "33522",
+        "city": "Voćin"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1550488327",
+      "lat": 45.6131888,
+      "lon": 17.540087,
+      "obris": [
+        [
+          17.540133,
+          45.613213
+        ],
+        [
+          17.540022,
+          45.613216
+        ],
+        [
+          17.540018,
+          45.613152
+        ],
+        [
+          17.540129,
+          45.61315
+        ],
+        [
+          17.540133,
+          45.613213
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje prirodni teren, vjerojatno poljoprivredno zemljište ili vegetaciju, bez vidljive izgrađene strukture u centru kadra.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:47:58.784Z"
+      }
+    },
+    {
+      "id": "way/1550488328",
+      "lat": 45.61329844444444,
+      "lon": 17.540074222222223,
+      "obris": [
+        [
+          17.540131,
+          45.613296
+        ],
+        [
+          17.540132,
+          45.613326
+        ],
+        [
+          17.540048,
+          45.613327
+        ],
+        [
+          17.540049,
+          45.613343
+        ],
+        [
+          17.539971,
+          45.613345
+        ],
+        [
+          17.539967,
+          45.613253
+        ],
+        [
+          17.54011,
+          45.61325
+        ],
+        [
+          17.540129,
+          45.61325
+        ],
+        [
+          17.540131,
+          45.613296
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Dubrovačka",
+        "houseNumber": "33",
+        "settlement": "Voćin",
+        "postcode": "33522",
+        "city": "Voćin"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1550488329",
+      "lat": 45.613259,
+      "lon": 17.540177666666665,
+      "obris": [
+        [
+          17.540271,
+          45.613293
+        ],
+        [
+          17.540131,
+          45.613296
+        ],
+        [
+          17.540129,
+          45.61325
+        ],
+        [
+          17.54011,
+          45.61325
+        ],
+        [
+          17.540109,
+          45.613233
+        ],
+        [
+          17.540154,
+          45.613232
+        ],
+        [
+          17.540155,
+          45.613243
+        ],
+        [
+          17.540269,
+          45.613241
+        ],
+        [
+          17.540271,
+          45.613293
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje praznu površinu, najvjerojatnije neizgrađeno zemljište ili travnjak bez vidljive građevine u centru kadra.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:47:58.819Z"
+      }
+    },
+    {
+      "id": "way/1550488330",
+      "lat": 45.6133708,
+      "lon": 17.540208,
+      "obris": [
+        [
+          17.540168,
+          45.613396
+        ],
+        [
+          17.540271,
+          45.613394
+        ],
+        [
+          17.540268,
+          45.613333
+        ],
+        [
+          17.540165,
+          45.613335
+        ],
+        [
+          17.540168,
+          45.613396
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje samo belu pozadinu bez vidljivih građevina ili struktura.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:47:57.665Z"
+      }
+    },
+    {
+      "id": "way/1550488331",
+      "lat": 45.61344272727273,
+      "lon": 17.540195545454548,
+      "obris": [
+        [
+          17.540174,
+          45.613408
+        ],
+        [
+          17.540245,
+          45.613406
+        ],
+        [
+          17.540248,
+          45.613461
+        ],
+        [
+          17.540226,
+          45.613462
+        ],
+        [
+          17.540228,
+          45.613487
+        ],
+        [
+          17.540179,
+          45.613488
+        ],
+        [
+          17.540177,
+          45.613449
+        ],
+        [
+          17.540163,
+          45.613449
+        ],
+        [
+          17.540162,
+          45.613426
+        ],
+        [
+          17.540175,
+          45.613426
+        ],
+        [
+          17.540174,
+          45.613408
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje samo bijelu/praznu površinu bez vidljivih građevina ili krovova.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:48:00.339Z"
+      }
+    },
+    {
+      "id": "way/1550488332",
+      "lat": 45.6136002,
+      "lon": 17.5402034,
+      "obris": [
+        [
+          17.540313,
+          45.613559
+        ],
+        [
+          17.540021,
+          45.613612
+        ],
+        [
+          17.540039,
+          45.613662
+        ],
+        [
+          17.540331,
+          45.613609
+        ],
+        [
+          17.540313,
+          45.613559
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Dubrovačka",
+        "houseNumber": "31",
+        "settlement": "Voćin",
+        "postcode": "33522",
+        "city": "Voćin"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1550488333",
+      "lat": 45.61430420000001,
+      "lon": 17.540970599999998,
+      "obris": [
+        [
+          17.541,
+          45.614285
+        ],
+        [
+          17.540914,
+          45.614316
+        ],
+        [
+          17.540927,
+          45.614333
+        ],
+        [
+          17.541012,
+          45.614302
+        ],
+        [
+          17.541,
+          45.614285
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje isključivo praznu, zelenu površinu bez vidljive građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:48:00.806Z"
+      }
+    },
+    {
+      "id": "way/1550488334",
+      "lat": 45.614322,
+      "lon": 17.5407332,
+      "obris": [
+        [
+          17.54066,
+          45.614326
+        ],
+        [
+          17.540699,
+          45.614374
+        ],
+        [
+          17.540843,
+          45.614316
+        ],
+        [
+          17.540804,
+          45.614268
+        ],
+        [
+          17.54066,
+          45.614326
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje samo vegetaciju i prirodni teren bez vidljive izgrađene strukture ili krova u centralnom dijelu kadra.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:48:00.385Z"
+      }
+    },
+    {
+      "id": "way/1550488335",
+      "lat": 45.614357285714284,
+      "lon": 17.540638142857144,
+      "obris": [
+        [
+          17.540645,
+          45.614309
+        ],
+        [
+          17.54066,
+          45.614326
+        ],
+        [
+          17.540699,
+          45.614374
+        ],
+        [
+          17.54071,
+          45.614387
+        ],
+        [
+          17.540586,
+          45.614437
+        ],
+        [
+          17.540522,
+          45.614359
+        ],
+        [
+          17.540645,
+          45.614309
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T07:14:22Z",
+      "changeset": 187622788,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Dubrovačka",
+        "houseNumber": "25",
+        "settlement": "Voćin",
+        "postcode": "33522",
+        "city": "Voćin"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1550497635",
+      "lat": 46.0004482,
+      "lon": 16.919481,
+      "obris": [
+        [
+          16.919469,
+          46.000447
+        ],
+        [
+          16.919481,
+          46.000459
+        ],
+        [
+          16.919499,
+          46.00045
+        ],
+        [
+          16.919487,
+          46.000438
+        ],
+        [
+          16.919469,
+          46.000447
+        ]
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "kapela sv. Roka",
+        "religion": "christian"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-08-18T08:22:25Z",
+      "changeset": 187625686,
+      "osmUser": "bjelsjole",
+      "nearestStreet": "Bjelovarska ulica",
+      "nearestStreetDist": 10,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje otvoreno, prazno područje bez vidljivih građevina ili krovova.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:48:00.207Z"
+      }
+    },
+    {
+      "id": "way/1550520857",
+      "lat": 45.27312800000001,
+      "lon": 15.195226333333332,
+      "obris": [
+        [
+          15.195204,
+          45.273206
+        ],
+        [
+          15.195107,
+          45.273117
+        ],
+        [
+          15.195218,
+          45.273057
+        ],
+        [
+          15.195272,
+          45.273052
+        ],
+        [
+          15.195353,
+          45.27313
+        ],
+        [
+          15.195204,
+          45.273206
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Karlovačka županija",
+      "validFrom": "2026-08-18T10:32:56Z",
+      "changeset": 187631704,
+      "osmUser": "Đuro Jiří",
+      "dguAdresa": {
+        "street": "Sveti Petar",
+        "houseNumber": "117B",
+        "settlement": "Sveti Petar",
+        "postcode": "47300",
+        "city": "Ogulin"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1550520859",
+      "lat": 45.2734774,
+      "lon": 15.167645400000001,
+      "obris": [
+        [
+          15.167609,
+          45.273497
+        ],
+        [
+          15.167631,
+          45.273436
+        ],
+        [
+          15.1677,
+          45.273448
+        ],
+        [
+          15.167678,
+          45.273509
+        ],
+        [
+          15.167609,
+          45.273497
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Karlovačka županija",
+      "validFrom": "2026-08-18T10:32:56Z",
+      "changeset": 187631704,
+      "osmUser": "Đuro Jiří",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je pravokutna građevina s krovom svjetlije boje, okružena gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:48:01.325Z"
+      }
+    },
+    {
+      "id": "way/1550520860",
+      "lat": 45.27077085714286,
+      "lon": 15.199832857142857,
+      "obris": [
+        [
+          15.199816,
+          45.270851
+        ],
+        [
+          15.199703,
+          45.270779
+        ],
+        [
+          15.199808,
+          45.270699
+        ],
+        [
+          15.199865,
+          45.270736
+        ],
+        [
+          15.199883,
+          45.270722
+        ],
+        [
+          15.199939,
+          45.270758
+        ],
+        [
+          15.199816,
+          45.270851
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Karlovačka županija",
+      "validFrom": "2026-08-18T10:32:56Z",
+      "changeset": 187631704,
+      "osmUser": "Đuro Jiří",
+      "dguAdresa": {
+        "street": "Sveti Petar",
+        "houseNumber": "120B",
+        "settlement": "Sveti Petar",
+        "postcode": "47300",
+        "city": "Ogulin"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1550569823",
+      "lat": 45.607895600000006,
+      "lon": 17.5344512,
+      "obris": [
+        [
+          17.53442,
+          45.607909
+        ],
+        [
+          17.53447,
+          45.607923
+        ],
+        [
+          17.534498,
+          45.607876
+        ],
+        [
+          17.534448,
+          45.607861
+        ],
+        [
+          17.53442,
+          45.607909
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T13:08:28Z",
+      "changeset": 187638672,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje samo bijelu/svjetlu površinu bez vidljivih građevina, krovova ili drugih izgrađenih struktura.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:48:03.319Z"
+      }
+    },
+    {
+      "id": "way/1550569824",
+      "lat": 45.6076674,
+      "lon": 17.534567199999998,
+      "obris": [
+        [
+          17.534594,
+          45.607653
+        ],
+        [
+          17.534594,
+          45.607689
+        ],
+        [
+          17.534527,
+          45.607689
+        ],
+        [
+          17.534527,
+          45.607653
+        ],
+        [
+          17.534594,
+          45.607653
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T13:08:28Z",
+      "changeset": 187638672,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje praznu ili neizgrađenu površinu bez vidljivih krovova ili građevina.",
+        "izvor": "DGU ortofoto 2022",
+        "provjereno": "2026-08-18T13:48:02.707Z"
+      }
+    },
+    {
+      "id": "way/1550569825",
+      "lat": 45.60760109090909,
+      "lon": 17.534437636363634,
+      "obris": [
+        [
+          17.534553,
+          45.607567
+        ],
+        [
+          17.534663,
+          45.607627
+        ],
+        [
+          17.534624,
+          45.607662
+        ],
+        [
+          17.534543,
+          45.607617
+        ],
+        [
+          17.534385,
+          45.607601
+        ],
+        [
+          17.53438,
+          45.607628
+        ],
+        [
+          17.534302,
+          45.607621
+        ],
+        [
+          17.534307,
+          45.607595
+        ],
+        [
+          17.534247,
+          45.607589
+        ],
+        [
+          17.534257,
+          45.607538
+        ],
+        [
+          17.534553,
+          45.607567
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-08-18T13:08:28Z",
+      "changeset": 187638672,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Dubrovačka",
+        "houseNumber": "125",
+        "settlement": "Voćin",
+        "postcode": "33522",
+        "city": "Voćin"
+      },
+      "dguBrojJedinica": 1
+    }
+  ]
+}
