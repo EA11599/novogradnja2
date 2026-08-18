@@ -13,7 +13,8 @@
     "backfill:datumi": "node scripts/backfill-datumi.js",
     "backfill:oznake": "node scripts/backfill-oznake.js",
     "satelit:verifikacija": "node scripts/satelit-verifikacija.js",
-    "backfill:obris": "node scripts/backfill-obris.js"
+    "backfill:obris": "node scripts/backfill-obris.js",
+    "dgu:nove-adrese": "node scripts/dgu-nove-adrese.js"
   },
   "dependencies": {
     "@turf/boolean-point-in-polygon": "^7.4.0",

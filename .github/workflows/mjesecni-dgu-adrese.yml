@@ -33,11 +33,14 @@ jobs:
           mkdir -p data/dgu-adrese
           mv .tmp-dgu-out/*.geojson data/dgu-adrese/
 
+      - name: Detektiraj nove DGU adrese (usporedba s proslim mjesecom)
+        run: node scripts/dgu-nove-adrese.js
+
       - name: Commitaj promjene
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/dgu-adrese
+          git add data/dgu-adrese data/dgu-baza-adresa data/dgu-nove-adrese
           if git diff --cached --quiet; then
             echo "Nema promjena za commit."
           else

@@ -583,6 +583,18 @@
     <div id="tableWrap"></div>
     <div class="list-footer" id="listFooter"></div>
   </div>
+
+  <div class="panel" id="dguNoveAdresePanel" style="display:none; margin-top: 20px;">
+    <h2 style="font-size:18px; margin:0 0 4px;">Nove DGU adrese</h2>
+    <div style="color:var(--text-secondary); font-size:13px; margin-bottom:12px;">
+      Adrese koje su se pojavile u službenom DGU adresnom registru od zadnje mjesečne usporedbe.
+      <strong>Napomena:</strong> ovo NIJE potvrda nove gradnje — nova DGU adresa može biti i naknadno
+      unesen ili ispravljen stariji zapis (administrativno ažuriranje), isto kao i s OSM podacima.
+      Ažurira se mjesečno, odvojeno od tjednog praćenja OSM zgrada iznad.
+    </div>
+    <div id="dguNoveAdreseStat" style="font-size:14px; font-weight:600; margin-bottom:12px;"></div>
+    <div id="dguNoveAdreseTableWrap"></div>
+  </div>
 </main>
 
 <div class="modal-overlay" id="modalOverlay">
@@ -697,6 +709,41 @@ async function init(){
 
   // default: prikaži sve dostupno
   await selectWindow(null);
+
+  await loadDguNoveAdrese();
+}
+
+async function loadDguNoveAdrese(){
+  try {
+    const res = await fetch('data/dgu-nove-adrese/manifest.json', { cache: 'no-store' });
+    if (!res.ok) return; // manifest još ne postoji - workflow se nije pokrenuo
+    const dguManifest = await res.json();
+    if (!dguManifest.entries || dguManifest.entries.length === 0) return;
+
+    const zadnji = dguManifest.entries[dguManifest.entries.length - 1];
+    const dataRes = await fetch(zadnji.file, { cache: 'no-store' });
+    if (!dataRes.ok) return;
+    const podaci = await dataRes.json();
+
+    $('#dguNoveAdresePanel').style.display = 'block';
+    $('#dguNoveAdreseStat').textContent = podaci.count.toLocaleString('hr-HR') + ' novih DGU adresa (' + formatDatum(podaci.datum) + ')';
+
+    let html = '<table class="building-table"><thead><tr><th>Adresa</th><th>Naselje</th><th>Grad</th><th>Poštanski broj</th></tr></thead><tbody>';
+    podaci.features.slice(0, 500).forEach(f => {
+      const p = f.properties;
+      html += '<tr><td>' + [p.street, p.houseNumber].filter(Boolean).join(' ') + '</td>' +
+        '<td>' + (p.settlement || '<span class="muted">—</span>') + '</td>' +
+        '<td>' + (p.city || '<span class="muted">—</span>') + '</td>' +
+        '<td>' + (p.postcode || '<span class="muted">—</span>') + '</td></tr>';
+    });
+    html += '</tbody></table>';
+    if (podaci.features.length > 500) {
+      html += '<div class="list-footer">Prikazano prvih 500 od ' + podaci.count.toLocaleString('hr-HR') + '.</div>';
+    }
+    $('#dguNoveAdreseTableWrap').innerHTML = html;
+  } catch (err) {
+    console.warn('DGU nove adrese nisu dostupne:', err.message);
+  }
 }
 
 function renderWindowButtons(){
