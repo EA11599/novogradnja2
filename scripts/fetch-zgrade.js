@@ -458,8 +458,20 @@ async function main() {
   // Namjerno izostavljeno dok baza pretplatnika ne postoji.
 }
 
-main().catch((err) => {
-  console.error("Pipeline pukao:", err.message);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    console.error("Pipeline pukao:", err.message);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  loadManifest,
+  saveManifest,
+  loadZupanije,
+  normalizeTimestamp,
+  obradiJedanKomad,
+  pruneOldEntries,
+  MAX_DANA_PO_UPITU,
+};
 
