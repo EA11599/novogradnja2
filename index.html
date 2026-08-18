@@ -927,6 +927,8 @@ function getFilteredFeaturesBezZupanije(){
   return allFeaturesInWindow.filter(f => {
     if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
+    if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
+    if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
     const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'name'), tag(f,'building')]
       .filter(Boolean).join(' ').toLowerCase();
@@ -1210,20 +1212,59 @@ function izvrsiIzvoz(samoOveZupanije){
   XLSX.writeFile(wb, nazivDatoteke());
 }
 
+// Izvozi TOČNO ono što je trenutno prikazano u tablici - poštuje SVE
+// aktivne filtere (županije, tip, katovi, satelit, DGU, pretraga), jedan
+// sheet umjesto podjele po županijama.
+function izvrsiIzvozTrenutnaLista(){
+  const rows = getFilteredFeatures().map(redakZaIzvoz);
+  if (rows.length === 0){
+    alert('Nema podataka za izvoz s trenutnim filterima.');
+    return;
+  }
+  const wb = XLSX.utils.book_new();
+  const ws = XLSX.utils.json_to_sheet(rows);
+  XLSX.utils.book_append_sheet(wb, ws, 'Nove zgrade');
+  XLSX.writeFile(wb, nazivDatoteke());
+}
+
+function imaAktivnihFiltera(){
+  return selectedZupanije.size > 0 || selectedBuildingTypes.size > 0 || selectedLevels.size > 0
+    || samoSatelitskiKandidati || samoViseDguAdresa || (($('#searchBox').value || '').trim() !== '');
+}
+
 function otvoriIzborZupanijaModal(){
-  const brojOdabranih = selectedZupanije.size;
+  const dijeloviOpisa = [];
+  if (selectedZupanije.size > 0) dijeloviOpisa.push(selectedZupanije.size + ' županija');
+  if (selectedBuildingTypes.size > 0) dijeloviOpisa.push(selectedBuildingTypes.size + ' tip(ova) zgrade');
+  if (selectedLevels.size > 0) dijeloviOpisa.push('katovi');
+  if (samoSatelitskiKandidati) dijeloviOpisa.push('satelitski kandidati');
+  if (samoViseDguAdresa) dijeloviOpisa.push('više DGU adresa');
+  if (($('#searchBox').value || '').trim()) dijeloviOpisa.push('pretraga "' + $('#searchBox').value.trim() + '"');
+
+  let gumbi = '<button class="modal-choice-btn" id="izvozTrenutnaListaBtn">Trenutna lista<span class="sub">Točno kako je prikazano - svi aktivni filteri, jedan list</span></button>';
+  if (selectedZupanije.size > 0) {
+    gumbi += '<button class="modal-choice-btn" id="izvozSamoOdabraneBtn">Samo odabrane županije<span class="sub">' + Array.from(selectedZupanije).join(', ') + ' - po sheetovima, ostali filteri i dalje vrijede</span></button>';
+  }
+  gumbi += '<button class="modal-choice-btn" id="izvozSveBtn">Sve županije<span class="sub">Svaka županija u zasebnom sheetu, ostali filteri i dalje vrijede</span></button>';
+
   $('#modalCard').innerHTML =
     '<button class="modal-close" id="modalCloseBtn">×</button>' +
     '<h3>Izvoz u Excel</h3>' +
-    '<div style="color:var(--text-secondary);font-size:13.5px;margin-top:4px;">Odabrano je ' + brojOdabranih + ' županija filterom. Što želiš izvesti?</div>' +
-    '<button class="modal-choice-btn" id="izvozSamoOdabraneBtn">Samo odabrane županije<span class="sub">' + Array.from(selectedZupanije).join(', ') + '</span></button>' +
-    '<button class="modal-choice-btn" id="izvozSveBtn">Sve županije<span class="sub">Svaka županija u zasebnom sheetu</span></button>';
+    '<div style="color:var(--text-secondary);font-size:13.5px;margin-top:4px;">Aktivni filteri: ' + dijeloviOpisa.join(', ') + '. Što želiš izvesti?</div>' +
+    gumbi;
   $('#modalOverlay').classList.add('open');
 
-  $('#izvozSamoOdabraneBtn').addEventListener('click', () => {
+  $('#izvozTrenutnaListaBtn').addEventListener('click', () => {
     $('#modalOverlay').classList.remove('open');
-    izvrsiIzvoz(new Set(selectedZupanije));
+    izvrsiIzvozTrenutnaLista();
   });
+  const samoOdabraneBtn = document.getElementById('izvozSamoOdabraneBtn');
+  if (samoOdabraneBtn) {
+    samoOdabraneBtn.addEventListener('click', () => {
+      $('#modalOverlay').classList.remove('open');
+      izvrsiIzvoz(new Set(selectedZupanije));
+    });
+  }
   $('#izvozSveBtn').addEventListener('click', () => {
     $('#modalOverlay').classList.remove('open');
     izvrsiIzvoz(null);
@@ -1231,7 +1272,7 @@ function otvoriIzborZupanijaModal(){
 }
 
 $('#exportBtn').addEventListener('click', () => {
-  if (selectedZupanije.size > 0) {
+  if (imaAktivnihFiltera()) {
     otvoriIzborZupanijaModal();
   } else {
     izvrsiIzvoz(null);
