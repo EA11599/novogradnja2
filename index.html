@@ -1359,6 +1359,7 @@ function buildDetailMapHtml(features, zupanije){
   const featuresJson = JSON.stringify(features.filter(f => f.lat !== null && f.lon !== null));
   const zupanijeJson = JSON.stringify(zupanije);
   const dguBaseUrl = new URL('data/dgu-adrese/', window.location.href).href;
+  const dguNoveAdreseBaseUrl = new URL('data/dgu-nove-adrese/', window.location.href).href;
   return `<!DOCTYPE html>
 <html lang="hr"><head><meta charset="UTF-8">
 <title>Nove zgrade — detaljna karta</title>
@@ -1425,6 +1426,10 @@ function buildDetailMapHtml(features, zupanije){
       <div class="note">Učitava se po županiji, samo za trenutno vidljive (ovisi o kvačicama iznad). Ažurira se mjesečno.</div>
       <div id="dguStatus" style="font-size:11.5px;color:var(--text-secondary);margin-top:4px;"></div>
     </div>
+    <div class="extra-toggle-row" id="dguNoveRow" style="display:none;">
+      <label><input type="checkbox" id="dguNoveToggle"> Prikaži nove DGU adrese <span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#7C3AED;margin-left:4px;"></span></label>
+      <div class="note">Adrese koje su se pojavile u DGU registru od zadnje usporedbe (ljubičasto). Nije potvrda nove gradnje.</div>
+    </div>
     <div class="extra-toggle-row" id="satelitFilterRow" style="display:none;">
       <label><input type="checkbox" id="satelitFilterCheckbox"> Samo satelitski kandidati</label>
     </div>
@@ -1439,6 +1444,7 @@ function buildDetailMapHtml(features, zupanije){
 const FEATURES = ${featuresJson};
 const ZUPANIJE = ${zupanijeJson};
 const DGU_BASE_URL = ${JSON.stringify(dguBaseUrl)};
+const DGU_NOVE_ADRESE_BASE_URL = ${JSON.stringify(dguNoveAdreseBaseUrl)};
 let selectedZup = new Set();
 let selectedBuilding = new Set();
 let selectedLevels = new Set();
@@ -1498,6 +1504,44 @@ async function ucitajDguZaVidljive(){
     ucitano++;
   }
   statusEl.textContent = 'DGU adrese učitane za ' + dguLoadedZup.size + '/' + ZUPANIJE.features.length + ' županija.';
+}
+
+// Nove DGU adrese - ljubičasto, jedan nacionalni fajl (ne po županiji),
+// dohvaća se jednom pri prvom uključivanju.
+const dguNoveCluster = L.markerClusterGroup({ chunkedLoading: true, maxClusterRadius: 60 });
+let dguNoveUcitane = false;
+
+document.getElementById('dguNoveToggle').addEventListener('change', async (e) => {
+  if (e.target.checked) {
+    map.addLayer(dguNoveCluster);
+    if (!dguNoveUcitane) await ucitajNoveDguAdrese();
+  } else {
+    map.removeLayer(dguNoveCluster);
+  }
+});
+
+async function ucitajNoveDguAdrese(){
+  try {
+    const manifestRes = await fetch(DGU_NOVE_ADRESE_BASE_URL + 'manifest.json');
+    if (!manifestRes.ok) throw new Error('manifest nedostupan');
+    const manifest = await manifestRes.json();
+    if (!manifest.entries || manifest.entries.length === 0) { dguNoveUcitane = true; return; }
+    const zadnji = manifest.entries[manifest.entries.length - 1];
+    const fileName = zadnji.file.split('/').pop();
+    const res = await fetch(DGU_NOVE_ADRESE_BASE_URL + fileName);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const gj = await res.json();
+    gj.features.forEach(f => {
+      const c = f.geometry.coordinates, p = f.properties;
+      const m = L.circleMarker([c[1], c[0]], { radius: 6, color: '#5B21B6', fillColor: '#7C3AED', fillOpacity: 0.85, weight: 1 });
+      const label = (p.street || '') + ' ' + (p.houseNumber || '');
+      m.bindPopup('<b>' + label + '</b><br>' + (p.settlement || '') + ' ' + (p.postcode || '') + ' ' + (p.city || '') + '<br><i style="color:#888">Nova DGU adresa (' + (gj.datum || '') + ')</i>');
+      dguNoveCluster.addLayer(m);
+    });
+    dguNoveUcitane = true;
+  } catch (err) {
+    console.warn('Nove DGU adrese nisu dostupne:', err.message);
+  }
 }
 
 // Najbliža cesta se računa u pipeline-u (GitHub Actions), ne ovdje uživo —
@@ -1618,6 +1662,11 @@ if (FEATURES.some(f => f.satelitProvjera)) {
 if (FEATURES.some(f => f.dguBrojJedinica > 1)) {
   document.getElementById('dguJedinicaFilterRow').style.display = 'block';
 }
+fetch(DGU_NOVE_ADRESE_BASE_URL + 'manifest.json').then(r => r.ok ? r.json() : null).then(m => {
+  if (m && m.entries && m.entries.length > 0) {
+    document.getElementById('dguNoveRow').style.display = 'block';
+  }
+}).catch(() => {});
 document.getElementById('satelitFilterCheckbox').addEventListener('change', (e) => {
   samoSatelitskiKandidatiDM = e.target.checked;
   render();
