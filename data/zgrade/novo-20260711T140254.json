@@ -1,0 +1,1576 @@
+{
+  "from": "2026-07-08T14:02:54Z",
+  "to": "2026-07-11T14:02:54Z",
+  "count": 39,
+  "features": [
+    {
+      "id": "way/1536583412",
+      "lat": 45.2378422,
+      "lon": 14.255264,
+      "obris": [
+        [
+          14.2553,
+          45.237831
+        ],
+        [
+          14.255301,
+          45.237857
+        ],
+        [
+          14.25521,
+          45.237859
+        ],
+        [
+          14.255209,
+          45.237833
+        ],
+        [
+          14.2553,
+          45.237831
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "panoramax": "6098937b-b177-40c8-9f95-98f40bd6d6c7"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-07-08T16:46:44Z",
+      "changeset": 185354213,
+      "osmUser": "Janjko"
+    },
+    {
+      "id": "way/1536583413",
+      "lat": 45.2379032,
+      "lon": 14.255742000000001,
+      "obris": [
+        [
+          14.255712,
+          45.237875
+        ],
+        [
+          14.255787,
+          45.237871
+        ],
+        [
+          14.255788,
+          45.237947
+        ],
+        [
+          14.255711,
+          45.237948
+        ],
+        [
+          14.255712,
+          45.237875
+        ]
+      ],
+      "tags": {
+        "building": "house",
+        "panoramax": "3a0a6259-f95f-41e5-8252-20408fbe932c"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-07-08T16:46:44Z",
+      "changeset": 185354213,
+      "osmUser": "Janjko"
+    },
+    {
+      "id": "way/1536585532",
+      "lat": 46.2918212,
+      "lon": 16.406800799999996,
+      "obris": [
+        [
+          16.406759,
+          46.291828
+        ],
+        [
+          16.40684,
+          46.291851
+        ],
+        [
+          16.406864,
+          46.291811
+        ],
+        [
+          16.406782,
+          46.291788
+        ],
+        [
+          16.406759,
+          46.291828
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-08T16:56:04Z",
+      "changeset": 185354910,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Male Ledine",
+      "nearestStreetDist": 89
+    },
+    {
+      "id": "way/1536592838",
+      "lat": 46.292275000000004,
+      "lon": 16.403986399999997,
+      "obris": [
+        [
+          16.40395,
+          46.292324
+        ],
+        [
+          16.404089,
+          46.292287
+        ],
+        [
+          16.404041,
+          46.292201
+        ],
+        [
+          16.403902,
+          46.292239
+        ],
+        [
+          16.40395,
+          46.292324
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-08T17:28:44Z",
+      "changeset": 185357237,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Široke ledine",
+        "houseNumber": "3",
+        "settlement": "Trnovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536592839",
+      "lat": 46.291868,
+      "lon": 16.4045204,
+      "obris": [
+        [
+          16.404476,
+          46.291876
+        ],
+        [
+          16.404493,
+          46.291895
+        ],
+        [
+          16.404587,
+          46.291856
+        ],
+        [
+          16.40457,
+          46.291837
+        ],
+        [
+          16.404476,
+          46.291876
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-08T17:28:44Z",
+      "changeset": 185357237,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Bartolovečka ulica",
+      "nearestStreetDist": 19
+    },
+    {
+      "id": "way/1536594377",
+      "lat": 46.294852399999996,
+      "lon": 16.4047096,
+      "obris": [
+        [
+          16.404646,
+          46.294897
+        ],
+        [
+          16.404817,
+          46.294888
+        ],
+        [
+          16.404805,
+          46.294785
+        ],
+        [
+          16.404634,
+          46.294795
+        ],
+        [
+          16.404646,
+          46.294897
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-08T17:35:46Z",
+      "changeset": 185357693,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Široke Ledine",
+      "nearestStreetDist": 69
+    },
+    {
+      "id": "way/1536611386",
+      "lat": 45.22643933333333,
+      "lon": 14.249019166666665,
+      "obris": [
+        [
+          14.249032,
+          45.226476
+        ],
+        [
+          14.249048,
+          45.226453
+        ],
+        [
+          14.249082,
+          45.226405
+        ],
+        [
+          14.248982,
+          45.226377
+        ],
+        [
+          14.248939,
+          45.226449
+        ],
+        [
+          14.249032,
+          45.226476
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "panoramax": "dcbf66b7-bd6f-498d-8c42-e32dc9d06018"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-07-08T18:48:52Z",
+      "changeset": 185362109,
+      "osmUser": "Janjko",
+      "dguAdresa": {
+        "street": "Mošćenice",
+        "houseNumber": "64",
+        "settlement": "Mošćenice",
+        "postcode": "51417",
+        "city": "Mošćenička Draga"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536649300",
+      "lat": 45.0790602,
+      "lon": 14.459215599999999,
+      "obris": [
+        [
+          14.459278,
+          45.078962
+        ],
+        [
+          14.459352,
+          45.078999
+        ],
+        [
+          14.459124,
+          45.079209
+        ],
+        [
+          14.459046,
+          45.079169
+        ],
+        [
+          14.459278,
+          45.078962
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Trgovina Krk",
+        "shop": "supermarket"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-07-08T21:40:41Z",
+      "changeset": 185371347,
+      "osmUser": "psx"
+    },
+    {
+      "id": "way/1536775210",
+      "lat": 45.10112659999999,
+      "lon": 13.652572000000001,
+      "obris": [
+        [
+          13.65253,
+          45.101149
+        ],
+        [
+          13.652622,
+          45.101158
+        ],
+        [
+          13.652635,
+          45.101093
+        ],
+        [
+          13.652543,
+          45.101084
+        ],
+        [
+          13.65253,
+          45.101149
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-07-09T08:18:59Z",
+      "changeset": 185391970,
+      "osmUser": "michalzz",
+      "nearestStreet": "Štrika - Ferata",
+      "nearestStreetDist": 98
+    },
+    {
+      "id": "way/1536792009",
+      "lat": 45.858455428571425,
+      "lon": 15.805845142857143,
+      "obris": [
+        [
+          15.805523,
+          45.858404
+        ],
+        [
+          15.805509,
+          45.858449
+        ],
+        [
+          15.80612,
+          45.858563
+        ],
+        [
+          15.806144,
+          45.858444
+        ],
+        [
+          15.806059,
+          45.858432
+        ],
+        [
+          15.806038,
+          45.858492
+        ],
+        [
+          15.805523,
+          45.858404
+        ]
+      ],
+      "tags": {
+        "building": "garages"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-07-09T09:23:28Z",
+      "changeset": 185395346,
+      "osmUser": "Martis22X",
+      "nearestStreet": "Ulica Vladimira Nazora",
+      "nearestStreetDist": 35
+    },
+    {
+      "id": "way/1536833937",
+      "lat": 45.854531800000004,
+      "lon": 15.7925894,
+      "obris": [
+        [
+          15.792531,
+          45.854573
+        ],
+        [
+          15.792657,
+          45.85458
+        ],
+        [
+          15.792681,
+          45.854468
+        ],
+        [
+          15.792547,
+          45.854465
+        ],
+        [
+          15.792531,
+          45.854573
+        ]
+      ],
+      "tags": {
+        "building": "house"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-07-09T12:02:17Z",
+      "changeset": 185403276,
+      "osmUser": "Martis22X",
+      "dguAdresa": {
+        "street": "Ulica Ive Turkovića",
+        "houseNumber": "21",
+        "settlement": "Zaprešić",
+        "postcode": "10290",
+        "city": "Zaprešić"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536904500",
+      "lat": 45.2386326,
+      "lon": 14.2519612,
+      "obris": [
+        [
+          14.251945,
+          45.238657
+        ],
+        [
+          14.251921,
+          45.238614
+        ],
+        [
+          14.251986,
+          45.238596
+        ],
+        [
+          14.252009,
+          45.238639
+        ],
+        [
+          14.251945,
+          45.238657
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-07-09T16:29:55Z",
+      "changeset": 185419768,
+      "osmUser": "Janjko"
+    },
+    {
+      "id": "way/1536904501",
+      "lat": 45.238649,
+      "lon": 14.2518552,
+      "obris": [
+        [
+          14.251806,
+          45.238641
+        ],
+        [
+          14.251834,
+          45.238689
+        ],
+        [
+          14.251929,
+          45.238661
+        ],
+        [
+          14.251901,
+          45.238613
+        ],
+        [
+          14.251806,
+          45.238641
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "panoramax": "79ba3b2c-8b16-4463-bf1e-80ba1cd32958"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-07-09T16:29:55Z",
+      "changeset": 185419768,
+      "osmUser": "Janjko"
+    },
+    {
+      "id": "way/1536904502",
+      "lat": 45.23883557142857,
+      "lon": 14.25151314285714,
+      "obris": [
+        [
+          14.251413,
+          45.238909
+        ],
+        [
+          14.25158,
+          45.238856
+        ],
+        [
+          14.251557,
+          45.238826
+        ],
+        [
+          14.251658,
+          45.238797
+        ],
+        [
+          14.251617,
+          45.238734
+        ],
+        [
+          14.251354,
+          45.238818
+        ],
+        [
+          14.251413,
+          45.238909
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "panoramax": "dcd54a50-f804-4d3f-a8e6-1f318f000f54"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-07-09T16:29:55Z",
+      "changeset": 185419768,
+      "osmUser": "Janjko"
+    },
+    {
+      "id": "way/1536904503",
+      "lat": 45.238675799999996,
+      "lon": 14.251772800000001,
+      "obris": [
+        [
+          14.251814,
+          45.23868
+        ],
+        [
+          14.251785,
+          45.238642
+        ],
+        [
+          14.251711,
+          45.23867
+        ],
+        [
+          14.25174,
+          45.238707
+        ],
+        [
+          14.251814,
+          45.23868
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "panoramax": "a04f9e1f-5c7f-4989-a2fb-053cf416b086"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-07-09T16:29:55Z",
+      "changeset": 185419768,
+      "osmUser": "Janjko",
+      "dguAdresa": {
+        "street": "Aleja Slatina",
+        "houseNumber": "17",
+        "settlement": "Mošćenička Draga",
+        "postcode": "51417",
+        "city": "Mošćenička Draga"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536904874",
+      "lat": 45.238408,
+      "lon": 14.2524548,
+      "obris": [
+        [
+          14.252396,
+          45.238404
+        ],
+        [
+          14.252441,
+          45.238457
+        ],
+        [
+          14.252543,
+          45.238414
+        ],
+        [
+          14.252498,
+          45.238361
+        ],
+        [
+          14.252396,
+          45.238404
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "panoramax": "77f692ab-d0a9-4cce-a086-7ce7bab00b45"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-07-09T16:31:04Z",
+      "changeset": 185419838,
+      "osmUser": "Janjko"
+    },
+    {
+      "id": "way/1536952931",
+      "lat": 46.2927544,
+      "lon": 16.4098142,
+      "obris": [
+        [
+          16.409806,
+          46.292784
+        ],
+        [
+          16.40987,
+          46.292754
+        ],
+        [
+          16.409827,
+          46.29271
+        ],
+        [
+          16.409762,
+          46.29274
+        ],
+        [
+          16.409806,
+          46.292784
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Cvjetna ulica",
+      "nearestStreetDist": 40
+    },
+    {
+      "id": "way/1536952932",
+      "lat": 46.2926954,
+      "lon": 16.409745800000003,
+      "obris": [
+        [
+          16.409761,
+          46.292733
+        ],
+        [
+          16.4098,
+          46.292714
+        ],
+        [
+          16.409723,
+          46.292639
+        ],
+        [
+          16.409684,
+          46.292658
+        ],
+        [
+          16.409761,
+          46.292733
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Cvjetna ulica",
+      "nearestStreetDist": 32
+    },
+    {
+      "id": "way/1536952933",
+      "lat": 46.29258014285715,
+      "lon": 16.40988528571429,
+      "obris": [
+        [
+          16.409894,
+          46.29251
+        ],
+        [
+          16.409821,
+          46.292545
+        ],
+        [
+          16.409852,
+          46.292576
+        ],
+        [
+          16.409812,
+          46.292596
+        ],
+        [
+          16.409905,
+          46.292689
+        ],
+        [
+          16.410019,
+          46.292635
+        ],
+        [
+          16.409894,
+          46.29251
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Cvjetna ulica",
+        "houseNumber": "2",
+        "settlement": "Trnovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536952934",
+      "lat": 46.2926224,
+      "lon": 16.409533,
+      "obris": [
+        [
+          16.40945,
+          46.292612
+        ],
+        [
+          16.409536,
+          46.292697
+        ],
+        [
+          16.409658,
+          46.292638
+        ],
+        [
+          16.409571,
+          46.292553
+        ],
+        [
+          16.40945,
+          46.292612
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Cvjetna ulica",
+        "houseNumber": "2A",
+        "settlement": "Trnovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536952935",
+      "lat": 46.2930714,
+      "lon": 16.409268000000004,
+      "obris": [
+        [
+          16.409226,
+          46.293089
+        ],
+        [
+          16.409317,
+          46.2931
+        ],
+        [
+          16.409331,
+          46.293045
+        ],
+        [
+          16.40924,
+          46.293034
+        ],
+        [
+          16.409226,
+          46.293089
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Cvjetna ulica",
+      "nearestStreetDist": 25
+    },
+    {
+      "id": "way/1536952936",
+      "lat": 46.293037000000005,
+      "lon": 16.409129500000002,
+      "obris": [
+        [
+          16.409013,
+          46.293064
+        ],
+        [
+          16.409226,
+          46.293089
+        ],
+        [
+          16.40924,
+          46.293034
+        ],
+        [
+          16.409249,
+          46.292998
+        ],
+        [
+          16.409036,
+          46.292973
+        ],
+        [
+          16.409013,
+          46.293064
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Cvjetna ulica",
+        "houseNumber": "19",
+        "settlement": "Trnovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536952937",
+      "lat": 46.29298022222222,
+      "lon": 16.409509333333332,
+      "obris": [
+        [
+          16.409423,
+          46.292892
+        ],
+        [
+          16.409475,
+          46.29305
+        ],
+        [
+          16.409439,
+          46.293055
+        ],
+        [
+          16.40945,
+          46.293088
+        ],
+        [
+          16.409586,
+          46.293067
+        ],
+        [
+          16.409552,
+          46.292964
+        ],
+        [
+          16.409633,
+          46.292951
+        ],
+        [
+          16.409603,
+          46.292863
+        ],
+        [
+          16.409423,
+          46.292892
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Cvjetna ulica",
+      "nearestStreetDist": 37
+    },
+    {
+      "id": "way/1536952938",
+      "lat": 46.29318971428571,
+      "lon": 16.409098285714286,
+      "obris": [
+        [
+          16.409005,
+          46.293238
+        ],
+        [
+          16.409226,
+          46.293227
+        ],
+        [
+          16.409219,
+          46.29317
+        ],
+        [
+          16.409121,
+          46.293175
+        ],
+        [
+          16.409117,
+          46.293137
+        ],
+        [
+          16.408995,
+          46.293143
+        ],
+        [
+          16.409005,
+          46.293238
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Cvjetna ulica",
+        "houseNumber": "17",
+        "settlement": "Trnovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536952939",
+      "lat": 46.293461,
+      "lon": 16.4090782,
+      "obris": [
+        [
+          16.409019,
+          46.2935
+        ],
+        [
+          16.40917,
+          46.293497
+        ],
+        [
+          16.409167,
+          46.293403
+        ],
+        [
+          16.409016,
+          46.293405
+        ],
+        [
+          16.409019,
+          46.2935
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Cvjetna ulica",
+        "houseNumber": "13",
+        "settlement": "Trnovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536952940",
+      "lat": 46.293652599999994,
+      "lon": 16.4096134,
+      "obris": [
+        [
+          16.409572,
+          46.293696
+        ],
+        [
+          16.409713,
+          46.293662
+        ],
+        [
+          16.409675,
+          46.293588
+        ],
+        [
+          16.409535,
+          46.293621
+        ],
+        [
+          16.409572,
+          46.293696
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Cvjetna ulica",
+      "nearestStreetDist": 51
+    },
+    {
+      "id": "way/1536952941",
+      "lat": 46.29358760000001,
+      "lon": 16.409446000000003,
+      "obris": [
+        [
+          16.409434,
+          46.29364
+        ],
+        [
+          16.409505,
+          46.293629
+        ],
+        [
+          16.409464,
+          46.293509
+        ],
+        [
+          16.409393,
+          46.29352
+        ],
+        [
+          16.409434,
+          46.29364
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Cvjetna ulica",
+      "nearestStreetDist": 40
+    },
+    {
+      "id": "way/1536952942",
+      "lat": 46.293571400000005,
+      "lon": 16.4090922,
+      "obris": [
+        [
+          16.409128,
+          46.293579
+        ],
+        [
+          16.409116,
+          46.293546
+        ],
+        [
+          16.409038,
+          46.29356
+        ],
+        [
+          16.409051,
+          46.293593
+        ],
+        [
+          16.409128,
+          46.293579
+        ]
+      ],
+      "tags": {
+        "building": "roof"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Cvjetna ulica",
+      "nearestStreetDist": 18
+    },
+    {
+      "id": "way/1536952943",
+      "lat": 46.293634857142855,
+      "lon": 16.409102714285716,
+      "obris": [
+        [
+          16.409067,
+          46.29371
+        ],
+        [
+          16.409212,
+          46.293684
+        ],
+        [
+          16.409169,
+          46.293571
+        ],
+        [
+          16.409128,
+          46.293579
+        ],
+        [
+          16.409051,
+          46.293593
+        ],
+        [
+          16.409025,
+          46.293597
+        ],
+        [
+          16.409067,
+          46.29371
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Cvjetna ulica",
+        "houseNumber": "11",
+        "settlement": "Trnovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536952944",
+      "lat": 46.29382819999999,
+      "lon": 16.409172599999998,
+      "obris": [
+        [
+          16.409131,
+          46.293881
+        ],
+        [
+          16.409275,
+          46.293855
+        ],
+        [
+          16.409235,
+          46.293749
+        ],
+        [
+          16.409091,
+          46.293775
+        ],
+        [
+          16.409131,
+          46.293881
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Cvjetna ulica",
+        "houseNumber": "9",
+        "settlement": "Trnovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536952945",
+      "lat": 46.293922571428574,
+      "lon": 16.408859285714286,
+      "obris": [
+        [
+          16.408768,
+          46.293866
+        ],
+        [
+          16.408819,
+          46.293993
+        ],
+        [
+          16.408893,
+          46.293979
+        ],
+        [
+          16.408887,
+          46.293966
+        ],
+        [
+          16.408963,
+          46.293951
+        ],
+        [
+          16.408917,
+          46.293837
+        ],
+        [
+          16.408768,
+          46.293866
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-09T19:28:41Z",
+      "changeset": 185430907,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Cvjetna ulica",
+        "houseNumber": "4",
+        "settlement": "Trnovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1536973133",
+      "lat": 46.506563,
+      "lon": 16.4354636,
+      "obris": [
+        [
+          16.435455,
+          46.506599
+        ],
+        [
+          16.435402,
+          46.506542
+        ],
+        [
+          16.435476,
+          46.506509
+        ],
+        [
+          16.43553,
+          46.506566
+        ],
+        [
+          16.435455,
+          46.506599
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-09T20:51:24Z",
+      "changeset": 185435302,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Ulica Marka Kovača",
+      "nearestStreetDist": 40
+    },
+    {
+      "id": "way/1536973691",
+      "lat": 46.50697783333333,
+      "lon": 16.435480833333333,
+      "obris": [
+        [
+          16.435451,
+          46.507023
+        ],
+        [
+          16.435384,
+          46.506941
+        ],
+        [
+          16.435497,
+          46.506904
+        ],
+        [
+          16.435565,
+          46.506982
+        ],
+        [
+          16.435537,
+          46.506994
+        ],
+        [
+          16.435451,
+          46.507023
+        ]
+      ],
+      "tags": {
+        "addr:city": "Mursko Središće",
+        "addr:housenumber": "21",
+        "addr:postcode": "40315",
+        "addr:street": "Ulica Marka Kovača",
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-09T20:53:42Z",
+      "changeset": 185435446,
+      "osmUser": "Joško Horvat"
+    },
+    {
+      "id": "way/1536973692",
+      "lat": 46.50653916666666,
+      "lon": 16.435686333333333,
+      "obris": [
+        [
+          16.435661,
+          46.506504
+        ],
+        [
+          16.435701,
+          46.506485
+        ],
+        [
+          16.435798,
+          46.50658
+        ],
+        [
+          16.435697,
+          46.506629
+        ],
+        [
+          16.4356,
+          46.506533
+        ],
+        [
+          16.435661,
+          46.506504
+        ]
+      ],
+      "tags": {
+        "addr:city": "Mursko Središće",
+        "addr:housenumber": "34",
+        "addr:postcode": "40315",
+        "addr:street": "Ulica Marka Kovača",
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-09T20:53:42Z",
+      "changeset": 185435446,
+      "osmUser": "Joško Horvat"
+    },
+    {
+      "id": "way/1536974615",
+      "lat": 46.50836460000001,
+      "lon": 16.438194400000004,
+      "obris": [
+        [
+          16.438088,
+          46.508397
+        ],
+        [
+          16.438364,
+          46.508375
+        ],
+        [
+          16.438354,
+          46.508316
+        ],
+        [
+          16.438078,
+          46.508338
+        ],
+        [
+          16.438088,
+          46.508397
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-09T20:56:20Z",
+      "changeset": 185435624,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Poljska ulica",
+      "nearestStreetDist": 34
+    },
+    {
+      "id": "way/1536974616",
+      "lat": 46.508101,
+      "lon": 16.437963,
+      "obris": [
+        [
+          16.438015,
+          46.508092
+        ],
+        [
+          16.438011,
+          46.508052
+        ],
+        [
+          16.437852,
+          46.50806
+        ],
+        [
+          16.437863,
+          46.508159
+        ],
+        [
+          16.438022,
+          46.508151
+        ],
+        [
+          16.438015,
+          46.508092
+        ]
+      ],
+      "tags": {
+        "addr:city": "Mursko Središće",
+        "addr:housenumber": "41",
+        "addr:postcode": "40315",
+        "addr:street": "Poljska ulica",
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-09T20:56:20Z",
+      "changeset": 185435624,
+      "osmUser": "Joško Horvat"
+    },
+    {
+      "id": "way/1536974617",
+      "lat": 46.5076844,
+      "lon": 16.4385726,
+      "obris": [
+        [
+          16.438541,
+          46.507709
+        ],
+        [
+          16.438624,
+          46.507706
+        ],
+        [
+          16.43862,
+          46.507648
+        ],
+        [
+          16.438537,
+          46.50765
+        ],
+        [
+          16.438541,
+          46.507709
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-09T20:56:20Z",
+      "changeset": 185435624,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Poljska ulica",
+      "nearestStreetDist": 59
+    },
+    {
+      "id": "way/1536974618",
+      "lat": 46.507888714285706,
+      "lon": 16.438496285714283,
+      "obris": [
+        [
+          16.438138,
+          46.507937
+        ],
+        [
+          16.438802,
+          46.507926
+        ],
+        [
+          16.4388,
+          46.507859
+        ],
+        [
+          16.438731,
+          46.50786
+        ],
+        [
+          16.43873,
+          46.507846
+        ],
+        [
+          16.438135,
+          46.507856
+        ],
+        [
+          16.438138,
+          46.507937
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-09T20:56:20Z",
+      "changeset": 185435624,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Poljska ulica",
+      "nearestStreetDist": 59
+    },
+    {
+      "id": "way/1536974889",
+      "lat": 46.5085862,
+      "lon": 16.4383546,
+      "obris": [
+        [
+          16.438259,
+          46.508621
+        ],
+        [
+          16.438509,
+          46.508601
+        ],
+        [
+          16.438498,
+          46.508534
+        ],
+        [
+          16.438248,
+          46.508554
+        ],
+        [
+          16.438259,
+          46.508621
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-09T20:57:19Z",
+      "changeset": 185435680,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Poljska ulica",
+      "nearestStreetDist": 41
+    }
+  ]
+}

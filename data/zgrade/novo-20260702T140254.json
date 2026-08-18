@@ -1,0 +1,7447 @@
+{
+  "from": "2026-06-29T14:02:54Z",
+  "to": "2026-07-02T14:02:54Z",
+  "count": 168,
+  "features": [
+    {
+      "id": "way/1533548733",
+      "lat": 45.4995436,
+      "lon": 16.3463688,
+      "obris": [
+        [
+          16.346336,
+          45.499484
+        ],
+        [
+          16.346397,
+          45.49948
+        ],
+        [
+          16.346418,
+          45.499633
+        ],
+        [
+          16.346357,
+          45.499637
+        ],
+        [
+          16.346336,
+          45.499484
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "roof:shape": "gabled"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-06-29T14:38:59Z",
+      "changeset": 184799446,
+      "osmUser": "DominikNew",
+      "dguAdresa": {
+        "street": "Odra-cesta",
+        "houseNumber": "58",
+        "settlement": "Odra Sisačka",
+        "postcode": "44000",
+        "city": "Sisak"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533548734",
+      "lat": 45.4995736,
+      "lon": 16.3464402,
+      "obris": [
+        [
+          16.346405,
+          45.499466
+        ],
+        [
+          16.346445,
+          45.499738
+        ],
+        [
+          16.346493,
+          45.499736
+        ],
+        [
+          16.346453,
+          45.499462
+        ],
+        [
+          16.346405,
+          45.499466
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-06-29T14:38:59Z",
+      "changeset": 184799446,
+      "osmUser": "DominikNew",
+      "nearestStreet": "Odra-cesta",
+      "nearestStreetDist": 32
+    },
+    {
+      "id": "way/1533548735",
+      "lat": 45.4995052,
+      "lon": 16.346298,
+      "obris": [
+        [
+          16.346264,
+          45.499429
+        ],
+        [
+          16.346317,
+          45.499414
+        ],
+        [
+          16.34635,
+          45.499625
+        ],
+        [
+          16.346295,
+          45.499629
+        ],
+        [
+          16.346264,
+          45.499429
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "roof:shape": "skillion"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-06-29T14:38:59Z",
+      "changeset": 184799446,
+      "osmUser": "DominikNew",
+      "dguAdresa": {
+        "street": "Odra-cesta",
+        "houseNumber": "60",
+        "settlement": "Odra Sisačka",
+        "postcode": "44000",
+        "city": "Sisak"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533548736",
+      "lat": 45.499527,
+      "lon": 16.346186,
+      "obris": [
+        [
+          16.346116,
+          45.499459
+        ],
+        [
+          16.346241,
+          45.499441
+        ],
+        [
+          16.346274,
+          45.499558
+        ],
+        [
+          16.346195,
+          45.499569
+        ],
+        [
+          16.346203,
+          45.499598
+        ],
+        [
+          16.346157,
+          45.499605
+        ],
+        [
+          16.346116,
+          45.499459
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "roof:shape": "gabled"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-06-29T14:38:59Z",
+      "changeset": 184799446,
+      "osmUser": "DominikNew",
+      "dguAdresa": {
+        "street": "Odra-cesta",
+        "houseNumber": "62",
+        "settlement": "Odra Sisačka",
+        "postcode": "44000",
+        "city": "Sisak"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533549008",
+      "lat": 46.31093157142857,
+      "lon": 16.340635857142857,
+      "obris": [
+        [
+          16.340717,
+          46.310884
+        ],
+        [
+          16.340728,
+          46.310979
+        ],
+        [
+          16.340499,
+          46.311002
+        ],
+        [
+          16.340491,
+          46.310948
+        ],
+        [
+          16.340653,
+          46.310935
+        ],
+        [
+          16.340646,
+          46.310889
+        ],
+        [
+          16.340717,
+          46.310884
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Ulica Ognjena Price",
+        "building": "house"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-29T14:40:46Z",
+      "changeset": 184799561,
+      "osmUser": "Karlo Kostanjevec"
+    },
+    {
+      "id": "way/1533549009",
+      "lat": 46.311102999999996,
+      "lon": 16.340680799999998,
+      "obris": [
+        [
+          16.340638,
+          46.311051
+        ],
+        [
+          16.340736,
+          46.311048
+        ],
+        [
+          16.340745,
+          46.311181
+        ],
+        [
+          16.340647,
+          46.311184
+        ],
+        [
+          16.340638,
+          46.311051
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Ulica Ognjena Price",
+        "building": "house"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-29T14:40:46Z",
+      "changeset": 184799561,
+      "osmUser": "Karlo Kostanjevec"
+    },
+    {
+      "id": "way/1533612855",
+      "lat": 44.213961999999995,
+      "lon": 15.693478200000001,
+      "obris": [
+        [
+          15.69342,
+          44.213943
+        ],
+        [
+          15.693461,
+          44.214019
+        ],
+        [
+          15.693566,
+          44.213991
+        ],
+        [
+          15.693524,
+          44.213914
+        ],
+        [
+          15.69342,
+          44.213943
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-06-29T19:10:30Z",
+      "changeset": 184813890,
+      "osmUser": "Marin K",
+      "dguAdresa": {
+        "street": "Bravarica",
+        "houseNumber": "3",
+        "settlement": "Zaton Obrovački",
+        "postcode": "23450",
+        "city": "Obrovac"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533612856",
+      "lat": 44.2140264,
+      "lon": 15.6931252,
+      "obris": [
+        [
+          15.693062,
+          44.214065
+        ],
+        [
+          15.693215,
+          44.214068
+        ],
+        [
+          15.69322,
+          44.213969
+        ],
+        [
+          15.693067,
+          44.213965
+        ],
+        [
+          15.693062,
+          44.214065
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-06-29T19:10:30Z",
+      "changeset": 184813890,
+      "osmUser": "Marin K",
+      "dguAdresa": {
+        "street": "Bravarica",
+        "houseNumber": "4",
+        "settlement": "Zaton Obrovački",
+        "postcode": "23450",
+        "city": "Obrovac"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533612857",
+      "lat": 44.214045399999996,
+      "lon": 15.6927944,
+      "obris": [
+        [
+          15.692757,
+          44.213989
+        ],
+        [
+          15.69273,
+          44.214117
+        ],
+        [
+          15.69285,
+          44.21413
+        ],
+        [
+          15.692878,
+          44.214002
+        ],
+        [
+          15.692757,
+          44.213989
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-06-29T19:10:30Z",
+      "changeset": 184813890,
+      "osmUser": "Marin K",
+      "dguAdresa": {
+        "street": "Bravarica",
+        "houseNumber": "5",
+        "settlement": "Zaton Obrovački",
+        "postcode": "23450",
+        "city": "Obrovac"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533612858",
+      "lat": 44.213735,
+      "lon": 15.6919274,
+      "obris": [
+        [
+          15.691883,
+          44.213693
+        ],
+        [
+          15.691848,
+          44.213758
+        ],
+        [
+          15.691994,
+          44.213798
+        ],
+        [
+          15.692029,
+          44.213733
+        ],
+        [
+          15.691883,
+          44.213693
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-06-29T19:10:30Z",
+      "changeset": 184813890,
+      "osmUser": "Marin K"
+    },
+    {
+      "id": "way/1533612859",
+      "lat": 44.21484240000001,
+      "lon": 15.688725999999999,
+      "obris": [
+        [
+          15.688619,
+          44.214806
+        ],
+        [
+          15.688613,
+          44.214888
+        ],
+        [
+          15.688887,
+          44.214897
+        ],
+        [
+          15.688892,
+          44.214815
+        ],
+        [
+          15.688619,
+          44.214806
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-06-29T19:10:30Z",
+      "changeset": 184813890,
+      "osmUser": "Marin K"
+    },
+    {
+      "id": "way/1533612860",
+      "lat": 44.2151482,
+      "lon": 15.690795399999999,
+      "obris": [
+        [
+          15.690713,
+          44.215175
+        ],
+        [
+          15.690884,
+          44.215206
+        ],
+        [
+          15.690919,
+          44.215108
+        ],
+        [
+          15.690748,
+          44.215077
+        ],
+        [
+          15.690713,
+          44.215175
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-06-29T19:10:30Z",
+      "changeset": 184813890,
+      "osmUser": "Marin K",
+      "dguAdresa": {
+        "street": "Bravarica",
+        "houseNumber": "10",
+        "settlement": "Zaton Obrovački",
+        "postcode": "23450",
+        "city": "Obrovac"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533816313",
+      "lat": 46.25680620000001,
+      "lon": 16.1774689,
+      "obris": [
+        [
+          16.177416,
+          46.256857
+        ],
+        [
+          16.177553,
+          46.256852
+        ],
+        [
+          16.177551,
+          46.256804
+        ],
+        [
+          16.177551,
+          46.256753
+        ],
+        [
+          16.17748,
+          46.256754
+        ],
+        [
+          16.177481,
+          46.256774
+        ],
+        [
+          16.177413,
+          46.256775
+        ],
+        [
+          16.177414,
+          46.256811
+        ],
+        [
+          16.177414,
+          46.256825
+        ],
+        [
+          16.177416,
+          46.256857
+        ]
+      ],
+      "tags": {
+        "addr:city": "Maruševec",
+        "addr:housenumber": "163",
+        "addr:postcode": "42243",
+        "addr:street": "Cerje Nebojse",
+        "building": "house",
+        "building:levels": "1",
+        "height": "10",
+        "house": "detached",
+        "name": "Kolenko / Galekovic Household"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816314",
+      "lat": 46.2568635,
+      "lon": 16.177363333333336,
+      "obris": [
+        [
+          16.177312,
+          46.256892
+        ],
+        [
+          16.177418,
+          46.256889
+        ],
+        [
+          16.177416,
+          46.256857
+        ],
+        [
+          16.177414,
+          46.256825
+        ],
+        [
+          16.177308,
+          46.256826
+        ],
+        [
+          16.177312,
+          46.256892
+        ]
+      ],
+      "tags": {
+        "addr:city": "Maruševec",
+        "addr:housenumber": "163",
+        "addr:place": "Cerje Nebojse",
+        "building": "garage",
+        "capacity": "1"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816315",
+      "lat": 46.256771500000006,
+      "lon": 16.17849933333333,
+      "obris": [
+        [
+          16.178461,
+          46.256807
+        ],
+        [
+          16.17846,
+          46.256799
+        ],
+        [
+          16.178449,
+          46.256715
+        ],
+        [
+          16.178576,
+          46.256704
+        ],
+        [
+          16.178589,
+          46.256797
+        ],
+        [
+          16.178461,
+          46.256807
+        ]
+      ],
+      "tags": {
+        "building": "house",
+        "height": "13"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47",
+      "dguAdresa": {
+        "street": "Cerje Nebojse",
+        "houseNumber": "159",
+        "settlement": "Cerje Nebojse",
+        "postcode": "42243",
+        "city": "Maruševec"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533816316",
+      "lat": 46.25676599999999,
+      "lon": 16.178395000000002,
+      "obris": [
+        [
+          16.178365,
+          46.256807
+        ],
+        [
+          16.17846,
+          46.256799
+        ],
+        [
+          16.178449,
+          46.256715
+        ],
+        [
+          16.178384,
+          46.256716
+        ],
+        [
+          16.178383,
+          46.256758
+        ],
+        [
+          16.178359,
+          46.25676
+        ],
+        [
+          16.178365,
+          46.256807
+        ]
+      ],
+      "tags": {
+        "building": "shed"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816317",
+      "lat": 46.256662,
+      "lon": 16.17913714285714,
+      "obris": [
+        [
+          16.178994,
+          46.256738
+        ],
+        [
+          16.179295,
+          46.256669
+        ],
+        [
+          16.179276,
+          46.256625
+        ],
+        [
+          16.179238,
+          46.256635
+        ],
+        [
+          16.17921,
+          46.256586
+        ],
+        [
+          16.178953,
+          46.256643
+        ],
+        [
+          16.178994,
+          46.256738
+        ]
+      ],
+      "tags": {
+        "building": "house",
+        "height": "6"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816318",
+      "lat": 46.25655283333333,
+      "lon": 16.178407833333335,
+      "obris": [
+        [
+          16.17836,
+          46.256596
+        ],
+        [
+          16.178408,
+          46.256585
+        ],
+        [
+          16.178517,
+          46.256562
+        ],
+        [
+          16.178484,
+          46.256472
+        ],
+        [
+          16.178318,
+          46.256506
+        ],
+        [
+          16.17836,
+          46.256596
+        ]
+      ],
+      "tags": {
+        "building": "house",
+        "height": "8"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47",
+      "dguAdresa": {
+        "street": "Cerje Nebojse",
+        "houseNumber": "157",
+        "settlement": "Cerje Nebojse",
+        "postcode": "42243",
+        "city": "Maruševec"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533816319",
+      "lat": 46.25664783333334,
+      "lon": 16.178345333333336,
+      "obris": [
+        [
+          16.178439,
+          46.256656
+        ],
+        [
+          16.178273,
+          46.25669
+        ],
+        [
+          16.178268,
+          46.256677
+        ],
+        [
+          16.178245,
+          46.256623
+        ],
+        [
+          16.178408,
+          46.256585
+        ],
+        [
+          16.178439,
+          46.256656
+        ]
+      ],
+      "tags": {
+        "building": "house",
+        "height": "10"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816320",
+      "lat": 46.2566736,
+      "lon": 16.178178,
+      "obris": [
+        [
+          16.178133,
+          46.256707
+        ],
+        [
+          16.178268,
+          46.256677
+        ],
+        [
+          16.178245,
+          46.256623
+        ],
+        [
+          16.178111,
+          46.256654
+        ],
+        [
+          16.178133,
+          46.256707
+        ]
+      ],
+      "tags": {
+        "building": "house",
+        "height": "6"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816321",
+      "lat": 46.25658828571428,
+      "lon": 16.178191714285713,
+      "obris": [
+        [
+          16.178131,
+          46.256644
+        ],
+        [
+          16.178333,
+          46.256597
+        ],
+        [
+          16.178311,
+          46.25655
+        ],
+        [
+          16.178186,
+          46.256579
+        ],
+        [
+          16.178165,
+          46.256543
+        ],
+        [
+          16.178085,
+          46.256561
+        ],
+        [
+          16.178131,
+          46.256644
+        ]
+      ],
+      "tags": {
+        "building": "house",
+        "height": "6"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816322",
+      "lat": 46.2569272,
+      "lon": 16.176647,
+      "obris": [
+        [
+          16.176598,
+          46.256948
+        ],
+        [
+          16.17672,
+          46.256949
+        ],
+        [
+          16.176721,
+          46.256896
+        ],
+        [
+          16.176598,
+          46.256895
+        ],
+        [
+          16.176598,
+          46.256948
+        ]
+      ],
+      "tags": {
+        "building": "shed",
+        "height": "4"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816323",
+      "lat": 46.2567982,
+      "lon": 16.1766316,
+      "obris": [
+        [
+          16.176555,
+          46.256826
+        ],
+        [
+          16.176749,
+          46.256825
+        ],
+        [
+          16.176748,
+          46.256756
+        ],
+        [
+          16.176551,
+          46.256758
+        ],
+        [
+          16.176555,
+          46.256826
+        ]
+      ],
+      "tags": {
+        "building": "garage",
+        "capacity": "2"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816324",
+      "lat": 46.2568138,
+      "lon": 16.176386400000002,
+      "obris": [
+        [
+          16.176363,
+          46.256854
+        ],
+        [
+          16.176426,
+          46.256853
+        ],
+        [
+          16.176421,
+          46.256754
+        ],
+        [
+          16.176359,
+          46.256754
+        ],
+        [
+          16.176363,
+          46.256854
+        ]
+      ],
+      "tags": {
+        "building": "shed"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816325",
+      "lat": 46.2567292,
+      "lon": 16.176692600000003,
+      "obris": [
+        [
+          16.176657,
+          46.256751
+        ],
+        [
+          16.176746,
+          46.256751
+        ],
+        [
+          16.176747,
+          46.256697
+        ],
+        [
+          16.176656,
+          46.256696
+        ],
+        [
+          16.176657,
+          46.256751
+        ]
+      ],
+      "tags": {
+        "building": "garage",
+        "capacity": "2"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816326",
+      "lat": 46.2566284,
+      "lon": 16.176657999999996,
+      "obris": [
+        [
+          16.176594,
+          46.256673
+        ],
+        [
+          16.176761,
+          46.25667
+        ],
+        [
+          16.176755,
+          46.256562
+        ],
+        [
+          16.176586,
+          46.256564
+        ],
+        [
+          16.176594,
+          46.256673
+        ]
+      ],
+      "tags": {
+        "building": "house",
+        "building:levels": "2",
+        "height": "14"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47",
+      "dguAdresa": {
+        "street": "Cerje Nebojse",
+        "houseNumber": "161",
+        "settlement": "Cerje Nebojse",
+        "postcode": "42243",
+        "city": "Maruševec"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533816327",
+      "lat": 46.25661342857143,
+      "lon": 16.176392571428572,
+      "obris": [
+        [
+          16.176354,
+          46.256679
+        ],
+        [
+          16.176504,
+          46.256674
+        ],
+        [
+          16.176497,
+          46.25654
+        ],
+        [
+          16.176344,
+          46.256543
+        ],
+        [
+          16.176345,
+          46.256557
+        ],
+        [
+          16.17635,
+          46.256622
+        ],
+        [
+          16.176354,
+          46.256679
+        ]
+      ],
+      "tags": {
+        "building": "house",
+        "building:levels": "2",
+        "height": "13"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47",
+      "dguAdresa": {
+        "street": "Cerje Nebojse",
+        "houseNumber": "161A",
+        "settlement": "Cerje Nebojse",
+        "postcode": "42243",
+        "city": "Maruševec"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533816328",
+      "lat": 46.256585,
+      "lon": 16.176313600000004,
+      "obris": [
+        [
+          16.17629,
+          46.25656
+        ],
+        [
+          16.176345,
+          46.256557
+        ],
+        [
+          16.17635,
+          46.256622
+        ],
+        [
+          16.176293,
+          46.256626
+        ],
+        [
+          16.17629,
+          46.25656
+        ]
+      ],
+      "tags": {
+        "building": "garage",
+        "capacity": "1"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816329",
+      "lat": 46.256697,
+      "lon": 16.1759914,
+      "obris": [
+        [
+          16.175971,
+          46.25672
+        ],
+        [
+          16.176024,
+          46.256719
+        ],
+        [
+          16.176023,
+          46.256663
+        ],
+        [
+          16.175968,
+          46.256663
+        ],
+        [
+          16.175971,
+          46.25672
+        ]
+      ],
+      "tags": {
+        "building": "hut"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47"
+    },
+    {
+      "id": "way/1533816330",
+      "lat": 46.2559156,
+      "lon": 16.177597,
+      "obris": [
+        [
+          16.177497,
+          46.255974
+        ],
+        [
+          16.177782,
+          46.255919
+        ],
+        [
+          16.177749,
+          46.255827
+        ],
+        [
+          16.17746,
+          46.255884
+        ],
+        [
+          16.177497,
+          46.255974
+        ]
+      ],
+      "tags": {
+        "building": "bungalow",
+        "height": "8"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-06-30T06:15:57Z",
+      "changeset": 184835843,
+      "osmUser": "Gale47",
+      "dguAdresa": {
+        "street": "Cerje Nebojse",
+        "houseNumber": "149",
+        "settlement": "Cerje Nebojse",
+        "postcode": "42243",
+        "city": "Maruševec"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533828065",
+      "lat": 45.1879444,
+      "lon": 14.6758722,
+      "obris": [
+        [
+          14.675881,
+          45.187986
+        ],
+        [
+          14.675934,
+          45.187906
+        ],
+        [
+          14.675859,
+          45.187882
+        ],
+        [
+          14.675806,
+          45.187962
+        ],
+        [
+          14.675881,
+          45.187986
+        ]
+      ],
+      "tags": {
+        "building": "bungalow"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-06-30T07:11:47Z",
+      "changeset": 184838015,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Ulica Milovana Muževića",
+      "nearestStreetDist": 54
+    },
+    {
+      "id": "way/1533828066",
+      "lat": 45.18777677777777,
+      "lon": 14.675681444444443,
+      "obris": [
+        [
+          14.675691,
+          45.187791
+        ],
+        [
+          14.675765,
+          45.187734
+        ],
+        [
+          14.675717,
+          45.187704
+        ],
+        [
+          14.675629,
+          45.187772
+        ],
+        [
+          14.675617,
+          45.187782
+        ],
+        [
+          14.675642,
+          45.187798
+        ],
+        [
+          14.675677,
+          45.18782
+        ],
+        [
+          14.675704,
+          45.187799
+        ],
+        [
+          14.675691,
+          45.187791
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Primorsko-goranska županija",
+      "validFrom": "2026-06-30T07:11:47Z",
+      "changeset": 184838015,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Ulica Milovana Muževića",
+      "nearestStreetDist": 31
+    },
+    {
+      "id": "way/1533853442",
+      "lat": 45.854840181818176,
+      "lon": 15.802611909090906,
+      "obris": [
+        [
+          15.802475,
+          45.85483
+        ],
+        [
+          15.802682,
+          45.854977
+        ],
+        [
+          15.802756,
+          45.854914
+        ],
+        [
+          15.802813,
+          45.854876
+        ],
+        [
+          15.802743,
+          45.854829
+        ],
+        [
+          15.802596,
+          45.854743
+        ],
+        [
+          15.802536,
+          45.854788
+        ],
+        [
+          15.802583,
+          45.854816
+        ],
+        [
+          15.802563,
+          45.854835
+        ],
+        [
+          15.802509,
+          45.854804
+        ],
+        [
+          15.802475,
+          45.85483
+        ]
+      ],
+      "tags": {
+        "addr:city": "Zaprešić",
+        "addr:housenumber": "22",
+        "addr:postcode": "10290",
+        "addr:street": "Ulica Jure Petrekovića",
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-06-30T08:48:58Z",
+      "changeset": 184842132,
+      "osmUser": "Martis22X"
+    },
+    {
+      "id": "way/1533917084",
+      "lat": 43.198674153846156,
+      "lon": 16.658782615384617,
+      "obris": [
+        [
+          16.658727,
+          43.198542
+        ],
+        [
+          16.658991,
+          43.198641
+        ],
+        [
+          16.658934,
+          43.198723
+        ],
+        [
+          16.65896,
+          43.198733
+        ],
+        [
+          16.658916,
+          43.198795
+        ],
+        [
+          16.658771,
+          43.19874
+        ],
+        [
+          16.658746,
+          43.198776
+        ],
+        [
+          16.658654,
+          43.198741
+        ],
+        [
+          16.658704,
+          43.19867
+        ],
+        [
+          16.658665,
+          43.198655
+        ],
+        [
+          16.6587,
+          43.198606
+        ],
+        [
+          16.658679,
+          43.1986
+        ],
+        [
+          16.658727,
+          43.198542
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja",
+      "dguAdresa": {
+        "street": "Vrbanj",
+        "houseNumber": "361",
+        "settlement": "Vrbanj",
+        "postcode": "21462",
+        "city": "Vrbanj"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533917087",
+      "lat": 43.200379600000005,
+      "lon": 16.661051199999996,
+      "obris": [
+        [
+          16.66108,
+          43.200411
+        ],
+        [
+          16.661085,
+          43.200335
+        ],
+        [
+          16.661008,
+          43.200333
+        ],
+        [
+          16.661003,
+          43.200408
+        ],
+        [
+          16.66108,
+          43.200411
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja",
+      "dguAdresa": {
+        "street": "Vrbanj",
+        "houseNumber": "399A",
+        "settlement": "Vrbanj",
+        "postcode": "21462",
+        "city": "Vrbanj"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533917088",
+      "lat": 43.200074799999996,
+      "lon": 16.661111800000004,
+      "obris": [
+        [
+          16.661059,
+          43.200099
+        ],
+        [
+          16.661167,
+          43.200116
+        ],
+        [
+          16.661191,
+          43.200039
+        ],
+        [
+          16.661083,
+          43.200021
+        ],
+        [
+          16.661059,
+          43.200099
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja",
+      "dguAdresa": {
+        "street": "Vrbanj",
+        "houseNumber": "385A",
+        "settlement": "Vrbanj",
+        "postcode": "21462",
+        "city": "Vrbanj"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533917097",
+      "lat": 43.200298,
+      "lon": 16.662572400000002,
+      "obris": [
+        [
+          16.662519,
+          43.20033
+        ],
+        [
+          16.662638,
+          43.20034
+        ],
+        [
+          16.662652,
+          43.20025
+        ],
+        [
+          16.662534,
+          43.20024
+        ],
+        [
+          16.662519,
+          43.20033
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1533917114",
+      "lat": 43.20217677777779,
+      "lon": 16.661057333333332,
+      "obris": [
+        [
+          16.661058,
+          43.20209
+        ],
+        [
+          16.66098,
+          43.202153
+        ],
+        [
+          16.66103,
+          43.202187
+        ],
+        [
+          16.660999,
+          43.202212
+        ],
+        [
+          16.661036,
+          43.202236
+        ],
+        [
+          16.661066,
+          43.202212
+        ],
+        [
+          16.661105,
+          43.202237
+        ],
+        [
+          16.661184,
+          43.202174
+        ],
+        [
+          16.661058,
+          43.20209
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1533917115",
+      "lat": 43.202303,
+      "lon": 16.6623354,
+      "obris": [
+        [
+          16.662283,
+          43.202255
+        ],
+        [
+          16.662248,
+          43.202338
+        ],
+        [
+          16.662414,
+          43.202375
+        ],
+        [
+          16.662449,
+          43.202292
+        ],
+        [
+          16.662283,
+          43.202255
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1533917131",
+      "lat": 43.199485800000005,
+      "lon": 16.659444200000003,
+      "obris": [
+        [
+          16.659448,
+          43.199545
+        ],
+        [
+          16.659342,
+          43.199469
+        ],
+        [
+          16.659438,
+          43.199397
+        ],
+        [
+          16.659545,
+          43.199473
+        ],
+        [
+          16.659448,
+          43.199545
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja",
+      "dguAdresa": {
+        "street": "Vrbanj",
+        "houseNumber": "364A",
+        "settlement": "Vrbanj",
+        "postcode": "21462",
+        "city": "Vrbanj"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533917132",
+      "lat": 43.199545428571426,
+      "lon": 16.659809142857146,
+      "obris": [
+        [
+          16.659801,
+          43.19965
+        ],
+        [
+          16.659971,
+          43.199446
+        ],
+        [
+          16.659904,
+          43.199417
+        ],
+        [
+          16.659795,
+          43.199548
+        ],
+        [
+          16.659727,
+          43.199517
+        ],
+        [
+          16.659665,
+          43.19959
+        ],
+        [
+          16.659801,
+          43.19965
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja",
+      "dguAdresa": {
+        "street": "Vrbanj",
+        "houseNumber": "366",
+        "settlement": "Vrbanj",
+        "postcode": "21462",
+        "city": "Vrbanj"
+      },
+      "dguBrojJedinica": 3
+    },
+    {
+      "id": "way/1533917133",
+      "lat": 43.1993396,
+      "lon": 16.6592762,
+      "obris": [
+        [
+          16.659209,
+          43.199312
+        ],
+        [
+          16.659286,
+          43.199416
+        ],
+        [
+          16.659377,
+          43.199381
+        ],
+        [
+          16.6593,
+          43.199277
+        ],
+        [
+          16.659209,
+          43.199312
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1533917134",
+      "lat": 43.1999014,
+      "lon": 16.6600234,
+      "obris": [
+        [
+          16.659949,
+          43.199915
+        ],
+        [
+          16.660103,
+          43.199952
+        ],
+        [
+          16.660135,
+          43.199881
+        ],
+        [
+          16.659981,
+          43.199844
+        ],
+        [
+          16.659949,
+          43.199915
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T12:41:26Z",
+      "changeset": 184852440,
+      "osmUser": "Duja",
+      "dguAdresa": {
+        "street": "Vrbanj",
+        "houseNumber": "388",
+        "settlement": "Vrbanj",
+        "postcode": "21462",
+        "city": "Vrbanj"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1533935336",
+      "lat": 43.19270277777778,
+      "lon": 16.67106122222222,
+      "obris": [
+        [
+          16.670994,
+          43.192771
+        ],
+        [
+          16.671098,
+          43.192715
+        ],
+        [
+          16.671157,
+          43.192774
+        ],
+        [
+          16.671269,
+          43.192714
+        ],
+        [
+          16.671118,
+          43.192562
+        ],
+        [
+          16.670977,
+          43.192637
+        ],
+        [
+          16.67101,
+          43.19267
+        ],
+        [
+          16.670934,
+          43.192711
+        ],
+        [
+          16.670994,
+          43.192771
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T13:48:06Z",
+      "changeset": 184855796,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1533935352",
+      "lat": 43.19735899999999,
+      "lon": 16.657601800000002,
+      "obris": [
+        [
+          16.657555,
+          43.197377
+        ],
+        [
+          16.65758,
+          43.197313
+        ],
+        [
+          16.657672,
+          43.197332
+        ],
+        [
+          16.657647,
+          43.197396
+        ],
+        [
+          16.657555,
+          43.197377
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T13:48:06Z",
+      "changeset": 184855796,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1533935353",
+      "lat": 43.197128142857146,
+      "lon": 16.656860714285717,
+      "obris": [
+        [
+          16.656795,
+          43.197104
+        ],
+        [
+          16.656918,
+          43.197088
+        ],
+        [
+          16.656933,
+          43.197153
+        ],
+        [
+          16.656891,
+          43.197158
+        ],
+        [
+          16.656887,
+          43.19714
+        ],
+        [
+          16.656806,
+          43.19715
+        ],
+        [
+          16.656795,
+          43.197104
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T13:48:06Z",
+      "changeset": 184855796,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1533935354",
+      "lat": 43.197023200000004,
+      "lon": 16.6535996,
+      "obris": [
+        [
+          16.65354,
+          43.197091
+        ],
+        [
+          16.653657,
+          43.197103
+        ],
+        [
+          16.653689,
+          43.196921
+        ],
+        [
+          16.653572,
+          43.19691
+        ],
+        [
+          16.65354,
+          43.197091
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-30T13:48:06Z",
+      "changeset": 184855796,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1534065810",
+      "lat": 46.02256655555556,
+      "lon": 15.899384111111111,
+      "obris": [
+        [
+          15.899401,
+          46.022466
+        ],
+        [
+          15.899272,
+          46.022623
+        ],
+        [
+          15.89934,
+          46.022649
+        ],
+        [
+          15.899369,
+          46.022613
+        ],
+        [
+          15.899391,
+          46.022622
+        ],
+        [
+          15.899418,
+          46.022588
+        ],
+        [
+          15.899396,
+          46.02258
+        ],
+        [
+          15.899469,
+          46.022492
+        ],
+        [
+          15.899401,
+          46.022466
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Krapinsko-zagorska županija",
+      "validFrom": "2026-06-30T20:34:59Z",
+      "changeset": 184876950,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Ulica 103. brigade",
+        "houseNumber": "2",
+        "settlement": "Zabok",
+        "postcode": "49210",
+        "city": "Zabok"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534232055",
+      "lat": 43.223418,
+      "lon": 16.5333798,
+      "obris": [
+        [
+          16.533346,
+          43.223404
+        ],
+        [
+          16.533383,
+          43.223386
+        ],
+        [
+          16.533431,
+          43.223439
+        ],
+        [
+          16.533393,
+          43.223457
+        ],
+        [
+          16.533346,
+          43.223404
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-07-01T10:32:04Z",
+      "changeset": 184906375,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1534232056",
+      "lat": 43.22392000000001,
+      "lon": 16.533602199999997,
+      "obris": [
+        [
+          16.533568,
+          43.223906
+        ],
+        [
+          16.533606,
+          43.223888
+        ],
+        [
+          16.533653,
+          43.223941
+        ],
+        [
+          16.533616,
+          43.223959
+        ],
+        [
+          16.533568,
+          43.223906
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-07-01T10:32:04Z",
+      "changeset": 184906375,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1534232066",
+      "lat": 43.225567,
+      "lon": 16.5429574,
+      "obris": [
+        [
+          16.542923,
+          43.225553
+        ],
+        [
+          16.542961,
+          43.225535
+        ],
+        [
+          16.543009,
+          43.225588
+        ],
+        [
+          16.542971,
+          43.225606
+        ],
+        [
+          16.542923,
+          43.225553
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-07-01T10:32:04Z",
+      "changeset": 184906375,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1534243302",
+      "lat": 43.2043924,
+      "lon": 16.5644794,
+      "obris": [
+        [
+          16.564404,
+          43.20438
+        ],
+        [
+          16.564459,
+          43.204331
+        ],
+        [
+          16.564593,
+          43.204411
+        ],
+        [
+          16.564537,
+          43.20446
+        ],
+        [
+          16.564404,
+          43.20438
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-07-01T11:38:07Z",
+      "changeset": 184909126,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1534243307",
+      "lat": 43.212146800000006,
+      "lon": 16.572260400000005,
+      "obris": [
+        [
+          16.572268,
+          43.212176
+        ],
+        [
+          16.572306,
+          43.212155
+        ],
+        [
+          16.572248,
+          43.212102
+        ],
+        [
+          16.572212,
+          43.212125
+        ],
+        [
+          16.572268,
+          43.212176
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-07-01T11:38:07Z",
+      "changeset": 184909126,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1534257030",
+      "lat": 45.8802792,
+      "lon": 15.812174199999998,
+      "obris": [
+        [
+          15.812057,
+          45.880319
+        ],
+        [
+          15.812092,
+          45.880185
+        ],
+        [
+          15.812353,
+          45.880221
+        ],
+        [
+          15.812312,
+          45.880352
+        ],
+        [
+          15.812057,
+          45.880319
+        ]
+      ],
+      "tags": {
+        "aeroway": "hangar",
+        "building": "hangar"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-07-01T12:43:12Z",
+      "changeset": 184912050,
+      "osmUser": "Martis22X",
+      "nearestStreet": "Industrijska ulica",
+      "nearestStreetDist": 23
+    },
+    {
+      "id": "way/1534257031",
+      "lat": 45.8813024,
+      "lon": 15.8119768,
+      "obris": [
+        [
+          15.811941,
+          45.881343
+        ],
+        [
+          15.812005,
+          45.881351
+        ],
+        [
+          15.812032,
+          45.881242
+        ],
+        [
+          15.811965,
+          45.881233
+        ],
+        [
+          15.811941,
+          45.881343
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-07-01T12:43:12Z",
+      "changeset": 184912050,
+      "osmUser": "Martis22X",
+      "nearestStreet": "Industrijska ulica",
+      "nearestStreetDist": 103
+    },
+    {
+      "id": "way/1534317550",
+      "lat": 46.31286528571429,
+      "lon": 16.340156,
+      "obris": [
+        [
+          16.340238,
+          46.312811
+        ],
+        [
+          16.340143,
+          46.312786
+        ],
+        [
+          16.340088,
+          46.312887
+        ],
+        [
+          16.340117,
+          46.312895
+        ],
+        [
+          16.340101,
+          46.312925
+        ],
+        [
+          16.340167,
+          46.312942
+        ],
+        [
+          16.340238,
+          46.312811
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Zavrtnica",
+        "building": "house"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-01T16:02:10Z",
+      "changeset": 184923349,
+      "osmUser": "Karlo Kostanjevec"
+    },
+    {
+      "id": "way/1534317551",
+      "lat": 46.31278600000001,
+      "lon": 16.34034,
+      "obris": [
+        [
+          16.340404,
+          46.312848
+        ],
+        [
+          16.34046,
+          46.312725
+        ],
+        [
+          16.340241,
+          46.312677
+        ],
+        [
+          16.3402,
+          46.312769
+        ],
+        [
+          16.340342,
+          46.312803
+        ],
+        [
+          16.340329,
+          46.312832
+        ],
+        [
+          16.340404,
+          46.312848
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "Ulica Ognjena Price",
+        "building": "house"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-01T16:02:10Z",
+      "changeset": 184923349,
+      "osmUser": "Karlo Kostanjevec"
+    },
+    {
+      "id": "way/1534317552",
+      "lat": 46.31262930769232,
+      "lon": 16.340029,
+      "obris": [
+        [
+          16.339932,
+          46.312531
+        ],
+        [
+          16.340083,
+          46.312536
+        ],
+        [
+          16.340082,
+          46.312561
+        ],
+        [
+          16.340147,
+          46.312562
+        ],
+        [
+          16.340137,
+          46.31271
+        ],
+        [
+          16.340154,
+          46.312711
+        ],
+        [
+          16.340124,
+          46.312765
+        ],
+        [
+          16.339909,
+          46.312723
+        ],
+        [
+          16.339931,
+          46.312669
+        ],
+        [
+          16.340008,
+          46.312681
+        ],
+        [
+          16.340009,
+          46.312603
+        ],
+        [
+          16.339929,
+          46.312598
+        ],
+        [
+          16.339932,
+          46.312531
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "29A",
+        "addr:street": "Ulica Ognjena Price",
+        "building": "house"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-01T16:02:10Z",
+      "changeset": 184923349,
+      "osmUser": "Karlo Kostanjevec"
+    },
+    {
+      "id": "way/1534317553",
+      "lat": 46.3128224,
+      "lon": 16.339156,
+      "obris": [
+        [
+          16.339106,
+          46.312862
+        ],
+        [
+          16.339083,
+          46.312784
+        ],
+        [
+          16.339231,
+          46.312763
+        ],
+        [
+          16.339254,
+          46.312841
+        ],
+        [
+          16.339106,
+          46.312862
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Zavrtnica",
+        "building": "house"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-01T16:02:10Z",
+      "changeset": 184923349,
+      "osmUser": "Karlo Kostanjevec"
+    },
+    {
+      "id": "way/1534317554",
+      "lat": 46.31272188888889,
+      "lon": 16.339527888888888,
+      "obris": [
+        [
+          16.339473,
+          46.312724
+        ],
+        [
+          16.339515,
+          46.312726
+        ],
+        [
+          16.339515,
+          46.312739
+        ],
+        [
+          16.339555,
+          46.312742
+        ],
+        [
+          16.339554,
+          46.312754
+        ],
+        [
+          16.339591,
+          46.312757
+        ],
+        [
+          16.339599,
+          46.312659
+        ],
+        [
+          16.339476,
+          46.312672
+        ],
+        [
+          16.339473,
+          46.312724
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Zavrtnica",
+        "building": "house"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-07-01T16:02:10Z",
+      "changeset": 184923349,
+      "osmUser": "Karlo Kostanjevec"
+    },
+    {
+      "id": "way/1534363770",
+      "lat": 45.53365185714286,
+      "lon": 18.63466785714286,
+      "obris": [
+        [
+          18.634563,
+          45.533651
+        ],
+        [
+          18.634705,
+          45.533712
+        ],
+        [
+          18.63474,
+          45.533677
+        ],
+        [
+          18.634721,
+          45.533669
+        ],
+        [
+          18.634755,
+          45.533629
+        ],
+        [
+          18.634628,
+          45.533574
+        ],
+        [
+          18.634563,
+          45.533651
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "16",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363771",
+      "lat": 45.53354033333333,
+      "lon": 18.63478088888889,
+      "obris": [
+        [
+          18.634725,
+          45.533569
+        ],
+        [
+          18.634829,
+          45.533612
+        ],
+        [
+          18.634871,
+          45.533569
+        ],
+        [
+          18.634815,
+          45.533546
+        ],
+        [
+          18.63485,
+          45.533508
+        ],
+        [
+          18.63474,
+          45.533462
+        ],
+        [
+          18.634707,
+          45.533501
+        ],
+        [
+          18.634766,
+          45.533527
+        ],
+        [
+          18.634725,
+          45.533569
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "18",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363772",
+      "lat": 45.5334072,
+      "lon": 18.6348644,
+      "obris": [
+        [
+          18.634787,
+          45.533417
+        ],
+        [
+          18.634914,
+          45.533469
+        ],
+        [
+          18.634979,
+          45.533393
+        ],
+        [
+          18.634855,
+          45.53334
+        ],
+        [
+          18.634787,
+          45.533417
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "20",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363773",
+      "lat": 45.533694,
+      "lon": 18.6351764,
+      "obris": [
+        [
+          18.635092,
+          45.533697
+        ],
+        [
+          18.635244,
+          45.53376
+        ],
+        [
+          18.635303,
+          45.533689
+        ],
+        [
+          18.635151,
+          45.533627
+        ],
+        [
+          18.635092,
+          45.533697
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "28",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363774",
+      "lat": 45.53456688888889,
+      "lon": 18.636027999999996,
+      "obris": [
+        [
+          18.635937,
+          45.534545
+        ],
+        [
+          18.635996,
+          45.534569
+        ],
+        [
+          18.63595,
+          45.534623
+        ],
+        [
+          18.636057,
+          45.534667
+        ],
+        [
+          18.636138,
+          45.534572
+        ],
+        [
+          18.636113,
+          45.534562
+        ],
+        [
+          18.636133,
+          45.534539
+        ],
+        [
+          18.635991,
+          45.53448
+        ],
+        [
+          18.635937,
+          45.534545
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "25",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363775",
+      "lat": 45.53462814285714,
+      "lon": 18.636243142857147,
+      "obris": [
+        [
+          18.636112,
+          45.534656
+        ],
+        [
+          18.636266,
+          45.534723
+        ],
+        [
+          18.636357,
+          45.53462
+        ],
+        [
+          18.636318,
+          45.534604
+        ],
+        [
+          18.636326,
+          45.534594
+        ],
+        [
+          18.636211,
+          45.534544
+        ],
+        [
+          18.636112,
+          45.534656
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "27",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363776",
+      "lat": 45.53475579999999,
+      "lon": 18.636556000000002,
+      "obris": [
+        [
+          18.636472,
+          45.534787
+        ],
+        [
+          18.636576,
+          45.534831
+        ],
+        [
+          18.636682,
+          45.534709
+        ],
+        [
+          18.636578,
+          45.534665
+        ],
+        [
+          18.636472,
+          45.534787
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "31",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "yes"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363777",
+      "lat": 45.534928888888885,
+      "lon": 18.636785333333332,
+      "obris": [
+        [
+          18.636726,
+          45.534962
+        ],
+        [
+          18.636775,
+          45.534983
+        ],
+        [
+          18.636797,
+          45.534959
+        ],
+        [
+          18.636825,
+          45.534971
+        ],
+        [
+          18.636929,
+          45.534854
+        ],
+        [
+          18.636822,
+          45.534808
+        ],
+        [
+          18.636719,
+          45.534924
+        ],
+        [
+          18.636749,
+          45.534937
+        ],
+        [
+          18.636726,
+          45.534962
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "35",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363778",
+      "lat": 45.534961,
+      "lon": 18.636937142857143,
+      "obris": [
+        [
+          18.636862,
+          45.534969
+        ],
+        [
+          18.636914,
+          45.534991
+        ],
+        [
+          18.636927,
+          45.534976
+        ],
+        [
+          18.636997,
+          45.535006
+        ],
+        [
+          18.63706,
+          45.534934
+        ],
+        [
+          18.636938,
+          45.534882
+        ],
+        [
+          18.636862,
+          45.534969
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "37",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363779",
+      "lat": 45.5350078,
+      "lon": 18.6371064,
+      "obris": [
+        [
+          18.637038,
+          45.53502
+        ],
+        [
+          18.637142,
+          45.535065
+        ],
+        [
+          18.637209,
+          45.53499
+        ],
+        [
+          18.637105,
+          45.534944
+        ],
+        [
+          18.637038,
+          45.53502
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "39",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363780",
+      "lat": 45.5350668,
+      "lon": 18.6372138,
+      "obris": [
+        [
+          18.637125,
+          45.535097
+        ],
+        [
+          18.637235,
+          45.535146
+        ],
+        [
+          18.637347,
+          45.535021
+        ],
+        [
+          18.637237,
+          45.534973
+        ],
+        [
+          18.637125,
+          45.535097
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "41",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363781",
+      "lat": 45.535053142857144,
+      "lon": 18.637655285714285,
+      "obris": [
+        [
+          18.63759,
+          45.53516
+        ],
+        [
+          18.63766,
+          45.535195
+        ],
+        [
+          18.637869,
+          45.534988
+        ],
+        [
+          18.637629,
+          45.534869
+        ],
+        [
+          18.637539,
+          45.534958
+        ],
+        [
+          18.63771,
+          45.535042
+        ],
+        [
+          18.63759,
+          45.53516
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "41A",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363782",
+      "lat": 45.534539200000005,
+      "lon": 18.637592,
+      "obris": [
+        [
+          18.637502,
+          45.534599
+        ],
+        [
+          18.637572,
+          45.534629
+        ],
+        [
+          18.637727,
+          45.534449
+        ],
+        [
+          18.637657,
+          45.53442
+        ],
+        [
+          18.637502,
+          45.534599
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "45",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363783",
+      "lat": 45.5345462,
+      "lon": 18.637096200000002,
+      "obris": [
+        [
+          18.637018,
+          45.53456
+        ],
+        [
+          18.637132,
+          45.534612
+        ],
+        [
+          18.637213,
+          45.534526
+        ],
+        [
+          18.6371,
+          45.534473
+        ],
+        [
+          18.637018,
+          45.53456
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "54",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363784",
+      "lat": 45.5343394,
+      "lon": 18.6385006,
+      "obris": [
+        [
+          18.638415,
+          45.534384
+        ],
+        [
+          18.638488,
+          45.534419
+        ],
+        [
+          18.638629,
+          45.534272
+        ],
+        [
+          18.638556,
+          45.534238
+        ],
+        [
+          18.638415,
+          45.534384
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "49",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363785",
+      "lat": 45.533576,
+      "lon": 18.6352676,
+      "obris": [
+        [
+          18.635195,
+          45.533592
+        ],
+        [
+          18.635298,
+          45.533638
+        ],
+        [
+          18.635376,
+          45.533552
+        ],
+        [
+          18.635274,
+          45.533506
+        ],
+        [
+          18.635195,
+          45.533592
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "26",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363786",
+      "lat": 45.53410142857143,
+      "lon": 18.635869857142858,
+      "obris": [
+        [
+          18.635766,
+          45.534129
+        ],
+        [
+          18.635912,
+          45.534188
+        ],
+        [
+          18.635996,
+          45.534087
+        ],
+        [
+          18.635916,
+          45.534054
+        ],
+        [
+          18.635899,
+          45.534075
+        ],
+        [
+          18.635834,
+          45.534048
+        ],
+        [
+          18.635766,
+          45.534129
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "38",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363787",
+      "lat": 45.53352219999999,
+      "lon": 18.6354488,
+      "obris": [
+        [
+          18.635375,
+          45.533527
+        ],
+        [
+          18.635501,
+          45.533581
+        ],
+        [
+          18.63556,
+          45.533515
+        ],
+        [
+          18.635433,
+          45.533461
+        ],
+        [
+          18.635375,
+          45.533527
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "24",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363788",
+      "lat": 45.533325399999995,
+      "lon": 18.634954999999998,
+      "obris": [
+        [
+          18.634877,
+          45.533333
+        ],
+        [
+          18.63501,
+          45.533388
+        ],
+        [
+          18.635072,
+          45.533314
+        ],
+        [
+          18.634939,
+          45.533259
+        ],
+        [
+          18.634877,
+          45.533333
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "78",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363789",
+      "lat": 45.533151000000004,
+      "lon": 18.6345126,
+      "obris": [
+        [
+          18.634441,
+          45.533177
+        ],
+        [
+          18.634528,
+          45.533215
+        ],
+        [
+          18.63462,
+          45.533112
+        ],
+        [
+          18.634533,
+          45.533074
+        ],
+        [
+          18.634441,
+          45.533177
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "82",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534363790",
+      "lat": 45.53304785714287,
+      "lon": 18.63445328571429,
+      "obris": [
+        [
+          18.634367,
+          45.533068
+        ],
+        [
+          18.63447,
+          45.533114
+        ],
+        [
+          18.634552,
+          45.533027
+        ],
+        [
+          18.63451,
+          45.533011
+        ],
+        [
+          18.634487,
+          45.533037
+        ],
+        [
+          18.63442,
+          45.53301
+        ],
+        [
+          18.634367,
+          45.533068
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "84",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:49:41Z",
+      "changeset": 184932453,
+      "osmUser": "Mister_Zed",
+      "masovniUnos": {
+        "changeset": 184932453,
+        "brojZgrada": 21,
+        "korisnik": "Mister_Zed"
+      }
+    },
+    {
+      "id": "way/1534365726",
+      "lat": 45.534157199999996,
+      "lon": 18.6332986,
+      "obris": [
+        [
+          18.633287,
+          45.534211
+        ],
+        [
+          18.633399,
+          45.534139
+        ],
+        [
+          18.633316,
+          45.534076
+        ],
+        [
+          18.633204,
+          45.534149
+        ],
+        [
+          18.633287,
+          45.534211
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "4",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica jela",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:58:16Z",
+      "changeset": 184932905,
+      "osmUser": "Mister_Zed"
+    },
+    {
+      "id": "way/1534365727",
+      "lat": 45.5346248,
+      "lon": 18.6335374,
+      "obris": [
+        [
+          18.633456,
+          45.534641
+        ],
+        [
+          18.633578,
+          45.534692
+        ],
+        [
+          18.633655,
+          45.534601
+        ],
+        [
+          18.633542,
+          45.534549
+        ],
+        [
+          18.633456,
+          45.534641
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "173",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica svetog Leopolda Bogdana Mandića",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:58:16Z",
+      "changeset": 184932905,
+      "osmUser": "Mister_Zed"
+    },
+    {
+      "id": "way/1534365728",
+      "lat": 45.5347,
+      "lon": 18.6336972,
+      "obris": [
+        [
+          18.633627,
+          45.534715
+        ],
+        [
+          18.633733,
+          45.534759
+        ],
+        [
+          18.633803,
+          45.534678
+        ],
+        [
+          18.633696,
+          45.534633
+        ],
+        [
+          18.633627,
+          45.534715
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "171",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica svetog Leopolda Bogdana Mandića",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:58:16Z",
+      "changeset": 184932905,
+      "osmUser": "Mister_Zed"
+    },
+    {
+      "id": "way/1534365729",
+      "lat": 45.534819,
+      "lon": 18.634002799999998,
+      "obris": [
+        [
+          18.633932,
+          45.534833
+        ],
+        [
+          18.63404,
+          45.534878
+        ],
+        [
+          18.634109,
+          45.534798
+        ],
+        [
+          18.634001,
+          45.534753
+        ],
+        [
+          18.633932,
+          45.534833
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "167",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica svetog Leopolda Bogdana Mandića",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:58:16Z",
+      "changeset": 184932905,
+      "osmUser": "Mister_Zed"
+    },
+    {
+      "id": "way/1534365730",
+      "lat": 45.5348738,
+      "lon": 18.634133400000003,
+      "obris": [
+        [
+          18.634063,
+          45.534886
+        ],
+        [
+          18.634172,
+          45.534933
+        ],
+        [
+          18.634239,
+          45.534855
+        ],
+        [
+          18.63413,
+          45.534809
+        ],
+        [
+          18.634063,
+          45.534886
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "165",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica svetog Leopolda Bogdana Mandića",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:58:16Z",
+      "changeset": 184932905,
+      "osmUser": "Mister_Zed"
+    },
+    {
+      "id": "way/1534365731",
+      "lat": 45.534991000000005,
+      "lon": 18.6344168,
+      "obris": [
+        [
+          18.634344,
+          45.535005
+        ],
+        [
+          18.63445,
+          45.535052
+        ],
+        [
+          18.634526,
+          45.53497
+        ],
+        [
+          18.63442,
+          45.534923
+        ],
+        [
+          18.634344,
+          45.535005
+        ]
+      ],
+      "tags": {
+        "addr:city": "Osijek",
+        "addr:housenumber": "161A",
+        "addr:postcode": "31000",
+        "addr:street": "Ulica svetog Leopolda Bogdana Mandića",
+        "building": "house"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-01T18:58:16Z",
+      "changeset": 184932905,
+      "osmUser": "Mister_Zed"
+    },
+    {
+      "id": "way/1534387345",
+      "lat": 46.344995999999995,
+      "lon": 16.361527000000002,
+      "obris": [
+        [
+          16.36146,
+          46.345036
+        ],
+        [
+          16.361642,
+          46.345022
+        ],
+        [
+          16.361628,
+          46.344936
+        ],
+        [
+          16.361445,
+          46.34495
+        ],
+        [
+          16.36146,
+          46.345036
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "78",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387346",
+      "lat": 46.345518285714284,
+      "lon": 16.361103,
+      "obris": [
+        [
+          16.361109,
+          46.345464
+        ],
+        [
+          16.361036,
+          46.345468
+        ],
+        [
+          16.361051,
+          46.345581
+        ],
+        [
+          16.361151,
+          46.345575
+        ],
+        [
+          16.361146,
+          46.345537
+        ],
+        [
+          16.361119,
+          46.345539
+        ],
+        [
+          16.361109,
+          46.345464
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 46,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387347",
+      "lat": 46.345133000000004,
+      "lon": 16.361530199999997,
+      "obris": [
+        [
+          16.361477,
+          46.345176
+        ],
+        [
+          16.36162,
+          46.345168
+        ],
+        [
+          16.36161,
+          46.345069
+        ],
+        [
+          16.361467,
+          46.345076
+        ],
+        [
+          16.361477,
+          46.345176
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "76",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387348",
+      "lat": 46.34525633333334,
+      "lon": 16.361425444444446,
+      "obris": [
+        [
+          16.361339,
+          46.345307
+        ],
+        [
+          16.361579,
+          46.345299
+        ],
+        [
+          16.361573,
+          46.345207
+        ],
+        [
+          16.361446,
+          46.345211
+        ],
+        [
+          16.361447,
+          46.345236
+        ],
+        [
+          16.361385,
+          46.345238
+        ],
+        [
+          16.361386,
+          46.34525
+        ],
+        [
+          16.361335,
+          46.345252
+        ],
+        [
+          16.361339,
+          46.345307
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "74",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387349",
+      "lat": 46.34539288888889,
+      "lon": 16.36122488888889,
+      "obris": [
+        [
+          16.361125,
+          46.345458
+        ],
+        [
+          16.361356,
+          46.345433
+        ],
+        [
+          16.361337,
+          46.345354
+        ],
+        [
+          16.361293,
+          46.345358
+        ],
+        [
+          16.36129,
+          46.345346
+        ],
+        [
+          16.361192,
+          46.345357
+        ],
+        [
+          16.361197,
+          46.345381
+        ],
+        [
+          16.361109,
+          46.345391
+        ],
+        [
+          16.361125,
+          46.345458
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "72",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387350",
+      "lat": 46.3455504,
+      "lon": 16.3613428,
+      "obris": [
+        [
+          16.361315,
+          46.345572
+        ],
+        [
+          16.361392,
+          46.345566
+        ],
+        [
+          16.361385,
+          46.345518
+        ],
+        [
+          16.361307,
+          46.345524
+        ],
+        [
+          16.361315,
+          46.345572
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 28,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387351",
+      "lat": 46.345523428571425,
+      "lon": 16.361442285714286,
+      "obris": [
+        [
+          16.36139,
+          46.345555
+        ],
+        [
+          16.361524,
+          46.345565
+        ],
+        [
+          16.361536,
+          46.345482
+        ],
+        [
+          16.361433,
+          46.345475
+        ],
+        [
+          16.361426,
+          46.345517
+        ],
+        [
+          16.361397,
+          46.345515
+        ],
+        [
+          16.36139,
+          46.345555
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "70",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387352",
+      "lat": 46.345654,
+      "lon": 16.361402599999998,
+      "obris": [
+        [
+          16.361338,
+          46.345689
+        ],
+        [
+          16.361497,
+          46.345691
+        ],
+        [
+          16.361499,
+          46.345602
+        ],
+        [
+          16.361341,
+          46.345599
+        ],
+        [
+          16.361338,
+          46.345689
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "68",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387353",
+      "lat": 46.345979777777785,
+      "lon": 16.36209,
+      "obris": [
+        [
+          16.362009,
+          46.346021
+        ],
+        [
+          16.362113,
+          46.346027
+        ],
+        [
+          16.362114,
+          46.346019
+        ],
+        [
+          16.362141,
+          46.346021
+        ],
+        [
+          16.36215,
+          46.345947
+        ],
+        [
+          16.362123,
+          46.345946
+        ],
+        [
+          16.362127,
+          46.345911
+        ],
+        [
+          16.362024,
+          46.345905
+        ],
+        [
+          16.362009,
+          46.346021
+        ]
+      ],
+      "tags": {
+        "building": "barn"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 40,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387354",
+      "lat": 46.3458678,
+      "lon": 16.3619572,
+      "obris": [
+        [
+          16.361875,
+          46.345878
+        ],
+        [
+          16.362068,
+          46.345902
+        ],
+        [
+          16.36208,
+          46.345852
+        ],
+        [
+          16.361888,
+          46.345829
+        ],
+        [
+          16.361875,
+          46.345878
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 31,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387355",
+      "lat": 46.34577399999999,
+      "lon": 16.3621806,
+      "obris": [
+        [
+          16.36222,
+          46.345824
+        ],
+        [
+          16.362242,
+          46.34571
+        ],
+        [
+          16.362121,
+          46.345699
+        ],
+        [
+          16.3621,
+          46.345813
+        ],
+        [
+          16.36222,
+          46.345824
+        ]
+      ],
+      "tags": {
+        "building": "barn"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 42,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387356",
+      "lat": 46.34563888888889,
+      "lon": 16.36275444444444,
+      "obris": [
+        [
+          16.362665,
+          46.345594
+        ],
+        [
+          16.362623,
+          46.345696
+        ],
+        [
+          16.362842,
+          46.345739
+        ],
+        [
+          16.362889,
+          46.345626
+        ],
+        [
+          16.362825,
+          46.345613
+        ],
+        [
+          16.36281,
+          46.345648
+        ],
+        [
+          16.362731,
+          46.345632
+        ],
+        [
+          16.36274,
+          46.345608
+        ],
+        [
+          16.362665,
+          46.345594
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Ulica Matije Gupca",
+      "nearestStreetDist": 38,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387357",
+      "lat": 46.345639199999994,
+      "lon": 16.3621968,
+      "obris": [
+        [
+          16.362235,
+          46.345691
+        ],
+        [
+          16.362257,
+          46.345572
+        ],
+        [
+          16.362139,
+          46.345562
+        ],
+        [
+          16.362118,
+          46.34568
+        ],
+        [
+          16.362235,
+          46.345691
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "69",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387358",
+      "lat": 46.3461756,
+      "lon": 16.362030999999998,
+      "obris": [
+        [
+          16.362003,
+          46.346141
+        ],
+        [
+          16.361993,
+          46.346223
+        ],
+        [
+          16.362073,
+          46.346227
+        ],
+        [
+          16.362083,
+          46.346146
+        ],
+        [
+          16.362003,
+          46.346141
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 39,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387359",
+      "lat": 46.34610777777778,
+      "lon": 16.362001888888884,
+      "obris": [
+        [
+          16.361889,
+          46.346135
+        ],
+        [
+          16.362003,
+          46.346141
+        ],
+        [
+          16.362083,
+          46.346146
+        ],
+        [
+          16.362118,
+          46.346148
+        ],
+        [
+          16.362129,
+          46.346056
+        ],
+        [
+          16.362007,
+          46.346049
+        ],
+        [
+          16.362003,
+          46.346083
+        ],
+        [
+          16.361896,
+          46.346077
+        ],
+        [
+          16.361889,
+          46.346135
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 37,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387360",
+      "lat": 46.34581042857143,
+      "lon": 16.361795142857144,
+      "obris": [
+        [
+          16.361708,
+          46.345869
+        ],
+        [
+          16.361858,
+          46.345887
+        ],
+        [
+          16.361882,
+          46.345794
+        ],
+        [
+          16.361827,
+          46.345787
+        ],
+        [
+          16.361839,
+          46.345739
+        ],
+        [
+          16.361744,
+          46.345728
+        ],
+        [
+          16.361708,
+          46.345869
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "67",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387361",
+      "lat": 46.348096,
+      "lon": 16.360599666666666,
+      "obris": [
+        [
+          16.360612,
+          46.348169
+        ],
+        [
+          16.360665,
+          46.348142
+        ],
+        [
+          16.360604,
+          46.348086
+        ],
+        [
+          16.36064,
+          46.348067
+        ],
+        [
+          16.360609,
+          46.34804
+        ],
+        [
+          16.360573,
+          46.348058
+        ],
+        [
+          16.360567,
+          46.348053
+        ],
+        [
+          16.360515,
+          46.34808
+        ],
+        [
+          16.360612,
+          46.348169
+        ]
+      ],
+      "tags": {
+        "building": "barn"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Dravska ulica",
+      "nearestStreetDist": 31,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387362",
+      "lat": 46.348173333333335,
+      "lon": 16.360685,
+      "obris": [
+        [
+          16.360671,
+          46.348223
+        ],
+        [
+          16.360775,
+          46.348168
+        ],
+        [
+          16.360716,
+          46.348115
+        ],
+        [
+          16.360665,
+          46.348142
+        ],
+        [
+          16.360612,
+          46.348169
+        ],
+        [
+          16.360671,
+          46.348223
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "5",
+        "addr:postcode": "40305",
+        "addr:street": "Dravska ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387363",
+      "lat": 46.347875,
+      "lon": 16.3607016,
+      "obris": [
+        [
+          16.360698,
+          46.34791
+        ],
+        [
+          16.360756,
+          46.347891
+        ],
+        [
+          16.360707,
+          46.347822
+        ],
+        [
+          16.360649,
+          46.347842
+        ],
+        [
+          16.360698,
+          46.34791
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Dravska ulica",
+      "nearestStreetDist": 40,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387364",
+      "lat": 46.34793366666667,
+      "lon": 16.360579,
+      "obris": [
+        [
+          16.360588,
+          46.347944
+        ],
+        [
+          16.360654,
+          46.347923
+        ],
+        [
+          16.360632,
+          46.34789
+        ],
+        [
+          16.360495,
+          46.347934
+        ],
+        [
+          16.360517,
+          46.347967
+        ],
+        [
+          16.360588,
+          46.347944
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Dravska ulica",
+      "nearestStreetDist": 42,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387365",
+      "lat": 46.34794933333333,
+      "lon": 16.3606455,
+      "obris": [
+        [
+          16.360614,
+          46.347983
+        ],
+        [
+          16.360715,
+          46.347951
+        ],
+        [
+          16.360688,
+          46.347912
+        ],
+        [
+          16.360654,
+          46.347923
+        ],
+        [
+          16.360588,
+          46.347944
+        ],
+        [
+          16.360614,
+          46.347983
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Dravska ulica",
+      "nearestStreetDist": 37,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387366",
+      "lat": 46.3478926,
+      "lon": 16.360982200000002,
+      "obris": [
+        [
+          16.360982,
+          46.347931
+        ],
+        [
+          16.361041,
+          46.347909
+        ],
+        [
+          16.360983,
+          46.347835
+        ],
+        [
+          16.360923,
+          46.347857
+        ],
+        [
+          16.360982,
+          46.347931
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Dravska ulica",
+      "nearestStreetDist": 27,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387367",
+      "lat": 46.3477048,
+      "lon": 16.3608438,
+      "obris": [
+        [
+          16.360837,
+          46.347734
+        ],
+        [
+          16.360891,
+          46.347718
+        ],
+        [
+          16.360854,
+          46.347661
+        ],
+        [
+          16.3608,
+          46.347677
+        ],
+        [
+          16.360837,
+          46.347734
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Dravska ulica",
+      "nearestStreetDist": 45,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534387368",
+      "lat": 46.347687199999996,
+      "lon": 16.360961600000003,
+      "obris": [
+        [
+          16.360942,
+          46.347734
+        ],
+        [
+          16.361046,
+          46.347702
+        ],
+        [
+          16.360991,
+          46.347617
+        ],
+        [
+          16.360887,
+          46.347649
+        ],
+        [
+          16.360942,
+          46.347734
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:28:19Z",
+      "changeset": 184937157,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Dravska ulica",
+      "nearestStreetDist": 40,
+      "masovniUnos": {
+        "changeset": 184937157,
+        "brojZgrada": 24,
+        "korisnik": "Joško Horvat"
+      }
+    },
+    {
+      "id": "way/1534390038",
+      "lat": 46.332480200000006,
+      "lon": 16.3565828,
+      "obris": [
+        [
+          16.356552,
+          46.332512
+        ],
+        [
+          16.356634,
+          46.33251
+        ],
+        [
+          16.356629,
+          46.332432
+        ],
+        [
+          16.356547,
+          46.332435
+        ],
+        [
+          16.356552,
+          46.332512
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Obrtnička ulica",
+      "nearestStreetDist": 144
+    },
+    {
+      "id": "way/1534390039",
+      "lat": 46.332556999999994,
+      "lon": 16.3566526,
+      "obris": [
+        [
+          16.356518,
+          46.332589
+        ],
+        [
+          16.356861,
+          46.332571
+        ],
+        [
+          16.356854,
+          46.332509
+        ],
+        [
+          16.356512,
+          46.332527
+        ],
+        [
+          16.356518,
+          46.332589
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Čakovečka ulica",
+        "houseNumber": "10",
+        "settlement": "Gornji Kuršanec",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534390040",
+      "lat": 46.332799625,
+      "lon": 16.358361375,
+      "obris": [
+        [
+          16.358199,
+          46.333272
+        ],
+        [
+          16.358469,
+          46.333251
+        ],
+        [
+          16.358404,
+          46.332843
+        ],
+        [
+          16.358668,
+          46.332823
+        ],
+        [
+          16.358601,
+          46.332407
+        ],
+        [
+          16.358313,
+          46.332254
+        ],
+        [
+          16.358038,
+          46.332275
+        ],
+        [
+          16.358199,
+          46.333272
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Kuršanec",
+        "addr:housenumber": "5",
+        "addr:postcode": "40305",
+        "addr:street": "Obrtnička ulica",
+        "building": "yes",
+        "craft": "metal_construction",
+        "name": "MIP METAL",
+        "operator": "Weyland",
+        "website": "http://www.mipweyland.hr/"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat"
+    },
+    {
+      "id": "way/1534390041",
+      "lat": 46.33243,
+      "lon": 16.3595736,
+      "obris": [
+        [
+          16.359532,
+          46.332455
+        ],
+        [
+          16.359648,
+          46.332442
+        ],
+        [
+          16.359636,
+          46.332392
+        ],
+        [
+          16.35952,
+          46.332406
+        ],
+        [
+          16.359532,
+          46.332455
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 77
+    },
+    {
+      "id": "way/1534390042",
+      "lat": 46.3324974,
+      "lon": 16.359678600000002,
+      "obris": [
+        [
+          16.359618,
+          46.332536
+        ],
+        [
+          16.359787,
+          46.332518
+        ],
+        [
+          16.359769,
+          46.33244
+        ],
+        [
+          16.359601,
+          46.332457
+        ],
+        [
+          16.359618,
+          46.332536
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 66
+    },
+    {
+      "id": "way/1534390043",
+      "lat": 46.3326482,
+      "lon": 16.3600188,
+      "obris": [
+        [
+          16.359934,
+          46.332639
+        ],
+        [
+          16.359945,
+          46.332686
+        ],
+        [
+          16.360146,
+          46.332662
+        ],
+        [
+          16.360135,
+          46.332615
+        ],
+        [
+          16.359934,
+          46.332639
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 35
+    },
+    {
+      "id": "way/1534390044",
+      "lat": 46.33258757142857,
+      "lon": 16.360046714285712,
+      "obris": [
+        [
+          16.360135,
+          46.332615
+        ],
+        [
+          16.360114,
+          46.332534
+        ],
+        [
+          16.36004,
+          46.332543
+        ],
+        [
+          16.360048,
+          46.332576
+        ],
+        [
+          16.359921,
+          46.332591
+        ],
+        [
+          16.359934,
+          46.332639
+        ],
+        [
+          16.360135,
+          46.332615
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Čakovečka ulica",
+        "houseNumber": "2",
+        "settlement": "Gornji Kuršanec",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534390045",
+      "lat": 46.3328714,
+      "lon": 16.359439199999997,
+      "obris": [
+        [
+          16.359353,
+          46.333101
+        ],
+        [
+          16.359658,
+          46.333077
+        ],
+        [
+          16.359568,
+          46.332527
+        ],
+        [
+          16.359264,
+          46.332551
+        ],
+        [
+          16.359353,
+          46.333101
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Obrtnička ulica",
+      "nearestStreetDist": 63
+    },
+    {
+      "id": "way/1534390046",
+      "lat": 46.3356328,
+      "lon": 16.353951000000002,
+      "obris": [
+        [
+          16.353576,
+          46.335698
+        ],
+        [
+          16.354528,
+          46.335622
+        ],
+        [
+          16.354513,
+          46.335535
+        ],
+        [
+          16.353562,
+          46.335611
+        ],
+        [
+          16.353576,
+          46.335698
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Obrtnička ulica",
+        "houseNumber": "20A",
+        "settlement": "Pušćine",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534390047",
+      "lat": 46.3436044,
+      "lon": 16.3617862,
+      "obris": [
+        [
+          16.361708,
+          46.343651
+        ],
+        [
+          16.361917,
+          46.343638
+        ],
+        [
+          16.361904,
+          46.343534
+        ],
+        [
+          16.361694,
+          46.343548
+        ],
+        [
+          16.361708,
+          46.343651
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "88a",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka ulica",
+        "building": "house"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:37:07Z",
+      "changeset": 184937571,
+      "osmUser": "Joško Horvat"
+    },
+    {
+      "id": "way/1534390405",
+      "lat": 46.336683199999996,
+      "lon": 16.361917,
+      "obris": [
+        [
+          16.361875,
+          46.33672
+        ],
+        [
+          16.361993,
+          46.336711
+        ],
+        [
+          16.36198,
+          46.336628
+        ],
+        [
+          16.361862,
+          46.336637
+        ],
+        [
+          16.361875,
+          46.33672
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 66
+    },
+    {
+      "id": "way/1534390406",
+      "lat": 46.336781200000004,
+      "lon": 16.3616138,
+      "obris": [
+        [
+          16.361543,
+          46.336811
+        ],
+        [
+          16.361731,
+          46.336795
+        ],
+        [
+          16.36172,
+          46.336736
+        ],
+        [
+          16.361532,
+          46.336753
+        ],
+        [
+          16.361543,
+          46.336811
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 49
+    },
+    {
+      "id": "way/1534390407",
+      "lat": 46.336763999999995,
+      "lon": 16.361478333333334,
+      "obris": [
+        [
+          16.361532,
+          46.336753
+        ],
+        [
+          16.361525,
+          46.336713
+        ],
+        [
+          16.36136,
+          46.336728
+        ],
+        [
+          16.361378,
+          46.336826
+        ],
+        [
+          16.361543,
+          46.336811
+        ],
+        [
+          16.361532,
+          46.336753
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Čakovečka ulica",
+        "houseNumber": "145",
+        "settlement": "Pušćine",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534390408",
+      "lat": 46.3367878,
+      "lon": 16.362755,
+      "obris": [
+        [
+          16.362661,
+          46.336837
+        ],
+        [
+          16.362915,
+          46.336814
+        ],
+        [
+          16.362896,
+          46.336714
+        ],
+        [
+          16.362642,
+          46.336737
+        ],
+        [
+          16.362661,
+          46.336837
+        ]
+      ],
+      "tags": {
+        "building": "warehouse"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 132
+    },
+    {
+      "id": "way/1534390409",
+      "lat": 46.3368818,
+      "lon": 16.3621952,
+      "obris": [
+        [
+          16.361999,
+          46.336951
+        ],
+        [
+          16.362514,
+          46.336903
+        ],
+        [
+          16.36249,
+          46.336778
+        ],
+        [
+          16.361974,
+          46.336826
+        ],
+        [
+          16.361999,
+          46.336951
+        ]
+      ],
+      "tags": {
+        "addr:city": "Nedelišće - Pušćine",
+        "addr:housenumber": "143 b",
+        "addr:postcode": "40305",
+        "addr:street": "Čakovečka",
+        "building": "yes",
+        "name": "Velepromet",
+        "shop": "car_parts",
+        "website": "http://www.velepromet.hr/poslovnice"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat"
+    },
+    {
+      "id": "way/1534390410",
+      "lat": 46.33719620000001,
+      "lon": 16.3615206,
+      "obris": [
+        [
+          16.361457,
+          46.337239
+        ],
+        [
+          16.361633,
+          46.337223
+        ],
+        [
+          16.361616,
+          46.337132
+        ],
+        [
+          16.36144,
+          46.337148
+        ],
+        [
+          16.361457,
+          46.337239
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 81
+    },
+    {
+      "id": "way/1534390411",
+      "lat": 46.3373468,
+      "lon": 16.3615378,
+      "obris": [
+        [
+          16.361491,
+          46.337388
+        ],
+        [
+          16.361627,
+          46.337374
+        ],
+        [
+          16.361608,
+          46.337285
+        ],
+        [
+          16.361472,
+          46.337299
+        ],
+        [
+          16.361491,
+          46.337388
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Čakovečka ulica",
+        "houseNumber": "141",
+        "settlement": "Pušćine",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534390412",
+      "lat": 46.337627600000005,
+      "lon": 16.361848,
+      "obris": [
+        [
+          16.36177,
+          46.337646
+        ],
+        [
+          16.361967,
+          46.337641
+        ],
+        [
+          16.361965,
+          46.3376
+        ],
+        [
+          16.361768,
+          46.337605
+        ],
+        [
+          16.36177,
+          46.337646
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 55
+    },
+    {
+      "id": "way/1534390413",
+      "lat": 46.33756342857142,
+      "lon": 16.362191857142857,
+      "obris": [
+        [
+          16.362103,
+          46.337627
+        ],
+        [
+          16.362346,
+          46.337606
+        ],
+        [
+          16.362318,
+          46.337451
+        ],
+        [
+          16.362178,
+          46.337463
+        ],
+        [
+          16.362199,
+          46.337581
+        ],
+        [
+          16.362096,
+          46.337589
+        ],
+        [
+          16.362103,
+          46.337627
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 80
+    },
+    {
+      "id": "way/1534390414",
+      "lat": 46.337436000000004,
+      "lon": 16.361922600000003,
+      "obris": [
+        [
+          16.361861,
+          46.337499
+        ],
+        [
+          16.362039,
+          46.337485
+        ],
+        [
+          16.362015,
+          46.337341
+        ],
+        [
+          16.361837,
+          46.337356
+        ],
+        [
+          16.361861,
+          46.337499
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 75
+    },
+    {
+      "id": "way/1534390415",
+      "lat": 46.337479800000004,
+      "lon": 16.361562,
+      "obris": [
+        [
+          16.361502,
+          46.337531
+        ],
+        [
+          16.361675,
+          46.337514
+        ],
+        [
+          16.361652,
+          46.337403
+        ],
+        [
+          16.361479,
+          46.33742
+        ],
+        [
+          16.361502,
+          46.337531
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Čakovečka ulica",
+        "houseNumber": "139",
+        "settlement": "Pušćine",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534390416",
+      "lat": 46.337615799999995,
+      "lon": 16.361594800000002,
+      "obris": [
+        [
+          16.36154,
+          46.337661
+        ],
+        [
+          16.361698,
+          46.337644
+        ],
+        [
+          16.361677,
+          46.337548
+        ],
+        [
+          16.361519,
+          46.337565
+        ],
+        [
+          16.36154,
+          46.337661
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Čakovečka ulica",
+        "houseNumber": "137",
+        "settlement": "Pušćine",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534390417",
+      "lat": 46.3377268,
+      "lon": 16.361617199999998,
+      "obris": [
+        [
+          16.361566,
+          46.337764
+        ],
+        [
+          16.36171,
+          46.33775
+        ],
+        [
+          16.361694,
+          46.337671
+        ],
+        [
+          16.36155,
+          46.337685
+        ],
+        [
+          16.361566,
+          46.337764
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Čakovečka ulica",
+        "houseNumber": "135",
+        "settlement": "Pušćine",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534390418",
+      "lat": 46.33758400000001,
+      "lon": 16.3640886,
+      "obris": [
+        [
+          16.363997,
+          46.337624
+        ],
+        [
+          16.364238,
+          46.337606
+        ],
+        [
+          16.364226,
+          46.337524
+        ],
+        [
+          16.363985,
+          46.337542
+        ],
+        [
+          16.363997,
+          46.337624
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Čakovečka ulica",
+      "nearestStreetDist": 217
+    },
+    {
+      "id": "way/1534390419",
+      "lat": 46.337788,
+      "lon": 16.362876600000003,
+      "obris": [
+        [
+          16.362231,
+          46.337906
+        ],
+        [
+          16.363873,
+          46.337755
+        ],
+        [
+          16.363845,
+          46.337611
+        ],
+        [
+          16.362203,
+          46.337762
+        ],
+        [
+          16.362231,
+          46.337906
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-07-01T20:40:12Z",
+      "changeset": 184937698,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Čakovečka ulica",
+        "houseNumber": "133A",
+        "settlement": "Pušćine",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478185",
+      "lat": 44.29833,
+      "lon": 15.435635999999999,
+      "obris": [
+        [
+          15.435555,
+          44.298318
+        ],
+        [
+          15.435644,
+          44.298408
+        ],
+        [
+          15.435752,
+          44.298344
+        ],
+        [
+          15.435674,
+          44.298262
+        ],
+        [
+          15.435555,
+          44.298318
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Kruškovačka ulica",
+        "houseNumber": "3",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478186",
+      "lat": 44.298278999999994,
+      "lon": 15.4359128,
+      "obris": [
+        [
+          15.435831,
+          44.298273
+        ],
+        [
+          15.435959,
+          44.298209
+        ],
+        [
+          15.436035,
+          44.298288
+        ],
+        [
+          15.435908,
+          44.298352
+        ],
+        [
+          15.435831,
+          44.298273
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Kruškovačka ulica",
+        "houseNumber": "9",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 2
+    },
+    {
+      "id": "way/1534478187",
+      "lat": 44.29854720000001,
+      "lon": 15.436153000000001,
+      "obris": [
+        [
+          15.436069,
+          44.298535
+        ],
+        [
+          15.436189,
+          44.298474
+        ],
+        [
+          15.436279,
+          44.298566
+        ],
+        [
+          15.436159,
+          44.298626
+        ],
+        [
+          15.436069,
+          44.298535
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Kruškovačka ulica",
+        "houseNumber": "11",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478188",
+      "lat": 44.298806400000004,
+      "lon": 15.4361858,
+      "obris": [
+        [
+          15.436111,
+          44.298787
+        ],
+        [
+          15.436201,
+          44.29874
+        ],
+        [
+          15.436298,
+          44.298836
+        ],
+        [
+          15.436208,
+          44.298882
+        ],
+        [
+          15.436111,
+          44.298787
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Kruškovačka ulica",
+        "houseNumber": "13",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478189",
+      "lat": 44.2987716,
+      "lon": 15.436387399999997,
+      "obris": [
+        [
+          15.436325,
+          44.298765
+        ],
+        [
+          15.436391,
+          44.298829
+        ],
+        [
+          15.436481,
+          44.298781
+        ],
+        [
+          15.436415,
+          44.298718
+        ],
+        [
+          15.436325,
+          44.298765
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Kruškovačka ulica",
+        "houseNumber": "15",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478190",
+      "lat": 44.298152,
+      "lon": 15.4361188,
+      "obris": [
+        [
+          15.43602,
+          44.298164
+        ],
+        [
+          15.436187,
+          44.298065
+        ],
+        [
+          15.436267,
+          44.298134
+        ],
+        [
+          15.4361,
+          44.298233
+        ],
+        [
+          15.43602,
+          44.298164
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Kruškovačka ulica",
+        "houseNumber": "4",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 2
+    },
+    {
+      "id": "way/1534478191",
+      "lat": 44.2980726,
+      "lon": 15.435602399999999,
+      "obris": [
+        [
+          15.435527,
+          44.29806
+        ],
+        [
+          15.43564,
+          44.298008
+        ],
+        [
+          15.435716,
+          44.298091
+        ],
+        [
+          15.435602,
+          44.298144
+        ],
+        [
+          15.435527,
+          44.29806
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Kruškovačka ulica",
+        "houseNumber": "1",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478192",
+      "lat": 44.29898480000001,
+      "lon": 15.4354286,
+      "obris": [
+        [
+          15.435357,
+          44.29897
+        ],
+        [
+          15.435445,
+          44.298922
+        ],
+        [
+          15.435536,
+          44.299007
+        ],
+        [
+          15.435448,
+          44.299055
+        ],
+        [
+          15.435357,
+          44.29897
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Ulica Jurja Barakovića",
+        "houseNumber": "4",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478193",
+      "lat": 44.299121400000004,
+      "lon": 15.4352078,
+      "obris": [
+        [
+          15.43513,
+          44.299107
+        ],
+        [
+          15.435228,
+          44.299053
+        ],
+        [
+          15.435325,
+          44.299143
+        ],
+        [
+          15.435226,
+          44.299197
+        ],
+        [
+          15.43513,
+          44.299107
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Ulica Jurja Barakovića",
+        "houseNumber": "6",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478194",
+      "lat": 44.299257,
+      "lon": 15.435416,
+      "obris": [
+        [
+          15.435312,
+          44.299246
+        ],
+        [
+          15.435389,
+          44.299203
+        ],
+        [
+          15.435421,
+          44.299232
+        ],
+        [
+          15.435452,
+          44.299214
+        ],
+        [
+          15.435495,
+          44.299253
+        ],
+        [
+          15.435458,
+          44.299275
+        ],
+        [
+          15.435488,
+          44.299302
+        ],
+        [
+          15.435417,
+          44.299342
+        ],
+        [
+          15.435312,
+          44.299246
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Ulica Jurja Barakovića",
+        "houseNumber": "8",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478195",
+      "lat": 44.2991578,
+      "lon": 15.435672199999999,
+      "obris": [
+        [
+          15.435605,
+          44.29914
+        ],
+        [
+          15.435676,
+          44.299099
+        ],
+        [
+          15.435773,
+          44.299185
+        ],
+        [
+          15.435702,
+          44.299225
+        ],
+        [
+          15.435605,
+          44.29914
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Ulica Jurja Barakovića",
+        "houseNumber": "12",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478196",
+      "lat": 44.298447,
+      "lon": 15.4355266,
+      "obris": [
+        [
+          15.435469,
+          44.298437
+        ],
+        [
+          15.435544,
+          44.298397
+        ],
+        [
+          15.435613,
+          44.298462
+        ],
+        [
+          15.435538,
+          44.298502
+        ],
+        [
+          15.435469,
+          44.298437
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Ulica Jose Dokoza",
+        "houseNumber": "28B",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534478197",
+      "lat": 44.2984192,
+      "lon": 15.4358478,
+      "obris": [
+        [
+          15.435792,
+          44.298403
+        ],
+        [
+          15.435854,
+          44.29837
+        ],
+        [
+          15.435932,
+          44.298443
+        ],
+        [
+          15.435869,
+          44.298477
+        ],
+        [
+          15.435792,
+          44.298403
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-02T05:58:15Z",
+      "changeset": 184954952,
+      "osmUser": "Kookykooky",
+      "dguAdresa": {
+        "street": "Kruškovačka ulica",
+        "houseNumber": "5",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534504883",
+      "lat": 43.159527800000006,
+      "lon": 16.81983,
+      "obris": [
+        [
+          16.819791,
+          43.159545
+        ],
+        [
+          16.819887,
+          43.159547
+        ],
+        [
+          16.819889,
+          43.159502
+        ],
+        [
+          16.819792,
+          43.1595
+        ],
+        [
+          16.819791,
+          43.159545
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-07-02T08:49:53Z",
+      "changeset": 184962463,
+      "osmUser": "Duja"
+    },
+    {
+      "id": "way/1534582015",
+      "lat": 45.91061616666667,
+      "lon": 16.8530765,
+      "obris": [
+        [
+          16.853099,
+          45.910567
+        ],
+        [
+          16.852955,
+          45.910631
+        ],
+        [
+          16.853026,
+          45.910708
+        ],
+        [
+          16.853169,
+          45.910644
+        ],
+        [
+          16.853111,
+          45.91058
+        ],
+        [
+          16.853099,
+          45.910567
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Andrije Hebranga",
+        "houseNumber": "24A",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582016",
+      "lat": 45.91077628571429,
+      "lon": 16.853217,
+      "obris": [
+        [
+          16.853118,
+          45.910789
+        ],
+        [
+          16.853177,
+          45.910852
+        ],
+        [
+          16.8534,
+          45.910753
+        ],
+        [
+          16.853355,
+          45.910704
+        ],
+        [
+          16.853182,
+          45.910781
+        ],
+        [
+          16.853169,
+          45.910766
+        ],
+        [
+          16.853118,
+          45.910789
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Andrije Hebranga",
+        "houseNumber": "26A",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582017",
+      "lat": 45.9109008888889,
+      "lon": 16.8533,
+      "obris": [
+        [
+          16.85317,
+          45.910879
+        ],
+        [
+          16.853227,
+          45.910941
+        ],
+        [
+          16.85322,
+          45.910944
+        ],
+        [
+          16.853273,
+          45.911002
+        ],
+        [
+          16.853493,
+          45.910905
+        ],
+        [
+          16.853449,
+          45.910857
+        ],
+        [
+          16.853382,
+          45.910887
+        ],
+        [
+          16.853316,
+          45.910814
+        ],
+        [
+          16.85317,
+          45.910879
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Andrije Hebranga",
+        "houseNumber": "28",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582018",
+      "lat": 45.910782999999995,
+      "lon": 16.853600200000002,
+      "obris": [
+        [
+          16.853528,
+          45.910766
+        ],
+        [
+          16.853601,
+          45.910852
+        ],
+        [
+          16.853708,
+          45.910809
+        ],
+        [
+          16.853636,
+          45.910722
+        ],
+        [
+          16.853528,
+          45.910766
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Andrije Hebranga",
+        "houseNumber": "28/1",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582020",
+      "lat": 45.910385222222224,
+      "lon": 16.851072777777777,
+      "obris": [
+        [
+          16.850964,
+          45.910308
+        ],
+        [
+          16.85101,
+          45.910364
+        ],
+        [
+          16.851031,
+          45.910355
+        ],
+        [
+          16.851119,
+          45.910461
+        ],
+        [
+          16.851096,
+          45.91047
+        ],
+        [
+          16.851121,
+          45.9105
+        ],
+        [
+          16.851255,
+          45.910446
+        ],
+        [
+          16.851095,
+          45.910255
+        ],
+        [
+          16.850964,
+          45.910308
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Ivanovčanska",
+        "houseNumber": "9",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582021",
+      "lat": 45.91029538461539,
+      "lon": 16.851320307692305,
+      "obris": [
+        [
+          16.85117,
+          45.910242
+        ],
+        [
+          16.851316,
+          45.910414
+        ],
+        [
+          16.851388,
+          45.910384
+        ],
+        [
+          16.851398,
+          45.910397
+        ],
+        [
+          16.851455,
+          45.910373
+        ],
+        [
+          16.851402,
+          45.910311
+        ],
+        [
+          16.851381,
+          45.910314
+        ],
+        [
+          16.851358,
+          45.910288
+        ],
+        [
+          16.851383,
+          45.910277
+        ],
+        [
+          16.851295,
+          45.910174
+        ],
+        [
+          16.851219,
+          45.910206
+        ],
+        [
+          16.851229,
+          45.910218
+        ],
+        [
+          16.85117,
+          45.910242
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Ivanovčanska",
+        "houseNumber": "7",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582023",
+      "lat": 45.91024477777777,
+      "lon": 16.85148077777778,
+      "obris": [
+        [
+          16.851305,
+          45.910134
+        ],
+        [
+          16.851498,
+          45.910381
+        ],
+        [
+          16.85161,
+          45.910338
+        ],
+        [
+          16.851581,
+          45.910301
+        ],
+        [
+          16.851544,
+          45.910315
+        ],
+        [
+          16.851505,
+          45.910265
+        ],
+        [
+          16.851552,
+          45.910247
+        ],
+        [
+          16.851427,
+          45.910088
+        ],
+        [
+          16.851305,
+          45.910134
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Ivanovčanska",
+        "houseNumber": "5",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582024",
+      "lat": 45.910188222222224,
+      "lon": 16.85162088888889,
+      "obris": [
+        [
+          16.85148,
+          45.910141
+        ],
+        [
+          16.851638,
+          45.910332
+        ],
+        [
+          16.851764,
+          45.910282
+        ],
+        [
+          16.851678,
+          45.910178
+        ],
+        [
+          16.851644,
+          45.910191
+        ],
+        [
+          16.851632,
+          45.910176
+        ],
+        [
+          16.851666,
+          45.910163
+        ],
+        [
+          16.851606,
+          45.91009
+        ],
+        [
+          16.85148,
+          45.910141
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Ivanovčanska",
+        "houseNumber": "3",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582025",
+      "lat": 45.910166000000004,
+      "lon": 16.85177242857143,
+      "obris": [
+        [
+          16.851665,
+          45.910133
+        ],
+        [
+          16.851776,
+          45.910273
+        ],
+        [
+          16.851923,
+          45.910216
+        ],
+        [
+          16.851859,
+          45.910136
+        ],
+        [
+          16.851783,
+          45.910165
+        ],
+        [
+          16.851736,
+          45.910106
+        ],
+        [
+          16.851665,
+          45.910133
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Ivanovčanska",
+        "houseNumber": "1",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582026",
+      "lat": 45.9100636,
+      "lon": 16.8519222,
+      "obris": [
+        [
+          16.85184,
+          45.910054
+        ],
+        [
+          16.851908,
+          45.910134
+        ],
+        [
+          16.852045,
+          45.910078
+        ],
+        [
+          16.851978,
+          45.909998
+        ],
+        [
+          16.85184,
+          45.910054
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Andrije Hebranga",
+        "houseNumber": "35B",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582027",
+      "lat": 45.910017888888895,
+      "lon": 16.851742333333334,
+      "obris": [
+        [
+          16.851649,
+          45.910011
+        ],
+        [
+          16.85169,
+          45.910073
+        ],
+        [
+          16.85174,
+          45.910057
+        ],
+        [
+          16.851788,
+          45.910042
+        ],
+        [
+          16.851833,
+          45.910027
+        ],
+        [
+          16.8518,
+          45.909978
+        ],
+        [
+          16.85177,
+          45.909987
+        ],
+        [
+          16.851762,
+          45.909975
+        ],
+        [
+          16.851649,
+          45.910011
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Andrije Hebranga",
+        "houseNumber": "35A",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582028",
+      "lat": 45.910064,
+      "lon": 16.85150875,
+      "obris": [
+        [
+          16.851464,
+          45.910016
+        ],
+        [
+          16.851464,
+          45.910094
+        ],
+        [
+          16.851485,
+          45.910124
+        ],
+        [
+          16.851528,
+          45.91011
+        ],
+        [
+          16.851518,
+          45.910095
+        ],
+        [
+          16.8516,
+          45.910068
+        ],
+        [
+          16.851547,
+          45.909989
+        ],
+        [
+          16.851464,
+          45.910016
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "nearestStreet": "Ulica Milana Šufflaya",
+      "nearestStreetDist": 34
+    },
+    {
+      "id": "way/1534582029",
+      "lat": 45.910076399999994,
+      "lon": 16.8517764,
+      "obris": [
+        [
+          16.85174,
+          45.910057
+        ],
+        [
+          16.851783,
+          45.910121
+        ],
+        [
+          16.851831,
+          45.910105
+        ],
+        [
+          16.851788,
+          45.910042
+        ],
+        [
+          16.85174,
+          45.910057
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "nearestStreet": "Ivanovčanska ulica",
+      "nearestStreetDist": 27
+    },
+    {
+      "id": "way/1534582030",
+      "lat": 45.91185544444445,
+      "lon": 16.847533444444444,
+      "obris": [
+        [
+          16.847454,
+          45.911769
+        ],
+        [
+          16.84747,
+          45.911848
+        ],
+        [
+          16.847492,
+          45.911845
+        ],
+        [
+          16.847524,
+          45.911986
+        ],
+        [
+          16.847616,
+          45.911976
+        ],
+        [
+          16.847593,
+          45.911877
+        ],
+        [
+          16.847613,
+          45.911875
+        ],
+        [
+          16.847585,
+          45.911754
+        ],
+        [
+          16.847454,
+          45.911769
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Ivanovčanska",
+        "houseNumber": "20",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582031",
+      "lat": 45.911859750000005,
+      "lon": 16.84766225,
+      "obris": [
+        [
+          16.847613,
+          45.911875
+        ],
+        [
+          16.847636,
+          45.91197
+        ],
+        [
+          16.847713,
+          45.911963
+        ],
+        [
+          16.847694,
+          45.911851
+        ],
+        [
+          16.847731,
+          45.911848
+        ],
+        [
+          16.847713,
+          45.911742
+        ],
+        [
+          16.847585,
+          45.911754
+        ],
+        [
+          16.847613,
+          45.911875
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Ivanovčanska",
+        "houseNumber": "18",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582032",
+      "lat": 45.911957111111114,
+      "lon": 16.847355666666665,
+      "obris": [
+        [
+          16.847312,
+          45.911838
+        ],
+        [
+          16.847321,
+          45.91187
+        ],
+        [
+          16.847292,
+          45.911874
+        ],
+        [
+          16.847346,
+          45.91207
+        ],
+        [
+          16.847372,
+          45.912067
+        ],
+        [
+          16.847386,
+          45.912121
+        ],
+        [
+          16.847469,
+          45.912109
+        ],
+        [
+          16.847391,
+          45.911827
+        ],
+        [
+          16.847312,
+          45.911838
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Ivanovčanska",
+        "houseNumber": "22",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 2
+    },
+    {
+      "id": "way/1534582033",
+      "lat": 45.91184142857143,
+      "lon": 16.847101428571428,
+      "obris": [
+        [
+          16.847049,
+          45.911804
+        ],
+        [
+          16.847062,
+          45.911899
+        ],
+        [
+          16.847109,
+          45.911896
+        ],
+        [
+          16.847103,
+          45.911848
+        ],
+        [
+          16.847172,
+          45.911843
+        ],
+        [
+          16.847166,
+          45.911796
+        ],
+        [
+          16.847049,
+          45.911804
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Ivanovčanska",
+        "houseNumber": "24",
+        "settlement": "Bjelovar",
+        "postcode": "43000",
+        "city": "Bjelovar"
+      },
+      "dguBrojJedinica": 1
+    },
+    {
+      "id": "way/1534582034",
+      "lat": 45.911816714285706,
+      "lon": 16.849030142857142,
+      "obris": [
+        [
+          16.848857,
+          45.911791
+        ],
+        [
+          16.848913,
+          45.911887
+        ],
+        [
+          16.849089,
+          45.911837
+        ],
+        [
+          16.849109,
+          45.91187
+        ],
+        [
+          16.849231,
+          45.911835
+        ],
+        [
+          16.849155,
+          45.911706
+        ],
+        [
+          16.848857,
+          45.911791
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-07-02T13:45:24Z",
+      "changeset": 184976931,
+      "osmUser": "bjelsjole",
+      "nearestStreet": "Ulica Svetog Jeronima",
+      "nearestStreetDist": 32
+    }
+  ]
+}
