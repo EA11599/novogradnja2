@@ -597,10 +597,14 @@
     <div style="padding: 20px 20px 4px;">
       <h2 style="font-size:18px; margin:0 0 6px;">Nove DGU adrese</h2>
       <div style="color:var(--text-secondary); font-size:13px; line-height:1.5; margin-bottom:14px;">
-        Adrese koje su se pojavile u službenom DGU adresnom registru od zadnje mjesečne usporedbe.
+        Adrese koje su se pojavile u službenom DGU adresnom registru od zadnje usporedbe — točnije, lokacije
+        (koordinate) koje ranije nisu imale nijednu DGU adresu u krugu od ~20m, ne samo promjena teksta adrese.
         <strong>Napomena:</strong> ovo NIJE potvrda nove gradnje — nova DGU adresa može biti i naknadno
         unesen ili ispravljen stariji zapis (administrativno ažuriranje), isto kao i s OSM podacima.
         Ažurira se mjesečno, odvojeno od tjednog praćenja OSM zgrada iznad.
+        <span id="dguMetodologijaNapomena" style="display:none;"><br><br><strong>18.08.2026.:</strong> metoda
+        usporedbe promijenjena (sad prostorna umjesto tekstualne, preciznija). Zbog toga se privremeno prikazuju
+        stariji rezultati dok se ne izvrši prva nova usporedba po novoj metodi — ovo nije greška.</span>
       </div>
       <div id="dguNoveAdreseStat" style="font-size:14px; font-weight:600; margin-bottom:14px;"></div>
     </div>
@@ -784,6 +788,13 @@ async function loadDguNoveAdrese(){
 
     $('#dguNoveAdresePanel').style.display = 'block';
     $('#dguNoveAdreseStat').textContent = podaci.count.toLocaleString('hr-HR') + ' novih DGU adresa (' + formatDatum(podaci.datum) + ')';
+
+    // Prikaži napomenu o promjeni metodologije samo dok su prikazani
+    // rezultati na dan migracije ili prije nje - čim stigne prva prava
+    // usporedba po novoj (prostornoj) metodi, ovo se samo sakrije.
+    if (podaci.datum && podaci.datum <= '2026-08-18') {
+      $('#dguMetodologijaNapomena').style.display = 'inline';
+    }
 
     $('#statDguNove').textContent = podaci.count.toLocaleString('hr-HR');
     const kartica = $('#statDguNoveCard');
