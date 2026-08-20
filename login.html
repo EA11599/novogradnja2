@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prijava — AlexiGEO</title>
+<link rel="icon" href="assets/alexigeo-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=Barlow:wght@600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<style>
+  :root{
+    --bg: #0A0C13;
+    --panel: #14161F;
+    --panel-alt: #191C27;
+    --border: rgba(255,255,255,0.08);
+    --border-strong: rgba(255,255,255,0.16);
+    --text: #F3F2F7;
+    --text-dim: #8C8FA3;
+    --text-faint: #5A5D70;
+    --accent: #FE963B;
+    --accent-fill: #FE963B;
+    --accent-soft: rgba(254,150,59,0.14);
+    --accent-ink: #1A1000;
+    --danger: #E5484D;
+    --danger-soft: rgba(229,72,77,0.12);
+  }
+  *{ box-sizing:border-box; }
+  html,body{ height:100%; margin:0; }
+  body{
+    background: var(--bg);
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(254,150,59,0.08), transparent 42%),
+      radial-gradient(circle at 85% 85%, rgba(254,150,59,0.05), transparent 38%);
+    color: var(--text);
+    font-family:'IBM Plex Sans', sans-serif;
+    display:flex; align-items:center; justify-content:center;
+    -webkit-font-smoothing: antialiased;
+    padding: 24px;
+  }
+  h1,h2,.display{ font-family:'Space Grotesk', sans-serif; letter-spacing:-0.01em; }
+  .mono{ font-family:'IBM Plex Mono', monospace; }
+  :focus-visible{ outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .auth-card{
+    width: 100%; max-width: 400px;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 18px;
+    padding: 34px 32px 30px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  }
+  .logo-wrap{ display:flex; justify-content:center; margin-bottom: 22px; }
+  .logo-wrap img{ height: 46px; width:auto; display:block; }
+  .company-tag{ text-align:center; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--text-faint); letter-spacing:0.08em; margin: -14px 0 24px; }
+
+  h1.title{ font-size:19px; font-weight:600; text-align:center; margin: 0 0 4px; }
+  .subtitle{ text-align:center; font-size:12.5px; color:var(--text-faint); margin: 0 0 24px; }
+
+  .tabs{ display:flex; gap:4px; background:var(--panel-alt); border:1px solid var(--border); border-radius:999px; padding:3px; margin-bottom:20px; }
+  .tab-btn{ flex:1; text-align:center; padding:8px; border-radius:999px; font-size:12.5px; font-weight:500; color:var(--text-dim); cursor:pointer; border:none; background:transparent; font-family:inherit; }
+  .tab-btn.active{ background: var(--accent-fill); color: var(--accent-ink); font-weight:600; }
+
+  label{ display:block; font-size:11.5px; font-weight:600; color:var(--text-dim); margin: 14px 0 6px; }
+  input[type=email], input[type=password], input[type=text]{
+    width:100%; padding:11px 14px; border-radius:10px; border:1px solid var(--border-strong);
+    background: var(--panel-alt); color: var(--text); font-size:13.5px; font-family:'IBM Plex Sans',sans-serif; outline:none;
+  }
+  input:focus{ border-color: var(--accent); }
+  input::placeholder{ color: var(--text-faint); }
+
+  .btn-primary{
+    width:100%; margin-top:20px; padding:12px; border-radius:10px; border:none;
+    background: var(--accent-fill); color: var(--accent-ink); font-weight:700; font-size:13.5px;
+    cursor:pointer; font-family:inherit;
+  }
+  .btn-primary:hover{ filter:brightness(1.05); }
+  .btn-primary:disabled{ opacity:0.6; cursor:default; }
+
+  .divider{ display:flex; align-items:center; gap:12px; margin:22px 0; color:var(--text-faint); font-size:11.5px; }
+  .divider::before, .divider::after{ content:''; flex:1; height:1px; background:var(--border-strong); }
+
+  .btn-google{
+    width:100%; display:flex; align-items:center; justify-content:center; gap:10px;
+    padding:11px; border-radius:10px; border:1px solid var(--border-strong);
+    background: var(--panel-alt); color: var(--text); font-size:13.5px; font-weight:500;
+    cursor:pointer; font-family:inherit;
+  }
+  .btn-google:hover{ border-color: var(--accent); }
+  .btn-google svg{ flex-shrink:0; }
+
+  .error-box{
+    display:none; margin-top:16px; padding:10px 13px; border-radius:10px;
+    background: var(--danger-soft); border:1px solid rgba(229,72,77,0.3); color:#F7A8AA; font-size:12px; line-height:1.5;
+  }
+  .error-box.show{ display:block; }
+
+  .hint{ text-align:center; font-size:11.5px; color:var(--text-faint); margin-top:18px; line-height:1.6; }
+  .hint a{ color: var(--accent); cursor:pointer; text-decoration:underline; }
+
+  /* ---------- MFA screens ---------- */
+  .mfa-icon{ width:44px; height:44px; border-radius:12px; background:var(--accent-soft); color:var(--accent); display:flex; align-items:center; justify-content:center; margin:0 auto 16px; font-size:20px; }
+  .qr-wrap{ display:flex; justify-content:center; margin: 18px 0; padding: 16px; background:#fff; border-radius: 12px; }
+  .qr-wrap img, .qr-wrap svg{ width:180px; height:180px; }
+  .secret-box{
+    background: var(--panel-alt); border:1px solid var(--border-strong); border-radius:10px; padding:10px 13px;
+    font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--text-dim); word-break:break-all; text-align:center; margin: 10px 0 6px;
+  }
+  .code-input{
+    width:100%; padding:14px; border-radius:10px; border:1px solid var(--border-strong);
+    background: var(--panel-alt); color: var(--text); font-size:22px; letter-spacing:0.3em; text-align:center;
+    font-family:'IBM Plex Mono',monospace; outline:none; margin-top:16px;
+  }
+  .code-input:focus{ border-color: var(--accent); }
+
+  .screen{ display:none; }
+  .screen.active{ display:block; }
+
+  .spinner{
+    width:16px; height:16px; border-radius:50%; border:2px solid rgba(26,16,0,0.3); border-top-color: var(--accent-ink);
+    display:inline-block; vertical-align:middle; margin-right:8px; animation: spin 0.7s linear infinite;
+  }
+  @keyframes spin{ to{ transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce){ .spinner{ animation:none; } }
+</style>
+</head>
+<body>
+
+<div class="auth-card">
+  <div class="logo-wrap"><img src="assets/alexigeo-logo.png" alt="AlexiGEO"></div>
+  <div class="company-tag">ALEXI · HR RADAR SUSTAV</div>
+
+  <!-- EKRAN 1: prijava / registracija -->
+  <div class="screen active" id="screenLogin">
+    <h1 class="title">Dobrodošli natrag</h1>
+    <p class="subtitle">Prijavite se za pristup podacima</p>
+
+    <div class="tabs">
+      <button class="tab-btn active" id="tabSignIn">Prijava</button>
+      <button class="tab-btn" id="tabSignUp">Registracija</button>
+    </div>
+
+    <form id="formAuth">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="ime@primjer.hr" required autocomplete="email">
+      <label for="password">Lozinka</label>
+      <input type="password" id="password" placeholder="••••••••" required autocomplete="current-password" minlength="6">
+      <button type="submit" class="btn-primary" id="btnSubmit">Prijavi se</button>
+    </form>
+
+    <div class="divider">ili</div>
+
+    <button class="btn-google" id="btnGoogle">
+      <svg width="17" height="17" viewBox="0 0 18 18"><path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84a4.14 4.14 0 0 1-1.8 2.71v2.26h2.9c1.7-1.57 2.7-3.88 2.7-6.61z"/><path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.18l-2.9-2.26c-.8.54-1.83.86-3.06.86-2.35 0-4.34-1.59-5.05-3.72H.96v2.33A9 9 0 0 0 9 18z"/><path fill="#FBBC05" d="M3.95 10.7A5.4 5.4 0 0 1 3.67 9c0-.59.1-1.17.28-1.7V4.97H.96A9 9 0 0 0 0 9c0 1.45.35 2.83.96 4.03l2.99-2.33z"/><path fill="#EA4335" d="M9 3.58c1.32 0 2.51.46 3.44 1.35l2.58-2.58C13.46.89 11.43 0 9 0A9 9 0 0 0 .96 4.97L3.95 7.3C4.66 5.17 6.65 3.58 9 3.58z"/></svg>
+      Nastavi s Google računom
+    </button>
+
+    <div class="error-box" id="errorLogin"></div>
+  </div>
+
+  <!-- EKRAN 2: postavljanje MFA (prvi put) -->
+  <div class="screen" id="screenMfaEnroll">
+    <div class="mfa-icon">🔐</div>
+    <h1 class="title">Postavi autentifikator</h1>
+    <p class="subtitle">Obavezno za pristup — koristi Google Authenticator, Authy ili sličnu aplikaciju</p>
+
+    <div class="qr-wrap" id="qrWrap"></div>
+    <div style="text-align:center; font-size:11px; color:var(--text-faint); margin-bottom:4px;">Ne možeš skenirati? Unesi ručno:</div>
+    <div class="secret-box" id="secretBox"></div>
+
+    <label for="enrollCode">Unesi 6-znamenkasti kod iz aplikacije</label>
+    <input type="text" class="code-input" id="enrollCode" maxlength="6" inputmode="numeric" placeholder="000000">
+    <button class="btn-primary" id="btnConfirmEnroll" style="margin-top:16px;">Potvrdi i završi</button>
+
+    <div class="error-box" id="errorEnroll"></div>
+  </div>
+
+  <!-- EKRAN 3: unos MFA koda (postojeci uredjaj) -->
+  <div class="screen" id="screenMfaChallenge">
+    <div class="mfa-icon">🔐</div>
+    <h1 class="title">Potvrdi identitet</h1>
+    <p class="subtitle">Unesi kod iz svoje autentifikator aplikacije</p>
+
+    <label for="challengeCode">6-znamenkasti kod</label>
+    <input type="text" class="code-input" id="challengeCode" maxlength="6" inputmode="numeric" placeholder="000000">
+    <button class="btn-primary" id="btnConfirmChallenge" style="margin-top:16px;">Potvrdi</button>
+
+    <div class="error-box" id="errorChallenge"></div>
+    <div class="hint"><a id="linkSignOut">Odjavi se i pokušaj ponovno</a></div>
+  </div>
+
+  <!-- EKRAN 5: pristup nije odobren -->
+  <div class="screen" id="screenNeodobreno">
+    <div class="mfa-icon" style="background:var(--danger-soft); color:var(--danger);">🚫</div>
+    <h1 class="title">Pristup nije odobren</h1>
+    <p class="subtitle">Tvoj račun (<span id="neodobrenEmail" class="mono"></span>) još nije odobren za korištenje aplikacije.</p>
+    <p style="text-align:center; font-size:12px; color:var(--text-faint); line-height:1.6;">Kontaktiraj administratora da doda tvoj email na popis dozvoljenih korisnika.</p>
+    <div class="hint" style="margin-top:20px;"><a id="linkNazadNeodobreno">Odjavi se i pokušaj s drugim računom</a></div>
+  </div>
+
+  <!-- EKRAN 4: ucitavanje -->
+  <div class="screen" id="screenLoading">
+    <div style="text-align:center; padding: 30px 0;">
+      <span class="spinner" style="border-top-color:var(--accent); width:22px;height:22px;"></span>
+      <div style="margin-top:14px; color:var(--text-dim); font-size:13px;" id="loadingText">Provjera...</div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ====== KONFIGURACIJA - zamijeni sa svojim Supabase podacima ======
+const SUPABASE_URL = 'https://stbknyvbduzrgnbmhpxl.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_TLFe8iXPlR95yOtExi7XVg_XrX22ERK';
+const APP_URL = 'index.html'; // gdje preusmjeriti nakon uspjesne prijave (glavna aplikacija)
+// ===================================================================
+
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const $ = (sel) => document.querySelector(sel);
+
+let signUpMode = false;
+let pendingFactorId = null; // za enrollment potvrdu
+let pendingChallengeId = null; // za challenge potvrdu
+
+function prikaziEkran(id){
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $('#' + id).classList.add('active');
+}
+
+function prikaziGresku(elId, poruka){
+  const el = $('#' + elId);
+  el.textContent = poruka;
+  el.classList.add('show');
+}
+function sakrijGresku(elId){
+  $('#' + elId).classList.remove('show');
+}
+
+// ---------- Tabovi prijava/registracija ----------
+$('#tabSignIn').addEventListener('click', () => {
+  signUpMode = false;
+  $('#tabSignIn').classList.add('active');
+  $('#tabSignUp').classList.remove('active');
+  $('#btnSubmit').textContent = 'Prijavi se';
+});
+$('#tabSignUp').addEventListener('click', () => {
+  signUpMode = true;
+  $('#tabSignUp').classList.add('active');
+  $('#tabSignIn').classList.remove('active');
+  $('#btnSubmit').textContent = 'Registriraj se';
+});
+
+// ---------- Email/lozinka forma ----------
+$('#formAuth').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  sakrijGresku('errorLogin');
+  const email = $('#email').value.trim();
+  const password = $('#password').value;
+  $('#btnSubmit').disabled = true;
+
+  try {
+    if (signUpMode) {
+      const { error } = await sb.auth.signUp({ email, password });
+      if (error) throw error;
+      prikaziGresku('errorLogin', 'Račun kreiran. Ako je potrebna potvrda emaila, provjeri poštu, zatim se prijavi.');
+    } else {
+      const { error } = await sb.auth.signInWithPassword({ email, password });
+      if (error) throw error;
+      await nakonPrimarneAutentikacije();
+    }
+  } catch (err) {
+    prikaziGresku('errorLogin', err.message || 'Greška pri prijavi.');
+  } finally {
+    $('#btnSubmit').disabled = false;
+  }
+});
+
+// ---------- Google OAuth ----------
+$('#btnGoogle').addEventListener('click', async () => {
+  sakrijGresku('errorLogin');
+  const { error } = await sb.auth.signInWithOAuth({
+    provider: 'google',
+    options: { redirectTo: window.location.href.split('#')[0] },
+  });
+  if (error) prikaziGresku('errorLogin', error.message);
+});
+
+// ---------- Provjera je li email na popisu dozvoljenih korisnika ----------
+async function provjeriDozvolu(){
+  const { data: { user } } = await sb.auth.getUser();
+  const email = user && user.email;
+  if (!email) { prikaziEkran('screenLogin'); prikaziGresku('errorLogin', 'Greška pri dohvatu korisničkih podataka.'); return false; }
+
+  const { data, error } = await sb
+    .from('dozvoljeni_korisnici')
+    .select('email')
+    .eq('email', email)
+    .maybeSingle();
+
+  if (error) {
+    prikaziEkran('screenLogin');
+    prikaziGresku('errorLogin', 'Greška pri provjeri pristupa: ' + error.message);
+    return false;
+  }
+  if (!data) {
+    $('#neodobrenEmail').textContent = email;
+    prikaziEkran('screenNeodobreno');
+    return false;
+  }
+  return true;
+}
+
+// ---------- Nakon uspjesne prijave (email ili Google) - provjeri odobrenje pa MFA ----------
+async function nakonPrimarneAutentikacije(){
+  prikaziEkran('screenLoading');
+  $('#loadingText').textContent = 'Provjera pristupa...';
+
+  const dozvoljen = await provjeriDozvolu();
+  if (!dozvoljen) return; // provjeriDozvolu je vec prikazao odgovarajuci ekran
+
+  $('#loadingText').textContent = 'Provjera sigurnosne postavke...';
+
+  const { data: aalData, error: aalErr } = await sb.auth.mfa.getAuthenticatorAssuranceLevel();
+  if (aalErr) { prikaziEkran('screenLogin'); prikaziGresku('errorLogin', aalErr.message); return; }
+
+  if (aalData.currentLevel === 'aal2') {
+    // vec potpuno autenticiran (MFA odradjen ranije u ovoj sesiji)
+    preusmjeriNaAplikaciju();
+    return;
+  }
+
+  const { data: factorsData, error: factorsErr } = await sb.auth.mfa.listFactors();
+  if (factorsErr) { prikaziEkran('screenLogin'); prikaziGresku('errorLogin', factorsErr.message); return; }
+
+  const totpFaktori = (factorsData.totp || []).filter(f => f.status === 'verified');
+
+  if (totpFaktori.length === 0) {
+    await zapocniEnrollment();
+  } else {
+    await zapocniChallenge(totpFaktori[0].id);
+  }
+}
+
+// ---------- MFA: prvo postavljanje (enrollment) ----------
+async function zapocniEnrollment(){
+  // Ukloni eventualne NEPOTVRDJENE faktore iz ranijih prekinutih pokusaja -
+  // Supabase ne dopusta novi enrollment dok stari nepotvrdjen zapis postoji
+  // (sudar po "friendly name"). Ovo cini cijeli proces sigurnim za ponavljanje.
+  const { data: postojeci } = await sb.auth.mfa.listFactors();
+  const nepotvrdjeni = (postojeci?.totp || []).filter(f => f.status !== 'verified');
+  for (const f of nepotvrdjeni) {
+    const { error: unenrollErr } = await sb.auth.mfa.unenroll({ factorId: f.id });
+    if (unenrollErr) console.warn('Nije uspjelo brisanje starog MFA zapisa:', unenrollErr.message);
+  }
+
+  const { data, error } = await sb.auth.mfa.enroll({ factorType: 'totp' });
+  if (error) { prikaziEkran('screenLogin'); prikaziGresku('errorLogin', error.message); return; }
+
+  pendingFactorId = data.id;
+  const qr = (data.totp.qr_code || '').trim();
+  $('#qrWrap').innerHTML = ''; // ocisti prije ugradnje
+  if (qr.startsWith('<svg')) {
+    // SVG tekst - sigurno ga ugraditi izravno kao markup (innerHTML), ne kao
+    // string unutar atributa (navodnici u SVG-u bi slomili HTML atribut).
+    $('#qrWrap').innerHTML = qr;
+  } else {
+    // Data URI (base64 slika) ili obican URL - koristi DOM API (img.src =
+    // ...) umjesto lijepljenja u HTML string, sigurno bez obzira na sadrzaj.
+    const img = document.createElement('img');
+    img.src = qr;
+    img.alt = 'QR kod';
+    $('#qrWrap').appendChild(img);
+  }
+  $('#secretBox').textContent = data.totp.secret;
+  $('#enrollCode').value = '';
+  sakrijGresku('errorEnroll');
+  prikaziEkran('screenMfaEnroll');
+  $('#enrollCode').focus();
+}
+
+$('#btnConfirmEnroll').addEventListener('click', async () => {
+  sakrijGresku('errorEnroll');
+  const kod = $('#enrollCode').value.trim();
+  if (kod.length !== 6) { prikaziGresku('errorEnroll', 'Unesi svih 6 znamenki koda.'); return; }
+  $('#btnConfirmEnroll').disabled = true;
+
+  try {
+    const { data: challenge, error: chErr } = await sb.auth.mfa.challenge({ factorId: pendingFactorId });
+    if (chErr) throw chErr;
+    const { error: verErr } = await sb.auth.mfa.verify({
+      factorId: pendingFactorId, challengeId: challenge.id, code: kod,
+    });
+    if (verErr) throw verErr;
+    preusmjeriNaAplikaciju();
+  } catch (err) {
+    prikaziGresku('errorEnroll', err.message || 'Kod nije ispravan, pokušaj ponovno.');
+  } finally {
+    $('#btnConfirmEnroll').disabled = false;
+  }
+});
+
+// ---------- MFA: potvrda postojeceg uredjaja (challenge) ----------
+async function zapocniChallenge(factorId){
+  pendingFactorId = factorId;
+  const { data, error } = await sb.auth.mfa.challenge({ factorId });
+  if (error) { prikaziEkran('screenLogin'); prikaziGresku('errorLogin', error.message); return; }
+  pendingChallengeId = data.id;
+  $('#challengeCode').value = '';
+  sakrijGresku('errorChallenge');
+  prikaziEkran('screenMfaChallenge');
+  $('#challengeCode').focus();
+}
+
+$('#btnConfirmChallenge').addEventListener('click', async () => {
+  sakrijGresku('errorChallenge');
+  const kod = $('#challengeCode').value.trim();
+  if (kod.length !== 6) { prikaziGresku('errorChallenge', 'Unesi svih 6 znamenki koda.'); return; }
+  $('#btnConfirmChallenge').disabled = true;
+
+  try {
+    const { error } = await sb.auth.mfa.verify({
+      factorId: pendingFactorId, challengeId: pendingChallengeId, code: kod,
+    });
+    if (error) throw error;
+    preusmjeriNaAplikaciju();
+  } catch (err) {
+    prikaziGresku('errorChallenge', err.message || 'Kod nije ispravan, pokušaj ponovno.');
+  } finally {
+    $('#btnConfirmChallenge').disabled = false;
+  }
+});
+
+$('#linkSignOut').addEventListener('click', async () => {
+  await sb.auth.signOut();
+  pendingFactorId = null; pendingChallengeId = null;
+  prikaziEkran('screenLogin');
+});
+
+$('#linkNazadNeodobreno').addEventListener('click', async () => {
+  await sb.auth.signOut();
+  prikaziEkran('screenLogin');
+});
+
+function preusmjeriNaAplikaciju(){
+  window.location.href = APP_URL;
+}
+
+// ---------- Pri ucitavanju stranice - je li vec prijavljen (npr. povratak s Google OAuth-a)? ----------
+(async function init(){
+  prikaziEkran('screenLoading');
+  $('#loadingText').textContent = 'Učitavanje...';
+  const { data: { session } } = await sb.auth.getSession();
+  if (session) {
+    await nakonPrimarneAutentikacije();
+  } else {
+    prikaziEkran('screenLogin');
+  }
+})();
+</script>
+
+</body>
+</html>

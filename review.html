@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Novogradnja — praćenje novih zgrada u Hrvatskoj</title>
+<title>Ručna provjera — Novogradnja</title>
 <link rel="icon" href="assets/alexigeo-logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600;700&family=Barlow:wght@500;600;700;800&display=swap" rel="stylesheet">
@@ -20,10 +20,6 @@
     const SUPABASE_URL = 'https://stbknyvbduzrgnbmhpxl.supabase.co';
     const SUPABASE_ANON_KEY = 'sb_publishable_TLFe8iXPlR95yOtExi7XVg_XrX22ERK';
     try {
-      // JEDINI Supabase klijent na cijeloj stranici - spremljen na window da ga
-      // ostatak skripte (dolje) ponovno koristi umjesto stvaranja novog. Vise
-      // odvojenih klijenata na istoj stranici zna izazvati "Multiple GoTrueClient
-      // instances" upozorenje i, gore, povremeno zaglavljene pozive prema Supabaseu.
       const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
       window.__sbClient = sb;
       const { data: { session } } = await sb.auth.getSession();
@@ -356,7 +352,7 @@
 <nav class="topnav">
   <div class="brand">
     <div class="brand-mark">N</div>
-    <div class="brand-name">Novogradnja<span class="tag">HR / RADAR SUSTAV</span></div>
+    <div class="brand-name">Ručna provjera<span class="tag">HR / RADAR SUSTAV</span></div>
   </div>
 
   <div class="nav-center">
@@ -365,7 +361,7 @@
   </div>
 
   <div class="nav-right">
-    <a class="filter-toggle-btn" href="review.html" style="width:auto; padding:8px 13px; text-decoration:none; display:flex; align-items:center;">📋 Ručna provjera</a>
+    <a class="btn-export" href="index.html" style="text-decoration:none;">← Natrag</a>
     <button class="btn-export" id="exportBtn">⇩ Izvoz u Excel</button>
     <div class="theme-toggle">
       <button id="btnThemeLight" title="Svjetla tema">☀</button>
@@ -376,16 +372,17 @@
   </div>
 </nav>
 
-<div class="layout">
-
-  <!-- LIJEVO: Nove zgrade, filteri, tablica -->
-  <div class="col list-section">
-    <div class="col-header">
-      <div><h3>Nove zgrade</h3><div class="sub">Odabrano razdoblje</div></div>
-      <span class="count-badge num" id="statTotal">–</span>
+<div class="layout" style="grid-template-columns: 1fr;">
+  <div class="col" style="min-height:0;">
+    <div class="col-header" style="border-bottom:none; padding-bottom:0;">
+      <div style="display:flex; gap:8px;">
+        <button class="window-btn active" id="tabZgrade" style="padding:9px 16px; border-radius:10px;">Nove zgrade</button>
+        <button class="window-btn" id="tabDgu" style="padding:9px 16px; border-radius:10px;">Nove DGU adrese</button>
+      </div>
     </div>
-    <div class="filters-block">
-      <div class="toggle-filters">
+
+    <div class="filters-block" style="border-bottom:1px solid var(--border);">
+      <div class="toggle-filters" style="flex-direction:row; gap:18px;">
         <label id="satelitFilterLabel" style="display:none;">
           <input type="checkbox" id="satelitFilterCheckbox"> Samo satelitski kandidati
         </label>
@@ -393,81 +390,41 @@
           <input type="checkbox" id="dguJedinicaFilterCheckbox"> Samo zgrade s više DGU adresa
         </label>
       </div>
-      <button class="filter-toggle-btn" id="facetToggleBtn"><span>⚙ Tip zgrade / katovi</span></button>
-      <div class="facet-panel" id="facetPanel"></div>
-    </div>
-    <div id="tableWrap"></div>
-    <div class="list-footer" id="listFooter"></div>
-  </div>
-
-  <!-- SREDINA: naslagani oblacici + graf gore, karta dolje -->
-  <div class="col center-col">
-    <div class="top-half">
-      <div class="bubbles-stack">
-        <div class="bubble-sm accent">
-          <div class="bs-label">Nove zgrade</div>
-          <div class="bs-value num" id="statTotalBubble">–</div>
-          <div class="bs-sub" id="statAvgSub">–</div>
-        </div>
-        <div class="bubble-sm" id="statDguNoveCard" style="display:none; cursor:pointer;">
-          <div class="bs-label">Nove DGU adrese</div>
-          <div class="bs-value num" id="statDguNove" style="color:var(--magenta);">–</div>
-          <div class="bs-sub">klikni za popis →</div>
-        </div>
-        <div class="bubble-sm">
-          <div class="bs-label">Zadnje ažurirano</div>
-          <div class="bs-value num" id="statUpdated" style="font-size:19px;">–</div>
-          <div class="bs-sub" id="statZupanijeSub">–</div>
-        </div>
-      </div>
-
-      <div class="chart-card">
-        <div class="cc-header">
-          <div>
-            <div class="cc-title">Nove zgrade i DGU adrese po mjesecu</div>
-            <div class="cc-sub">Zadnjih 6 mjeseci</div>
-          </div>
-        </div>
-        <svg id="trendChart" viewBox="0 0 600 145" preserveAspectRatio="none"></svg>
-        <div class="chart-legend">
-          <span><span class="cl-dot" style="background:var(--magenta);"></span>Nove zgrade (OSM)</span>
-          <span><span class="cl-dot" style="background:var(--teal);"></span>Nove DGU adrese</span>
-        </div>
-      </div>
+      <button class="filter-toggle-btn" id="facetToggleBtn" style="width:auto; margin-top:10px;"><span>⚙ Filteri (tip, katovi, status, županije)</span></button>
+      <div class="facet-panel" id="facetPanel" style="grid-template-columns: repeat(4, 1fr); left:16px; right:auto; width:640px;"></div>
     </div>
 
-    <div class="map-wrap">
-      <div id="map"></div>
-      <div class="map-topbar">
-        <span class="map-title-chip" id="legend"></span>
-        <button class="btn-export" id="detailMapBtn">Pogledaj detaljnije →</button>
-      </div>
-      <div class="map-legend">
-        <span><span class="legend-swatch" style="background:#E8871E;"></span>Zgrade</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- DESNO: zaseban oblacic za zupanije + panel za nove DGU adrese -->
-  <div class="right-stack">
-    <div class="zup-bubble">
-      <div class="zup-bubble-header">
-        <div><div class="zb-title">Županije</div><div class="zb-sub" id="statZupanije">–/21 aktivnih</div></div>
-        <button class="btn-export" id="clearZupBtn" style="padding:5px 11px;font-size:11px;">Poništi</button>
-      </div>
-      <div id="zupList"><!-- popunjava JS --></div>
+    <div id="zgradeTabContent">
+      <div id="tableWrap"></div>
+      <div class="list-footer" id="listFooter"></div>
     </div>
 
-    <div class="col dgu-panel" id="dguNoveAdresePanel" style="display:none;">
+    <div id="dguTabContentVisible" style="display:none;">
       <div class="col-header">
-        <div><h3>Nove DGU adrese</h3><div class="sub" id="dguNoveAdreseStat">–</div></div>
+        <div><div class="sub" id="dguNoveAdreseStat">–</div></div>
       </div>
-      <div style="padding:10px 16px; font-size:11px; color:var(--text-faint); line-height:1.5; border-bottom:1px solid var(--border);">
-        Lokacije koje ranije nisu imale DGU adresu u krugu od ~20m. Nije potvrda nove gradnje.
-        <span id="dguMetodologijaNapomena" style="display:none;"><br>Metoda usporedbe nedavno promijenjena (prostorna, preciznija) — trenutno prikazani stariji rezultati, novi stižu nakon sljedeće usporedbe.</span>
-      </div>
-      <div id="dguNoveAdreseTableWrap" style="flex:1 1 auto; overflow-y:auto; min-height:0;"></div>
+      <div id="dguNoveAdreseTableWrap"></div>
     </div>
+  </div>
+
+  <!-- Skriveni elementi - postoje samo da bi zajednicka JS logika (ista kao
+       na glavnoj stranici) radila bez izmjena. Nisu vizualno potrebni ovdje
+       (nema karte/grafa/oblačića na ovoj stranici), ali ih JS referencira
+       (updateStats, updateMap, updateZupanijeList, loadDguNoveAdrese...). -->
+  <div style="position:absolute; width:1px; height:1px; overflow:hidden; opacity:0; pointer-events:none;" aria-hidden="true">
+    <span id="statTotal"></span>
+    <span id="statTotalBubble"></span>
+    <span id="statAvgSub"></span>
+    <span id="statUpdated"></span>
+    <span id="statZupanije"></span>
+    <span id="statZupanijeSub"></span>
+    <div id="statDguNoveCard"><span id="statDguNove"></span></div>
+    <span id="legend"></span>
+    <div id="zupList"></div>
+    <button id="clearZupBtn"></button>
+    <div id="dguNoveAdresePanel"></div>
+    <div id="map" style="width:10px;height:10px;"></div>
+    <button id="detailMapBtn"></button>
   </div>
 
 </div>
@@ -480,9 +437,6 @@
 const $ = (sel) => document.querySelector(sel);
 
 // ---------- Recenzije (status + napomena) - Supabase ----------
-// Ponovno koristi JEDINI klijent koji je auth-guard vec stvorio (window.__sbClient),
-// umjesto da se stvara novi - izbjegava "Multiple GoTrueClient instances" upozorenje
-// i moguce zaglavljene pozive koje ono uzrokuje.
 const sbReview = window.__sbClient;
 
 let trenutniKorisnikEmail = null;
@@ -1063,6 +1017,19 @@ function renderFacetPanel(){
   const statusRedoslijed = ['nepotvrđeno', 'potvrđeno', 'odbačeno'];
   const statusCounts = statusRedoslijed.filter(s => statusBrojac[s] > 0).map(s => [s, statusBrojac[s]]);
 
+  // Županije - baseline BEZ zupanija filtera (da se vide sve opcije za odabir),
+  // ali i dalje s pretragom primijenjenom.
+  const q2 = ($('#searchBox').value || '').toLowerCase().trim();
+  const baselineZup = allFeaturesInWindow.filter(f => {
+    if (!q2) return true;
+    const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'name'), tag(f,'building')]
+      .filter(Boolean).join(' ').toLowerCase();
+    return hay.includes(q2);
+  });
+  const zupBrojac = {};
+  baselineZup.forEach(f => { const z = f.zupanija || '(nepoznato)'; zupBrojac[z] = (zupBrojac[z] || 0) + 1; });
+  const zupCounts = Object.entries(zupBrojac).sort((a,b) => b[1] - a[1]).slice(0, 21);
+
   const grupa = (naslov, entries, selectedSet) => {
     let html = '<div class="facet-group"><div class="facet-group-title">' + naslov + '</div>';
     entries.forEach(([val, count]) => {
@@ -1075,7 +1042,7 @@ function renderFacetPanel(){
   };
 
   const panel = $('#facetPanel');
-  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Status', statusCounts, selectedStatuses);
+  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Status', statusCounts, selectedStatuses) + grupa('Županije', zupCounts, selectedZupanije);
 
   const groups = panel.querySelectorAll('.facet-group');
   groups[0].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
@@ -1088,13 +1055,18 @@ function renderFacetPanel(){
     updateTable();
     updateMap();
   }));
+  groups[3].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
+    toggleSet(selectedZupanije, e.target.dataset.val);
+    updateTable();
+    updateMap();
+  }));
   groups[2].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
     toggleSet(selectedStatuses, e.target.dataset.val);
     updateTable();
     updateMap();
   }));
 
-  $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0 || selectedStatuses.size > 0);
+  $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0 || selectedStatuses.size > 0 || selectedZupanije.size > 0);
 }
 
 function toggleSet(set, val){
@@ -1927,6 +1899,20 @@ async function renderTrendChart(){
 $('#btnOdjava').addEventListener('click', async () => {
   await sbReview.auth.signOut();
   window.location.href = 'login.html';
+});
+
+// ---------- Tabovi: Nove zgrade / Nove DGU adrese ----------
+$('#tabZgrade').addEventListener('click', () => {
+  $('#tabZgrade').classList.add('active');
+  $('#tabDgu').classList.remove('active');
+  $('#zgradeTabContent').style.display = 'block';
+  $('#dguTabContentVisible').style.display = 'none';
+});
+$('#tabDgu').addEventListener('click', () => {
+  $('#tabDgu').classList.add('active');
+  $('#tabZgrade').classList.remove('active');
+  $('#zgradeTabContent').style.display = 'none';
+  $('#dguTabContentVisible').style.display = 'block';
 });
 
 init().catch(err => {
