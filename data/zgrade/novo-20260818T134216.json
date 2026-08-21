@@ -44,7 +44,13 @@
       "changeset": 187612168,
       "osmUser": "Toddy6493",
       "nearestStreet": "Butkovići",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno izgrađene građevine sa krovovima u različitim bojama, najvidljivija je bijela/svijetla građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:11.861Z"
+      }
     },
     {
       "id": "way/1550459095",
@@ -90,7 +96,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine crvene/terakota boje sa jasno definiranim rubovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:11.932Z"
+      }
     },
     {
       "id": "way/1550459096",
@@ -128,7 +140,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krovište građevine sa karakterističnim crvenim i smeđim pokrovom, kao i okolni objekti i dvorišne površine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:13.254Z"
+      }
     },
     {
       "id": "way/1550459108",
@@ -174,7 +192,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasno vidljivim rubovima i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:12.084Z"
+      }
     },
     {
       "id": "way/1550459109",
@@ -212,7 +236,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su dijelovi krovova i građevina s jasno vidljivim strukturama i različitim bojama krovova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:12.397Z"
+      }
     },
     {
       "id": "way/1550459110",
@@ -250,7 +280,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa crvenom bojom i pravokutnom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:15.722Z"
+      }
     },
     {
       "id": "way/1550459111",
@@ -288,7 +324,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi više zgrada sa različitim bojama i teksturama, jasno prepoznatljive kao izgrađene strukture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:16.004Z"
+      }
     },
     {
       "id": "way/1550459112",
@@ -326,7 +368,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i jasno definiranim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:15.725Z"
+      }
     },
     {
       "id": "way/1550459113",
@@ -364,7 +412,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom i jasno definiranima obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:15.681Z"
+      }
     },
     {
       "id": "way/1550459114",
@@ -402,7 +456,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crnim/tamnim krovom i okolnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:15.673Z"
+      }
     },
     {
       "id": "way/1550459116",
@@ -440,7 +500,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi tamna krovna struktura sa pravokutnim oblikom koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:18.511Z"
+      }
     },
     {
       "id": "way/1550459117",
@@ -478,7 +544,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke je vidljiva jasna struktura s krovom i izgradenom građevinom od svjetlijeg i tamnijeg materijala.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:18.700Z"
+      }
     },
     {
       "id": "way/1550459118",
@@ -524,7 +596,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je tamni krov/građevina sa jasno definiranim rubovima, okružen zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:18.333Z"
+      }
     },
     {
       "id": "way/1550459119",
@@ -562,7 +640,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom u bežoj/smeđoj boji, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:18.931Z"
+      }
     },
     {
       "id": "way/1550459120",
@@ -600,7 +684,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa vidljivim krovom u različitim bojama (crveni, sivi i drugi tonovi), što jasno ukazuje na postojeću građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:18.766Z"
+      }
     },
     {
       "id": "way/1550459121",
@@ -638,7 +728,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela/siva zgrada s pravokutnim krovom i vidljivim strukturama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:21.249Z"
+      }
     },
     {
       "id": "way/1550459122",
@@ -676,7 +772,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa vidljivim krovom, okružena zelenilom i parkiralištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:21.418Z"
+      }
     },
     {
       "id": "way/1550459123",
@@ -722,7 +824,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-08-18T01:50:26Z",
       "changeset": 187615378,
-      "osmUser": "TheBladecatcher"
+      "osmUser": "TheBladecatcher",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa karakterističnom crvenom/terako bojom i bijelu strukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:21.158Z"
+      }
     },
     {
       "id": "way/1550488325",
@@ -764,7 +872,13 @@
       "zupanija": "Virovitičko-podravska županija",
       "validFrom": "2026-08-18T07:14:22Z",
       "changeset": 187622788,
-      "osmUser": "Vedran V"
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i pratećim objektima okruženim zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:21.141Z"
+      }
     },
     {
       "id": "way/1550488326",
@@ -806,7 +920,13 @@
         "postcode": "33522",
         "city": "Voćin"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvenkasta/bež građevina sa vidljivim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:21.202Z"
+      }
     },
     {
       "id": "way/1550488327",
@@ -840,7 +960,13 @@
       "zupanija": "Virovitičko-podravska županija",
       "validFrom": "2026-08-18T07:14:22Z",
       "changeset": 187622788,
-      "osmUser": "Vedran V"
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su jasno definirani krovovi zgrada s karakterističnim smeđim i crvenim tonovima, što ukazuje na izgrađene strukture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:24.002Z"
+      }
     },
     {
       "id": "way/1550488328",
@@ -898,7 +1024,13 @@
         "postcode": "33522",
         "city": "Voćin"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crvenasto-smeđi krov zgrade sa pravokutnom formom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:23.736Z"
+      }
     },
     {
       "id": "way/1550488329",
@@ -948,7 +1080,13 @@
       "zupanija": "Virovitičko-podravska županija",
       "validFrom": "2026-08-18T07:14:22Z",
       "changeset": 187622788,
-      "osmUser": "Vedran V"
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim krovom, s vanjskim bujnom vegetacijom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:23.583Z"
+      }
     },
     {
       "id": "way/1550488330",
@@ -982,7 +1120,13 @@
       "zupanija": "Virovitičko-podravska županija",
       "validFrom": "2026-08-18T07:14:22Z",
       "changeset": 187622788,
-      "osmUser": "Vedran V"
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom u centru ortofoto snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:23.720Z"
+      }
     },
     {
       "id": "way/1550488331",
@@ -1040,7 +1184,13 @@
       "zupanija": "Virovitičko-podravska županija",
       "validFrom": "2026-08-18T07:14:22Z",
       "changeset": 187622788,
-      "osmUser": "Vedran V"
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:23.614Z"
+      }
     },
     {
       "id": "way/1550488332",
@@ -1082,7 +1232,13 @@
         "postcode": "33522",
         "city": "Voćin"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna struktura sa crvenim/smeđim krovom i pravokutnim oblikom tipičnim za izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:26.438Z"
+      }
     },
     {
       "id": "way/1550488333",
@@ -1116,7 +1272,13 @@
       "zupanija": "Virovitičko-podravska županija",
       "validFrom": "2026-08-18T07:14:22Z",
       "changeset": 187622788,
-      "osmUser": "Vedran V"
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi pravokutna struktura tamnije boje koja predstavlja krov građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:26.299Z"
+      }
     },
     {
       "id": "way/1550488334",
@@ -1150,7 +1312,13 @@
       "zupanija": "Virovitičko-podravska županija",
       "validFrom": "2026-08-18T07:14:22Z",
       "changeset": 187622788,
-      "osmUser": "Vedran V"
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov zgrade sa tamnom bojom, jasno razlikovan od okolnog zelenila.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:26.980Z"
+      }
     },
     {
       "id": "way/1550488335",
@@ -1200,7 +1368,13 @@
         "postcode": "33522",
         "city": "Voćin"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:26.317Z"
+      }
     },
     {
       "id": "way/1550497635",
@@ -1239,7 +1413,13 @@
       "changeset": 187625686,
       "osmUser": "bjelsjole",
       "nearestStreet": "Bjelovarska ulica",
-      "nearestStreetDist": 10
+      "nearestStreetDist": 10,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada sa jasno vidljivim krovom tamnije boje uz cestu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:26.294Z"
+      }
     },
     {
       "id": "way/1550520857",
@@ -1285,7 +1465,13 @@
         "postcode": "47300",
         "city": "Ogulin"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada s tirkiznim krovom i tamnije obojenim strukturama okolo nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:29.400Z"
+      }
     },
     {
       "id": "way/1550520859",
@@ -1319,7 +1505,13 @@
       "zupanija": "Karlovačka županija",
       "validFrom": "2026-08-18T10:32:56Z",
       "changeset": 187631704,
-      "osmUser": "Đuro Jiří"
+      "osmUser": "Đuro Jiří",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine crvenkaste boje okružene gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:29.258Z"
+      }
     },
     {
       "id": "way/1550520860",
@@ -1369,7 +1561,13 @@
         "postcode": "47300",
         "city": "Ogulin"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi kvadratna/pravokutna zgrada sa tamnim krovom, okružena парковима i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:29.621Z"
+      }
     },
     {
       "id": "way/1550569823",
@@ -1403,7 +1601,13 @@
       "zupanija": "Virovitičko-podravska županija",
       "validFrom": "2026-08-18T13:08:28Z",
       "changeset": 187638672,
-      "osmUser": "Vedran V"
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa tamnim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:29.028Z"
+      }
     },
     {
       "id": "way/1550569824",
@@ -1437,7 +1641,13 @@
       "zupanija": "Virovitičko-podravska županija",
       "validFrom": "2026-08-18T13:08:28Z",
       "changeset": 187638672,
-      "osmUser": "Vedran V"
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa krovna konstrukcija sa okružujućim zelenim površinama i putnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:29.844Z"
+      }
     },
     {
       "id": "way/1550569825",
@@ -1503,7 +1713,13 @@
         "postcode": "33522",
         "city": "Voćin"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je krov građevine crvene/smeđe boje sa jasno vidljivim obrисima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:18:32.301Z"
+      }
     }
   ]
 }

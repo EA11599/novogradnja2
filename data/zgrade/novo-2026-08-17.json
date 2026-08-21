@@ -33,7 +33,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:52:32Z"
+      "validFrom": "2026-08-16T15:52:32Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna struktura krovnog pokrova u svetlijoj boji, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:35.344Z"
+      }
     },
     {
       "id": "way/1550170315",
@@ -65,7 +71,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:52:32Z"
+      "validFrom": "2026-08-16T15:52:32Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetlosiva/beža konstrukcija koja predstavlja krov zgrade, jasno razlikovana od okolne zelene vegetacije i poljoprivrednih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:35.432Z"
+      }
     },
     {
       "id": "way/1550170316",
@@ -97,7 +109,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:52:32Z"
+      "validFrom": "2026-08-16T15:52:32Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna zgrada sa krovom tamnije boje, okružena zelenilom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:35.203Z"
+      }
     },
     {
       "id": "way/1550170317",
@@ -129,7 +147,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:52:32Z"
+      "validFrom": "2026-08-16T15:52:32Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna građevina/krov okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:35.062Z"
+      }
     },
     {
       "id": "way/1550170318",
@@ -164,7 +188,13 @@
         "ref:HR:kucni_broj": "373081"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:52:32Z"
+      "validFrom": "2026-08-16T15:52:32Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasna smeđa/crvena struktura krova zgrada sa jasnim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:35.264Z"
+      }
     },
     {
       "id": "way/1550170926",
@@ -196,7 +226,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena struktura s krovom,清清видljiva kao svijetla pravokutna građevina okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:37.778Z"
+      }
     },
     {
       "id": "way/1550170927",
@@ -228,7 +264,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom, vjerojatno manja zgrada ili gospodarsko zdanje, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:37.985Z"
+      }
     },
     {
       "id": "way/1550170928",
@@ -263,7 +305,13 @@
         "ref:HR:kucni_broj": "39211"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su dijelovi građevine i krovne površine od svjetlijeg tona, kao i pristupni putovi i okružujuća parcela.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:38.265Z"
+      }
     },
     {
       "id": "way/1550170929",
@@ -298,7 +346,13 @@
         "ref:HR:kucni_broj": "39212"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom, vidljivi su rubovi zgrade i njena geometrijska forma.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:37.859Z"
+      }
     },
     {
       "id": "way/1550170930",
@@ -337,7 +391,13 @@
         "ref:HR:kucni_broj": "39210"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno izgrađene građevine sa krovovima i tlocrtima, što upućuje na naseljenost i razvijenu infrastrukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:37.888Z"
+      }
     },
     {
       "id": "way/1550170931",
@@ -372,7 +432,13 @@
         "ref:HR:kucni_broj": "2164508742"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva nekoliko građevina sa krovovima različitih boja, uglavnom światlosive i smeđe tonalitete.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:40.655Z"
+      }
     },
     {
       "id": "way/1550170932",
@@ -407,7 +473,13 @@
         "ref:HR:kucni_broj": "39208"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi več zgrada sa jasno definiranim rubovima i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:40.601Z"
+      }
     },
     {
       "id": "way/1550170933",
@@ -442,7 +514,13 @@
         "ref:HR:kucni_broj": "39209"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim krovom i tamnijom bojom što ukazuje na građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:42.067Z"
+      }
     },
     {
       "id": "way/1550170934",
@@ -477,7 +555,13 @@
         "ref:HR:kucni_broj": "39204"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva betonska/asfaltna površina koja izgleda kao dio trgovačkog centra ili parkirališta s jasno vidljivim krovom i strukturom zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:40.842Z"
+      }
     },
     {
       "id": "way/1550170935",
@@ -512,7 +596,13 @@
         "ref:HR:kucni_broj": "39205"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana pravokutna građevina sa krovom sive/tamne boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:40.486Z"
+      }
     },
     {
       "id": "way/1550170936",
@@ -547,7 +637,13 @@
         "ref:HR:kucni_broj": "39206"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je sivi krov građevine sa jasno vidljivim konturama i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:45.092Z"
+      }
     },
     {
       "id": "way/1550170937",
@@ -582,7 +678,13 @@
         "ref:HR:kucni_broj": "39207"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je svetli krovni pokrivač izgradene zgrade sa jasnim obrubima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:44.362Z"
+      }
     },
     {
       "id": "way/1550170938",
@@ -617,7 +719,13 @@
         "ref:HR:kucni_broj": "11010990"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:54:25Z"
+      "validFrom": "2026-08-16T15:54:25Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine svetle boje sa karakterističnom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:44.399Z"
+      }
     },
     {
       "id": "way/1550171222",
@@ -652,7 +760,13 @@
         "ref:HR:kucni_broj": "253385"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:55:35Z"
+      "validFrom": "2026-08-16T15:55:35Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je svetliji objektat koji predstavlja krov zgrade, jasno izdvojen od okolne vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:44.348Z"
+      }
     },
     {
       "id": "way/1550171223",
@@ -687,7 +801,13 @@
         "ref:HR:kucni_broj": "253383"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:55:35Z"
+      "validFrom": "2026-08-16T15:55:35Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada s karakterističnim geometrijskim obrisima između zelenih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:44.436Z"
+      }
     },
     {
       "id": "way/1550171224",
@@ -722,7 +842,13 @@
         "ref:HR:kucni_broj": "253382"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:55:35Z"
+      "validFrom": "2026-08-16T15:55:35Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa sivkastim krovom okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:47.342Z"
+      }
     },
     {
       "id": "way/1550171225",
@@ -757,7 +883,13 @@
         "ref:HR:kucni_broj": "253384"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:55:35Z"
+      "validFrom": "2026-08-16T15:55:35Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa sivim krovom okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:47.575Z"
+      }
     },
     {
       "id": "way/1550171226",
@@ -789,7 +921,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:55:35Z"
+      "validFrom": "2026-08-16T15:55:35Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi svetla građevina/krov okružena gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:47.496Z"
+      }
     },
     {
       "id": "way/1550171227",
@@ -824,7 +962,13 @@
         "ref:HR:kucni_broj": "253381"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:55:35Z"
+      "validFrom": "2026-08-16T15:55:35Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljive su građevine i putna infrastruktura sa krovovima i očistima tla u centru kadra između šumskog pokrova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:47.550Z"
+      }
     },
     {
       "id": "way/1550171228",
@@ -859,7 +1003,13 @@
         "ref:HR:kucni_broj": "253380"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:55:35Z"
+      "validFrom": "2026-08-16T15:55:35Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa krovom, vidljiva kao tamnije obojana struktura sa pravokutnim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:47.458Z"
+      }
     },
     {
       "id": "way/1550171682",
@@ -894,7 +1044,13 @@
         "ref:HR:kucni_broj": "517345"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:49.832Z"
+      }
     },
     {
       "id": "way/1550171683",
@@ -937,7 +1093,13 @@
         "ref:HR:kucni_broj": "517343"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/smeđim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:49.988Z"
+      }
     },
     {
       "id": "way/1550171684",
@@ -972,7 +1134,13 @@
         "ref:HR:kucni_broj": "517342"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika izgrađena građevina sa jasno vidljivim krovom tamne boje, okružena manjim objektima i zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:50.250Z"
+      }
     },
     {
       "id": "way/1550171685",
@@ -1007,7 +1175,13 @@
         "ref:HR:kucni_broj": "517344"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena struktura sa krovom tamnije boje, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:49.970Z"
+      }
     },
     {
       "id": "way/1550171686",
@@ -1042,7 +1216,13 @@
         "ref:HR:kucni_broj": "2180774435"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa sivim krovom i plavim bazen uz nju.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:49.869Z"
+      }
     },
     {
       "id": "way/1550171687",
@@ -1074,7 +1254,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi bijela zgrada s krovom i bazenom u centru ortofoto snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:52.530Z"
+      }
     },
     {
       "id": "way/1550171688",
@@ -1117,7 +1303,13 @@
         "ref:HR:kucni_broj": "517341"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa krovom tamnije boje, najveće vrijednosti.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:52.407Z"
+      }
     },
     {
       "id": "way/1550171689",
@@ -1149,7 +1341,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva velika industrijska ili skladišna zgrada sa tamnim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:52.604Z"
+      }
     },
     {
       "id": "way/1550171690",
@@ -1181,7 +1379,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov izgrađene zgrade sa tamnom bojom, okružen parcelama sa različitim namjenama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:52.627Z"
+      }
     },
     {
       "id": "way/1550171691",
@@ -1216,7 +1420,13 @@
         "ref:HR:kucni_broj": "517339"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenkastavim krovom i pripadajućim gospodarskim zgradama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:52.682Z"
+      }
     },
     {
       "id": "way/1550171692",
@@ -1259,7 +1469,13 @@
         "ref:HR:kucni_broj": "517338"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna površina stambene građevine sa dijelovima okolnog dvorišta i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:55.441Z"
+      }
     },
     {
       "id": "way/1550171693",
@@ -1291,7 +1507,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena građevina sa krovom crvene/smeđe boje, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:55.126Z"
+      }
     },
     {
       "id": "way/1550171694",
@@ -1323,7 +1545,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika betonska/asfaltna površina koja predstavlja krov ili platformu građevine okružene prirodnom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:55.882Z"
+      }
     },
     {
       "id": "way/1550171695",
@@ -1355,7 +1583,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada sa jasno vidljivim struktuama i obrubima građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:55.228Z"
+      }
     },
     {
       "id": "way/1550171696",
@@ -1390,7 +1624,13 @@
         "ref:HR:kucni_broj": "517340"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:58:28Z"
+      "validFrom": "2026-08-16T15:58:28Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa sivim/tamnim krovom, vidljivi su i dijelovi bočnih struktura.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:55.043Z"
+      }
     },
     {
       "id": "way/1550171738",
@@ -1422,7 +1662,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika bijela građevina sa jasno vidljivim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:58.161Z"
+      }
     },
     {
       "id": "way/1550171739",
@@ -1457,7 +1703,13 @@
         "ref:HR:kucni_broj": "517333"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov industrijske ili poslovne zgrade sa pravokutnim obrisom i sivom bojom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:58.511Z"
+      }
     },
     {
       "id": "way/1550171740",
@@ -1489,7 +1741,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa pravokutnim krovom svijetle boje, jasno razlikovana od okolnog zelenila.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:58.304Z"
+      }
     },
     {
       "id": "way/1550171741",
@@ -1521,7 +1779,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika betonska/asfaltna površina (krov ili platforma) sa jasnim rubovima, što ukazuje na izgrađenu strukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:58.267Z"
+      }
     },
     {
       "id": "way/1550171742",
@@ -1556,7 +1820,13 @@
         "ref:HR:kucni_broj": "517334"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide krovovi većih zgrada sa braon/crvenom bojom i dijelovi građevina sa sivom bojom, okruženi zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:13:58.460Z"
+      }
     },
     {
       "id": "way/1550171743",
@@ -1588,7 +1858,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T15:59:59Z"
+      "validFrom": "2026-08-16T15:59:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva betonska/asfaltna površina sa nekoliko građevina i krovova industrijskih ili komercijalnih objekata.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:00.898Z"
+      }
     },
     {
       "id": "way/1550171775",
@@ -1623,7 +1899,13 @@
         "ref:HR:kucni_broj": "253386"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:00:37Z"
+      "validFrom": "2026-08-16T16:00:37Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetlija struktura koja predstavlja krov građevine, jasno vidljiva među zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:03.793Z"
+      }
     },
     {
       "id": "way/1550171776",
@@ -1658,7 +1940,13 @@
         "ref:HR:kucni_broj": "253389"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:00:37Z"
+      "validFrom": "2026-08-16T16:00:37Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina sa crvenkastim/ružičastim krovom okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:00.967Z"
+      }
     },
     {
       "id": "way/1550171777",
@@ -1693,7 +1981,13 @@
         "ref:HR:kucni_broj": "253388"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:00:37Z"
+      "validFrom": "2026-08-16T16:00:37Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi pravokutna građevina sa krovom svetlije boje, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:00.822Z"
+      }
     },
     {
       "id": "way/1550171778",
@@ -1728,7 +2022,13 @@
         "ref:HR:kucni_broj": "253387"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:00:37Z"
+      "validFrom": "2026-08-16T16:00:37Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su jasno definirani krovovi nekoliko zgrada s pravokutnim oblicima, okruženi šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:01.102Z"
+      }
     },
     {
       "id": "way/1550172109",
@@ -1760,7 +2060,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiv krov zgrade sivkaste boje, jasno prepoznatljiv kao izgrađena građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:06.810Z"
+      }
     },
     {
       "id": "way/1550172110",
@@ -1795,7 +2101,13 @@
         "ref:HR:kucni_broj": "517350"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/roza krovnica građevine sa jasno vidljivom strukturom zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:06.785Z"
+      }
     },
     {
       "id": "way/1550172111",
@@ -1830,7 +2142,13 @@
         "ref:HR:kucni_broj": "11004877"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa crvenim/rezavim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:08.231Z"
+      }
     },
     {
       "id": "way/1550172112",
@@ -1862,7 +2180,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom tamne boje i jasno vidljivim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:07.142Z"
+      }
     },
     {
       "id": "way/1550172113",
@@ -1897,7 +2221,13 @@
         "ref:HR:kucni_broj": "517346"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa svetlim krovom, okružena poljoprivrednim zemljištem i drugim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:07.383Z"
+      }
     },
     {
       "id": "way/1550172114",
@@ -1932,7 +2262,13 @@
         "ref:HR:kucni_broj": "11015014"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura s crvenim i smeđim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:10.599Z"
+      }
     },
     {
       "id": "way/1550172115",
@@ -1967,7 +2303,13 @@
         "ref:HR:kucni_broj": "517347"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi veliki krov građevine crvene/smeđe boje sa vidljivom strukturom zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:10.559Z"
+      }
     },
     {
       "id": "way/1550172116",
@@ -2002,7 +2344,13 @@
         "ref:HR:kucni_broj": "2184679685"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim krovom, jasno prepoznatljiva kao izgrađena struktura.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:10.460Z"
+      }
     },
     {
       "id": "way/1550172117",
@@ -2037,7 +2385,13 @@
         "ref:HR:kucni_broj": "2175634636"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i jasno definirane građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:10.685Z"
+      }
     },
     {
       "id": "way/1550172118",
@@ -2072,7 +2426,13 @@
         "ref:HR:kucni_broj": "517348"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:10.392Z"
+      }
     },
     {
       "id": "way/1550172119",
@@ -2104,7 +2464,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljivi su krovovi zgrada sa crvenim i sivim pokrivačima te druge građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:12.981Z"
+      }
     },
     {
       "id": "way/1550172120",
@@ -2139,7 +2505,13 @@
         "ref:HR:kucni_broj": "517349"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:02:03Z"
+      "validFrom": "2026-08-16T16:02:03Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim roza/crvenim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:13.000Z"
+      }
     },
     {
       "id": "way/1550172855",
@@ -2171,7 +2543,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:05Z"
+      "validFrom": "2026-08-16T16:06:05Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva struktura sa jasno definiranim krovom, najvjerojatnije stambene zgrade ili gospodarskog objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:12.995Z"
+      }
     },
     {
       "id": "way/1550172856",
@@ -2206,7 +2584,13 @@
         "ref:HR:kucni_broj": "253376"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:05Z"
+      "validFrom": "2026-08-16T16:06:05Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su две светле pravokutne strukture koje predstavljaju krovove zgrada среди зелене вегетације.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:13.251Z"
+      }
     },
     {
       "id": "way/1550172857",
@@ -2241,7 +2625,13 @@
         "ref:HR:kucni_broj": "253379"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:05Z"
+      "validFrom": "2026-08-16T16:06:05Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom, vidljivi su krovni elementi i struktura građevine u okruženju zelene vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:13.103Z"
+      }
     },
     {
       "id": "way/1550172858",
@@ -2276,7 +2666,13 @@
         "ref:HR:kucni_broj": "253378"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:05Z"
+      "validFrom": "2026-08-16T16:06:05Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasno vidljivim strukturama i linijama karakterističnim za izgrađenu strukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:15.642Z"
+      }
     },
     {
       "id": "way/1550173026",
@@ -2311,7 +2707,13 @@
         "ref:HR:kucni_broj": "11015013"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/roze krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:15.702Z"
+      }
     },
     {
       "id": "way/1550173027",
@@ -2343,7 +2745,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom svetle boje okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:16.238Z"
+      }
     },
     {
       "id": "way/1550173028",
@@ -2378,7 +2786,13 @@
         "ref:HR:kucni_broj": "517337"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa svetlucavim krovom plave/tirkizne boje okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:16.690Z"
+      }
     },
     {
       "id": "way/1550173029",
@@ -2410,7 +2824,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva reddkasta građevina sa krovom, okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:16.301Z"
+      }
     },
     {
       "id": "way/1550173030",
@@ -2445,7 +2865,13 @@
         "ref:HR:kucni_broj": "517335"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa rožnjastim krovom bež-smeđe boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:18.842Z"
+      }
     },
     {
       "id": "way/1550173031",
@@ -2480,7 +2906,13 @@
         "ref:HR:kucni_broj": "2166876209"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi moderna zgrada sa crnim krovom i bazenom, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:19.147Z"
+      }
     },
     {
       "id": "way/1550173032",
@@ -2512,7 +2944,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi moderna zgrada sa bazenom i okruživačućim zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:19.344Z"
+      }
     },
     {
       "id": "way/1550173033",
@@ -2547,7 +2985,13 @@
         "ref:HR:kucni_broj": "11015012"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:06:59Z"
+      "validFrom": "2026-08-16T16:06:59Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su dvije svetle građevine/traktori ili poljoprivredni objekti s krovovima na农skom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:19.541Z"
+      }
     },
     {
       "id": "way/1550173059",
@@ -2579,7 +3023,13 @@
         "building": "yes"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:07:15Z"
+      "validFrom": "2026-08-16T16:07:15Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasna pravokutna zgrada sa crvenim/narančastim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:19.049Z"
+      }
     },
     {
       "id": "way/1550173060",
@@ -2614,7 +3064,13 @@
         "ref:HR:kucni_broj": "2196422432"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:07:15Z"
+      "validFrom": "2026-08-16T16:07:15Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa svetlijom bojom u odnosu na okolnu vegetaciju.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:21.904Z"
+      }
     },
     {
       "id": "way/1550173064",
@@ -2649,7 +3105,13 @@
         "ref:HR:kucni_broj": "373082"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:07:30Z"
+      "validFrom": "2026-08-16T16:07:30Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska/asfaltizirana površina i dijelovi građevine sa sivim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:21.861Z"
+      }
     },
     {
       "id": "way/1550175009",
@@ -2684,7 +3146,13 @@
         "ref:HR:kucni_broj": "2144887072"
       },
       "zupanija": "Istarska županija",
-      "validFrom": "2026-08-16T16:22:37Z"
+      "validFrom": "2026-08-16T16:22:37Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je velika industrijska/poljoprivredna građevina sa tamnom strmom krovnom konstrukcijom u centru snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:22.133Z"
+      }
     },
     {
       "id": "way/1550189397",
@@ -2726,7 +3194,13 @@
         "postcode": "52425",
         "city": "Roč"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine smeđe/ružičaste boje sa jasno vidljivim obrisima zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:22.165Z"
+      }
     },
     {
       "id": "way/1550189398",
@@ -2768,7 +3242,13 @@
         "postcode": "52425",
         "city": "Roč"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina sa krovom bež-smeđe boje, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:21.993Z"
+      }
     },
     {
       "id": "way/1550189399",
@@ -2822,7 +3302,13 @@
         "postcode": "52425",
         "city": "Roč"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide crveni krovovi i strukture nekoliko povezanih zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:24.341Z"
+      }
     },
     {
       "id": "way/1550213328",
@@ -2865,7 +3351,13 @@
         "postcode": "10430",
         "city": "Samobor"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa tamno crvenim/smeđim krovom, jasno vidljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:24.549Z"
+      }
     },
     {
       "id": "way/1550213329",
@@ -2908,7 +3400,13 @@
         "postcode": "10430",
         "city": "Samobor"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva velika zgrada sa tamnim krovom i većim građevinskim kompleksom sa poljoprivrednim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:24.329Z"
+      }
     },
     {
       "id": "way/1550213330",
@@ -2951,7 +3449,13 @@
         "postcode": "10430",
         "city": "Samobor"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom i bijelo-sivim dodatnim strukturama okruženim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:24.824Z"
+      }
     },
     {
       "id": "way/1550213331",
@@ -2985,7 +3489,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-16T20:05:04Z",
       "nearestStreet": "Koletići",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa crvenom/smeđom bojom, okružen zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:24.516Z"
+      }
     },
     {
       "id": "way/1550213332",
@@ -3028,7 +3538,13 @@
         "postcode": "10430",
         "city": "Samobor"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa sivim/tamnim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:27.041Z"
+      }
     },
     {
       "id": "way/1550213333",
@@ -3063,7 +3579,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-16T20:05:04Z",
       "nearestStreet": "Koletići",
-      "nearestStreetDist": 8
+      "nearestStreetDist": 8,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom, okružena poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:27.233Z"
+      }
     },
     {
       "id": "way/1550216494",
@@ -3105,7 +3627,13 @@
       "zupanija": "Krapinsko-zagorska županija",
       "validFrom": "2026-08-16T20:22:43Z",
       "nearestStreet": "Petrova Gora",
-      "nearestStreetDist": 725
+      "nearestStreetDist": 725,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je reddasta/ružičasta struktura koja predstavlja krov izgrađene zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:27.040Z"
+      }
     },
     {
       "id": "way/1550218123",
@@ -3140,7 +3668,13 @@
         "religion": "christian"
       },
       "zupanija": "Krapinsko-zagorska županija",
-      "validFrom": "2026-08-16T20:34:48Z"
+      "validFrom": "2026-08-16T20:34:48Z",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "U centru kadra vidljiva je samo cesta i zelene površine, bez vidljive izgrađene zgrade ili krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:27.065Z"
+      }
     },
     {
       "id": "way/1550227276",
@@ -3173,7 +3707,13 @@
         "building:levels": "1"
       },
       "zupanija": "Zadarska županija",
-      "validFrom": "2026-08-16T21:33:52Z"
+      "validFrom": "2026-08-16T21:33:52Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine svetle boje između ceste i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:27.002Z"
+      }
     },
     {
       "id": "way/1550227281",
@@ -3206,7 +3746,13 @@
         "building:levels": "1"
       },
       "zupanija": "Zadarska županija",
-      "validFrom": "2026-08-16T21:33:52Z"
+      "validFrom": "2026-08-16T21:33:52Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva jasno izgrađena struktura sa krovom i vanjskim zidovima, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:29.540Z"
+      }
     },
     {
       "id": "way/1550248132",
@@ -3260,7 +3806,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-08-17T00:27:34Z",
       "nearestStreet": "Šetnica Kanal Svetog Ante",
-      "nearestStreetDist": 112
+      "nearestStreetDist": 112,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov velike građevine sa jasno vidljivim konturama i sivom bojom karakterističnom za betonsku/asfaltnu površinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:30.055Z"
+      }
     },
     {
       "id": "way/1550290126",
@@ -3294,7 +3846,13 @@
         "fee": "no"
       },
       "zupanija": "Primorsko-goranska županija",
-      "validFrom": "2026-08-17T07:49:15Z"
+      "validFrom": "2026-08-17T07:49:15Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi veća izgrađena struktura sa više krovnih površina u beigoj/ružičastoj boji.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:30.731Z"
+      }
     },
     {
       "id": "way/1550295178",
@@ -3328,7 +3886,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 28
+      "nearestStreetDist": 28,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:29.949Z"
+      }
     },
     {
       "id": "way/1550295179",
@@ -3370,7 +3934,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa vidljivim krovom sive/tamne boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:29.310Z"
+      }
     },
     {
       "id": "way/1550295180",
@@ -3404,7 +3974,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada sa vidljivim krovom crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:32.819Z"
+      }
     },
     {
       "id": "way/1550295181",
@@ -3454,7 +4030,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim krovom i betonskom platformom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:36.166Z"
+      }
     },
     {
       "id": "way/1550295182",
@@ -3496,7 +4078,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 44
+      "nearestStreetDist": 44,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:33.141Z"
+      }
     },
     {
       "id": "way/1550295183",
@@ -3534,7 +4122,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 39
+      "nearestStreetDist": 39,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva velika bijela/siva zgrada sa krovom, okružena manjim crvenima krovovima i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:35.144Z"
+      }
     },
     {
       "id": "way/1550295184",
@@ -3588,7 +4182,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva crvena/ružičasta krovna konstrukcija i bijela zgrada sa okolnim gospodarskim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:33.752Z"
+      }
     },
     {
       "id": "way/1550295185",
@@ -3650,7 +4250,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika građevina sa crvenim i bijelim krovom, okružena poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:44.422Z"
+      }
     },
     {
       "id": "way/1550295191",
@@ -3692,7 +4298,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velikih nekoliko građevina sa vidljivim krovovima, uključujući što izgleda kao glavna siva/betonska konstrukcija okružena manjim objektima i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:39.831Z"
+      }
     },
     {
       "id": "way/1550295192",
@@ -3742,7 +4354,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide krovovi nekoliko zgrada sa različitim bojama i oblicima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:39.694Z"
+      }
     },
     {
       "id": "way/1550295193",
@@ -3800,7 +4418,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi rdeća krovova zgrada sa njihovim sjenkama, kao i dijelovi grijaće infrastrukture oko njih.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:39.612Z"
+      }
     },
     {
       "id": "way/1550295194",
@@ -3842,7 +4466,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddish/ružičastog krova koja predstavlja izgrađenu građevinu sa vidljivom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:39.663Z"
+      }
     },
     {
       "id": "way/1550295195",
@@ -3900,7 +4530,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina s crvenim krovom okružena zelenilom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:47.286Z"
+      }
     },
     {
       "id": "way/1550295196",
@@ -3934,7 +4570,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov crvene/smeđe boje koji pripada izgrađenoj zgradi.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:47.768Z"
+      }
     },
     {
       "id": "way/1550295197",
@@ -4012,7 +4654,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine sa crvenom/smeđom bojom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:47.482Z"
+      }
     },
     {
       "id": "way/1550295198",
@@ -4070,7 +4718,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 21
+      "nearestStreetDist": 21,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa crvenim/rozim krovom i tamnim dijelovima, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:47.794Z"
+      }
     },
     {
       "id": "way/1550295199",
@@ -4108,7 +4762,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov izgrađene zgrade sa okolnim zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:47.760Z"
+      }
     },
     {
       "id": "way/1550295200",
@@ -4142,7 +4802,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada sa krovom crvene/smeđe boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:50.145Z"
+      }
     },
     {
       "id": "way/1550295201",
@@ -4176,7 +4842,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenkaastim krovom i tamnim/sivim dijelovima konstrukcije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:50.448Z"
+      }
     },
     {
       "id": "way/1550295202",
@@ -4242,7 +4914,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva rezidencijalna zgrada s crvenim/ružičastim krovom i okolnim lokalitetom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:50.266Z"
+      }
     },
     {
       "id": "way/1550295203",
@@ -4292,7 +4970,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 15
+      "nearestStreetDist": 15,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena zgrada sa sivim/plavkastim krovom okružena zelenim površinama i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:50.196Z"
+      }
     },
     {
       "id": "way/1550295204",
@@ -4326,7 +5010,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv veliki zgrada s tamnosmeđim krovom okružen zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:50.223Z"
+      }
     },
     {
       "id": "way/1550295205",
@@ -4360,7 +5050,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:52.895Z"
+      }
     },
     {
       "id": "way/1550295206",
@@ -4402,7 +5098,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa terrakota/crvenim krovom i tamnim bočnim dijelovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:53.302Z"
+      }
     },
     {
       "id": "way/1550295207",
@@ -4452,7 +5154,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s tamnom (crnom ili tamnosivom) krovnom konstrukcijom, okružena zelenim poljima i drugim građevinama s crvenim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:53.033Z"
+      }
     },
     {
       "id": "way/1550295208",
@@ -4510,7 +5218,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa црвеним/ружичастим krovom i jasno definiranim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:52.768Z"
+      }
     },
     {
       "id": "way/1550295209",
@@ -4544,7 +5258,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 10
+      "nearestStreetDist": 10,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov crvene/ružičaste boje koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:52.800Z"
+      }
     },
     {
       "id": "way/1550295210",
@@ -4586,7 +5306,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:18:32Z",
       "nearestStreet": "Ulica Stjepana Radočaja",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade sa zelenom vegetacijom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:55.529Z"
+      }
     },
     {
       "id": "way/1550295211",
@@ -4684,7 +5410,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi građevina s crvenim krovom okružena zelenim površinama i drugim kućama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:55.641Z"
+      }
     },
     {
       "id": "way/1550295458",
@@ -4722,7 +5454,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Ulica Stjepana Stepanića",
-      "nearestStreetDist": 23
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/tamnocrvena krovna površina građevine sa jasnim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:56.080Z"
+      }
     },
     {
       "id": "way/1550295459",
@@ -4760,7 +5498,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Horvatova ulica",
-      "nearestStreetDist": 28
+      "nearestStreetDist": 28,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna površina koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:55.528Z"
+      }
     },
     {
       "id": "way/1550295460",
@@ -4806,7 +5550,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su crvene i smeđe krovne površine s nekoliko zgrada i pratećih građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:55.621Z"
+      }
     },
     {
       "id": "way/1550295461",
@@ -4880,7 +5630,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi zgrada sa crvenim/ružičastim krovom i pridruženim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:58.404Z"
+      }
     },
     {
       "id": "way/1550295462",
@@ -4922,7 +5678,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Horvatova ulica",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su izgradnje sa krovovima različitih boja (crvena, siva, plava) i zelenim površinama oko njih.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:58.675Z"
+      }
     },
     {
       "id": "way/1550295463",
@@ -4984,7 +5746,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov objekta s karakterističnom crvenom/ružičastom bojom i dijelovima zelene vegetacije oko njega.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:58.428Z"
+      }
     },
     {
       "id": "way/1550295464",
@@ -5022,7 +5790,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T08:21:24Z",
       "nearestStreet": "Horvatova ulica",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi nekoliko zgrada sa različitim bojama i strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:58.278Z"
+      }
     },
     {
       "id": "way/1550301004",
@@ -5064,7 +5838,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasno vidljivom strukturom i senkom, smještene pored puta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:14:58.420Z"
+      }
     },
     {
       "id": "way/1550301005",
@@ -5098,7 +5878,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-17T09:03:18Z",
       "nearestStreet": "Ulica Nikole Tesle",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su две građevine - veća zgrada sa sivim krovom i manja građevina, smještene između poljoprivrednih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:02.038Z"
+      }
     },
     {
       "id": "way/1550301006",
@@ -5140,7 +5926,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa pravokutnim oblikom, jasno razlikovan od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:01.008Z"
+      }
     },
     {
       "id": "way/1550301351",
@@ -5194,7 +5986,13 @@
         "postcode": "10410",
         "city": "Velika Gorica"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi više zgrada s krovovima različitih boja i oblika, uključujući crne, smeđe i crvene krovove.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:01.073Z"
+      }
     },
     {
       "id": "way/1550305288",
@@ -5238,7 +6036,13 @@
         "postcode": "48332",
         "city": "Ždala"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva pravokutna građevina s tamnim krovom u centru snimke, okružena parkirnom zonom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:01.125Z"
+      }
     },
     {
       "id": "way/1550322581",
@@ -5296,7 +6100,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov veće zgrade s vidljivom strukturom i dijelovima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:01.169Z"
+      }
     },
     {
       "id": "way/1550322582",
@@ -5338,7 +6148,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov građevine",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:04.169Z"
+      }
     },
     {
       "id": "way/1550322583",
@@ -5384,7 +6200,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim/smeđim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:06.123Z"
+      }
     },
     {
       "id": "way/1550322584",
@@ -5426,7 +6248,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terrakota krovom, jasno razlicitim od okolnog terena i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:04.433Z"
+      }
     },
     {
       "id": "way/1550322585",
@@ -5468,7 +6296,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika bijela/svetla zgrada sa krovom, okružena parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:04.356Z"
+      }
     },
     {
       "id": "way/1550322586",
@@ -5510,7 +6344,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je rozi/crveni krov zgrade s jasno vidljivim konturama i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:04.434Z"
+      }
     },
     {
       "id": "way/1550322587",
@@ -5576,7 +6416,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno su vidljive građevine sa crvenim/ružičastim krovovima i zelenim nasadima oko njih.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:08.816Z"
+      }
     },
     {
       "id": "way/1550322588",
@@ -5618,7 +6464,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetla građevina sa krovom između vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:08.370Z"
+      }
     },
     {
       "id": "way/1550322589",
@@ -5668,7 +6520,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina sa krovom, okružena zelenim površinama i crvenim krovovima obližnjih zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:08.556Z"
+      }
     },
     {
       "id": "way/1550322590",
@@ -5770,7 +6628,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke je jasno vidljiva građevina sa krovom i okućnicom sa dodatnim manjim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:08.468Z"
+      }
     },
     {
       "id": "way/1550322591",
@@ -5828,7 +6692,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika crvena/ružičasta krovna površina pravokutnog oblika, što ukazuje na izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:08.848Z"
+      }
     },
     {
       "id": "way/1550322592",
@@ -5878,7 +6748,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna kvadratna građevina sa sivim/betonskim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:11.408Z"
+      }
     },
     {
       "id": "way/1550322593",
@@ -5920,7 +6796,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa crvenomkrovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:11.089Z"
+      }
     },
     {
       "id": "way/1550322594",
@@ -5986,7 +6868,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi roza/crveni krov zgrade sa jasno vidljivim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:11.210Z"
+      }
     },
     {
       "id": "way/1550322595",
@@ -6020,7 +6908,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 14
+      "nearestStreetDist": 14,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena struktura sa sivim/plavkastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:11.148Z"
+      }
     },
     {
       "id": "way/1550322596",
@@ -6062,7 +6956,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim/teracota krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:10.973Z"
+      }
     },
     {
       "id": "way/1550322597",
@@ -6096,7 +6996,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 232
+      "nearestStreetDist": 232,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom, okružena sa svjetlijim površinama (vjerojatno parkiralište ili učvršćeni dio) i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:14.042Z"
+      }
     },
     {
       "id": "way/1550322598",
@@ -6162,7 +7068,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva svetlija građevina sa krovom, okružena zelenim poljima i šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:13.719Z"
+      }
     },
     {
       "id": "way/1550322599",
@@ -6212,7 +7124,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom boje bež/smeđe, okružena parcelama i putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:13.951Z"
+      }
     },
     {
       "id": "way/1550322600",
@@ -6286,7 +7204,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa vidljivim krovom crvene/smeđe boje i dijelovima strukture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:13.716Z"
+      }
     },
     {
       "id": "way/1550322601",
@@ -6340,7 +7264,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddasta krovna konstrukcija koja pripada izgrađenoj zgradi.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:13.816Z"
+      }
     },
     {
       "id": "way/1550322602",
@@ -6382,7 +7312,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade sa vidljivom građevnom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:16.330Z"
+      }
     },
     {
       "id": "way/1550322603",
@@ -6436,7 +7372,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine bež/smeđe boje okružen zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:16.217Z"
+      }
     },
     {
       "id": "way/1550322604",
@@ -6478,7 +7420,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krovna površina sive/tamnosive boje koja pripada izgrađenoj zgradi.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:16.346Z"
+      }
     },
     {
       "id": "way/1550322605",
@@ -6512,7 +7460,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 277
+      "nearestStreetDist": 277,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovnom površina građevine sa jasno vidljivim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:16.451Z"
+      }
     },
     {
       "id": "way/1550322607",
@@ -6566,7 +7520,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna struktura objekta sa pravokutnim krovom crvene/smeđe boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:16.500Z"
+      }
     },
     {
       "id": "way/1550322608",
@@ -6620,7 +7580,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov plave/tamne boje, što ukazuje na izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:18.913Z"
+      }
     },
     {
       "id": "way/1550322609",
@@ -6674,7 +7640,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov velike građevine sa vidljivom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:19.055Z"
+      }
     },
     {
       "id": "way/1550322610",
@@ -6716,7 +7688,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna građevina sa sivim krovom okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:18.896Z"
+      }
     },
     {
       "id": "way/1550322611",
@@ -6750,7 +7728,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 206
+      "nearestStreetDist": 206,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva bijela/svijetla građevina (zgrada) sa pravokutnim obrisom i krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:19.770Z"
+      }
     },
     {
       "id": "way/1550322612",
@@ -6808,7 +7792,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 53
+      "nearestStreetDist": 53,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi industrijska ili poljoprivredna zgrada sa terrakota/crvenim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:18.942Z"
+      }
     },
     {
       "id": "way/1550322613",
@@ -6850,7 +7840,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi veća zgrada sa tamnim krovom i pratećim objektima sa svetlim krovovima u centru snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:22.121Z"
+      }
     },
     {
       "id": "way/1550322614",
@@ -6908,7 +7904,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenim/smeđim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:21.983Z"
+      }
     },
     {
       "id": "way/1550322615",
@@ -6950,7 +7952,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa svetlim krovom i jasnim obrисima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:21.914Z"
+      }
     },
     {
       "id": "way/1550322616",
@@ -7008,7 +8016,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna struktura koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:22.023Z"
+      }
     },
     {
       "id": "way/1550322619",
@@ -7042,7 +8056,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 251
+      "nearestStreetDist": 251,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasno vidljivim rubovima i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:22.031Z"
+      }
     },
     {
       "id": "way/1550322620",
@@ -7076,7 +8096,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 44
+      "nearestStreetDist": 44,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim krovom crvenkaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:24.229Z"
+      }
     },
     {
       "id": "way/1550322621",
@@ -7118,7 +8144,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenim krovom i bijелim/sivim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:24.324Z"
+      }
     },
     {
       "id": "way/1550322622",
@@ -7192,7 +8224,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su bijele i crvene građevine sa krovovima, jasno identificirane kao izgrađene zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:24.391Z"
+      }
     },
     {
       "id": "way/1550322623",
@@ -7258,7 +8296,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiv krov crvene/terakota boje u centru snimke, što ukazuje na izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:24.449Z"
+      }
     },
     {
       "id": "way/1550322624",
@@ -7292,7 +8336,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 237
+      "nearestStreetDist": 237,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/narančastim krovom i dijelom bijelog dijela građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:24.438Z"
+      }
     },
     {
       "id": "way/1550322625",
@@ -7350,7 +8400,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva velika industrijska ili trgovačka zgrada s pravokutnim sivim/bijelim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:27.183Z"
+      }
     },
     {
       "id": "way/1550322626",
@@ -7392,7 +8448,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi roza/crveni krov veće građevine sa više crnih dijelova i zelenih površina oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:26.887Z"
+      }
     },
     {
       "id": "way/1550322627",
@@ -7434,7 +8496,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika siva/betonska građevina s jasno vidljivim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:26.653Z"
+      }
     },
     {
       "id": "way/1550322628",
@@ -7488,7 +8556,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su crveni/ružičasti krovovi višestrukih zgrada sa jasno vidljivim strukturama i linijama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:27.340Z"
+      }
     },
     {
       "id": "way/1550322629",
@@ -7538,7 +8612,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:26.646Z"
+      }
     },
     {
       "id": "way/1550322630",
@@ -7572,7 +8652,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 278
+      "nearestStreetDist": 278,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine crvene/ružičaste boje sa jasno vidljivim obrисima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:29.696Z"
+      }
     },
     {
       "id": "way/1550322631",
@@ -7618,7 +8704,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 14
+      "nearestStreetDist": 14,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim krovom u bež/ružičastoj boji.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:31.317Z"
+      }
     },
     {
       "id": "way/1550322632",
@@ -7660,7 +8752,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je veća izgrađena struktura sa jasno vidljivim krovom terakota boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:29.638Z"
+      }
     },
     {
       "id": "way/1550322633",
@@ -7702,7 +8800,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je jasno crvenostni/narančasti krov građevine okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:29.581Z"
+      }
     },
     {
       "id": "way/1550322634",
@@ -7768,7 +8872,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa crvenim/narančastim krovom, jasno razlikovanja od okolnog zelenila.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:29.735Z"
+      }
     },
     {
       "id": "way/1550322636",
@@ -7810,7 +8920,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada sa crvenim/smeđim krovom i strukturom karakterističnom za stanovanjsku zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:33.752Z"
+      }
     },
     {
       "id": "way/1550322637",
@@ -7860,7 +8976,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena struktura sa krovom i jasno definiranim rubovima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:33.469Z"
+      }
     },
     {
       "id": "way/1550322638",
@@ -7934,7 +9056,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada sa crvenim/ružičastim krovom i jasno definiranim obrисima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:33.604Z"
+      }
     },
     {
       "id": "way/1550322639",
@@ -7976,7 +9104,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine svjetlije boje s geometrijskim oblicima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:33.544Z"
+      }
     },
     {
       "id": "way/1550322640",
@@ -8010,7 +9144,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 90
+      "nearestStreetDist": 90,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva siva/betonska građevina sa krovom, vjerojatno industrijska ili gospodaraska zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:33.800Z"
+      }
     },
     {
       "id": "way/1550322641",
@@ -8068,7 +9208,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi rdeća krovna konstrukcija zgrade okružena zelenom vegetacijom i ostalim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:36.102Z"
+      }
     },
     {
       "id": "way/1550322642",
@@ -8126,7 +9272,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/smeđim krovom i jasno definiranom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:36.114Z"
+      }
     },
     {
       "id": "way/1550322643",
@@ -8168,7 +9320,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada s crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:35.889Z"
+      }
     },
     {
       "id": "way/1550322644",
@@ -8218,7 +9376,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom i okolnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:36.270Z"
+      }
     },
     {
       "id": "way/1550322645",
@@ -8292,7 +9456,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva veća zgrada s crvenim krovom i białim zidovima, okružena vanjskim prostorom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:36.166Z"
+      }
     },
     {
       "id": "way/1550322646",
@@ -8326,7 +9496,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 197
+      "nearestStreetDist": 197,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasno izgrađena struktura sa krovom, vidljivi su rubovi i konture građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:38.664Z"
+      }
     },
     {
       "id": "way/1550322647",
@@ -8380,7 +9556,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva velika industrijska ili poljoprivredna građevina sa pravokutnim krovom sive boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:38.672Z"
+      }
     },
     {
       "id": "way/1550322648",
@@ -8430,7 +9612,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 172
+      "nearestStreetDist": 172,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi pravokutna građevina s reddkastim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:38.726Z"
+      }
     },
     {
       "id": "way/1550322649",
@@ -8464,7 +9652,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Sveta Lucija",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/terracotta krov rezidencijalne zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:38.614Z"
+      }
     },
     {
       "id": "way/1550322650",
@@ -8506,7 +9700,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva velika bijela građevina s pravokutnim oblikom, što izgleda kao krov industrijske ili poljoprivredne zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:38.731Z"
+      }
     },
     {
       "id": "way/1550322651",
@@ -8584,7 +9784,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna konstrukcija koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:41.169Z"
+      }
     },
     {
       "id": "way/1550322652",
@@ -8626,7 +9832,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s krovom u boji opeke, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:40.953Z"
+      }
     },
     {
       "id": "way/1550322653",
@@ -8676,7 +9888,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva velika pravokutna građevina s jasno vidljivim krovom smeđe boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:41.017Z"
+      }
     },
     {
       "id": "way/1550322654",
@@ -8718,7 +9936,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva roza/crvena krovišta građevine sa jasno definiranim rubovima i obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:41.105Z"
+      }
     },
     {
       "id": "way/1550322655",
@@ -8784,7 +10008,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva siva/tamna krovišna površina koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:40.954Z"
+      }
     },
     {
       "id": "way/1550322656",
@@ -8842,7 +10072,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:43.307Z"
+      }
     },
     {
       "id": "way/1550322657",
@@ -8908,7 +10144,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov veće građevine sa vidljivim obrisima zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:43.536Z"
+      }
     },
     {
       "id": "way/1550322658",
@@ -8942,7 +10184,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 253
+      "nearestStreetDist": 253,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa sivim/beigeim krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:43.477Z"
+      }
     },
     {
       "id": "way/1550322659",
@@ -9008,7 +10256,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi roza/crveni krov zgrade sa pravokutnim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:43.475Z"
+      }
     },
     {
       "id": "way/1550322660",
@@ -9050,7 +10304,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:43.723Z"
+      }
     },
     {
       "id": "way/1550322661",
@@ -9092,7 +10352,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva bijela/svijetla građevina sa krovom, okružena poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:45.971Z"
+      }
     },
     {
       "id": "way/1550322663",
@@ -9134,7 +10400,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine tamnije boje okružen vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:46.198Z"
+      }
     },
     {
       "id": "way/1550322664",
@@ -9168,7 +10440,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Glavani",
-      "nearestStreetDist": 22
+      "nearestStreetDist": 22,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenkastim/smeđim krovom okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:46.218Z"
+      }
     },
     {
       "id": "way/1550322665",
@@ -9210,7 +10488,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov izgrađene zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:45.927Z"
+      }
     },
     {
       "id": "way/1550322666",
@@ -9244,7 +10528,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 285
+      "nearestStreetDist": 285,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom i strukturom, okružena vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:46.363Z"
+      }
     },
     {
       "id": "way/1550322667",
@@ -9294,7 +10584,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom, jasno vidljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:48.725Z"
+      }
     },
     {
       "id": "way/1550322668",
@@ -9336,7 +10632,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim crvenim/ružičastim krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:48.674Z"
+      }
     },
     {
       "id": "way/1550322670",
@@ -9374,7 +10676,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 192
+      "nearestStreetDist": 192,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa sivim/betonskim krovom jasno razlikovanja od okolnog zelenog terena i poljoprivrednih parcela.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:48.891Z"
+      }
     },
     {
       "id": "way/1550322671",
@@ -9416,7 +10724,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna građevina s krovom, jasno vidljiva na satelitskoj snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:48.690Z"
+      }
     },
     {
       "id": "way/1550322672",
@@ -9478,7 +10792,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 6
+      "dguBrojJedinica": 6,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov zgrade crvene/ružičaste boje s pratećim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:50.039Z"
+      }
     },
     {
       "id": "way/1550322673",
@@ -9512,7 +10832,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 154
+      "nearestStreetDist": 154,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom, jasno vidljiva kao izgrađena struktura.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:59.110Z"
+      }
     },
     {
       "id": "way/1550322674",
@@ -9586,7 +10912,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 244
+      "nearestStreetDist": 244,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim krovom i susednom strukturom sa svetlosnim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:52.413Z"
+      }
     },
     {
       "id": "way/1550322675",
@@ -9652,7 +10984,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika bijela zgrada s bazenom, okružena zelenim površinama i parkiralištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:52.610Z"
+      }
     },
     {
       "id": "way/1550322676",
@@ -9694,7 +11032,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:52.324Z"
+      }
     },
     {
       "id": "way/1550322677",
@@ -9736,7 +11080,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je betonska/asfaltna površina (vjerojatno parking ili prometna površina) sa strukturom ili manjom građevinom u neposrednoj blizini.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:15:52.719Z"
+      }
     },
     {
       "id": "way/1550322678",
@@ -9794,7 +11144,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina sa crvenim/ružičastim krovom i vidljive su njene konture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:02.143Z"
+      }
     },
     {
       "id": "way/1550322679",
@@ -9832,7 +11188,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 249
+      "nearestStreetDist": 249,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika zgrada sa crvenim/ružičastim krovom i vidljivom građevinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:02.073Z"
+      }
     },
     {
       "id": "way/1550322680",
@@ -9866,7 +11228,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 231
+      "nearestStreetDist": 231,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide najmanje dvije zgrade s crvenim/smeđim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:02.187Z"
+      }
     },
     {
       "id": "way/1550322681",
@@ -9908,7 +11276,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna pravokutna struktura sa sivkastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:02.300Z"
+      }
     },
     {
       "id": "way/1550322682",
@@ -9950,7 +11324,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska struktura sa sivim krovom, vjerojatno industrijska ili poljoprivredna zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:02.454Z"
+      }
     },
     {
       "id": "way/1550322683",
@@ -9992,7 +11372,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom sivkaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:04.552Z"
+      }
     },
     {
       "id": "way/1550322684",
@@ -10046,7 +11432,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddkasto-smeđi krov izgrađene zgrade okružen zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:05.033Z"
+      }
     },
     {
       "id": "way/1550322685",
@@ -10080,7 +11472,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 231
+      "nearestStreetDist": 231,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov građevine okružen zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:04.915Z"
+      }
     },
     {
       "id": "way/1550322686",
@@ -10130,7 +11528,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 532
+      "nearestStreetDist": 532,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa krovom, okružena parkiralištima i prometnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:04.888Z"
+      }
     },
     {
       "id": "way/1550322687",
@@ -10172,7 +11576,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su jasni obrisi krovova zgrada s različitim bojama i geometrijskim oblicima tipičnim za stambene objekte.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:04.983Z"
+      }
     },
     {
       "id": "way/1550322688",
@@ -10206,7 +11616,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 287
+      "nearestStreetDist": 287,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna kvadratna/pravokutna struktura sa krovom, prepoznatljiva kao izgrađena zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:07.380Z"
+      }
     },
     {
       "id": "way/1550322689",
@@ -10240,7 +11656,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 208
+      "nearestStreetDist": 208,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva bijela zgrada sa krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:07.389Z"
+      }
     },
     {
       "id": "way/1550322690",
@@ -10282,7 +11704,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim krovom crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:07.189Z"
+      }
     },
     {
       "id": "way/1550322691",
@@ -10324,7 +11752,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su dvije crvene/ružičaste građevine (krovovi) okružene zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:07.326Z"
+      }
     },
     {
       "id": "way/1550322692",
@@ -10374,7 +11808,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je velika industrijska ili skladišna zgrada s jasno vidljivim krovom u centru snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:07.189Z"
+      }
     },
     {
       "id": "way/1550322693",
@@ -10416,7 +11856,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa tamnim krovom i bjelim zidovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:09.516Z"
+      }
     },
     {
       "id": "way/1550322694",
@@ -10450,7 +11896,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 235
+      "nearestStreetDist": 235,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su crveni krovovi karakteristični za izgrađene zgrade, jasno vidljive na satelitskoj snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:09.627Z"
+      }
     },
     {
       "id": "way/1550322695",
@@ -10492,7 +11944,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s krovom - bijela/svijetla struktura sa zelenim površinama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:09.797Z"
+      }
     },
     {
       "id": "way/1550322696",
@@ -10534,7 +11992,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terakota krovom, jasno razlikovana od zelenih poljoprivrednih površina oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:09.998Z"
+      }
     },
     {
       "id": "way/1550322697",
@@ -10576,7 +12040,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je reddkasta/roze krovana zgrada okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:09.660Z"
+      }
     },
     {
       "id": "way/1550322698",
@@ -10626,7 +12096,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su dijelovi krovova zgrada sa crvenim/ružičastim pokrivačem i drugih građevina sa sivim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:12.650Z"
+      }
     },
     {
       "id": "way/1550322699",
@@ -10676,7 +12152,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenim/terakota krovom i perifernim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:12.122Z"
+      }
     },
     {
       "id": "way/1550322700",
@@ -10718,7 +12200,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T11:05:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 87
+      "nearestStreetDist": 87,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:12.196Z"
+      }
     },
     {
       "id": "way/1550322701",
@@ -10760,7 +12248,13 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je dio zgrade s vidljivim krovom u sivoj boji, jasno razlikovan od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:12.291Z"
+      }
     },
     {
       "id": "way/1550337002",
@@ -10792,7 +12286,13 @@
         "building": "yes"
       },
       "zupanija": "Zadarska županija",
-      "validFrom": "2026-08-17T12:34:09Z"
+      "validFrom": "2026-08-17T12:34:09Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je krov zgrade sa svetlijom bojom od okoline, jasno odvojen od okolne šume.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:13.530Z"
+      }
     },
     {
       "id": "way/1550337004",
@@ -10832,7 +12332,13 @@
         "postcode": "23284",
         "city": "Veli Iž"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je pravokutna struktura sa krovom i jasno vidljivim obrisima građevine okružene vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T20:16:15.958Z"
+      }
     }
   ]
 }
