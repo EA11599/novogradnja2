@@ -243,7 +243,7 @@ async function obradiDatoteku(entry, nazivSloja, brojaci) {
   const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
   const zaProvjeru = data.features.filter(
-    (f) => !(f.tags && f.tags["addr:street"]) && !f.dguAdresa && (!f.satelitProvjera || f.satelitProvjera.status === "greska")
+    (f) => (!f.satelitProvjera || f.satelitProvjera.status === "greska")
   );
   console.log(`\n${entry.file}: ${zaProvjeru.length} zgrada za obradu (od ${data.features.length} ukupno).`);
 
