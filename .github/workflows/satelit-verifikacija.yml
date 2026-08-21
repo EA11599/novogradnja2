@@ -36,6 +36,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nema promjena za commit."
           else
-            git commit -m "Satelitska verifikacija - DGU 2022 + Claude API"
+            git commit -m "Satelitska verifikacija - DGU 2023/24 + Claude API"
             git push
           fi

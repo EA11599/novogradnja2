@@ -222,7 +222,7 @@
     box-shadow: 0 12px 36px rgba(0,0,0,0.3);
     padding: 14px 16px;
     display: none;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0 16px;
     max-height: 280px;
     overflow-y: auto;
@@ -486,9 +486,13 @@ const $ = (sel) => document.querySelector(sel);
 const sbReview = window.__sbClient;
 
 let trenutniKorisnikEmail = null;
+let trenutniKorisnikIme = null; // prikazno ime - puno ime ako postoji, inace email
 async function ucitajKorisnikaZaRecenzije(){
   const { data: { user } } = await sbReview.auth.getUser();
   trenutniKorisnikEmail = user ? user.email : null;
+  const meta = (user && user.user_metadata) || {};
+  // fallback lanac: nase custom polje -> Google-ovo standardno polje -> email
+  trenutniKorisnikIme = meta.puno_ime || meta.full_name || meta.name || trenutniKorisnikEmail;
 }
 
 // Vraca DGU kljuc (stabilan pseudo-ID) iz street+houseNumber+settlement.
@@ -518,7 +522,7 @@ async function dohvatiRecenzije(tablica, kolonaId, idjevi){
 
 // Sprema (upsert) recenziju - status + napomena.
 async function spremiRecenziju(tablica, kolonaId, id, status, napomena){
-  const redak = { [kolonaId]: id, status, napomena: napomena || null, azurirao: trenutniKorisnikEmail, azurirano_at: new Date().toISOString() };
+  const redak = { [kolonaId]: id, status, napomena: napomena || null, azurirao: trenutniKorisnikIme, azurirano_at: new Date().toISOString() };
   const { error } = await sbReview.from(tablica).upsert(redak, { onConflict: kolonaId });
   if (error) throw error;
 }
@@ -658,6 +662,7 @@ let samoViseDguAdresa = false;
 let selectedBuildingTypes = new Set();
 let selectedLevels = new Set();
 let selectedStatuses = new Set();
+let selectedPouzdanost = new Set();
 let facetPanelOpen = false;
 let map, geoLayer, markerLayer;
 let currentWindowWeeks = null; // null = sve
@@ -733,6 +738,8 @@ async function loadDguNoveAdrese(){
       const r = reviewMapa[kljucevi[i]];
       f.reviewStatus = r ? r.status : 'nepotvrđeno';
       f.reviewNapomena = r ? r.napomena : null;
+      f.reviewAzurirao = r ? r.azurirao : null;
+      f.reviewAzuriranoAt = r ? r.azurirano_at : null;
     });
     dguNoveFeatures = podaci.features;
 
@@ -817,6 +824,8 @@ async function selectWindow(weeks){
     const r = reviewMapa[f.id];
     f.reviewStatus = r ? r.status : 'nepotvrđeno';
     f.reviewNapomena = r ? r.napomena : null;
+    f.reviewAzurirao = r ? r.azurirao : null;
+    f.reviewAzuriranoAt = r ? r.azurirano_at : null;
   });
 
   const imaSatelitskihPodataka = allFeaturesInWindow.some(f => f.satelitProvjera);
@@ -1004,6 +1013,7 @@ function getFilteredFeatures(){
     if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
     if (selectedStatuses.size > 0 && !selectedStatuses.has(f.reviewStatus || 'nepotvrđeno')) return false;
+    if (selectedPouzdanost.size > 0 && !selectedPouzdanost.has(izracunajPouzdanost(f).tier)) return false;
     if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
     if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
@@ -1021,6 +1031,7 @@ function getFilteredFeaturesBezZupanije(){
     if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
     if (selectedStatuses.size > 0 && !selectedStatuses.has(f.reviewStatus || 'nepotvrđeno')) return false;
+    if (selectedPouzdanost.size > 0 && !selectedPouzdanost.has(izracunajPouzdanost(f).tier)) return false;
     if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
     if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
@@ -1063,6 +1074,14 @@ function renderFacetPanel(){
   const statusRedoslijed = ['nepotvrđeno', 'potvrđeno', 'odbačeno'];
   const statusCounts = statusRedoslijed.filter(s => statusBrojac[s] > 0).map(s => [s, statusBrojac[s]]);
 
+  const pouzdanostBrojac = {};
+  baseline.forEach(f => {
+    const t = izracunajPouzdanost(f).tier;
+    pouzdanostBrojac[t] = (pouzdanostBrojac[t] || 0) + 1;
+  });
+  const pouzdanostRedoslijed = ['visoka', 'srednja', 'niska', 'nepoznato'];
+  const pouzdanostCounts = pouzdanostRedoslijed.filter(t => pouzdanostBrojac[t] > 0).map(t => [t, pouzdanostBrojac[t]]);
+
   const grupa = (naslov, entries, selectedSet) => {
     let html = '<div class="facet-group"><div class="facet-group-title">' + naslov + '</div>';
     entries.forEach(([val, count]) => {
@@ -1075,7 +1094,7 @@ function renderFacetPanel(){
   };
 
   const panel = $('#facetPanel');
-  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Status', statusCounts, selectedStatuses);
+  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Status', statusCounts, selectedStatuses) + grupa('Pouzdanost', pouzdanostCounts, selectedPouzdanost);
 
   const groups = panel.querySelectorAll('.facet-group');
   groups[0].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
@@ -1093,8 +1112,13 @@ function renderFacetPanel(){
     updateTable();
     updateMap();
   }));
+  groups[3].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
+    toggleSet(selectedPouzdanost, e.target.dataset.val);
+    updateTable();
+    updateMap();
+  }));
 
-  $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0 || selectedStatuses.size > 0);
+  $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0 || selectedStatuses.size > 0 || selectedPouzdanost.size > 0);
 }
 
 function toggleSet(set, val){
@@ -1258,6 +1282,7 @@ function openModal(f){
       '<textarea id="modalNapomenaInput" placeholder="Dodaj napomenu (vidljivo samo ovdje, ne na glavnoj tablici)...">' + escapeHtml(f.reviewNapomena) + '</textarea>' +
       '<button class="btn-export" id="modalSpremiBtn" style="width:100%;justify-content:center;margin-top:8px;">Spremi</button>' +
       '<div id="modalSpremljenoNote" style="display:none;font-size:11.5px;color:var(--teal);margin-top:8px;">✓ Spremljeno</div>' +
+      azuriraoInfoHtml(f) +
     '</div>' +
     '<div class="modal-tags">' + tagoviHtml + '</div>';
   $('#modalOverlay').classList.add('open');
@@ -1272,7 +1297,13 @@ function openModal(f){
       await spremiRecenziju('zgrada_review', 'zgrada_id', f.id, noviStatus, novaNapomena);
       f.reviewStatus = noviStatus;
       f.reviewNapomena = novaNapomena || null;
+      f.reviewAzurirao = trenutniKorisnikIme;
+      f.reviewAzuriranoAt = new Date().toISOString();
       $('#modalSpremljenoNote').style.display = 'block';
+      const postojeciInfo = document.getElementById('modalAzuriraoInfo');
+      const noviInfoHtml = azuriraoInfoHtml(f);
+      if (postojeciInfo) postojeciInfo.outerHTML = noviInfoHtml;
+      else $('#modalSpremljenoNote').insertAdjacentHTML('afterend', noviInfoHtml);
       updateTable(); // odmah osvjezi bedz u tablici
     } catch (err) {
       alert('Greška pri spremanju: ' + err.message);
@@ -1307,6 +1338,7 @@ function openDguModal(f){
       '<textarea id="modalNapomenaInput" placeholder="Dodaj napomenu...">' + escapeHtml(f.reviewNapomena) + '</textarea>' +
       '<button class="btn-export" id="modalSpremiBtn" style="width:100%;justify-content:center;margin-top:8px;">Spremi</button>' +
       '<div id="modalSpremljenoNote" style="display:none;font-size:11.5px;color:var(--teal);margin-top:8px;">✓ Spremljeno</div>' +
+      azuriraoInfoHtml(f) +
     '</div>';
   $('#modalOverlay').classList.add('open');
 
@@ -1320,7 +1352,13 @@ function openDguModal(f){
       await spremiRecenziju('dgu_review', 'dgu_kljuc', kljuc, noviStatus, novaNapomena);
       f.reviewStatus = noviStatus;
       f.reviewNapomena = novaNapomena || null;
+      f.reviewAzurirao = trenutniKorisnikIme;
+      f.reviewAzuriranoAt = new Date().toISOString();
       $('#modalSpremljenoNote').style.display = 'block';
+      const postojeciInfo = document.getElementById('modalAzuriraoInfo');
+      const noviInfoHtml = azuriraoInfoHtml(f);
+      if (postojeciInfo) postojeciInfo.outerHTML = noviInfoHtml;
+      else $('#modalSpremljenoNote').insertAdjacentHTML('afterend', noviInfoHtml);
       // osvjezi bedz u DGU tablici bez ponovnog dohvata s mreze
       const idx = dguNoveFeatures.indexOf(f);
       const tr = $('#dguNoveAdreseTableWrap').querySelector('tr[data-dgu-idx="' + idx + '"]');
@@ -1367,6 +1405,7 @@ function redakZaIzvoz(f){
     Zupanija: f.zupanija || '',
     Tip: tag(f,'building') || '',
     Datum: formatDatum(f.validFrom),
+    Status: f.reviewStatus || 'nepotvrđeno',
     'Google Maps': f.lat !== null && f.lon !== null
       ? 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon
       : '',
@@ -1840,6 +1879,22 @@ function formatDatum(iso){
   const d = new Date(iso);
   if (isNaN(d)) return '–';
   return d.toLocaleDateString('hr-HR', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function formatDatumVrijeme(iso){
+  if (!iso) return '–';
+  const d = new Date(iso);
+  if (isNaN(d)) return '–';
+  return d.toLocaleDateString('hr-HR', { day: '2-digit', month: '2-digit', year: 'numeric' }) +
+    ' u ' + d.toLocaleTimeString('hr-HR', { hour: '2-digit', minute: '2-digit' });
+}
+
+// HTML isjecak "Zadnje azurirao: X - datum vrijeme" - prazan string ako
+// jos nikad nije spremano (nema smisla prikazati prazan red).
+function azuriraoInfoHtml(f){
+  if (!f.reviewAzurirao) return '';
+  return '<div id="modalAzuriraoInfo" style="font-size:11px;color:var(--text-faint);margin-top:8px;">Zadnje ažurirao: <b>' +
+    escapeHtml(f.reviewAzurirao) + '</b> · ' + formatDatumVrijeme(f.reviewAzuriranoAt) + '</div>';
 }
 
 // ---------- Tema (svijetlo/tamno) - pamti izbor u localStorage ----------

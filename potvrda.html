@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email potvrđen — AlexiGEO</title>
+<link rel="icon" href="assets/alexigeo-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<style>
+  :root{
+    --bg: #0A0C13;
+    --panel: #14161F;
+    --border: rgba(255,255,255,0.08);
+    --text: #F3F2F7;
+    --text-dim: #8C8FA3;
+    --text-faint: #5A5D70;
+    --accent: #FE963B;
+    --accent-soft: rgba(254,150,59,0.14);
+    --teal: #34D8A6;
+    --danger: #E5484D;
+    --danger-soft: rgba(229,72,77,0.12);
+  }
+  *{ box-sizing:border-box; }
+  html,body{ height:100%; margin:0; }
+  body{
+    background: var(--bg);
+    background-image:
+      radial-gradient(circle at 20% 10%, rgba(254,150,59,0.08), transparent 42%),
+      radial-gradient(circle at 85% 85%, rgba(254,150,59,0.05), transparent 38%);
+    color: var(--text);
+    font-family:'IBM Plex Sans', sans-serif;
+    display:flex; align-items:center; justify-content:center;
+    -webkit-font-smoothing: antialiased;
+    padding: 24px;
+  }
+  .card{
+    width: 100%; max-width: 400px;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 18px;
+    padding: 40px 32px; text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  }
+  .icon{
+    width:56px; height:56px; border-radius:50%; margin: 0 auto 20px;
+    display:flex; align-items:center; justify-content:center; font-size:26px;
+    background: var(--accent-soft); color: var(--accent);
+  }
+  .icon.ok{ background: rgba(52,216,166,0.14); color: var(--teal); }
+  .icon.err{ background: var(--danger-soft); color: var(--danger); }
+  h1{ font-family:'Space Grotesk', sans-serif; font-size:19px; font-weight:600; margin: 0 0 8px; }
+  p{ font-size: 13px; color: var(--text-dim); line-height:1.6; margin: 0 0 6px; }
+  .spinner{
+    width:16px; height:16px; border-radius:50%; border:2px solid rgba(254,150,59,0.25); border-top-color: var(--accent);
+    display:inline-block; vertical-align:middle; margin-right:8px; animation: spin 0.7s linear infinite;
+  }
+  @keyframes spin{ to{ transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce){ .spinner{ animation:none; } }
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    margin-top: 18px; padding: 11px 22px; border-radius: 10px; border: none;
+    background: var(--accent); color: #1A1000; font-weight:700; font-size: 13.5px;
+    cursor:pointer; text-decoration:none; font-family:'IBM Plex Sans', sans-serif;
+  }
+  .btn:hover{ filter: brightness(1.05); }
+  a.link{ color: var(--accent); text-decoration:underline; cursor:pointer; }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="icon" id="ikona">✓</div>
+  <h1 id="naslov">Email potvrđen</h1>
+  <p id="poruka"><span class="spinner"></span>Provjera poveznice...</p>
+  <a class="btn" id="btnNastavi" href="login.html" style="display:none;">Nastavi na prijavu →</a>
+</div>
+
+<script>
+const SUPABASE_URL = 'https://stbknyvbduzrgnbmhpxl.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_TLFe8iXPlR95yOtExi7XVg_XrX22ERK';
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+
+(async function () {
+  try {
+    // Supabase JS SDK automatski cita access_token iz URL hasha (#access_token=...)
+    // pri inicijalizaciji klijenta - getSession() ce ga vec vratiti ako je uspjelo.
+    const { data: { session }, error } = await sb.auth.getSession();
+    if (error || !session) {
+      document.getElementById('ikona').textContent = '!';
+      document.getElementById('ikona').className = 'icon err';
+      document.getElementById('naslov').textContent = 'Poveznica nije valjana';
+      document.getElementById('poruka').innerHTML =
+        'Ova poveznica za potvrdu emaila je istekla ili je već iskorištena. ' +
+        'Vrati se na prijavu i pokušaj se ponovno registrirati.';
+      const btn = document.getElementById('btnNastavi');
+      btn.textContent = 'Natrag na prijavu →';
+      btn.style.display = 'inline-flex';
+      return;
+    }
+    // Sesija postoji - email je uspjesno potvrdjen. Prikazi gumb umjesto
+    // automatskog preusmjeravanja - korisnik sam odlucuje kad ce nastaviti.
+    document.getElementById('poruka').textContent = 'Klikni ispod da nastaviš na postavljanje sigurnosne prijave.';
+    document.getElementById('btnNastavi').style.display = 'inline-flex';
+  } catch (err) {
+    document.getElementById('ikona').textContent = '!';
+    document.getElementById('ikona').className = 'icon err';
+    document.getElementById('naslov').textContent = 'Greška';
+    document.getElementById('poruka').textContent = err.message;
+  }
+})();
+</script>
+
+</body>
+</html>

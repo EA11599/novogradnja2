@@ -1,14 +1,15 @@
 // Jednokratna satelitska verifikacija postojećih "novih" zgrada.
 //
 // Za svaku zgradu (bez prave OSM adrese, gdje je nesigurnost najveća) uzima
-// mali isječak DGU ortofota (2022, anoniman WMS) oko njene lokacije, šalje
-// ga Claude API-ju s pitanjem "vidi li se izgrađena zgrada na ovoj snimci?",
-// i sprema rezultat na feature kao `satelitProvjera`.
+// mali isječak DGU ortofota (2023./24., mozaik dva snimanja - istok/jug 2023.,
+// zapad 2024. - anoniman WMS) oko njene lokacije, šalje ga Claude API-ju s
+// pitanjem "vidi li se izgrađena zgrada na ovoj snimci?", i sprema rezultat
+// na feature kao `satelitProvjera`.
 //
 // VAŽNO - ograničenje: ovo NE dokazuje da je zgrada nova, samo pouzdano
-// isključuje one koje su OČITO postojale već 2022. (DGU ortofoto je iz te
-// godine, ~4 godine star). "Nema zgrade na snimci" = kandidat za stvarnu
-// novogradnju (izgrađena 2022.-2026.), NE potvrda datuma.
+// isključuje one koje su OČITO postojale već 2023./24. (DGU ortofoto je iz
+// tog razdoblja). "Nema zgrade na snimci" = kandidat za stvarnu novogradnju
+// (izgrađena nakon snimanja), NE potvrda datuma.
 //
 // OTPORNOST NA PREKID: posao može trajati preko sat vremena za ~1600
 // zgrada, pa se datoteka sprema NAKON SVAKOG KOMADA (batch od BATCH_SIZE
@@ -25,7 +26,7 @@ const REPO_ROOT = path.join(__dirname, "..");
 const ZGRADE_DIR = path.join(REPO_ROOT, cfg.ZGRADE_DIR);
 const MANIFEST_PATH = path.join(ZGRADE_DIR, "manifest.json");
 
-const DGU_WMS_BASE = "https://geoportal.dgu.hr/services/inspire/orthophoto_2022/wms";
+const DGU_WMS_BASE = "https://geoportal.dgu.hr/services/inspire/orthophoto_2023_2024/wms";
 const ANTHROPIC_MODEL = "claude-haiku-4-5-20251001";
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 const BATCH_SIZE = 5; // koliko zgrada obrađujemo usporedno prije nego spremimo napredak
@@ -206,7 +207,7 @@ function statusIzOdgovora(odgovor) {
 async function obradiFeature(f, nazivSloja) {
   if (f.satelitProvjera && f.satelitProvjera.status !== "greska") return "preskočeno";
   if (f.lat === null || f.lon === null) {
-    f.satelitProvjera = { status: "bez-koordinata", obrazlozenje: null, izvor: "DGU ortofoto 2022", provjereno: new Date().toISOString() };
+    f.satelitProvjera = { status: "bez-koordinata", obrazlozenje: null, izvor: "DGU ortofoto 2023/24", provjereno: new Date().toISOString() };
     return "bez-koordinata";
   }
 
@@ -216,7 +217,7 @@ async function obradiFeature(f, nazivSloja) {
       f.satelitProvjera = {
         status: "neizvjesno",
         obrazlozenje: `DGU nema pokrivenost na ovoj lokaciji (prazan isječak, ${isjecak.velicinaBajtova}B)`,
-        izvor: "DGU ortofoto 2022",
+        izvor: "DGU ortofoto 2023/24",
         provjereno: new Date().toISOString(),
       };
       return f.satelitProvjera.status;
@@ -225,12 +226,12 @@ async function obradiFeature(f, nazivSloja) {
     f.satelitProvjera = {
       status: statusIzOdgovora(odgovor),
       obrazlozenje: odgovor.obrazlozenje || null,
-      izvor: "DGU ortofoto 2022",
+      izvor: "DGU ortofoto 2023/24",
       provjereno: new Date().toISOString(),
     };
     return f.satelitProvjera.status;
   } catch (err) {
-    f.satelitProvjera = { status: "greska", obrazlozenje: err.message.slice(0, 300), izvor: "DGU ortofoto 2022", provjereno: new Date().toISOString() };
+    f.satelitProvjera = { status: "greska", obrazlozenje: err.message.slice(0, 300), izvor: "DGU ortofoto 2023/24", provjereno: new Date().toISOString() };
     return "greska";
   }
 }

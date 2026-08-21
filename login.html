@@ -65,6 +65,16 @@
     background: var(--panel-alt); color: var(--text); font-size:13.5px; font-family:'IBM Plex Sans',sans-serif; outline:none;
   }
   input:focus{ border-color: var(--accent); }
+
+  .password-wrap{ position: relative; }
+  .password-wrap input{ padding-right: 44px; }
+  .password-toggle{
+    position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+    width: 34px; height: 34px; border: none; background: transparent; cursor: pointer;
+    font-size: 15px; opacity: 0.55; border-radius: 8px; display:flex; align-items:center; justify-content:center;
+  }
+  .password-toggle:hover{ opacity: 0.9; background: var(--panel-alt); }
+  .password-toggle.active{ opacity: 1; color: var(--accent); }
   input::placeholder{ color: var(--text-faint); }
 
   .btn-primary{
@@ -139,10 +149,30 @@
     </div>
 
     <form id="formAuth">
+      <div id="imeRow" style="display:none;">
+        <label for="ime">Ime</label>
+        <input type="text" id="ime" placeholder="Ivan" autocomplete="given-name">
+        <label for="prezime">Prezime</label>
+        <input type="text" id="prezime" placeholder="Ivić" autocomplete="family-name">
+      </div>
+
       <label for="email">Email</label>
       <input type="email" id="email" placeholder="ime@primjer.hr" required autocomplete="email">
+
       <label for="password">Lozinka</label>
-      <input type="password" id="password" placeholder="••••••••" required autocomplete="current-password" minlength="6">
+      <div class="password-wrap">
+        <input type="password" id="password" placeholder="••••••••" required autocomplete="current-password" minlength="6">
+        <button type="button" class="password-toggle" data-target="password" aria-label="Prikaži lozinku">👁</button>
+      </div>
+
+      <div id="confirmRow" style="display:none;">
+        <label for="passwordConfirm">Ponovi lozinku</label>
+        <div class="password-wrap">
+          <input type="password" id="passwordConfirm" placeholder="••••••••" autocomplete="new-password" minlength="6">
+          <button type="button" class="password-toggle" data-target="passwordConfirm" aria-label="Prikaži lozinku">👁</button>
+        </div>
+      </div>
+
       <button type="submit" class="btn-primary" id="btnSubmit">Prijavi se</button>
     </form>
 
@@ -239,12 +269,31 @@ $('#tabSignIn').addEventListener('click', () => {
   $('#tabSignIn').classList.add('active');
   $('#tabSignUp').classList.remove('active');
   $('#btnSubmit').textContent = 'Prijavi se';
+  $('#imeRow').style.display = 'none';
+  $('#confirmRow').style.display = 'none';
+  $('#ime').required = false;
+  $('#prezime').required = false;
 });
 $('#tabSignUp').addEventListener('click', () => {
   signUpMode = true;
   $('#tabSignUp').classList.add('active');
   $('#tabSignIn').classList.remove('active');
   $('#btnSubmit').textContent = 'Registriraj se';
+  $('#imeRow').style.display = 'block';
+  $('#confirmRow').style.display = 'block';
+  $('#ime').required = true;
+  $('#prezime').required = true;
+});
+
+// ---------- Prikazi/sakrij lozinku ----------
+document.querySelectorAll('.password-toggle').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const input = $('#' + btn.dataset.target);
+    const sakriveno = input.type === 'password';
+    input.type = sakriveno ? 'text' : 'password';
+    btn.classList.toggle('active', sakriveno);
+    btn.setAttribute('aria-label', sakriveno ? 'Sakrij lozinku' : 'Prikaži lozinku');
+  });
 });
 
 // ---------- Email/lozinka forma ----------
@@ -253,11 +302,28 @@ $('#formAuth').addEventListener('submit', async (e) => {
   sakrijGresku('errorLogin');
   const email = $('#email').value.trim();
   const password = $('#password').value;
+
+  if (signUpMode) {
+    const ime = $('#ime').value.trim();
+    const prezime = $('#prezime').value.trim();
+    const potvrda = $('#passwordConfirm').value;
+    if (!ime || !prezime) { prikaziGresku('errorLogin', 'Unesi ime i prezime.'); return; }
+    if (password !== potvrda) { prikaziGresku('errorLogin', 'Lozinke se ne podudaraju.'); return; }
+  }
+
   $('#btnSubmit').disabled = true;
 
   try {
     if (signUpMode) {
-      const { error } = await sb.auth.signUp({ email, password });
+      const ime = $('#ime').value.trim();
+      const prezime = $('#prezime').value.trim();
+      const { error } = await sb.auth.signUp({
+        email, password,
+        options: {
+          data: { ime, prezime, puno_ime: ime + ' ' + prezime },
+          emailRedirectTo: window.location.origin + window.location.pathname.replace('login.html', 'potvrda.html'),
+        },
+      });
       if (error) throw error;
       prikaziGresku('errorLogin', 'Račun kreiran. Ako je potrebna potvrda emaila, provjeri poštu, zatim se prijavi.');
     } else {
