@@ -75,7 +75,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 50
+      "nearestStreetDist": 50,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa vidljivim krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:48.835Z"
+      }
     },
     {
       "id": "way/1550388456",
@@ -117,7 +123,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 59
+      "nearestStreetDist": 59,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva velika građevina sa crvenim krovom i zelenim površinama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:48.881Z"
+      }
     },
     {
       "id": "way/1550388457",
@@ -151,7 +163,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 64
+      "nearestStreetDist": 64,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva crvena/tamnocrvena krovna konstrukcija s jasno vidljivim oblikom zgrade i okolnim vrhovima stabala.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:49.346Z"
+      }
     },
     {
       "id": "way/1550388458",
@@ -263,7 +281,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 82
+      "nearestStreetDist": 82,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiv bijeli krov zgrade koji se jasno izdvaja od okolnog zelenila i ostalih struktura.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:48.974Z"
+      }
     },
     {
       "id": "way/1550388461",
@@ -297,7 +321,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 96
+      "nearestStreetDist": 96,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno su vidljiva dva velika cilindrična objekta (silosi) sa metalnim krovovima, što su izgrađene građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:49.075Z"
+      }
     },
     {
       "id": "way/1550388462",
@@ -331,7 +361,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 102
+      "nearestStreetDist": 102,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su dvije paralelne cilindričke strukture (silose ili spremnici) sa krovom i spremištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:51.701Z"
+      }
     },
     {
       "id": "way/1550388463",
@@ -365,7 +401,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 138
+      "nearestStreetDist": 138,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je jasna struktura zgrade sa krovom u centru snimke, okružena poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:51.501Z"
+      }
     },
     {
       "id": "way/1550388464",
@@ -399,7 +441,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 131
+      "nearestStreetDist": 131,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna struktura koja predstavlja krov građevine, okružena poljoprivrednim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:51.466Z"
+      }
     },
     {
       "id": "way/1550388465",
@@ -433,7 +481,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 105
+      "nearestStreetDist": 105,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi nekoliko zgrada - bijela zgrada s krovom u gornjem dijelu i sive/tamne građevine sa njihovim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:51.721Z"
+      }
     },
     {
       "id": "way/1550388466",
@@ -467,7 +521,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 109
+      "nearestStreetDist": 109,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada sa vidljivim krovom tamnije boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:51.350Z"
+      }
     },
     {
       "id": "way/1550388467",
@@ -536,7 +596,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:35:01Z",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 177
+      "nearestStreetDist": 177,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva betonska građevina (kuća/zgrada) sa krovom i pratećim infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:53.787Z"
+      }
     },
     {
       "id": "way/1550389043",
@@ -570,7 +636,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:38:02Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa karakterističnim krovom boje terrakote i tamnih odtenaka, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:54.123Z"
+      }
     },
     {
       "id": "way/1550389044",
@@ -604,7 +676,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:38:02Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 37
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom crvene/smeđe boje okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:53.881Z"
+      }
     },
     {
       "id": "way/1550389045",
@@ -638,7 +716,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:38:02Z",
       "nearestStreet": "Ulica Tina Ujevića",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva građevina s krovom u centru slike, sa jasnim rubovima i светлijom bojom od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:54.034Z"
+      }
     },
     {
       "id": "way/1550389046",
@@ -672,7 +756,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:38:02Z",
       "nearestStreet": "Ulica Tina Ujevića",
-      "nearestStreetDist": 52
+      "nearestStreetDist": 52,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov svjetlije boje (bijele/svijetle nijanse) koji predstavlja izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:53.923Z"
+      }
     },
     {
       "id": "way/1550389047",
@@ -706,7 +796,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:38:02Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 39
+      "nearestStreetDist": 39,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi zgrada sa crvenim/smeđim krovom u centru kadra, sa okolnim zelenim površinama i putanjom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:56.374Z"
+      }
     },
     {
       "id": "way/1550389048",
@@ -740,7 +836,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:38:02Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 43
+      "nearestStreetDist": 43,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim krovom i strukturom objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:56.044Z"
+      }
     },
     {
       "id": "way/1550389049",
@@ -774,7 +876,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:38:02Z",
       "nearestStreet": "Ulica Tina Ujevića",
-      "nearestStreetDist": 49
+      "nearestStreetDist": 49,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasno definiranim rubovima i različitom bojom od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:56.696Z"
+      }
     },
     {
       "id": "way/1550389050",
@@ -808,7 +916,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T17:38:02Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 46
+      "nearestStreetDist": 46,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi大siva/tamna krovna konstrukcija modernog objekta sa pravokutnim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:56.239Z"
+      }
     },
     {
       "id": "way/1550389051",
@@ -1074,7 +1188,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 129
+      "nearestStreetDist": 129,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su dvije beige/bijele građevine s pravokutnim krovovima jasno razvidljive na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:56.448Z"
+      }
     },
     {
       "id": "way/1550397110",
@@ -1150,7 +1270,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Suzanićev put",
-      "nearestStreetDist": 684
+      "nearestStreetDist": 684,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijeli krov građevine okružene zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:58.746Z"
+      }
     },
     {
       "id": "way/1550397114",
@@ -1344,7 +1470,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 712
+      "nearestStreetDist": 712,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom, vjerojatno javna građevina ili objekta na plaži, sa parkiralištem i pristupnim putovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:59.217Z"
+      }
     },
     {
       "id": "way/1550397117",
@@ -1502,7 +1634,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Ulica Elvira Vrha",
-      "nearestStreetDist": 81
+      "nearestStreetDist": 81,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika zgrada sa jasno vidljivim krovom i građevinskom strukturom, okružena parkiralištem i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:59.086Z"
+      }
     },
     {
       "id": "way/1550397122",
@@ -1694,7 +1832,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 62
+      "nearestStreetDist": 62,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tirkizna/zelena građevina sa jasno vidljivim krovom, označena sa GEOPORTAL natpisom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:59.089Z"
+      }
     },
     {
       "id": "way/1550397138",
@@ -1860,7 +2004,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Ulica Elvira Vrha",
-      "nearestStreetDist": 332
+      "nearestStreetDist": 332,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim krovom i структуром, okružena vegetacijom i putnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:39:58.960Z"
+      }
     },
     {
       "id": "way/1550397141",
@@ -2102,7 +2252,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 252
+      "nearestStreetDist": 252,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa plavim krovom i njeni obriski na tlu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:01.347Z"
+      }
     },
     {
       "id": "way/1550397146",
@@ -2264,7 +2420,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 817
+      "nearestStreetDist": 817,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su jasno definirani objekti sa svetlosnim krovovima karakterističnog industrijskog/skladišnog izgleda.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:01.672Z"
+      }
     },
     {
       "id": "way/1550397149",
@@ -2306,7 +2468,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Ulica Elvira Vrha",
-      "nearestStreetDist": 77
+      "nearestStreetDist": 77,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim krovom i betonskom konstrukcijom, jasno prepoznatljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:01.576Z"
+      }
     },
     {
       "id": "way/1550397150",
@@ -2382,7 +2550,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Ulica Elvira Vrha",
-      "nearestStreetDist": 367
+      "nearestStreetDist": 367,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa građevina (krov) okružena zelenim vegetacijom i šumom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:01.364Z"
+      }
     },
     {
       "id": "way/1550397154",
@@ -2528,7 +2702,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Ul Žarka Pezelja",
-      "nearestStreetDist": 616
+      "nearestStreetDist": 616,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine crvene/narandžaste boje okružen vegetacijom i putnjom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:01.599Z"
+      }
     },
     {
       "id": "way/1550397159",
@@ -2562,7 +2742,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-08-17T18:25:08Z",
       "nearestStreet": "Jadranska magistrala",
-      "nearestStreetDist": 140
+      "nearestStreetDist": 140,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi veliki industrijski ili komercijalni objekt s pravokutnim krovom, bijele boje, okružen parkiralištima i pristupnim cestama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:04.058Z"
+      }
     },
     {
       "id": "way/1550406309",
@@ -2646,7 +2832,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 56
+      "nearestStreetDist": 56,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa krovom smeđe/crvene boje okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:03.885Z"
+      }
     },
     {
       "id": "way/1550406311",
@@ -2680,7 +2872,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 59
+      "nearestStreetDist": 59,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada sa smeđe-crvenim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:03.819Z"
+      }
     },
     {
       "id": "way/1550406312",
@@ -2714,7 +2912,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 69
+      "nearestStreetDist": 69,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada sa crvenim/smeđim pokrivačem i okolnim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:03.815Z"
+      }
     },
     {
       "id": "way/1550406313",
@@ -2748,7 +2952,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 45
+      "nearestStreetDist": 45,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim krovom smeđe/crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:03.748Z"
+      }
     },
     {
       "id": "way/1550406314",
@@ -2782,7 +2992,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 64
+      "nearestStreetDist": 64,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/smeđim krovom, jasno distinktivna od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:06.632Z"
+      }
     },
     {
       "id": "way/1550406315",
@@ -2816,7 +3032,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 45
+      "nearestStreetDist": 45,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi czerwena/smeđa krovna površina velike zgrade sa vidljivom strukturom i dimenzijama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:06.322Z"
+      }
     },
     {
       "id": "way/1550406316",
@@ -2850,7 +3072,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 45
+      "nearestStreetDist": 45,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krovna površina velike zgrade sa sivom bojom i tamnim dijelovima, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:06.482Z"
+      }
     },
     {
       "id": "way/1550406317",
@@ -2884,7 +3112,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 61
+      "nearestStreetDist": 61,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena građevina s krovom različitih boja (crvene i smeđe tonove).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:06.293Z"
+      }
     },
     {
       "id": "way/1550406318",
@@ -2918,7 +3152,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 62
+      "nearestStreetDist": 62,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa tamnosivim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:05.933Z"
+      }
     },
     {
       "id": "way/1550406319",
@@ -2952,7 +3192,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:21:41Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 33
+      "nearestStreetDist": 33,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada sa crvenim/bordo krovom i okolnim gospodarskim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:08.686Z"
+      }
     },
     {
       "id": "way/1550406320",
@@ -3037,7 +3283,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa krovna struktura koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:08.636Z"
+      }
     },
     {
       "id": "way/1550409397",
@@ -3071,7 +3323,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 54
+      "nearestStreetDist": 54,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika industrijska ili poljoprivredna zgrada s vidljivim krovom u više boja (smeđe, crvene i tamne nijanse).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:09.271Z"
+      }
     },
     {
       "id": "way/1550409398",
@@ -3105,7 +3363,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s vidljivim krovovima crvene i smeđe boje te betonskim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:08.816Z"
+      }
     },
     {
       "id": "way/1550409401",
@@ -3139,7 +3403,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 58
+      "nearestStreetDist": 58,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi betonska/siva građevina sa krovom i pratećim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:08.800Z"
+      }
     },
     {
       "id": "way/1550409402",
@@ -3173,7 +3443,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 66
+      "nearestStreetDist": 66,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov objekta sa svjetlijim tonovima koji se jasno izdvaja od okolne vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:11.426Z"
+      }
     },
     {
       "id": "way/1550409403",
@@ -3207,7 +3483,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljive su multiple građevine s crvenim i sivim krovovima, kao i betonske površine i dvorište u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:11.558Z"
+      }
     },
     {
       "id": "way/1550409406",
@@ -3241,7 +3523,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 49
+      "nearestStreetDist": 49,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom tamnije boje, jasno razlikovana od okolnog zelenog prostora.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:11.329Z"
+      }
     },
     {
       "id": "way/1550409407",
@@ -3275,7 +3563,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom, okružena zelenim površinama i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:11.514Z"
+      }
     },
     {
       "id": "way/1550409408",
@@ -3309,7 +3603,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 38
+      "nearestStreetDist": 38,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva velika zgrada sa svetlosivim/beigešnjim krovom, okružena zelenim površinama i manjim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:11.433Z"
+      }
     },
     {
       "id": "way/1550409409",
@@ -3343,7 +3643,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 36
+      "nearestStreetDist": 36,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je roza/crvena krovna struktura sa jasno vidljivim konturama građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:13.742Z"
+      }
     },
     {
       "id": "way/1550409410",
@@ -3377,7 +3683,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine sa karakterističnom crvenijom bojom i pravokutnim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:13.859Z"
+      }
     },
     {
       "id": "way/1550409411",
@@ -3411,7 +3723,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 37
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim krovom crvene/ružičaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:13.782Z"
+      }
     },
     {
       "id": "way/1550409412",
@@ -3529,7 +3847,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov građevine/kuće sa okolnim zelenim površinama i putovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:13.779Z"
+      }
     },
     {
       "id": "way/1550409415",
@@ -3563,7 +3887,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 13
+      "nearestStreetDist": 13,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim krovom bež/smeđe boje okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:13.782Z"
+      }
     },
     {
       "id": "way/1550409416",
@@ -3597,7 +3927,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Plitvička ulica",
-      "nearestStreetDist": 25
+      "nearestStreetDist": 25,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa jasno vidljivim krovom u crvenkastoj/smeđoj boji",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:16.131Z"
+      }
     },
     {
       "id": "way/1550409419",
@@ -3631,7 +3967,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, kao dio većeg kompleksa objekata sa poljoprivrednom funkcijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:16.377Z"
+      }
     },
     {
       "id": "way/1550409422",
@@ -3665,7 +4007,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 39
+      "nearestStreetDist": 39,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa svetlom krovnom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:15.986Z"
+      }
     },
     {
       "id": "way/1550409423",
@@ -3699,7 +4047,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Plitvička ulica",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina sa crvenim/smeđim krovom i okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:16.021Z"
+      }
     },
     {
       "id": "way/1550409424",
@@ -3733,7 +4087,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Plitvička ulica",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom okružena zelenim površinama i drugim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:16.067Z"
+      }
     },
     {
       "id": "way/1550409428",
@@ -3809,7 +4169,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa krovna površina koja ukazuje na izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:18.595Z"
+      }
     },
     {
       "id": "way/1550409430",
@@ -3843,7 +4209,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Vladimira Nazora",
-      "nearestStreetDist": 23
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom okružena zelenim poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:19.212Z"
+      }
     },
     {
       "id": "way/1550409431",
@@ -3947,7 +4319,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Tina Ujevića",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetla struktura krova s pravokutnim obrisima, okružena zelenim površinama i putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:18.572Z"
+      }
     },
     {
       "id": "way/1550409434",
@@ -3981,7 +4359,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Tina Ujevića",
-      "nearestStreetDist": 37
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa vidljivim krovom tamnije boje i okolnim gospodarskim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:18.444Z"
+      }
     },
     {
       "id": "way/1550409435",
@@ -4015,7 +4399,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:38:18Z",
       "nearestStreet": "Ulica Tina Ujevića",
-      "nearestStreetDist": 33
+      "nearestStreetDist": 33,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva kuća sa crvenim/smeđim krovom i pratećim objektima okruženim zelenim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:18.564Z"
+      }
     },
     {
       "id": "way/1550409436",
@@ -4294,7 +4684,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica braće Radić",
-      "nearestStreetDist": 17
+      "nearestStreetDist": 17,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crvenkasti krov kuće sa okolnim građevinama i uređenim vanjskim prostorom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:21.500Z"
+      }
     },
     {
       "id": "way/1550410492",
@@ -4328,7 +4724,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 37
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/terracotta krovišta zgrada sa crnim krovom, jasno vidljive građevine okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:21.788Z"
+      }
     },
     {
       "id": "way/1550410493",
@@ -4572,7 +4974,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 63
+      "nearestStreetDist": 63,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim krovom i građevinskom strukturom okruženom zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:21.780Z"
+      }
     },
     {
       "id": "way/1550410499",
@@ -4606,7 +5014,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva velika zgrada sa reddkasto-smeđim krovom, okružena zelenim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:21.349Z"
+      }
     },
     {
       "id": "way/1550410500",
@@ -4794,7 +5208,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Ulica braće Radić",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena zgrada sa crvenim/ružičastim krovom i bijeli dijelovi građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:21.675Z"
+      }
     },
     {
       "id": "way/1550410505",
@@ -5024,7 +5444,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 43
+      "nearestStreetDist": 43,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom tamne boje, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:24.224Z"
+      }
     },
     {
       "id": "way/1550410511",
@@ -5058,7 +5484,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 36
+      "nearestStreetDist": 36,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov građevine, zajedno s tamnim krovovima susjednih zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:23.870Z"
+      }
     },
     {
       "id": "way/1550410512",
@@ -5197,7 +5629,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 60
+      "nearestStreetDist": 60,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna struktura krovova više zgrada sa tamnom bojom karakterističnom za građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:23.770Z"
+      }
     },
     {
       "id": "way/1550410516",
@@ -5350,7 +5788,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva bijela/svijetla zgrada s krovom, okružena poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:23.918Z"
+      }
     },
     {
       "id": "way/1550410520",
@@ -5384,7 +5828,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s vidljivim krovom i strukturom",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:23.874Z"
+      }
     },
     {
       "id": "way/1550410521",
@@ -5572,7 +6022,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim crvenim/terrakota krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:26.352Z"
+      }
     },
     {
       "id": "way/1550410526",
@@ -5606,7 +6062,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 33
+      "nearestStreetDist": 33,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vide crveni/ružičasti krovovi zgrada sa njihovim strukturom vidljivom iz zraka.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:26.525Z"
+      }
     },
     {
       "id": "way/1550410527",
@@ -5710,7 +6172,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:45:34Z",
       "nearestStreet": "Vrtna ulica",
-      "nearestStreetDist": 45
+      "nearestStreetDist": 45,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva očigledna građevina s crvenim/ružičastim krovom i betonskom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:26.355Z"
+      }
     },
     {
       "id": "way/1550410530",
@@ -5779,7 +6247,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:47:23Z",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa tamnom krovnom konstrukcijom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:26.326Z"
+      }
     },
     {
       "id": "way/1550410720",
@@ -5855,7 +6329,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:47:23Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi više građevina sa krovovima u centru kadra, uključujući veću strukturu sa crvenim/smeđim krovom i drugih附構.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:26.615Z"
+      }
     },
     {
       "id": "way/1550410722",
@@ -5959,7 +6439,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T19:47:23Z",
       "nearestStreet": "Zavojna ulica",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena zgrada s crvenim/narančastim krovom i okolnom zelenom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:28.757Z"
+      }
     },
     {
       "id": "way/1550410725",
@@ -6051,7 +6537,13 @@
         "religion": "christian"
       },
       "zupanija": "Krapinsko-zagorska županija",
-      "validFrom": "2026-08-17T20:19:48Z"
+      "validFrom": "2026-08-17T20:19:48Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika zgrada s tamnim krovom i nekoliko manjih građevina uz cestu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:31.535Z"
+      }
     },
     {
       "id": "way/1550418146",
@@ -6085,7 +6577,13 @@
       "zupanija": "Krapinsko-zagorska županija",
       "validFrom": "2026-08-17T20:29:40Z",
       "nearestStreet": "Ulica Josipa Vedrine",
-      "nearestStreetDist": 5
+      "nearestStreetDist": 5,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/smeđim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:28.777Z"
+      }
     },
     {
       "id": "way/1550420147",
@@ -6127,7 +6625,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Ulica Antuna Mihanovića",
-      "nearestStreetDist": 36
+      "nearestStreetDist": 36,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje prazno poljoprivredno zemljište bez vidljivih zgrada ili krovova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:27.909Z"
+      }
     },
     {
       "id": "way/1550420148",
@@ -6169,7 +6673,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Ulica Antuna Mihanovića",
-      "nearestStreetDist": 21
+      "nearestStreetDist": 21,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje samo bijelu/praznu površinu bez vidljivih zgrada ili drugih građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:27.808Z"
+      }
     },
     {
       "id": "way/1550420149",
@@ -6203,7 +6713,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje isključivo praznu površinu bez vidljivih građevina ili krovova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:32.779Z"
+      }
     },
     {
       "id": "way/1550420150",
@@ -6281,7 +6797,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 62
+      "nearestStreetDist": 62,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje uglavnom praznu/neizgrađenu površinu bez vidljive građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:32.879Z"
+      }
     },
     {
       "id": "way/1550420152",
@@ -6315,7 +6837,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "neizvjesno",
+        "obrazlozenje": "Snimka je previše nejasna i niska rezolucije za pouzdanu procjenu existence zgrade u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:32.822Z"
+      }
     },
     {
       "id": "way/1550420153",
@@ -6373,7 +6901,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 47
+      "nearestStreetDist": 47,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje pretežno praznu površinu, vjerojatno poljoprivredu ili neizgrađeno područje bez vidljive građevine u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:33.458Z"
+      }
     },
     {
       "id": "way/1550420154",
@@ -6447,7 +6981,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje samo prazno, otvoreno terene bez vidljivih građevina ili krovova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:34.388Z"
+      }
     },
     {
       "id": "way/1550420156",
@@ -6493,7 +7033,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje gotovo isključivo bilu/bijelu površinu bez vidljivih krovova ili izgrađenih građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:36.046Z"
+      }
     },
     {
       "id": "way/1550420157",
@@ -6535,7 +7081,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 9
+      "nearestStreetDist": 9,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje površinu koja izgleda kao prirodni teren ili vegetacija bez vidljive izgrađene građevine u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:35.786Z"
+      }
     },
     {
       "id": "way/1550420614",
@@ -6569,7 +7121,13 @@
       "zupanija": "Krapinsko-zagorska županija",
       "validFrom": "2026-08-17T20:48:21Z",
       "nearestStreet": "Ulica Ksavera Šandora Gjalskog",
-      "nearestStreetDist": 3
+      "nearestStreetDist": 3,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa светлим krovom, pozicionirana uz cestu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:37.463Z"
+      }
     },
     {
       "id": "way/1550420735",
@@ -6738,7 +7296,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi veća bijela građevina s pravokutnim krovom, okružena poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:36.873Z"
+      }
     },
     {
       "id": "way/1550420739",
@@ -6772,7 +7336,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi nekoliko građevina sa različitim bojama krovova - bijeli, plavi i crveni krovovi, što ukazuje na izgrađene objekte.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:36.778Z"
+      }
     },
     {
       "id": "way/1550420740",
@@ -6890,7 +7460,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 82
+      "nearestStreetDist": 82,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade s pripadajućim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:39.857Z"
+      }
     },
     {
       "id": "way/1550420743",
@@ -7134,7 +7710,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 37
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine smeđe boje okružen šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:39.645Z"
+      }
     },
     {
       "id": "way/1550420749",
@@ -7210,7 +7792,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Prigradska ulica",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva betonska/asfaltna površina s nekoliko stabala i strukturom koja izgleda kao građevina ili platforma.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:39.880Z"
+      }
     },
     {
       "id": "way/1550420751",
@@ -7454,7 +8042,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Ulica Ljudevita Gaja",
-      "nearestStreetDist": 36
+      "nearestStreetDist": 36,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela građevina/zgrada sa vidljivim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:39.421Z"
+      }
     },
     {
       "id": "way/1550420758",
@@ -7488,7 +8082,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-17T20:48:36Z",
       "nearestStreet": "Ulica Ljudevita Gaja",
-      "nearestStreetDist": 48
+      "nearestStreetDist": 48,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi više zgrada s različitim krovovima, uključujući tamne i svjetlije krovove industrijskih ili poljoprivrednih objekata.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-21T15:40:39.748Z"
+      }
     },
     {
       "id": "way/1550420759",
