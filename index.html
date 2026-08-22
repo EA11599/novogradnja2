@@ -337,6 +337,13 @@
   .zup-count.zero{ color: var(--text-faint); }
 
   .dgu-panel{ flex: 1 1 58%; min-height:0; }
+  /* Kad panel nema redaka, ne zauzima pola stupca nego samo koliko mu treba -
+     tako "Nove DGU adrese" ispod njega zadrzava skoro svu visinu kao i dosad. */
+  .dgu-panel.is-empty{ flex: 0 0 auto; }
+  .dgu-panel.is-empty #prosirenjaTableWrap{ overflow: visible; }
+  #prosirenjaTableWrap{ flex:1 1 auto; overflow-y:auto; min-height:0; }
+  .empty-state.compact{ padding: 18px 20px; }
+  .empty-state.compact .big{ font-size:13.5px; margin-bottom:4px; }
 
   /* ---------- Leaflet overrides ---------- */
   .leaflet-popup-content-wrapper{ background: var(--panel); color: var(--text); border-radius: 10px; border: 1px solid var(--border-strong); }
@@ -490,11 +497,13 @@
 
   <!-- DESNO: pregled prosirenja postojecih zgrada + panel za nove DGU adrese -->
   <div class="right-stack">
-    <div class="col dgu-panel" id="prosirenjaPanel" style="display:none;">
+    <div class="col dgu-panel is-empty" id="prosirenjaPanel">
       <div class="col-header">
-        <div><h3>Proširenja postojećih zgrada</h3><div class="sub" id="prosirenjaStat">–</div></div>
+        <div><h3>Proširenja postojećih zgrada</h3><div class="sub" id="prosirenjaStat">Učitavanje…</div></div>
       </div>
-      <div id="prosirenjaTableWrap"></div>
+      <div id="prosirenjaTableWrap">
+        <div class="empty-state compact"><div class="big">Učitavanje…</div></div>
+      </div>
     </div>
 
     <div class="col dgu-panel" id="dguNoveAdresePanel" style="display:none;">
@@ -819,12 +828,30 @@ function priblizniCentar(obris){
   return [zbroj[0] / obris.length, zbroj[1] / obris.length]; // [lon, lat]
 }
 
+// Panel prosirenja je UVIJEK vidljiv. Kad nema redaka za prikazati, umjesto
+// skrivanja panela ispisujemo kratku poruku zasto ga nema - korisnik tako zna
+// da funkcija postoji i radi, samo jos nema sto uhvatiti.
+function prosirenjaPrazno(naslov, objasnjenje){
+  const panel = $('#prosirenjaPanel');
+  if (!panel) return;
+  panel.classList.add('is-empty');
+  $('#prosirenjaStat').textContent = 'Nema promjena';
+  $('#prosirenjaTableWrap').innerHTML =
+    '<div class="empty-state compact"><div class="big">' + naslov + '</div>' + objasnjenje + '</div>';
+}
+
 async function loadProsirenja(){
   try {
     const res = await fetch('data/prosirenja/manifest.json', { cache: 'no-store' });
-    if (!res.ok) return; // manifest jos ne postoji - nijedno prosirenje jos nije nadjeno
+    if (!res.ok) { // manifest jos ne postoji - nijedno mjerenje jos nije provedeno
+      prosirenjaPrazno('Još nema mjerenja', 'Prva usporedba površina provest će se pri sljedećem tjednom ažuriranju.');
+      return;
+    }
     const prosirenjaManifest = await res.json();
-    if (!prosirenjaManifest.entries || prosirenjaManifest.entries.length === 0) return;
+    if (!prosirenjaManifest.entries || prosirenjaManifest.entries.length === 0) {
+      prosirenjaPrazno('Još nema mjerenja', 'Prva usporedba površina provest će se pri sljedećem tjednom ažuriranju.');
+      return;
+    }
 
     // Uzimamo SVE zapise unutar zadnjih 30 dana (ne samo zadnji, jer se
     // prosirenja mogu naci u vise tjednih pokretanja) - slicno kao "zadnjih
@@ -833,7 +860,10 @@ async function loadProsirenja(){
     const trideset = new Date();
     trideset.setUTCDate(trideset.getUTCDate() - 30);
     const noviji = prosirenjaManifest.entries.filter(e => new Date(e.to) > trideset);
-    if (noviji.length === 0) return;
+    if (noviji.length === 0) {
+      prosirenjaPrazno('Nema promjena u zadnjih 30 dana', 'Nijedna postojeća zgrada nije proširena preko praga od 25%.');
+      return;
+    }
 
     let sveFeatures = [];
     for (const e of noviji) {
@@ -842,12 +872,15 @@ async function loadProsirenja(){
       const podaci = await dataRes.json();
       sveFeatures = sveFeatures.concat(podaci.features);
     }
-    if (sveFeatures.length === 0) return;
+    if (sveFeatures.length === 0) {
+      prosirenjaPrazno('Nema promjena u zadnjih 30 dana', 'Nijedna postojeća zgrada nije proširena preko praga od 25%.');
+      return;
+    }
 
     // Najnovije prvo.
     sveFeatures.sort((a, b) => (b.validFrom || '').localeCompare(a.validFrom || ''));
 
-    $('#prosirenjaPanel').style.display = 'block';
+    $('#prosirenjaPanel').classList.remove('is-empty');
     $('#prosirenjaStat').textContent = sveFeatures.length.toLocaleString('hr-HR') + ' promjena u zadnjih 30 dana';
 
     let html = '<table class="building-table"><thead><tr><th>Tip</th><th>Stara pov.</th><th>Nova pov.</th><th>Promjena</th><th>Karta</th></tr></thead><tbody>';
@@ -871,6 +904,7 @@ async function loadProsirenja(){
     $('#prosirenjaTableWrap').innerHTML = html;
   } catch (err) {
     console.warn('Prosirenja nisu dostupna:', err.message);
+    prosirenjaPrazno('Podaci trenutno nedostupni', 'Pokušaj osvježiti stranicu za koju minutu.');
   }
 }
 
