@@ -16,4 +16,9 @@ module.exports = {
   // unatrag gledamo za "prvi" diff — ne želimo tražiti povijest cijelog
   // OSM-a, samo zadnjih X dana kao razuman početak.
   FIRST_RUN_LOOKBACK_DAYS: 7,
+
+  // Prag promjene povrsine obrisa (u %) da se zgrada oznaci kao "moguce
+  // prosirenje". Ispod ovoga tretiramo kao kozmeticku ispravku obrisa
+  // (netko precizni je ucrtao isti objekt), ne stvarnu gradevinsku promjenu.
+  PROSIRENJE_PRAG_POSTOTAK: 25,
 };

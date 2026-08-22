@@ -184,6 +184,7 @@
     </button>
 
     <div class="error-box" id="errorLogin"></div>
+    <button type="button" class="btn-google" id="btnPosaljiPonovno" style="display:none; margin-top:10px;">Pošalji ponovno email za potvrdu</button>
   </div>
 
   <!-- EKRAN 2: postavljanje MFA (prvi put) -->
@@ -300,6 +301,7 @@ document.querySelectorAll('.password-toggle').forEach(btn => {
 $('#formAuth').addEventListener('submit', async (e) => {
   e.preventDefault();
   sakrijGresku('errorLogin');
+  $('#btnPosaljiPonovno').style.display = 'none';
   const email = $('#email').value.trim();
   const password = $('#password').value;
 
@@ -317,7 +319,7 @@ $('#formAuth').addEventListener('submit', async (e) => {
     if (signUpMode) {
       const ime = $('#ime').value.trim();
       const prezime = $('#prezime').value.trim();
-      const { error } = await sb.auth.signUp({
+      const { data, error } = await sb.auth.signUp({
         email, password,
         options: {
           data: { ime, prezime, puno_ime: ime + ' ' + prezime },
@@ -325,16 +327,62 @@ $('#formAuth').addEventListener('submit', async (e) => {
         },
       });
       if (error) throw error;
-      prikaziGresku('errorLogin', 'Račun kreiran. Ako je potrebna potvrda emaila, provjeri poštu, zatim se prijavi.');
+      // Supabase namjerno NE vraca gresku ako email vec postoji (zastita od
+      // "email enumeration" napada) - umjesto toga vrati "lazan" korisnicki
+      // zapis s praznim identities poljem. Ovo je poznat, dokumentiran nacin
+      // da to ipak otkrijemo na klijentskoj strani (vidi Supabase GitHub
+      // diskusiju #1282) - radi pouzdano za VEC POTVRDJENE racune.
+      const vecPostoji = data && data.user && Array.isArray(data.user.identities) && data.user.identities.length === 0;
+      if (vecPostoji) {
+        prikaziGresku('errorLogin', 'Već postoji račun s tim emailom. Pokušaj se prijaviti umjesto toga.');
+      } else {
+        prikaziGresku('errorLogin', 'Račun kreiran. Ako je potrebna potvrda emaila, provjeri poštu, zatim se prijavi.');
+      }
     } else {
       const { error } = await sb.auth.signInWithPassword({ email, password });
       if (error) throw error;
       await nakonPrimarneAutentikacije();
     }
   } catch (err) {
-    prikaziGresku('errorLogin', err.message || 'Greška pri prijavi.');
+    // Supabase vraca kod "email_not_confirmed" (ili poruku koja to sadrzi)
+    // kad racun postoji ali email nikad nije potvrdjen - provjeri PRIJE
+    // prikaza poruke da bismo mogli ispisati hrvatsku, ne Supabaseovu englesku.
+    const nijePotvrdjeno = err.code === 'email_not_confirmed' || /email.*not.*confirmed/i.test(err.message || '');
+    if (nijePotvrdjeno) {
+      prikaziGresku('errorLogin', 'Email nije potvrđen. Provjeri poštu, ili zatraži nov email ispod.');
+      $('#btnPosaljiPonovno').dataset.email = email;
+      $('#btnPosaljiPonovno').style.display = 'flex';
+    } else {
+      prikaziGresku('errorLogin', err.message || 'Greška pri prijavi.');
+    }
   } finally {
     $('#btnSubmit').disabled = false;
+  }
+});
+
+// ---------- Ponovno slanje potvrdnog emaila ----------
+$('#btnPosaljiPonovno').addEventListener('click', async () => {
+  const btn = $('#btnPosaljiPonovno');
+  const email = btn.dataset.email;
+  btn.disabled = true;
+  const izvornaOznaka = btn.textContent;
+  btn.textContent = 'Šaljem...';
+  try {
+    const { error } = await sb.auth.resend({
+      type: 'signup',
+      email,
+      options: {
+        emailRedirectTo: window.location.origin + window.location.pathname.replace('login.html', 'potvrda.html'),
+      },
+    });
+    if (error) throw error;
+    prikaziGresku('errorLogin', 'Nov email za potvrdu je poslan. Provjeri poštu.');
+    btn.style.display = 'none';
+  } catch (err) {
+    prikaziGresku('errorLogin', 'Greška pri slanju: ' + err.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = izvornaOznaka;
   }
 });
 

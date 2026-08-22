@@ -228,6 +228,19 @@
     overflow-y: auto;
   }
   .facet-panel.open{ display: grid; }
+
+  .zup-popup{
+    position: absolute; top: calc(100% - 4px); left: 16px; z-index: 800;
+    width: 280px;
+    background: var(--panel); border: 1px solid var(--border-strong); border-radius: 12px;
+    box-shadow: 0 12px 36px rgba(0,0,0,0.3);
+    padding: 14px 16px;
+    display: none;
+    flex-direction: column;
+    max-height: 320px;
+    min-height: 0;
+  }
+  .zup-popup.open{ display: flex; }
   .facet-group-title{ font-size: 9.5px; text-transform:uppercase; letter-spacing:0.05em; color: var(--text-faint); font-weight:600; margin-bottom: 6px; position:sticky; top:0; background:var(--panel); padding-bottom:2px; }
   .facet-opt{ display:flex; align-items:center; gap:7px; font-size: 12px; padding: 3.5px 0; color: var(--text-dim); cursor:pointer; }
   .facet-opt input{ accent-color: var(--magenta); width:13px; height:13px; flex-shrink:0; }
@@ -393,8 +406,18 @@
           <input type="checkbox" id="dguJedinicaFilterCheckbox"> Samo zgrade s više DGU adresa
         </label>
       </div>
-      <button class="filter-toggle-btn" id="facetToggleBtn"><span>⚙ Tip zgrade / katovi</span></button>
+      <div style="display:flex; gap:8px;">
+        <button class="filter-toggle-btn" id="facetToggleBtn" style="flex:1 1 auto;"><span>⚙ Tip zgrade / katovi</span></button>
+        <button class="filter-toggle-btn" id="zupToggleBtn" style="flex:0 0 auto; width:auto; padding-left:14px; padding-right:14px;"><span>📍 Županije</span></button>
+      </div>
       <div class="facet-panel" id="facetPanel"></div>
+      <div class="zup-popup" id="zupPopup">
+        <div class="zup-bubble-header">
+          <div><div class="zb-title">Županije</div><div class="zb-sub" id="statZupanije">–/21 aktivnih</div></div>
+          <button class="btn-export" id="clearZupBtn" style="padding:5px 11px;font-size:11px;">Poništi</button>
+        </div>
+        <div id="zupList"><!-- popunjava JS --></div>
+      </div>
     </div>
     <div id="tableWrap"></div>
     <div class="list-footer" id="listFooter"></div>
@@ -448,14 +471,13 @@
     </div>
   </div>
 
-  <!-- DESNO: zaseban oblacic za zupanije + panel za nove DGU adrese -->
+  <!-- DESNO: pregled prosirenja postojecih zgrada + panel za nove DGU adrese -->
   <div class="right-stack">
-    <div class="zup-bubble">
-      <div class="zup-bubble-header">
-        <div><div class="zb-title">Županije</div><div class="zb-sub" id="statZupanije">–/21 aktivnih</div></div>
-        <button class="btn-export" id="clearZupBtn" style="padding:5px 11px;font-size:11px;">Poništi</button>
+    <div class="col dgu-panel" id="prosirenjaPanel" style="display:none;">
+      <div class="col-header">
+        <div><h3>Proširenja postojećih zgrada</h3><div class="sub" id="prosirenjaStat">–</div></div>
       </div>
-      <div id="zupList"><!-- popunjava JS --></div>
+      <div id="prosirenjaTableWrap"></div>
     </div>
 
     <div class="col dgu-panel" id="dguNoveAdresePanel" style="display:none;">
@@ -698,6 +720,7 @@ async function init(){
   await selectWindow(null);
 
   await loadDguNoveAdrese();
+  await loadProsirenja();
   await renderTrendChart();
 }
 
@@ -766,6 +789,69 @@ async function loadDguNoveAdrese(){
     });
   } catch (err) {
     console.warn('DGU nove adrese nisu dostupne:', err.message);
+  }
+}
+
+// Priblizan centar poligona - prosjek svih tocaka. Dovoljno precizno za
+// Google Maps poveznicu, ne treba puna geometrijska tocnost centroida.
+function priblizniCentar(obris){
+  if (!Array.isArray(obris) || obris.length === 0) return null;
+  const zbroj = obris.reduce((acc, t) => [acc[0] + t[0], acc[1] + t[1]], [0, 0]);
+  return [zbroj[0] / obris.length, zbroj[1] / obris.length]; // [lon, lat]
+}
+
+async function loadProsirenja(){
+  try {
+    const res = await fetch('data/prosirenja/manifest.json', { cache: 'no-store' });
+    if (!res.ok) return; // manifest jos ne postoji - nijedno prosirenje jos nije nadjeno
+    const prosirenjaManifest = await res.json();
+    if (!prosirenjaManifest.entries || prosirenjaManifest.entries.length === 0) return;
+
+    // Uzimamo SVE zapise unutar zadnjih 30 dana (ne samo zadnji, jer se
+    // prosirenja mogu naci u vise tjednih pokretanja) - slicno kao "zadnjih
+    // 7 dana" logika kod satelitske skripte, samo malo siri prozor jer su
+    // prosirenja rjeda pa je smisleno prikazati vise povijesti odjednom.
+    const trideset = new Date();
+    trideset.setUTCDate(trideset.getUTCDate() - 30);
+    const noviji = prosirenjaManifest.entries.filter(e => new Date(e.to) > trideset);
+    if (noviji.length === 0) return;
+
+    let sveFeatures = [];
+    for (const e of noviji) {
+      const dataRes = await fetch(e.file, { cache: 'no-store' });
+      if (!dataRes.ok) continue;
+      const podaci = await dataRes.json();
+      sveFeatures = sveFeatures.concat(podaci.features);
+    }
+    if (sveFeatures.length === 0) return;
+
+    // Najnovije prvo.
+    sveFeatures.sort((a, b) => (b.validFrom || '').localeCompare(a.validFrom || ''));
+
+    $('#prosirenjaPanel').style.display = 'block';
+    $('#prosirenjaStat').textContent = sveFeatures.length.toLocaleString('hr-HR') + ' promjena u zadnjih 30 dana';
+
+    let html = '<table class="building-table"><thead><tr><th>Tip</th><th>Stara pov.</th><th>Nova pov.</th><th>Promjena</th><th>Karta</th></tr></thead><tbody>';
+    sveFeatures.slice(0, 500).forEach((f) => {
+      const centar = priblizniCentar(f.obris);
+      const gmapsLink = centar
+        ? '<a href="https://www.google.com/maps/search/?api=1&query=' + centar[1] + ',' + centar[0] + '" target="_blank" rel="noopener">Google Maps ↗</a>'
+        : '<span class="muted">—</span>';
+      const tip = (f.tags && f.tags.building) || 'zgrada';
+      const bojaPostotka = f.postotak > 0 ? 'var(--teal)' : 'var(--danger)';
+      html += '<tr><td>' + tip + '</td>' +
+        '<td>' + f.staraPovrsina.toLocaleString('hr-HR') + ' m²</td>' +
+        '<td>' + f.novaPovrsina.toLocaleString('hr-HR') + ' m²</td>' +
+        '<td style="color:' + bojaPostotka + ';font-weight:600;">' + (f.postotak > 0 ? '+' : '') + f.postotak + '%</td>' +
+        '<td>' + gmapsLink + '</td></tr>';
+    });
+    html += '</tbody></table>';
+    if (sveFeatures.length > 500) {
+      html += '<div class="list-footer">Prikazano prvih 500 od ' + sveFeatures.length.toLocaleString('hr-HR') + '.</div>';
+    }
+    $('#prosirenjaTableWrap').innerHTML = html;
+  } catch (err) {
+    console.warn('Prosirenja nisu dostupna:', err.message);
   }
 }
 
@@ -978,6 +1064,8 @@ function updateZupanijeList(){
   const counts = countByZupanija(allFeaturesInWindow);
   const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
 
+  $('#zupToggleBtn').classList.toggle('has-active', selectedZupanije.size > 0);
+
   const wrap = $('#zupList');
   wrap.innerHTML = '';
   sorted.forEach(([naziv, count]) => {
@@ -1128,7 +1216,14 @@ function toggleSet(set, val){
 $('#facetToggleBtn').addEventListener('click', () => {
   facetPanelOpen = !facetPanelOpen;
   $('#facetPanel').classList.toggle('open', facetPanelOpen);
-  if (facetPanelOpen) renderFacetPanel();
+  if (facetPanelOpen) { renderFacetPanel(); zupPopupOpen = false; $('#zupPopup').classList.remove('open'); }
+});
+
+let zupPopupOpen = false;
+$('#zupToggleBtn').addEventListener('click', () => {
+  zupPopupOpen = !zupPopupOpen;
+  $('#zupPopup').classList.toggle('open', zupPopupOpen);
+  if (zupPopupOpen) { updateZupanijeList(); facetPanelOpen = false; $('#facetPanel').classList.remove('open'); }
 });
 
 const PO_STRANICI = 500;

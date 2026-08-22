@@ -22,11 +22,19 @@ const booleanPointInPolygon = require("@turf/boolean-point-in-polygon").default;
 const { point: turfPoint } = require("@turf/helpers");
 const { dodajNajblizuCestu } = require("./lib/najbliza-cesta");
 const { dodajDguAdrese } = require("./lib/dgu-spajanje");
+const { povrsinaPoligona } = require("./lib/geometrija");
 
 const REPO_ROOT = path.join(__dirname, "..");
 const ZGRADE_DIR = path.join(REPO_ROOT, cfg.ZGRADE_DIR);
 const MANIFEST_PATH = path.join(ZGRADE_DIR, "manifest.json");
 const ZUPANIJE_PATH = path.join(REPO_ROOT, "data", "zupanije.geojson");
+const GEOMETRIJA_INDEKS_PATH = path.join(ZGRADE_DIR, "geometrija-indeks.json");
+const PROSIRENJA_DIR = path.join(REPO_ROOT, "data", "prosirenja");
+const PROSIRENJA_MANIFEST_PATH = path.join(PROSIRENJA_DIR, "manifest.json");
+// Prag promjene povrsine da se nesto oznaci kao "moguce prosirenje" - ispod
+// ovoga tretiramo kao kozmeticku ispravku obrisa (netko precizni je ucrtao
+// isti objekt), ne stvarnu gradevinsku promjenu. Vrijednost u zgrade-config.js.
+const PROSIRENJE_PRAG_POSTOTAK = cfg.PROSIRENJE_PRAG_POSTOTAK;
 
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 
@@ -64,6 +72,84 @@ function saveManifest(manifest) {
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify(manifest, null, 2));
 }
 
+function loadGeometrijaIndeks() {
+  if (!fs.existsSync(GEOMETRIJA_INDEKS_PATH)) return {};
+  return JSON.parse(fs.readFileSync(GEOMETRIJA_INDEKS_PATH, "utf8"));
+}
+
+function saveGeometrijaIndeks(indeks) {
+  fs.mkdirSync(ZGRADE_DIR, { recursive: true });
+  fs.writeFileSync(GEOMETRIJA_INDEKS_PATH, JSON.stringify(indeks, null, 2));
+}
+
+function loadProsirenjaManifest() {
+  if (!fs.existsSync(PROSIRENJA_MANIFEST_PATH)) return { entries: [] };
+  return JSON.parse(fs.readFileSync(PROSIRENJA_MANIFEST_PATH, "utf8"));
+}
+
+function saveProsirenjaManifest(manifest) {
+  fs.mkdirSync(PROSIRENJA_DIR, { recursive: true });
+  fs.writeFileSync(PROSIRENJA_MANIFEST_PATH, JSON.stringify(manifest, null, 2));
+}
+
+// Za svaki version>1 kandidat koji vec IMAMO u geometrija-indeksu (dakle
+// zgrada koju vec pratimo), dohvaca novu geometriju, racuna novu povrsinu,
+// usporedjuje sa starom, i zapisuje "prosirenje" ako je promjena preko
+// PROSIRENJE_PRAG_POSTOTAK. Ne dira zgrade koje nikad nismo vidjeli - te su
+// izvan naseg dosega (postojale su na OSM-u prije nego smo poceli pratiti).
+async function obradiIzmijenjeneZgrade(izmijenjeniKandidati, fromISO, toISO, indeks) {
+  const poznati = izmijenjeniKandidati.filter((el) => !!indeks[`${el.type}/${el.id}`]);
+  console.log(`  [Prosirenja] Od ${izmijenjeniKandidati.length} izmijenjenih kandidata, ${poznati.length} vec pratimo.`);
+  if (poznati.length === 0) return [];
+
+  const wayIds = poznati.filter((el) => el.type === "way").map((el) => el.id);
+  const relationIds = poznati.filter((el) => el.type === "relation").map((el) => el.id);
+  const geometrijaPoId = await dohvatiGeometrijuZaElemente(wayIds, relationIds);
+
+  const prosirenja = [];
+  poznati.forEach((el) => {
+    const id = `${el.type}/${el.id}`;
+    const g = geometrijaPoId[id];
+    if (!Array.isArray(g) || g.length < 3) return; // samo way s punim obrisom - relacije preskacemo
+
+    const obris = g
+      .filter((n) => n && typeof n.lat === "number" && typeof n.lon === "number")
+      .map((n) => [+n.lon.toFixed(6), +n.lat.toFixed(6)]);
+    const novaPovrsina = povrsinaPoligona(obris);
+    const staraPovrsina = indeks[id].povrsina;
+    if (novaPovrsina === null || !staraPovrsina) return;
+
+    const postotak = ((novaPovrsina - staraPovrsina) / staraPovrsina) * 100;
+    if (Math.abs(postotak) < PROSIRENJE_PRAG_POSTOTAK) {
+      // Promjena je unutar praga - vjerojatno kozmeticka ispravka obrisa,
+      // ne stvarno prosirenje. I dalje azuriramo indeks na novu povrsinu
+      // (da se buduce usporedbe rade prema najnovijem stanju), ali ne
+      // zapisujemo kao "prosirenje".
+      indeks[id].povrsina = Math.round(novaPovrsina * 100) / 100;
+      return;
+    }
+
+    prosirenja.push({
+      id,
+      obris,
+      staraPovrsina: Math.round(staraPovrsina * 100) / 100,
+      novaPovrsina: Math.round(novaPovrsina * 100) / 100,
+      postotak: Math.round(postotak * 10) / 10,
+      tags: el.tags || {},
+      changeset: el.changeset || null,
+      osmUser: el.user || null,
+      detektiranoOd: fromISO,
+      detektiranoDo: toISO,
+      validFrom: el.timestamp || null,
+    });
+
+    indeks[id].povrsina = Math.round(novaPovrsina * 100) / 100;
+  });
+
+  console.log(`  [Prosirenja] Pronadjeno ${prosirenja.length} zgrada s promjenom povrsine preko ${PROSIRENJE_PRAG_POSTOTAK}%.`);
+  return prosirenja;
+}
+
 // Overpass zahtijeva TOČAN format "yyyy-mm-ddThh:mm:ssZ" (sa sekundama).
 // Stari zapisi u manifestu (spremljeni dok je pipeline još koristio ohsome)
 // znaju biti u formatu bez sekundi (npr. "2026-07-27T09:00Z") — ovo
@@ -84,6 +170,36 @@ function computeFromTimestamp(manifest) {
   const d = new Date();
   d.setUTCDate(d.getUTCDate() - cfg.FIRST_RUN_LOOKBACK_DAYS);
   return normalizeTimestamp(d);
+}
+
+// Izdvojeno iz fetchNoveZgrade da se moze ponovno koristiti i za "izmijenjene"
+// (version>1) elemente - identicna logika, razlicit ulazni skup ID-jeva.
+async function dohvatiGeometrijuZaElemente(wayIds, relationIds) {
+  let geomElementi = [];
+  if (wayIds.length > 0) {
+    const wayQuery = `
+      [out:json][timeout:180];
+      way(id:${wayIds.join(",")});
+      out geom;
+    `;
+    const wayElementi = await posaljiUpit(wayQuery, { ocekujMeta: false });
+    geomElementi = geomElementi.concat(wayElementi);
+  }
+  if (relationIds.length > 0) {
+    const relationQuery = `
+      [out:json][timeout:180];
+      relation(id:${relationIds.join(",")});
+      out center;
+    `;
+    const relationElementi = await posaljiUpit(relationQuery, { ocekujMeta: false });
+    geomElementi = geomElementi.concat(relationElementi);
+  }
+
+  const geometrijaPoId = {};
+  geomElementi.forEach((el) => {
+    geometrijaPoId[`${el.type}/${el.id}`] = el.geometry || el.center || null;
+  });
+  return geometrijaPoId;
 }
 
 async function fetchNoveZgrade(fromISO, toISO) {
@@ -130,7 +246,19 @@ async function fetchNoveZgrade(fromISO, toISO) {
   });
   console.log(`  Nakon filtriranja po vremenskom prozoru i version===1 [${fromISO}, ${toISO}): ${odFiltrirano.length}/${metaElementi.length} elemenata.`);
 
-  if (odFiltrirano.length === 0) return [];
+  // Iz ISTOG meta-prolaza (bez dodatnog Overpass poziva) izdvajamo i
+  // IZMIJENJENE (version>1) elemente unutar istog vremenskog prozora - ovo
+  // je sirovi kandidatski skup za "prosirenja postojecih zgrada" funkciju.
+  // Geometrija se za njih NE dohvaca ovdje (ta odluka - treba li nam uopce
+  // - dolazi kasnije, nakon sto se provjeri jesu li nam vec poznati).
+  const izmijenjeniKandidati = metaElementi.filter((el) => {
+    if (!el.timestamp) return false;
+    if (Number(el.version) <= 1) return false;
+    return el.timestamp >= fromISO && el.timestamp < toISO;
+  });
+  console.log(`  Kandidati za promjenu geometrije (version>1) [${fromISO}, ${toISO}): ${izmijenjeniKandidati.length}/${metaElementi.length} elemenata.`);
+
+  if (odFiltrirano.length === 0) return { nove: [], izmijenjeniKandidati };
 
   // Drugi prolaz: dohvati geometriju SAMO za filtrirane elemente, po
   // eksplicitnim ID-jevima - puno manji upit (stotine, ne tisuće).
@@ -145,34 +273,8 @@ async function fetchNoveZgrade(fromISO, toISO) {
   // dokazano cijelu sesiju). Rješenje: razdvojiti izlaz po tipu - way-ovi
   // dobivaju "out geom;" (samostalno), relacije "out center;" (samostalno),
   // nikad kombinirano u istoj out naredbi.
-  let geomElementi = [];
-  if (wayIds.length > 0) {
-    const wayQuery = `
-      [out:json][timeout:180];
-      way(id:${wayIds.join(",")});
-      out geom;
-    `;
-    const wayElementi = await posaljiUpit(wayQuery, { ocekujMeta: false });
-    geomElementi = geomElementi.concat(wayElementi);
-  }
-  if (relationIds.length > 0) {
-    const relationQuery = `
-      [out:json][timeout:180];
-      relation(id:${relationIds.join(",")});
-      out center;
-    `;
-    const relationElementi = await posaljiUpit(relationQuery, { ocekujMeta: false });
-    geomElementi = geomElementi.concat(relationElementi);
-  }
-  console.log(`  Geom prolaz vratio ${geomElementi.length} elemenata.`);
-  if (geomElementi.length > 0) {
-    console.log(`  Primjer prvog geom elementa: ${JSON.stringify(geomElementi[0]).slice(0, 400)}`);
-  }
-
-  const geometrijaPoId = {};
-  geomElementi.forEach((el) => {
-    geometrijaPoId[`${el.type}/${el.id}`] = el.geometry || el.center || null;
-  });
+  const geometrijaPoId = await dohvatiGeometrijuZaElemente(wayIds, relationIds);
+  console.log(`  Geom prolaz vratio ${Object.keys(geometrijaPoId).length} elemenata.`);
 
   // Spoji: meta podaci iz prvog prolaza + geometrija iz drugog prolaza.
   let spojenoBrojac = 0, nespojenoBrojac = 0;
@@ -185,7 +287,7 @@ async function fetchNoveZgrade(fromISO, toISO) {
   });
   console.log(`  Spajanje meta+geometrija: ${spojenoBrojac} uspješno spojeno, ${nespojenoBrojac} bez geometrije.`);
 
-  return spojeno;
+  return { nove: spojeno, izmijenjeniKandidati };
 }
 
 async function posaljiUpit(query, { ocekujMeta = true } = {}) {
@@ -357,7 +459,7 @@ function oznaciMasovniUnos(features) {
 
 async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   console.log(`Dohvaćam: ${fromISO} -> ${toISO}`);
-  const elements = await fetchNoveZgrade(fromISO, toISO);
+  const { nove: elements, izmijenjeniKandidati } = await fetchNoveZgrade(fromISO, toISO);
   const sveFeatures = elements.map((el) => toSlimFeature(el, zupanije));
 
   // VAŽNO: bbox (koristimo ga umjesto area filtera zbog meta-problema)
@@ -411,6 +513,42 @@ async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   // ostaju sačuvani i ne moramo ih ponavljati kod idućeg pokretanja.
   saveManifest(manifest);
   console.log(`Gotovo: ${features.length} novih zgrada -> ${fileName}`);
+
+  // ---------- Geometrijski indeks + prosirenja postojecih zgrada ----------
+  const geometrijaIndeks = loadGeometrijaIndeks();
+
+  // Nove zgrade koje upravo spremamo dodajemo u indeks odmah - da ih ubuduce
+  // mozemo prepoznati ako se NJIHOVA geometrija kasnije promijeni.
+  features.forEach((f) => {
+    if (f.obris && f.obris.length >= 3) {
+      const p = povrsinaPoligona(f.obris);
+      if (p !== null) geometrijaIndeks[f.id] = { povrsina: Math.round(p * 100) / 100 };
+    }
+  });
+
+  console.log(`  Provjeravam ima li promjena geometrije na vec pracenim zgradama...`);
+  const prosirenja = await obradiIzmijenjeneZgrade(izmijenjeniKandidati, fromISO, toISO, geometrijaIndeks);
+  saveGeometrijaIndeks(geometrijaIndeks);
+
+  if (prosirenja.length > 0) {
+    const prosirenjaManifest = loadProsirenjaManifest();
+    const prosirenjaFileName = `prosirenje-${fileTimeLabel}.json`;
+    const prosirenjaFilePath = path.join(PROSIRENJA_DIR, prosirenjaFileName);
+    fs.mkdirSync(PROSIRENJA_DIR, { recursive: true });
+    fs.writeFileSync(
+      prosirenjaFilePath,
+      JSON.stringify({ from: fromISO, to: toISO, count: prosirenja.length, features: prosirenja }, null, 2)
+    );
+    prosirenjaManifest.entries.push({
+      date: dateLabel,
+      from: fromISO,
+      to: toISO,
+      count: prosirenja.length,
+      file: `data/prosirenja/${prosirenjaFileName}`,
+    });
+    saveProsirenjaManifest(prosirenjaManifest);
+    console.log(`  Spremljeno ${prosirenja.length} prosirenja -> ${prosirenjaFileName}`);
+  }
 }
 
 async function main() {
