@@ -152,6 +152,17 @@
   }
   .brand-name{ font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:15px; white-space:nowrap; }
   .brand-name .tag{ font-family:'IBM Plex Mono',monospace; font-size:9px; color:var(--text-faint); display:block; letter-spacing:0.06em; }
+  .brand-logo{ height:30px; width:auto; display:block; }
+
+  .user-menu-wrap{ position:relative; }
+  .user-menu-dropdown{
+    position:absolute; top:calc(100% + 6px); right:0; z-index:900;
+    width:220px; background:var(--panel); border:1px solid var(--border-strong); border-radius:12px;
+    box-shadow: 0 12px 36px rgba(0,0,0,0.3); padding:14px 16px; display:none;
+  }
+  .user-menu-dropdown.open{ display:block; }
+  .user-menu-name{ font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13.5px; margin-bottom:2px; word-break:break-word; }
+  .user-menu-email{ font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--text-faint); word-break:break-word; }
 
   .nav-center{ display:flex; align-items:center; gap:10px; flex:1; justify-content:center; flex-wrap:wrap; }
   .search-input{
@@ -368,8 +379,7 @@
 
 <nav class="topnav">
   <div class="brand">
-    <div class="brand-mark">N</div>
-    <div class="brand-name">Novogradnja<span class="tag">HR / RADAR SUSTAV</span></div>
+    <img src="assets/alexigeo-logo.png" alt="AlexiGEO" class="brand-logo">
   </div>
 
   <div class="nav-center">
@@ -385,7 +395,14 @@
       <button id="btnThemeDark" title="Tamna tema">☾</button>
     </div>
     <div class="updated-tag" id="updatedTag"><span class="updated-dot"></span> Učitavanje...</div>
-    <button class="filter-toggle-btn" id="btnOdjava" style="width:auto; padding:8px 13px;" title="Odjava">⏻</button>
+    <div class="user-menu-wrap">
+      <button class="filter-toggle-btn" id="btnUserMenu" style="width:auto; padding:8px 13px;" title="Korisnik">👤</button>
+      <div class="user-menu-dropdown" id="userMenuDropdown">
+        <div class="user-menu-name" id="userMenuIme">–</div>
+        <div class="user-menu-email" id="userMenuEmail">–</div>
+        <button class="btn-export" id="btnOdjava" style="width:100%;justify-content:center;margin-top:12px;">Odjava</button>
+      </div>
+    </div>
   </div>
 </nav>
 
@@ -701,6 +718,8 @@ async function init(){
     fetch('data/zgrade/manifest.json', { cache: 'no-store' }),
     fetch('data/zupanije.geojson', { cache: 'no-store' }),
   ]);
+  $('#userMenuIme').textContent = trenutniKorisnikIme || '–';
+  $('#userMenuEmail').textContent = trenutniKorisnikEmail || '–';
   if (!manifestRes.ok) throw new Error('data/zgrade/manifest.json nije dostupan (HTTP ' + manifestRes.status + ') - provjeri je li data/ mapa uz index.html potpuna.');
   if (!zupRes.ok) throw new Error('data/zupanije.geojson nije dostupan (HTTP ' + zupRes.status + ') - provjeri je li data/ mapa uz index.html potpuna.');
   manifest = await manifestRes.json();
@@ -2074,6 +2093,19 @@ async function renderTrendChart(){
 }
 
 // ---------- Odjava ----------
+let userMenuOpen = false;
+$('#btnUserMenu').addEventListener('click', (e) => {
+  e.stopPropagation();
+  userMenuOpen = !userMenuOpen;
+  $('#userMenuDropdown').classList.toggle('open', userMenuOpen);
+});
+document.addEventListener('click', (e) => {
+  if (userMenuOpen && !$('#userMenuDropdown').contains(e.target) && e.target !== $('#btnUserMenu')) {
+    userMenuOpen = false;
+    $('#userMenuDropdown').classList.remove('open');
+  }
+});
+
 $('#btnOdjava').addEventListener('click', async () => {
   await sbReview.auth.signOut();
   window.location.href = 'login.html';
