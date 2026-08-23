@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=Barlow:wght@600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="assets/dnevnik.js"></script>
 <style>
   :root{
     --bg: #0A0C13;
@@ -332,6 +333,7 @@ $('#formAuth').addEventListener('submit', async (e) => {
       // zapis s praznim identities poljem. Ovo je poznat, dokumentiran nacin
       // da to ipak otkrijemo na klijentskoj strani (vidi Supabase GitHub
       // diskusiju #1282) - radi pouzdano za VEC POTVRDJENE racune.
+      Dnevnik.zapisi('prijava', 'registracija_pokusaj', { email: email });
       const vecPostoji = data && data.user && Array.isArray(data.user.identities) && data.user.identities.length === 0;
       if (vecPostoji) {
         prikaziGresku('errorLogin', 'Već postoji račun s tim emailom. Pokušaj se prijaviti umjesto toga.');
@@ -340,7 +342,13 @@ $('#formAuth').addEventListener('submit', async (e) => {
       }
     } else {
       const { error } = await sb.auth.signInWithPassword({ email, password });
-      if (error) throw error;
+      if (error) {
+        Dnevnik.zapisi('prijava', 'prijava_neuspjesna', {
+          email: email, nacin: 'lozinka', razlog: error.code || error.message
+        });
+        throw error;
+      }
+      Dnevnik.zapisi('prijava', 'prijava_uspjesna', { email: email, nacin: 'lozinka' });
       await nakonPrimarneAutentikacije();
     }
   } catch (err) {
@@ -389,16 +397,22 @@ $('#btnPosaljiPonovno').addEventListener('click', async () => {
 // ---------- Google OAuth ----------
 $('#btnGoogle').addEventListener('click', async () => {
   sakrijGresku('errorLogin');
+  Dnevnik.zapisi('prijava', 'prijava_google_pokrenuta', {});
+  Dnevnik.isprazni(true);
   const { error } = await sb.auth.signInWithOAuth({
     provider: 'google',
     options: { redirectTo: window.location.href.split('#')[0] },
   });
-  if (error) prikaziGresku('errorLogin', error.message);
+  if (error) {
+    Dnevnik.zapisi('prijava', 'prijava_neuspjesna', { nacin: 'google', razlog: error.message });
+    prikaziGresku('errorLogin', error.message);
+  }
 });
 
 // ---------- Provjera je li email na popisu dozvoljenih korisnika ----------
 async function provjeriDozvolu(){
   const { data: { user } } = await sb.auth.getUser();
+  Dnevnik.postaviKorisnika(user);
   const email = user && user.email;
   if (!email) { prikaziEkran('screenLogin'); prikaziGresku('errorLogin', 'Greška pri dohvatu korisničkih podataka.'); return false; }
 
@@ -414,6 +428,7 @@ async function provjeriDozvolu(){
     return false;
   }
   if (!data) {
+    Dnevnik.zapisi('prijava', 'pristup_odbijen_nije_odobren', { email: email });
     $('#neodobrenEmail').textContent = email;
     prikaziEkran('screenNeodobreno');
     return false;
@@ -468,6 +483,7 @@ async function zapocniEnrollment(){
   if (error) { prikaziEkran('screenLogin'); prikaziGresku('errorLogin', error.message); return; }
 
   pendingFactorId = data.id;
+  Dnevnik.zapisi('prijava', 'mfa_postavljanje_zapoceto', {});
   const qr = (data.totp.qr_code || '').trim();
   $('#qrWrap').innerHTML = ''; // ocisti prije ugradnje
   if (qr.startsWith('<svg')) {
@@ -502,8 +518,11 @@ $('#btnConfirmEnroll').addEventListener('click', async () => {
       factorId: pendingFactorId, challengeId: challenge.id, code: kod,
     });
     if (verErr) throw verErr;
+    Dnevnik.zapisi('prijava', 'mfa_postavljanje_uspjelo', {});
+    Dnevnik.isprazni(true);
     preusmjeriNaAplikaciju();
   } catch (err) {
+    Dnevnik.zapisi('prijava', 'mfa_neuspjesan_kod', { faza: 'postavljanje' });
     prikaziGresku('errorEnroll', err.message || 'Kod nije ispravan, pokušaj ponovno.');
   } finally {
     $('#btnConfirmEnroll').disabled = false;
@@ -533,8 +552,11 @@ $('#btnConfirmChallenge').addEventListener('click', async () => {
       factorId: pendingFactorId, challengeId: pendingChallengeId, code: kod,
     });
     if (error) throw error;
+    Dnevnik.zapisi('prijava', 'mfa_potvrdjen', {});
+    Dnevnik.isprazni(true);
     preusmjeriNaAplikaciju();
   } catch (err) {
+    Dnevnik.zapisi('prijava', 'mfa_neuspjesan_kod', { faza: 'potvrda' });
     prikaziGresku('errorChallenge', err.message || 'Kod nije ispravan, pokušaj ponovno.');
   } finally {
     $('#btnConfirmChallenge').disabled = false;
@@ -542,6 +564,7 @@ $('#btnConfirmChallenge').addEventListener('click', async () => {
 });
 
 $('#linkSignOut').addEventListener('click', async () => {
+  Dnevnik.zapisi('prijava', 'odustajanje_na_mfa', {});
   await sb.auth.signOut();
   pendingFactorId = null; pendingChallengeId = null;
   prikaziEkran('screenLogin');

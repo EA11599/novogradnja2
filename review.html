@@ -11,6 +11,7 @@
 <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="assets/dnevnik.js"></script>
 <script>
   // ---- Auth-guard: provjeri prijavu I MFA (aal2) PRIJE prikaza aplikacije ----
   // <html> element je sakriven (style="visibility:hidden" na <html> tagu) dok
@@ -23,28 +24,42 @@
       const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
       window.__sbClient = sb;
       const { data: { session } } = await sb.auth.getSession();
-      if (!session) { window.location.replace('login.html'); return; }
+      if (!session) {
+        Dnevnik.zapisi('prijava', 'pristup_odbijen_bez_sesije', { stranica: 'review' });
+        Dnevnik.isprazni(true);
+        window.location.replace('login.html'); return;
+      }
       const { data: aal } = await sb.auth.mfa.getAuthenticatorAssuranceLevel();
-      if (!aal || aal.currentLevel !== 'aal2') { window.location.replace('login.html'); return; }
+      if (!aal || aal.currentLevel !== 'aal2') {
+        Dnevnik.zapisi('prijava', 'pristup_odbijen_bez_mfa', { stranica: 'review' });
+        Dnevnik.isprazni(true);
+        window.location.replace('login.html'); return;
+      }
 
       // Provjeri popis dozvoljenih korisnika SVAKI PUT (ne samo pri prijavi) -
       // ako je admin nekoga uklonio s popisa, gubi pristup odmah pri sljedecem
       // otvaranju stranice, ne tek kad mu istekne sesija.
       const { data: { user } } = await sb.auth.getUser();
+      Dnevnik.postaviKorisnika(user);
       const { data: dozvola } = await sb
         .from('dozvoljeni_korisnici')
         .select('email')
         .eq('email', user.email)
         .maybeSingle();
       if (!dozvola) {
+        Dnevnik.zapisi('prijava', 'pristup_odbijen_nije_odobren', { email: user && user.email });
+        Dnevnik.isprazni(true);
         await sb.auth.signOut();
         window.location.replace('login.html');
         return;
       }
 
       // prijava, MFA i odobrenje u redu - otkrij stranicu
+      Dnevnik.zapisi('pregled', 'stranica_otvorena', { stranica: 'review' });
       document.documentElement.style.visibility = 'visible';
     } catch (err) {
+      Dnevnik.greska('auth_guard', err);
+      Dnevnik.isprazni(true);
       console.error('Auth-guard greška:', err);
       window.location.replace('login.html');
     }
@@ -493,10 +508,26 @@ async function dohvatiRecenzije(tablica, kolonaId, idjevi){
 }
 
 // Sprema (upsert) recenziju - status + napomena.
-async function spremiRecenziju(tablica, kolonaId, id, status, napomena){
+async function spremiRecenziju(tablica, kolonaId, id, status, napomena, staro){
   const redak = { [kolonaId]: id, status, napomena: napomena || null, azurirao: trenutniKorisnikIme, azurirano_at: new Date().toISOString() };
   const { error } = await sbReview.from(tablica).upsert(redak, { onConflict: kolonaId });
-  if (error) throw error;
+  if (error) {
+    Dnevnik.zapisi('evidencija', 'spremanje_neuspjelo', { tablica, id, greska: error.message });
+    throw error;
+  }
+  // Biljezimo STARU i NOVU vrijednost - bez stare se poslije ne moze
+  // rekonstruirati sto je tocno promijenjeno.
+  const st = staro || {};
+  Dnevnik.zapisi('evidencija', 'promjena_recenzije', {
+    tablica: tablica,
+    id: id,
+    status_staro: st.status || null,
+    status_novo: status,
+    napomena_staro: st.napomena || null,
+    napomena_novo: napomena || null,
+    promijenjen_status: (st.status || null) !== (status || null),
+    promijenjena_napomena: (st.napomena || null) !== (napomena || null)
+  });
 }
 
 function statusBedz(status){
@@ -769,6 +800,8 @@ function entriesForWindow(weeks){
 
 async function selectWindow(weeks){
   currentWindowWeeks = weeks;
+  Dnevnik.zapisi('pregled', 'promjena_prozora', { tjedana: weeks });
+  const __pocetakUcitavanja = Date.now();
   const entries = entriesForWindow(weeks);
 
   const dataSets = (await Promise.all(entries.map(async (e) => {
@@ -815,6 +848,15 @@ async function selectWindow(weeks){
   updateMap();
   updateTable();
   if (facetPanelOpen) renderFacetPanel();
+
+  // Koliko je stvarno trajalo i koliko je zapisa doslo - kad netko javi
+  // "sporo je" ili "nema podataka", ovdje pise brojka umjesto dojma.
+  Dnevnik.zapisi('sustav', 'prozor_ucitan', {
+    tjedana: weeks,
+    trajanje_ms: Date.now() - __pocetakUcitavanja,
+    broj_zgrada: allFeaturesInWindow.length,
+    broj_datoteka: entries.length
+  });
 }
 
 function updateStats(entries){
@@ -942,6 +984,8 @@ function opisZgrade(f){
 function toggleZupanija(naziv){
   if (selectedZupanije.has(naziv)) selectedZupanije.delete(naziv);
   else selectedZupanije.add(naziv);
+  Dnevnik.zapisiOdgodjeno('pregled', 'filter_zupanije',
+    () => ({ odabrane: Array.from(selectedZupanije) }), 1500);
   updateZupanijeList();
   updateMap();
   updateTable();
@@ -1115,6 +1159,8 @@ function renderFacetPanel(){
 
 function toggleSet(set, val){
   if (set.has(val)) set.delete(val); else set.add(val);
+  Dnevnik.zapisiOdgodjeno('pregled', 'filter_promijenjen',
+    () => ({ vrijednosti: Array.from(set) }), 1500);
 }
 
 $('#facetToggleBtn').addEventListener('click', () => {
@@ -1278,6 +1324,7 @@ function openModal(f){
     '</div>' +
     '<div class="modal-tags">' + tagoviHtml + '</div>';
   $('#modalOverlay').classList.add('open');
+  Dnevnik.zapisi('pregled', 'pregled_zgrade', { zgrada_id: f.id, zupanija: f.zupanija || null, status: f.reviewStatus || null });
 
   $('#modalSpremiBtn').addEventListener('click', async () => {
     const btn = $('#modalSpremiBtn');
@@ -1286,7 +1333,8 @@ function openModal(f){
     btn.disabled = true;
     btn.textContent = 'Spremanje...';
     try {
-      await spremiRecenziju('zgrada_review', 'zgrada_id', f.id, noviStatus, novaNapomena);
+      await spremiRecenziju('zgrada_review', 'zgrada_id', f.id, noviStatus, novaNapomena,
+        { status: f.reviewStatus, napomena: f.reviewNapomena });
       f.reviewStatus = noviStatus;
       f.reviewNapomena = novaNapomena || null;
       f.reviewAzurirao = trenutniKorisnikIme;
@@ -1312,6 +1360,7 @@ function openDguModal(f){
   const p = f.properties;
   const adresa = [p.street, p.houseNumber].filter(Boolean).join(' ') || 'Adresa nepoznata';
   const kljuc = dguKljuc(p);
+  Dnevnik.zapisi('pregled', 'pregled_dgu_adrese', { dgu_kljuc: kljuc, adresa: adresa, status: f.reviewStatus || null });
   const coords = f.geometry && f.geometry.coordinates;
   const gmaps = coords ? 'https://www.google.com/maps/search/?api=1&query=' + coords[1] + ',' + coords[0] : null;
   const trenutniStatus = f.reviewStatus || 'nepotvrđeno';
@@ -1341,7 +1390,8 @@ function openDguModal(f){
     btn.disabled = true;
     btn.textContent = 'Spremanje...';
     try {
-      await spremiRecenziju('dgu_review', 'dgu_kljuc', kljuc, noviStatus, novaNapomena);
+      await spremiRecenziju('dgu_review', 'dgu_kljuc', kljuc, noviStatus, novaNapomena,
+        { status: f.reviewStatus, napomena: f.reviewNapomena });
       f.reviewStatus = noviStatus;
       f.reviewNapomena = novaNapomena || null;
       f.reviewAzurirao = trenutniKorisnikIme;
@@ -1434,12 +1484,21 @@ function izvrsiIzvoz(samoOveZupanije){
     return;
   }
 
+  let ukupnoRedaka = 0;
   poredaneZupanije.forEach(naziv => {
     const rows = poZupaniji[naziv].map(redakZaIzvoz);
+    ukupnoRedaka += rows.length;
     const ws = XLSX.utils.json_to_sheet(rows);
     XLSX.utils.book_append_sheet(wb, ws, sanitizirajNazivSheeta(naziv));
   });
 
+  Dnevnik.zapisi('pregled', 'izvoz_excel', {
+    vrsta: 'po_zupanijama',
+    broj_redaka: ukupnoRedaka,
+    zupanije: poredaneZupanije,
+    datoteka: nazivDatoteke()
+  });
+  Dnevnik.isprazni();
   XLSX.writeFile(wb, nazivDatoteke());
 }
 
@@ -1455,6 +1514,12 @@ function izvrsiIzvozTrenutnaLista(){
   const wb = XLSX.utils.book_new();
   const ws = XLSX.utils.json_to_sheet(rows);
   XLSX.utils.book_append_sheet(wb, ws, 'Nove zgrade');
+  Dnevnik.zapisi('pregled', 'izvoz_excel', {
+    vrsta: 'trenutna_lista',
+    broj_redaka: rows.length,
+    datoteka: nazivDatoteke()
+  });
+  Dnevnik.isprazni();
   XLSX.writeFile(wb, nazivDatoteke());
 }
 
@@ -1983,6 +2048,8 @@ document.addEventListener('click', (e) => {
 });
 
 $('#btnOdjava').addEventListener('click', async () => {
+  Dnevnik.zapisi('prijava', 'odjava', { stranica: 'review' });
+  Dnevnik.isprazni(true);
   await sbReview.auth.signOut();
   window.location.href = 'login.html';
 });
@@ -2002,6 +2069,8 @@ $('#tabDgu').addEventListener('click', () => {
 });
 
 init().catch(err => {
+  // Aplikacija se uopce nije podigla - najteza kategorija support poziva.
+  Dnevnik.greska('init', err, { fatalno: true });
   console.error(err);
   $('#updatedTag').innerHTML = '<span class="updated-dot" style="background:#C0392B;"></span> Greška: ' + err.message;
 });
