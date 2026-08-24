@@ -30,4 +30,50 @@ function povrsinaPoligona(obris) {
   return Math.abs(zbroj) / 2;
 }
 
-module.exports = { povrsinaPoligona };
+// Opseg poligona u metrima, ista lokalna projekcija kao kod povrsine.
+//
+// Zasto nam treba: povrsina sama ne razlikuje pravokutnik od L-oblika iste
+// plostine. Opseg to razlikuje - kod razvedenijeg oblika je veci. Zajedno s
+// brojem vrhova daje dobru sliku je li se oblik stvarno promijenio ili je
+// zgrada samo dogradjena.
+function opsegPoligona(obris) {
+  if (!Array.isArray(obris) || obris.length < 3) return null;
+
+  const prosjecnaSirina = obris.reduce((zbroj, t) => zbroj + t[1], 0) / obris.length;
+  const metaraPoStupnjuDuzine = METARA_PO_STUPNJU_SIRINE * Math.cos((prosjecnaSirina * Math.PI) / 180);
+
+  let opseg = 0;
+  for (let i = 0; i < obris.length; i++) {
+    const [lon1, lat1] = obris[i];
+    const [lon2, lat2] = obris[(i + 1) % obris.length];
+    const dx = (lon2 - lon1) * metaraPoStupnjuDuzine;
+    const dy = (lat2 - lat1) * METARA_PO_STUPNJU_SIRINE;
+    opseg += Math.sqrt(dx * dx + dy * dy);
+  }
+  return opseg;
+}
+
+// Broj RAZLICITIH vrhova - zatvoreni poligon ponavlja prvu tocku na kraju,
+// pa je za pravokutnik 5 tocaka zapravo 4 ugla.
+function brojVrhova(obris) {
+  if (!Array.isArray(obris) || obris.length < 3) return null;
+  const prva = obris[0];
+  const zadnja = obris[obris.length - 1];
+  const zatvoren = prva[0] === zadnja[0] && prva[1] === zadnja[1];
+  return zatvoren ? obris.length - 1 : obris.length;
+}
+
+// Oblik kao kratki tekst - jedan redak po zgradi umjesto stotinu.
+// Zadrzavamo 6 decimala, tocno onoliko koliko pipeline ionako koristi, pa
+// zapis ne unosi nikakvu dodatnu pogresku u racun povrsine.
+function oblikUTekst(obris) {
+  if (!Array.isArray(obris) || obris.length < 3) return null;
+  return obris.map(([lon, lat]) => `${lon.toFixed(6)},${lat.toFixed(6)}`).join(" ");
+}
+
+function tekstUOblik(tekst) {
+  if (!tekst) return null;
+  return tekst.split(" ").map((par) => par.split(",").map(Number));
+}
+
+module.exports = { povrsinaPoligona, opsegPoligona, brojVrhova, oblikUTekst, tekstUOblik };

@@ -21,8 +21,8 @@ const cfg = require("./zgrade-config");
 const booleanPointInPolygon = require("@turf/boolean-point-in-polygon").default;
 const { point: turfPoint } = require("@turf/helpers");
 const { dodajNajblizuCestu } = require("./lib/najbliza-cesta");
-const { dodajDguAdrese } = require("./lib/dgu-spajanje");
-const { povrsinaPoligona } = require("./lib/geometrija");
+const { dodajDguAdrese, pronadjiSveDguAdrese } = require("./lib/dgu-spajanje");
+const { povrsinaPoligona, opsegPoligona, brojVrhova, oblikUTekst } = require("./lib/geometrija");
 
 const REPO_ROOT = path.join(__dirname, "..");
 const ZGRADE_DIR = path.join(REPO_ROOT, cfg.ZGRADE_DIR);
@@ -92,6 +92,165 @@ function saveProsirenjaManifest(manifest) {
   fs.writeFileSync(PROSIRENJA_MANIFEST_PATH, JSON.stringify(manifest, null, 2));
 }
 
+// ---------- Sto pratimo osim povrsine ----------
+// Da bi se moglo prepoznati kad kuca postane visestambena zgrada, indeks uz
+// povrsinu pamti i tip zgrade, broj katova i broj DGU adresa unutar obrisa.
+// Tjedna usporedba onda javlja svaku promjenu bilo koje od te cetiri
+// velicine, ne samo geometrije.
+
+// OSM oznake koje znace "obiteljska kuca / jedna stambena jedinica".
+const TIPOVI_KUCA = new Set(["house", "detached", "semidetached_house", "bungalow", "cabin", "hut"]);
+
+// OSM oznake koje znace "vise stambenih jedinica".
+const TIPOVI_VISESTAMBENO = new Set(["apartments", "residential", "terrace", "dormitory"]);
+
+function brojKatova(tags) {
+  const v = (tags || {})["building:levels"];
+  if (v === undefined || v === null || v === "") return null;
+  const n = Number(String(v).replace(",", "."));
+  return Number.isFinite(n) ? n : null;
+}
+
+function tipZgrade(tags) {
+  const v = (tags || {}).building;
+  return v ? String(v) : null;
+}
+
+// Oznake koje su cisto tehnicke biljeske urednika OSM-a. Ne skrivamo ih, ali
+// promjena SAMO njih ne opravdava zapis - inace bi popis punile stavke tipa
+// "netko je promijenio polje source".
+const TEHNICKE_OZNAKE = new Set([
+  "source", "source:date", "note", "fixme", "FIXME",
+  "check_date", "survey:date", "panoramax", "mapillary", "wikimedia_commons",
+]);
+
+// Sastavlja zapis o zgradi za indeks. Pamti SVE OSM oznake, ne samo one koje
+// trenutno tumacimo - tako se buduce promjene mogu prepoznati bez da se ista
+// mijenja u ovoj skripti. Uz oznake pamti i podatke iz DGU registra adresa.
+// Namjerno cuva i null vrijednosti: razlika izmedju "nema oznake" i "oznaka
+// je nestala" je informacija.
+function stanjeZgrade(obris, tags, brojJedinica, dguAdresa) {
+  const p = povrsinaPoligona(obris);
+  const o = opsegPoligona(obris);
+  return {
+    povrsina: p === null ? null : Math.round(p * 100) / 100,
+    // Cijeli tlocrt, kao tekst. Bez ovoga se ne moze razlikovati "pravokutnik
+    // precrtan u L-oblik" od "zgrada dogradjena" - obje promjene mijenjaju
+    // povrsinu, ali znace potpuno razlicite stvari.
+    oblik: oblikUTekst(obris),
+    vrhova: brojVrhova(obris),
+    opseg: o === null ? null : Math.round(o * 10) / 10,
+    tags: { ...(tags || {}) },
+    jedinica: brojJedinica === undefined || brojJedinica === null ? null : brojJedinica,
+    dguAdresa: dguAdresa || null,
+  };
+}
+
+// Tumaci promjenu tlocrta. Razlikuje tri situacije koje povrsina sama ne
+// razlikuje:
+//   - obris je samo pomaknut/precrtan tocnije (isti broj uglova, slicna povrsina)
+//   - zgrada je dobila razvedeniji oblik (vise uglova) - tipicno dogradnja krila
+//   - zgrada je narasla ili se smanjila (bitna promjena povrsine)
+function opisiPromjenuOblika(staro, novo) {
+  const dijelovi = [];
+  const pctP = (staro.povrsina && novo.povrsina)
+    ? ((novo.povrsina - staro.povrsina) / staro.povrsina) * 100 : null;
+
+  if (staro.vrhova != null && novo.vrhova != null && novo.vrhova !== staro.vrhova) {
+    dijelovi.push(`uglova ${staro.vrhova} → ${novo.vrhova}`);
+  }
+  if (staro.opseg != null && novo.opseg != null && Math.abs(novo.opseg - staro.opseg) >= 0.5) {
+    dijelovi.push(`opseg ${staro.opseg} m → ${novo.opseg} m`);
+  }
+
+  // Tumacenje. REDOSLIJED JE BITAN.
+  //
+  // Prvo gledamo uglove, pa tek onda povrsinu. Razlog: kad netko pravokutnik
+  // precrta u tocniji L-oblik, doda uglove a povrsina PADNE - jer je izrezao
+  // dio koji ondje nikad nije ni bio. Da prvo gledamo povrsinu, takav bi
+  // slucaj bio prijavljen kao "smanjen tlocrt", sto zvuci kao rusenje.
+  // Zgrada koja dobije uglove a izgubi povrsinu gotovo nikad nije srusena.
+  const viseUglova = staro.vrhova != null && novo.vrhova != null && novo.vrhova > staro.vrhova;
+  const manjeUglova = staro.vrhova != null && novo.vrhova != null && novo.vrhova < staro.vrhova;
+  const velikaPromjena = pctP !== null && Math.abs(pctP) >= 10;
+
+  let vrsta = "pomak obrisa";
+  if (viseUglova && (pctP === null || pctP < 10)) {
+    vrsta = "tocnije precrtan (razvedeniji oblik)";
+  } else if (viseUglova && pctP >= 10) {
+    vrsta = "povecan i razvedeniji tlocrt";
+  } else if (velikaPromjena) {
+    vrsta = pctP > 0 ? "povecan tlocrt" : "smanjen tlocrt";
+  } else if (manjeUglova) {
+    vrsta = "pojednostavljen oblik";
+  }
+
+  return { vrsta, detalji: dijelovi };
+}
+
+// Usporedjuje dva skupa OSM oznaka i vraca popis razlika: dodane, uklonjene
+// i promijenjene. Radi za BILO KOJU oznaku, ukljucujuci one koje danas jos ne
+// postoje.
+function usporediOznake(stare, nove) {
+  const a = stare || {};
+  const b = nove || {};
+  const promjene = [];
+  const svi = new Set([...Object.keys(a), ...Object.keys(b)]);
+  svi.forEach((k) => {
+    const staro = a[k] === undefined ? null : String(a[k]);
+    const novo = b[k] === undefined ? null : String(b[k]);
+    if (staro === novo) return;
+    promjene.push({
+      polje: `oznaka:${k}`,
+      oznaka: k,
+      staro,
+      novo,
+      tehnicka: TEHNICKE_OZNAKE.has(k),
+    });
+  });
+  return promjene;
+}
+
+// Procjenjuje je li skup promjena nalik prelasku kuce u visestambenu zgradu.
+// Ne tvrdi nista definitivno - oznacava zgradu kao vrijednu pogleda.
+function ocijeniPrenamjenu(staro, novo, postotakPovrsine) {
+  const razlozi = [];
+
+  // Tip i katove citamo iz oznaka. Stariji zapisi u indeksu imaju ta polja
+  // odvojeno (prije nego smo poceli pamtiti sve oznake) - podrzavamo oba.
+  const stariTip = tipZgrade(staro.tags) || staro.tip || null;
+  const noviTip = tipZgrade(novo.tags) || null;
+  const stariKatovi = brojKatova(staro.tags) !== null ? brojKatova(staro.tags)
+    : (staro.katovi === undefined ? null : staro.katovi);
+  const noviKatovi = brojKatova(novo.tags);
+
+  if (stariTip && TIPOVI_KUCA.has(stariTip) && noviTip && TIPOVI_VISESTAMBENO.has(noviTip)) {
+    razlozi.push(`Tip zgrade promijenjen iz "${stariTip}" u "${noviTip}"`);
+  }
+
+  if (stariKatovi !== null && noviKatovi !== null && noviKatovi > stariKatovi) {
+    razlozi.push(`Broj katova narastao s ${stariKatovi} na ${noviKatovi}`);
+  }
+
+  // Broj stanova, ako ga je netko upisao - najizravniji dokaz.
+  const stariStanovi = Number((staro.tags || {})["building:flats"]);
+  const noviStanovi = Number((novo.tags || {})["building:flats"]);
+  if (Number.isFinite(noviStanovi) && noviStanovi >= 2 &&
+      (!Number.isFinite(stariStanovi) || noviStanovi > stariStanovi)) {
+    razlozi.push(`Upisan broj stanova: ${Number.isFinite(stariStanovi) ? stariStanovi : "—"} → ${noviStanovi}`);
+  }
+
+  if (staro.jedinica !== null && novo.jedinica !== null && novo.jedinica > staro.jedinica && novo.jedinica >= 2) {
+    razlozi.push(`Broj adresa unutar obrisa narastao s ${staro.jedinica} na ${novo.jedinica}`);
+  }
+
+  if (postotakPovrsine !== null && postotakPovrsine >= 50) {
+    razlozi.push(`Povrsina povecana za ${Math.round(postotakPovrsine)}%`);
+  }
+
+  return razlozi;
+}
+
 // Za svaki version>1 kandidat koji vec IMAMO u geometrija-indeksu (dakle
 // zgrada koju vec pratimo), dohvaca novu geometriju, racuna novu povrsinu,
 // usporedjuje sa starom, i zapisuje "prosirenje" ako je promjena preko
@@ -115,38 +274,99 @@ async function obradiIzmijenjeneZgrade(izmijenjeniKandidati, fromISO, toISO, ind
     const obris = g
       .filter((n) => n && typeof n.lat === "number" && typeof n.lon === "number")
       .map((n) => [+n.lon.toFixed(6), +n.lat.toFixed(6)]);
-    const novaPovrsina = povrsinaPoligona(obris);
-    const staraPovrsina = indeks[id].povrsina;
-    if (novaPovrsina === null || !staraPovrsina) return;
+    // Broj DGU adresa unutar NOVOG obrisa - racunamo ga ovdje jer se obris
+    // upravo promijenio, pa stara vrijednost vise ne mora vrijediti.
+    // DGU podaci za NOVI obris - stari se vise ne mora poklapati.
+    const dguAdrese = pronadjiSveDguAdrese({ obris, tags: el.tags || {} });
+    const dguPrva = dguAdrese.length > 0
+      ? [dguAdrese[0].street, dguAdrese[0].houseNumber].filter(Boolean).join(" ")
+      : null;
+    const novo = stanjeZgrade(obris, el.tags, dguAdrese.length || null, dguPrva);
+    const staro = indeks[id];
 
-    const postotak = ((novaPovrsina - staraPovrsina) / staraPovrsina) * 100;
+    if (novo.povrsina === null || !staro.povrsina) return;
 
-    // KORAK 1: je li se povrsina UOPCE promijenila?
-    // Usporedjujemo zaokruzene vrijednosti (2 decimale) jer se u indeksu tako
-    // i cuvaju. Bez ovoga bi na popis usle i izmjene koje nisu dirale
-    // geometriju - netko doda oznaku, verzija naraste, obris ostane isti -
-    // a takvih je puno vise nego pravih promjena.
-    const staraZaokruzena = Math.round(staraPovrsina * 100) / 100;
-    const novaZaokruzena = Math.round(novaPovrsina * 100) / 100;
-    if (novaZaokruzena === staraZaokruzena) return;
+    const postotak = ((novo.povrsina - staro.povrsina) / staro.povrsina) * 100;
 
-    // KORAK 2: je li promjena dovoljno velika da nas zanima?
-    // Uz PROSIRENJE_PRAG_POSTOTAK = 0 ovaj uvjet ne odbacuje nista - biljezimo
-    // svaku promjenu. Prag postoji da ga se moze podici ako popis postane
-    // preglasan.
-    if (PROSIRENJE_PRAG_POSTOTAK > 0 && Math.abs(postotak) < PROSIRENJE_PRAG_POSTOTAK) {
-      // Ispod praga - i dalje azuriramo indeks na novu povrsinu (da se buduce
-      // usporedbe rade prema najnovijem stanju), ali ne zapisujemo.
-      indeks[id].povrsina = novaZaokruzena;
+    // Polja koja indeks ranije nije pamtio tiho popunjavamo pri prvom
+    // vidjenju. Bez ovoga bi prvi tjedan nakon svake nadogradnje svaka
+    // izmijenjena zgrada javila laznu promjenu "iz nepoznatog".
+    const prvoVidjenje = {};
+    ["tags", "jedinica", "dguAdresa", "oblik"].forEach((polje) => {
+      if (staro[polje] === undefined) {
+        prvoVidjenje[polje] = true;
+        staro[polje] = novo[polje];
+      }
+    });
+
+    // Sto se stvarno promijenilo?
+    const promjene = [];
+
+    if (novo.povrsina !== staro.povrsina) {
+      promjene.push({ polje: "povrsina", staro: staro.povrsina, novo: novo.povrsina, tehnicka: false });
+    }
+
+    // Oblik tlocrta. Hvata i promjene koje ne mijenjaju povrsinu - npr. kad
+    // se pravokutnik iste plostine pomakne ili prekroji.
+    if (!prvoVidjenje.oblik && novo.oblik !== staro.oblik) {
+      const o = opisiPromjenuOblika(staro, novo);
+      promjene.push({
+        polje: "oblik",
+        staro: staro.vrhova != null ? `${staro.vrhova} uglova, opseg ${staro.opseg} m` : "nepoznato",
+        novo: novo.vrhova != null ? `${novo.vrhova} uglova, opseg ${novo.opseg} m` : "nepoznato",
+        vrsta: o.vrsta,
+        detalji: o.detalji,
+        tehnicka: false,
+      });
+    }
+
+    // SVE OSM oznake - i one koje danas ne tumacimo, i one koje jos ne
+    // postoje. Ako netko sutra pocne upisivati "building:flats", promjena ce
+    // se pojaviti sama, bez ijedne izmjene u ovoj skripti.
+    if (!prvoVidjenje.tags) {
+      promjene.push(...usporediOznake(staro.tags, novo.tags));
+    }
+
+    // DGU registar adresa.
+    if (!prvoVidjenje.jedinica && novo.jedinica !== staro.jedinica) {
+      promjene.push({ polje: "dgu:broj_adresa", staro: staro.jedinica, novo: novo.jedinica, tehnicka: false });
+    }
+    if (!prvoVidjenje.dguAdresa && novo.dguAdresa !== staro.dguAdresa) {
+      promjene.push({ polje: "dgu:adresa", staro: staro.dguAdresa, novo: novo.dguAdresa, tehnicka: false });
+    }
+
+    // Nista se nije promijenilo - ne zapisujemo.
+    if (promjene.length === 0) return;
+
+    // Ako su se promijenile SAMO tehnicke biljeske urednika, preskacemo -
+    // ali indeks svejedno azuriramo da se to ne ponavlja svaki tjedan.
+    if (promjene.every((p) => p.tehnicka)) {
+      indeks[id] = { ...staro, ...novo };
       return;
     }
+
+    // Prag se odnosi SAMO na promjenu povrsine. Promjena oznaka ili DGU
+    // podataka biljezi se uvijek - to je previse vazan signal da bi ga se
+    // filtriralo po kvadratima.
+    const samoPovrsina = promjene.length === 1 && promjene[0].polje === "povrsina";
+    if (samoPovrsina && PROSIRENJE_PRAG_POSTOTAK > 0 && Math.abs(postotak) < PROSIRENJE_PRAG_POSTOTAK) {
+      indeks[id] = { ...staro, ...novo };
+      return;
+    }
+
+    const razloziPrenamjene = ocijeniPrenamjenu(staro, novo, postotak);
 
     prosirenja.push({
       id,
       obris,
-      staraPovrsina: Math.round(staraPovrsina * 100) / 100,
-      novaPovrsina: Math.round(novaPovrsina * 100) / 100,
+      staraPovrsina: staro.povrsina,
+      novaPovrsina: novo.povrsina,
       postotak: Math.round(postotak * 10) / 10,
+      promjene,
+      stariOblik: staro.oblik || null,
+      stareOznake: staro.tags || {},
+      mogucaPrenamjena: razloziPrenamjene.length > 0,
+      razloziPrenamjene,
       tags: el.tags || {},
       changeset: el.changeset || null,
       osmUser: el.user || null,
@@ -155,11 +375,12 @@ async function obradiIzmijenjeneZgrade(izmijenjeniKandidati, fromISO, toISO, ind
       validFrom: el.timestamp || null,
     });
 
-    indeks[id].povrsina = Math.round(novaPovrsina * 100) / 100;
+    indeks[id] = { ...staro, ...novo };
   });
 
-  console.log(`  [Prosirenja] Pronadjeno ${prosirenja.length} zgrada s promjenom povrsine` +
-    (PROSIRENJE_PRAG_POSTOTAK > 0 ? ` preko ${PROSIRENJE_PRAG_POSTOTAK}%.` : `.`));
+  const prenamjene = prosirenja.filter((p) => p.mogucaPrenamjena).length;
+  console.log(`  [Promjene] Pronadjeno ${prosirenja.length} zgrada s promjenom` +
+    (prenamjene > 0 ? `, od toga ${prenamjene} s mogucom prenamjenom u visestambenu.` : `.`));
   return prosirenja;
 }
 
@@ -534,8 +755,8 @@ async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   // mozemo prepoznati ako se NJIHOVA geometrija kasnije promijeni.
   features.forEach((f) => {
     if (f.obris && f.obris.length >= 3) {
-      const p = povrsinaPoligona(f.obris);
-      if (p !== null) geometrijaIndeks[f.id] = { povrsina: Math.round(p * 100) / 100 };
+      const stanje = stanjeZgrade(f.obris, f.tags, f.dguBrojJedinica);
+      if (stanje.povrsina !== null) geometrijaIndeks[f.id] = stanje;
     }
   });
 

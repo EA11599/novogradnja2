@@ -514,7 +514,7 @@
   <div class="right-stack">
     <div class="col dgu-panel is-empty" id="prosirenjaPanel">
       <div class="col-header">
-        <div><h3>Promjene površine zgrada</h3><div class="sub" id="prosirenjaStat">Učitavanje…</div></div>
+        <div><h3>Promjene na postojećim zgradama</h3><div class="sub" id="prosirenjaStat">Učitavanje…</div></div>
       </div>
       <div id="prosirenjaTableWrap">
         <div class="empty-state compact"><div class="big">Učitavanje…</div></div>
@@ -880,7 +880,7 @@ async function loadProsirenja(){
     }
     const prosirenjaManifest = await res.json();
     if (!prosirenjaManifest.entries || prosirenjaManifest.entries.length === 0) {
-      prosirenjaPrazno('Zasad nema promjena', 'Usporedba površina provodi se svaki tjedan. Nijedna praćena zgrada dosad nije promijenila obris.');
+      prosirenjaPrazno('Zasad nema promjena', 'Usporedba se provodi svaki tjedan. Nijedna praćena zgrada dosad nije promijenila obris, tip ni broj adresa.');
       return;
     }
 
@@ -912,9 +912,14 @@ async function loadProsirenja(){
     sveFeatures.sort((a, b) => (b.validFrom || '').localeCompare(a.validFrom || ''));
 
     $('#prosirenjaPanel').classList.remove('is-empty');
-    $('#prosirenjaStat').textContent = sveFeatures.length.toLocaleString('hr-HR') + ' promjena u zadnjih 30 dana';
+    const brPrenamjena = sveFeatures.filter(f => f.mogucaPrenamjena).length;
+    $('#prosirenjaStat').textContent = sveFeatures.length.toLocaleString('hr-HR') + ' promjena u zadnjih 30 dana' +
+      (brPrenamjena > 0 ? ' — ' + brPrenamjena + ' moguće višestambenih' : '');
 
-    let html = '<table class="building-table"><thead><tr><th>Tip</th><th>Stara pov.</th><th>Nova pov.</th><th>Promjena</th><th>Karta</th></tr></thead><tbody>';
+    // Moguće prenamjene idu na vrh - to je ono zbog čega se panel otvara.
+    sveFeatures.sort((a, b) => (b.mogucaPrenamjena ? 1 : 0) - (a.mogucaPrenamjena ? 1 : 0));
+
+    let html = '<table class="building-table"><thead><tr><th>Tip</th><th>Što se promijenilo</th><th>Stara pov.</th><th>Nova pov.</th><th>Promjena</th><th>Karta</th></tr></thead><tbody>';
     sveFeatures.slice(0, 500).forEach((f) => {
       const centar = priblizniCentar(f.obris);
       const gmapsLink = centar
@@ -923,7 +928,49 @@ async function loadProsirenja(){
       const tip = (f.tags && f.tags.building) || 'zgrada';
       const bojaPostotka = f.postotak > 0 ? 'var(--teal)' : 'var(--danger)';
       const strelica = f.postotak > 0 ? '▲' : '▼';
-      html += '<tr><td>' + tip + '</td>' +
+
+      // Opis promjene. Prikazujemo SVE promjene, i one koje kod ne tumači -
+      // poznatima dajemo hrvatski naziv, ostale ispisujemo kako se zovu u OSM-u.
+      const NAZIVI = {
+        'oznaka:building': 'tip zgrade',
+        'oznaka:building:levels': 'katovi',
+        'oznaka:building:flats': 'broj stanova',
+        'oznaka:building:units': 'broj jedinica',
+        'oznaka:addr:street': 'ulica',
+        'oznaka:addr:housenumber': 'kućni broj',
+        'oznaka:addr:city': 'grad',
+        'oznaka:addr:postcode': 'poštanski broj',
+        'oznaka:name': 'naziv',
+        'oznaka:amenity': 'namjena',
+        'oznaka:start_date': 'godina gradnje',
+        'dgu:broj_adresa': 'DGU adresa u zgradi',
+        'dgu:adresa': 'DGU adresa',
+        'oblik': 'tlocrt',
+      };
+      const vrijednost = (v) => (v === null || v === undefined || v === '') ? '—' : String(v);
+      const opisi = [];
+      (f.promjene || []).forEach(p => {
+        if (p.polje === 'povrsina') return; // već ima svoje stupce
+        if (p.polje === 'oblik') {
+          // Tlocrt dobiva tumačenje, ne samo brojke - razlika između
+          // "netko je precrtao točnije" i "zgrada je narasla" je bitna.
+          opisi.push('tlocrt: ' + (p.vrsta || 'promijenjen') +
+            ((p.detalji && p.detalji.length) ? ' (' + p.detalji.join(', ') + ')' : ''));
+          return;
+        }
+        const naziv = NAZIVI[p.polje] || (p.oznaka || p.polje);
+        opisi.push(naziv + ': ' + vrijednost(p.staro) + ' → ' + vrijednost(p.novo));
+      });
+      let opisCelija = opisi.length ? escapeHtml(opisi.join(' · ')) : '<span class="muted">samo obris</span>';
+
+      if (f.mogucaPrenamjena) {
+        const zasto = escapeHtml((f.razloziPrenamjene || []).join(' • '));
+        opisCelija = '<span title="' + zasto + '" style="font-size:10px;font-weight:700;background:var(--magenta-soft);color:var(--magenta);padding:1px 7px;border-radius:999px;">možda višestambena</span> ' + opisCelija;
+      }
+
+      html += '<tr' + (f.mogucaPrenamjena ? ' style="background:var(--magenta-soft);"' : '') + '>' +
+        '<td>' + tip + '</td>' +
+        '<td>' + opisCelija + '</td>' +
         '<td>' + f.staraPovrsina.toLocaleString('hr-HR') + ' m²</td>' +
         '<td>' + f.novaPovrsina.toLocaleString('hr-HR') + ' m²</td>' +
         '<td style="color:' + bojaPostotka + ';font-weight:600;" title="' + (f.postotak > 0 ? 'Površina povećana' : 'Površina smanjena') + '">' + strelica + ' ' + (f.postotak > 0 ? '+' : '') + f.postotak + '%</td>' +
