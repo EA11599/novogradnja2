@@ -120,12 +120,24 @@ async function obradiIzmijenjeneZgrade(izmijenjeniKandidati, fromISO, toISO, ind
     if (novaPovrsina === null || !staraPovrsina) return;
 
     const postotak = ((novaPovrsina - staraPovrsina) / staraPovrsina) * 100;
-    if (Math.abs(postotak) < PROSIRENJE_PRAG_POSTOTAK) {
-      // Promjena je unutar praga - vjerojatno kozmeticka ispravka obrisa,
-      // ne stvarno prosirenje. I dalje azuriramo indeks na novu povrsinu
-      // (da se buduce usporedbe rade prema najnovijem stanju), ali ne
-      // zapisujemo kao "prosirenje".
-      indeks[id].povrsina = Math.round(novaPovrsina * 100) / 100;
+
+    // KORAK 1: je li se povrsina UOPCE promijenila?
+    // Usporedjujemo zaokruzene vrijednosti (2 decimale) jer se u indeksu tako
+    // i cuvaju. Bez ovoga bi na popis usle i izmjene koje nisu dirale
+    // geometriju - netko doda oznaku, verzija naraste, obris ostane isti -
+    // a takvih je puno vise nego pravih promjena.
+    const staraZaokruzena = Math.round(staraPovrsina * 100) / 100;
+    const novaZaokruzena = Math.round(novaPovrsina * 100) / 100;
+    if (novaZaokruzena === staraZaokruzena) return;
+
+    // KORAK 2: je li promjena dovoljno velika da nas zanima?
+    // Uz PROSIRENJE_PRAG_POSTOTAK = 0 ovaj uvjet ne odbacuje nista - biljezimo
+    // svaku promjenu. Prag postoji da ga se moze podici ako popis postane
+    // preglasan.
+    if (PROSIRENJE_PRAG_POSTOTAK > 0 && Math.abs(postotak) < PROSIRENJE_PRAG_POSTOTAK) {
+      // Ispod praga - i dalje azuriramo indeks na novu povrsinu (da se buduce
+      // usporedbe rade prema najnovijem stanju), ali ne zapisujemo.
+      indeks[id].povrsina = novaZaokruzena;
       return;
     }
 
@@ -146,7 +158,8 @@ async function obradiIzmijenjeneZgrade(izmijenjeniKandidati, fromISO, toISO, ind
     indeks[id].povrsina = Math.round(novaPovrsina * 100) / 100;
   });
 
-  console.log(`  [Prosirenja] Pronadjeno ${prosirenja.length} zgrada s promjenom povrsine preko ${PROSIRENJE_PRAG_POSTOTAK}%.`);
+  console.log(`  [Prosirenja] Pronadjeno ${prosirenja.length} zgrada s promjenom povrsine` +
+    (PROSIRENJE_PRAG_POSTOTAK > 0 ? ` preko ${PROSIRENJE_PRAG_POSTOTAK}%.` : `.`));
   return prosirenja;
 }
 
@@ -529,6 +542,13 @@ async function obradiJedanKomad(fromISO, toISO, manifest, zupanije) {
   console.log(`  Provjeravam ima li promjena geometrije na vec pracenim zgradama...`);
   const prosirenja = await obradiIzmijenjeneZgrade(izmijenjeniKandidati, fromISO, toISO, geometrijaIndeks);
   saveGeometrijaIndeks(geometrijaIndeks);
+
+  // Manifest zapisujemo i kad nema nalaza - tako mapa uvijek postoji i
+  // aplikacija ne dobiva 404 pri svakom otvaranju.
+  if (prosirenja.length === 0) {
+    saveProsirenjaManifest(loadProsirenjaManifest());
+    console.log(`  Nijedna pracena zgrada nije promijenila povrsinu u ovom prozoru.`);
+  }
 
   if (prosirenja.length > 0) {
     const prosirenjaManifest = loadProsirenjaManifest();

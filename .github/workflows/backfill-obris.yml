@@ -1,4 +1,4 @@
-name: Backfill obris (jednokratno)
+name: Backfill obris + geometrijski indeks
 
 on:
   workflow_dispatch: {}
@@ -23,6 +23,12 @@ jobs:
 
       - name: Pokreni backfill obrisa
         run: node scripts/backfill-obris.js
+
+      # Obris bez upisane povrsine ne koristi nicemu - zgrada i dalje nema
+      # osnovicu za usporedbu. Zato indeks nadopunjujemo odmah, u istom poslu.
+      - name: Nadopuni geometrijski indeks
+        if: always()
+        run: node scripts/backfill-geometrija-indeks.js
 
       - name: Commitaj promjene
         if: always()

@@ -104,12 +104,31 @@ async function obradiDatoteku(entry) {
 
 async function main() {
   const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf8"));
-  const zadnjiTo = new Date(manifest.entries[manifest.entries.length - 1].to);
-  const cutoff = new Date(zadnjiTo);
-  cutoff.setUTCDate(cutoff.getUTCDate() - 7);
-  const ciljaniZapisi = manifest.entries.filter((e) => new Date(e.to) > cutoff);
 
-  console.log(`Ciljani zapisi: ${ciljaniZapisi.map((e) => e.file).join(", ")}`);
+  // Po defaultu obradjujemo SVE zapise iz manifesta.
+  //
+  // POVIJEST (ispravljeno 24.8.2026.): ranije se gledalo samo zadnjih 7 dana.
+  // Posljedica je bila da su tri datoteke iz razdoblja 27.7.-10.8., nastale
+  // dok je trajao Overpass "out geom center" problem, zauvijek ostale bez
+  // obrisa - svako pokretanje ih je preskocilo jer su starije od tjedan dana.
+  // Skripta ionako preskace datoteke koje nemaju sto popuniti, pa je prolaz
+  // kroz sve jeftin.
+  //
+  // Ako ipak treba ograniciti opseg:
+  //   node scripts/backfill-obris.js --zadnjih-dana=7
+  const argDana = (process.argv.find((a) => a.startsWith("--zadnjih-dana=")) || "").split("=")[1];
+  const zadnjihDana = argDana ? Number(argDana) : null;
+
+  let ciljaniZapisi = manifest.entries;
+  if (zadnjihDana && zadnjihDana > 0) {
+    const zadnjiTo = new Date(manifest.entries[manifest.entries.length - 1].to);
+    const cutoff = new Date(zadnjiTo);
+    cutoff.setUTCDate(cutoff.getUTCDate() - zadnjihDana);
+    ciljaniZapisi = manifest.entries.filter((e) => new Date(e.to) > cutoff);
+    console.log(`Ograniceno na zadnjih ${zadnjihDana} dana.`);
+  }
+
+  console.log(`Ciljanih zapisa: ${ciljaniZapisi.length} (od ukupno ${manifest.entries.length} u manifestu).`);
 
   const greske = [];
   for (const entry of ciljaniZapisi) {

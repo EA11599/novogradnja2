@@ -17,8 +17,18 @@ module.exports = {
   // OSM-a, samo zadnjih X dana kao razuman početak.
   FIRST_RUN_LOOKBACK_DAYS: 7,
 
-  // Prag promjene povrsine obrisa (u %) da se zgrada oznaci kao "moguce
-  // prosirenje". Ispod ovoga tretiramo kao kozmeticku ispravku obrisa
-  // (netko precizni je ucrtao isti objekt), ne stvarnu gradevinsku promjenu.
-  PROSIRENJE_PRAG_POSTOTAK: 25,
+  // Prag promjene povrsine obrisa (u %) ispod kojeg se promjena NE zapisuje.
+  //
+  // Postavljeno na 0 = zapisujemo SVAKU stvarnu promjenu povrsine, koliko god
+  // malu. Odluka od 24.8.2026.: tjedni volumen je red velicine dvije zgrade,
+  // pa je korisnije vidjeti sve i sam procijeniti, nego da filtar propusti
+  // pravu dogradnju jer je ispod nekog broja.
+  //
+  // VAZNO: nula NE znaci da zapisujemo izmjene bez promjene geometrije.
+  // Zgrade kojima je netko promijenio samo oznake (npr. building:levels)
+  // takodjer imaju vecu verziju, ali im je povrsina identicna - te se
+  // preskacu zasebnom provjerom, inace bi zatrpale popis.
+  //
+  // Ako popis ikad postane preglasan, podigni ovaj broj natrag (npr. 5 ili 10).
+  PROSIRENJE_PRAG_POSTOTAK: 0,
 };

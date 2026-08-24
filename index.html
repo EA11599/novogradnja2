@@ -514,7 +514,7 @@
   <div class="right-stack">
     <div class="col dgu-panel is-empty" id="prosirenjaPanel">
       <div class="col-header">
-        <div><h3>Proširenja postojećih zgrada</h3><div class="sub" id="prosirenjaStat">Učitavanje…</div></div>
+        <div><h3>Promjene površine zgrada</h3><div class="sub" id="prosirenjaStat">Učitavanje…</div></div>
       </div>
       <div id="prosirenjaTableWrap">
         <div class="empty-state compact"><div class="big">Učitavanje…</div></div>
@@ -880,7 +880,7 @@ async function loadProsirenja(){
     }
     const prosirenjaManifest = await res.json();
     if (!prosirenjaManifest.entries || prosirenjaManifest.entries.length === 0) {
-      prosirenjaPrazno('Još nema mjerenja', 'Prva usporedba površina provest će se pri sljedećem tjednom ažuriranju.');
+      prosirenjaPrazno('Zasad nema promjena', 'Usporedba površina provodi se svaki tjedan. Nijedna praćena zgrada dosad nije promijenila obris.');
       return;
     }
 
@@ -892,7 +892,7 @@ async function loadProsirenja(){
     trideset.setUTCDate(trideset.getUTCDate() - 30);
     const noviji = prosirenjaManifest.entries.filter(e => new Date(e.to) > trideset);
     if (noviji.length === 0) {
-      prosirenjaPrazno('Nema promjena u zadnjih 30 dana', 'Nijedna postojeća zgrada nije proširena preko praga od 25%.');
+      prosirenjaPrazno('Nema promjena u zadnjih 30 dana', 'Nijednoj praćenoj zgradi nije se promijenila površina obrisa.');
       return;
     }
 
@@ -904,7 +904,7 @@ async function loadProsirenja(){
       sveFeatures = sveFeatures.concat(podaci.features);
     }
     if (sveFeatures.length === 0) {
-      prosirenjaPrazno('Nema promjena u zadnjih 30 dana', 'Nijedna postojeća zgrada nije proširena preko praga od 25%.');
+      prosirenjaPrazno('Nema promjena u zadnjih 30 dana', 'Nijednoj praćenoj zgradi nije se promijenila površina obrisa.');
       return;
     }
 
@@ -922,10 +922,11 @@ async function loadProsirenja(){
         : '<span class="muted">—</span>';
       const tip = (f.tags && f.tags.building) || 'zgrada';
       const bojaPostotka = f.postotak > 0 ? 'var(--teal)' : 'var(--danger)';
+      const strelica = f.postotak > 0 ? '▲' : '▼';
       html += '<tr><td>' + tip + '</td>' +
         '<td>' + f.staraPovrsina.toLocaleString('hr-HR') + ' m²</td>' +
         '<td>' + f.novaPovrsina.toLocaleString('hr-HR') + ' m²</td>' +
-        '<td style="color:' + bojaPostotka + ';font-weight:600;">' + (f.postotak > 0 ? '+' : '') + f.postotak + '%</td>' +
+        '<td style="color:' + bojaPostotka + ';font-weight:600;" title="' + (f.postotak > 0 ? 'Površina povećana' : 'Površina smanjena') + '">' + strelica + ' ' + (f.postotak > 0 ? '+' : '') + f.postotak + '%</td>' +
         '<td>' + gmapsLink + '</td></tr>';
     });
     html += '</tbody></table>';
