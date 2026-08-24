@@ -1,0 +1,31 @@
+name: Dnevna provjera dnevnika
+
+on:
+  schedule:
+    # 07:00 po hrvatskom ljetnom vremenu (05:00 UTC). Namjerno POSLIJE
+    # dnevnog pipelinea (05:00 UTC) i tjednog (01:00 UTC ponedjeljkom), da
+    # provjera uhvati i eventualne probleme koje su oni izazvali.
+    - cron: "0 5 * * *"
+  workflow_dispatch: {} # rucno pokretanje iz Actions taba
+
+permissions:
+  contents: read
+  issues: write # potrebno da moze otvoriti Issue
+
+jobs:
+  provjera:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preuzmi repozitorij
+        uses: actions/checkout@v4
+
+      - name: Postavi Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Provjeri dnevnik i prijavi probleme
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/dnevnik-provjera.js
