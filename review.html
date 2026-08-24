@@ -437,6 +437,10 @@
       <div class="col-header">
         <div><div class="sub" id="dguNoveAdreseStat">–</div></div>
       </div>
+      <div style="padding:10px 16px; font-size:11px; color:var(--text-faint); line-height:1.5; border-bottom:1px solid var(--border);">
+        Lokacije koje ranije nisu imale DGU adresu u krugu od ~20m. Nije potvrda nove gradnje.
+        <span id="dguMetodologijaNapomena" style="display:none;"><br>Metoda usporedbe nedavno promijenjena (prostorna, preciznija) — trenutno prikazani stariji rezultati, novi stižu nakon sljedeće usporedbe.</span>
+      </div>
       <div id="dguNoveAdreseTableWrap"></div>
     </div>
   </div>
@@ -457,6 +461,7 @@
     <div id="zupList"></div>
     <button id="clearZupBtn"></button>
     <div id="dguNoveAdresePanel"></div>
+    <svg id="trendChart" viewBox="0 0 600 145"></svg>
     <div id="map" style="width:10px;height:10px;"></div>
     <button id="detailMapBtn"></button>
   </div>
