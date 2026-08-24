@@ -1,0 +1,915 @@
+{
+  "from": "2026-08-24T02:23:08Z",
+  "to": "2026-08-24T12:59:41Z",
+  "count": 18,
+  "features": [
+    {
+      "id": "way/1551942346",
+      "lat": 45.45147242857143,
+      "lon": 13.545974285714285,
+      "obris": [
+        [
+          13.545882,
+          45.451505
+        ],
+        [
+          13.546062,
+          45.451554
+        ],
+        [
+          13.54612,
+          45.451449
+        ],
+        [
+          13.545986,
+          45.451413
+        ],
+        [
+          13.545967,
+          45.451447
+        ],
+        [
+          13.545921,
+          45.451434
+        ],
+        [
+          13.545882,
+          45.451505
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Deveta ulica - Nona Strada",
+        "houseNumber": "12",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je betonska/asfaltna površina sa nekoliko objekata i структура koji ukazuju na izgrađenu infrastrukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:27.530Z"
+      }
+    },
+    {
+      "id": "way/1551942347",
+      "lat": 45.450758199999996,
+      "lon": 13.5433456,
+      "obris": [
+        [
+          13.543282,
+          45.4508
+        ],
+        [
+          13.543326,
+          45.450676
+        ],
+        [
+          13.543441,
+          45.450695
+        ],
+        [
+          13.543397,
+          45.45082
+        ],
+        [
+          13.543282,
+          45.4508
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Prva ulica - Prima Strada",
+        "houseNumber": "42C",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade/građevine sa karakterističnom strukturom i bojom koja se razlikuje od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:27.800Z"
+      }
+    },
+    {
+      "id": "way/1551942348",
+      "lat": 45.450700600000005,
+      "lon": 13.541316799999999,
+      "obris": [
+        [
+          13.541324,
+          45.450747
+        ],
+        [
+          13.541234,
+          45.450676
+        ],
+        [
+          13.541306,
+          45.450631
+        ],
+        [
+          13.541396,
+          45.450702
+        ],
+        [
+          13.541324,
+          45.450747
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "nearestStreet": "Druga ulica",
+      "nearestStreetDist": 17,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim krovom, bijele i sive boje, sa pratećim objektima i strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:27.376Z"
+      }
+    },
+    {
+      "id": "way/1551942349",
+      "lat": 45.4514382,
+      "lon": 13.5398562,
+      "obris": [
+        [
+          13.539834,
+          45.451533
+        ],
+        [
+          13.539701,
+          45.451373
+        ],
+        [
+          13.53989,
+          45.451296
+        ],
+        [
+          13.540022,
+          45.451456
+        ],
+        [
+          13.539834,
+          45.451533
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Druga ulica - Seconda Strada",
+        "houseNumber": "6",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa tamnom krovnom površinom okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:27.463Z"
+      }
+    },
+    {
+      "id": "way/1551942350",
+      "lat": 45.45171311111111,
+      "lon": 13.539554333333333,
+      "obris": [
+        [
+          13.539501,
+          45.451811
+        ],
+        [
+          13.539366,
+          45.451708
+        ],
+        [
+          13.539465,
+          45.451644
+        ],
+        [
+          13.539512,
+          45.451664
+        ],
+        [
+          13.539627,
+          45.45159
+        ],
+        [
+          13.539757,
+          45.45169
+        ],
+        [
+          13.539646,
+          45.451762
+        ],
+        [
+          13.539614,
+          45.451738
+        ],
+        [
+          13.539501,
+          45.451811
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Druga ulica - Seconda Strada",
+        "houseNumber": "4",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa pravokutnim krovom smeđe-crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:27.586Z"
+      }
+    },
+    {
+      "id": "way/1551942351",
+      "lat": 45.451376599999996,
+      "lon": 13.542141,
+      "obris": [
+        [
+          13.542139,
+          45.451426
+        ],
+        [
+          13.542054,
+          45.451356
+        ],
+        [
+          13.542144,
+          45.451302
+        ],
+        [
+          13.542229,
+          45.451373
+        ],
+        [
+          13.542139,
+          45.451426
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "nearestStreet": "Treća ulica",
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena građevina s rožnatim krovom boje između bež i smeđe tonalitete.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:30.135Z"
+      }
+    },
+    {
+      "id": "way/1551942352",
+      "lat": 45.45232360000001,
+      "lon": 13.541335800000002,
+      "obris": [
+        [
+          13.541337,
+          45.452371
+        ],
+        [
+          13.541256,
+          45.45229
+        ],
+        [
+          13.541334,
+          45.452252
+        ],
+        [
+          13.541415,
+          45.452334
+        ],
+        [
+          13.541337,
+          45.452371
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "nearestStreet": "Prva ulica",
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada sa crvenim/rozim krovom i dijelovima građevine uz nju.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:30.060Z"
+      }
+    },
+    {
+      "id": "way/1551942353",
+      "lat": 45.4536394,
+      "lon": 13.543882200000002,
+      "obris": [
+        [
+          13.543794,
+          45.45368
+        ],
+        [
+          13.543993,
+          45.453697
+        ],
+        [
+          13.544015,
+          45.453579
+        ],
+        [
+          13.543815,
+          45.453561
+        ],
+        [
+          13.543794,
+          45.45368
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "nearestStreet": "Prva ulica",
+      "nearestStreetDist": 153,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "U centru kadra vidljiva je vegetacija i dio ceste, ali nema vidljive izgrađene zgrade ili krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:30.057Z"
+      }
+    },
+    {
+      "id": "way/1551942354",
+      "lat": 45.45307842857143,
+      "lon": 13.546740428571427,
+      "obris": [
+        [
+          13.546771,
+          45.453148
+        ],
+        [
+          13.546607,
+          45.453097
+        ],
+        [
+          13.546651,
+          45.453027
+        ],
+        [
+          13.546761,
+          45.453062
+        ],
+        [
+          13.546784,
+          45.453025
+        ],
+        [
+          13.546838,
+          45.453042
+        ],
+        [
+          13.546771,
+          45.453148
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Peta ulica - Quinta Strada",
+        "houseNumber": "25",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina sa sivim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:29.768Z"
+      }
+    },
+    {
+      "id": "way/1551942355",
+      "lat": 45.4541664,
+      "lon": 13.542359,
+      "obris": [
+        [
+          13.542279,
+          45.454218
+        ],
+        [
+          13.542283,
+          45.454086
+        ],
+        [
+          13.542479,
+          45.454089
+        ],
+        [
+          13.542475,
+          45.454221
+        ],
+        [
+          13.542279,
+          45.454218
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Peta ulica - Quinta Strada",
+        "houseNumber": "3D",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom, vidljive su i obrube građevine",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:32.772Z"
+      }
+    },
+    {
+      "id": "way/1551942356",
+      "lat": 45.452614999999994,
+      "lon": 13.540882,
+      "obris": [
+        [
+          13.540812,
+          45.452627
+        ],
+        [
+          13.540854,
+          45.452557
+        ],
+        [
+          13.540987,
+          45.452597
+        ],
+        [
+          13.540945,
+          45.452667
+        ],
+        [
+          13.540812,
+          45.452627
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "nearestStreet": "Prva ulica",
+      "nearestStreetDist": 21,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva bijela/svijetla zgrada s krovom, okružena s betonskom ili asfaltnom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:35.615Z"
+      }
+    },
+    {
+      "id": "way/1551942357",
+      "lat": 45.45330677777778,
+      "lon": 13.539654222222223,
+      "obris": [
+        [
+          13.539556,
+          45.45337
+        ],
+        [
+          13.539707,
+          45.453384
+        ],
+        [
+          13.539722,
+          45.453306
+        ],
+        [
+          13.539761,
+          45.45331
+        ],
+        [
+          13.539775,
+          45.453236
+        ],
+        [
+          13.539624,
+          45.453222
+        ],
+        [
+          13.539613,
+          45.453283
+        ],
+        [
+          13.539574,
+          45.45328
+        ],
+        [
+          13.539556,
+          45.45337
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Petnaesta ulica - Quindicesima Strada",
+        "houseNumber": "8A",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika bijela zgrada s pravokutnim krovom i nekoliko manjih zgrada oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:35.321Z"
+      }
+    },
+    {
+      "id": "way/1551942358",
+      "lat": 45.45307628571428,
+      "lon": 13.539737857142855,
+      "obris": [
+        [
+          13.539626,
+          45.45313
+        ],
+        [
+          13.539643,
+          45.453043
+        ],
+        [
+          13.539754,
+          45.453054
+        ],
+        [
+          13.539764,
+          45.453006
+        ],
+        [
+          13.539889,
+          45.453018
+        ],
+        [
+          13.539863,
+          45.453153
+        ],
+        [
+          13.539626,
+          45.45313
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Petnaesta ulica - Quindicesima Strada",
+        "houseNumber": "6",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina sa krovom i vanjskim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:35.739Z"
+      }
+    },
+    {
+      "id": "way/1551942359",
+      "lat": 45.452959,
+      "lon": 13.5391844,
+      "obris": [
+        [
+          13.539092,
+          45.45303
+        ],
+        [
+          13.539135,
+          45.452832
+        ],
+        [
+          13.539323,
+          45.452852
+        ],
+        [
+          13.53928,
+          45.453051
+        ],
+        [
+          13.539092,
+          45.45303
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Petnaesta ulica - Quindicesima Strada",
+        "houseNumber": "3",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 3,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada sa crvenom/smeđom krovnom pločom i dijelovima zelenila oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:35.981Z"
+      }
+    },
+    {
+      "id": "way/1551942360",
+      "lat": 45.45318985714285,
+      "lon": 13.537890571428573,
+      "obris": [
+        [
+          13.537863,
+          45.453239
+        ],
+        [
+          13.537879,
+          45.453172
+        ],
+        [
+          13.537845,
+          45.453168
+        ],
+        [
+          13.537855,
+          45.453124
+        ],
+        [
+          13.537978,
+          45.453138
+        ],
+        [
+          13.537951,
+          45.453249
+        ],
+        [
+          13.537863,
+          45.453239
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Šesnaesta ulica - Sedicesima Strada",
+        "houseNumber": "6",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina sa krovom, okružena zelenim površinama i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:36.009Z"
+      }
+    },
+    {
+      "id": "way/1551942361",
+      "lat": 45.45317885714286,
+      "lon": 13.538092285714285,
+      "obris": [
+        [
+          13.538145,
+          45.453231
+        ],
+        [
+          13.538013,
+          45.453217
+        ],
+        [
+          13.538025,
+          45.453165
+        ],
+        [
+          13.538069,
+          45.45317
+        ],
+        [
+          13.538081,
+          45.453114
+        ],
+        [
+          13.538168,
+          45.453124
+        ],
+        [
+          13.538145,
+          45.453231
+        ]
+      ],
+      "tags": {
+        "building": "residential"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-24T07:19:31Z",
+      "changeset": 187922097,
+      "osmUser": "Latebird",
+      "dguAdresa": {
+        "street": "Šesnaesta ulica - Sedicesima Strada",
+        "houseNumber": "4",
+        "settlement": "Murine - Morno",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      },
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je beža/bijela zgrada s krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:39.267Z"
+      }
+    },
+    {
+      "id": "way/1551987204",
+      "lat": 45.706726200000006,
+      "lon": 16.0627928,
+      "obris": [
+        [
+          16.062592,
+          45.706603
+        ],
+        [
+          16.062943,
+          45.70698
+        ],
+        [
+          16.063094,
+          45.706911
+        ],
+        [
+          16.062743,
+          45.706534
+        ],
+        [
+          16.062592,
+          45.706603
+        ]
+      ],
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-08-24T11:17:19Z",
+      "changeset": 187932892,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Gajeva ulica",
+        "houseNumber": "32B",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva siva/betonska struktura koja predstavlja krov ili građevinu, kontrastira s omčom zelene vegetacije oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:39.110Z"
+      }
+    },
+    {
+      "id": "way/1551987205",
+      "lat": 45.70660899999999,
+      "lon": 16.0630508,
+      "obris": [
+        [
+          16.06285,
+          45.706486
+        ],
+        [
+          16.063201,
+          45.706862
+        ],
+        [
+          16.063352,
+          45.706794
+        ],
+        [
+          16.063001,
+          45.706417
+        ],
+        [
+          16.06285,
+          45.706486
+        ]
+      ],
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-08-24T11:17:19Z",
+      "changeset": 187932892,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Gajeva ulica",
+        "houseNumber": "32C",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      },
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine svetle boje sa što izgleda kao manja prizemna ili niskokatna zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T13:03:38.449Z"
+      }
+    }
+  ]
+}
