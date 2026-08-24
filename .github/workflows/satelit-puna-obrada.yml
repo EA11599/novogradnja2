@@ -1,0 +1,67 @@
+name: "Satelitska provjera - PUNA obrada"
+
+# Obraduje SVE zgrade iz manifesta, ne samo zadnjih 7 dana.
+#
+# Skripta je ponovljiva: zgrade koje su vec provjerene preskace. Zato se
+# pokretanje moze ponavljati dok se ne obrade sve - svako pokretanje nastavlja
+# tocno gdje je prethodno stalo.
+#
+# TROSAK: svaka zgrada je jedan poziv prema Claude API-ju sa slikom.
+# Procjena za svih ~24.000 neprovjerenih zgrada je oko 20-25 USD ukupno.
+on:
+  workflow_dispatch:
+    inputs:
+      max:
+        description: "Najviše zgrada u ovom pokretanju (prazno = bez ograničenja)"
+        required: false
+        default: "8000"
+        type: string
+      batch:
+        description: "Koliko zgrada usporedno (5 je oprezno, 12 je brže)"
+        required: false
+        default: "10"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  puna-provjera:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Preuzmi repozitorij
+        uses: actions/checkout@v4
+
+      - name: Postavi Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instaliraj ovisnosti
+        run: PUPPETEER_SKIP_DOWNLOAD=true npm install
+
+      - name: Pokreni punu satelitsku provjeru
+        run: |
+          node scripts/satelit-verifikacija.js \
+            --sve \
+            --max=${{ inputs.max || '999999' }} \
+            --batch=${{ inputs.batch || '10' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      # "always" da se spremi i ono sto je obradjeno prije nego je posao
+      # prekinut zbog isteka vremena - inace bi se svi ti pozivi bacili.
+      - name: Commitaj rezultate
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/zgrade
+          if git diff --cached --quiet; then
+            echo "Nema promjena za commit."
+          else
+            git commit -m "Satelitska provjera - puna obrada (DGU 2023/24)"
+            git pull --rebase
+            git push
+          fi
