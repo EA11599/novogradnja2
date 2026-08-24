@@ -25,12 +25,18 @@
       window.__sbClient = sb;
       const { data: { session } } = await sb.auth.getSession();
       if (!session) {
+        // Zapamti kamo je korisnik htio, da ga prijava vrati ovamo
+        // umjesto na glavnu aplikaciju.
+        try { sessionStorage.setItem('ng-povratak', 'review.html'); } catch (e) {}
         Dnevnik.zapisi('prijava', 'pristup_odbijen_bez_sesije', { stranica: 'review' });
         Dnevnik.isprazni(true);
         window.location.replace('login.html'); return;
       }
       const { data: aal } = await sb.auth.mfa.getAuthenticatorAssuranceLevel();
       if (!aal || aal.currentLevel !== 'aal2') {
+        // Zapamti kamo je korisnik htio, da ga prijava vrati ovamo
+        // umjesto na glavnu aplikaciju.
+        try { sessionStorage.setItem('ng-povratak', 'review.html'); } catch (e) {}
         Dnevnik.zapisi('prijava', 'pristup_odbijen_bez_mfa', { stranica: 'review' });
         Dnevnik.isprazni(true);
         window.location.replace('login.html'); return;
@@ -174,6 +180,24 @@
   .user-menu-dropdown.open{ display:block; }
   .user-menu-name{ font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13.5px; margin-bottom:2px; word-break:break-word; }
   .user-menu-email{ font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--text-faint); word-break:break-word; }
+
+  /* Birac verzije. Korisnik moze rucno odabrati koje sucelje zeli, bez obzira
+     na to sto je aplikacija zakljucila iz vrste uredjaja. Izbor se pamti i
+     postuje se pri sljedecoj prijavi. */
+  .verzija-naslov{
+    font-size:10px; text-transform:uppercase; letter-spacing:.07em;
+    color:var(--text-faint); margin:14px 0 6px;
+  }
+  .verzija-birac{
+    display:grid; grid-template-columns:1fr 1fr; gap:3px;
+    background:var(--panel-alt); border:1px solid var(--border); border-radius:9px; padding:3px;
+  }
+  .verzija-birac button{
+    border:none; background:transparent; color:var(--text-dim); cursor:pointer;
+    font-family:inherit; font-size:12px; padding:8px 4px; border-radius:7px;
+    display:flex; align-items:center; justify-content:center; gap:5px;
+  }
+  .verzija-birac button.aktivna{ background:var(--panel); color:var(--magenta); font-weight:600; }
 
   .nav-center{ display:flex; align-items:center; gap:10px; flex:1; justify-content:center; flex-wrap:wrap; }
   .search-input{
@@ -373,9 +397,25 @@
     .layout{ grid-template-columns: 1fr; grid-template-rows: auto; }
     .top-half{ grid-template-columns: 1fr; }
   }
+
+  /* Prijelaz na terenski ekran - vidljiv samo na malim ekranima, jer na
+     racunalu nema smisla. Lebdi iznad sadrzaja da ga se dohvati bez trazenja. */
+  .teren-prijelaz{ display:none; }
+  @media (max-width: 760px){
+    .teren-prijelaz{
+      display:flex; position:fixed; z-index:900;
+      right:14px; bottom:calc(14px + env(safe-area-inset-bottom));
+      align-items:center; gap:8px; padding:13px 18px; border-radius:999px;
+      background:var(--magenta); color:#150c03; font-weight:700; font-size:14px;
+      box-shadow:0 4px 18px rgba(0,0,0,.35); border:none;
+      font-family:inherit; cursor:pointer; min-height:48px;
+    }
+  }
 </style>
 </head>
 <body>
+
+<button class="teren-prijelaz" id="terenPrijelaz">📍 Terenski način</button>
 
 <nav class="topnav">
   <div class="brand">
@@ -389,6 +429,7 @@
 
   <div class="nav-right">
     <a class="btn-export" href="index.html" style="text-decoration:none;">← Natrag</a>
+    <a class="btn-export" href="teren.html" style="text-decoration:none;" title="Terenski način za mobitel">📍 Teren</a>
     <button class="btn-export" id="exportBtn">⇩ Izvoz u Excel</button>
     <div class="theme-toggle">
       <button id="btnThemeLight" title="Svjetla tema">☀</button>
@@ -400,6 +441,13 @@
       <div class="user-menu-dropdown" id="userMenuDropdown">
         <div class="user-menu-name" id="userMenuIme">–</div>
         <div class="user-menu-email" id="userMenuEmail">–</div>
+
+        <div class="verzija-naslov">Verzija sučelja</div>
+        <div class="verzija-birac">
+          <button id="btnVerzijaPuna" class="aktivna">🖥 Računalo</button>
+          <button id="btnVerzijaTeren">📱 Mobitel</button>
+        </div>
+
         <button class="btn-export" id="btnOdjava" style="width:100%;justify-content:center;margin-top:12px;">Odjava</button>
       </div>
     </div>
@@ -2052,6 +2100,22 @@ document.addEventListener('click', (e) => {
   }
 });
 
+// ---------- Birac verzije sucelja ----------
+// Rucni odabir ima prednost pred automatskim prepoznavanjem uredjaja - zato
+// izbor spremamo, pa ga i sljedeca prijava postuje.
+$('#btnVerzijaTeren').addEventListener('click', () => {
+  try { localStorage.setItem('ng-nacin', 'teren'); } catch (e) {}
+  Dnevnik.zapisi('pregled', 'promjena_verzije', { iz: 'puna', u: 'teren', s: Dnevnik.stranica });
+  Dnevnik.isprazni(true);
+  window.location.href = 'teren.html';
+});
+
+$('#btnVerzijaPuna').addEventListener('click', () => {
+  // Vec smo na punoj verziji - samo zapamti da je to zeljeni izbor.
+  try { localStorage.setItem('ng-nacin', 'puna'); } catch (e) {}
+  Dnevnik.zapisi('pregled', 'promjena_verzije', { iz: 'puna', u: 'puna', s: Dnevnik.stranica });
+});
+
 $('#btnOdjava').addEventListener('click', async () => {
   Dnevnik.zapisi('prijava', 'odjava', { stranica: 'review' });
   Dnevnik.isprazni(true);
@@ -2071,6 +2135,15 @@ $('#tabDgu').addEventListener('click', () => {
   $('#tabZgrade').classList.remove('active');
   $('#zgradeTabContent').style.display = 'none';
   $('#dguTabContentVisible').style.display = 'flex';
+});
+
+// Prijelaz na terenski ekran (gumb je vidljiv samo na malim ekranima).
+// Izbor pamtimo, pa sljedeca prijava s mobitela nece silom otvoriti teren.
+document.getElementById('terenPrijelaz').addEventListener('click', () => {
+  try { localStorage.setItem('ng-nacin', 'teren'); } catch (e) {}
+  Dnevnik.zapisi('pregled', 'prijelaz_na_teren', { s: Dnevnik.stranica });
+  Dnevnik.isprazni(true);
+  window.location.href = 'teren.html';
 });
 
 init().catch(err => {

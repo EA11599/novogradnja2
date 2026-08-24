@@ -241,7 +241,60 @@
 // ====== KONFIGURACIJA - zamijeni sa svojim Supabase podacima ======
 const SUPABASE_URL = 'https://stbknyvbduzrgnbmhpxl.supabase.co';
 const SUPABASE_ANON_KEY = 'sb_publishable_TLFe8iXPlR95yOtExi7XVg_XrX22ERK';
-const APP_URL = 'index.html'; // gdje preusmjeriti nakon uspjesne prijave (glavna aplikacija)
+const APP_URL = 'index.html'; // zadano odrediste ako ne znamo odakle je korisnik dosao
+
+// Stranice na koje se smije preusmjeriti nakon prijave. Popis postoji zbog
+// sigurnosti: bez njega bi netko mogao podmetnuti vanjsku adresu i iskoristiti
+// prijavu za preusmjeravanje na tudju stranicu.
+const DOZVOLJENA_ODREDISTA = ['index.html', 'review.html', 'teren.html'];
+
+// Je li ovo mobitel ili tablet?
+//
+// Ne pokusavamo prepoznati KOJI je uredjaj - samo KAKAV je. Za to nije
+// potrebna nikakva pohrana ni otisak preglednika, pa nema ni privatnosnih
+// posljedica.
+//
+// Redoslijed provjera ide od najpouzdanije prema najslabijoj:
+//   1. userAgentData.mobile - moderni Chromium, izravan i tocan odgovor
+//   2. User-Agent niz - pokriva iPhone, Android i starije preglednike
+//   3. iPad se od iOS-a 13 predstavlja kao Mac; jedini nacin da ga se
+//      razlikuje od pravog Maca je broj tocaka dodira
+function jeMobilniUredjaj(){
+  try {
+    if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
+      return navigator.userAgentData.mobile;
+    }
+  } catch (e) { /* stariji preglednici nemaju userAgentData */ }
+
+  const ua = navigator.userAgent || '';
+  if (/Android|iPhone|iPod|Windows Phone|IEMobile|Opera Mini/i.test(ua)) return true;
+  if (/iPad/i.test(ua)) return true;
+  if (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1) return true;
+  return false;
+}
+
+// Kamo nakon prijave? Tri razine, po prednosti:
+//
+//   1. Kamo je korisnik izricito htio prije nego ga je prijava presrela
+//      (auth-guard to zapise). Bez ovoga bi tehnicar koji otvori teren.html
+//      zavrsio na punoj aplikaciji, koja na mobitelu skida oko 23 MB.
+//   2. Sto je korisnik zadnji put sam odabrao - ako je s mobitela svjesno
+//      presao na punu verziju, ne vracamo ga silom na terenski ekran.
+//   3. Vrsta uredjaja: mobitel -> teren, racunalo -> puna aplikacija.
+function odredisteNakonPrijave(){
+  try {
+    const trazeno = sessionStorage.getItem('ng-povratak');
+    if (trazeno && DOZVOLJENA_ODREDISTA.includes(trazeno)) return trazeno;
+  } catch (e) { /* privatni nacin rada moze blokirati sessionStorage */ }
+
+  try {
+    const izbor = localStorage.getItem('ng-nacin');
+    if (izbor === 'puna') return 'index.html';
+    if (izbor === 'teren') return 'teren.html';
+  } catch (e) { /* ignoriraj */ }
+
+  return jeMobilniUredjaj() ? 'teren.html' : APP_URL;
+}
 // ===================================================================
 
 const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
@@ -576,7 +629,15 @@ $('#linkNazadNeodobreno').addEventListener('click', async () => {
 });
 
 function preusmjeriNaAplikaciju(){
-  window.location.href = APP_URL;
+  const kamo = odredisteNakonPrijave();
+  try { sessionStorage.removeItem('ng-povratak'); } catch (e) {}
+  Dnevnik.zapisi('prijava', 'preusmjeren_nakon_prijave', {
+    odrediste: kamo,
+    mobilni_uredjaj: jeMobilniUredjaj(),
+    ekran: window.innerWidth + 'x' + window.innerHeight
+  });
+  Dnevnik.isprazni(true);
+  window.location.href = kamo;
 }
 
 // ---------- Pri ucitavanju stranice - je li vec prijavljen (npr. povratak s Google OAuth-a)? ----------

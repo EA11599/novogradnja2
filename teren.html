@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="hr" style="visibility:hidden;">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0A0C13">
+<title>Teren — Novogradnja</title>
+<link rel="icon" href="assets/alexigeo-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=Barlow:wght@600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="assets/dnevnik.js"></script>
+<script>
+  // Auth-guard - isti kao na ostalim stranicama.
+  (async function authGuard(){
+    const SUPABASE_URL = 'https://stbknyvbduzrgnbmhpxl.supabase.co';
+    const SUPABASE_ANON_KEY = 'sb_publishable_TLFe8iXPlR95yOtExi7XVg_XrX22ERK';
+    try {
+      const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+      window.__sbClient = sb;
+
+      const { data: { session } } = await sb.auth.getSession();
+      if (!session) {
+        // Zapamti kamo je korisnik htio, da ga prijava vrati ovamo
+        // umjesto na glavnu aplikaciju.
+        try { sessionStorage.setItem('ng-povratak', 'teren.html'); } catch (e) {}
+        Dnevnik.zapisi('prijava', 'pristup_odbijen_bez_sesije', { stranica: 'teren' });
+        Dnevnik.isprazni(true);
+        window.location.replace('login.html'); return;
+      }
+      const { data: aal } = await sb.auth.mfa.getAuthenticatorAssuranceLevel();
+      if (!aal || aal.currentLevel !== 'aal2') {
+        // Zapamti kamo je korisnik htio, da ga prijava vrati ovamo
+        // umjesto na glavnu aplikaciju.
+        try { sessionStorage.setItem('ng-povratak', 'teren.html'); } catch (e) {}
+        Dnevnik.zapisi('prijava', 'pristup_odbijen_bez_mfa', { stranica: 'teren' });
+        Dnevnik.isprazni(true);
+        window.location.replace('login.html'); return;
+      }
+      const { data: { user } } = await sb.auth.getUser();
+      Dnevnik.postaviKorisnika(user);
+      window.__korisnik = user;
+
+      const { data: dozvola } = await sb
+        .from('dozvoljeni_korisnici').select('email').eq('email', user.email).maybeSingle();
+      if (!dozvola) {
+        Dnevnik.zapisi('prijava', 'pristup_odbijen_nije_odobren', { email: user && user.email });
+        Dnevnik.isprazni(true);
+        await sb.auth.signOut();
+        window.location.replace('login.html'); return;
+      }
+
+      Dnevnik.zapisi('pregled', 'stranica_otvorena', { stranica: 'teren' });
+      document.documentElement.style.visibility = 'visible';
+    } catch (err) {
+      Dnevnik.greska('auth_guard_teren', err);
+      Dnevnik.isprazni(true);
+      window.location.replace('login.html');
+    }
+  })();
+</script>
+<style>
+  :root[data-theme="dark"]{
+    --bg:#0A0C13; --panel:#14161F; --panel-alt:#191C27;
+    --border:rgba(255,255,255,0.08); --border-strong:rgba(255,255,255,0.16);
+    --text:#F3F2F7; --text-dim:#9296AB; --text-faint:#63667A;
+    --magenta:#FE963B; --magenta-soft:rgba(254,150,59,0.16);
+    --teal:#34D8A6; --teal-soft:rgba(52,216,166,0.16);
+    --danger:#E5484D; --danger-soft:rgba(229,72,77,0.16);
+    --grey-soft:rgba(107,110,130,0.18);
+  }
+  /* Svijetla tema je na terenu bitna - po suncu se tamna ne vidi. */
+  :root[data-theme="light"]{
+    --bg:#F4F2F6; --panel:#FFFFFF; --panel-alt:#EFEBF3;
+    --border:rgba(28,17,32,0.10); --border-strong:rgba(28,17,32,0.20);
+    --text:#140F19; --text-dim:#55506080; --text-faint:#7C7686;
+    --magenta:#A34A05; --magenta-soft:rgba(163,74,5,0.12);
+    --teal:#07795C; --teal-soft:rgba(7,121,92,0.12);
+    --danger:#B0161C; --danger-soft:rgba(176,22,28,0.12);
+    --grey-soft:rgba(110,113,128,0.12);
+  }
+  :root[data-theme="light"]{ --text-dim:#555060; }
+
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; height:100%; }
+  body{
+    background:var(--bg); color:var(--text);
+    font-family:'IBM Plex Sans',sans-serif;
+    display:flex; flex-direction:column;
+    padding-bottom:env(safe-area-inset-bottom);
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{ font-family:'Space Grotesk',sans-serif; margin:0; }
+  .num{ font-family:'Barlow',sans-serif; font-variant-numeric:tabular-nums; font-weight:700; }
+
+  /* ---------- Zaglavlje ---------- */
+  header{
+    flex:0 0 auto; background:var(--panel); border-bottom:1px solid var(--border);
+    padding:calc(9px + env(safe-area-inset-top)) 13px 9px;
+    display:flex; align-items:center; gap:10px; position:sticky; top:0; z-index:10;
+  }
+  .naslov{ font-size:15px; font-weight:600; }
+  .gps{
+    margin-left:auto; display:flex; align-items:center; gap:6px;
+    font-size:11.5px; color:var(--text-faint);
+  }
+  .gps-tocka{ width:8px; height:8px; border-radius:50%; background:var(--text-faint); flex-shrink:0; }
+  .gps.ok .gps-tocka{ background:var(--teal); box-shadow:0 0 7px var(--teal); }
+  .gps.lose .gps-tocka{ background:var(--magenta); }
+  .ikona-btn{
+    width:38px; height:38px; border-radius:10px; border:1px solid var(--border-strong);
+    background:var(--panel-alt); color:var(--text); font-size:16px; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+
+  /* ---------- Trake s filterima ---------- */
+  .trake{ flex:0 0 auto; background:var(--panel); border-bottom:1px solid var(--border); padding:0 9px 9px; }
+  .traka{ display:flex; gap:6px; overflow-x:auto; padding:5px 4px; scrollbar-width:none; }
+  .traka::-webkit-scrollbar{ display:none; }
+  .cip{
+    flex:0 0 auto; padding:9px 15px; border-radius:999px; font-size:13px; font-weight:500;
+    background:var(--panel-alt); border:1px solid var(--border); color:var(--text-dim);
+    cursor:pointer; white-space:nowrap; min-height:40px; display:flex; align-items:center;
+  }
+  .cip.aktivan{ background:var(--magenta); border-color:transparent; color:#150c03; font-weight:600; }
+
+  /* ---------- Popis ---------- */
+  main{ flex:1 1 auto; overflow-y:auto; padding:11px 11px 28px; -webkit-overflow-scrolling:touch; }
+  .kartica{
+    background:var(--panel); border:1px solid var(--border); border-radius:14px;
+    padding:14px; margin-bottom:11px;
+  }
+  .kartica.otvorena{ border-color:var(--magenta); }
+  .k-vrh{ display:flex; align-items:flex-start; gap:11px; cursor:pointer; }
+  .k-adresa{ font-size:15.5px; font-weight:600; line-height:1.3; }
+  .k-mjesto{ font-size:12.5px; color:var(--text-faint); margin-top:3px; }
+  .k-daljina{ margin-left:auto; text-align:right; flex-shrink:0; }
+  .k-daljina .num{ font-size:19px; color:var(--magenta); }
+  .k-daljina small{ display:block; font-size:10.5px; color:var(--text-faint); }
+  .bedz{
+    display:inline-block; margin-top:7px; padding:3px 10px; border-radius:999px;
+    font-size:11px; font-weight:600;
+  }
+  .b-nepotvrdeno{ background:var(--grey-soft); color:var(--text-dim); }
+  .b-potvrdeno{ background:var(--teal-soft); color:var(--teal); }
+  .b-odbaceno{ background:var(--danger-soft); color:var(--danger); }
+
+  /* ---------- Otvorena kartica: veliki gumbi ---------- */
+  .k-akcije{ display:none; margin-top:14px; padding-top:13px; border-top:1px solid var(--border); }
+  .kartica.otvorena .k-akcije{ display:block; }
+  .par{ display:grid; grid-template-columns:1fr 1fr; gap:9px; }
+  .veliki{
+    min-height:56px; border-radius:13px; border:2px solid transparent;
+    font-size:15px; font-weight:700; font-family:inherit; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; gap:8px;
+  }
+  .v-potvrdi{ background:var(--teal-soft); color:var(--teal); border-color:var(--teal); }
+  .v-odbaci{ background:var(--danger-soft); color:var(--danger); border-color:var(--danger); }
+  .veliki:active{ transform:scale(0.97); }
+  .veliki:disabled{ opacity:.45; }
+  .k-alat{ display:flex; gap:9px; margin-top:9px; }
+  .k-alat a, .k-alat button{
+    flex:1; min-height:46px; border-radius:11px; border:1px solid var(--border-strong);
+    background:var(--panel-alt); color:var(--text); font-size:13.5px; font-family:inherit;
+    display:flex; align-items:center; justify-content:center; gap:7px;
+    text-decoration:none; cursor:pointer;
+  }
+  textarea{
+    width:100%; margin-top:9px; min-height:64px; padding:11px; border-radius:11px;
+    background:var(--panel-alt); border:1px solid var(--border-strong); color:var(--text);
+    font-family:inherit; font-size:15px; resize:vertical;
+  }
+  /* ---------- Izbornik korisnika ---------- */
+  .izbornik-omot{ position:relative; }
+  .izbornik{
+    position:absolute; top:calc(100% + 8px); right:0; z-index:60; width:236px;
+    background:var(--panel); border:1px solid var(--border-strong); border-radius:14px;
+    box-shadow:0 14px 40px rgba(0,0,0,.4); padding:15px; display:none;
+  }
+  .izbornik.otvoren{ display:block; }
+  .iz-ime{ font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:14px; word-break:break-word; }
+  .iz-email{ font-size:11px; color:var(--text-faint); word-break:break-word; margin-top:2px; }
+  .iz-naslov{ font-size:10px; text-transform:uppercase; letter-spacing:.07em; color:var(--text-faint); margin:15px 0 6px; }
+  .iz-birac{ display:grid; grid-template-columns:1fr 1fr; gap:3px; background:var(--panel-alt);
+    border:1px solid var(--border); border-radius:10px; padding:3px; }
+  .iz-birac button{ border:none; background:transparent; color:var(--text-dim); cursor:pointer;
+    font-family:inherit; font-size:12px; padding:10px 4px; border-radius:8px; }
+  .iz-birac button.aktivna{ background:var(--panel); color:var(--magenta); font-weight:600; }
+  .iz-odjava{
+    width:100%; margin-top:13px; min-height:46px; border-radius:11px;
+    border:1px solid var(--border-strong); background:var(--panel-alt);
+    color:var(--text); font-family:inherit; font-size:14px; cursor:pointer;
+  }
+
+  .stanje{ padding:38px 20px; text-align:center; color:var(--text-faint); font-size:14px; line-height:1.6; }
+  .stanje b{ display:block; color:var(--text); font-size:16px; margin-bottom:7px; }
+  .traka-poruka{
+    position:fixed; left:11px; right:11px; bottom:calc(15px + env(safe-area-inset-bottom));
+    padding:14px 17px; border-radius:13px; font-size:14px; font-weight:500;
+    text-align:center; z-index:50; display:none;
+  }
+  .traka-poruka.ok{ background:var(--teal); color:#04231a; display:block; }
+  .traka-poruka.err{ background:var(--danger); color:#fff; display:block; }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="assets/alexigeo-mark.png" alt="" style="width:26px;height:26px;border-radius:7px;">
+  <span class="naslov">Teren</span>
+  <span class="gps" id="gps"><span class="gps-tocka"></span><span id="gpsTekst">tražim…</span></span>
+  <button class="ikona-btn" id="btnTema" title="Tema">☀</button>
+  <div class="izbornik-omot">
+    <button class="ikona-btn" id="btnIzbornik" title="Korisnik">👤</button>
+    <div class="izbornik" id="izbornik">
+      <div class="iz-ime" id="izIme">–</div>
+      <div class="iz-email" id="izEmail">–</div>
+      <div class="iz-naslov">Verzija sučelja</div>
+      <div class="iz-birac">
+        <button id="btnVerzijaPuna">🖥 Računalo</button>
+        <button id="btnVerzijaTeren" class="aktivna">📱 Mobitel</button>
+      </div>
+      <button class="iz-odjava" id="btnOdjava">Odjava</button>
+    </div>
+  </div>
+</header>
+
+<div class="trake">
+  <div class="traka" id="trakaStatus">
+    <button class="cip aktivan" data-status="nepotvrđeno">Za provjeru</button>
+    <button class="cip" data-status="">Sve</button>
+    <button class="cip" data-status="potvrđeno">Potvrđene</button>
+    <button class="cip" data-status="odbačeno">Odbačene</button>
+  </div>
+  <div class="traka" id="trakaRadijus">
+    <button class="cip" data-radijus="100">100 m</button>
+    <button class="cip aktivan" data-radijus="300">300 m</button>
+    <button class="cip" data-radijus="1000">1 km</button>
+    <button class="cip" data-radijus="5000">5 km</button>
+  </div>
+</div>
+
+<main id="popis">
+  <div class="stanje"><b>Učitavam…</b>Dohvaćam popis zgrada i tvoju lokaciju.</div>
+</main>
+
+<div class="traka-poruka" id="poruka"></div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const sb = window.__sbClient;
+
+let sveZgrade = [];          // laki indeks
+let statusi = {};            // { id: {status, napomena} }
+let mojaPozicija = null;     // {lat, lon, tocnost}
+let filterStatus = 'nepotvrđeno';
+let radijus = 300;
+let otvorenaKartica = null;
+let korisnikIme = null;
+
+// ---------- Tema ----------
+function postaviTemu(t){
+  document.documentElement.setAttribute('data-theme', t);
+  localStorage.setItem('ng-tema', t);
+  $('#btnTema').textContent = t === 'dark' ? '☀' : '☾';
+  document.querySelector('meta[name=theme-color]').setAttribute('content', t === 'dark' ? '#0A0C13' : '#F4F2F6');
+}
+postaviTemu(localStorage.getItem('ng-tema') || 'dark');
+$('#btnTema').addEventListener('click', () => {
+  postaviTemu(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+});
+
+// ---------- Izbornik korisnika ----------
+$('#btnIzbornik').addEventListener('click', (e) => {
+  e.stopPropagation();
+  $('#izbornik').classList.toggle('otvoren');
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.izbornik-omot')) $('#izbornik').classList.remove('otvoren');
+});
+
+// Prijelaz na punu aplikaciju. Izbor pamtimo, pa ga sljedeca prijava nece
+// silom vratiti na terenski ekran samo zato sto je na mobitelu.
+$('#btnVerzijaPuna').addEventListener('click', () => {
+  try { localStorage.setItem('ng-nacin', 'puna'); } catch (e) {}
+  Dnevnik.zapisi('pregled', 'promjena_verzije', { iz: 'teren', u: 'puna', s: 'teren' });
+  Dnevnik.isprazni(true);
+  window.location.href = 'index.html';
+});
+
+$('#btnVerzijaTeren').addEventListener('click', () => {
+  // Vec smo ovdje - samo zapamti da je to zeljeni izbor.
+  try { localStorage.setItem('ng-nacin', 'teren'); } catch (e) {}
+  Dnevnik.zapisi('pregled', 'promjena_verzije', { iz: 'teren', u: 'teren', s: 'teren' });
+  $('#izbornik').classList.remove('otvoren');
+});
+
+$('#btnOdjava').addEventListener('click', async () => {
+  Dnevnik.zapisi('prijava', 'odjava', { stranica: 'teren' });
+  Dnevnik.isprazni(true);
+  await sb.auth.signOut();
+  window.location.href = 'login.html';
+});
+
+function poruka(tekst, tip){
+  const e = $('#poruka');
+  e.textContent = tekst;
+  e.className = 'traka-poruka ' + (tip || 'ok');
+  clearTimeout(e._t);
+  e._t = setTimeout(() => { e.className = 'traka-poruka'; }, 2600);
+}
+
+function escapeHtml(t){
+  return String(t == null ? '' : t)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ---------- Udaljenost ----------
+// Haversine. Na ovim udaljenostima bi i ravninska aproksimacija bila dovoljna,
+// ali razlika u cijeni je zanemariva.
+function udaljenost(lat1, lon1, lat2, lon2){
+  const R = 6371000;
+  const rad = Math.PI / 180;
+  const dLat = (lat2 - lat1) * rad;
+  const dLon = (lon2 - lon1) * rad;
+  const a = Math.sin(dLat/2) ** 2 +
+            Math.cos(lat1*rad) * Math.cos(lat2*rad) * Math.sin(dLon/2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+}
+
+function formatirajDaljinu(m){
+  if (m < 1000) return { broj: Math.round(m), jed: 'm' };
+  return { broj: (m/1000).toFixed(1), jed: 'km' };
+}
+
+// ---------- Geolokacija ----------
+function pratiLokaciju(){
+  if (!navigator.geolocation){
+    $('#gpsTekst').textContent = 'nema GPS-a';
+    poruka('Preglednik ne podržava geolokaciju.', 'err');
+    return;
+  }
+  navigator.geolocation.watchPosition(
+    (poz) => {
+      const prije = mojaPozicija;
+      mojaPozicija = { lat: poz.coords.latitude, lon: poz.coords.longitude, tocnost: poz.coords.accuracy };
+      const t = Math.round(poz.coords.accuracy);
+      $('#gpsTekst').textContent = '±' + t + ' m';
+      $('#gps').className = 'gps ' + (t <= 25 ? 'ok' : 'lose');
+      // Ne precrtavamo na svaki mikropomak - samo ako se pomaknuo bar 5 m.
+      if (!prije || udaljenost(prije.lat, prije.lon, mojaPozicija.lat, mojaPozicija.lon) > 5) prikazi();
+    },
+    (err) => {
+      $('#gpsTekst').textContent = 'bez lokacije';
+      $('#gps').className = 'gps lose';
+      Dnevnik.zapisi('sustav', 'geolokacija_odbijena', { kod: err.code, poruka: err.message });
+      prikazi();
+    },
+    { enableHighAccuracy: true, maximumAge: 5000, timeout: 20000 }
+  );
+}
+
+// ---------- Podaci ----------
+async function ucitajIndeks(){
+  const res = await fetch('data/teren-indeks.json', { cache: 'no-cache' });
+  if (!res.ok) throw new Error('Terenski indeks nije dostupan (HTTP ' + res.status + ')');
+  const podaci = await res.json();
+  sveZgrade = podaci.zgrade || [];
+}
+
+async function dohvatiStatuse(idjevi){
+  if (idjevi.length === 0) return;
+  const komadi = [];
+  for (let i = 0; i < idjevi.length; i += 200) komadi.push(idjevi.slice(i, i + 200));
+  const odgovori = await Promise.all(
+    komadi.map(k => sb.from('zgrada_review').select('*').in('zgrada_id', k))
+  );
+  odgovori.forEach(({ data, error }) => {
+    if (error) { Dnevnik.greska('teren_dohvat_statusa', error); return; }
+    (data || []).forEach(r => {
+      statusi[r.zgrada_id] = { status: r.status || 'nepotvrđeno', napomena: r.napomena || '' };
+    });
+  });
+}
+
+async function spremiStatus(id, status, napomena){
+  const staro = statusi[id] || { status: 'nepotvrđeno', napomena: '' };
+  const redak = {
+    zgrada_id: id, status, napomena: napomena || null,
+    azurirao: korisnikIme, azurirano_at: new Date().toISOString()
+  };
+  const { error } = await sb.from('zgrada_review').upsert(redak, { onConflict: 'zgrada_id' });
+  if (error){
+    Dnevnik.zapisi('evidencija', 'spremanje_neuspjelo', { tablica: 'zgrada_review', id, greska: error.message });
+    throw error;
+  }
+  statusi[id] = { status, napomena: napomena || '' };
+  Dnevnik.zapisi('evidencija', 'promjena_recenzije', {
+    tablica: 'zgrada_review', id,
+    status_staro: staro.status, status_novo: status,
+    napomena_staro: staro.napomena || null, napomena_novo: napomena || null,
+    promijenjen_status: staro.status !== status,
+    promijenjena_napomena: (staro.napomena || '') !== (napomena || ''),
+    izvor: 'teren'
+  });
+}
+
+// ---------- Prikaz ----------
+function trenutniPopis(){
+  if (!mojaPozicija) return [];
+  return sveZgrade
+    .map(z => ({ z, d: udaljenost(mojaPozicija.lat, mojaPozicija.lon, z.y, z.x) }))
+    .filter(o => o.d <= radijus)
+    .filter(o => {
+      if (!filterStatus) return true;
+      const s = (statusi[o.z.i] || {}).status || 'nepotvrđeno';
+      return s === filterStatus;
+    })
+    .sort((a, b) => a.d - b.d)
+    .slice(0, 60);
+}
+
+function prikazi(){
+  const popis = $('#popis');
+
+  if (!mojaPozicija){
+    popis.innerHTML = '<div class="stanje"><b>Nema lokacije</b>' +
+      'Uključi lokaciju i dopusti pristup u pregledniku. Bez nje ne mogu znati koje su zgrade blizu tebe.</div>';
+    return;
+  }
+
+  const stavke = trenutniPopis();
+  if (stavke.length === 0){
+    popis.innerHTML = '<div class="stanje"><b>Nema zgrada</b>' +
+      'U krugu od ' + (radijus < 1000 ? radijus + ' m' : (radijus/1000) + ' km') +
+      ' nema zgrada koje odgovaraju filteru. Probaj povećati krug.</div>';
+    return;
+  }
+
+  popis.innerHTML = stavke.map(({ z, d }) => {
+    const s = (statusi[z.i] || {}).status || 'nepotvrđeno';
+    const nap = (statusi[z.i] || {}).napomena || '';
+    const df = formatirajDaljinu(d);
+    const klasaBedza = s === 'potvrđeno' ? 'b-potvrdeno' : (s === 'odbačeno' ? 'b-odbaceno' : 'b-nepotvrdeno');
+    return '<div class="kartica' + (otvorenaKartica === z.i ? ' otvorena' : '') + '" data-id="' + escapeHtml(z.i) + '">' +
+      '<div class="k-vrh">' +
+        '<div style="min-width:0;">' +
+          '<div class="k-adresa">' + escapeHtml(z.a || 'Zgrada bez adrese') + '</div>' +
+          '<div class="k-mjesto">' + escapeHtml([z.m, z.t].filter(Boolean).join(' · ') || '—') + '</div>' +
+          '<span class="bedz ' + klasaBedza + '">' + s + '</span>' +
+        '</div>' +
+        '<div class="k-daljina"><span class="num">' + df.broj + '</span><small>' + df.jed + '</small></div>' +
+      '</div>' +
+      '<div class="k-akcije">' +
+        '<div class="par">' +
+          '<button class="veliki v-potvrdi" data-akcija="potvrđeno">✓ Potvrdi</button>' +
+          '<button class="veliki v-odbaci" data-akcija="odbačeno">✕ Odbaci</button>' +
+        '</div>' +
+        '<textarea placeholder="Napomena (nije obavezno)">' + escapeHtml(nap) + '</textarea>' +
+        '<div class="k-alat">' +
+          '<a href="https://www.google.com/maps/dir/?api=1&destination=' + z.y + ',' + z.x + '" target="_blank" rel="noopener">🧭 Navigacija</a>' +
+          '<a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=' + z.y + ',' + z.x + '" target="_blank" rel="noopener">👁 Street View</a>' +
+        '</div>' +
+      '</div></div>';
+  }).join('');
+}
+
+// ---------- Interakcija ----------
+$('#popis').addEventListener('click', async (e) => {
+  const kartica = e.target.closest('.kartica');
+  if (!kartica) return;
+  const id = kartica.dataset.id;
+
+  const gumb = e.target.closest('[data-akcija]');
+  if (gumb){
+    const napomena = kartica.querySelector('textarea').value.trim();
+    const status = gumb.dataset.akcija;
+    kartica.querySelectorAll('.veliki').forEach(b => b.disabled = true);
+    try {
+      await spremiStatus(id, status, napomena);
+      poruka(status === 'potvrđeno' ? 'Potvrđeno ✓' : 'Odbačeno ✕', 'ok');
+      otvorenaKartica = null;
+      prikazi();
+    } catch (err){
+      poruka('Nije spremljeno: ' + err.message, 'err');
+      kartica.querySelectorAll('.veliki').forEach(b => b.disabled = false);
+    }
+    return;
+  }
+
+  // Klik na tijelo kartice otvara/zatvara akcije. Ne zatvaramo ako je
+  // korisnik kliknuo u polje za napomenu.
+  if (e.target.closest('textarea') || e.target.closest('a')) return;
+  otvorenaKartica = (otvorenaKartica === id) ? null : id;
+  if (otvorenaKartica) Dnevnik.zapisi('pregled', 'pregled_zgrade', { zgrada_id: id, izvor: 'teren' });
+  prikazi();
+});
+
+document.querySelectorAll('#trakaStatus .cip').forEach(c => {
+  c.addEventListener('click', () => {
+    document.querySelectorAll('#trakaStatus .cip').forEach(x => x.classList.remove('aktivan'));
+    c.classList.add('aktivan');
+    filterStatus = c.dataset.status;
+    Dnevnik.zapisiOdgodjeno('pregled', 'teren_filter_status', { status: filterStatus || 'sve' }, 1200);
+    prikazi();
+  });
+});
+
+document.querySelectorAll('#trakaRadijus .cip').forEach(c => {
+  c.addEventListener('click', () => {
+    document.querySelectorAll('#trakaRadijus .cip').forEach(x => x.classList.remove('aktivan'));
+    c.classList.add('aktivan');
+    radijus = Number(c.dataset.radijus);
+    Dnevnik.zapisiOdgodjeno('pregled', 'teren_radijus', { metara: radijus }, 1200);
+    prikazi();
+  });
+});
+
+// ---------- Start ----------
+(async function start(){
+  try {
+    for (let i = 0; i < 60 && !window.__korisnik; i++) await new Promise(r => setTimeout(r, 50));
+    const meta = (window.__korisnik && window.__korisnik.user_metadata) || {};
+    korisnikIme = meta.puno_ime || meta.full_name || meta.name ||
+                  (window.__korisnik && window.__korisnik.email) || null;
+    $('#izIme').textContent = korisnikIme || '–';
+    $('#izEmail').textContent = (window.__korisnik && window.__korisnik.email) || '–';
+
+    pratiLokaciju();
+    await ucitajIndeks();
+
+    // Statuse dohvaćamo samo za zgrade u najširem krugu, ne za svih 28 tisuća.
+    // Čekamo prvu poziciju - bez nje ne znamo koje su to.
+    const cekajPoziciju = new Promise(r => {
+      const t = setInterval(() => { if (mojaPozicija){ clearInterval(t); r(); } }, 200);
+      setTimeout(() => { clearInterval(t); r(); }, 12000);
+    });
+    await cekajPoziciju;
+
+    if (mojaPozicija){
+      const blizu = sveZgrade
+        .filter(z => udaljenost(mojaPozicija.lat, mojaPozicija.lon, z.y, z.x) <= 5000)
+        .map(z => z.i);
+      await dohvatiStatuse(blizu);
+      Dnevnik.zapisi('sustav', 'teren_spreman', {
+        zgrada_ukupno: sveZgrade.length, u_krugu_5km: blizu.length,
+        tocnost_m: Math.round(mojaPozicija.tocnost)
+      });
+    }
+    prikazi();
+  } catch (err){
+    Dnevnik.greska('teren_start', err, { fatalno: true });
+    $('#popis').innerHTML = '<div class="stanje"><b>Greška pri učitavanju</b>' + escapeHtml(err.message) + '</div>';
+  }
+})();
+</script>
+
+</body>
+</html>

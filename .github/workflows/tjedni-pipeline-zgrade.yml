@@ -36,6 +36,11 @@ jobs:
       - name: Unakrsna provjera s novim DGU adresama
         run: node scripts/dgu-osm-krizna-provjera.js
 
+      # Laki indeks za terenski ekran. MORA ici poslije krizne provjere,
+      # da pokupi i DGU adrese koje ona pripise zgradama.
+      - name: Generiraj terenski indeks
+        run: node scripts/generiraj-teren-indeks.js
+
       - name: Commitaj promjene (ako ih ima)
         if: always()
         run: |
