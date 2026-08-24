@@ -15,7 +15,19 @@
 const zlib = require("zlib");
 
 const INDEKS_URL = "https://bfppub.blob.core.windows.net/$web/2026-08-13/dataset-links.csv";
-const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
+
+// Javni Overpass odbija zahtjeve bez User-Agenta s HTTP 406. Koristimo isti
+// niz kao ostale skripte u projektu.
+const USER_AGENT = require("./zgrade-config").USER_AGENT ||
+  "novogradnja2-pipeline/1.0 (kontakt: ea11599 na GitHubu)";
+
+// Vise posluzitelja - javni je cesto zauzet. Redom se pokusava dok jedan ne
+// odgovori.
+const OVERPASS_POSLUZITELJI = [
+  "https://overpass-api.de/api/interpreter",
+  "https://overpass.kumi.systems/api/interpreter",
+  "https://overpass.osm.ch/api/interpreter",
+];
 
 // Okviri gradova: [minLon, minLat, maxLon, maxLat]
 const GRADOVI = {
@@ -101,7 +113,7 @@ function uPoligonu(tocka, prsten) {
 // ---------- Dohvat ----------
 async function skini(url, opis) {
   process.stdout.write(`  ${opis}... `);
-  const res = await fetch(url);
+  const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
   if (!res.ok) throw new Error(`HTTP ${res.status} za ${url}`);
   const buf = Buffer.from(await res.arrayBuffer());
   console.log(`${(buf.length / 1024 / 1024).toFixed(1)} MB`);
@@ -159,13 +171,39 @@ async function osmZgrade(okvir) {
 out geom;`;
 
   process.stdout.write("  OSM zgrade preko Overpassa... ");
-  const res = await fetch(OVERPASS_URL, {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: "data=" + encodeURIComponent(upit),
-  });
-  if (!res.ok) throw new Error(`Overpass HTTP ${res.status}`);
-  const podaci = await res.json();
+
+  let podaci = null;
+  let zadnjaGreska = null;
+  for (const posluzitelj of OVERPASS_POSLUZITELJI) {
+    for (let pokusaj = 1; pokusaj <= 3; pokusaj++) {
+      try {
+        const res = await fetch(posluzitelj, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+          },
+          body: "data=" + encodeURIComponent(upit),
+        });
+        if (res.status === 429 || res.status === 504) {
+          zadnjaGreska = new Error(`HTTP ${res.status}`);
+          await new Promise((r) => setTimeout(r, 10000 * pokusaj));
+          continue;
+        }
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        podaci = await res.json();
+        break;
+      } catch (e) {
+        zadnjaGreska = e;
+        await new Promise((r) => setTimeout(r, 5000 * pokusaj));
+      }
+    }
+    if (podaci) break;
+    console.log(`\n     ${posluzitelj} ne odgovara (${zadnjaGreska && zadnjaGreska.message}), pokušavam drugi...`);
+    process.stdout.write("  ");
+  }
+  if (!podaci) throw new Error(`Nijedan Overpass poslužitelj nije odgovorio: ${zadnjaGreska && zadnjaGreska.message}`);
 
   const poligoni = [];
   (podaci.elements || []).forEach((el) => {
