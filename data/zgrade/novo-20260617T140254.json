@@ -39,7 +39,13 @@
       "changeset": 184098397,
       "osmUser": "DominikNew",
       "nearestStreet": "Ulica Franje Lovrića",
-      "nearestStreetDist": 26
+      "nearestStreetDist": 26,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim krovom terrakota/crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:54.091Z"
+      }
     },
     {
       "id": "way/1529385050",
@@ -115,7 +121,13 @@
         "postcode": "44000",
         "city": "Sisak"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov tamne boje (tamnoplava/crna) koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:54.153Z"
+      }
     },
     {
       "id": "way/1529385051",
@@ -151,7 +163,13 @@
       "changeset": 184098397,
       "osmUser": "DominikNew",
       "nearestStreet": "Ulica Vatroslava Lisinskog",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim krovom i građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:54.013Z"
+      }
     },
     {
       "id": "way/1529432577",
@@ -187,7 +205,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 59
+      "nearestStreetDist": 59,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiv krov objekta sa plavim bazenom ili strukturom, kao i dijelovi zgrada omkring lokacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:54.506Z"
+      }
     },
     {
       "id": "way/1529432578",
@@ -223,7 +247,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 59
+      "nearestStreetDist": 59,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv krov zgrade sa tamnom bojom, окружен manjim zgradama i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:54.593Z"
+      }
     },
     {
       "id": "way/1529432579",
@@ -259,7 +289,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 74
+      "nearestStreetDist": 74,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/tamna konstrukcija koja predstavlja krov zgrade sa vidljivom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:54.547Z"
+      }
     },
     {
       "id": "way/1529432580",
@@ -299,7 +335,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 69
+      "nearestStreetDist": 69,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrede tamnije boje sa vidljivom strukturom i konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:54.636Z"
+      }
     },
     {
       "id": "way/1529432581",
@@ -367,7 +409,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 86
+      "nearestStreetDist": 86,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina sa krovom i okolnim zelenim površinama i putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:54.609Z"
+      }
     },
     {
       "id": "way/1529432582",
@@ -403,7 +451,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 132
+      "nearestStreetDist": 132,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna građevina sa krovom, vjerojatno industrijska ili skladišna zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:54.864Z"
+      }
     },
     {
       "id": "way/1529432583",
@@ -439,7 +493,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 218
+      "nearestStreetDist": 218,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada sa sivim krovom i pravokutnim obrisom, okružena travnatom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:55.035Z"
+      }
     },
     {
       "id": "way/1529432584",
@@ -479,7 +539,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 174
+      "nearestStreetDist": 174,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna struktura koja predstavlja krov ili građevinu, jasno razvidljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:57.187Z"
+      }
     },
     {
       "id": "way/1529432586",
@@ -515,7 +581,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je struktura s krovom u centralnom dijelu snimke, s jasno vidljivim crvenim/ciglastim krovnim materijalima i zgradnom konturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:57.390Z"
+      }
     },
     {
       "id": "way/1529432587",
@@ -551,7 +623,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 52
+      "nearestStreetDist": 52,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa crvenim/smeđim krovom i pravokutnim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:57.290Z"
+      }
     },
     {
       "id": "way/1529432588",
@@ -603,7 +681,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 41
+      "nearestStreetDist": 41,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/smeđim krovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:57.204Z"
+      }
     },
     {
       "id": "way/1529432595",
@@ -639,7 +723,13 @@
       "changeset": 184106570,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 44
+      "nearestStreetDist": 44,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je jasna građevina sa krovom u centru kadra, vidljive su zidove i strukturu objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:57.081Z"
+      }
     },
     {
       "id": "way/1529433406",
@@ -689,7 +779,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov objekta sa jasno definiranim rubovima i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:56.978Z"
+      }
     },
     {
       "id": "way/1529433407",
@@ -725,7 +821,13 @@
       "changeset": 184106800,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/terrakota krovom i białim zidovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:57.122Z"
+      }
     },
     {
       "id": "way/1529433512",
@@ -767,7 +869,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa karakterističnom strukturom i crvenom bojom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:57.162Z"
+      }
     },
     {
       "id": "way/1529433513",
@@ -803,7 +911,13 @@
       "changeset": 184106904,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 54
+      "nearestStreetDist": 54,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa svetlim krovom (verovatno bela/svetla boja) okružena vegetacijom i drvećem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:57.368Z"
+      }
     },
     {
       "id": "way/1529433514",
@@ -839,7 +953,13 @@
       "changeset": 184106904,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 71
+      "nearestStreetDist": 71,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/narančasti krov zgrade okružen vegetacijom i drvećem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:53:58.371Z"
+      }
     },
     {
       "id": "way/1529433515",
@@ -875,7 +995,13 @@
       "changeset": 184106904,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 60
+      "nearestStreetDist": 60,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s vidljivim krovom, crvenkasto-smeđe boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.506Z"
+      }
     },
     {
       "id": "way/1529433516",
@@ -911,7 +1037,13 @@
       "changeset": 184106904,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 37
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva crvena/smeđa zgrada sa krovom i pripadajućim objektima, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.520Z"
+      }
     },
     {
       "id": "way/1529433517",
@@ -959,7 +1091,13 @@
       "changeset": 184106904,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 45
+      "nearestStreetDist": 45,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov građevine sa okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.575Z"
+      }
     },
     {
       "id": "way/1529433518",
@@ -1009,7 +1147,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa građevina sa krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.523Z"
+      }
     },
     {
       "id": "way/1529443572",
@@ -1053,7 +1197,13 @@
       "changeset": 184108159,
       "osmUser": "Aranc",
       "nearestStreet": "Novi Novaki",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada sa jasno vidljivim krovom crvene/smeđe boje i prizemnim dijelom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.565Z"
+      }
     },
     {
       "id": "way/1529443573",
@@ -1093,7 +1243,13 @@
       "changeset": 184108159,
       "osmUser": "Aranc",
       "nearestStreet": "Novi Novaki",
-      "nearestStreetDist": 32
+      "nearestStreetDist": 32,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krovovi zgrada sa rozim/crvenim pokrovom i pratećim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.692Z"
+      }
     },
     {
       "id": "way/1529443574",
@@ -1133,7 +1289,13 @@
       "changeset": 184108159,
       "osmUser": "Aranc",
       "nearestStreet": "Novi Novaki",
-      "nearestStreetDist": 39
+      "nearestStreetDist": 39,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva pravokutna građevina s ružičastim krovom okružena zelenim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.418Z"
+      }
     },
     {
       "id": "way/1529443575",
@@ -1169,7 +1331,13 @@
       "changeset": 184108159,
       "osmUser": "Aranc",
       "nearestStreet": "Novi Novaki",
-      "nearestStreetDist": 41
+      "nearestStreetDist": 41,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom i pratećim objektima okruženim zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.628Z"
+      }
     },
     {
       "id": "way/1529443576",
@@ -1205,7 +1373,13 @@
       "changeset": 184108159,
       "osmUser": "Aranc",
       "nearestStreet": "Novi Novaki",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno izgrađene strukture sa crvenim/ružičastim krovovima i tamnim površinama, kao i beton/asfalt sa bijelim vozilom na cesti.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.886Z"
+      }
     },
     {
       "id": "way/1529443577",
@@ -1241,7 +1415,13 @@
       "changeset": 184108159,
       "osmUser": "Aranc",
       "nearestStreet": "Novi Novaki",
-      "nearestStreetDist": 51
+      "nearestStreetDist": 51,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa svetlijom bojom, jasno izdvojen od okolnog terena i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:00.850Z"
+      }
     },
     {
       "id": "way/1529443578",
@@ -1281,7 +1461,13 @@
       "changeset": 184108159,
       "osmUser": "Aranc",
       "nearestStreet": "Ilovac",
-      "nearestStreetDist": 41
+      "nearestStreetDist": 41,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je pravokutna građevina sa jasno vidljivim krovom, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:02.994Z"
+      }
     },
     {
       "id": "way/1529443579",
@@ -1333,7 +1519,13 @@
       "changeset": 184108159,
       "osmUser": "Aranc",
       "nearestStreet": "Kaštel",
-      "nearestStreetDist": 43
+      "nearestStreetDist": 43,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je jasno krov građevine sa sivom/betonskom bojom, okružen zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:03.086Z"
+      }
     },
     {
       "id": "way/1529443580",
@@ -1369,7 +1561,13 @@
       "changeset": 184108159,
       "osmUser": "Aranc",
       "nearestStreet": "Kaštel",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine/zgrade sive boje, jasno razlikujući se od okolne vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:03.001Z"
+      }
     },
     {
       "id": "way/1529621650",
@@ -1417,7 +1615,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi više građevina sa jasno vidljivim strukturama i sjenama koje ukazuju na izgrađene objekte.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:03.220Z"
+      }
     },
     {
       "id": "way/1529621652",
@@ -1453,7 +1657,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa krovom crvene/smeđe boje i pratećim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:03.263Z"
+      }
     },
     {
       "id": "way/1529621653",
@@ -1489,7 +1699,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva veća zgrada sa terracotta/narančastim krovom i pratećim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:03.182Z"
+      }
     },
     {
       "id": "way/1529621654",
@@ -1531,7 +1747,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s vidljivim krovom od crvene/narančaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:03.022Z"
+      }
     },
     {
       "id": "way/1529621655",
@@ -1575,7 +1797,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi više zgrada sa vidljivim krovovima u različitim bojama (crvena, siva, zelena).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:03.278Z"
+      }
     },
     {
       "id": "way/1529621656",
@@ -1615,7 +1843,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vide Multiple građevine sa krovovima u crvenim/ružičastim i sivim tonovima, centralno pozicionirane na snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:03.510Z"
+      }
     },
     {
       "id": "way/1529621657",
@@ -1667,7 +1901,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenom/terakota bojom krova, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:03.056Z"
+      }
     },
     {
       "id": "way/1529621658",
@@ -1707,7 +1947,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/rjavo-crvenim krovom i jasno definiranim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:05.961Z"
+      }
     },
     {
       "id": "way/1529621659",
@@ -1743,7 +1989,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi nekoliko zgrada sa jasno vidljivim strukturama i sivim/tamnim površinama tipičnim za građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:06.256Z"
+      }
     },
     {
       "id": "way/1529621660",
@@ -1791,7 +2043,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljivi su krovovi i građevine sa crvenkastvim i sivim pokrivačima u centralnom i obližnjim dijelovima snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:06.027Z"
+      }
     },
     {
       "id": "way/1529621661",
@@ -1835,7 +2093,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa krovom crvene/smeđe boje okružena vegetacijom i pristupnim putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:05.901Z"
+      }
     },
     {
       "id": "way/1529621662",
@@ -1871,7 +2135,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi i strukture zgrada sa jasno vidljivim konturama i sjenama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:07.630Z"
+      }
     },
     {
       "id": "way/1529621663",
@@ -1907,7 +2177,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva beža/siva građevina (kuća) sa krovom, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:05.620Z"
+      }
     },
     {
       "id": "way/1529621664",
@@ -1943,7 +2219,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada s crvenim/tamnim krovom i jasno vidljivim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:05.664Z"
+      }
     },
     {
       "id": "way/1529621665",
@@ -1983,7 +2265,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamnija struktura koja se pokazuje kao izgrađena zgrada s krovom, okružena zelenim površinama i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:05.756Z"
+      }
     },
     {
       "id": "way/1529621666",
@@ -2023,7 +2311,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv krov zgrade crvene/smeđe boje sa strukturom koja ukazuje na izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:05.711Z"
+      }
     },
     {
       "id": "way/1529621667",
@@ -2065,7 +2359,13 @@
         "postcode": "42000",
         "city": "Varaždin"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/smeđi krov građevine sa vidljivim obrisima zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:06.571Z"
+      }
     },
     {
       "id": "way/1529621668",
@@ -2101,7 +2401,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-15T09:01:42Z",
       "changeset": 184126771,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura s crvenim/ružičastim krovom i okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:09.588Z"
+      }
     },
     {
       "id": "way/1529650539",
@@ -2143,7 +2449,13 @@
         "postcode": "22235",
         "city": "Kaprije"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddikast krov zgrade okružen zelenim površinama i pristupnim putanjem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:09.804Z"
+      }
     },
     {
       "id": "way/1529650541",
@@ -2185,7 +2497,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-15T10:51:36Z",
       "changeset": 184131120,
-      "osmUser": "Šišmiš"
+      "osmUser": "Šišmiš",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade sa četvrtastim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:09.842Z"
+      }
     },
     {
       "id": "way/1529650542",
@@ -2219,7 +2537,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-15T10:51:36Z",
       "changeset": 184131120,
-      "osmUser": "Šišmiš"
+      "osmUser": "Šišmiš",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasno definirana građevina sa krovom svjetlijeg tona okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:09.839Z"
+      }
     },
     {
       "id": "way/1529650543",
@@ -2253,7 +2577,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-15T10:51:36Z",
       "changeset": 184131120,
-      "osmUser": "Šišmiš"
+      "osmUser": "Šišmiš",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom, okružena vegetacijom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:09.761Z"
+      }
     },
     {
       "id": "way/1529669819",
@@ -2327,7 +2657,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/rozičasti krov kuće sa pripadajućom građevinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:09.859Z"
+      }
     },
     {
       "id": "way/1529669820",
@@ -2363,7 +2699,13 @@
       "changeset": 184133938,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Augusta Šenoe",
-      "nearestStreetDist": 19
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva velika građevina sa krovom i prizemnim dijelovima, okružena travnatim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:09.946Z"
+      }
     },
     {
       "id": "way/1529669821",
@@ -2445,7 +2787,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi krov građevine sa svetlijom bojom, okružen zelenim površinama i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:10.001Z"
+      }
     },
     {
       "id": "way/1529669822",
@@ -2511,7 +2859,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenkastim/ružičastim krovom i tamnom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:09.796Z"
+      }
     },
     {
       "id": "way/1529669823",
@@ -2547,7 +2901,13 @@
       "changeset": 184133938,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Nikole Tesle",
-      "nearestStreetDist": 6
+      "nearestStreetDist": 6,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada sa crvenim/ružičastim krovom i susjedne građevine sa sivim krovovima uz obalni dio.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:09.969Z"
+      }
     },
     {
       "id": "way/1529669824",
@@ -2613,7 +2973,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom smeđe boje okružena vodom/more.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.171Z"
+      }
     },
     {
       "id": "way/1529669825",
@@ -2663,7 +3029,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasan krov zgrade sa svetlosivom bojom i pravokutnim obrisima",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.072Z"
+      }
     },
     {
       "id": "way/1529669826",
@@ -2721,7 +3093,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi pravokutna građevina sa svetlijom bojom krova, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.167Z"
+      }
     },
     {
       "id": "way/1529669827",
@@ -2799,7 +3177,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena struktura s krovom, jasno razlučiva kao građevina na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.180Z"
+      }
     },
     {
       "id": "way/1529669828",
@@ -2857,7 +3241,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov crvene/roza boje sa vidljivom građevnom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.079Z"
+      }
     },
     {
       "id": "way/1529669829",
@@ -2931,7 +3321,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva betonska ili asfaltna površina sa strukturom građevine i krovom",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.090Z"
+      }
     },
     {
       "id": "way/1529669830",
@@ -2985,7 +3381,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je veća zgrada sa očitim krovom i građevinskom strukturom, prikazana u sivoj i smeđoj boji.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.263Z"
+      }
     },
     {
       "id": "way/1529669831",
@@ -3027,7 +3429,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva velika zgrada sa jasno vidljivim krovom i strukturom, okružena parkirnom zonom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.213Z"
+      }
     },
     {
       "id": "way/1529669832",
@@ -3075,7 +3483,13 @@
       "changeset": 184133938,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Matije Gupca",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je izgrađena zgrada sa vidljivim krovom i strukturom u centralnom dijelu snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.014Z"
+      }
     },
     {
       "id": "way/1529669833",
@@ -3133,7 +3547,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom i jasno definiranima građevinskim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:12.577Z"
+      }
     },
     {
       "id": "way/1529669834",
@@ -3175,7 +3595,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je reddasta/smeđa krovna konstrukcija koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:14.831Z"
+      }
     },
     {
       "id": "way/1529669835",
@@ -3233,7 +3659,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika zgrada sa tamno plavim krovom, jasno prepoznatljiva kao izgrađena struktura.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:14.738Z"
+      }
     },
     {
       "id": "way/1529669836",
@@ -3299,7 +3731,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno definiranim krovom svjetlijeg tona, okružena zelenim površinama i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:15.373Z"
+      }
     },
     {
       "id": "way/1529669837",
@@ -3335,7 +3773,13 @@
       "changeset": 184133938,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Augusta Šenoe",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide krovovi više zgrada sa различitim bojama (bijela, crvena, zelena), što ukazuje na izgrađene objekte.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:14.842Z"
+      }
     },
     {
       "id": "way/1529682365",
@@ -3382,6 +3826,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s krovom (svjetlija površina) okružena zelenim površinama i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:14.855Z"
       }
     },
     {
@@ -3429,6 +3879,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s vidljivim krovom crvene/ružičaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:14.675Z"
       }
     },
     {
@@ -3470,6 +3926,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom i jasno vidljivim konturama objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:14.885Z"
       }
     },
     {
@@ -3537,6 +3999,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim krovom i strukturom, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:14.779Z"
       }
     },
     {
@@ -3598,6 +4066,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom crvene boje okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:14.624Z"
       }
     },
     {
@@ -3645,6 +4119,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa crvenim/ružičastim krovom i tamnom podstrukom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:14.758Z"
       }
     },
     {
@@ -3700,6 +4180,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa karakterističnom strukturom i bojom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:17.364Z"
       }
     },
     {
@@ -3747,6 +4233,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa više boja (zelena, crvena, plava) i białim dijelovima, što ukazuje na izgrađenu strukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:17.752Z"
       }
     },
     {
@@ -3798,6 +4290,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada sa jasnom strukturom i različitim bojama koje ukazuju na izgrađene objekte.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:19.029Z"
       }
     },
     {
@@ -3851,6 +4349,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenim krovom i većim građevinskim kompleksom sa više zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:17.558Z"
       }
     },
     {
@@ -3938,6 +4442,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/roza krovna konstrukcija, najvjerojatnije stambena zgrada sa jasno vidljivim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:17.816Z"
       }
     },
     {
@@ -3989,6 +4499,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljivi su krovovi zgrada sa crvenim/ružičastim pokrovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:17.535Z"
       }
     },
     {
@@ -4036,6 +4552,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika zgrada sa crvenim/ružičastim krovom i dodatnim manjim strukturama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:17.538Z"
       }
     },
     {
@@ -4101,6 +4623,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade sa jasnim konturama i strukturom građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:17.532Z"
       }
     },
     {
@@ -4146,6 +4674,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa crvenastim/roze krovom i vidljivim dijelovima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:17.578Z"
       }
     },
     {
@@ -4193,6 +4727,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/ružičastim krovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:17.399Z"
       }
     },
     {
@@ -4244,6 +4784,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade s vidljivom strukturom i crvenom/ružičastom bojom pokrova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.386Z"
       }
     },
     {
@@ -4313,6 +4859,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/rozičastim krovom okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.019Z"
       }
     },
     {
@@ -4380,6 +4932,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa krovom crvene boje i dijelovima zelene/tamnije boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.167Z"
       }
     },
     {
@@ -4427,6 +4985,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov zgrade sa crvenim/ružičastim pločicama i jasno definiranim rubovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.185Z"
       }
     },
     {
@@ -4476,6 +5040,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom i zelenim okolnim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.603Z"
       }
     },
     {
@@ -4521,6 +5091,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi nekoliko zgrada sa jasno razlučivim strukturama i različitim bojama pokrova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.185Z"
       }
     },
     {
@@ -4568,6 +5144,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa krovom u boji (tamno plava i crvena/roza boja).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.245Z"
       }
     },
     {
@@ -4609,6 +5191,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa jasno vidljivim krovom crvene/ružičaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.021Z"
       }
     },
     {
@@ -4650,6 +5238,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina sa tamnim krovom, okružena poljoprivrednim parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.019Z"
       }
     },
     {
@@ -4699,6 +5293,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov zgrade crvene/terakota boje sa jasno vidljivim ogranicama građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:21.267Z"
       }
     },
     {
@@ -4750,6 +5350,12 @@
         "changeset": 184135574,
         "brojZgrada": 27,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov zgrade sa jasno vidljivim konturama i strukturom objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.668Z"
       }
     },
     {
@@ -4786,7 +5392,13 @@
       "changeset": 184135964,
       "osmUser": "Vedran V",
       "nearestStreet": "Kolodvorska ulica",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa krovna konstrukcija sa jasno vidljivim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.808Z"
+      }
     },
     {
       "id": "way/1529706041",
@@ -4827,6 +5439,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom karakterističnog oblika i boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.713Z"
       }
     },
     {
@@ -4878,6 +5496,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/smeđim krovom i vidljivim structural details.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.869Z"
       }
     },
     {
@@ -4925,6 +5549,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s rožnjastim krovom i tamnijom bojom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.789Z"
       }
     },
     {
@@ -4972,6 +5602,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasno vidljivim strukturama i tamnijom bojom karakterističnom za pokrivnu površinu zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.943Z"
       }
     },
     {
@@ -5019,6 +5655,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena građevina sa jasno vidljivim krovom i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.548Z"
       }
     },
     {
@@ -5066,6 +5708,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena građevina sa crvenim/rozim krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.750Z"
       }
     },
     {
@@ -5117,6 +5765,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa zemljanim/crvenim krovom, okružena biljnom masom i prometnicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.762Z"
       }
     },
     {
@@ -5168,6 +5822,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela zgrada sa krovom i okolnom infrastrukturom na svijetloj podlozi.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:23.841Z"
       }
     },
     {
@@ -5219,6 +5879,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva reddasta/ružičasta krovna struktura s više dijelova i pravokutnom osnovom, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:26.583Z"
       }
     },
     {
@@ -5270,6 +5936,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva crvena/roze kuća s krovom, okružena parcelama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:26.254Z"
       }
     },
     {
@@ -5321,6 +5993,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s karakterističnim krovom i jasno definiransom građevinom okruženom poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:26.313Z"
       }
     },
     {
@@ -5372,6 +6050,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s krovom i pristupnim putom, okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:26.075Z"
       }
     },
     {
@@ -5423,6 +6107,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna siva/tamna struktura krovišta s pravokutnim oblikom karakterističnim za izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:26.226Z"
       }
     },
     {
@@ -5474,6 +6164,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je beige/siva građevina sa vidljivim krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:26.075Z"
       }
     },
     {
@@ -5521,6 +6217,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska ili asfaltna površina građevine sa krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:26.091Z"
       }
     },
     {
@@ -5568,6 +6270,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljivi su krovovi zgrada i građevina okruženi vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:26.218Z"
       }
     },
     {
@@ -5631,6 +6339,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:25.842Z"
       }
     },
     {
@@ -5672,6 +6386,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna crvena/smeđa krovna površina građevine okružene zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:26.282Z"
       }
     },
     {
@@ -5713,6 +6433,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa svjetlijim krovom okružena vegetacijom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:28.852Z"
       }
     },
     {
@@ -5760,6 +6486,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa видljivим krovom, vjerojatno poljoprivredni objekt ili manja zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:28.695Z"
       }
     },
     {
@@ -5807,6 +6539,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/terakota krov građevine sa što izgleda kao kuća ili manja zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:28.860Z"
       }
     },
     {
@@ -5854,6 +6592,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom okružena poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:28.947Z"
       }
     },
     {
@@ -5901,6 +6645,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom, vidljiva kao svjetlija površina okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:28.764Z"
       }
     },
     {
@@ -5952,6 +6702,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa sivim krovom i njezinim omotačem, okružena vegetacijom i pristupnim putovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:29.067Z"
       }
     },
     {
@@ -5993,6 +6749,12 @@
         "changeset": 184138726,
         "brojZgrada": 25,
         "korisnik": "Dean Leichtle"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva betonska zgrada sa sivim krovom i pracama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:28.747Z"
       }
     },
     {
@@ -6048,6 +6810,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva velika zgrada sa crvenim/smeđim krovom okružena poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:28.739Z"
       }
     },
     {
@@ -6089,6 +6857,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno su vidljive građevine sa crvenim krovom i betonskim površinama okružene zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:29.580Z"
       }
     },
     {
@@ -6138,6 +6912,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa krovom plave/tamne boje okružena poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:29.730Z"
       }
     },
     {
@@ -6193,6 +6973,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/narančasta krovna konstrukcija koja je jasno razlikovita od okružujućeg zelenog i poljoprivrednog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:31.993Z"
       }
     },
     {
@@ -6234,6 +7020,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa crvenim/ružičastim krovom i pratećim gospodarskim objektima, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:32.010Z"
       }
     },
     {
@@ -6281,6 +7073,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi tamna građevina s krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:31.727Z"
       }
     },
     {
@@ -6336,6 +7134,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva velika zgrada sa tamnim krovom, okružena zelenim poljima i manjim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:31.815Z"
       }
     },
     {
@@ -6385,6 +7189,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv krov zgrade sa braon/crvenom bojom uz zelene površine oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:31.830Z"
       }
     },
     {
@@ -6426,6 +7236,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenim/ružičastim krovom okružena zelenilom i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:32.006Z"
       }
     },
     {
@@ -6473,6 +7289,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa terrakota/crvenim krovom i nekoliko manjih zgrada sa sličnom bojom krovova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:32.161Z"
       }
     },
     {
@@ -6528,6 +7350,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa crvenim/smeđim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:38.373Z"
       }
     },
     {
@@ -6575,6 +7403,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva crvena/smeđa građevina (vjerojatno kuća) sa krovom, okružena zelenim poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:32.013Z"
       }
     },
     {
@@ -6616,6 +7450,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:32.341Z"
       }
     },
     {
@@ -6657,6 +7497,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada sa krovom, okružena zelenim površinama i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.150Z"
       }
     },
     {
@@ -6704,6 +7550,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov zgrade crvene boje sa okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.428Z"
       }
     },
     {
@@ -6745,6 +7597,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa krovna konstrukcija sa jasno vidljivim konturama zgrade okružene vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.904Z"
       }
     },
     {
@@ -6794,6 +7652,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena građevina tamnije boje sa krovom, okružena zelenilom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.429Z"
       }
     },
     {
@@ -6843,6 +7707,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa krovna konstrukcija stambene zgrade sa okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.482Z"
       }
     },
     {
@@ -6890,6 +7760,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/rozičastim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.387Z"
       }
     },
     {
@@ -6937,6 +7813,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa jasno vidljivim krovom crvene boje, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.548Z"
       }
     },
     {
@@ -6984,6 +7866,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su očito izgrađene strukture sa crvenim/rozičastim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.690Z"
       }
     },
     {
@@ -7025,6 +7913,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom i tamnim dijelovima, okružena poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.857Z"
       }
     },
     {
@@ -7080,6 +7974,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/ružičastim krovom okružena poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:41.917Z"
       }
     },
     {
@@ -7121,6 +8021,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva bijela/svijetla zgrada sa krovom, okružena zelenim površinama i druge građevine sa crvenim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:44.197Z"
       }
     },
     {
@@ -7162,6 +8068,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika bijela/siva zgrada sa crvenim krovovima i pratećim manjim strukturama okruženim zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:44.163Z"
       }
     },
     {
@@ -7211,6 +8123,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina sa crvenim/ružičastim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:44.079Z"
       }
     },
     {
@@ -7252,6 +8170,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom, jasno vidljiva između zelenih površina i vode.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:44.015Z"
       }
     },
     {
@@ -7293,6 +8217,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su dijelovi građevina sa različitim bojama krovova (ružičaste i sive boje) koja указuje na izgrađene objekte.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:44.560Z"
       }
     },
     {
@@ -7340,6 +8270,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/rozim krovom, jasno vidljiva između zelenih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:44.222Z"
       }
     },
     {
@@ -7389,6 +8325,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa vidljivo različitim bojama krovova (crvena i siva boja) te okružena poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:44.126Z"
       }
     },
     {
@@ -7436,6 +8378,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenkastim krovom okružena poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:43.932Z"
       }
     },
     {
@@ -7483,6 +8431,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je rožnjasti krov građevine sa jasnom strukturom i senkom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:44.299Z"
       }
     },
     {
@@ -7524,6 +8478,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva crvena/roza krovna konstrukcija u gornjem dijelu kadra, te zelene površine koje izgledaju kao poljoprivredne površine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:44.350Z"
       }
     },
     {
@@ -7571,6 +8531,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva crveno-narančasta struktura (krov ili građevina) okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:46.806Z"
       }
     },
     {
@@ -7618,6 +8584,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/mjesovitim krovom i okolnim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:46.855Z"
       }
     },
     {
@@ -7683,6 +8655,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/smeđim krovom i betonskom površinom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:46.837Z"
       }
     },
     {
@@ -7732,6 +8710,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada sa crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:46.706Z"
       }
     },
     {
@@ -7779,6 +8763,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je reddasta/smeđa krovna struktura stambene zgrade okružene zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:46.815Z"
       }
     },
     {
@@ -7828,6 +8818,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi roza/crveni krov građevine sa crnim dijelom, okružene zelenom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:47.131Z"
       }
     },
     {
@@ -7891,6 +8887,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura s krovom boje opeke/crvene boje, jasno vidljiva kao građevina na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:46.752Z"
       }
     },
     {
@@ -7940,6 +8942,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je bijelarozškara zgrada/građevina sa jasno vidljivim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:46.915Z"
       }
     },
     {
@@ -7989,6 +8997,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina sa krovom (crvenkastom bojom) i pratećim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:46.589Z"
       }
     },
     {
@@ -8030,6 +9044,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddkasto-smeđi krov zgrade sa jasnim konturama i geometrijskim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:46.782Z"
       }
     },
     {
@@ -8071,6 +9091,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa crvenkastvim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:49.514Z"
       }
     },
     {
@@ -8136,6 +9162,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina sa krovom, vidljivi su paralelni pravokutni obrasci koji označavaju strukturu zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:49.262Z"
       }
     },
     {
@@ -8177,6 +9209,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je reddkasti/terracotta krov zgrade okružene zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:49.315Z"
       }
     },
     {
@@ -8224,6 +9262,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv reddish-brown krov zgrade sa okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:49.302Z"
       }
     },
     {
@@ -8265,6 +9309,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide dvije građevine sa crvenim/ružičastim krovovima okružene zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:59.385Z"
       }
     },
     {
@@ -8306,6 +9356,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrađena struktura sa crvenim/terakota krovom i tamnije obojenim dijelom, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:49.407Z"
       }
     },
     {
@@ -8353,6 +9409,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je bijeli krov građevine okružen zelenim površinama i putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:49.372Z"
       }
     },
     {
@@ -8402,6 +9464,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna građevina sa krovom (smeđe/crvene boje) okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:49.712Z"
       }
     },
     {
@@ -8443,6 +9511,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasno izdvojena građevina sa tamnim krovom na svetloj pozadini terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:54.534Z"
       }
     },
     {
@@ -8484,6 +9558,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine svijetline boje sa karakterističnim obrisima zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:54:52.859Z"
       }
     },
     {
@@ -8547,6 +9627,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa sivom bojom, jasno vidljive linije krovne konstrukcije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:02.151Z"
       }
     },
     {
@@ -8594,6 +9680,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika zgrada s krovom tamnije boje, okružena zelenim površinama i pristupnim putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:02.030Z"
       }
     },
     {
@@ -8635,6 +9727,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s krovom tamnije boje okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:02.386Z"
       }
     },
     {
@@ -8676,6 +9774,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je građevina sa krovom u центру snimke, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:02.302Z"
       }
     },
     {
@@ -8717,6 +9821,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa sivim/tamnim krovom i pratećim objektima oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:02.590Z"
       }
     },
     {
@@ -8772,6 +9882,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom crvenkaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:02.522Z"
       }
     },
     {
@@ -8813,6 +9929,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s crvenim/ružičastim krovom i bijela građevina pokraj nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:03.068Z"
       }
     },
     {
@@ -8854,6 +9976,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je beige/smeđa boja krovne površine građevine sa jasnom geometrijskom formom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:02.843Z"
       }
     },
     {
@@ -8895,6 +10023,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov crvene/smeđe boje koji predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:02.581Z"
       }
     },
     {
@@ -8942,6 +10076,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvenkasta/smeđa građevina (krov) sa jasnim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:02.665Z"
       }
     },
     {
@@ -8997,6 +10137,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.102Z"
       }
     },
     {
@@ -9038,6 +10184,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa krovom, vidljive su geometrijske strukture karakteristične za izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.233Z"
       }
     },
     {
@@ -9087,6 +10239,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna светла struktura - krov građevine sa svetlijom bojom od okoline, okružen vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.565Z"
       }
     },
     {
@@ -9142,6 +10300,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s više krovnih dijelova boje crvene/smeđe i bijele, okružena travnatom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.489Z"
       }
     },
     {
@@ -9205,6 +10369,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide najmanje dvije izgrađene zgrade sa vidljivim krovovima - crveni/ružičasti krov veće zgrade i bijeli krovovi manjih objekata.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.841Z"
       }
     },
     {
@@ -9246,6 +10416,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/smeđim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.376Z"
       }
     },
     {
@@ -9287,6 +10463,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta zgrada sa krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.246Z"
       }
     },
     {
@@ -9328,6 +10510,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljive su jasno izgrađene građevine sa krovovima i pratećim strukturama okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.340Z"
       }
     },
     {
@@ -9391,6 +10579,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina s vidljivim krovom i sjenom, smještena na poljoprivrednom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.322Z"
       }
     },
     {
@@ -9454,6 +10648,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je reddasta/smeđa zgrada sa krovom okružena zelenim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:05.281Z"
       }
     },
     {
@@ -9501,6 +10701,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa svetlim krovom i tamnijom strukturom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:17.944Z"
       }
     },
     {
@@ -9548,6 +10754,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena građevina/krov uz bijeli put koji prelazi kroz poljoprivrednu površinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:08.381Z"
       }
     },
     {
@@ -9589,6 +10801,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva crvena/smeđa krovna površina, očito izgrađena zgrada okružena poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:07.988Z"
       }
     },
     {
@@ -9630,6 +10848,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je konstrukcija sa crvenim/ružičastim krovom okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:17.623Z"
       }
     },
     {
@@ -9671,6 +10895,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva svetlija građevina sa krovom okružena tamnijom vegetacijom i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:08.035Z"
       }
     },
     {
@@ -9726,6 +10956,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je roza/bež obojana građevina sa jasno vidljivim krovom, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:08.114Z"
       }
     },
     {
@@ -9773,6 +11009,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/smeđim krovom i tamnim dijelovima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:07.944Z"
       }
     },
     {
@@ -9814,6 +11056,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom crvene/smeđe boje okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:07.877Z"
       }
     },
     {
@@ -9855,6 +11103,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa karakterističnim crvenim/smeđim pokrivaćem",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:07.908Z"
       }
     },
     {
@@ -9910,6 +11164,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je jasno izgrađena struktura sa krovom, vidljive su её kontute i sjene na tlu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:07.939Z"
       }
     },
     {
@@ -9973,6 +11233,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvenkasta/ružičasta krovna konstrukcija kuće okružene zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:21.157Z"
       }
     },
     {
@@ -10014,6 +11280,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je pravokutni krov zgrade sa jasno definiranim rubovima i različitom bojom od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:20.517Z"
       }
     },
     {
@@ -10077,6 +11349,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi smeđi/crveni krov zgrade sa pravokutnim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:20.651Z"
       }
     },
     {
@@ -10142,6 +11420,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine tamnije boje okružen zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:20.711Z"
       }
     },
     {
@@ -10189,6 +11473,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom tamne boje, vidljive su i okolne građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:20.784Z"
       }
     },
     {
@@ -10260,6 +11550,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi červeni/crveni krov većeg objekta sa tamnom centralnom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:21.409Z"
       }
     },
     {
@@ -10307,6 +11603,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine tamnije boje okružen vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:20.685Z"
       }
     },
     {
@@ -10348,6 +11650,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa sivom/tamnom bojom, okružen zelenim površinama i putnom vezom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:21.487Z"
       }
     },
     {
@@ -10397,6 +11705,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi građevina sa krovom (crvena/smeđa boja) u centru snimke okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:28.318Z"
       }
     },
     {
@@ -10446,6 +11760,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi pravokutna građevina s vidljivim krovom, okružena zelenilom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:21.137Z"
       }
     },
     {
@@ -10525,6 +11845,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina sa terakota-crvenim krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:30.801Z"
       }
     },
     {
@@ -10572,6 +11898,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/roze krovom, jasno vidljive građevine i konstrukcije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:31.212Z"
       }
     },
     {
@@ -10613,6 +11945,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno su vidljive dvije zgrade s crvenim/smeđim krovovima i dodatne građevine s tamnim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:31.370Z"
       }
     },
     {
@@ -10660,6 +11998,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade sa okolnim strukturama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:30.969Z"
       }
     },
     {
@@ -10701,6 +12045,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom i zelenom vegetacijom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:31.269Z"
       }
     },
     {
@@ -10758,6 +12108,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/tamnim krovom i pratećim građevinama okruženim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:31.157Z"
       }
     },
     {
@@ -10799,6 +12155,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiv crveni/smeđi krov kuće u gornjem lijevom dijelu centralnog dijela ortofota.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:36.611Z"
       }
     },
     {
@@ -10856,6 +12218,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva crvena/ružičasta krovišta glavne zgrade s pripadajućim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:31.155Z"
       }
     },
     {
@@ -10911,6 +12279,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa crvenim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:31.232Z"
       }
     },
     {
@@ -10958,6 +12332,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina sa vidljivim krovom, okružena zelenim površinama i poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:31.871Z"
       }
     },
     {
@@ -10999,6 +12379,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je reddkasta/smeđa struktura krova u centru snimke, okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.185Z"
       }
     },
     {
@@ -11046,6 +12432,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/ružičastim krovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.210Z"
       }
     },
     {
@@ -11103,6 +12495,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom i obližnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.248Z"
       }
     },
     {
@@ -11144,6 +12542,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi roza/crvena zgrada sa krovom i okolnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.189Z"
       }
     },
     {
@@ -11191,6 +12595,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa krovom u bež/crvenoj boji okružena zelenom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.518Z"
       }
     },
     {
@@ -11238,6 +12648,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom roza/crvene boje, jasno razlikovana od zelenih površina oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.468Z"
       }
     },
     {
@@ -11279,6 +12695,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna pravokutna građevina sa sivim krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.524Z"
       }
     },
     {
@@ -11320,6 +12742,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vide crvenkaste građevine sa vidljivim krovovima, okružene zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.832Z"
       }
     },
     {
@@ -11367,6 +12795,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddish-brown krov građevine sa bež/sivim dijelom objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.890Z"
       }
     },
     {
@@ -11414,6 +12848,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je roza/crvena građevina (krov) okružena zelenim poljima i šumskim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:39.752Z"
       }
     },
     {
@@ -11455,6 +12895,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je jasno vidljiv krov građevine sa crvenom/smeđom bojom na zeleni okolni teren.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:42.111Z"
       }
     },
     {
@@ -11502,6 +12948,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenim/ružičastim krovom i pratećim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:41.956Z"
       }
     },
     {
@@ -11543,6 +12995,12 @@
         "changeset": 184139380,
         "brojZgrada": 116,
         "korisnik": "Mihael3007"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi roze/crvenkasta zgrada sa tamnom (vjerovatno crnom) krovnom površinom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:42.216Z"
       }
     },
     {
@@ -11582,6 +13040,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva velika betonska/asfaltna površina sa tamnom strukturom koja predstavlja krov ili građevinu sa pravokutnim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:42.177Z"
       }
     },
     {
@@ -11629,6 +13093,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska zgrada sa sivim krovom, okružena vegetacijom i parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:41.947Z"
       }
     },
     {
@@ -11676,6 +13146,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa krovom (plava boja) i okolnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:41.995Z"
       }
     },
     {
@@ -11715,6 +13191,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva bijela/svjetla građevina sa krovom i zelena površina s bazenom desno od nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:42.251Z"
       }
     },
     {
@@ -11762,6 +13244,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska/asfaltna površina sa jasno vidljivim objektom koji izgleda kao zgrada ili građevina sa krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:42.111Z"
       }
     },
     {
@@ -11809,6 +13297,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom, vidljive su različite boje krova i strukture objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:42.180Z"
       }
     },
     {
@@ -11856,6 +13350,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim krovom boje terrakote/smeđe boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:42.179Z"
       }
     },
     {
@@ -11903,6 +13403,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela zgrada sa plavim bazenom i okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.132Z"
       }
     },
     {
@@ -11942,6 +13448,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa svetlim krovom, jasno izdvojena od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.408Z"
       }
     },
     {
@@ -11981,6 +13493,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa svetlim krovom i jasno definisanim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.211Z"
       }
     },
     {
@@ -12024,6 +13542,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je rožnati/bež krov zgrade sa jasno vidljivim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.587Z"
       }
     },
     {
@@ -12063,6 +13587,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je svetla zgrada/struktura u levom delu centra kadra sa jasno vidljivim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.449Z"
       }
     },
     {
@@ -12102,6 +13632,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna pravokutna struktura s krovom, vjerojatno stambena ili gospodarska zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.294Z"
       }
     },
     {
@@ -12149,6 +13685,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva siva/betonska struktura krovne površine u centru kadra, okružena zelenim površinama i poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.766Z"
       }
     },
     {
@@ -12204,6 +13746,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska/asfaltna ploha (vjerojatno parkiralište ili platforma) sa svetlijom bojom karakterističnom za izgrađene strukture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.573Z"
       }
     },
     {
@@ -12255,6 +13803,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je rozi/bež krov zgrade sa jasnim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.292Z"
       }
     },
     {
@@ -12294,6 +13848,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva beige/ružičasta krovnica zgrade okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:44.382Z"
       }
     },
     {
@@ -12345,6 +13905,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva bijela građevina s krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:46.753Z"
       }
     },
     {
@@ -12400,6 +13966,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva betonska/asfaltna površina sa zelenim površinama oko nje, što ukazuje na izgrađenu strukturu ili dio građevinskog kompleksa.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:47.042Z"
       }
     },
     {
@@ -12443,6 +14015,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenom/ružičastom krovnom konstrukcijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:47.361Z"
       }
     },
     {
@@ -12490,6 +14068,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom u beige/roza boji i bijelem dijelu, te okolnim putanjama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:47.186Z"
       }
     },
     {
@@ -12533,6 +14117,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi ravan krov zgrade sive/tamne boje sa pravokutnim obrisom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:47.154Z"
       }
     },
     {
@@ -12576,6 +14166,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika betonska/asfaltna površina (vjerojatno parkiralište ili industrijska površina) sa krovovima građevina na rubu okvira.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:47.226Z"
       }
     },
     {
@@ -12615,6 +14211,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je beža/siva građevina sa krovom, okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:47.056Z"
       }
     },
     {
@@ -12658,6 +14260,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada - veća svetlosiva zgrada na levoj strani i manja zelena struktura u centru.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:46.852Z"
       }
     },
     {
@@ -12705,6 +14313,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim krovom svetle boje i pratećim manjim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:46.783Z"
       }
     },
     {
@@ -12752,6 +14366,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov bijele/svijetle boje industrijske ili skladišne građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:46.903Z"
       }
     },
     {
@@ -12799,6 +14419,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je beige/ružičasta boja koju čini krov zgrade, jasno razlikovana od zelenih dijelova vegetacije okolo.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:49.609Z"
       }
     },
     {
@@ -12846,6 +14472,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, jasno razlikuje se od zelenih površina i poljoprivrednih parcela oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:49.739Z"
       }
     },
     {
@@ -12885,6 +14517,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je beli krov građevine sa pravougaonim oblikom",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:50.525Z"
       }
     },
     {
@@ -12932,6 +14570,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasno vidljivim pravokutnim obrisom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:49.420Z"
       }
     },
     {
@@ -12979,6 +14623,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je roza/bež krov zgrade okružen zelenom vegetacijom i poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:49.531Z"
       }
     },
     {
@@ -13018,6 +14668,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su svjetlije građevine/krovovi koji kontrastiraju s okolnim poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:49.589Z"
       }
     },
     {
@@ -13065,6 +14721,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "U centru kadra vidljiva je samo poljoprivredna površina bez vidljive izgrađene građevine ili krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:49.607Z"
       }
     },
     {
@@ -13104,6 +14766,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa svetlijom bojom krova, jasno razlikovana od okolnog terena i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:49.605Z"
       }
     },
     {
@@ -13143,6 +14811,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa svetlim krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:49.681Z"
       }
     },
     {
@@ -13182,6 +14856,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva siva zgrada/krov s pravokutnim oblikom, pozicionirana uz cestu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:49.601Z"
       }
     },
     {
@@ -13221,6 +14901,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetla struktura koja predstavlja krov zgrade okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:52.626Z"
       }
     },
     {
@@ -13260,6 +14946,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela građevina (krov) okružena poljoprivrednim površinama i drvećem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:52.709Z"
       }
     },
     {
@@ -13299,6 +14991,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada sa krovom crvene/smeđe boje okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:52.710Z"
       }
     },
     {
@@ -13338,6 +15036,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom svetle boje, okružena poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:52.542Z"
       }
     },
     {
@@ -13377,6 +15081,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/smeđim krovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:52.809Z"
       }
     },
     {
@@ -13416,6 +15126,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov svjetlijeg tona koji odgovara izgrađenoj građevini.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:52.564Z"
       }
     },
     {
@@ -13471,6 +15187,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetla građevina sa krovom, okružena zelenim površinama i cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:52.636Z"
       }
     },
     {
@@ -13526,6 +15248,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom i bijelim objektima (moguće platforme ili dijelovi građevine) oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:52.881Z"
       }
     },
     {
@@ -13573,6 +15301,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika zgrada sa svetlim krovom i jasno definiranim obrисima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:52.663Z"
       }
     },
     {
@@ -13620,6 +15354,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna bijela građevina/krov, okružena poljoprivrednim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:53.815Z"
       }
     },
     {
@@ -13667,6 +15407,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa svetloružičastim krovom i białim strukturama pored nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:55.864Z"
       }
     },
     {
@@ -13718,6 +15464,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva bijela/svijetla građevina sa krovom, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:56.052Z"
       }
     },
     {
@@ -13759,6 +15511,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna struktura građevine sa krovom, okružena zelenim površinama i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:56.135Z"
       }
     },
     {
@@ -13806,6 +15564,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi građevina sa sivim krovom okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:56.150Z"
       }
     },
     {
@@ -13853,6 +15617,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je jasno izgrađeni objekat sa svetlosivim krovom, okružen zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:55.994Z"
       }
     },
     {
@@ -13894,6 +15664,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom, prepoznatljiva po svojoj strukturi i boji koja se razlikuje od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:56.058Z"
       }
     },
     {
@@ -13941,6 +15717,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim krovom i strukturom građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:55.718Z"
       }
     },
     {
@@ -13982,6 +15764,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa vidljivim krovom tamnije boje okružena poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:56.166Z"
       }
     },
     {
@@ -14029,6 +15817,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je pravokutni objekt s crvenkastavom bojom krova, okružen betonskom površinom i zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:56.189Z"
       }
     },
     {
@@ -14068,6 +15862,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva bijela/svjetla građevina koja predstavlja krov zgrade sa jasnim rubovima i geometrijskim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:55.974Z"
       }
     },
     {
@@ -14109,6 +15909,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svjetlija struktura koja predstavlja krov građevine, okružena zelenilom i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:58.244Z"
       }
     },
     {
@@ -14148,6 +15954,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom, prikazana kao svjetlija struktura koja kontrastira sa okolnim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:59.694Z"
       }
     },
     {
@@ -14187,6 +15999,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "U centru kadra vidljiva je otvorena poljoprivredna površina sa zelenim vegetacijom, bez vidljive izgrađene građevine ili krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:58.500Z"
       }
     },
     {
@@ -14226,6 +16044,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva svetla/beža građevina s pravokutnim krovom, jasno vidljiva među zelenim poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:58.640Z"
       }
     },
     {
@@ -14273,6 +16097,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasna pravokutna struktura sa krovom (crvenkastom bojom) okružena poljoprivrednim zemljištem i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:58.573Z"
       }
     },
     {
@@ -14324,6 +16154,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada sa krovom svetlosive boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:58.178Z"
       }
     },
     {
@@ -14383,6 +16219,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasno vidljivim strukturama i obrubom objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:58.354Z"
       }
     },
     {
@@ -14434,6 +16276,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi više zgrada sa jasno vidljivim konturama i strukturom objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:05.412Z"
       }
     },
     {
@@ -14473,6 +16321,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su bijele/svijetle površine što indicira izgrađene objekte - vjerojatno krovove zgrada ili hale.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:58.466Z"
       }
     },
     {
@@ -14512,6 +16366,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom svetle boje, okružena poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:55:58.839Z"
       }
     },
     {
@@ -14551,6 +16411,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva svetla/beža građevina sa pravokutnim oblikom, verovatno krov kuće ili garaže.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:08.118Z"
       }
     },
     {
@@ -14592,6 +16458,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva velika pravokutna građevina s sivim krovom, vjerojatno industrijska ili poljoprivredna građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:08.077Z"
       }
     },
     {
@@ -14655,6 +16527,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva zgrada sa crvenim/terrakota krovom u centru snimke, okružena parcelom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:09.217Z"
       }
     },
     {
@@ -14696,6 +16574,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenkastvim/smeđim krovom okružena travnatom površinom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:08.353Z"
       }
     },
     {
@@ -14775,6 +16659,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi pravokutna građevina sa crvenim/ružičastim krovom sa jasnim rubovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:08.470Z"
       }
     },
     {
@@ -14814,6 +16704,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Centar kadra pokazuje zemljište sa vegetacijom i stazama, bez vidljive izgrađene građevine ili krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:08.255Z"
       }
     },
     {
@@ -14857,6 +16753,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna bela/svetla građevina - krov zgrade sa pravougaonim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:08.447Z"
       }
     },
     {
@@ -14896,6 +16798,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:10.217Z"
       }
     },
     {
@@ -14935,6 +16843,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Centar kadra pokazuje poljoprivredne površine sa zelenim vegetacijom i brazdama, bez vidljive izgrađene građevine ili krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:08.924Z"
       }
     },
     {
@@ -14974,6 +16888,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine/zgrade sa jasno definiranim konturama, okružene poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:15.230Z"
       }
     },
     {
@@ -15017,6 +16937,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bela/svetla građevina sa krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:17.998Z"
       }
     },
     {
@@ -15070,7 +16996,13 @@
         "postcode": "43246",
         "city": "Štefanje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je tamni krov građevine sa jasno vidljivim konturama i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:17.671Z"
+      }
     },
     {
       "id": "way/1529910805",
@@ -15106,7 +17038,13 @@
       "changeset": 184155713,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Sportska ulica",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv krov zgrade tamnije boje sa pravokutnim obrisom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:17.687Z"
+      }
     },
     {
       "id": "way/1529910806",
@@ -15142,7 +17080,13 @@
       "changeset": 184155713,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Železna Gora",
-      "nearestStreetDist": 13
+      "nearestStreetDist": 13,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je siva/betonska građevina (vjerojatno krov) s jasnom pravokutnom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:18.002Z"
+      }
     },
     {
       "id": "way/1529912950",
@@ -15179,7 +17123,13 @@
       "changeset": 184155988,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Vukanovec",
-      "nearestStreetDist": 9
+      "nearestStreetDist": 9,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada sa krovom, vidljiva kao tamna struktura okružena poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:18.055Z"
+      }
     },
     {
       "id": "way/1529912951",
@@ -15227,7 +17177,13 @@
       "changeset": 184155988,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Vukanovec",
-      "nearestStreetDist": 42
+      "nearestStreetDist": 42,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva crvena/smeđa krovna konstrukcija s dvije paralelne zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:56:18.169Z"
+      }
     },
     {
       "id": "way/1529914941",

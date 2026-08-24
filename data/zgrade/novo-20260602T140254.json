@@ -43,7 +43,13 @@
         "postcode": "53291",
         "city": "Novalja"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi bijela/svijetla građevina sa krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:21:59.038Z"
+      }
     },
     {
       "id": "way/1524851514",
@@ -79,7 +85,13 @@
       "changeset": 183438152,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Dubić",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla zgrada s pravokutnim krovom, jasno razlikovana od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:21:59.199Z"
+      }
     },
     {
       "id": "way/1524851515",
@@ -115,7 +127,13 @@
       "changeset": 183438152,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Brneštre",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je roza/crvena krovna konstrukcija koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:21:59.381Z"
+      }
     },
     {
       "id": "way/1524851516",
@@ -151,7 +169,13 @@
       "changeset": 183438152,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Dubić",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela građevina/krov koji je jasno razlikovan od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:09.217Z"
+      }
     },
     {
       "id": "way/1524851517",
@@ -187,7 +211,13 @@
       "changeset": 183438152,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Dubić",
-      "nearestStreetDist": 41
+      "nearestStreetDist": 41,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su dvije velike bijele građevine s vidljivim krovovima, postavljene na betonskoj površini.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:21:59.709Z"
+      }
     },
     {
       "id": "way/1524851518",
@@ -223,7 +253,13 @@
       "changeset": 183438152,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Dubić",
-      "nearestStreetDist": 37
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide bijele građevine s pravokutnim krovovima i jasnim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:21:59.610Z"
+      }
     },
     {
       "id": "way/1524851519",
@@ -259,7 +295,13 @@
       "changeset": 183438152,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Dubić",
-      "nearestStreetDist": 38
+      "nearestStreetDist": 38,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva bijela/svijetla zgrada s krovom, sa sjenom koja indicira trodimenzionalnu strukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:21:59.818Z"
+      }
     },
     {
       "id": "way/1524851520",
@@ -295,7 +337,13 @@
       "changeset": 183438152,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Dubić",
-      "nearestStreetDist": 58
+      "nearestStreetDist": 58,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna betonska/asfaltna ploha velike zgrade sa svetlim krovom, okružena zelenim vegetacijom i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:21:59.955Z"
+      }
     },
     {
       "id": "way/1524851521",
@@ -331,7 +379,13 @@
       "changeset": 183438152,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Put lucmarina",
-      "nearestStreetDist": 12
+      "nearestStreetDist": 12,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina sa jasno vidljivim krovom smeđe/crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:21:59.870Z"
+      }
     },
     {
       "id": "way/1524862431",
@@ -389,7 +443,13 @@
         "postcode": "52100",
         "city": "Pula (Pola)"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa karakterističnim crvenim/smeđim pločicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:21:59.919Z"
+      }
     },
     {
       "id": "way/1524865884",
@@ -425,7 +485,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-05-31T12:23:42Z",
       "changeset": 183441178,
-      "osmUser": "Matija Nalis"
+      "osmUser": "Matija Nalis",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva bijela zgrada/građevina sa pravokutnim oblikom krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:11.808Z"
+      }
     },
     {
       "id": "way/1524868292",
@@ -477,7 +543,13 @@
       "changeset": 183441963,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Šetnica uz Mrežnicu",
-      "nearestStreetDist": 25
+      "nearestStreetDist": 25,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnom krovnom površinom (vjerojatno solarni paneli ili tamni krov) okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:11.917Z"
+      }
     },
     {
       "id": "way/1524868293",
@@ -513,7 +585,13 @@
       "changeset": 183441963,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Ulica bana Josipa Jelačića",
-      "nearestStreetDist": 43
+      "nearestStreetDist": 43,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom tamnije boje i vidljivim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:11.859Z"
+      }
     },
     {
       "id": "way/1524868295",
@@ -549,7 +627,13 @@
       "changeset": 183441963,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Šetnica uz Mrežnicu",
-      "nearestStreetDist": 48
+      "nearestStreetDist": 48,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s tamnom krovnom konstrukcijom i okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:11.755Z"
+      }
     },
     {
       "id": "way/1524868296",
@@ -585,7 +669,13 @@
       "changeset": 183441963,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Šetnica uz Mrežnicu",
-      "nearestStreetDist": 50
+      "nearestStreetDist": 50,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva tamnija struktura koja predstavlja krov industrijske ili komercijalne zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:11.823Z"
+      }
     },
     {
       "id": "way/1524868297",
@@ -621,7 +711,13 @@
       "changeset": 183441963,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Ulica bana Josipa Jelačića",
-      "nearestStreetDist": 28
+      "nearestStreetDist": 28,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela zgrada sa krovom, okružena sa zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:11.985Z"
+      }
     },
     {
       "id": "way/1524871880",
@@ -687,7 +783,13 @@
         "postcode": "43240",
         "city": "Čazma"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa romboidnim krovom u tonovima smeđe i crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:22.167Z"
+      }
     },
     {
       "id": "way/1524897603",
@@ -724,7 +826,13 @@
       "changeset": 183452551,
       "osmUser": "DominikNew",
       "nearestStreet": "Rudeška cesta",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom temne boje",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:12.303Z"
+      }
     },
     {
       "id": "way/1524903066",
@@ -760,7 +868,13 @@
       "changeset": 183453737,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Obala dr. Franje Tuđmana",
-      "nearestStreetDist": 13
+      "nearestStreetDist": 13,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada sa svetlim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:12.546Z"
+      }
     },
     {
       "id": "way/1524903067",
@@ -804,7 +918,13 @@
       "changeset": 183453737,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Obala dr. Franje Tuđmana",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je白a/svjetla građevina (krov) okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:12.402Z"
+      }
     },
     {
       "id": "way/1524903068",
@@ -848,7 +968,13 @@
       "changeset": 183453737,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Obala dr. Franje Tuđmana",
-      "nearestStreetDist": 21
+      "nearestStreetDist": 21,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/roze krovom okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:24.765Z"
+      }
     },
     {
       "id": "way/1524903069",
@@ -884,7 +1010,13 @@
       "changeset": 183453737,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Obala dr. Franje Tuđmana",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina sa vidljivim krovom smeđe/crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:24.950Z"
+      }
     },
     {
       "id": "way/1524920548",
@@ -920,7 +1052,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 5
+      "nearestStreetDist": 5,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena građevina sa krovom, vjerovatno gospodarskog objekta uz rijeku.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:24.888Z"
+      }
     },
     {
       "id": "way/1524920549",
@@ -956,7 +1094,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 65
+      "nearestStreetDist": 65,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su crveni i ružičasti krovovi građevina koje se jasno razlikuju od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:24.968Z"
+      }
     },
     {
       "id": "way/1524920550",
@@ -992,7 +1136,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva crvena/ružičasta krovljena zgrada sa jasno definiranim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:24.950Z"
+      }
     },
     {
       "id": "way/1524920551",
@@ -1028,7 +1178,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa pravokutnim krovom sive boje, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:25.465Z"
+      }
     },
     {
       "id": "way/1524920552",
@@ -1064,7 +1220,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 28
+      "nearestStreetDist": 28,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi siva/betonska građevina (kuća ili manja zgrada) sa vidljivim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:25.119Z"
+      }
     },
     {
       "id": "way/1524920554",
@@ -1100,7 +1262,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/narančastim krovom okružena zelenilom i poljskim putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:25.292Z"
+      }
     },
     {
       "id": "way/1524920556",
@@ -1136,7 +1304,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim/ružičastim krovom i tamnom strukturom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:25.469Z"
+      }
     },
     {
       "id": "way/1524920557",
@@ -1172,7 +1346,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 63
+      "nearestStreetDist": 63,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, vidljivi su jasni obrisi građevine sa crvenim/smeđim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:25.505Z"
+      }
     },
     {
       "id": "way/1524920558",
@@ -1216,7 +1396,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 61
+      "nearestStreetDist": 61,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa vidljivim krovom i постројеном strukturom, obkružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:28.407Z"
+      }
     },
     {
       "id": "way/1524920559",
@@ -1252,7 +1438,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 63
+      "nearestStreetDist": 63,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetla građevina sa pravokutnim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:28.188Z"
+      }
     },
     {
       "id": "way/1524920560",
@@ -1288,7 +1480,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 46
+      "nearestStreetDist": 46,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa crvenim/tamnim krovom i jasno vidljivim obrisima zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:27.972Z"
+      }
     },
     {
       "id": "way/1524920561",
@@ -1324,7 +1522,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:27.583Z"
+      }
     },
     {
       "id": "way/1524920563",
@@ -1360,7 +1564,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 47
+      "nearestStreetDist": 47,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je rožnata/bež boja krova objekta sa jasno definiranim rubovima, što indicira izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:27.853Z"
+      }
     },
     {
       "id": "way/1524920564",
@@ -1396,7 +1606,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina sa crvenim krovom i okolnim gospodarskim objektima",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:27.556Z"
+      }
     },
     {
       "id": "way/1524920565",
@@ -1432,7 +1648,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddkasta/smeđa krovna konstrukcija koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:27.621Z"
+      }
     },
     {
       "id": "way/1524920566",
@@ -1468,7 +1690,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 14
+      "nearestStreetDist": 14,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru je jasno vidljiva rdeća kuća sa krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:27.671Z"
+      }
     },
     {
       "id": "way/1524920568",
@@ -1508,7 +1736,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 43
+      "nearestStreetDist": 43,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada sa crvenim krovom i betonskom površinom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:27.726Z"
+      }
     },
     {
       "id": "way/1524920569",
@@ -1544,7 +1778,13 @@
       "zupanija": "Karlovačka županija",
       "validFrom": "2026-05-31T16:56:50Z",
       "changeset": 183457753,
-      "osmUser": "Matija Nalis"
+      "osmUser": "Matija Nalis",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa crvenim krovom i bijelo-sivim dijelovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:27.358Z"
+      }
     },
     {
       "id": "way/1524920570",
@@ -1580,7 +1820,13 @@
       "changeset": 183457753,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 60
+      "nearestStreetDist": 60,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa krovnog površina koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:30.358Z"
+      }
     },
     {
       "id": "way/1524920633",
@@ -1616,7 +1862,13 @@
       "zupanija": "Karlovačka županija",
       "validFrom": "2026-05-31T16:58:05Z",
       "changeset": 183457797,
-      "osmUser": "Matija Nalis"
+      "osmUser": "Matija Nalis",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide crveni/smeđi krovovi nekoliko zgrada između zelenih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:30.443Z"
+      }
     },
     {
       "id": "way/1524920634",
@@ -1652,7 +1904,13 @@
       "changeset": 183457797,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Gornji Cerovac",
-      "nearestStreetDist": 87
+      "nearestStreetDist": 87,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi građevina sa svetlijom bijom/smeđom bojom krova u centru kadra, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:31.058Z"
+      }
     },
     {
       "id": "way/1524951861",
@@ -1689,7 +1947,13 @@
       "changeset": 183464043,
       "osmUser": "Alexey Vazhnov",
       "nearestStreet": "Obala kralja Petra Krešimira IV.",
-      "nearestStreetDist": 22
+      "nearestStreetDist": 22,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim krovom i građevinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:30.417Z"
+      }
     },
     {
       "id": "way/1524951862",
@@ -1731,7 +1995,13 @@
         "postcode": "23210",
         "city": "Biograd na Moru"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddkasti krov građevine s vidljivom strukturom i zasjenjenostima koje upućuju na izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:30.741Z"
+      }
     },
     {
       "id": "way/1524951863",
@@ -1791,7 +2061,13 @@
       "changeset": 183464043,
       "osmUser": "Alexey Vazhnov",
       "nearestStreet": "Nikole Šubića",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je reddkasta/smeđa krovna struktura koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:30.520Z"
+      }
     },
     {
       "id": "way/1524951864",
@@ -1828,7 +2104,13 @@
       "changeset": 183464043,
       "osmUser": "Alexey Vazhnov",
       "nearestStreet": "Obala kralja Petra Krešimira IV.",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je rdjava/crvena krovna površina koja jasno označava izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:34.872Z"
+      }
     },
     {
       "id": "way/1524955483",
@@ -1869,6 +2151,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je reddkasta/narančasta građevina (krov) sa jasno vidljivim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:30.915Z"
       }
     },
     {
@@ -1910,6 +2198,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je светлосива/bijela zgrada sa krovom, jasno razlikovana od zelene vegetacije okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:30.704Z"
       }
     },
     {
@@ -1951,6 +2245,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljiva je crvenkasta/smeđa struktura u centru kadra koja predstavlja krov ili građevinu okruženu zelenim površinama i putanjom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:31.364Z"
       }
     },
     {
@@ -1992,6 +2292,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je svetliji pravokutni oblik koji predstavlja krov građevine okružen vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:38.505Z"
       }
     },
     {
@@ -2033,6 +2339,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska/asfaltna površina s pravokutnim oblikom koja predstavlja krov ili platou izgrađene građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:38.136Z"
       }
     },
     {
@@ -2082,6 +2394,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U desnom dijelu kadra vidljiva je crvena krovna konstrukcija koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:38.551Z"
       }
     },
     {
@@ -2123,6 +2441,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva zgrada s crvenim/smeđim krovom okružena zelenom vegetacijom u centru snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:38.563Z"
       }
     },
     {
@@ -2164,6 +2488,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva betonska/asfaltna površina sa manjim građevinama i krovovima obojenim u tamnije tonove.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:38.761Z"
       }
     },
     {
@@ -2205,6 +2535,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno izgrađene strukture sa krovovima, uključujući crveni krov i druge građevine okružene zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:38.842Z"
       }
     },
     {
@@ -2246,6 +2582,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/smeđim krovom i njene susjedne strukture okružene zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:40.361Z"
       }
     },
     {
@@ -2287,6 +2629,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi reddkasti krov stambene zgrade okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:39.328Z"
       }
     },
     {
@@ -2328,6 +2676,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva bijela/siva građevina s krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:39.788Z"
       }
     },
     {
@@ -2369,6 +2723,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom tamnije boje, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:39.749Z"
       }
     },
     {
@@ -2410,6 +2770,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/ružičastim krovom i bijelos-sivim dodatnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.642Z"
       }
     },
     {
@@ -2451,6 +2817,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina sa crvenim krovom i bijelo-sivom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.351Z"
       }
     },
     {
@@ -2492,6 +2864,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva crvena/smeđa krovna konstrukcija koja pripada izgrađenoj zgradi.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.434Z"
       }
     },
     {
@@ -2533,6 +2911,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa svjetlijom bojom krova, vidljivi su obrisi građevine i okolnog prostora.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.575Z"
       }
     },
     {
@@ -2574,6 +2958,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina sa crvenim/smeđim krovom okružena vegetacijom uz asfaltni put.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.393Z"
       }
     },
     {
@@ -2615,6 +3005,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su červene/ružičaste boje koja указuje на krov zgrade, te su vidljive i druge građevine sa različitim bojama krovova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.775Z"
       }
     },
     {
@@ -2656,6 +3052,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa tamnim krovom, okružena zelenom vegetacijom i manjim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.527Z"
       }
     },
     {
@@ -2697,6 +3099,12 @@
         "changeset": 183464647,
         "brojZgrada": 21,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa svetlim krovom na peskavoj/zemljanoj površini okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.586Z"
       }
     },
     {
@@ -2750,6 +3158,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva crvena/smeđa krovna konstrukcija većeg objekta sa vidljivim krovom i структуром.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.498Z"
       }
     },
     {
@@ -2801,6 +3215,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/terakotnim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:42.689Z"
       }
     },
     {
@@ -2848,6 +3268,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je rožnata/crvena krovna konstrukcija s jasno vidljivim obrисима zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:44.986Z"
       }
     },
     {
@@ -2897,6 +3323,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva tamna građevina/zgrada sa krovom, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:44.929Z"
       }
     },
     {
@@ -2946,6 +3378,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom, vidljivi su dijelovi konstruktivnih elemenata i građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:45.149Z"
       }
     },
     {
@@ -2987,6 +3425,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasnom strukturom i obrubima na zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:44.824Z"
       }
     },
     {
@@ -3028,6 +3472,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade smeđe boje s vidljivom strukturom i dijelovima okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:44.943Z"
       }
     },
     {
@@ -3069,6 +3519,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa svetlosivim krovom okružena vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:45.101Z"
       }
     },
     {
@@ -3128,6 +3584,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov brnatnute boje kao dio izgrađene građevine okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:44.975Z"
       }
     },
     {
@@ -3183,6 +3645,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, vidljiva kao roza/crvena struktura okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:45.042Z"
       }
     },
     {
@@ -3224,6 +3692,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv krov građevine sa sivom/betonskom bojom, okružen zelenim površinama i crvenim krovovima susjednih objekata.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:45.082Z"
       }
     },
     {
@@ -3265,6 +3739,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/terakota krovna površina građevine sa jasno vidljivim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:45.009Z"
       }
     },
     {
@@ -3306,6 +3786,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa karakterističnom strukturom i tonalitetom koji se razlikuje od okolnog vegetacijskog pokrova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.668Z"
       }
     },
     {
@@ -3347,6 +3833,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.583Z"
       }
     },
     {
@@ -3392,6 +3884,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/smeđa krovna površina koju okružuje vegetacija.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.177Z"
       }
     },
     {
@@ -3441,6 +3939,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su izgrađene strukture sa krovovima u crvenim i sivim tonovima, okružene vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.411Z"
       }
     },
     {
@@ -3490,6 +3994,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.134Z"
       }
     },
     {
@@ -3537,6 +4047,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.137Z"
       }
     },
     {
@@ -3586,6 +4102,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/ružičastim krovom i okolnim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.271Z"
       }
     },
     {
@@ -3651,6 +4173,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/smeđim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.225Z"
       }
     },
     {
@@ -3700,6 +4228,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno izgrađene zgrade s vidljivim krovovima različitih boja (crvena, smeđa, plava) i estruturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.465Z"
       }
     },
     {
@@ -3763,6 +4297,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgradjena struktura s crvenim/trakastim krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:47.322Z"
       }
     },
     {
@@ -3804,6 +4344,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/teracota krov stambene zgrade sa vidljivim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:49.770Z"
       }
     },
     {
@@ -3845,6 +4391,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov kuće sa crvenom/okrasterom bojom, jasno vidljiva građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:49.900Z"
       }
     },
     {
@@ -3886,6 +4438,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov građevine sa围围 vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:49.882Z"
       }
     },
     {
@@ -3941,6 +4499,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/smeđim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:50.536Z"
       }
     },
     {
@@ -3988,6 +4552,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi izgrađena struktura sa krovom tamnije boje, okružena manjim građevinama i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:50.131Z"
       }
     },
     {
@@ -4035,6 +4605,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv rožnjasti krov građevine sa crvenim/ružičastim pokrovom okružen vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:49.892Z"
       }
     },
     {
@@ -4090,6 +4666,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi rđavo obojana krovna konstrukcija s pripadajućom građevinom okruženom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:49.836Z"
       }
     },
     {
@@ -4131,6 +4713,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa temeljitim krovom tamnije boje, okružena drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:53.472Z"
       }
     },
     {
@@ -4186,6 +4774,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/smeđi krov kuće sa okolnim građevinama i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:49.875Z"
       }
     },
     {
@@ -4227,6 +4821,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s krovom crvene/smeđe boje, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:49.811Z"
       }
     },
     {
@@ -4280,6 +4880,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa tamnom krovnom površinom i vidljivim dijelovima građevine okružene manjim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:56.258Z"
       }
     },
     {
@@ -4329,6 +4935,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi zgrada sa tamnim krovom u centru ortofoto snimke, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:56.133Z"
       }
     },
     {
@@ -4388,6 +5000,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnom strmom krovnom površinom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:57.057Z"
       }
     },
     {
@@ -4447,6 +5065,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenom/terrakota krovnom površinom i surrounding infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:56.327Z"
       }
     },
     {
@@ -4498,6 +5122,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim i tamnim krovom te vidljivi dio njene strukture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:56.828Z"
       }
     },
     {
@@ -4545,6 +5175,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada sa vidljivim krovom, okružena parkiralištem i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:56.668Z"
       }
     },
     {
@@ -4608,6 +5244,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi nekoliko zgrada s vidljivim krovovima različitih boja (crveni, smeđi, bež tonovi).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:56.807Z"
       }
     },
     {
@@ -4655,6 +5297,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/narančasti krov kuće sa okućnicom i okolnim zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:56.862Z"
       }
     },
     {
@@ -4710,6 +5358,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade sa pravokutnom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:57.287Z"
       }
     },
     {
@@ -4765,6 +5419,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s vidljivim krovom u različitim bojama (siva, plava, crvena i druge).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:57.554Z"
       }
     },
     {
@@ -4812,6 +5472,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno različitih boja krovovi nekoliko zgrada, uključujući plavu, crvenu i druge nijanse koje ukazuju na izgrađene strukture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:59.796Z"
       }
     },
     {
@@ -4891,6 +5557,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa jasno razvidljivim krovom tamnije boje, okružena okolnim terenima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:59.837Z"
       }
     },
     {
@@ -4940,6 +5612,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa krovom plave boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:59.654Z"
       }
     },
     {
@@ -4981,6 +5659,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv crveni/rozi krovni pokrivač građevine sa jasno vidljivim obrisima zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:59.943Z"
       }
     },
     {
@@ -5022,6 +5706,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenim/tamnim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:59.979Z"
       }
     },
     {
@@ -5085,6 +5775,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina s tamnim krovom, okružena zelenim površinama i drugim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:59.810Z"
       }
     },
     {
@@ -5126,6 +5822,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa vidljivim strukturama i dijelovima objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:59.560Z"
       }
     },
     {
@@ -5171,6 +5873,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je построjena struktura sa krovom, očigledno stambena ili gospodarska zgrada sa jasno vidljivim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:59.932Z"
       }
     },
     {
@@ -5222,6 +5930,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov veće izgrađene građevine tamnije boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:00.992Z"
       }
     },
     {
@@ -5285,6 +5999,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa ružičastim krovom okružena zelenim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:22:59.632Z"
       }
     },
     {
@@ -5332,6 +6052,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine tamnije boje okružen zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:03.197Z"
       }
     },
     {
@@ -5415,6 +6141,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim i plavim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:02.942Z"
       }
     },
     {
@@ -5470,6 +6202,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenomkrovom i betonskom strukturom, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:03.084Z"
       }
     },
     {
@@ -5519,6 +6257,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je crvena/rozna krovna površina zgrade s jasnim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:03.007Z"
       }
     },
     {
@@ -5582,6 +6326,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva beige/kremasta boja krova izgrađene zgrade",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:03.117Z"
       }
     },
     {
@@ -5629,6 +6379,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela/svijetla građevina (krov zgrade) okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:03.089Z"
       }
     },
     {
@@ -5700,6 +6456,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenkastavim krovom i plavom stražnjom stranom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:04.707Z"
       }
     },
     {
@@ -5741,6 +6503,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva crvena/narančasta građevina (krov kuće) okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:03.366Z"
       }
     },
     {
@@ -5788,6 +6556,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina s jasno vidljivim krovom crvene boje okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:03.050Z"
       }
     },
     {
@@ -5829,6 +6603,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine sa tamnomodrom bojom, što ukazuje na izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:03.075Z"
       }
     },
     {
@@ -5870,6 +6650,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim krovom i građevinom okruženom zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:06.859Z"
       }
     },
     {
@@ -5911,6 +6697,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svjetlosnosiva krovova struktura koja predstavlja izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:10.787Z"
       }
     },
     {
@@ -5974,6 +6766,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa krovom, vidljive su jasne linije zgrade i njena sjenka.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:07.003Z"
       }
     },
     {
@@ -6033,6 +6831,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa smeđim/crvenim krovom i okružena zelenim površinama i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:06.984Z"
       }
     },
     {
@@ -6112,6 +6916,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa vidljivim krovom (crvena/ružičasta boja) okružena s okolnim zgradama i zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:07.119Z"
       }
     },
     {
@@ -6159,6 +6969,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiv svjetli krovni pokrov zgrade okružen zelenim površinama i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:06.858Z"
       }
     },
     {
@@ -6214,6 +7030,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada sa crvenkastavim krovom i drugim građevinskim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:07.044Z"
       }
     },
     {
@@ -6269,6 +7091,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/ružičastim krovom smještena između zelenih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:07.111Z"
       }
     },
     {
@@ -6310,6 +7138,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim i plavim krovom, jasno razlikovana od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:06.920Z"
       }
     },
     {
@@ -6367,6 +7201,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno izgrađene strukture - tamni krovovi zgrada i betonske površine karakteristični za industrijski ili商komercijalni objekte.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:07.005Z"
       }
     },
     {
@@ -6416,6 +7256,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov zgrade tamnije boje sa karakterističnom strukturom i geometrijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:13.385Z"
       }
     },
     {
@@ -6577,6 +7423,12 @@
         "changeset": 183465073,
         "brojZgrada": 74,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov zgrade sa solarnim panelima, jasno razabran na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:13.778Z"
       }
     },
     {
@@ -6613,7 +7465,13 @@
       "changeset": 183480722,
       "osmUser": "Vedran V",
       "nearestStreet": "Zagrebačka ulica",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi većih zgrada sa jasno vidljivim strukturama i obrисима.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:13.553Z"
+      }
     },
     {
       "id": "way/1525056612",
@@ -6655,7 +7513,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva velika siva/betonska građevina s pravokutnim obrisom, vjerojatno industrijski ili komercijalni objekt.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:13.783Z"
+      }
     },
     {
       "id": "way/1525056613",
@@ -6697,7 +7561,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine sa jasno vidljivim rubovima i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:13.666Z"
+      }
     },
     {
       "id": "way/1525056614",
@@ -6755,7 +7625,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa crvenom/ružičastom bojom i dijelovima zelene vegetacije oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:13.985Z"
+      }
     },
     {
       "id": "way/1525056615",
@@ -6849,7 +7725,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva velika zgrada sa sivim i plavim krovom, pravilne oblike i jasnih kontura.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:14.044Z"
+      }
     },
     {
       "id": "way/1525056617",
@@ -6891,7 +7773,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/smeđim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:13.922Z"
+      }
     },
     {
       "id": "way/1525056618",
@@ -6949,7 +7837,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sive/beige boje s vidljivom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:13.838Z"
+      }
     },
     {
       "id": "way/1525056619",
@@ -6991,7 +7885,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa crvenkastim/narančastim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:14.007Z"
+      }
     },
     {
       "id": "way/1525056620",
@@ -7027,7 +7927,13 @@
       "changeset": 183480722,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Ljudevita Gaja",
-      "nearestStreetDist": 10
+      "nearestStreetDist": 10,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa crvenim/ružičastim krovom i jasno definiranim rubovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:16.163Z"
+      }
     },
     {
       "id": "way/1525056621",
@@ -7063,7 +7969,13 @@
       "changeset": 183480722,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Ljudevita Gaja",
-      "nearestStreetDist": 21
+      "nearestStreetDist": 21,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom, vidljivi su dijelovi konstrukcije i perimetar zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:16.217Z"
+      }
     },
     {
       "id": "way/1525056622",
@@ -7121,7 +8033,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva velika zgrada s crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:25.959Z"
+      }
     },
     {
       "id": "way/1525056623",
@@ -7291,7 +8209,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva siva/bijela zgrada sa krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:16.177Z"
+      }
     },
     {
       "id": "way/1525056628",
@@ -7343,7 +8267,13 @@
       "changeset": 183480722,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Ljudevita Gaja",
-      "nearestStreetDist": 22
+      "nearestStreetDist": 22,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/ružičastim krovom i jasno vidljivim obrисima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:16.220Z"
+      }
     },
     {
       "id": "way/1525069691",
@@ -7377,7 +8307,13 @@
       "zupanija": "Primorsko-goranska županija",
       "validFrom": "2026-06-01T08:02:41Z",
       "changeset": 183483416,
-      "osmUser": "APneunzehn74"
+      "osmUser": "APneunzehn74",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa karakterističnom strukturom i senkom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:16.079Z"
+      }
     },
     {
       "id": "way/1525138363",
@@ -7429,7 +8365,13 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-06-01T11:07:46Z",
       "changeset": 183492407,
-      "osmUser": "Cro_it"
+      "osmUser": "Cro_it",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana građevina sa ružičastim/crvenim krovom okružena zelenilom i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:16.309Z"
+      }
     },
     {
       "id": "way/1525175002",
@@ -7478,6 +8420,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim krovom i građevinskim strukturama, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:17.020Z"
       }
     },
     {
@@ -7549,6 +8497,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela/svetla zgrada sa krovom i jasnim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:16.137Z"
       }
     },
     {
@@ -7598,6 +8552,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim krovom i jasno definiranim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:16.175Z"
       }
     },
     {
@@ -7645,6 +8605,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je betonska građevina s jasno vidljivim krovom i strukturom objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:28.839Z"
       }
     },
     {
@@ -7708,6 +8674,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim krovom i pripadajućim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:28.836Z"
       }
     },
     {
@@ -7749,6 +8721,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva crvena/narančasta krovna konstrukcija sa okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:29.639Z"
       }
     },
     {
@@ -7790,6 +8768,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi krov objekta u centru snimke, tamnije boje, sa okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:29.309Z"
       }
     },
     {
@@ -7831,6 +8815,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi višebojna zgrada s vidljivim krovom (crveni i bijeli dijelovi) i prilaznom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:29.575Z"
       }
     },
     {
@@ -7872,6 +8862,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov zgrade sa sivom/ljubičastom bojom na većem prostoru.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:29.566Z"
       }
     },
     {
@@ -7913,6 +8909,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa terakotnom/crvenom krovnom pokrivačem i okolnim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:29.715Z"
       }
     },
     {
@@ -7954,6 +8956,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa sivim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:39.527Z"
       }
     },
     {
@@ -7995,6 +9003,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva velika zgrada sa crvenim/smeđim krovom i okolnim vanjskim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:29.869Z"
       }
     },
     {
@@ -8036,6 +9050,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika zgrada sa crvenim/smeđim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:29.719Z"
       }
     },
     {
@@ -8077,6 +9097,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je jasno krov kuće sa crvenim/ružičastim pokrovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:42.114Z"
       }
     },
     {
@@ -8126,6 +9152,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi zgrada sa krovom (bijeli dio) u centralnom dijelu ortofoto snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:41.939Z"
       }
     },
     {
@@ -8191,6 +9223,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika izgrađena građevina sa crvenim i sivim krovom, jasno prepoznatljiva kao zgrada sa više dijelova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:42.335Z"
       }
     },
     {
@@ -8232,6 +9270,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva velika građevina sa crvenim krovom i bijелим zidovima, okružena dvorištem i manjim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:42.269Z"
       }
     },
     {
@@ -8273,6 +9317,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade sa vidljivom strukturom i obrисом.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:42.328Z"
       }
     },
     {
@@ -8314,6 +9364,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasne svjetle građevine sa krovovima, najvjerojatnije poljoprivrednog karaktera.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:42.250Z"
       }
     },
     {
@@ -8355,6 +9411,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa sivim/tamnim krovom i vidljivim strukturama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:42.596Z"
       }
     },
     {
@@ -8396,6 +9458,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenkastvim/smeđim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:42.500Z"
       }
     },
     {
@@ -8437,6 +9505,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa svetlijom bojom, okružen zelenim površinama i susednim parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:42.743Z"
       }
     },
     {
@@ -8478,6 +9552,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, očito kao tamnja struktura obkružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:42.743Z"
       }
     },
     {
@@ -8519,6 +9599,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:44.921Z"
       }
     },
     {
@@ -8566,6 +9652,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa jasno vidljivim krovom tamnije boje okružena vegetacijom i parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:44.969Z"
       }
     },
     {
@@ -8607,6 +9699,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada sa krovom tamnije boje, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:44.930Z"
       }
     },
     {
@@ -8648,6 +9746,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela/svijetla građevina sa krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:45.001Z"
       }
     },
     {
@@ -8689,6 +9793,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi nekoliko građevina, uključujući veću strukturu sa svetlijom bojom krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:45.635Z"
       }
     },
     {
@@ -8730,6 +9840,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa svetlosivim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:45.122Z"
       }
     },
     {
@@ -8771,6 +9887,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je crni/tamni krov građevine, vjerojatno staklenika ili poljoprivredne hale.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:44.994Z"
       }
     },
     {
@@ -8812,6 +9934,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov crvene/smeđe boje sa surrounding strukturama i površinama oko građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:44.902Z"
       }
     },
     {
@@ -8853,6 +9981,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela/siva zgrada s vidljivim krovom i strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:44.950Z"
       }
     },
     {
@@ -8894,6 +10028,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom smeđe/crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:44.787Z"
       }
     },
     {
@@ -8935,6 +10075,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi браон/crveni krov zgrade sa vidljivom strukturom i manjim附ćim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:47.811Z"
       }
     },
     {
@@ -8976,6 +10122,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiv krov građevine sa crvenom bojom (desno) i dijelova smeđe/tamne boje (lijevo), što ukazuje na izgrađenu strukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:47.922Z"
       }
     },
     {
@@ -9017,6 +10169,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom crvenkaste boje i pripadajućim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:47.573Z"
       }
     },
     {
@@ -9058,6 +10216,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/smeđim krovom i pratećim poljoprivrednim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:47.868Z"
       }
     },
     {
@@ -9107,6 +10271,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa pravokutnim krovom u bež-smeđoj boji, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:47.868Z"
       }
     },
     {
@@ -9154,6 +10324,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov kuće sa附adjacent građevinskim strukturama i pristupnom stazom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:47.779Z"
       }
     },
     {
@@ -9203,6 +10379,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U donjem lijevom dijelu kadra vidljivi su dijelovi krovova zgrada sa crvenim i tamnim pokrovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:47.868Z"
       }
     },
     {
@@ -9244,6 +10426,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi nekoliko zgrada s crvenim i smeđim krovovima te pratećim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:48.088Z"
       }
     },
     {
@@ -9291,6 +10479,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada sa crvenim/smeđim krovom okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:47.757Z"
       }
     },
     {
@@ -9332,6 +10526,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim/bordo krovom i okolnim gospodarskim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:47.882Z"
       }
     },
     {
@@ -9373,6 +10573,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno izgrađene građevine s različitim bojama krovova (crvena, siva, braon) i околних parcela.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:50.370Z"
       }
     },
     {
@@ -9414,6 +10620,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi više objekata sa jasno definiranim konturama i različitim bojama (sivi, crveni, žuti krovovi).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:51.526Z"
       }
     },
     {
@@ -9463,6 +10675,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa sivom bojom, okružen vegetacijom i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:50.172Z"
       }
     },
     {
@@ -9516,6 +10734,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv krov građevine sa crvenom/rozom bojom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:50.155Z"
       }
     },
     {
@@ -9557,6 +10781,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim krovom i strukturom, okružena poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:50.290Z"
       }
     },
     {
@@ -9598,6 +10828,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim krovom i białim dijelovima konstrukcije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:50.036Z"
       }
     },
     {
@@ -9645,6 +10881,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa krovom sive boje okružena poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:50.398Z"
       }
     },
     {
@@ -9694,6 +10936,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgradjena zgrada sa krovom u nijansi smeđe i crvene boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:50.277Z"
       }
     },
     {
@@ -9735,6 +10983,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s krovom i pratećim strukturama na zemljištu obrubljenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:50.399Z"
       }
     },
     {
@@ -9776,6 +11030,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada sa krovom i strukturom, vidljivi su dijelovi građevine i njeno okruženje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:50.446Z"
       }
     },
     {
@@ -9823,6 +11083,12 @@
         "changeset": 183498821,
         "brojZgrada": 54,
         "korisnik": "Marvin de Hont"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa crvenkastvim/smeđim krovom i pravokutnim obrisom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:53.830Z"
       }
     },
     {
@@ -9857,7 +11123,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:20:08Z",
       "changeset": 183505242,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su izgrađene građevine s krovovima različitih boja (siva, plava) i pratećim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:53.593Z"
+      }
     },
     {
       "id": "way/1525205196",
@@ -9899,7 +11171,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:20:08Z",
       "changeset": 183505242,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, jasno vidljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:53.603Z"
+      }
     },
     {
       "id": "way/1525205197",
@@ -9933,7 +11211,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:20:08Z",
       "changeset": 183505242,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi najmanje jedna građevina sa crvenim/ružičastim krovom i dodatnim strukturama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:53.763Z"
+      }
     },
     {
       "id": "way/1525205499",
@@ -9967,7 +11251,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:23:16Z",
       "changeset": 183505391,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je reddkasta/terrakota krovni pokrivač izgrađene zgrade okružene vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:53.732Z"
+      }
     },
     {
       "id": "way/1525205500",
@@ -10001,7 +11291,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:23:16Z",
       "changeset": 183505391,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/ružičastim krovom i dodatnim strukturama, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:53.665Z"
+      }
     },
     {
       "id": "way/1525205501",
@@ -10035,7 +11331,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:23:16Z",
       "changeset": 183505391,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenim krovom okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:54.301Z"
+      }
     },
     {
       "id": "way/1525206173",
@@ -10069,7 +11371,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:26:56Z",
       "changeset": 183505563,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv građevinski objekt s crvenim/ružičastim krovom te surrounding strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:54.059Z"
+      }
     },
     {
       "id": "way/1525206174",
@@ -10103,7 +11411,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:26:56Z",
       "changeset": 183505563,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade sa vidljivim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:53.739Z"
+      }
     },
     {
       "id": "way/1525206175",
@@ -10137,7 +11451,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:26:56Z",
       "changeset": 183505563,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su izgrađene građevine sa krovovima različitih boja (crveni, crni, bijeli), jasno razlučive na satelitskoj snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:53.864Z"
+      }
     },
     {
       "id": "way/1525206258",
@@ -10195,7 +11515,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/narančastim krovom i pratećim objektima",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:56.358Z"
+      }
     },
     {
       "id": "way/1525206259",
@@ -10245,7 +11571,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:28:27Z",
       "changeset": 183505638,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi nekoliko zgrada sa vidljivim krovovima u različitim bojama (crvena, siva, tamna boja).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:56.496Z"
+      }
     },
     {
       "id": "way/1525206260",
@@ -10279,7 +11611,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:28:27Z",
       "changeset": 183505638,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine crvene/smeđe boje sa okružujućim zgradama i infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:56.825Z"
+      }
     },
     {
       "id": "way/1525206516",
@@ -10313,7 +11651,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:29:55Z",
       "changeset": 183505705,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada sa crvenim/terakota krovom i tamnim外 strukturama",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:56.380Z"
+      }
     },
     {
       "id": "way/1525206517",
@@ -10355,7 +11699,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su građevine s crvenim i ružičastim krovovima raspoređene u krugu oko parking površine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:56.341Z"
+      }
     },
     {
       "id": "way/1525206518",
@@ -10389,7 +11739,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:29:55Z",
       "changeset": 183505705,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi građevina sa crvenim krovom i dodatnim objektima oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:56.364Z"
+      }
     },
     {
       "id": "way/1525206784",
@@ -10431,7 +11787,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna građevina (krov) sa jasno vidljivim konturama, okružena zelenim poljima i dijelom ceste.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:57.139Z"
+      }
     },
     {
       "id": "way/1525206785",
@@ -10473,7 +11835,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom i njene strukture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:56.384Z"
+      }
     },
     {
       "id": "way/1525206786",
@@ -10515,7 +11883,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:32:31Z",
       "changeset": 183505823,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide crveni krovovi najmanje tri građevine/objekta okružene zelenom travom i parceliranom zemljom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:56.456Z"
+      }
     },
     {
       "id": "way/1525206787",
@@ -10549,7 +11923,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:32:31Z",
       "changeset": 183505823,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov stambene zgrade sa pratećim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:56.617Z"
+      }
     },
     {
       "id": "way/1525207118",
@@ -10599,7 +11979,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenom/ružičastom kosinom krova, jasno vidljiva na satelitskoj snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:59.416Z"
+      }
     },
     {
       "id": "way/1525207119",
@@ -10633,7 +12019,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:34:55Z",
       "changeset": 183505928,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s reddkasto-smeđim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:59.684Z"
+      }
     },
     {
       "id": "way/1525207120",
@@ -10675,7 +12067,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:34:55Z",
       "changeset": 183505928,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa crvenim/ružičastim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:59.429Z"
+      }
     },
     {
       "id": "way/1525207308",
@@ -10717,7 +12115,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim krovom crvene/ružičaste boje i pratećim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:59.281Z"
+      }
     },
     {
       "id": "way/1525207684",
@@ -10751,7 +12155,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:38:05Z",
       "changeset": 183506083,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenožutim krovom i pratećim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:59.336Z"
+      }
     },
     {
       "id": "way/1525207685",
@@ -10785,7 +12195,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:38:05Z",
       "changeset": 183506083,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa crvenim/roza krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:59.358Z"
+      }
     },
     {
       "id": "way/1525207686",
@@ -10819,7 +12235,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:38:05Z",
       "changeset": 183506083,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa smeđim i crnim krovom, sa dodatnim manjim strukturama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:59.477Z"
+      }
     },
     {
       "id": "way/1525207874",
@@ -10861,7 +12283,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva crvena/smeđa krovna konstrukcija što ukazuje na izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:05.814Z"
+      }
     },
     {
       "id": "way/1525207875",
@@ -10911,7 +12339,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:38:44Z",
       "changeset": 183506116,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasne strukture zgrada s krovovima, uključujući veće bele/svetle krovove i manje strukture okolo.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:59.420Z"
+      }
     },
     {
       "id": "way/1525208898",
@@ -10953,7 +12387,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura sa crvenim/ružičastim krovom okružena zelenim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:23:59.404Z"
+      }
     },
     {
       "id": "way/1525208899",
@@ -10987,7 +12427,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:42:04Z",
       "changeset": 183506281,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa vidljivim krovom crvene/ružičaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:08.612Z"
+      }
     },
     {
       "id": "way/1525208900",
@@ -11029,7 +12475,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/smeđim krovom okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:08.456Z"
+      }
     },
     {
       "id": "way/1525208901",
@@ -11063,7 +12515,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:42:04Z",
       "changeset": 183506281,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetlosiva građevina/zgrada sa pravokutnim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:08.540Z"
+      }
     },
     {
       "id": "way/1525209520",
@@ -11097,7 +12555,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:45:08Z",
       "changeset": 183506390,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenijom/ružičastom bojom krova, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:08.757Z"
+      }
     },
     {
       "id": "way/1525209521",
@@ -11131,7 +12595,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:45:08Z",
       "changeset": 183506390,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena zgrada sa crvenom/ružičastom strmom krovnom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:18.964Z"
+      }
     },
     {
       "id": "way/1525209522",
@@ -11181,7 +12651,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa sivim krovom okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:08.560Z"
+      }
     },
     {
       "id": "way/1525209775",
@@ -11215,7 +12691,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:46:59Z",
       "changeset": 183506465,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terrakota krovom, jasno razlikuje se od okolnog zelenog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:09.169Z"
+      }
     },
     {
       "id": "way/1525209776",
@@ -11257,7 +12739,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/oker krovom, jasno vidljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:09.181Z"
+      }
     },
     {
       "id": "way/1525209777",
@@ -11315,7 +12803,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terakota krovom, jasno razvidljiva na satelitskoj snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:09.142Z"
+      }
     },
     {
       "id": "way/1525209778",
@@ -11349,7 +12843,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:46:59Z",
       "changeset": 183506465,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s terrakota/crvenim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:09.248Z"
+      }
     },
     {
       "id": "way/1525210442",
@@ -11383,7 +12883,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:49:12Z",
       "changeset": 183506571,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je betonska/građevinska struktura sa krovom i pratećim objektima između ceste i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.503Z"
+      }
     },
     {
       "id": "way/1525210443",
@@ -11417,7 +12923,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:49:12Z",
       "changeset": 183506571,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva bijela zgrada/građevina sa krovom, okružena zelenim površinama i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.631Z"
+      }
     },
     {
       "id": "way/1525210444",
@@ -11451,7 +12963,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:49:12Z",
       "changeset": 183506571,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim krovom i pratećim vanjskim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.579Z"
+      }
     },
     {
       "id": "way/1525210662",
@@ -11493,7 +13011,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim krovom, jasno prepoznatljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.826Z"
+      }
     },
     {
       "id": "way/1525210663",
@@ -11527,7 +13051,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:50:39Z",
       "changeset": 183506644,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa sivim/metalnim krovom okružena vegetacijom i drugim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.634Z"
+      }
     },
     {
       "id": "way/1525210967",
@@ -11569,7 +13099,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim krovom, jasno prepoznatljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.692Z"
+      }
     },
     {
       "id": "way/1525210968",
@@ -11603,7 +13139,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:51:42Z",
       "changeset": 183506700,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade sa okolnim gospodarskim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.795Z"
+      }
     },
     {
       "id": "way/1525211317",
@@ -11637,7 +13179,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:54:24Z",
       "changeset": 183506820,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa vidljivim krovom i strukturom, okružena zelenim površinama i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.929Z"
+      }
     },
     {
       "id": "way/1525211318",
@@ -11671,7 +13219,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:54:24Z",
       "changeset": 183506820,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada s crvenim/smeđim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.919Z"
+      }
     },
     {
       "id": "way/1525211319",
@@ -11705,7 +13259,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:54:24Z",
       "changeset": 183506820,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa crvenim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:21.988Z"
+      }
     },
     {
       "id": "way/1525211320",
@@ -11747,7 +13307,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenim/terakota krovom i susjednim strukturama okruženim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.682Z"
+      }
     },
     {
       "id": "way/1525211321",
@@ -11789,7 +13355,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:54:24Z",
       "changeset": 183506820,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva bijela građevina s krovom u centru kadra, kao i crveni krovovi susjednih zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.157Z"
+      }
     },
     {
       "id": "way/1525212003",
@@ -11823,7 +13395,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:55:29Z",
       "changeset": 183506864,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa црвеnom/crvenom streho i okolnim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.311Z"
+      }
     },
     {
       "id": "way/1525212004",
@@ -11865,7 +13443,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi zgrada s crvenim krovom i betonskim dijelovima konstrukcije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.068Z"
+      }
     },
     {
       "id": "way/1525212005",
@@ -11907,7 +13491,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:55:29Z",
       "changeset": 183506864,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno su vidljivi krovovi zgrada sa različitim bojama (crvena, siva, bijela) u centru snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.075Z"
+      }
     },
     {
       "id": "way/1525212681",
@@ -11941,7 +13531,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:57:08Z",
       "changeset": 183506946,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim krovom crvenkaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.282Z"
+      }
     },
     {
       "id": "way/1525212682",
@@ -11975,7 +13571,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:57:08Z",
       "changeset": 183506946,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina sa reddkastim/crvenim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.143Z"
+      }
     },
     {
       "id": "way/1525212683",
@@ -12017,7 +13619,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine od crvene/smeđe boje sa okolnim terenima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.218Z"
+      }
     },
     {
       "id": "way/1525213058",
@@ -12051,7 +13659,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T15:58:54Z",
       "changeset": 183507060,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena građevina sa krovom, vidljiva kao pravokutna struktura sa jasnim konturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.177Z"
+      }
     },
     {
       "id": "way/1525213059",
@@ -12141,7 +13755,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vide krovovi nekoliko zgrada sa različitim bojama (crvena, siva, bijela) u centru i oko centra kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:24.257Z"
+      }
     },
     {
       "id": "way/1525213557",
@@ -12175,7 +13795,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:00:36Z",
       "changeset": 183507163,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s krovom crvene i tamne boje te pratećim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.856Z"
+      }
     },
     {
       "id": "way/1525213558",
@@ -12209,7 +13835,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:00:36Z",
       "changeset": 183507163,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s crvenim/narančastim krovom i vidljivim dijelovima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.900Z"
+      }
     },
     {
       "id": "way/1525213559",
@@ -12259,7 +13891,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi izgrađena zgrada sa rjavo-crvenim krovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.830Z"
+      }
     },
     {
       "id": "way/1525213706",
@@ -12293,7 +13931,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:01:38Z",
       "changeset": 183507224,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je crvena/smeđa krovna konstrukcija s jasno definiranim rubovima, što ukazuje na izgrađenu zgradu okruženu vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.906Z"
+      }
     },
     {
       "id": "way/1525213707",
@@ -12327,7 +13971,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:01:38Z",
       "changeset": 183507224,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenim/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.807Z"
+      }
     },
     {
       "id": "way/1525213708",
@@ -12385,7 +14035,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:01:38Z",
       "changeset": 183507224,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa crvenim/smeđim krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.668Z"
+      }
     },
     {
       "id": "way/1525213709",
@@ -12427,7 +14083,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide krovovi većih zgrada sa crvenim/narančastim pokrovom i sivim elementima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.804Z"
+      }
     },
     {
       "id": "way/1525214088",
@@ -12461,7 +14123,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:03:46Z",
       "changeset": 183507340,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/teracota krovom, jasno vidljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.803Z"
+      }
     },
     {
       "id": "way/1525214089",
@@ -12495,7 +14163,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:03:46Z",
       "changeset": 183507340,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena građevina sa krovom crvene/smeđe boje, okružena zelenim područjima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.847Z"
+      }
     },
     {
       "id": "way/1525214291",
@@ -12529,7 +14203,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:04:23Z",
       "changeset": 183507368,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa crvenim/smeđim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:26.753Z"
+      }
     },
     {
       "id": "way/1525214292",
@@ -12579,7 +14259,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi objekta sa crvenim/smeđim krovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:29.036Z"
+      }
     },
     {
       "id": "way/1525214387",
@@ -12613,7 +14299,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:05:07Z",
       "changeset": 183507406,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s jasno vidljivim krovom crvene/smeđe boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:28.874Z"
+      }
     },
     {
       "id": "way/1525214388",
@@ -12655,7 +14347,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:05:07Z",
       "changeset": 183507406,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov građevine, odnosno izgrađena kuća sa vidljivom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:29.015Z"
+      }
     },
     {
       "id": "way/1525214389",
@@ -12697,7 +14395,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/ružičastim krovom koja se jasno razlikuje od okolnog zelenog prostora.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:31.137Z"
+      }
     },
     {
       "id": "way/1525214838",
@@ -12731,7 +14435,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:06:41Z",
       "changeset": 183507478,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljivi su crveni i bijeli krovovi izgrađenih zgrada u centru snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:28.903Z"
+      }
     },
     {
       "id": "way/1525214839",
@@ -12765,7 +14475,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:06:41Z",
       "changeset": 183507478,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/ružičastim krovom i bijeli dio objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:29.145Z"
+      }
     },
     {
       "id": "way/1525215453",
@@ -12799,7 +14515,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:08:19Z",
       "changeset": 183507561,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim/terakota krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:29.116Z"
+      }
     },
     {
       "id": "way/1525215454",
@@ -12833,7 +14555,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:08:19Z",
       "changeset": 183507561,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno se vidi nekoliko zgrada sa krovovima - većim objektima sa sivim/tamnim krovovima u centru i desnom dijelu kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:29.179Z"
+      }
     },
     {
       "id": "way/1525215455",
@@ -12875,7 +14603,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela građevina (zgrada) sa krovom, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:28.924Z"
+      }
     },
     {
       "id": "way/1525215714",
@@ -12909,7 +14643,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:09:59Z",
       "changeset": 183507649,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su građevine sa crvenim/terakota krovovima i njihove sjene na tlu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:29.128Z"
+      }
     },
     {
       "id": "way/1525215715",
@@ -12943,7 +14683,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:09:59Z",
       "changeset": 183507649,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada sa crvenim krovom i pratećim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:33.028Z"
+      }
     },
     {
       "id": "way/1525215716",
@@ -12985,7 +14731,13 @@
         "postcode": "53260",
         "city": "Brinje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi roza/narančasta krovna površina glavne građevine sa okolnim manjim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:33.273Z"
+      }
     },
     {
       "id": "way/1525218847",
@@ -13027,7 +14779,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:24:15Z",
       "changeset": 183508190,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi rdeća/crvena zgrada s krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:33.437Z"
+      }
     },
     {
       "id": "way/1525219101",
@@ -13061,7 +14819,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:26:09Z",
       "changeset": 183508293,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim/narančastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:33.330Z"
+      }
     },
     {
       "id": "way/1525219102",
@@ -13095,7 +14859,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:26:09Z",
       "changeset": 183508293,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade sa okolnim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:34.068Z"
+      }
     },
     {
       "id": "way/1525219103",
@@ -13129,7 +14899,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:26:09Z",
       "changeset": 183508293,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim krovom i betonskom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:33.156Z"
+      }
     },
     {
       "id": "way/1525219104",
@@ -13163,7 +14939,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:26:09Z",
       "changeset": 183508293,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim krovom i dijelom betonske/asfaltne površine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:33.306Z"
+      }
     },
     {
       "id": "way/1525219296",
@@ -13213,7 +14995,13 @@
         "postcode": "53261",
         "city": "Križpolje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenkastavim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:33.145Z"
+      }
     },
     {
       "id": "way/1525219297",
@@ -13247,7 +15035,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:27:28Z",
       "changeset": 183508342,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su dvije građevine s crvenim krovovima okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:33.218Z"
+      }
     },
     {
       "id": "way/1525219298",
@@ -13281,7 +15075,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:27:28Z",
       "changeset": 183508342,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenom/narandžastom krovnom pločom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:33.326Z"
+      }
     },
     {
       "id": "way/1525219430",
@@ -13347,7 +15147,13 @@
         "postcode": "53261",
         "city": "Križpolje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina s više krovova različitih boja (crni, sivi i crveni dijelovi) okružena poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:36.601Z"
+      }
     },
     {
       "id": "way/1525219431",
@@ -13389,7 +15195,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:28:46Z",
       "changeset": 183508380,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi siva/bijela građevina s krovom i dijelovima okolnih zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:36.270Z"
+      }
     },
     {
       "id": "way/1525219432",
@@ -13431,7 +15243,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:28:46Z",
       "changeset": 183508380,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi nekoliko zgrada s jasno vidljivim strukturama i različitim nijansama boja koje ukazuju na građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:36.335Z"
+      }
     },
     {
       "id": "way/1525219808",
@@ -13465,7 +15283,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:31:32Z",
       "changeset": 183508488,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su najmanje tri građevine s crvenim/narančastim krovovima jasno vidljive na satelitskoj snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:36.462Z"
+      }
     },
     {
       "id": "way/1525219809",
@@ -13523,7 +15347,13 @@
         "postcode": "53261",
         "city": "Križpolje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi mehrmoderna zgrada sa crvenim/terraktnim krovom i bijelo obojanim zidovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:36.336Z"
+      }
     },
     {
       "id": "way/1525219810",
@@ -13557,7 +15387,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:31:32Z",
       "changeset": 183508488,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa terracotta/crvenim krovom i bijalom građevinom pored nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:36.206Z"
+      }
     },
     {
       "id": "way/1525219811",
@@ -13591,7 +15427,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:31:32Z",
       "changeset": 183508488,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada sa tamnim krovom i tamnosmeđim/crnim pokrivačem, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:36.305Z"
+      }
     },
     {
       "id": "way/1525219812",
@@ -13641,7 +15483,13 @@
         "postcode": "53261",
         "city": "Križpolje"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa krovom, posebno vidljiva kao bijela/svjetla struktura na području s zelenim površinama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:36.337Z"
+      }
     },
     {
       "id": "way/1525220108",
@@ -13675,7 +15523,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:33:38Z",
       "changeset": 183508582,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s crvenim/narančastim krovom i pratećim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:36.099Z"
+      }
     },
     {
       "id": "way/1525220109",
@@ -13709,7 +15563,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:33:38Z",
       "changeset": 183508582,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa tamnim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:35.881Z"
+      }
     },
     {
       "id": "way/1525220110",
@@ -13743,7 +15603,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-01T16:33:38Z",
       "changeset": 183508582,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su izgradene građevine s vidljivim krovovima različitih boja (crveni, sivi, bijeli), što jasno pokazuje da se radi o izgrađenom području.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:39.067Z"
+      }
     },
     {
       "id": "way/1525295922",
@@ -13782,7 +15648,13 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-06-01T19:31:36Z",
       "changeset": 183516016,
-      "osmUser": "Cro_it"
+      "osmUser": "Cro_it",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa crvenom/ružičastom bojom i dijelovi bijele građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:39.454Z"
+      }
     },
     {
       "id": "way/1525295923",
@@ -13829,7 +15701,13 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-06-01T19:31:36Z",
       "changeset": 183516016,
-      "osmUser": "Cro_it"
+      "osmUser": "Cro_it",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa rozim/crvenim krovom okružena drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:39.673Z"
+      }
     },
     {
       "id": "way/1525295924",
@@ -13872,7 +15750,13 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-06-01T19:31:36Z",
       "changeset": 183516016,
-      "osmUser": "Cro_it"
+      "osmUser": "Cro_it",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna građevina sa krovom, okružena parkiralištem i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:39.416Z"
+      }
     },
     {
       "id": "way/1525299750",
@@ -13923,7 +15807,13 @@
         "postcode": "23234",
         "city": "Vir"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa vidljivo vidljivim krovom crvenkaste/roza boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:38.796Z"
+      }
     },
     {
       "id": "way/1525299751",
@@ -13977,7 +15867,13 @@
         "postcode": "23234",
         "city": "Vir"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je темна građevina s krovom, jasno razlikovana od okolnih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:38.830Z"
+      }
     },
     {
       "id": "way/1525299752",
@@ -14034,7 +15930,13 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-06-01T19:44:35Z",
       "changeset": 183516436,
-      "osmUser": "Cro_it"
+      "osmUser": "Cro_it",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je sivkasta građevina sa krovom okružena zelenilom i susjednim kućama sa crvenim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:39.262Z"
+      }
     },
     {
       "id": "way/1525299757",
@@ -14106,7 +16008,13 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-06-01T19:44:35Z",
       "changeset": 183516436,
-      "osmUser": "Cro_it"
+      "osmUser": "Cro_it",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine tamnije boje na svijetloj pozadini.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:38.655Z"
+      }
     },
     {
       "id": "way/1525299758",
@@ -14152,7 +16060,13 @@
         "postcode": "23234",
         "city": "Vir"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa terracotta/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:38.509Z"
+      }
     },
     {
       "id": "way/1525302434",
@@ -14249,7 +16163,13 @@
       "changeset": 183516875,
       "osmUser": "Cro_it",
       "nearestStreet": "Radnjača XVII",
-      "nearestStreetDist": 32
+      "nearestStreetDist": 32,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru je jasno vidljiva građevina sa karakterističnim krovom tamnije boje, okružena zelenim površinama i susjednim zградама.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:38.803Z"
+      }
     },
     {
       "id": "way/1525328882",
@@ -14309,7 +16229,13 @@
         "postcode": "23206",
         "city": "Sukošan"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika izgrađena struktura sa vidljivim krovom i obrисима zgrade.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:41.520Z"
+      }
     },
     {
       "id": "way/1525390228",
@@ -14350,6 +16276,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna konstrukcija s jasno definiranim rubovima, što ukazuje na izgrađenu zgradu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:41.927Z"
       }
     },
     {
@@ -14405,6 +16337,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je roza/crvena boja koja predstavlja krov građevine, jasno razlikuje se od zelene površine okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:42.014Z"
       }
     },
     {
@@ -14474,6 +16412,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide krovovi zgrada sa ružičastom i crvenom bojom, kao i dijelovi objekata koji ukazuju na izgrađenu strukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:42.110Z"
       }
     },
     {
@@ -14535,6 +16479,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov zgrade sa sivom/betonom bojom okružen vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:41.661Z"
       }
     },
     {
@@ -14602,6 +16552,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa svetlorosa/ružičastim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:42.048Z"
       }
     },
     {
@@ -14689,6 +16645,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv crveni krov zgrade sa određenim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:41.712Z"
       }
     },
     {
@@ -14768,6 +16730,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom i tamnjim dijelovima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:41.918Z"
       }
     },
     {
@@ -14823,6 +16791,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada sa crvenim/ružičastim krovom i pripadajućim gospodarskim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:41.849Z"
       }
     },
     {
@@ -14894,6 +16868,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi kuća sa crvenim/smeđim krovom i bijelim zidovima, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:41.829Z"
       }
     },
     {
@@ -14957,6 +16937,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide crvenožute krovne strukture i betonske građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:44.326Z"
       }
     },
     {
@@ -15020,6 +17006,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa crvenim krovom i pratećim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:44.111Z"
       }
     },
     {
@@ -15061,6 +17053,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv dio crvenog krova građevine okružen zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:45.216Z"
       }
     },
     {
@@ -15108,6 +17106,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada sa crvenim/smeđim krovom",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:44.199Z"
       }
     },
     {
@@ -15195,6 +17199,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna pokrivnost građevine sa jasno definiranim rubovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:44.302Z"
       }
     },
     {
@@ -15254,6 +17264,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina sa vidljivim krovom crvene/ružičaste boje okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:44.503Z"
       }
     },
     {
@@ -15317,6 +17333,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena građevina sa crvenim krovom i okolnim beton/asfaltnom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:44.341Z"
       }
     },
     {
@@ -15364,6 +17386,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je pravokutni krov građevine sa tamnom bojom, okružen zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:44.253Z"
       }
     },
     {
@@ -15427,6 +17455,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i njezina okolna infrastruktura.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:49.631Z"
       }
     },
     {
@@ -15482,6 +17516,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov koja izgrađene zgrade okružene vegetacijom i stazama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:44.266Z"
       }
     },
     {
@@ -15529,6 +17569,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa krovom, prepoznatljiva po karakterističnom obliku i teksturi.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:52.253Z"
       }
     },
     {
@@ -15576,6 +17622,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izdignuta struktura s krovom koji se jasno razlikuje od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:52.309Z"
       }
     },
     {
@@ -15671,6 +17723,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su crvene/ružičaste krovne površine i betonske građevine uz cestu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:52.887Z"
       }
     },
     {
@@ -15738,6 +17796,12 @@
         "changeset": 183529434,
         "brojZgrada": 23,
         "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno građevine sa krovovima u beloj, ružičastoj i smeđoj boji.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:52.778Z"
       }
     },
     {
@@ -15781,7 +17845,13 @@
         "postcode": "53291",
         "city": "Novalja"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s bijelim krovom i tamnim detaljima, okružena parkiralištem i zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:52.688Z"
+      }
     },
     {
       "id": "way/1525392100",
@@ -15839,7 +17909,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa karakterističnim šarenim pločama (crvena, zelena, plava boja).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:52.747Z"
+      }
     },
     {
       "id": "way/1525392101",
@@ -15889,7 +17965,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/smeđim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:52.604Z"
+      }
     },
     {
       "id": "way/1525392102",
@@ -15959,7 +18041,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada s crvenkastavim krovom i okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:52.830Z"
+      }
     },
     {
       "id": "way/1525392103",
@@ -16021,7 +18109,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno obrisirane krovne površine s vidljivim crijepom u crvenim i terracotta tonovima, što ukazuje na izgrađenu strukturu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:53.122Z"
+      }
     },
     {
       "id": "way/1525392104",
@@ -16057,7 +18151,13 @@
       "changeset": 183529620,
       "osmUser": "Vedran V",
       "nearestStreet": "Zagrebačka ulica",
-      "nearestStreetDist": 15
+      "nearestStreetDist": 15,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada, crvenkastih i tamnih boja, jasno razlučivi kao izgrađene strukture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:53.189Z"
+      }
     },
     {
       "id": "way/1525392105",
@@ -16105,7 +18205,13 @@
       "changeset": 183529620,
       "osmUser": "Vedran V",
       "nearestStreet": "Zagrebačka ulica",
-      "nearestStreetDist": 15
+      "nearestStreetDist": 15,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov zgrade crvene boje sa okolnim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.173Z"
+      }
     },
     {
       "id": "way/1525392106",
@@ -16155,7 +18261,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada sa crvenom/ružičastom krovnom površinom i tamnim bočnim dijelovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.752Z"
+      }
     },
     {
       "id": "way/1525392107",
@@ -16191,7 +18303,13 @@
       "changeset": 183529620,
       "osmUser": "Vedran V",
       "nearestStreet": "Zagrebačka ulica",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenom/terakota krovnom površinom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.373Z"
+      }
     },
     {
       "id": "way/1525392108",
@@ -16249,7 +18367,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s reddkastim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.244Z"
+      }
     },
     {
       "id": "way/1525392109",
@@ -16299,7 +18423,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno izgrađene građevine s crvenim krovovima i tamnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.278Z"
+      }
     },
     {
       "id": "way/1525392110",
@@ -16357,7 +18487,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom, okružena zelenim površinama i parkiralištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.495Z"
+      }
     },
     {
       "id": "way/1525392111",
@@ -16415,7 +18551,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/rozim krovom i bijelim strutama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.347Z"
+      }
     },
     {
       "id": "way/1525392112",
@@ -16473,7 +18615,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s krovom i okolnim građevinama na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.432Z"
+      }
     },
     {
       "id": "way/1525433576",
@@ -16509,7 +18657,13 @@
       "changeset": 183535397,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Ivane i Cvjete Huis",
-      "nearestStreetDist": 14
+      "nearestStreetDist": 14,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva siva/betonska zgrada sa pravokutnim krovom u centru kadra, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.404Z"
+      }
     },
     {
       "id": "way/1525433577",
@@ -16567,7 +18721,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine sa karakterističnim sivim/beige bojom i geometrijskim oblikom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:55.507Z"
+      }
     },
     {
       "id": "way/1525433578",
@@ -16633,7 +18793,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:57.801Z"
+      }
     },
     {
       "id": "way/1525433579",
@@ -16675,7 +18841,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva roza/crvena zgrada sa krovom u centru snimke, okružena zelenim površinama i objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:57.954Z"
+      }
     },
     {
       "id": "way/1525433580",
@@ -16721,7 +18893,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa ružičastim/crvenim krovom okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:57.835Z"
+      }
     },
     {
       "id": "way/1525433581",
@@ -16757,7 +18935,13 @@
       "changeset": 183535397,
       "osmUser": "Vedran V",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna građevina sa krovom, okružena vegetacijom i drugim zgradama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:25:07.916Z"
+      }
     },
     {
       "id": "way/1525433582",
@@ -16799,7 +18983,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s krovom crvene/smeđe boje i pratećim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:57.992Z"
+      }
     },
     {
       "id": "way/1525433583",
@@ -16861,7 +19051,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su multiple građevine s krovovima različitih boja (bijeli, tamni i crveni), jasno vidljive na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:58.359Z"
+      }
     },
     {
       "id": "way/1525433584",
@@ -16897,7 +19093,13 @@
       "changeset": 183535397,
       "osmUser": "Vedran V",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela/светla građevina sa jasno vidljivim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:57.719Z"
+      }
     },
     {
       "id": "way/1525433585",
@@ -16979,7 +19181,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno izgrađene građevine s crvenkastvim i sivim krovovima okruženim zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:57.884Z"
+      }
     },
     {
       "id": "way/1525433587",
@@ -17021,7 +19229,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je roza/crvena boja krova građevine okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:57.810Z"
+      }
     },
     {
       "id": "way/1525433588",
@@ -17087,7 +19301,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa sivim krovom okružena zelenim vegetacijom i stazama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:24:57.916Z"
+      }
     },
     {
       "id": "way/1525433589",
@@ -17129,7 +19349,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiv krov zgrade/kuće sa karakterističnom crvenom/rozom bojom u pravokutnom obliku.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:25:10.701Z"
+      }
     },
     {
       "id": "way/1525433590",
@@ -17187,7 +19413,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi više zgrada sa jasno razvidljivim структурама.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:25:10.381Z"
+      }
     },
     {
       "id": "way/1525433591",
@@ -17237,7 +19469,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi više zgrada s vidljivim krovovima, a najistaknutija je ona sa sivo-plavim krovom u gornjem dijelu slike.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:25:10.790Z"
+      }
     },
     {
       "id": "way/1525433592",
@@ -17303,7 +19541,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su jasno definirane građevine s krovovima različitih boja (bijela, siva i ružičasta), što ukazuje na izgrađene objekte.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:25:10.906Z"
+      }
     },
     {
       "id": "way/1525433593",
@@ -17361,7 +19605,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi beličasta/svetla građevina sa krovom, okružena crvenim i plavim krovovima susednih zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:25:11.212Z"
+      }
     },
     {
       "id": "way/1525433594",
@@ -17443,7 +19693,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom i bijelom građevinom ispod nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-24T21:25:11.004Z"
+      }
     }
   ]
 }
