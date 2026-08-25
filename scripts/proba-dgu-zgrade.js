@@ -44,6 +44,43 @@ proj4.defs(
 );
 proj4.defs("EPSG:3765", "+proj=tmerc +lat_0=0 +lon_0=16.5 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs");
 
+// Koliki dio obrisa mora biti zajednicki da bismo rekli "ista zgrada".
+const PRAG_PREKLAPANJA = 0.30;
+const UZORAK = 14; // mreza tocaka po obrisu
+
+function uPoligonu([px, py], prsten) {
+  let unutra = false;
+  for (let i = 0, j = prsten.length - 1; i < prsten.length; j = i++) {
+    const [xi, yi] = prsten[i];
+    const [xj, yj] = prsten[j];
+    if ((yi > py) !== (yj > py) && px < ((xj - xi) * (py - yi)) / (yj - yi) + xi) unutra = !unutra;
+  }
+  return unutra;
+}
+
+// Udio obrisa A koji pada unutar obrisa B, procijenjen uzorkovanjem.
+// Isti postupak kao kod usporedbe s Microsoftovim obrisima - rezanje
+// poligona daje pogresne rezultate na konkavnim oblicima.
+function udioPreklapanja(a, b) {
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  a.forEach(([x, y]) => {
+    if (x < minX) minX = x; if (x > maxX) maxX = x;
+    if (y < minY) minY = y; if (y > maxY) maxY = y;
+  });
+  const kx = (maxX - minX) / UZORAK, ky = (maxY - minY) / UZORAK;
+  if (!(kx > 0) || !(ky > 0)) return null;
+  let uA = 0, uOba = 0;
+  for (let i = 0; i < UZORAK; i++) {
+    for (let j = 0; j < UZORAK; j++) {
+      const t = [minX + (i + 0.5) * kx, minY + (j + 0.5) * ky];
+      if (!uPoligonu(t, a)) continue;
+      uA++;
+      if (uPoligonu(t, b)) uOba++;
+    }
+  }
+  return uA === 0 ? null : uOba / uA;
+}
+
 function udaljenostM(lon1, lat1, lon2, lat2) {
   const mLat = 111320;
   const mLon = 111320 * Math.cos((lat1 * Math.PI) / 180);
@@ -70,6 +107,7 @@ function ucitajNase() {
       zgrade.set(f.id, {
         id: f.id,
         centar,
+        obris: (f.obris && f.obris.length >= 3) ? f.obris : null,
         satelit: (f.satelitProvjera || {}).status || null,
         zupanija: f.zupanija || "?",
         nadjena: false,
@@ -130,6 +168,7 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
     // "underConstruction" i "demolished" - dakle mozda i izravan podatak o
     // zgradama koje se upravo grade.
     let stanje = null, datum = null, priroda = null;
+    let prsten = [];
     const brojacStanja = {};
     const brojacGodina = {};
 
@@ -149,6 +188,7 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
       if (ime === "Building") {
         uZgradi = true;
         tockeX = tockeY = brojTocaka = 0;
+        prsten = [];
       }
       if (!srs && n.attributes && n.attributes.srsName) srs = n.attributes.srsName;
       if (uZgradi && (ime === "posList" || ime === "pos")) {
@@ -158,6 +198,17 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
       if (uZgradi && (ime === "conditionOfConstruction" || ime === "beginLifespanVersion" || ime === "buildingNature")) {
         uAtributu = ime;
         tekst = "";
+        // INSPIRE sifrarnike ne pise kao tekst elementa nego kao poveznicu u
+        // atributu xlink:href, npr.
+        //   .../ConditionOfConstructionValue/functional
+        // Zato je prvi pokusaj citanja dao prazan popis stanja gradnje.
+        const href = n.attributes && (n.attributes["xlink:href"] || n.attributes.href);
+        if (href) {
+          const v = String(href).split("/").pop();
+          if (ime === "conditionOfConstruction") stanje = v;
+          else if (ime === "buildingNature") priroda = v;
+          uAtributu = null;
+        }
       }
     });
 
@@ -169,7 +220,10 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
       if (uKoordinatama && (ime === "posList" || ime === "pos")) {
         uKoordinatama = false;
         const br = tekst.trim().split(/\s+/).map(Number).filter(Number.isFinite);
+        // Cuvamo cijeli obris, ne samo zbroj - poklapanje se sada racuna po
+        // preklapanju povrsina, za sto trebaju sve tocke.
         for (let i = 0; i + 1 < br.length; i += 2) {
+          prsten.push([br[i], br[i + 1]]);
           tockeX += br[i]; tockeY += br[i + 1]; brojTocaka++;
         }
         tekst = "";
@@ -213,6 +267,14 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
             console.log(`    UPOZORENJE: prva zgrada ispada na ${lat.toFixed(3)}, ${lon.toFixed(3)} - izvan Hrvatske. Pretvorba je vjerojatno kriva.`);
           }
 
+          // Cijeli obris u zemljopisne koordinate - treba za preklapanje.
+          const obrisDgu = [];
+          for (const [px, py] of prsten) {
+            let a = px, b = py;
+            if (obrnutRedoslijed) { const t = a; a = b; b = t; }
+            try { obrisDgu.push(proj4(izvor, "EPSG:4326", [a, b])); } catch (e) { /* preskoci */ }
+          }
+
           const gx = Math.floor(lon / CELIJA), gy = Math.floor(lat / CELIJA);
           for (let dx = -1; dx <= 1; dx++) {
             for (let dy = -1; dy <= 1; dy++) {
@@ -220,7 +282,29 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
               if (!c) continue;
               for (const z of c) {
                 if (z.nadjena) continue;
-                if (udaljenostM(lon, lat, z.centar[0], z.centar[1]) <= TOLERANCIJA_M) {
+
+                // POKLAPANJE PO PREKLAPANJU POVRSINA, ne po blizini sredista.
+                //
+                // Prvi pokusaj koristio je udaljenost od 20 m i dao besmislen
+                // rezultat: 60% zgrada kojih nema na ortofotu 2023./24. tobože
+                // je postojalo 2016. TTB sadrzi 2,55 milijuna objekata,
+                // ukljucujuci supe i garaze, pa se u naselju svaka zgrada
+                // uredno "poklopi" sa susjedovom.
+                //
+                // Isti kvar imali smo kod Microsoftovih obrisa i rijesili ga
+                // na isti nacin.
+                let poklapa = false;
+                if (z.obris && obrisDgu.length >= 3) {
+                  const a1 = udioPreklapanja(z.obris, obrisDgu);
+                  const a2 = a1 >= PRAG_PREKLAPANJA ? a1 : udioPreklapanja(obrisDgu, z.obris);
+                  poklapa = Math.max(a1 || 0, a2 || 0) >= PRAG_PREKLAPANJA;
+                } else if (obrisDgu.length >= 3) {
+                  // Nasa zgrada nema obris - jedino sto mozemo je pitati pada
+                  // li njezino srediste unutar DGU obrisa. Strogo, bez kruga.
+                  poklapa = uPoligonu(z.centar, obrisDgu);
+                }
+
+                if (poklapa) {
                   z.nadjena = true;
                   z.dguStanje = stanje;
                   z.dguDatum = datum;
