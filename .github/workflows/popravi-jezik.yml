@@ -1,0 +1,58 @@
+name: "Popravi jezik obrazlozenja"
+
+# Prepravlja postojeca obrazlozenja satelitske provjere na hrvatski standardni
+# jezik. Prevodi SAMO TEKST, bez slika - zato je desetak puta jeftinije od
+# ponovnog pokretanja satelitske provjere.
+#
+# Skripta je ponovljiva: obrazlozenja koja su vec ispravna preskace.
+on:
+  workflow_dispatch:
+    inputs:
+      proba:
+        description: "Samo prebroji, ne mijenjaj ništa"
+        required: false
+        default: false
+        type: boolean
+      max:
+        description: "Najviše poziva prema API-ju (prazno = svi)"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  popravak:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Preuzmi repozitorij
+        uses: actions/checkout@v4
+
+      - name: Postavi Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Popravi jezik
+        run: |
+          node scripts/popravi-jezik-obrazlozenja.js \
+            ${{ inputs.proba && '--proba' || '' }} \
+            ${{ inputs.max && format('--max={0}', inputs.max) || '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commitaj rezultate
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/zgrade
+          if git diff --cached --quiet; then
+            echo "Nema promjena za commit."
+          else
+            git commit -m "Obrazlozenja satelitske provjere prepravljena na hrvatski"
+            git pull --rebase
+            git push
+          fi

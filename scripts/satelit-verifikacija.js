@@ -198,7 +198,16 @@ async function pitajClaude(base64Slika) {
                 "Ovo je isječak zračne/satelitske snimke (DGU ortofoto), oko 50x50 metara, centriran na zadanu lokaciju. " +
                 "Vidi li se u centru kadra izgrađena zgrada (krov, građevina)? Odgovori ISKLJUČIVO u JSON formatu, bez ikakvog drugog teksta: " +
                 '{"vidljivaZgrada": true/false/null, "obrazlozenje": "kratko, jedna rečenica"}. ' +
-                "Koristi null ako je snimka nejasna, oblačna, prekrivena ili se ne može pouzdano procijeniti.",
+                "Koristi null ako je snimka nejasna, oblačna, prekrivena ili se ne može pouzdano procijeniti.\n\n" +
+                // Bez ove upute model odgovara mjesavinom hrvatskog i srpskog - dio
+                // obrazlozenja izlazio je cirilicom, a jos vise ih je bilo ekavski
+                // ("svetlosivi krov") ili sa srpskom rekcijom ("zgrada SA krovom").
+                // Obrazlozenja se prikazuju korisnicima aplikacije, pa to nije sitnica.
+                "JEZIK: obrazloženje mora biti na hrvatskom standardnom jeziku, latinicom. " +
+                "Koristi ijekavicu (svijetlo, bijelo, mjesto - ne svetlo, belo, mesto). " +
+                "Prijedlog 's/sa': koristi 's' ispred većine riječi ('s krovom', 's crvenim krovom'), " +
+                "a 'sa' samo ispred riječi koje počinju sa s, š, z, ž ili suglasničkim skupom. " +
+                "Piši 'građevina', 'zgrada', 'krov', 'obrađeno zemljište' - ne 'objekat', 'krovna konstrukcija'.",
             },
           ],
         },
