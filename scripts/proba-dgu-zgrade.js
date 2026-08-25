@@ -119,10 +119,28 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
     const elementi = {};          // za --struktura
     let uZgradi = false;
     let uKoordinatama = false;
+    let uAtributu = null;
     let tekst = "";
     let tockeX = 0, tockeY = 0, brojTocaka = 0;
     let srs = null;
     let brojZgrada = 0, poklapanja = 0;
+
+    // Atributi koje INSPIRE nosi uz svaku zgradu. conditionOfConstruction je
+    // najzanimljiviji: sadrzi vrijednosti poput "functional",
+    // "underConstruction" i "demolished" - dakle mozda i izravan podatak o
+    // zgradama koje se upravo grade.
+    let stanje = null, datum = null, priroda = null;
+    const brojacStanja = {};
+    const brojacGodina = {};
+
+    // REDOSLIJED KOORDINATA
+    //
+    // EPSG:3035 je sluzbeno definiran kao (sjever, istok), obrnuto od
+    // uobicajenog. Razni posluzitelji to razlicito tumace, pa se ne oslanjamo
+    // na specifikaciju nego na same brojke: u Hrvatskoj je istocna koordinata
+    // oko 4.900.000, a sjeverna oko 2.400.000. Razlika je tolika da se
+    // redoslijed prepoznaje sam, na prvoj zgradi.
+    let obrnutRedoslijed = null;
 
     parser.on("opentag", (n) => {
       const ime = n.name.replace(/^.*:/, "");
@@ -137,9 +155,13 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
         uKoordinatama = true;
         tekst = "";
       }
+      if (uZgradi && (ime === "conditionOfConstruction" || ime === "beginLifespanVersion" || ime === "buildingNature")) {
+        uAtributu = ime;
+        tekst = "";
+      }
     });
 
-    parser.on("text", (t) => { if (uKoordinatama) tekst += " " + t; });
+    parser.on("text", (t) => { if (uKoordinatama || uAtributu) tekst += " " + t; });
 
     parser.on("closetag", (naziv) => {
       const ime = naziv.replace(/^.*:/, "");
@@ -153,16 +175,43 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
         tekst = "";
       }
 
+      if (uAtributu && ime === uAtributu) {
+        const v = tekst.trim();
+        if (uAtributu === "conditionOfConstruction") stanje = v || null;
+        else if (uAtributu === "beginLifespanVersion") datum = v || null;
+        else if (uAtributu === "buildingNature") priroda = v || null;
+        uAtributu = null;
+        tekst = "";
+      }
+
       if (ime === "Building") {
         uZgradi = false;
         brojZgrada++;
+
+        if (stanje) brojacStanja[stanje] = (brojacStanja[stanje] || 0) + 1;
+        if (datum && datum.length >= 4) {
+          const g = datum.slice(0, 4);
+          brojacGodina[g] = (brojacGodina[g] || 0) + 1;
+        }
         if (brojTocaka > 0 && !samoStruktura) {
-          // Sredisnja tocka obrisa, pa u zemljopisne koordinate.
-          const x = tockeX / brojTocaka;
-          const y = tockeY / brojTocaka;
+          let x = tockeX / brojTocaka;
+          let y = tockeY / brojTocaka;
+
+          // Prva zgrada odlucuje o redoslijedu za sve ostale.
+          if (obrnutRedoslijed === null) {
+            obrnutRedoslijed = x < y;
+            console.log(`    Redoslijed koordinata: ${obrnutRedoslijed ? "sjever pa istok (zamjenjujem)" : "istok pa sjever"}`);
+          }
+          if (obrnutRedoslijed) { const t = x; x = y; y = t; }
+
           const izvor = (srs && srs.includes("3765")) ? "EPSG:3765" : "EPSG:3035";
           let lon, lat;
           try { [lon, lat] = proj4(izvor, "EPSG:4326", [x, y]); } catch (e) { return; }
+
+          // Sigurnosna provjera na prvoj zgradi: pada li unutar Hrvatske?
+          if (brojZgrada === 1 && (lon < 13 || lon > 20 || lat < 42 || lat > 47)) {
+            console.log(`    UPOZORENJE: prva zgrada ispada na ${lat.toFixed(3)}, ${lon.toFixed(3)} - izvan Hrvatske. Pretvorba je vjerojatno kriva.`);
+          }
 
           const gx = Math.floor(lon / CELIJA), gy = Math.floor(lat / CELIJA);
           for (let dx = -1; dx <= 1; dx++) {
@@ -173,12 +222,17 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
                 if (z.nadjena) continue;
                 if (udaljenostM(lon, lat, z.centar[0], z.centar[1]) <= TOLERANCIJA_M) {
                   z.nadjena = true;
+                  z.dguStanje = stanje;
+                  z.dguDatum = datum;
+                  z.dguPriroda = priroda;
                   poklapanja++;
                 }
               }
             }
           }
         }
+        stanje = datum = priroda = null;
+
         if (brojZgrada % 200000 === 0) {
           console.log(`    ...procitano ${brojZgrada.toLocaleString("hr-HR")} zgrada, poklapanja ${poklapanja.toLocaleString("hr-HR")}`);
         }
@@ -186,7 +240,7 @@ function obradiGml(gmlPath, mreza, nase, samoStruktura) {
     });
 
     parser.on("error", (e) => reject(e));
-    parser.on("end", () => resolve({ brojZgrada, poklapanja, srs, elementi }));
+    parser.on("end", () => resolve({ brojZgrada, poklapanja, srs, elementi, brojacStanja, brojacGodina }));
     fs.createReadStream(gmlPath).pipe(parser);
   });
 }
@@ -209,9 +263,19 @@ async function main() {
   console.log(`\nCitam GML...`);
   const r = await obradiGml(gmlPath, mreza, nase, SAMO_STRUKTURA);
 
+  const ispisiAtribute = () => {
+    console.log(`\nSTANJE GRADNJE (conditionOfConstruction):`);
+    Object.entries(r.brojacStanja).sort((a, b) => b[1] - a[1]).forEach(([k, n]) =>
+      console.log(`   ${String(n).padStart(10).replace(/\B(?=(\d{3})+(?!\d))/g, ".")}  ${k}`));
+    console.log(`\nGODINA ZAPISA (beginLifespanVersion):`);
+    Object.entries(r.brojacGodina).sort().slice(-8).forEach(([g, n]) =>
+      console.log(`   ${g}: ${n.toLocaleString("hr-HR")}`));
+  };
+
   if (SAMO_STRUKTURA) {
     console.log(`\nSRS: ${r.srs}`);
     console.log(`Zgrada u GML-u: ${r.brojZgrada.toLocaleString("hr-HR")}`);
+    ispisiAtribute();
     console.log(`\nNAJCESCI ELEMENTI:`);
     Object.entries(r.elementi).sort((a, b) => b[1] - a[1]).slice(0, 25)
       .forEach(([e, n]) => console.log(`   ${String(n).padStart(10)}  ${e}`));
@@ -240,6 +304,17 @@ async function main() {
     const pct = skup.length ? (100 * n / skup.length).toFixed(0) + "%" : "-";
     console.log(`    ${opis.padEnd(36)} ${String(skup.length).padStart(6)} zgrada, DGU ima ${String(n).padStart(6)} (${pct})`);
   });
+
+  ispisiAtribute();
+
+  // Ako medju NASIM zgradama ima ijedna oznacena kao "u izgradnji", to je
+  // izravan sluzbeni podatak o novogradnji.
+  const uIzgradnji = nase.filter((z) => z.dguStanje && /underConstruction|projected/i.test(z.dguStanje));
+  if (uIzgradnji.length) {
+    console.log(`\n  NASE ZGRADE OZNACENE KAO U IZGRADNJI ILI PLANIRANE: ${uIzgradnji.length}`);
+    uIzgradnji.slice(0, 10).forEach((z) =>
+      console.log(`     ${z.id}  ${z.zupanija.slice(0, 24).padEnd(26)} ${z.dguStanje}  ${z.dguDatum || ""}`));
+  }
 
   console.log(`\n  Ako "stara" ima visok postotak, a "kandidat" nizak, DGU potvrdjuje`);
   console.log(`  satelitsku provjeru i moze je zamijeniti ondje gdje ortofoto ne postoji.`);
