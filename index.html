@@ -490,13 +490,13 @@
              I-logikom: svaka dodatna kvacica suzava popis na zgrade za koje
              vrijedi sve odabrano. Nijedna oznacena = sve zgrade. -->
         <label title="Zgrade kojih nema na državnom ortofotu 2023./24.">
-          <input type="checkbox" id="dokazSatelit"> 🛰 Potvrđena satelitska snimka <span class="dokaz-broj" id="brojSatelit"></span>
+          <input type="checkbox" id="dokazSatelit"> Potvrđena satelitska snimka <span class="dokaz-broj" id="brojSatelit"></span>
         </label>
         <label title="Na lokaciji se pojavila nova adresa u DGU registru">
-          <input type="checkbox" id="dokazDgu"> 📍 DGU kandidat <span class="dokaz-broj" id="brojDgu"></span>
+          <input type="checkbox" id="dokazDgu"> DGU kandidat <span class="dokaz-broj" id="brojDgu"></span>
         </label>
         <label title="Zgrada je zabilježena u panelu promjena na postojećim zgradama">
-          <input type="checkbox" id="dokazOsm"> ✎ Promjena u OSM-u <span class="dokaz-broj" id="brojOsm"></span>
+          <input type="checkbox" id="dokazOsm"> Promjena u OSM-u <span class="dokaz-broj" id="brojOsm"></span>
         </label>
         <label id="dguJedinicaFilterLabel" style="display:none;">
           <input type="checkbox" id="dguJedinicaFilterCheckbox"> Samo zgrade s više DGU adresa
@@ -780,20 +780,28 @@ function escapeHtml(tekst){
   div.textContent = tekst == null ? '' : String(tekst);
   return div.innerHTML;
 }
+// Jedini pokazatelj koji sada stoji uz zgradu - presuda satelitske provjere.
+// Ranije je uz njega stajala i "pouzdanost", koja je samo prepricavala isto,
+// pa je maknuta.
+//
+// Boje idu iz teme; prije su bile tvrdo upisane svijetle nijanse, necitljive
+// u tamnom nacinu rada.
+const SATELIT_OZNAKE = {
+  kandidat:     ['var(--teal-soft)',   'var(--teal)',        'satelit: nema je na snimci'],
+  stara:        ['var(--grey-soft)',   'var(--grey-signal)', 'satelit: postojala 2023./24.'],
+  nema_snimke:  ['var(--magenta-soft)','var(--magenta)',     'DGU nema snimku'],
+  neizvjesno:   ['var(--amber-soft)',  'var(--amber)',       'satelit: neizvjesno'],
+  greska:       ['var(--danger-soft)', 'var(--danger)',      'satelit: greška'],
+};
+
 function satelitBedz(f){
   if (!f.satelitProvjera) return '';
   const s = f.satelitProvjera;
-  const obrazlozenje = escapeHtml(s.obrazlozenje);
-  if (s.status === 'kandidat') {
-    return ' <span title="' + obrazlozenje + '" style="font-size:10px;background:#DCFCE7;color:#166534;padding:1px 6px;border-radius:999px;">satelit: kandidat</span>';
-  }
-  if (s.status === 'stara') {
-    return ' <span title="' + obrazlozenje + '" style="font-size:10px;background:#F3F4F6;color:#6B7280;padding:1px 6px;border-radius:999px;">satelit: postojala 2022.</span>';
-  }
-  if (s.status === 'neizvjesno') {
-    return ' <span title="' + obrazlozenje + '" style="font-size:10px;background:#FEF3C7;color:#92400E;padding:1px 6px;border-radius:999px;">satelit: neizvjesno</span>';
-  }
-  return '';
+  const o = SATELIT_OZNAKE[s.status];
+  if (!o) return '';
+  const naslov = escapeHtml(s.obrazlozenje || '');
+  return ' <span title="' + naslov + '" style="font-size:10px;background:' + o[0] +
+    ';color:' + o[1] + ';padding:1px 6px;border-radius:999px;white-space:nowrap;">' + o[2] + '</span>';
 }
 
 
@@ -1266,7 +1274,7 @@ function opisZgrade(f){
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) =>
     '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:200px;">' +
-    '<b' + adresaStil + '>' + adresa + '</b>' + dguNapomena + pouzdanostBedz(f) + satelitBedz(f) + tipZgradeBedz(f) + '<br>' +
+    '<b' + adresaStil + '>' + adresa + '</b>' + dguNapomena + satelitBedz(f) + tipZgradeBedz(f) + '<br>' +
     (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') +
     '<div style="color:#6B6B6B;font-size:12px;margin:4px 0;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a href="' + gmaps + '" target="_blank" rel="noopener" style="font-size:12.5px;">Otvori u Google Maps ↗</a>' +
@@ -1469,10 +1477,6 @@ function vrijednostZaSort(f, stupac){
     case 'zupanija': return (f.zupanija || '').toLowerCase();
     case 'tip': return (tag(f,'building') || '').toLowerCase();
     case 'datum': return f.validFrom || '';
-    case 'pouzdanost': {
-      const rang = { nova: 3, neprovjereno: 2, nije: 1 };
-      return rang[izracunajPouzdanost(f).tier] || 0;
-    }
     case 'status': {
       const rang = { 'potvrđeno': 2, 'nepotvrđeno': 1, 'odbačeno': 0 };
       return rang[f.reviewStatus] ?? 1;
@@ -1524,7 +1528,7 @@ function updateTable(resetPage = true){
   const th = (stupac, naslov) => '<th class="sortable-th" data-sort="' + stupac + '">' + naslov + strelica(stupac) + '</th>';
 
   let html = '<table class="building-table"><thead><tr>' +
-    th('adresa','Adresa') + th('mjesto','Mjesto') + th('zupanija','Županija') + th('tip','Tip') + th('datum','Datum') + th('pouzdanost','Pouzdanost') + th('status','Status') +
+    th('adresa','Adresa') + th('mjesto','Mjesto') + th('zupanija','Županija') + th('tip','Tip') + th('datum','Datum') + th('status','Status') +
     '</tr></thead><tbody>';
 
   prikazano.forEach((f, i) => {
@@ -1540,7 +1544,6 @@ function updateTable(resetPage = true){
       '<td>' + (f.zupanija ? '<span class="badge-tip">' + f.zupanija + '</span>' : '<span class="muted">—</span>') + '</td>' +
       '<td>' + (tag(f,'building') || '<span class="muted">—</span>') + '</td>' +
       '<td class="muted">' + formatDatum(f.validFrom) + '</td>' +
-      '<td>' + (pouzdanostBedz(f) || '<span class="muted">—</span>') + '</td>' +
       '<td>' + statusBedz(f.reviewStatus) + '</td>' +
       '</tr>';
   });
@@ -1634,7 +1637,7 @@ function openModal(f){
   ).join('');
   $('#modalCard').innerHTML =
     '<button class="modal-close" id="modalCloseBtn">×</button>' +
-    '<h3' + adresaStil + '>' + adresa + dguNapomena + pouzdanostBedz(f) + satelitBedz(f) + tipZgradeBedz(f) + '</h3>' +
+    '<h3' + adresaStil + '>' + adresa + dguNapomena + satelitBedz(f) + tipZgradeBedz(f) + '</h3>' +
     '<div style="color:var(--text-secondary);font-size:13.5px;">' + (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') + '</div>' +
     '<div style="color:var(--text-secondary);font-size:13px;margin-top:4px;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a class="modal-gmaps" href="' + gmaps + '" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>' +
@@ -2131,22 +2134,15 @@ function opis(f){
   }
   if (!adresa && f.nearestStreet) adresa = '~' + f.nearestStreetDist + 'm od ' + f.nearestStreet;
   if (!adresa) adresa = 'Adresa nepoznata';
-  let satelitNapomena = '';
-  if (f.satelitProvjera) {
-    const s = f.satelitProvjera;
-    const boje = { kandidat: ['#DCFCE7','#166534','kandidat'], stara: ['#F3F4F6','#6B7280','postojala 2022.'], neizvjesno: ['#FEF3C7','#92400E','neizvjesno'] };
-    const b = boje[s.status];
-    if (b) {
-      const div = document.createElement('div');
-      div.textContent = s.obrazlozenje || '';
-      const obrazlozenjeEsc = div.innerHTML;
-      satelitNapomena = ' <span title="' + obrazlozenjeEsc + '" style="font-size:10px;background:' + b[0] + ';color:' + b[1] + ';padding:1px 6px;border-radius:999px;">satelit: ' + b[2] + '</span>';
-    }
-  }
+  // Ista funkcija kao u tablici. Ranije je ovdje stajala treca kopija istih
+  // boja i tekstova - pa je ostala na "2022." i nakon sto je drugdje
+  // ispravljeno na 2023./24., a nova oznaka "nema snimke" se uopce nije
+  // prikazivala.
+  const satelitNapomena = satelitBedz(f);
   // Ista funkcija kao u tablici. Ranije je ovdje stajala zasebna kopija
   // logike s vlastitim bojama i tekstovima - pa se izmjena na jednom mjestu
   // nije vidjela na drugom.
-  const pouzdanostNapomena = pouzdanostBedz(f);
+  const pouzdanostNapomena = '';
   const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:210px;">' +
