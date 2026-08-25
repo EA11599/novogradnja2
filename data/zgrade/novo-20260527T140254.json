@@ -5241,13 +5241,7 @@
       "changeset": 183127694,
       "osmUser": "Alexey Vazhnov",
       "nearestStreet": "Kraljice Jelene",
-      "nearestStreetDist": 6,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljiv je zeleni prostor (park ili travnjak) okružen zgradama, ali bez vidljive građevine direktno u centru.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:06:50.566Z"
-      }
+      "nearestStreetDist": 6
     },
     {
       "id": "way/1521038505",
@@ -13286,13 +13280,7 @@
       "changeset": 183153613,
       "osmUser": "Tomislav Ivanetić",
       "nearestStreet": "Put Piketa",
-      "nearestStreetDist": 43,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje prirodni teren sa vegetacijom i terenom, bez vidljivih građevina ili krovova u centralnom dijelu.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:07:56.289Z"
-      }
+      "nearestStreetDist": 43
     },
     {
       "id": "way/1521796026",
@@ -22579,12 +22567,6 @@
         "changeset": 183220756,
         "brojZgrada": 80,
         "korisnik": "Wonderful Alligator"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivi su poljoprivredni tereni, šumske površine i putni pravci, ali bez izgrađenih građevina ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:08:46.318Z"
       }
     },
     {
@@ -22632,12 +22614,6 @@
         "changeset": 183220756,
         "brojZgrada": 80,
         "korisnik": "Wonderful Alligator"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivi su samo poljoprivredni tereni i šumske površine, bez vidljive izgrađene građevine ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:08:46.327Z"
       }
     },
     {
@@ -23747,12 +23723,6 @@
         "changeset": 183220756,
         "brojZgrada": 80,
         "korisnik": "Wonderful Alligator"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivi su samo poljoprivredni objekti, šumske površine i polja bez vidljive izgrađene zgrade.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:08:58.430Z"
       }
     },
     {
@@ -25843,13 +25813,7 @@
       "changeset": 183230917,
       "osmUser": "Alexey Vazhnov",
       "nearestStreet": "Ulica Milana Mrdalja",
-      "nearestStreetDist": 5,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivi su samo poljoprivredni tereni, putanje i vegetacija, bez vidljive izgrađene građevine ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:09:11.497Z"
-      }
+      "nearestStreetDist": 5
     },
     {
       "id": "way/1523095606",
@@ -29436,12 +29400,6 @@
         "changeset": 183232183,
         "brojZgrada": 40,
         "korisnik": "Matija Nalis"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivo je polje s poljoprivrednim površinama i vegetacijom, bez vidljive izgrađene zgrade ili krovne strukture.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:09:31.444Z"
       }
     },
     {
@@ -33150,12 +33108,6 @@
         "changeset": 183253023,
         "brojZgrada": 31,
         "korisnik": "DominikNew"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Na snimci se vidi samo prirodni teren s vegetacijom i bez vidljivih izgrađenih građevina ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:10:00.634Z"
       }
     },
     {

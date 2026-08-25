@@ -379,13 +379,7 @@
       "changeset": 187922097,
       "osmUser": "Latebird",
       "nearestStreet": "Prva ulica",
-      "nearestStreetDist": 153,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljiva je vegetacija i dio ceste, ali nema vidljive izgrađene zgrade ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T13:03:30.057Z"
-      }
+      "nearestStreetDist": 153
     },
     {
       "id": "way/1551942354",

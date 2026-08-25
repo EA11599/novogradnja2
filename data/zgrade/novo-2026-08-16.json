@@ -7166,13 +7166,7 @@
         "building": "yes"
       },
       "zupanija": "Koprivničko-križevačka županija",
-      "validFrom": "2026-08-14T08:07:10Z",
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljiva je samo šumska vegetacija bez jasnih znakova izgrađene građevine ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:09:14.325Z"
-      }
+      "validFrom": "2026-08-14T08:07:10Z"
     },
     {
       "id": "way/1549569444",
@@ -7643,13 +7637,7 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-08-14T08:42:40Z",
       "nearestStreet": "Gajeva ulica",
-      "nearestStreetDist": 56,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje isključivo poljoprivredno zemljište s brazdama, bez vidljive izgrađene građevine u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:09:19.678Z"
-      }
+      "nearestStreetDist": 56
     },
     {
       "id": "way/1549573852",
@@ -22967,13 +22955,7 @@
         "postcode": "51221",
         "city": "Kostrena"
       },
-      "dguBrojJedinica": 1,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje poljoprivredne površine s vegetacijom i poljima, bez vidljive izgrađene građevine u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:12:15.382Z"
-      }
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1550020808",

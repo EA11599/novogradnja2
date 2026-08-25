@@ -10378,13 +10378,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-19T17:30:14Z",
       "changeset": 187703225,
-      "osmUser": "Joško Horvat",
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje samo zelenu vegetaciju/travu bez vidljivih zgrada ili krovova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:23.875Z"
-      }
+      "osmUser": "Joško Horvat"
     },
     {
       "id": "way/1550871373",
@@ -10420,13 +10414,7 @@
       "changeset": 187703496,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 44,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje samo bjeličastu/praznu površinu bez vidljivih građevina ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:23.833Z"
-      }
+      "nearestStreetDist": 44
     },
     {
       "id": "way/1550874107",
@@ -10470,13 +10458,7 @@
       "changeset": 187703977,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Marka Kovača",
-      "nearestStreetDist": 60,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje samo praznu površinu s vegetacijom bez vidljive izgrađene građevine ili krova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:26.883Z"
-      }
+      "nearestStreetDist": 60
     },
     {
       "id": "way/1550874108",
@@ -10518,13 +10500,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-19T17:47:10Z",
       "changeset": 187703977,
-      "osmUser": "Joško Horvat",
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje vegetaciju i prirodni teren bez vidljivih zgrada ili krovova u centralnom dijelu kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:26.858Z"
-      }
+      "osmUser": "Joško Horvat"
     },
     {
       "id": "way/1550874109",
@@ -10568,13 +10544,7 @@
       "changeset": 187703977,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Slatine",
-      "nearestStreetDist": 30,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje pretežno otvoreni teren, travnate površine i vegetaciju bez vidljive građevine ili krova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:26.981Z"
-      }
+      "nearestStreetDist": 30
     },
     {
       "id": "way/1550874110",
@@ -10618,13 +10588,7 @@
       "changeset": 187703977,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Slatine",
-      "nearestStreetDist": 35,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje gotovo potpuno bijelu/praznu površinu bez vidljivih zgrada ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:26.742Z"
-      }
+      "nearestStreetDist": 35
     },
     {
       "id": "way/1550892573",
@@ -10660,13 +10624,7 @@
       "changeset": 187708034,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Slatine",
-      "nearestStreetDist": 60,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje poljoprivrednu površinu bez vidljivih građevina u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:26.761Z"
-      }
+      "nearestStreetDist": 60
     },
     {
       "id": "way/1550892578",
@@ -10710,13 +10668,7 @@
       "changeset": 187708034,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Marka Kovača",
-      "nearestStreetDist": 34,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje pretežno praznu, neizgrađenu površinu bez vidljive građevine ili krova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:28.960Z"
-      }
+      "nearestStreetDist": 34
     },
     {
       "id": "way/1550892579",
@@ -10752,13 +10704,7 @@
       "changeset": 187708034,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Slatine",
-      "nearestStreetDist": 40,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje pretežno travnate i šumske površine bez vidljive izgrađene građevine u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:28.824Z"
-      }
+      "nearestStreetDist": 40
     },
     {
       "id": "way/1550892580",
@@ -10800,13 +10746,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-19T19:05:48Z",
       "changeset": 187708034,
-      "osmUser": "Joško Horvat",
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje uglavnom praznu površinu s vegetacijom, bez vidljive izgrađene strukture ili krova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:28.664Z"
-      }
+      "osmUser": "Joško Horvat"
     },
     {
       "id": "way/1550892581",
@@ -10848,13 +10788,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-19T19:05:48Z",
       "changeset": 187708034,
-      "osmUser": "Joško Horvat",
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje praznu površinu s vegetacijom, bez vidljivih krovova ili građevina u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:28.962Z"
-      }
+      "osmUser": "Joško Horvat"
     },
     {
       "id": "way/1550892582",
@@ -10890,13 +10824,7 @@
       "changeset": 187708034,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Marka Kovača",
-      "nearestStreetDist": 26,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje samo vegetaciju i prirodne površine bez vidljive izgrađene građevine ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:28.812Z"
-      }
+      "nearestStreetDist": 26
     },
     {
       "id": "way/1550893006",
@@ -10932,13 +10860,7 @@
       "changeset": 187708167,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Slatine",
-      "nearestStreetDist": 51,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje samo vegetaciju i prirodni teren bez vidljive građevine u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:30.611Z"
-      }
+      "nearestStreetDist": 51
     },
     {
       "id": "way/1550893007",
@@ -10992,13 +10914,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-19T19:08:20Z",
       "changeset": 187708167,
-      "osmUser": "Joško Horvat",
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje praznu površinu bez vidljive građevine ili krova u centralnom dijelu kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:32:30.812Z"
-      }
+      "osmUser": "Joško Horvat"
     },
     {
       "id": "way/1550905016",
@@ -42768,13 +42684,7 @@
         "postcode": "33522",
         "city": "Voćin"
       },
-      "dguBrojJedinica": 1,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Na snimci se vide samo šumske površine i zemljani putevi bez vidljive izgrađene građevine u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T02:38:52.031Z"
-      }
+      "dguBrojJedinica": 1
     },
     {
       "id": "way/1551171490",

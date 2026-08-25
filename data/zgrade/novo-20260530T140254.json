@@ -6481,13 +6481,7 @@
       "changeset": 183262723,
       "osmUser": "barefootstache",
       "nearestStreet": "Babindub",
-      "nearestStreetDist": 25,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje primarno poljoprivredni teren s vegetacijom i stazama, bez vidljive građevine ili krovnog pokrova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:11:46.716Z"
-      }
+      "nearestStreetDist": 25
     },
     {
       "id": "way/1523594857",
@@ -10908,13 +10902,7 @@
       "changeset": 183275590,
       "osmUser": "Matija Nalis",
       "nearestStreet": "Ulica IX",
-      "nearestStreetDist": 469,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivi su samo prirodni elementi - vegetacija,水 (voda) i obalna linija, bez vidljivih građevina ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:12:14.181Z"
-      }
+      "nearestStreetDist": 469
     },
     {
       "id": "way/1523800583",
@@ -12079,12 +12067,6 @@
         "changeset": 183276192,
         "brojZgrada": 30,
         "korisnik": "Matija Nalis"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra nije vidljiva izgrađena zgrada, već se vidi samo poljoprivredno zemljište s raspoređenom zelenom vegetacijom i putnom infrastrukturom.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:12:22.493Z"
       }
     },
     {
@@ -12520,12 +12502,6 @@
         "changeset": 183276192,
         "brojZgrada": 30,
         "korisnik": "Matija Nalis"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljiva je samo oranica i vegetacija, bez vidljive izgrađene strukture ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:12:24.645Z"
       }
     },
     {
@@ -12719,12 +12695,6 @@
         "changeset": 183276192,
         "brojZgrada": 30,
         "korisnik": "Matija Nalis"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vide se samo šumske površine i poljoprivredne parcele bez vidljivih građevina ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:12:24.785Z"
       }
     },
     {
@@ -13035,12 +13005,6 @@
         "changeset": 183276192,
         "brojZgrada": 30,
         "korisnik": "Matija Nalis"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivi su samo poljoprivredni tereni, putovi i vegetacija bez vidljive izgrađene građevine ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:12:27.257Z"
       }
     },
     {
@@ -13080,12 +13044,6 @@
         "changeset": 183276192,
         "brojZgrada": 30,
         "korisnik": "Matija Nalis"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivo je samo poljoprivredno zemljište s poljima i vegetacijom, bez vidljive izgrađene građevine ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:12:27.442Z"
       }
     },
     {
@@ -42386,13 +42344,7 @@
       "changeset": 183311021,
       "osmUser": "barefootstache",
       "nearestStreet": "Bunarić",
-      "nearestStreetDist": 464,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Vidljivo je samo poljoprivredno zemljište sa vegetacijom i putnom infrastrukturom, bez vidljivih građevina ili krovova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:15:42.653Z"
-      }
+      "nearestStreetDist": 464
     },
     {
       "id": "way/1524066304",
@@ -42594,13 +42546,7 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-05-28T18:41:53Z",
       "changeset": 183319897,
-      "osmUser": "barefootstache",
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje prirodnu površinu terena bez vidljive izgrađene građevine ili krova u centralnom dijelu kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:15:42.576Z"
-      }
+      "osmUser": "barefootstache"
     },
     {
       "id": "way/1524149588",
@@ -48779,12 +48725,6 @@
         "changeset": 183326119,
         "brojZgrada": 70,
         "korisnik": "Matija Nalis"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljiva su poljoprivredna polja, travnjaci i vegetacija, bez vidljive izgrađene građevine ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:16:24.730Z"
       }
     },
     {
@@ -49354,12 +49294,6 @@
         "changeset": 183326119,
         "brojZgrada": 70,
         "korisnik": "Matija Nalis"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivi su isključivo poljoprivredni dijelovi terena, šumski dijelovi i putanja, bez vidljive izgrađene građevine ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:16:28.398Z"
       }
     },
     {
@@ -50219,12 +50153,6 @@
         "changeset": 183326119,
         "brojZgrada": 70,
         "korisnik": "Matija Nalis"
-      },
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "U centru kadra vidljivi su samo poljoprivredni dijelovi s vegetacijom i putnjom, bez vidljive izgrađene zgrade ili krova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:16:33.568Z"
       }
     },
     {
@@ -69827,13 +69755,7 @@
       "changeset": 183368490,
       "osmUser": "Yurii Skvortsov",
       "nearestStreet": "Zadgrad",
-      "nearestStreetDist": 20,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje otvoreni teren sa travom i vegetacijom, bez vidljive izgrađene građevine ili krova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:18:47.125Z"
-      }
+      "nearestStreetDist": 20
     },
     {
       "id": "way/1524405257",

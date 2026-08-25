@@ -7069,13 +7069,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Ulica Antuna Mihanovića",
-      "nearestStreetDist": 36,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje većinom vegetaciju i otvorene prostore bez vidljive izgrađene građevine u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:47.880Z"
-      }
+      "nearestStreetDist": 36
     },
     {
       "id": "way/1550420148",
@@ -7117,13 +7111,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Ulica Antuna Mihanovića",
-      "nearestStreetDist": 21,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje samo praznu zemljišnu površinu bez vidljivih građevina ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:47.198Z"
-      }
+      "nearestStreetDist": 21
     },
     {
       "id": "way/1550420149",
@@ -7157,13 +7145,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 20,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje pretežno praznu površinu bez vidljivih zgrada ili krovova u centralnom dijelu kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:46.986Z"
-      }
+      "nearestStreetDist": 20
     },
     {
       "id": "way/1550420150",
@@ -7199,13 +7181,7 @@
         "building": "house"
       },
       "zupanija": "Međimurska županija",
-      "validFrom": "2026-08-17T20:44:00Z",
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje samo bijelu/praznu površinu bez vidljivih građevina ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:49.311Z"
-      }
+      "validFrom": "2026-08-17T20:44:00Z"
     },
     {
       "id": "way/1550420151",
@@ -7247,13 +7223,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 62,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje samo vegetaciju i prirodni teren bez vidljivih građevina ili krovova u centralnom dijelu kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:49.398Z"
-      }
+      "nearestStreetDist": 62
     },
     {
       "id": "way/1550420152",
@@ -7287,13 +7257,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 30,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje samo vegetaciju i prirodni teren bez vidljive izgrađene strukture u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:49.347Z"
-      }
+      "nearestStreetDist": 30
     },
     {
       "id": "way/1550420153",
@@ -7351,13 +7315,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 47,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje samo vegetaciju i natural teren bez vidljive izgrađene strukture u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:49.299Z"
-      }
+      "nearestStreetDist": 47
     },
     {
       "id": "way/1550420154",
@@ -7397,13 +7355,7 @@
         "building": "house"
       },
       "zupanija": "Međimurska županija",
-      "validFrom": "2026-08-17T20:44:00Z",
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje većinom praznu, otvorenu površinu bez vidljivih zgrada ili krovova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:49.474Z"
-      }
+      "validFrom": "2026-08-17T20:44:00Z"
     },
     {
       "id": "way/1550420155",
@@ -7437,13 +7389,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 40,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka pokazuje samo praznu, svjetlu površinu bez vidljivih građevina ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:51.545Z"
-      }
+      "nearestStreetDist": 40
     },
     {
       "id": "way/1550420156",
@@ -7489,13 +7435,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 40,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje praznu površinu bez vidljivih građevina ili krovova u centru kadra.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:50.669Z"
-      }
+      "nearestStreetDist": 40
     },
     {
       "id": "way/1550420157",
@@ -7537,13 +7477,7 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 9,
-      "satelitProvjera": {
-        "status": "kandidat",
-        "obrazlozenje": "Snimka prikazuje samo bjelkasto-sivu površinu bez vidljivih zgrada ili krovova.",
-        "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-21T20:17:51.166Z"
-      }
+      "nearestStreetDist": 9
     },
     {
       "id": "way/1550420614",
