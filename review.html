@@ -253,6 +253,7 @@
   .toggle-filters{ display:flex; flex-direction:column; gap:6px; margin-bottom: 10px; }
   .toggle-filters label{ display:flex; align-items:center; gap:8px; font-size: 12px; color: var(--text-dim); cursor:pointer; }
   .toggle-filters input{ accent-color: var(--magenta); width:14px; height:14px; }
+  .dokaz-broj{ color: var(--text-faint); font-variant-numeric: tabular-nums; }
 
   .filter-toggle-btn{
     display:flex; align-items:center; justify-content:space-between; gap:6px; width:100%;
@@ -465,8 +466,14 @@
 
     <div class="filters-block" style="border-bottom:1px solid var(--border);">
       <div class="toggle-filters" style="flex-direction:row; gap:18px;">
-        <label id="satelitFilterLabel" style="display:none;">
-          <input type="checkbox" id="satelitFilterCheckbox"> Samo satelitski kandidati
+        <label title="Zgrade kojih nema na državnom ortofotu 2023./24.">
+          <input type="checkbox" id="dokazSatelit"> 🛰 Potvrđena satelitska snimka <span class="dokaz-broj" id="brojSatelit"></span>
+        </label>
+        <label title="Na lokaciji se pojavila nova adresa u DGU registru">
+          <input type="checkbox" id="dokazDgu"> 📍 DGU kandidat <span class="dokaz-broj" id="brojDgu"></span>
+        </label>
+        <label title="Zgrada je zabilježena među promjenama na postojećim zgradama">
+          <input type="checkbox" id="dokazOsm"> ✎ Promjena u OSM-u <span class="dokaz-broj" id="brojOsm"></span>
         </label>
         <label id="dguJedinicaFilterLabel" style="display:none;">
           <input type="checkbox" id="dguJedinicaFilterCheckbox"> Samo zgrade s više DGU adresa
@@ -728,7 +735,9 @@ let samoViseDguAdresa = false;
 let selectedBuildingTypes = new Set();
 let selectedLevels = new Set();
 let selectedStatuses = new Set();
-let selectedPouzdanost = new Set();
+// Tri dokaza. Svaki je neovisan izvor; kombiniraju se I-logikom.
+let dokazi = { satelit: false, dgu: false, osm: false };
+let zgradeSPromjenom = new Set();
 let facetPanelOpen = false;
 let map, geoLayer, markerLayer;
 // Pocinje se od zadnjeg tjedna, ne od cijele retencije. Tri mjeseca znaci
@@ -902,8 +911,6 @@ async function selectWindow(weeks){
   });
 
   const imaSatelitskihPodataka = allFeaturesInWindow.some(f => f.satelitProvjera);
-  $('#satelitFilterLabel').style.display = imaSatelitskihPodataka ? 'flex' : 'none';
-  if (!imaSatelitskihPodataka) { samoSatelitskiKandidati = false; $('#satelitFilterCheckbox').checked = false; }
 
   const imaDguBrojaJedinica = allFeaturesInWindow.some(f => f.dguBrojJedinica > 1);
   $('#dguJedinicaFilterLabel').style.display = imaDguBrojaJedinica ? 'flex' : 'none';
@@ -917,6 +924,9 @@ async function selectWindow(weeks){
 
   // Koliko je stvarno trajalo i koliko je zapisa doslo - kad netko javi
   // "sporo je" ili "nema podataka", ovdje pise brojka umjesto dojma.
+  ucitajIdPromjena();
+  osvjeziBrojeveDokaza();
+
   Dnevnik.zapisi('sustav', 'prozor_ucitan', {
     tjedana: weeks,
     trajanje_ms: Date.now() - __pocetakUcitavanja,
@@ -1097,7 +1107,9 @@ function getFilteredFeatures(){
     if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
     if (selectedStatuses.size > 0 && !selectedStatuses.has(f.reviewStatus || 'nepotvrđeno')) return false;
-    if (selectedPouzdanost.size > 0 && !selectedPouzdanost.has(izracunajPouzdanost(f).tier)) return false;
+    if (dokazi.satelit && (f.satelitProvjera || {}).status !== 'kandidat') return false;
+    if (dokazi.dgu && !f.dguNovaAdresaPoklapanje) return false;
+    if (dokazi.osm && !zgradeSPromjenom.has(f.id)) return false;
     if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
     if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
@@ -1115,7 +1127,9 @@ function getFilteredFeaturesBezZupanije(){
     if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
     if (selectedStatuses.size > 0 && !selectedStatuses.has(f.reviewStatus || 'nepotvrđeno')) return false;
-    if (selectedPouzdanost.size > 0 && !selectedPouzdanost.has(izracunajPouzdanost(f).tier)) return false;
+    if (dokazi.satelit && (f.satelitProvjera || {}).status !== 'kandidat') return false;
+    if (dokazi.dgu && !f.dguNovaAdresaPoklapanje) return false;
+    if (dokazi.osm && !zgradeSPromjenom.has(f.id)) return false;
     if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
     if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
@@ -1191,7 +1205,7 @@ function renderFacetPanel(){
   };
 
   const panel = $('#facetPanel');
-  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Status', statusCounts, selectedStatuses) + grupa('Županije', zupCounts, selectedZupanije) + grupa('Pouzdanost', pouzdanostCounts, selectedPouzdanost);
+  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Status', statusCounts, selectedStatuses) + grupa('Županije', zupCounts, selectedZupanije);
 
   const groups = panel.querySelectorAll('.facet-group');
   groups[0].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
@@ -1215,12 +1229,11 @@ function renderFacetPanel(){
     updateMap();
   }));
   groups[4].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
-    toggleSet(selectedPouzdanost, e.target.dataset.val);
     updateTable();
     updateMap();
   }));
 
-  $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0 || selectedStatuses.size > 0 || selectedZupanije.size > 0 || selectedPouzdanost.size > 0);
+  $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0 || selectedStatuses.size > 0 || selectedZupanije.size > 0);
 }
 
 function toggleSet(set, val){
@@ -1536,11 +1549,54 @@ $('#searchBox').addEventListener('input', () => {
   if (facetPanelOpen) renderFacetPanel();
 });
 
-$('#satelitFilterCheckbox').addEventListener('change', (e) => {
-  samoSatelitskiKandidati = e.target.checked;
-  updateTable();
-  updateMap();
+// Ova stranica nema panel promjena, ali filtar treba znati koje su zgrade
+// promijenjene - zato dohvacamo samo id-eve.
+async function ucitajIdPromjena(){
+  try {
+    const res = await fetch('data/prosirenja/manifest.json', { cache: 'no-store' });
+    if (!res.ok) return;
+    const manifest = await res.json();
+    const trideset = new Date();
+    trideset.setUTCDate(trideset.getUTCDate() - 30);
+    const noviji = (manifest.entries || []).filter(e => new Date(e.to) > trideset);
+    const idjevi = [];
+    for (const e of noviji) {
+      const r = await fetch(e.file, { cache: 'no-store' });
+      if (!r.ok) continue;
+      const d = await r.json();
+      (d.features || []).forEach(f => idjevi.push(f.id));
+    }
+    zgradeSPromjenom = new Set(idjevi);
+    osvjeziBrojeveDokaza();
+    if (dokazi.osm) updateTable();
+  } catch (err) {
+    console.warn('Dohvat promjena nije uspio:', err.message);
+  }
+}
+
+// ---------- Tri dokaza ----------
+[['#dokazSatelit', 'satelit'], ['#dokazDgu', 'dgu'], ['#dokazOsm', 'osm']].forEach(([sel, kljuc]) => {
+  $(sel).addEventListener('change', (e) => {
+    dokazi[kljuc] = e.target.checked;
+    Dnevnik.zapisi('pregled', 'filter_dokaza', {
+      odabrano: Object.keys(dokazi).filter(k => dokazi[k])
+    });
+    updateTable();
+    updateMap();
+    updateStats(dataSets);
+  });
 });
+
+// Broj zgrada uz svaku kvacicu - odmah se vidi ima li smisla kliknuti.
+function osvjeziBrojeveDokaza(){
+  const svi = allFeaturesInWindow || [];
+  const broj = (uvjet) => svi.filter(uvjet).length;
+  const ispis = (sel, n) => { const e = $(sel); if (e) e.textContent = n > 0 ? '(' + n + ')' : '(0)'; };
+  ispis('#brojSatelit', broj(f => (f.satelitProvjera || {}).status === 'kandidat'));
+  ispis('#brojDgu', broj(f => !!f.dguNovaAdresaPoklapanje));
+  ispis('#brojOsm', broj(f => zgradeSPromjenom.has(f.id)));
+}
+
 
 $('#dguJedinicaFilterCheckbox').addEventListener('change', (e) => {
   samoViseDguAdresa = e.target.checked;

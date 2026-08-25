@@ -148,6 +148,9 @@
     font-size:11px; font-weight:600;
   }
   .b-nepotvrdeno{ background:var(--grey-soft); color:var(--text-dim); }
+  .b-nova{ background:var(--teal-soft); color:var(--teal); }
+  .b-neprov{ background:var(--amber-soft); color:var(--amber); }
+  .b-nije{ background:var(--grey-soft); color:var(--text-faint); }
   .b-potvrdeno{ background:var(--teal-soft); color:var(--teal); }
   .b-odbaceno{ background:var(--danger-soft); color:var(--danger); }
 
@@ -267,8 +270,16 @@
     <button class="cip" data-status="potvrđeno">Potvrđene</button>
     <button class="cip" data-status="odbačeno">Odbačene</button>
   </div>
-  <div class="traka" id="trakaZupanija" style="display:none;">
+  <div class="traka" id="trakaNovost">
+    <button class="cip aktivan" data-novost="">Sve</button>
+    <button class="cip" data-novost="nova">● vjerojatno nova</button>
+    <button class="cip" data-novost="neprovjereno">◑ neprovjereno</button>
+    <button class="cip" data-novost="nije">○ nije nova</button>
+  </div>
+  <div class="traka" id="trakaOdabiri">
     <select id="odabirZupanije" class="odabir"></select>
+    <select id="odabirTipa" class="odabir"></select>
+    <select id="odabirKatova" class="odabir"></select>
   </div>
   <div class="brojac" id="brojac"></div>
 </div>
@@ -299,6 +310,16 @@ let nacin = 'blizu';       // 'blizu' = po udaljenosti, 'popis' = cijeli popis
 // popis imao 28 tisuca zgrada.
 let tjedana = 0;
 let filterZupanija = '';
+let filterNovost = '';
+let filterTip = '';
+let filterKatovi = '';
+
+// Ista podjela kao na glavnoj stranici: presudu vodi satelitska provjera.
+function novostZgrade(z){
+  if (z.s === 'kandidat') return 'nova';
+  if (z.s === 'stara') return 'nije';
+  return 'neprovjereno';
+}
 const NAJVISE_PRIKAZANO = 200;
 let otvorenaKartica = null;
 let korisnikIme = null;
@@ -479,6 +500,9 @@ function trenutniPopis(){
 
   if (granica) popis = popis.filter(z => !z.d || z.d >= granica);
   if (filterZupanija) popis = popis.filter(z => z.z === filterZupanija);
+  if (filterNovost) popis = popis.filter(z => novostZgrade(z) === filterNovost);
+  if (filterTip) popis = popis.filter(z => (z.t || '(bez oznake)') === filterTip);
+  if (filterKatovi) popis = popis.filter(z => String(z.k || '') === filterKatovi);
   if (filterStatus) {
     popis = popis.filter(z => ((statusi[z.i] || {}).status || 'nepotvrđeno') === filterStatus);
   }
@@ -504,7 +528,7 @@ function prikazi(){
 
   // Radijus ima smisla samo u nacinu "blizu mene".
   $('#trakaRadijus').style.display = nacin === 'blizu' ? 'flex' : 'none';
-  $('#trakaZupanija').style.display = nacin === 'popis' ? 'flex' : 'none';
+  $('#trakaOdabiri').style.display = 'flex';
 
   if (nacin === 'blizu' && !mojaPozicija){
     $('#brojac').textContent = '';
@@ -542,6 +566,11 @@ function prikazi(){
             [z.m, nacin === 'popis' ? (z.z || '').replace(/\s*županija\s*$/i, '') : null, z.t]
               .filter(Boolean).join(' · ') || '—') + '</div>' +
           '<span class="bedz ' + klasaBedza + '">' + s + '</span>' +
+          (function(){
+            const n = novostZgrade(z);
+            const o = { nova: ['b-nova', '● nova'], neprovjereno: ['b-neprov', '◑ neprovj.'], nije: ['b-nije', '○ nije nova'] }[n];
+            return ' <span class="bedz ' + o[0] + '">' + o[1] + '</span>';
+          })() +
         '</div>' +
         '<div class="k-daljina">' +
           (df
@@ -634,11 +663,25 @@ document.querySelectorAll('#trakaRazdoblje .cip').forEach(c => {
   });
 });
 
-$('#odabirZupanije').addEventListener('change', (e) => {
-  filterZupanija = e.target.value;
-  otvorenaKartica = null;
-  Dnevnik.zapisiOdgodjeno('pregled', 'teren_zupanija', { zupanija: filterZupanija || 'sve' }, 1200);
-  prikazi();
+document.querySelectorAll('#trakaNovost .cip').forEach(c => {
+  c.addEventListener('click', () => {
+    postaviCip('#trakaNovost', c);
+    filterNovost = c.dataset.novost;
+    otvorenaKartica = null;
+    Dnevnik.zapisiOdgodjeno('pregled', 'teren_filter_novost', { novost: filterNovost || 'sve' }, 1200);
+    prikazi();
+  });
+});
+
+[['#odabirZupanije', v => filterZupanija = v, 'zupanija'],
+ ['#odabirTipa',     v => filterTip = v,      'tip'],
+ ['#odabirKatova',   v => filterKatovi = v,   'katovi']].forEach(([sel, postavi, ime]) => {
+  $(sel).addEventListener('change', (e) => {
+    postavi(e.target.value);
+    otvorenaKartica = null;
+    Dnevnik.zapisiOdgodjeno('pregled', 'teren_filter', { polje: ime, vrijednost: e.target.value || 'sve' }, 1200);
+    prikazi();
+  });
 });
 
 document.querySelectorAll('#trakaStatus .cip').forEach(c => {
@@ -676,10 +719,22 @@ document.querySelectorAll('#trakaRadijus .cip').forEach(c => {
 
     // Popis zupanija gradimo iz podataka, ne tvrdo upisan - ako se pojavi
     // nova ili se promijeni naziv, sam se azurira.
-    const zupanije = [...new Set(sveZgrade.map(z => z.z).filter(Boolean))].sort();
-    const odabir = $('#odabirZupanije');
-    odabir.innerHTML = '<option value="">Sve županije</option>' +
-      zupanije.map(z => '<option value="' + escapeHtml(z) + '">' + escapeHtml(z.replace(/\s*županija\s*$/i, '')) + '</option>').join('');
+    // Izbornici se pune iz podataka, s brojem zgrada uz svaku stavku - tako
+    // se odmah vidi ima li smisla filtrirati po necemu.
+    function napuni(selektor, zaglavlje, vrijednosti, prikaz) {
+      const broj = {};
+      vrijednosti.forEach(v => { if (v !== null && v !== '') broj[v] = (broj[v] || 0) + 1; });
+      const poredak = Object.keys(broj).sort((a, b) => broj[b] - broj[a]);
+      $(selektor).innerHTML = '<option value="">' + zaglavlje + '</option>' +
+        poredak.map(v => '<option value="' + escapeHtml(v) + '">' +
+          escapeHtml(prikaz ? prikaz(v) : v) + ' (' + broj[v].toLocaleString('hr-HR') + ')</option>').join('');
+    }
+
+    napuni('#odabirZupanije', 'Sve županije', sveZgrade.map(z => z.z),
+      v => v.replace(/\s*županija\s*$/i, ''));
+    napuni('#odabirTipa', 'Svi tipovi', sveZgrade.map(z => z.t));
+    napuni('#odabirKatova', 'Svi katovi', sveZgrade.map(z => z.k),
+      v => v + (v === '1' ? ' kat' : ' kata'));
 
     // Statuse dohvaćamo samo za zgrade u najširem krugu, ne za svih 28 tisuća.
     // Čekamo prvu poziciju - bez nje ne znamo koje su to.

@@ -173,7 +173,16 @@ async function dohvatiIsjecak(lat, lon, nazivSloja) {
     // (često <500B). Namjerno konzervativan prag (nizak) - bolje propustiti
     // par stvarno praznih pločica Claude-u (par centi) nego riskirati da
     // lažno odbacimo stvarnu zgradu s neuobičajeno uniformnim krovom.
-    if (buffer.length < 1500) {
+    // Prag podignut s 1500 na 6000 bajtova (25.8.2026.).
+    //
+    // Stari prag bio je prenizak: 90 jednobojnih pločica proslo je kroz njega
+    // i zavrsilo kod modela, koji ih je protumacio kao prazno zemljiste i
+    // proglasio novogradnjom. Prava zracna snimka 300x300 s krovovima,
+    // vegetacijom i cestama gotovo se nikad ne komprimira ispod 6 KB.
+    //
+    // Ovo je gruba brana; drugu, pouzdaniju cini sam model - u uputi mu je
+    // izricito receno da jednobojnu sliku prijavi kao "nemaSnimke".
+    if (buffer.length < 6000) {
       return { prazno: true, velicinaBajtova: buffer.length };
     }
     return { prazno: false, base64: buffer.toString("base64") };
@@ -199,6 +208,18 @@ async function pitajClaude(base64Slika) {
                 "Vidi li se u centru kadra izgrađena zgrada (krov, građevina)? Odgovori ISKLJUČIVO u JSON formatu, bez ikakvog drugog teksta: " +
                 '{"vidljivaZgrada": true/false/null, "obrazlozenje": "kratko, jedna rečenica"}. ' +
                 "Koristi null ako je snimka nejasna, oblačna, prekrivena ili se ne može pouzdano procijeniti.\n\n" +
+                // KLJUCNO (otkriveno 25.8.2026.): DGU nema ortofoto pokrivenost svugdje.
+                // Ondje gdje je nema WMS vraca jednobojnu bijelu sliku. Model je takve
+                // slike tumacio kao "nema zgrade" i proglasavao ih novogradnjom - u
+                // Medjimurskoj zupaniji je tako nastalo 90 laznih kandidata.
+                // Zato mora izricito razlikovati "vidim prazno zemljiste" od
+                // "nemam sto vidjeti".
+                "VAZNO - PRAZNA SNIMKA: ako je slika jednobojna (potpuno bijela, siva ili crna), " +
+                "bez ikakvog vidljivog terena, vegetacije, cesta ili sjena - to NIJE prazno zemljište, " +
+                "nego znači da snimka za tu lokaciju ne postoji. U tom slučaju odgovori " +
+                '{"vidljivaZgrada": null, "nemaSnimke": true, "obrazlozenje": "..."} . ' +
+                "Ako vidiš bilo kakav stvarni teren - travu, oranicu, šumu, cestu, vodu - " +
+                "onda snimka POSTOJI i nemaSnimke je false.\n\n" +
                 // Bez ove upute model odgovara mjesavinom hrvatskog i srpskog - dio
                 // obrazlozenja izlazio je cirilicom, a jos vise ih je bilo ekavski
                 // ("svetlosivi krov") ili sa srpskom rekcijom ("zgrada SA krovom").
@@ -260,8 +281,8 @@ async function obradiFeature(f, nazivSloja) {
     const isjecak = await dohvatiIsjecak(f.lat, f.lon, nazivSloja);
     if (isjecak.prazno) {
       f.satelitProvjera = {
-        status: "neizvjesno",
-        obrazlozenje: `DGU nema pokrivenost na ovoj lokaciji (prazan isječak, ${isjecak.velicinaBajtova}B)`,
+        status: "nema_snimke",
+        obrazlozenje: `DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, ${isjecak.velicinaBajtova} B)`,
         izvor: "DGU ortofoto 2023/24",
         provjereno: new Date().toISOString(),
       };
@@ -269,7 +290,7 @@ async function obradiFeature(f, nazivSloja) {
     }
     const odgovor = await pitajClaude(isjecak.base64);
     f.satelitProvjera = {
-      status: statusIzOdgovora(odgovor),
+      status: odgovor && odgovor.nemaSnimke === true ? "nema_snimke" : statusIzOdgovora(odgovor),
       obrazlozenje: odgovor.obrazlozenje || null,
       izvor: "DGU ortofoto 2023/24",
       provjereno: new Date().toISOString(),

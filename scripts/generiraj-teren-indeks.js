@@ -57,6 +57,10 @@ function main() {
 
       // Koordinate na 5 decimala = oko 1 metar. Za "koja je zgrada blizu
       // mene" je to i vise nego dovoljno, a zapis je kraci.
+      // Kratki nazivi polja nisu stil nego ustednja: kod 28.000 zgrada
+      // razlika izmedju "zupanija" i "z" je vise stotina kilobajta.
+      const t = f.tags || {};
+      const sp = f.satelitProvjera || {};
       zgrade.push({
         i: f.id,
         y: Math.round(f.lat * 1e5) / 1e5,
@@ -64,8 +68,11 @@ function main() {
         a: adresaZgrade(f),
         m: mjestoZgrade(f),
         z: f.zupanija || null,
-        t: (f.tags || {}).building || null,
-        d: e.to ? e.to.slice(0, 10) : null, // kad je detektirana
+        t: t.building || null,
+        k: t["building:levels"] || null,          // katovi
+        s: sp.status || null,                      // satelitska presuda
+        u: f.masovniUnos ? 1 : 0,                  // masovni unos
+        d: e.to ? e.to.slice(0, 10) : null,        // kad je detektirana
       });
     });
   });
