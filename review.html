@@ -618,50 +618,60 @@ function jeAdresaPriblizna(f){
   const prava = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
   return !prava && !f.dguAdresa;
 }
-// Kombinira sve dostupne signale (masovni unos, satelit, DGU nova adresa,
-// DGU postojeća adresa) u jedan indikator pouzdanosti - umjesto da
-// korisnik sam mentalno zbraja odvojene bedževe. Ne tvrdi ništa
-// definitivno, samo objedinjuje ono što već znamo.
+// Odgovara na jedno pitanje koje korisnika stvarno zanima: JE LI OVO NOVA
+// ZGRADA? Tri odgovora, bez postotaka i bez "pouzdanosti" koja zvuci kao
+// mjera koju nemamo.
+//
+// ODLUKU VODI SAMO SATELITSKA PROVJERA, i to namjerno.
+//
+// Ranija verzija zbrajala je pet signala u tri razine. Mjerenje na 11.700
+// provjerenih zgrada pokazalo je da ostali signali gotovo nista ne
+// razlikuju: od zgrada iz masovnog unosa 99,2% je starih, a od onih koje
+// nisu iz masovnog unosa 96,9%. Oba broja su toliko visoka da zbrajanje
+// signala samo stvara privid preciznosti.
+//
+// Masovni unos i DGU adresa i dalje se prikazuju - ali kao KONTEKST u
+// obrazlozenju, ne kao glasovi koji mijenjaju presudu.
 function izracunajPouzdanost(f){
-  const pozitivni = [];
-  const negativni = [];
+  const s = (f.satelitProvjera || {}).status;
+  const razlozi = [];
+  let tier;
 
-  if (f.masovniUnos) {
-    negativni.push('Dio masovnog unosa (' + f.masovniUnos.brojZgrada + ' zgrada u istoj OSM sesiji) - vjerojatno digitalizacija, ne nova gradnja');
-  }
-  if (f.satelitProvjera && f.satelitProvjera.status === 'stara') {
-    negativni.push('Zgrada vidljiva na DGU ortofotu iz 2022. - vjerojatno je postojala i prije');
-  }
-  if (f.dguNovaAdresaPoklapanje) {
-    pozitivni.push('Nova DGU adresa (' + formatDatum(f.dguNovaAdresaPoklapanje.datum) + ') poklapa se s ovom lokacijom - neovisan izvor se slaže');
-  }
-  if (f.satelitProvjera && f.satelitProvjera.status === 'kandidat') {
-    pozitivni.push('Nema zgrade na DGU ortofotu 2022. - kandidat za stvarnu novogradnju');
-  }
-  if (f.dguAdresa) {
-    pozitivni.push('DGU adresa potvrđena unutar obrisa zgrade');
+  if (s === 'kandidat') {
+    tier = 'nova';
+    razlozi.push('Na državnom ortofotu 2023./24. na ovom mjestu nema zgrade - nastala je poslije snimanja');
+  } else if (s === 'stara') {
+    tier = 'nije';
+    razlozi.push('Zgrada se jasno vidi na državnom ortofotu 2023./24. - postojala je i prije, netko ju je tek sada ucrtao');
+  } else {
+    tier = 'neprovjereno';
+    if (s === 'neizvjesno') razlozi.push('Snimka je nejasna ili zaklonjena, procjena nije bila moguća');
+    else razlozi.push('Zgrada još nije uspoređena s ortofotom');
+    // Kod neprovjerenih masovni unos govori nesto o PRIORITETU: zgrade izvan
+    // masovnog unosa cetiri puta cesce ispadnu kandidati.
+    if (!f.masovniUnos) razlozi.push('Nije iz masovnog unosa - vrijedi provjeriti ranije');
   }
 
-  let tier = 'nepoznato';
-  if (pozitivni.length >= 2) tier = 'visoka';
-  else if (pozitivni.length === 1 && negativni.length === 0) tier = 'srednja';
-  else if (negativni.length > 0 && pozitivni.length === 0) tier = 'niska';
-  else if (pozitivni.length > 0 && negativni.length > 0) tier = 'srednja'; // konfliktni signali
+  // Kontekst, ne presuda.
+  if ((f.satelitProvjera || {}).obrazlozenje) razlozi.push('Sa snimke: ' + f.satelitProvjera.obrazlozenje);
+  if (f.masovniUnos) razlozi.push('Dio masovnog unosa (' + f.masovniUnos.brojZgrada + ' zgrada odjednom) - obično digitalizacija, ne gradnja');
+  if (f.dguAdresa) razlozi.push('DGU adresa postoji unutar obrisa');
 
-  return { tier, razlozi: [...pozitivni, ...negativni] };
+  return { tier, razlozi };
 }
+
+// Boje idu iz teme, ne tvrdo upisane - inace su neprocitljive u tamnom nacinu.
+const OZNAKE_NOVOSTI = {
+  nova:          ['var(--teal-soft)',  'var(--teal)',        '\u25CF vjerojatno nova'],
+  nije:          ['var(--grey-soft)',  'var(--grey-signal)', '\u25CB nije nova'],
+  neprovjereno:  ['var(--amber-soft)', 'var(--amber)',       '\u25D1 neprovjereno'],
+};
 
 function pouzdanostBedz(f){
   const { tier, razlozi } = izracunajPouzdanost(f);
-  if (tier === 'nepoznato') return '';
-  const stilovi = {
-    visoka: ['#DCFCE7', '#166534', 'visoka pouzdanost'],
-    srednja: ['#FEF3C7', '#92400E', 'srednja pouzdanost'],
-    niska: ['#F3F4F6', '#6B7280', 'niska pouzdanost'],
-  };
-  const [bg, fg, tekst] = stilovi[tier];
-  const naslov = escapeHtml(razlozi.join(' • '));
-  return ' <span title="' + naslov + '" style="font-size:10px;font-weight:700;background:' + bg + ';color:' + fg + ';padding:1px 7px;border-radius:999px;">' + tekst + '</span>';
+  const [bg, fg, tekst] = OZNAKE_NOVOSTI[tier] || OZNAKE_NOVOSTI.neprovjereno;
+  const naslov = escapeHtml(razlozi.join(' \u2022 '));
+  return ' <span title="' + naslov + '" style="font-size:10px;font-weight:700;background:' + bg + ';color:' + fg + ';padding:1px 7px;border-radius:999px;white-space:nowrap;">' + tekst + '</span>';
 }
 
 function jeAdresaIzDgu(f){
@@ -721,7 +731,10 @@ let selectedStatuses = new Set();
 let selectedPouzdanost = new Set();
 let facetPanelOpen = false;
 let map, geoLayer, markerLayer;
-let currentWindowWeeks = null; // null = sve
+// Pocinje se od zadnjeg tjedna, ne od cijele retencije. Tri mjeseca znaci
+// ucitavanje desetaka tisuca zgrada - sporo, a korisnika u pravilu zanima
+// sto je novo od zadnjeg pregleda. Siri prozor je jedan klik dalje.
+let currentWindowWeeks = 1;
 
 const WINDOW_OPTIONS = [
   { label: '1 tjedan', weeks: 1 },
@@ -753,7 +766,7 @@ async function init(){
   }
 
   // default: prikaži sve dostupno
-  await selectWindow(null);
+  await selectWindow(currentWindowWeeks);
 
   await loadDguNoveAdrese();
   await renderTrendChart();
@@ -832,7 +845,7 @@ function renderWindowButtons(){
   wrap.innerHTML = '';
   WINDOW_OPTIONS.forEach((opt, i) => {
     const btn = document.createElement('button');
-    btn.className = 'window-btn' + (i === WINDOW_OPTIONS.length - 1 ? ' active' : '');
+    btn.className = 'window-btn' + (opt.weeks === currentWindowWeeks ? ' active' : '');
     btn.textContent = opt.label;
     btn.addEventListener('click', () => {
       document.querySelectorAll('.window-btn').forEach(b => b.classList.remove('active'));
@@ -1163,7 +1176,7 @@ function renderFacetPanel(){
     const t = izracunajPouzdanost(f).tier;
     pouzdanostBrojac[t] = (pouzdanostBrojac[t] || 0) + 1;
   });
-  const pouzdanostRedoslijed = ['visoka', 'srednja', 'niska', 'nepoznato'];
+  const pouzdanostRedoslijed = ['nova', 'neprovjereno', 'nije'];
   const pouzdanostCounts = pouzdanostRedoslijed.filter(t => pouzdanostBrojac[t] > 0).map(t => [t, pouzdanostBrojac[t]]);
 
   const grupa = (naslov, entries, selectedSet) => {
@@ -1235,7 +1248,7 @@ function vrijednostZaSort(f, stupac){
     case 'tip': return (tag(f,'building') || '').toLowerCase();
     case 'datum': return f.validFrom || '';
     case 'pouzdanost': {
-      const rang = { visoka: 3, srednja: 2, niska: 1, nepoznato: 0 };
+      const rang = { nova: 3, neprovjereno: 2, nije: 1 };
       return rang[izracunajPouzdanost(f).tier] || 0;
     }
     case 'status': {
@@ -1894,25 +1907,10 @@ function opis(f){
       satelitNapomena = ' <span title="' + obrazlozenjeEsc + '" style="font-size:10px;background:' + b[0] + ';color:' + b[1] + ';padding:1px 6px;border-radius:999px;">satelit: ' + b[2] + '</span>';
     }
   }
-  let pouzdanostNapomena = '';
-  {
-    const poz = [], neg = [];
-    if (f.masovniUnos) neg.push('masovni unos (' + f.masovniUnos.brojZgrada + ' zgrada)');
-    if (f.satelitProvjera && f.satelitProvjera.status === 'stara') neg.push('vidljiva na ortofotu 2022.');
-    if (f.dguNovaAdresaPoklapanje) poz.push('nova DGU adresa se poklapa');
-    if (f.satelitProvjera && f.satelitProvjera.status === 'kandidat') poz.push('nema je na ortofotu 2022.');
-    if (f.dguAdresa) poz.push('DGU adresa potvrđena');
-    let tier = null;
-    if (poz.length >= 2) tier = ['#DCFCE7','#166534','visoka pouzdanost'];
-    else if (poz.length === 1 && neg.length === 0) tier = ['#FEF3C7','#92400E','srednja pouzdanost'];
-    else if (neg.length > 0 && poz.length === 0) tier = ['#F3F4F6','#6B7280','niska pouzdanost'];
-    else if (poz.length > 0 && neg.length > 0) tier = ['#FEF3C7','#92400E','srednja pouzdanost'];
-    if (tier) {
-      const div2 = document.createElement('div');
-      div2.textContent = [...poz, ...neg].join(' • ');
-      pouzdanostNapomena = ' <span title="' + div2.innerHTML + '" style="font-size:10px;font-weight:700;background:' + tier[0] + ';color:' + tier[1] + ';padding:1px 7px;border-radius:999px;">' + tier[2] + '</span>';
-    }
-  }
+  // Ista funkcija kao u tablici. Ranije je ovdje stajala zasebna kopija
+  // logike s vlastitim bojama i tekstovima - pa se izmjena na jednom mjestu
+  // nije vidjela na drugom.
+  const pouzdanostNapomena = pouzdanostBedz(f);
   const gmaps = 'https://www.google.com/maps/search/?api=1&query=' + f.lat + ',' + f.lon;
   const tagoviHtml = Object.entries(f.tags || {}).map(([k,v]) => '<div>' + k + ' = ' + v + '</div>').join('');
   return '<div style="min-width:210px;">' +
