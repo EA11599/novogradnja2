@@ -1350,6 +1350,47 @@ function updateTable(resetPage = true){
   }
 }
 
+// ---------- DGU ortofoto isjecak ----------
+// Ista snimka koju je vidio model pri satelitskoj provjeri: DGU ortofoto
+// 2023./24., isjecak od oko 50x50 m centriran na zgradu.
+//
+// Zasto je vrijedna u pregledu: recenzent ne mora vjerovati presudi modela na
+// rijec - vidi isti dokaz. Ako je zgrada "kandidat", ovdje bi trebala biti
+// prazna parcela, a na Google Mapsu zgrada. Ta razlika JE novogradnja.
+function dguOrtofotoUrl(lat, lon, piksela = 400, poluOpsegM = 25) {
+  if (!lat || !lon) return null;
+  const dLat = poluOpsegM / 111000;
+  const dLon = poluOpsegM / (111000 * Math.cos(lat * Math.PI / 180));
+  const bbox = [lon - dLon, lat - dLat, lon + dLon, lat + dLat].map(v => v.toFixed(7)).join(',');
+  return 'https://geoportal.dgu.hr/services/inspire/orthophoto_2023_2024/wms' +
+    '?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=OI.OrthoimageCoverage' +
+    '&STYLES=&FORMAT=image/png&SRS=EPSG:4326&WIDTH=' + piksela + '&HEIGHT=' + piksela +
+    '&BBOX=' + bbox;
+}
+
+// Blok sa slikom za prozor pregleda. Ucitava se tek kad se prozor otvori,
+// pa ne usporava popis.
+function dguOrtofotoBlok(f) {
+  const url = dguOrtofotoUrl(f.lat, f.lon);
+  if (!url) return '';
+  const veliki = dguOrtofotoUrl(f.lat, f.lon, 900);
+  const s = f.satelitProvjera || {};
+  const opis = s.obrazlozenje
+    ? '<div style="font-size:11.5px;color:var(--text-secondary);margin-top:5px;line-height:1.45;">' +
+        escapeHtml(s.obrazlozenje) + '</div>'
+    : '';
+  return '<div style="margin-top:12px;">' +
+    '<div style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-secondary);margin-bottom:6px;">' +
+      'DGU ortofoto 2023./24.</div>' +
+    '<a href="' + veliki + '" target="_blank" rel="noopener" title="Otvori veću sliku">' +
+      '<img src="' + url + '" alt="DGU ortofoto isječak" loading="lazy" ' +
+        'style="width:100%;max-width:400px;border-radius:8px;display:block;background:var(--panel-alt);" ' +
+        'onerror="this.style.display=\'none\';this.insertAdjacentHTML(\'afterend\', ' +
+        '\'<div style=&quot;font-size:12px;color:var(--text-secondary);&quot;>Snimka nije dostupna za ovu lokaciju.</div>\');">' +
+    '</a>' + opis +
+    '</div>';
+}
+
 function openModal(f){
   const adresa = prikazAdrese(f) || 'Adresa nepoznata';
   const adresaStil = jeAdresaPriblizna(f) ? ' style="font-style:italic;"' : '';
@@ -1366,6 +1407,7 @@ function openModal(f){
     '<div style="color:var(--text-secondary);font-size:13.5px;">' + (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') + '</div>' +
     '<div style="color:var(--text-secondary);font-size:13px;margin-top:4px;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
     '<a class="modal-gmaps" href="' + gmaps + '" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>' +
+    dguOrtofotoBlok(f) +
     '<div class="review-section">' +
       '<label class="review-label">Status</label>' +
       '<select id="modalStatusSelect">' + opcije + '</select>' +

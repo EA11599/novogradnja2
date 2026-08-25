@@ -158,6 +158,19 @@
   .v-odbaci{ background:var(--danger-soft); color:var(--danger); border-color:var(--danger); }
   .veliki:active{ transform:scale(0.97); }
   .veliki:disabled{ opacity:.45; }
+  /* Snimka se ucitava tek kad se kartica otvori - inace bi popis od 60
+     zgrada povukao 60 slika odjednom, na mobilnoj mrezi. */
+  .dgu-slika{ position:relative; margin-bottom:11px; }
+  .dgu-slika img{
+    width:100%; border-radius:11px; display:block; background:var(--panel-alt);
+    aspect-ratio:1; object-fit:cover;
+  }
+  .dgu-oznaka{
+    position:absolute; top:8px; left:8px; z-index:2;
+    background:rgba(0,0,0,.62); color:#fff; font-size:10.5px; font-weight:600;
+    padding:4px 9px; border-radius:999px; letter-spacing:.02em;
+  }
+
   .k-alat{ display:flex; gap:9px; margin-top:9px; }
   .k-alat a, .k-alat button{
     flex:1; min-height:46px; border-radius:11px; border:1px solid var(--border-strong);
@@ -315,6 +328,20 @@ function escapeHtml(t){
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+// ---------- DGU ortofoto isjecak ----------
+// Snimka iz 2023./24. za istu lokaciju. Na terenu je najkorisnija od svih
+// podataka: tehnicar usporedi sto je bilo tada s onim sto vidi pred sobom.
+function dguOrtofotoUrl(lat, lon, piksela){
+  const poluOpseg = 25;
+  const dLat = poluOpseg / 111000;
+  const dLon = poluOpseg / (111000 * Math.cos(lat * Math.PI / 180));
+  const bbox = [lon - dLon, lat - dLat, lon + dLon, lat + dLat].map(v => v.toFixed(7)).join(',');
+  return 'https://geoportal.dgu.hr/services/inspire/orthophoto_2023_2024/wms' +
+    '?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=OI.OrthoimageCoverage' +
+    '&STYLES=&FORMAT=image/png&SRS=EPSG:4326&WIDTH=' + piksela + '&HEIGHT=' + piksela +
+    '&BBOX=' + bbox;
+}
+
 // ---------- Udaljenost ----------
 // Haversine. Na ovim udaljenostima bi i ravninska aproksimacija bila dovoljna,
 // ali razlika u cijeni je zanemariva.
@@ -452,6 +479,12 @@ function prikazi(){
         '<div class="k-daljina"><span class="num">' + df.broj + '</span><small>' + df.jed + '</small></div>' +
       '</div>' +
       '<div class="k-akcije">' +
+        (otvorenaKartica === z.i ?
+          '<div class="dgu-slika">' +
+            '<div class="dgu-oznaka">Ovdje 2023./24.</div>' +
+            '<img src="' + dguOrtofotoUrl(z.y, z.x, 400) + '" alt="DGU ortofoto" ' +
+              'onerror="this.parentNode.style.display=\'none\';">' +
+          '</div>' : '') +
         '<div class="par">' +
           '<button class="veliki v-potvrdi" data-akcija="potvrđeno">✓ Potvrdi</button>' +
           '<button class="veliki v-odbaci" data-akcija="odbačeno">✕ Odbaci</button>' +
