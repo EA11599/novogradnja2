@@ -7069,7 +7069,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Ulica Antuna Mihanovića",
-      "nearestStreetDist": 36
+      "nearestStreetDist": 36,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:23.149Z"
+      }
     },
     {
       "id": "way/1550420148",
@@ -7111,7 +7117,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Ulica Antuna Mihanovića",
-      "nearestStreetDist": 21
+      "nearestStreetDist": 21,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:23.655Z"
+      }
     },
     {
       "id": "way/1550420149",
@@ -7145,7 +7157,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:23.671Z"
+      }
     },
     {
       "id": "way/1550420150",
@@ -7181,7 +7199,13 @@
         "building": "house"
       },
       "zupanija": "Međimurska županija",
-      "validFrom": "2026-08-17T20:44:00Z"
+      "validFrom": "2026-08-17T20:44:00Z",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:23.842Z"
+      }
     },
     {
       "id": "way/1550420151",
@@ -7223,7 +7247,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 62
+      "nearestStreetDist": 62,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:23.838Z"
+      }
     },
     {
       "id": "way/1550420152",
@@ -7257,7 +7287,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:24.022Z"
+      }
     },
     {
       "id": "way/1550420153",
@@ -7315,7 +7351,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 47
+      "nearestStreetDist": 47,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:24.025Z"
+      }
     },
     {
       "id": "way/1550420154",
@@ -7355,7 +7397,13 @@
         "building": "house"
       },
       "zupanija": "Međimurska županija",
-      "validFrom": "2026-08-17T20:44:00Z"
+      "validFrom": "2026-08-17T20:44:00Z",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:24.245Z"
+      }
     },
     {
       "id": "way/1550420155",
@@ -7389,7 +7437,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:24.252Z"
+      }
     },
     {
       "id": "way/1550420156",
@@ -7435,7 +7489,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:24.253Z"
+      }
     },
     {
       "id": "way/1550420157",
@@ -7477,7 +7537,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-08-17T20:44:00Z",
       "nearestStreet": "Martinska ulica",
-      "nearestStreetDist": 9
+      "nearestStreetDist": 9,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:24.252Z"
+      }
     },
     {
       "id": "way/1550420614",

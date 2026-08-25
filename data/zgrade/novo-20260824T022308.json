@@ -13756,7 +13756,13 @@
       "changeset": 187818459,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Hlapičina",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:28.242Z"
+      }
     },
     {
       "id": "way/1551413639",
@@ -13816,7 +13822,13 @@
       "changeset": 187818505,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Hlapičina",
-      "nearestStreetDist": 72
+      "nearestStreetDist": 72,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:28.239Z"
+      }
     },
     {
       "id": "way/1551413640",
@@ -13852,7 +13864,13 @@
       "changeset": 187818505,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Hlapičina",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:28.242Z"
+      }
     },
     {
       "id": "way/1551413684",
@@ -13888,7 +13906,13 @@
       "changeset": 187818517,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Hlapičina",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:28.243Z"
+      }
     },
     {
       "id": "way/1551413685",
@@ -13924,7 +13948,13 @@
       "changeset": 187818517,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Hlapičina",
-      "nearestStreetDist": 55
+      "nearestStreetDist": 55,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:28.243Z"
+      }
     },
     {
       "id": "way/1551414503",
@@ -14267,7 +14297,13 @@
       "changeset": 187823537,
       "osmUser": "bladan",
       "nearestStreet": "Petrov dol",
-      "nearestStreetDist": 28
+      "nearestStreetDist": 28,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje gustu šumsku vegetaciju s vodenim površinama, bez vidljive izgrađene zgrade ili krovne konstrukcije u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:30.654Z"
+      }
     },
     {
       "id": "way/1551448257",
@@ -24245,7 +24281,13 @@
       "changeset": 187878057,
       "osmUser": "Yetiinthewood",
       "nearestStreet": "Valovine",
-      "nearestStreetDist": 123
+      "nearestStreetDist": 123,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje gustu šumsku vegetaciju bez vidljive izgrađene građevine ili krovne strukture u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:30.306Z"
+      }
     },
     {
       "id": "way/1551690688",
@@ -24281,7 +24323,13 @@
       "changeset": 187878057,
       "osmUser": "Yetiinthewood",
       "nearestStreet": "Fižela",
-      "nearestStreetDist": 37
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje šumsku vegetaciju s različitim tonovima zelene boje, bez vidljive izgrađene građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:30.605Z"
+      }
     },
     {
       "id": "way/1551690690",
@@ -28513,7 +28561,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-23T17:00:44Z",
       "changeset": 187898602,
-      "osmUser": "LeonH_OSM"
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "Snimka je gotovo u potpunosti bijela s minimalnim detaljima, što ukazuje na nepostojeću ili nedostupnu satelitsku snimku za tu lokaciju.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:30.458Z"
+      }
     },
     {
       "id": "way/1551778092",
@@ -29324,7 +29378,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-23T17:11:05Z",
       "changeset": 187899235,
-      "osmUser": "LeonH_OSM"
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje obrađeno poljoprivredno zemljište s blagim valovitim linijama oranja, bez vidljive izgrađene građevine ili krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:31.010Z"
+      }
     },
     {
       "id": "way/1551792967",

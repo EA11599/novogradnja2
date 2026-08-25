@@ -379,7 +379,13 @@
       "changeset": 187922097,
       "osmUser": "Latebird",
       "nearestStreet": "Prva ulica",
-      "nearestStreetDist": 153
+      "nearestStreetDist": 153,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje šumsku i travnatom vegetaciju bez vidljive građevine ili krovne strukture u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:33.665Z"
+      }
     },
     {
       "id": "way/1551942354",

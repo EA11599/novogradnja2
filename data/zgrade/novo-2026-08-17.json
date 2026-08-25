@@ -3668,7 +3668,13 @@
         "religion": "christian"
       },
       "zupanija": "Krapinsko-zagorska županija",
-      "validFrom": "2026-08-16T20:34:48Z"
+      "validFrom": "2026-08-16T20:34:48Z",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom, jasno razlučiva od okolnog terena i ceste.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T17:56:22.949Z"
+      }
     },
     {
       "id": "way/1550227276",
