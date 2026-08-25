@@ -1775,10 +1775,10 @@
       },
       "dguBrojJedinica": 2,
       "satelitProvjera": {
-        "status": "greska",
-        "obrazlozenje": "fetch failed",
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s jasno vidljivim krovom, okružena s manjim nusporednim zgradama i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-24T21:49:53.846Z"
+        "provjereno": "2026-08-25T16:40:12.163Z"
       }
     },
     {
@@ -24039,7 +24039,13 @@
       "changeset": 184054247,
       "osmUser": "Badojo",
       "nearestStreet": "Vintaški put",
-      "nearestStreetDist": 13
+      "nearestStreetDist": 13,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje isključivo gusty šumsku vegetaciju i prirodan teren bez vidljive izgrađene građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:12.332Z"
+      }
     },
     {
       "id": "way/1529004882",

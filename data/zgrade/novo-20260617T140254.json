@@ -14721,6 +14721,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje poljoprivredno zemljište s vegetacijom i šumskim površinama, bez vidljive izgrađene građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:14.856Z"
       }
     },
     {
@@ -15993,6 +15999,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s pravokutnim krovom, jasno razlikovana od poljoprivrednog zemljišta i vegetacije oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:14.815Z"
       }
     },
     {
@@ -16692,6 +16704,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svjetlosiva zgrada s pravokutnim krovom, okružena vegetacijom i oraničnim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:15.568Z"
       }
     },
     {
@@ -16825,6 +16843,12 @@
         "changeset": 184145109,
         "brojZgrada": 78,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje obrađeno poljoprivredno zemljište s vegetacijom i nasadima, bez vidljive izgrađene građevine u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:15.618Z"
       }
     },
     {
@@ -17198,7 +17222,13 @@
       "changeset": 184156234,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 12
+      "nearestStreetDist": 12,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i nekoliko manjih građevina oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:15.426Z"
+      }
     },
     {
       "id": "way/1529929079",
@@ -17296,7 +17326,13 @@
         "postcode": "43272",
         "city": "Nova Rača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s sivim/tamnim krovom, jasno istaknuta od okolne vegetacije i terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:16.001Z"
+      }
     },
     {
       "id": "way/1529929080",
@@ -17332,7 +17368,13 @@
       "changeset": 184157736,
       "osmUser": "bjelsjole",
       "nearestStreet": "Kozarevac Račanski",
-      "nearestStreetDist": 89
+      "nearestStreetDist": 89,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je smeđa/crvena građevina s pravokutnim krovom na zelenom terenu okruženom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:15.915Z"
+      }
     },
     {
       "id": "way/1529929081",
@@ -17368,7 +17410,13 @@
       "changeset": 184157736,
       "osmUser": "bjelsjole",
       "nearestStreet": "Kozarevac Račanski",
-      "nearestStreetDist": 129
+      "nearestStreetDist": 129,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s tamnim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:15.860Z"
+      }
     },
     {
       "id": "way/1529929082",
@@ -17426,7 +17474,13 @@
         "postcode": "43272",
         "city": "Nova Rača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s pravokutnim obrisom i sivim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:16.183Z"
+      }
     },
     {
       "id": "way/1529929083",
@@ -17470,7 +17524,13 @@
       "changeset": 184157736,
       "osmUser": "bjelsjole",
       "nearestStreet": "Kozarevac Račanski",
-      "nearestStreetDist": 57
+      "nearestStreetDist": 57,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i beigom obojenim zidovima, okružena vegetacijom i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:16.385Z"
+      }
     },
     {
       "id": "way/1529929084",
@@ -17506,7 +17566,13 @@
       "changeset": 184157736,
       "osmUser": "bjelsjole",
       "nearestStreet": "Kozarevac Račanski",
-      "nearestStreetDist": 67
+      "nearestStreetDist": 67,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena s poljoprivrednim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:15.964Z"
+      }
     },
     {
       "id": "way/1529929085",
@@ -17556,7 +17622,13 @@
         "postcode": "43272",
         "city": "Nova Rača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:15.757Z"
+      }
     },
     {
       "id": "way/1529929086",
@@ -17622,7 +17694,13 @@
         "postcode": "43272",
         "city": "Nova Rača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom i manjim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.636Z"
+      }
     },
     {
       "id": "way/1529929087",
@@ -17658,7 +17736,13 @@
       "changeset": 184157736,
       "osmUser": "bjelsjole",
       "nearestStreet": "Kozarevac Račanski",
-      "nearestStreetDist": 24
+      "nearestStreetDist": 24,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s béžno-smeđim krovom i jasno vidljivim obrisom građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.870Z"
+      }
     },
     {
       "id": "way/1529929088",
@@ -17724,7 +17808,13 @@
         "postcode": "43272",
         "city": "Nova Rača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s rječitim pravokutnim krovom tamnije boje, okružena obrađenim poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:19.068Z"
+      }
     },
     {
       "id": "way/1529929089",
@@ -17760,7 +17850,13 @@
       "changeset": 184157736,
       "osmUser": "bjelsjole",
       "nearestStreet": "Kozarevac Račanski",
-      "nearestStreetDist": 57
+      "nearestStreetDist": 57,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izdignuta građevina s crvenim/smeđim krovom okružena zelenim površinama i cesta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.824Z"
+      }
     },
     {
       "id": "way/1530093206",
@@ -17802,7 +17898,13 @@
         "postcode": "49250",
         "city": "Zlatar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom okružena vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.804Z"
+      }
     },
     {
       "id": "way/1530093207",
@@ -17838,7 +17940,13 @@
       "changeset": 184185251,
       "osmUser": "Mihael3007",
       "nearestStreet": "Ulica Ksavera Šandora Gjalskog",
-      "nearestStreetDist": 36
+      "nearestStreetDist": 36,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom i siva/bijela građevina pored nje, okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.736Z"
+      }
     },
     {
       "id": "way/1530093208",
@@ -17880,7 +17988,13 @@
         "postcode": "49250",
         "city": "Zlatar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom okružena zelenom vegetacijom i dijelom oraničnog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.708Z"
+      }
     },
     {
       "id": "way/1530093209",
@@ -17930,7 +18044,13 @@
         "postcode": "49250",
         "city": "Zlatar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.849Z"
+      }
     },
     {
       "id": "way/1530093210",
@@ -17966,7 +18086,13 @@
       "changeset": 184185251,
       "osmUser": "Mihael3007",
       "nearestStreet": "Ulica Ksavera Šandora Gjalskog",
-      "nearestStreetDist": 123
+      "nearestStreetDist": 123,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je kuća s crvenim krovom okružena zelenom vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.861Z"
+      }
     },
     {
       "id": "way/1530094648",
@@ -18009,7 +18135,13 @@
         "postcode": "23420",
         "city": "Benkovac"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenim krovom, jasno prepoznatljiva među okružujućom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.767Z"
+      }
     },
     {
       "id": "way/1530094649",
@@ -18052,7 +18184,13 @@
         "postcode": "23420",
         "city": "Benkovac"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.589Z"
+      }
     },
     {
       "id": "way/1530094651",
@@ -18095,7 +18233,13 @@
         "postcode": "23420",
         "city": "Benkovac"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina s crvenim/smeđim krovom okružena vegetacijom i cesto.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:18.721Z"
+      }
     },
     {
       "id": "way/1530094652",
@@ -18139,7 +18283,13 @@
         "postcode": "23420",
         "city": "Benkovac"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenim krovom i betonskom površinom, okružena šumskom vegetacijom uz cestu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.363Z"
+      }
     },
     {
       "id": "way/1530094653",
@@ -18183,7 +18333,13 @@
         "postcode": "23420",
         "city": "Benkovac"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s reddkastim/ružičastim krovom, jasno razlikovana od okolnog vrta i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.969Z"
+      }
     },
     {
       "id": "way/1530161415",
@@ -18219,7 +18375,13 @@
       "changeset": 184193052,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 25
+      "nearestStreetDist": 25,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom i jasno definiranim rubovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.474Z"
+      }
     },
     {
       "id": "way/1530161416",
@@ -18255,7 +18417,13 @@
       "changeset": 184193052,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Varaždinska ulica",
-      "nearestStreetDist": 55
+      "nearestStreetDist": 55,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s jasno vidljivim krovom, okružena sa zelenim površinama i pristupnim putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.687Z"
+      }
     },
     {
       "id": "way/1530161418",
@@ -18305,7 +18473,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-06-16T17:32:39Z",
       "changeset": 184193052,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/smeđim krovom i zelenom vegetacijom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.330Z"
+      }
     },
     {
       "id": "way/1530162441",
@@ -18363,7 +18537,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i jasno vidljivim obrisom građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.295Z"
+      }
     },
     {
       "id": "way/1530162442",
@@ -18399,7 +18579,13 @@
       "changeset": 184193146,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Josipa Štolcera Slavenskog",
-      "nearestStreetDist": 39
+      "nearestStreetDist": 39,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena s zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.150Z"
+      }
     },
     {
       "id": "way/1530162443",
@@ -18441,7 +18627,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena betonskom površinom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.350Z"
+      }
     },
     {
       "id": "way/1530162444",
@@ -18483,7 +18675,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom okružena parcelama i cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.250Z"
+      }
     },
     {
       "id": "way/1530163055",
@@ -18523,7 +18721,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-06-16T17:37:46Z",
       "changeset": 184193248,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je krov građevine s jasno definiranim rubovima, svijetlije boje od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.319Z"
+      }
     },
     {
       "id": "way/1530163746",
@@ -18567,7 +18771,13 @@
       "changeset": 184193479,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 69
+      "nearestStreetDist": 69,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasna pravokutna zgrada s tamnim krovom, okružena s obrađenim poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.162Z"
+      }
     },
     {
       "id": "way/1530163749",
@@ -18611,7 +18821,13 @@
       "changeset": 184193479,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Obrtnička ulica",
-      "nearestStreetDist": 98
+      "nearestStreetDist": 98,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s reddkastim krovom okružena obrađenim poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:21.391Z"
+      }
     },
     {
       "id": "way/1530163750",
@@ -18647,7 +18863,13 @@
       "changeset": 184193479,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 84
+      "nearestStreetDist": 84,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina s zelenim metalnim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.215Z"
+      }
     },
     {
       "id": "way/1530163751",
@@ -18687,7 +18909,13 @@
       "changeset": 184193479,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 97
+      "nearestStreetDist": 97,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svjetlozelena građevina s pravokutnim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.166Z"
+      }
     },
     {
       "id": "way/1530163752",
@@ -18729,7 +18957,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela zgrada s tamnim krovom okružena zelenom vegetacijom i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:25.159Z"
+      }
     },
     {
       "id": "way/1530164436",
@@ -18767,7 +19001,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-06-16T17:45:55Z",
       "changeset": 184193604,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim krovom i njezinim sjenom, okružena vegetacijom i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.357Z"
+      }
     },
     {
       "id": "way/1530168791",
@@ -18801,7 +19041,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-16T18:07:09Z",
       "changeset": 184194521,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s tamnim (vjerojatno plavim ili crnim) krovom na obrađenom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.165Z"
+      }
     },
     {
       "id": "way/1530170272",
@@ -18843,7 +19089,13 @@
         "postcode": "10360",
         "city": "Sesvete"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s tamnim krovom, okružena s zelenom vegetacijom i parceliranim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.194Z"
+      }
     },
     {
       "id": "way/1530170273",
@@ -18953,7 +19205,13 @@
       "zupanija": "Grad Zagreb",
       "validFrom": "2026-06-16T18:13:35Z",
       "changeset": 184194755,
-      "osmUser": "Khro"
+      "osmUser": "Khro",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela zgrada s kompleksnim krovom, okružena zelenom vegetacijom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.359Z"
+      }
     },
     {
       "id": "way/1530170274",
@@ -19063,7 +19321,13 @@
       "zupanija": "Grad Zagreb",
       "validFrom": "2026-06-16T18:13:35Z",
       "changeset": 184194755,
-      "osmUser": "Khro"
+      "osmUser": "Khro",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela građevina s pravokutnim oblikom i vidljivim krovom, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.366Z"
+      }
     },
     {
       "id": "way/1530170275",
@@ -19149,7 +19413,13 @@
       "zupanija": "Grad Zagreb",
       "validFrom": "2026-06-16T18:13:35Z",
       "changeset": 184194755,
-      "osmUser": "Khro"
+      "osmUser": "Khro",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/bordo krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.567Z"
+      }
     },
     {
       "id": "way/1530170276",
@@ -19299,7 +19569,13 @@
       "zupanija": "Grad Zagreb",
       "validFrom": "2026-06-16T18:13:35Z",
       "changeset": 184194755,
-      "osmUser": "Khro"
+      "osmUser": "Khro",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom i jasno vidljivim obrисima objekta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.251Z"
+      }
     },
     {
       "id": "way/1530172927",
@@ -19341,7 +19617,13 @@
         "postcode": "49253",
         "city": "Lobor"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je reddast/smeđ krov građevine s pravokutnim oblikom, okružen gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.835Z"
+      }
     },
     {
       "id": "way/1530172928",
@@ -19375,7 +19657,13 @@
       "zupanija": "Krapinsko-zagorska županija",
       "validFrom": "2026-06-16T18:20:58Z",
       "changeset": 184195061,
-      "osmUser": "Mihael3007"
+      "osmUser": "Mihael3007",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/crvenkastavim krovom, okružena šumskom vegetacijom i dijelom obrađenoga zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:24.379Z"
+      }
     },
     {
       "id": "way/1530172929",
@@ -19409,7 +19697,13 @@
       "zupanija": "Krapinsko-zagorska županija",
       "validFrom": "2026-06-16T18:20:58Z",
       "changeset": 184195061,
-      "osmUser": "Mihael3007"
+      "osmUser": "Mihael3007",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva građevina s crvenim/smeđim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.504Z"
+      }
     },
     {
       "id": "way/1530216072",
@@ -19453,7 +19747,13 @@
       "changeset": 184202678,
       "osmUser": "Cro_it",
       "nearestStreet": "Ulica Prezida XXXII",
-      "nearestStreetDist": 25
+      "nearestStreetDist": 25,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s tamnim krovom, okružena asfaltnom površinom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.422Z"
+      }
     },
     {
       "id": "way/1530219682",
@@ -19493,7 +19793,13 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-06-16T23:38:33Z",
       "changeset": 184203388,
-      "osmUser": "Cro_it"
+      "osmUser": "Cro_it",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov brončane i crvene boje s pravokutnim oblikom građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.605Z"
+      }
     },
     {
       "id": "way/1530219690",
@@ -19533,7 +19839,13 @@
       "changeset": 184203388,
       "osmUser": "Cro_it",
       "nearestStreet": "Ulica Prezida XLIV.",
-      "nearestStreetDist": 41
+      "nearestStreetDist": 41,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom i betonskim površinama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.339Z"
+      }
     },
     {
       "id": "way/1530219693",
@@ -19590,7 +19902,13 @@
         "postcode": "23234",
         "city": "Vir"
       },
-      "dguBrojJedinica": 3
+      "dguBrojJedinica": 3,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom i tamnom sjenom, jasno razlikovana od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.648Z"
+      }
     },
     {
       "id": "way/1530220601",
@@ -19624,7 +19942,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:49:37Z",
       "changeset": 184203537,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom okružena vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.839Z"
+      }
     },
     {
       "id": "way/1530220602",
@@ -19674,7 +19998,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:49:37Z",
       "changeset": 184203537,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s sivim krovom, okružena šumskom vegetacijom i poljskim putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.496Z"
+      }
     },
     {
       "id": "way/1530220603",
@@ -19716,7 +20046,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom, okružena zelenilom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.694Z"
+      }
     },
     {
       "id": "way/1530220939",
@@ -19766,7 +20102,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:54:20Z",
       "changeset": 184203589,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnosivim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.213Z"
+      }
     },
     {
       "id": "way/1530220940",
@@ -19824,7 +20166,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:54:20Z",
       "changeset": 184203589,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom okružena zelenom vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.460Z"
+      }
     },
     {
       "id": "way/1530220941",
@@ -19858,7 +20206,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:54:20Z",
       "changeset": 184203589,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s svetlim krovom, jasno izdvojena od okoline s zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.358Z"
+      }
     },
     {
       "id": "way/1530220942",
@@ -19932,7 +20286,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i pratećim objektima, jasno razlikuje se od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:27.535Z"
+      }
     },
     {
       "id": "way/1530220943",
@@ -19982,7 +20342,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i betonskom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.070Z"
+      }
     },
     {
       "id": "way/1530221089",
@@ -20016,7 +20382,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:56:16Z",
       "changeset": 184203622,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim krovom okružena vegetacijom i šumskom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:29.983Z"
+      }
     },
     {
       "id": "way/1530221090",
@@ -20050,7 +20422,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:56:16Z",
       "changeset": 184203622,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s jasno vidljivim svijetlosivim krovom, okružena obrađenim zemljištem i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.305Z"
+      }
     },
     {
       "id": "way/1530221119",
@@ -20084,7 +20462,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:57:04Z",
       "changeset": 184203637,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s pravokutnim krovom i jasnim obrisima na zeleni, umjereno pošumljeni teren.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.330Z"
+      }
     },
     {
       "id": "way/1530221120",
@@ -20126,7 +20510,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:57:04Z",
       "changeset": 184203637,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa jasno vidljivim krovom bež-smeđe boje, okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.326Z"
+      }
     },
     {
       "id": "way/1530221121",
@@ -20168,7 +20558,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom između šumskih površina i putanje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.041Z"
+      }
     },
     {
       "id": "way/1530221122",
@@ -20210,7 +20606,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.135Z"
+      }
     },
     {
       "id": "way/1530221189",
@@ -20268,7 +20670,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/terrakota krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.428Z"
+      }
     },
     {
       "id": "way/1530221190",
@@ -20310,7 +20718,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:59:06Z",
       "changeset": 184203668,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena zelenom vegetacijom i dijelom s tamnom konstrukcijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:29.998Z"
+      }
     },
     {
       "id": "way/1530221191",
@@ -20344,7 +20758,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-16T23:59:06Z",
       "changeset": 184203668,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena građevina s krovom, okružena zelenom vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.184Z"
+      }
     },
     {
       "id": "way/1530221417",
@@ -20378,7 +20798,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:01:48Z",
       "changeset": 184203698,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s tamnim krovom i svijetlom fasadom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.105Z"
+      }
     },
     {
       "id": "way/1530221418",
@@ -20412,7 +20838,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:01:48Z",
       "changeset": 184203698,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela građevina s crnim krovom, smještena između oranica i zelene vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:30.081Z"
+      }
     },
     {
       "id": "way/1530221419",
@@ -20454,7 +20886,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:01:48Z",
       "changeset": 184203698,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom okružena vegetacijom i zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.605Z"
+      }
     },
     {
       "id": "way/1530221420",
@@ -20496,7 +20934,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:01:48Z",
       "changeset": 184203698,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela građevina s pravokutnim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.608Z"
+      }
     },
     {
       "id": "way/1530221481",
@@ -20546,7 +20990,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim krovom okružena gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.504Z"
+      }
     },
     {
       "id": "way/1530221482",
@@ -20596,7 +21046,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi siva/plava građevina s pravokutnim krovom okružena travnatim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.715Z"
+      }
     },
     {
       "id": "way/1530221483",
@@ -20638,7 +21094,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:03:39Z",
       "changeset": 184203718,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom okružena oranjicom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.800Z"
+      }
     },
     {
       "id": "way/1530221490",
@@ -20672,7 +21134,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:04:31Z",
       "changeset": 184203727,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s pravokutnim krovom tamnije boje, okružena s nekoliko manjih objekata i asfaltiranim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.845Z"
+      }
     },
     {
       "id": "way/1530221491",
@@ -20706,7 +21174,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:04:31Z",
       "changeset": 184203727,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s tamnim krovom, okružena vegetacijom i dijelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.671Z"
+      }
     },
     {
       "id": "way/1530221693",
@@ -20764,7 +21238,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine s pravokutnim oblikom, okružene šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.855Z"
+      }
     },
     {
       "id": "way/1530221694",
@@ -20814,7 +21294,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s pravokutnim krovom sive boje, okružena zelenom vegetacijom i prijelaznim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.760Z"
+      }
     },
     {
       "id": "way/1530221695",
@@ -20848,7 +21334,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:06:41Z",
       "changeset": 184203751,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom okružena vegetacijom i drugim manjim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.860Z"
+      }
     },
     {
       "id": "way/1530221696",
@@ -20890,7 +21382,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i nekoliko gospodarskih građevina s sivim krovovima na poljoprivrednom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.735Z"
+      }
     },
     {
       "id": "way/1530221798",
@@ -20976,7 +21474,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim krovom okružena šumskom vegetacijom i vodom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:32.888Z"
+      }
     },
     {
       "id": "way/1530221799",
@@ -21018,7 +21522,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:09:39Z",
       "changeset": 184203788,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s ružičastim/crvenim krovom okružena zelenom vegetacijom i travom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.175Z"
+      }
     },
     {
       "id": "way/1530221800",
@@ -21076,7 +21586,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom i travnatim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.415Z"
+      }
     },
     {
       "id": "way/1530221899",
@@ -21110,7 +21626,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:11:13Z",
       "changeset": 184203806,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljive su dvije građevine s jasno vidljivim krovovima, okružene zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.097Z"
+      }
     },
     {
       "id": "way/1530221900",
@@ -21152,7 +21674,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bjelkasta/siva zgrada s pravokutnim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.495Z"
+      }
     },
     {
       "id": "way/1530221901",
@@ -21194,7 +21722,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:11:13Z",
       "changeset": 184203806,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnosmeđim/crnim krovom okružena gustom šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.310Z"
+      }
     },
     {
       "id": "way/1530221902",
@@ -21236,7 +21770,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom okružena vegetacijom i poljskom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.038Z"
+      }
     },
     {
       "id": "way/1530221903",
@@ -21278,7 +21818,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa smeđim/crvenim krovom okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.142Z"
+      }
     },
     {
       "id": "way/1530221950",
@@ -21312,7 +21858,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:12:04Z",
       "changeset": 184203812,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je svijetla građevina s krovom okružena gustom zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.231Z"
+      }
     },
     {
       "id": "way/1530221951",
@@ -21354,7 +21906,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svijetla građevina s krovom, okružena oranicama i šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:34.997Z"
+      }
     },
     {
       "id": "way/1530222048",
@@ -21396,7 +21954,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada sa tamnim krovom okružena vegetacijom i putnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.041Z"
+      }
     },
     {
       "id": "way/1530222049",
@@ -21446,7 +22010,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:14:28Z",
       "changeset": 184203840,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom okružena obrađenim zemljištem i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:34.973Z"
+      }
     },
     {
       "id": "way/1530222050",
@@ -21480,7 +22050,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:14:28Z",
       "changeset": 184203840,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:35.277Z"
+      }
     },
     {
       "id": "way/1530222051",
@@ -21514,7 +22090,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:14:28Z",
       "changeset": 184203840,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.666Z"
+      }
     },
     {
       "id": "way/1530222357",
@@ -21572,7 +22154,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/narančastim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.802Z"
+      }
     },
     {
       "id": "way/1530222358",
@@ -21614,7 +22202,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom i bijelijim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.886Z"
+      }
     },
     {
       "id": "way/1530222578",
@@ -21656,7 +22250,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je krov građevine svijetle boje s jasno vidljivim obrисima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:38.075Z"
+      }
     },
     {
       "id": "way/1530222579",
@@ -21698,7 +22298,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:20:36Z",
       "changeset": 184203924,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/smeđim krovom okružena vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.783Z"
+      }
     },
     {
       "id": "way/1530222580",
@@ -21732,7 +22338,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:20:36Z",
       "changeset": 184203924,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov građevine svjetlije boje s dijelovima oko nje koji sugeriraju izgrađeni objekt okružen vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:38.026Z"
+      }
     },
     {
       "id": "way/1530222630",
@@ -21766,7 +22378,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:21:52Z",
       "changeset": 184203944,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamno zelenim/crnim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.780Z"
+      }
     },
     {
       "id": "way/1530222631",
@@ -21800,7 +22418,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:21:52Z",
       "changeset": 184203944,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom, okružena vegetacijom i parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.865Z"
+      }
     },
     {
       "id": "way/1530222632",
@@ -21866,7 +22490,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim/ružičastim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.818Z"
+      }
     },
     {
       "id": "way/1530222633",
@@ -21908,7 +22538,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidi se jasno izgrađena zgrada s vidljivim krovom bijele/svijetle boje okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.859Z"
+      }
     },
     {
       "id": "way/1530222673",
@@ -21950,7 +22586,13 @@
         "postcode": "53236",
         "city": "Podlapača"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom okružena s gustom zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.769Z"
+      }
     },
     {
       "id": "way/1530222674",
@@ -21984,7 +22626,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:23:25Z",
       "changeset": 184203962,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s jasno vidljivim krovom, okružena vegetacijom i šumskom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:37.953Z"
+      }
     },
     {
       "id": "way/1530222675",
@@ -22018,7 +22666,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:23:25Z",
       "changeset": 184203962,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena vegetacijom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.406Z"
+      }
     },
     {
       "id": "way/1530223881",
@@ -22052,7 +22706,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:26:45Z",
       "changeset": 184204011,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenim krovom i bijelo obojenim dijelovima uz bokorisicu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.263Z"
+      }
     },
     {
       "id": "way/1530224245",
@@ -22094,7 +22754,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s pravokutnim krovom светлije boje, okružena s gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.391Z"
+      }
     },
     {
       "id": "way/1530224246",
@@ -22128,7 +22794,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:31:55Z",
       "changeset": 184204093,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s krovom, okružena gustom vegetacijom i šumom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.172Z"
+      }
     },
     {
       "id": "way/1530224247",
@@ -22170,7 +22842,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidi se jasno izgrađena zgrada s svetlijim krovom okružena s gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.256Z"
+      }
     },
     {
       "id": "way/1530224248",
@@ -22204,7 +22882,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:31:55Z",
       "changeset": 184204093,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasna svetlosiva građevina s pravokutnim krovom okružena gustom zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.456Z"
+      }
     },
     {
       "id": "way/1530224306",
@@ -22238,7 +22922,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:33:43Z",
       "changeset": 184204121,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s plavim i crvenim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.259Z"
+      }
     },
     {
       "id": "way/1530224307",
@@ -22272,7 +22962,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:33:43Z",
       "changeset": 184204121,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenožutim krovom okružena gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.106Z"
+      }
     },
     {
       "id": "way/1530224394",
@@ -22330,7 +23026,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s jasno vidljivim svjetlucavim krovom, okružena zelenom vegetacijom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.397Z"
+      }
     },
     {
       "id": "way/1530224395",
@@ -22364,7 +23066,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:34:23Z",
       "changeset": 184204131,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svjetlosiva zgrada s pravokutnim krovom, okružena oraničnim poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.231Z"
+      }
     },
     {
       "id": "way/1530224706",
@@ -22406,7 +23114,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi bijela građevina s pravokutnim oblikom, vjerojatno stambena kuća ili gospodarsko zdanje okruženo vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.423Z"
+      }
     },
     {
       "id": "way/1530224707",
@@ -22448,7 +23162,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidi se jasna pravokutna struktura s tamnim krovom okružena vegetacijom i čistinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:40.211Z"
+      }
     },
     {
       "id": "way/1530224708",
@@ -22482,7 +23202,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:39:16Z",
       "changeset": 184204198,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidi se jasno izgrađena zgrada s sivim krovom, okružena zelenilom i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.684Z"
+      }
     },
     {
       "id": "way/1530224709",
@@ -22524,7 +23250,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/smeđim krovom okružena zelenilom i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.729Z"
+      }
     },
     {
       "id": "way/1530224710",
@@ -22558,7 +23290,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:39:16Z",
       "changeset": 184204198,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena šumskom vegetacijom i dijelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.791Z"
+      }
     },
     {
       "id": "way/1530224870",
@@ -22592,7 +23330,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:42:15Z",
       "changeset": 184204251,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom okružena zelenilom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.585Z"
+      }
     },
     {
       "id": "way/1530224871",
@@ -22634,7 +23378,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasna građevina s crvenkastavim krovom okružena gustom zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:43.056Z"
+      }
     },
     {
       "id": "way/1530224872",
@@ -22676,7 +23426,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s jasno vidljivim krovom okružena gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.801Z"
+      }
     },
     {
       "id": "way/1530224879",
@@ -22718,7 +23474,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:43:45Z",
       "changeset": 184204276,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom i bjeličastim putovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.557Z"
+      }
     },
     {
       "id": "way/1530224880",
@@ -22752,7 +23514,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:43:45Z",
       "changeset": 184204276,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom, okružena zelenom vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.778Z"
+      }
     },
     {
       "id": "way/1530224881",
@@ -22794,7 +23562,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:43:45Z",
       "changeset": 184204276,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva bijela građevina s pravokutnim krovom, okružena s zelenom vegetacijom i šumom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.707Z"
+      }
     },
     {
       "id": "way/1530224895",
@@ -22828,7 +23602,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:44:49Z",
       "changeset": 184204295,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s roze/bež bojom krova, okružena zelenom vegetacijom i šumom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.924Z"
+      }
     },
     {
       "id": "way/1530224896",
@@ -22870,7 +23650,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela zgrada s pravokutnim krovom, okružena zelenom vegetacijom i poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.689Z"
+      }
     },
     {
       "id": "way/1530224897",
@@ -22904,7 +23690,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:44:49Z",
       "changeset": 184204295,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnosivim krovom, okružena s zelenom vegetacijom i parkiralištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:42.643Z"
+      }
     },
     {
       "id": "way/1530224950",
@@ -22941,7 +23733,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-17T00:46:12Z",
       "changeset": 184204305,
-      "osmUser": "Matija Nalis"
+      "osmUser": "Matija Nalis",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s terracotta krovom okružena vegetacijom i oraničnim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.360Z"
+      }
     },
     {
       "id": "way/1530224951",
@@ -22978,7 +23776,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-17T00:46:12Z",
       "changeset": 184204305,
-      "osmUser": "Matija Nalis"
+      "osmUser": "Matija Nalis",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim/ružičastim krovom, okružena s vegetacijom i putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.454Z"
+      }
     },
     {
       "id": "way/1530224952",
@@ -23016,7 +23820,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-17T00:46:12Z",
       "changeset": 184204305,
-      "osmUser": "Matija Nalis"
+      "osmUser": "Matija Nalis",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnosivim krovom okružena šumskom vegetacijom i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.532Z"
+      }
     },
     {
       "id": "way/1530224953",
@@ -23054,7 +23864,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-17T00:46:12Z",
       "changeset": 184204305,
-      "osmUser": "Matija Nalis"
+      "osmUser": "Matija Nalis",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/ružičastim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.231Z"
+      }
     },
     {
       "id": "way/1530224954",
@@ -23099,7 +23915,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-17T00:46:12Z",
       "changeset": 184204305,
-      "osmUser": "Matija Nalis"
+      "osmUser": "Matija Nalis",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasna pravokutna zgrada s tamnim krovom, okružena vegetacijom i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.592Z"
+      }
     },
     {
       "id": "way/1530224955",
@@ -23136,7 +23958,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-17T00:46:12Z",
       "changeset": 184204305,
-      "osmUser": "Matija Nalis"
+      "osmUser": "Matija Nalis",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena građevina s jasno vidljivim svijetlim krovom okruženom vegetacijom i oranjicom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.308Z"
+      }
     },
     {
       "id": "way/1530224958",
@@ -23178,7 +24006,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s više krovova različitih boja (bijeli i crveni/smeđi dijelovi) okružena zelenilom i šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.705Z"
+      }
     },
     {
       "id": "way/1530224959",
@@ -23220,7 +24054,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina s tamnosivim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.493Z"
+      }
     },
     {
       "id": "way/1530224960",
@@ -23262,7 +24102,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva velika zgrada s tamnosivim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.350Z"
+      }
     },
     {
       "id": "way/1530224961",
@@ -23296,7 +24142,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:46:23Z",
       "changeset": 184204309,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi gospodarskih građevina s tamnom bojom, okruženi zelenom vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.561Z"
+      }
     },
     {
       "id": "way/1530224983",
@@ -23338,7 +24190,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke je vidljiva zgrada s pravokutnim krovom, okružena s puno šume i dijelom obrađenog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.668Z"
+      }
     },
     {
       "id": "way/1530224984",
@@ -23372,7 +24230,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:47:41Z",
       "changeset": 184204332,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:45.355Z"
+      }
     },
     {
       "id": "way/1530224985",
@@ -23406,7 +24270,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:47:41Z",
       "changeset": 184204332,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim/ružičastim krovom, okružena zelenilom i drugim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:47.882Z"
+      }
     },
     {
       "id": "way/1530225149",
@@ -23440,7 +24310,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:50:32Z",
       "changeset": 184204368,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela građevina s krovom, okružena zelenom vegetacijom i manjim gospodarskim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:48.003Z"
+      }
     },
     {
       "id": "way/1530225150",
@@ -23482,7 +24358,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je svetlosiva građevina s pravokutnim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:48.134Z"
+      }
     },
     {
       "id": "way/1530225151",
@@ -23524,7 +24406,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je jasno bijeli krov građevine okružen zelenom vegetacijom i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:47.959Z"
+      }
     },
     {
       "id": "way/1530225152",
@@ -23558,7 +24446,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:50:32Z",
       "changeset": 184204368,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnosivim krovom okružena vegetacijom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:47.843Z"
+      }
     },
     {
       "id": "way/1530225318",
@@ -23608,7 +24502,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom okružena vegetacijom i parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:48.016Z"
+      }
     },
     {
       "id": "way/1530225319",
@@ -23650,7 +24550,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom, okružena vegetacijom i dijelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:48.021Z"
+      }
     },
     {
       "id": "way/1530225320",
@@ -23684,7 +24590,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:53:35Z",
       "changeset": 184204412,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena vegetacijom i otvorenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:48.012Z"
+      }
     },
     {
       "id": "way/1530225400",
@@ -23766,7 +24678,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim krovom okružena šumskom vegetacijom i dijelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:48.035Z"
+      }
     },
     {
       "id": "way/1530225401",
@@ -23808,7 +24726,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:56:29Z",
       "changeset": 184204451,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom, okružena zelenom vegetacijom i dijelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:48.404Z"
+      }
     },
     {
       "id": "way/1530225402",
@@ -23866,7 +24790,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:56:29Z",
       "changeset": 184204451,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:47.899Z"
+      }
     },
     {
       "id": "way/1530225541",
@@ -23900,7 +24830,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:57:57Z",
       "changeset": 184204483,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasno izgrađena zgrada s vidljivim krovom svijetle boje, okružena s vegetacijom i dijelomično obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:48.240Z"
+      }
     },
     {
       "id": "way/1530225542",
@@ -23942,7 +24878,13 @@
         "postcode": "53234",
         "city": "Udbina"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom okružena poljima i manjim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:50.507Z"
+      }
     },
     {
       "id": "way/1530225543",
@@ -23976,7 +24918,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:57:57Z",
       "changeset": 184204483,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena građevina s tamnim krovom, okružena zelenom vegetacijom i oranjicom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:50.826Z"
+      }
     },
     {
       "id": "way/1530225544",
@@ -24010,7 +24958,13 @@
       "zupanija": "Ličko-senjska županija",
       "validFrom": "2026-06-17T00:57:57Z",
       "changeset": 184204483,
-      "osmUser": "Yurii Skvortsov"
+      "osmUser": "Yurii Skvortsov",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je tamnosiva/crna građevina s pravokutnim krovom, okružena zelenom vegetacijom i oraničnim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:50.868Z"
+      }
     },
     {
       "id": "way/1530330332",
@@ -24060,7 +25014,13 @@
         "postcode": "44000",
         "city": "Sisak"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s tamnocrvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:50.882Z"
+      }
     },
     {
       "id": "way/1530330333",
@@ -24114,7 +25074,13 @@
       "changeset": 184221345,
       "osmUser": "DominikNew",
       "nearestStreet": "Ulica Josipa Jurja Strossmayera",
-      "nearestStreetDist": 17
+      "nearestStreetDist": 17,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom i nekoliko drugih građevina s različitim bojama krovova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:50.481Z"
+      }
     },
     {
       "id": "way/1530330334",
@@ -24162,7 +25128,13 @@
         "postcode": "44000",
         "city": "Sisak"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s više krovova različitih boja (crveni, plavi, tamni krovovi).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:50.851Z"
+      }
     }
   ]
 }

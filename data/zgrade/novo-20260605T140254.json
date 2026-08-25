@@ -718,7 +718,13 @@
       "zupanija": "Krapinsko-zagorska županija",
       "validFrom": "2026-06-02T17:07:04Z",
       "changeset": 183556522,
-      "osmUser": "Aranc"
+      "osmUser": "Aranc",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "Snimka je nejasna i prekrivena, bez vidljivih detalja terena, vegetacije ili jasnih kontura građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:51.656Z"
+      }
     },
     {
       "id": "way/1525553441",
@@ -38243,6 +38249,12 @@
         "changeset": 183587084,
         "brojZgrada": 42,
         "korisnik": "norwieu"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje poljoprivredno zemljište s poljem i vegetacijom, ali bez vidljive građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:51.907Z"
       }
     },
     {
@@ -55021,6 +55033,12 @@
         "changeset": 183605134,
         "brojZgrada": 178,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje poljoprivredne površine s dijelovima vegetacije i cesta, ali se u centru kadra ne vidi izgrađena zgrada ili krov.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:52.101Z"
       }
     },
     {
@@ -55231,6 +55249,12 @@
         "changeset": 183605134,
         "brojZgrada": 178,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidi se jasno građevina s crvenim/trakastim krovom na oraničnom zemljištu okruženom poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:52.263Z"
       }
     },
     {
@@ -57986,6 +58010,12 @@
         "changeset": 183605134,
         "brojZgrada": 178,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje šumsku vegetaciju i dijelove ceste, bez vidljive izgrađene zgrade ili krovne konstrukcije u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:52.162Z"
       }
     },
     {
@@ -61650,6 +61680,12 @@
         "changeset": 183605134,
         "brojZgrada": 178,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov svijetlosmeđe boje s dijelovima vegetacije, što ukazuje na izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:52.110Z"
       }
     },
     {
@@ -72433,6 +72469,12 @@
         "changeset": 183609293,
         "brojZgrada": 79,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenkastvom obojanim krovom, jasno razlikovanja od vegetacije i obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:52.567Z"
       }
     },
     {
@@ -72894,6 +72936,12 @@
         "changeset": 183609293,
         "brojZgrada": 79,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje samo prirodni teren s vegetacijom i šumskom pokrovom, bez vidljive izgrađene građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:52.551Z"
       }
     },
     {
@@ -72988,6 +73036,12 @@
         "changeset": 183609293,
         "brojZgrada": 79,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje prirodno zemljište s vegetacijom i šumskom pokrivačem, bez vidljive izgrađene građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:52.893Z"
       }
     },
     {
@@ -75128,7 +75182,13 @@
       "changeset": 183609309,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Josipa Broza Tita",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:50.590Z"
+      }
     },
     {
       "id": "way/1525879680",
@@ -75170,7 +75230,13 @@
         "postcode": "40315",
         "city": "Mursko Središće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:49.554Z"
+      }
     },
     {
       "id": "way/1525879681",
@@ -75206,7 +75272,13 @@
       "changeset": 183609309,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Maksima Gorkog",
-      "nearestStreetDist": 36
+      "nearestStreetDist": 36,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:49.564Z"
+      }
     },
     {
       "id": "way/1525879682",
@@ -75242,7 +75314,13 @@
       "changeset": 183609309,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Maksima Gorkog",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.086Z"
+      }
     },
     {
       "id": "way/1525879683",
@@ -75278,7 +75356,13 @@
       "changeset": 183609309,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Maksima Gorkog",
-      "nearestStreetDist": 22
+      "nearestStreetDist": 22,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.087Z"
+      }
     },
     {
       "id": "way/1525879684",
@@ -75322,7 +75406,13 @@
       "changeset": 183609309,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Maksima Gorkog",
-      "nearestStreetDist": 32
+      "nearestStreetDist": 32,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.087Z"
+      }
     },
     {
       "id": "way/1525879731",
@@ -75590,7 +75680,13 @@
       "changeset": 183609350,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Josipa Broza Tita",
-      "nearestStreetDist": 26
+      "nearestStreetDist": 26,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.093Z"
+      }
     },
     {
       "id": "way/1525880267",
@@ -75626,7 +75722,13 @@
       "changeset": 183609350,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Maksima Gorkog",
-      "nearestStreetDist": 23
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.091Z"
+      }
     },
     {
       "id": "way/1525880268",
@@ -75668,7 +75770,13 @@
         "postcode": "40315",
         "city": "Mursko Središće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.086Z"
+      }
     },
     {
       "id": "way/1525880491",
@@ -76256,7 +76364,13 @@
       "changeset": 183609694,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Marka Kovača",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.122Z"
+      }
     },
     {
       "id": "way/1525881708",
@@ -76292,7 +76406,13 @@
       "changeset": 183609694,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Josipa Broza Tita",
-      "nearestStreetDist": 60
+      "nearestStreetDist": 60,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.088Z"
+      }
     },
     {
       "id": "way/1525882040",
@@ -76994,7 +77114,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-06-03T19:03:10Z",
       "changeset": 183609909,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.089Z"
+      }
     },
     {
       "id": "way/1525883391",
@@ -77048,7 +77174,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-06-03T19:03:10Z",
       "changeset": 183609909,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.092Z"
+      }
     },
     {
       "id": "way/1525883392",
@@ -77084,7 +77216,13 @@
       "changeset": 183609909,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica dr. Vinka Žganca",
-      "nearestStreetDist": 11
+      "nearestStreetDist": 11,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.090Z"
+      }
     },
     {
       "id": "way/1525883393",
@@ -77120,7 +77258,13 @@
       "changeset": 183609909,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica dr. Vinka Žganca",
-      "nearestStreetDist": 25
+      "nearestStreetDist": 25,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.094Z"
+      }
     },
     {
       "id": "way/1525883394",
@@ -77156,7 +77300,13 @@
       "changeset": 183609909,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Ivana Gundulića",
-      "nearestStreetDist": 30
+      "nearestStreetDist": 30,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.316Z"
+      }
     },
     {
       "id": "way/1525883395",
@@ -77192,7 +77342,13 @@
       "changeset": 183609909,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Ivana Gundulića",
-      "nearestStreetDist": 32
+      "nearestStreetDist": 32,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.317Z"
+      }
     },
     {
       "id": "way/1525883396",
@@ -77230,7 +77386,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-06-03T19:03:10Z",
       "changeset": 183609909,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:53.321Z"
+      }
     },
     {
       "id": "way/1525883731",
@@ -108664,6 +108826,12 @@
         "changeset": 183645752,
         "brojZgrada": 146,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom, okružena vegetacijom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:55.468Z"
       }
     },
     {
@@ -112216,7 +112384,13 @@
       "zupanija": "Šibensko-kninska županija",
       "validFrom": "2026-06-04T13:44:40Z",
       "changeset": 183646854,
-      "osmUser": "DominikNew"
+      "osmUser": "DominikNew",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje terenu s vegetacijom i cestom, ali se u centru kadra ne vidi izgrađena zgrada ili krov.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:55.294Z"
+      }
     },
     {
       "id": "way/1526117500",
@@ -112306,7 +112480,13 @@
         "postcode": "22323",
         "city": "Unešić"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim/ružičastim krovom okružena vegetacijom i cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:55.410Z"
+      }
     },
     {
       "id": "way/1526117502",
@@ -123658,6 +123838,12 @@
         "changeset": 183659320,
         "brojZgrada": 152,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje ruralno obrađeno zemljište s putom, bez vidljivih izgrađenih zgrada ili krovova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:55.771Z"
       }
     },
     {
@@ -125014,6 +125200,12 @@
         "changeset": 183659320,
         "brojZgrada": 152,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje oranicu s vegetacijom i bjelom cestom, bez vidljive građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:55.808Z"
       }
     },
     {
@@ -125243,6 +125435,12 @@
         "changeset": 183659320,
         "brojZgrada": 152,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje oranicu s poljskom vegetacijom i bjelom cestom kroz sredinu, bez vidljivih građevina ili krovova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:55.916Z"
       }
     },
     {

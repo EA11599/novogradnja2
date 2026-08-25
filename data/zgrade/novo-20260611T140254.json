@@ -1325,7 +1325,13 @@
         "postcode": "10360",
         "city": "Sesvete"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje isključivo zelenu vegetaciju s nekoliko terena sličnih poljima, bez vidljive izgrađene građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:03.445Z"
+      }
     },
     {
       "id": "way/1527580114",
@@ -7126,7 +7132,13 @@
       "changeset": 183870629,
       "osmUser": "Badojo",
       "nearestStreet": "Ulica kardinala Alojzija Stepinca",
-      "nearestStreetDist": 68
+      "nearestStreetDist": 68,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:01.629Z"
+      }
     },
     {
       "id": "way/1527822280",
@@ -7162,7 +7174,13 @@
       "changeset": 183870629,
       "osmUser": "Badojo",
       "nearestStreet": "Trg žrtava fašizma",
-      "nearestStreetDist": 72
+      "nearestStreetDist": 72,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:01.601Z"
+      }
     },
     {
       "id": "way/1527822281",
@@ -7198,7 +7216,13 @@
       "changeset": 183870629,
       "osmUser": "Badojo",
       "nearestStreet": "Trg žrtava fašizma",
-      "nearestStreetDist": 49
+      "nearestStreetDist": 49,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:01.618Z"
+      }
     },
     {
       "id": "way/1527834557",
@@ -8311,6 +8335,12 @@
         "changeset": 183893543,
         "brojZgrada": 81,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s tamnim krovom smještena između obrađenih poljoprivrednih površina i šumskog područja.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:03.397Z"
       }
     },
     {
@@ -9162,6 +9192,12 @@
         "changeset": 183893543,
         "brojZgrada": 81,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenkastvim krovom okružena oranicama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:03.602Z"
       }
     },
     {
@@ -9201,6 +9237,12 @@
         "changeset": 183893543,
         "brojZgrada": 81,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:02.971Z"
       }
     },
     {
@@ -9285,6 +9327,12 @@
         "changeset": 183893543,
         "brojZgrada": 81,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je krov svjetlije boje s jasnim rubovima, što ukazuje na izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:03.411Z"
       }
     },
     {
@@ -11203,6 +11251,12 @@
         "changeset": 183893543,
         "brojZgrada": 81,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "U centru kadra vide se samo poljoprivredne parcele s vegetacijom i šumskom pokrivačem, bez vidljive izgrađene građevine ili крова.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:03.643Z"
       }
     },
     {
@@ -11679,6 +11733,12 @@
         "changeset": 183893543,
         "brojZgrada": 81,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim krovom smeđe/crvene boje na svjetlijem terenu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:03.809Z"
       }
     },
     {
@@ -24927,7 +24987,13 @@
       "changeset": 183932391,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Zrinskih",
-      "nearestStreetDist": 39
+      "nearestStreetDist": 39,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:02.281Z"
+      }
     },
     {
       "id": "way/1528218826",
@@ -24979,7 +25045,13 @@
       "changeset": 183932391,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Zrinskih",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:02.347Z"
+      }
     },
     {
       "id": "way/1528218827",
@@ -25015,7 +25087,13 @@
       "changeset": 183932391,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Zrinskih",
-      "nearestStreetDist": 20
+      "nearestStreetDist": 20,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.364Z"
+      }
     },
     {
       "id": "way/1528218828",
@@ -25057,7 +25135,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.385Z"
+      }
     },
     {
       "id": "way/1528218829",
@@ -25103,7 +25187,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.361Z"
+      }
     },
     {
       "id": "way/1528218830",
@@ -25161,7 +25251,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.339Z"
+      }
     },
     {
       "id": "way/1528218831",
@@ -25197,7 +25293,13 @@
       "changeset": 183932391,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Zrinskih",
-      "nearestStreetDist": 39
+      "nearestStreetDist": 39,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.365Z"
+      }
     },
     {
       "id": "way/1528218832",
@@ -25245,7 +25347,13 @@
       "changeset": 183932391,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Zrinskih",
-      "nearestStreetDist": 18
+      "nearestStreetDist": 18,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.360Z"
+      }
     },
     {
       "id": "way/1528218833",
@@ -25303,7 +25411,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.339Z"
+      }
     },
     {
       "id": "way/1528218834",
@@ -25345,7 +25459,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.368Z"
+      }
     },
     {
       "id": "way/1528218835",
@@ -25403,7 +25523,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.347Z"
+      }
     },
     {
       "id": "way/1528218836",
@@ -25461,7 +25587,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.367Z"
+      }
     },
     {
       "id": "way/1528218837",
@@ -25503,7 +25635,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.342Z"
+      }
     },
     {
       "id": "way/1528218838",
@@ -25545,7 +25683,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.346Z"
+      }
     },
     {
       "id": "way/1528218842",
@@ -25597,7 +25741,13 @@
       "changeset": 183932391,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 14
+      "nearestStreetDist": 14,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.941Z"
+      }
     },
     {
       "id": "way/1528218887",
@@ -25879,7 +26029,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.910Z"
+      }
     },
     {
       "id": "way/1528219568",
@@ -25929,7 +26085,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.888Z"
+      }
     },
     {
       "id": "way/1528219940",
@@ -26101,7 +26263,13 @@
       "changeset": 183932712,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica braće Radića",
-      "nearestStreetDist": 16
+      "nearestStreetDist": 16,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "Snimka je jednobojno siva bez vidljivih detalja terena, vegetacije ili drugih markantnih značajki.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:06.381Z"
+      }
     },
     {
       "id": "way/1528220441",
@@ -26143,7 +26311,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje obrađeno ili travnato zemljište s vegetacijom, ali bez vidljive izgrađene građevine ili krova u centralnom dijelu kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:06.727Z"
+      }
     },
     {
       "id": "way/1528220827",
@@ -26587,7 +26761,13 @@
       "changeset": 183933084,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Alojzija Stepinca",
-      "nearestStreetDist": 57
+      "nearestStreetDist": 57,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.887Z"
+      }
     },
     {
       "id": "way/1528222003",
@@ -26627,7 +26807,13 @@
       "changeset": 183933084,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Bukovčak",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.916Z"
+      }
     },
     {
       "id": "way/1528222004",
@@ -26675,7 +26861,13 @@
       "changeset": 183933084,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Bukovčak",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.961Z"
+      }
     },
     {
       "id": "way/1528222494",
@@ -28191,7 +28383,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 23
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.952Z"
+      }
     },
     {
       "id": "way/1528226322",
@@ -28227,7 +28425,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Frankopanska ulica",
-      "nearestStreetDist": 48
+      "nearestStreetDist": 48,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.912Z"
+      }
     },
     {
       "id": "way/1528226323",
@@ -28263,7 +28467,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 29
+      "nearestStreetDist": 29,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:04.940Z"
+      }
     },
     {
       "id": "way/1528226324",
@@ -28309,7 +28519,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:05.451Z"
+      }
     },
     {
       "id": "way/1528226325",
@@ -28345,7 +28561,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica braće Radića",
-      "nearestStreetDist": 44
+      "nearestStreetDist": 44,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.290Z"
+      }
     },
     {
       "id": "way/1528226326",
@@ -28387,7 +28609,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.271Z"
+      }
     },
     {
       "id": "way/1528226327",
@@ -28431,7 +28659,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica braće Radića",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.267Z"
+      }
     },
     {
       "id": "way/1528226328",
@@ -28473,7 +28707,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.321Z"
+      }
     },
     {
       "id": "way/1528226329",
@@ -28523,7 +28763,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.248Z"
+      }
     },
     {
       "id": "way/1528226330",
@@ -28565,7 +28811,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.265Z"
+      }
     },
     {
       "id": "way/1528226331",
@@ -28601,7 +28853,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 61
+      "nearestStreetDist": 61,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.247Z"
+      }
     },
     {
       "id": "way/1528226332",
@@ -28637,7 +28895,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Zrinskih",
-      "nearestStreetDist": 40
+      "nearestStreetDist": 40,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.255Z"
+      }
     },
     {
       "id": "way/1528226333",
@@ -28673,7 +28937,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Zrinskih",
-      "nearestStreetDist": 46
+      "nearestStreetDist": 46,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.241Z"
+      }
     },
     {
       "id": "way/1528226334",
@@ -28709,7 +28979,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Frankopanska ulica",
-      "nearestStreetDist": 54
+      "nearestStreetDist": 54,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.218Z"
+      }
     },
     {
       "id": "way/1528226335",
@@ -28749,7 +29025,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Frankopanska ulica",
-      "nearestStreetDist": 50
+      "nearestStreetDist": 50,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.224Z"
+      }
     },
     {
       "id": "way/1528226336",
@@ -28785,7 +29067,13 @@
       "changeset": 183934041,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Ulica Zrinskih",
-      "nearestStreetDist": 47
+      "nearestStreetDist": 47,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:07.261Z"
+      }
     },
     {
       "id": "way/1528226480",
@@ -29406,7 +29694,13 @@
       "changeset": 183934353,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Zebanec Selo",
-      "nearestStreetDist": 68
+      "nearestStreetDist": 68,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje obrađeno zemljište s vegetacijom i vodenim površinama, ali se u centru kadra ne vidi izgrađena zgrada niti krov.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:09.726Z"
+      }
     },
     {
       "id": "way/1528228776",

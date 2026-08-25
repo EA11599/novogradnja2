@@ -5241,7 +5241,13 @@
       "changeset": 183127694,
       "osmUser": "Alexey Vazhnov",
       "nearestStreet": "Kraljice Jelene",
-      "nearestStreetDist": 6
+      "nearestStreetDist": 6,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s tamno-crvenim krovom, okružena街ičkim površinama i zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:41.925Z"
+      }
     },
     {
       "id": "way/1521038505",
@@ -13280,7 +13286,13 @@
       "changeset": 183153613,
       "osmUser": "Tomislav Ivanetić",
       "nearestStreet": "Put Piketa",
-      "nearestStreetDist": 43
+      "nearestStreetDist": 43,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje prirodni teren s vegetacijom i sjenama, ali u centru kadra nema vidljive građevine ili krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:42.334Z"
+      }
     },
     {
       "id": "way/1521796026",
@@ -22567,6 +22579,12 @@
         "changeset": 183220756,
         "brojZgrada": 80,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je krov crvenkaste boje s jasnim konturama, što ukazuje na izgrađenu građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:42.387Z"
       }
     },
     {
@@ -22614,6 +22632,12 @@
         "changeset": 183220756,
         "brojZgrada": 80,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa svijetlim krovom, okružena s vegetacijom i obrađenim poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:42.801Z"
       }
     },
     {
@@ -23723,6 +23747,12 @@
         "changeset": 183220756,
         "brojZgrada": 80,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje oranično obrađeno zemljište s vegetacijom i šumskim površinama, bez vidljive izgrađene građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:42.841Z"
       }
     },
     {
@@ -25813,7 +25843,13 @@
       "changeset": 183230917,
       "osmUser": "Alexey Vazhnov",
       "nearestStreet": "Ulica Milana Mrdalja",
-      "nearestStreetDist": 5
+      "nearestStreetDist": 5,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnom krovnom konstrukcijom na poljoprivrednom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:43.128Z"
+      }
     },
     {
       "id": "way/1523095606",
@@ -29400,6 +29436,12 @@
         "changeset": 183232183,
         "brojZgrada": 40,
         "korisnik": "Matija Nalis"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenastim krovom okružena obrađenim poljima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:43.183Z"
       }
     },
     {
@@ -33108,6 +33150,12 @@
         "changeset": 183253023,
         "brojZgrada": 31,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje neizgrađeno zemljište s vegetacijom i terenom bez vidljive građevine ili krova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:43.442Z"
       }
     },
     {

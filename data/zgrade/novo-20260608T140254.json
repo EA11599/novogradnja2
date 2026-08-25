@@ -4353,6 +4353,12 @@
         "changeset": 183704038,
         "brojZgrada": 94,
         "korisnik": "DominikNew"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje cestu s zelenom vegetacijom s obje strane, bez vidljive izgrađene zgrade ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:58.230Z"
       }
     },
     {
@@ -20935,6 +20941,12 @@
         "changeset": 183754146,
         "brojZgrada": 43,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena zelenom vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:58.051Z"
       }
     },
     {
@@ -25851,6 +25863,12 @@
         "changeset": 183756005,
         "brojZgrada": 92,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/krovištom okružena poljoprivrednim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:58.407Z"
       }
     },
     {
@@ -26439,6 +26457,12 @@
         "changeset": 183756005,
         "brojZgrada": 92,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa crvenim/smeđim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:58.157Z"
       }
     },
     {
@@ -29077,6 +29101,12 @@
         "changeset": 183756264,
         "brojZgrada": 46,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i tamnom vegetacijom pokraj nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:58.273Z"
       }
     },
     {
@@ -30155,7 +30185,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:56.480Z"
+      }
     },
     {
       "id": "way/1526904941",
@@ -30199,7 +30235,13 @@
       "changeset": 183762824,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Donji Koncovčak",
-      "nearestStreetDist": 334
+      "nearestStreetDist": 334,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:56.501Z"
+      }
     },
     {
       "id": "way/1526904942",
@@ -30241,7 +30283,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:56.512Z"
+      }
     },
     {
       "id": "way/1526904943",
@@ -30277,7 +30325,13 @@
       "changeset": 183762824,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Donji Koncovčak",
-      "nearestStreetDist": 325
+      "nearestStreetDist": 325,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:56.497Z"
+      }
     },
     {
       "id": "way/1526904944",
@@ -30319,7 +30373,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:56.489Z"
+      }
     },
     {
       "id": "way/1526904945",
@@ -30355,7 +30415,13 @@
       "changeset": 183762824,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Donji Koncovčak",
-      "nearestStreetDist": 299
+      "nearestStreetDist": 299,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:56.465Z"
+      }
     },
     {
       "id": "way/1526904946",
@@ -30391,7 +30457,13 @@
       "changeset": 183762824,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Donji Koncovčak",
-      "nearestStreetDist": 293
+      "nearestStreetDist": 293,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:56.476Z"
+      }
     },
     {
       "id": "way/1526904947",
@@ -30433,7 +30505,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:58.955Z"
+      }
     },
     {
       "id": "way/1526904948",
@@ -30469,7 +30547,13 @@
       "changeset": 183762824,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Donji Koncovčak",
-      "nearestStreetDist": 310
+      "nearestStreetDist": 310,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:58.933Z"
+      }
     },
     {
       "id": "way/1526904949",
@@ -30511,7 +30595,13 @@
         "postcode": "40314",
         "city": "Selnica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:58.970Z"
+      }
     },
     {
       "id": "way/1526904952",
@@ -30547,7 +30637,13 @@
       "changeset": 183762824,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Donji Koncovčak",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:39:58.977Z"
+      }
     },
     {
       "id": "way/1527046429",
@@ -32694,6 +32790,12 @@
         "changeset": 183767806,
         "brojZgrada": 108,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje vegetaciju i poljoprivredne površine bez vidljive građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:00.730Z"
       }
     },
     {
@@ -32892,6 +32994,12 @@
         "changeset": 183767806,
         "brojZgrada": 108,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:00.628Z"
       }
     },
     {
@@ -33380,6 +33488,12 @@
         "changeset": 183767806,
         "brojZgrada": 108,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom, jasno razlučiva od okolnog zemljišta i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:00.719Z"
       }
     },
     {
@@ -33746,6 +33860,12 @@
         "changeset": 183767806,
         "brojZgrada": 108,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje obrađeno zemljište s poljima i vegetacijom, ali bez vidljive izgrađene građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:00.762Z"
       }
     },
     {
@@ -34667,6 +34787,12 @@
         "changeset": 183767806,
         "brojZgrada": 108,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s reddastim krovom, okružena poljoprivrednim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:01.028Z"
       }
     },
     {
@@ -36388,6 +36514,12 @@
         "changeset": 183767806,
         "brojZgrada": 108,
         "korisnik": "Wonderful Alligator"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svjetlija površina s pravokutnim obrisom koja predstavlja krov građevine okružene šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:40:00.954Z"
       }
     },
     {

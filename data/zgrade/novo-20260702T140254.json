@@ -45,7 +45,13 @@
         "postcode": "44000",
         "city": "Sisak"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i okolnim strukama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:02.316Z"
+      }
     },
     {
       "id": "way/1533548734",
@@ -82,7 +88,13 @@
       "changeset": 184799446,
       "osmUser": "DominikNew",
       "nearestStreet": "Odra-cesta",
-      "nearestStreetDist": 32
+      "nearestStreetDist": 32,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/tamno obojanim krovom i jasno razgraničenim rubovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:02.206Z"
+      }
     },
     {
       "id": "way/1533548735",
@@ -126,7 +138,13 @@
         "postcode": "44000",
         "city": "Sisak"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi crveni krov građevine sa okružujućim zemljištem i cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:03.040Z"
+      }
     },
     {
       "id": "way/1533548736",
@@ -178,7 +196,13 @@
         "postcode": "44000",
         "city": "Sisak"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena ostalim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:01.901Z"
+      }
     },
     {
       "id": "way/1533549008",
@@ -222,7 +246,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-29T14:40:46Z",
       "changeset": 184799561,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s karakterističnim krovom i jasno vidljivim konturama građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:02.227Z"
+      }
     },
     {
       "id": "way/1533549009",
@@ -258,7 +288,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-29T14:40:46Z",
       "changeset": 184799561,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/smeđim krovom, okružena ulicama i drugim zgradama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:02.013Z"
+      }
     },
     {
       "id": "way/1533612855",
@@ -300,7 +336,13 @@
         "postcode": "23450",
         "city": "Obrovac"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s svjetlijim krovom smještena između vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:01.891Z"
+      }
     },
     {
       "id": "way/1533612856",
@@ -342,7 +384,13 @@
         "postcode": "23450",
         "city": "Obrovac"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim krovom, okružena poljoprivrednim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:02.175Z"
+      }
     },
     {
       "id": "way/1533612857",
@@ -384,7 +432,13 @@
         "postcode": "23450",
         "city": "Obrovac"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s roza/beige krovom na oranično obrađenom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:02.192Z"
+      }
     },
     {
       "id": "way/1533612858",
@@ -418,7 +472,13 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-06-29T19:10:30Z",
       "changeset": 184813890,
-      "osmUser": "Marin K"
+      "osmUser": "Marin K",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi građevina s terakota/crvenim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:02.416Z"
+      }
     },
     {
       "id": "way/1533612859",
@@ -452,7 +512,13 @@
       "zupanija": "Zadarska županija",
       "validFrom": "2026-06-29T19:10:30Z",
       "changeset": 184813890,
-      "osmUser": "Marin K"
+      "osmUser": "Marin K",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom, okružena poljoprivrednim zemljištem i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:02.419Z"
+      }
     },
     {
       "id": "way/1533612860",
@@ -494,7 +560,13 @@
         "postcode": "23450",
         "city": "Obrovac"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina s crvenim krovom i bijela struktura uz nju, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:03.322Z"
+      }
     },
     {
       "id": "way/1533816313",
@@ -556,7 +628,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s tamnosivim krovom okružena vegetacijom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.729Z"
+      }
     },
     {
       "id": "way/1533816314",
@@ -598,7 +676,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je tamnosiva građevina s pravokutnim krovom, okružena zelenom vegetacijom i oranjicom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.836Z"
+      }
     },
     {
       "id": "way/1533816315",
@@ -645,7 +729,13 @@
         "postcode": "42243",
         "city": "Maruševec"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim sivim krovom i okružena cestom te vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:06.224Z"
+      }
     },
     {
       "id": "way/1533816316",
@@ -687,7 +777,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina s nekoliko dijelova - bijela/svijetla zgrada s plavim krovom, zelena građevina te crni krov s desne strane.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.902Z"
+      }
     },
     {
       "id": "way/1533816317",
@@ -730,7 +826,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s pravokutnim oblikom i tamnim krovom, okružena vegetacijom i manjim gospodarskim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.572Z"
+      }
     },
     {
       "id": "way/1533816318",
@@ -777,7 +879,13 @@
         "postcode": "42243",
         "city": "Maruševec"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.728Z"
+      }
     },
     {
       "id": "way/1533816319",
@@ -816,7 +924,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i pratećim objektima s tamnim krovovima, okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:06.751Z"
+      }
     },
     {
       "id": "way/1533816320",
@@ -851,7 +965,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnosivim krovom i crvenim zidovima, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.576Z"
+      }
     },
     {
       "id": "way/1533816321",
@@ -894,7 +1014,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s tamnim krovom okružena vegetacijom i susjednim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.413Z"
+      }
     },
     {
       "id": "way/1533816322",
@@ -929,7 +1055,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena/riđa građevina s krovom, okružena poljoprivrednim zemljištem i zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.631Z"
+      }
     },
     {
       "id": "way/1533816323",
@@ -964,7 +1096,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je nekoliko građevina s različitim bojama krovova, od kojih dominira crvena i smeđa boja.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.771Z"
+      }
     },
     {
       "id": "way/1533816324",
@@ -998,7 +1136,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i dijelom zelene vegetacije oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:05.371Z"
+      }
     },
     {
       "id": "way/1533816325",
@@ -1033,7 +1177,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom, okružena zelenom vegetacijom i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:08.925Z"
+      }
     },
     {
       "id": "way/1533816326",
@@ -1077,7 +1227,13 @@
         "postcode": "42243",
         "city": "Maruševec"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenim krovom i povezanom gospodarskom građevinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:08.876Z"
+      }
     },
     {
       "id": "way/1533816327",
@@ -1129,7 +1285,13 @@
         "postcode": "42243",
         "city": "Maruševec"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i okolnom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:08.995Z"
+      }
     },
     {
       "id": "way/1533816328",
@@ -1164,7 +1326,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada s crvenim krovom i njezinim sjenom na zelenom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:09.152Z"
+      }
     },
     {
       "id": "way/1533816329",
@@ -1198,7 +1366,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-06-30T06:15:57Z",
       "changeset": 184835843,
-      "osmUser": "Gale47"
+      "osmUser": "Gale47",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenijim krovom okružena zelenom vegetacijom i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:09.186Z"
+      }
     },
     {
       "id": "way/1533816330",
@@ -1241,7 +1415,13 @@
         "postcode": "42243",
         "city": "Maruševec"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i dijelom bijele/sive boje, okružena zelenim poljima i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:09.157Z"
+      }
     },
     {
       "id": "way/1533828065",
@@ -1277,7 +1457,13 @@
       "changeset": 184838015,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Milovana Muževića",
-      "nearestStreetDist": 54
+      "nearestStreetDist": 54,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnosmeđim/crvenim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:09.031Z"
+      }
     },
     {
       "id": "way/1533828066",
@@ -1329,7 +1515,13 @@
       "changeset": 184838015,
       "osmUser": "Vedran V",
       "nearestStreet": "Ulica Milovana Muževića",
-      "nearestStreetDist": 31
+      "nearestStreetDist": 31,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiv je crvenkasti krov građevine između zelene vegetacije i vode.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:08.947Z"
+      }
     },
     {
       "id": "way/1533853442",
@@ -1393,7 +1585,13 @@
       "zupanija": "Zagrebačka županija",
       "validFrom": "2026-06-30T08:48:58Z",
       "changeset": 184842132,
-      "osmUser": "Martis22X"
+      "osmUser": "Martis22X",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi velika građevina s bijelim/svjetlim krovom, okružena manjim strukturama s tamnim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:09.304Z"
+      }
     },
     {
       "id": "way/1533917084",
@@ -1467,7 +1665,13 @@
         "postcode": "21462",
         "city": "Vrbanj"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi света kvadratna zgrada s ravnim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:09.195Z"
+      }
     },
     {
       "id": "way/1533917087",
@@ -1509,7 +1713,13 @@
         "postcode": "21462",
         "city": "Vrbanj"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i okružena s travnjacima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:08.919Z"
+      }
     },
     {
       "id": "way/1533917088",
@@ -1551,7 +1761,13 @@
         "postcode": "21462",
         "city": "Vrbanj"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom s jasno razlučivim obrisima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:08.913Z"
+      }
     },
     {
       "id": "way/1533917097",
@@ -1585,7 +1801,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-06-30T12:41:26Z",
       "changeset": 184852440,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svjetlija pravokutna površina s definiranim rubovima koja predstavlja krov građevine, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.821Z"
+      }
     },
     {
       "id": "way/1533917114",
@@ -1635,7 +1857,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-06-30T12:41:26Z",
       "changeset": 184852440,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje vegetaciju i šumsku površinu bez vidljivih krovova ili građevina u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.549Z"
+      }
     },
     {
       "id": "way/1533917115",
@@ -1669,7 +1897,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-06-30T12:41:26Z",
       "changeset": 184852440,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s jasno vidljivim svetlim krovom okružena parkiralištima i putanjama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:12.000Z"
+      }
     },
     {
       "id": "way/1533917131",
@@ -1711,7 +1945,13 @@
         "postcode": "21462",
         "city": "Vrbanj"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je svijetla zgrada s pravokutnim krovom okružena zelenom vegetacijom i poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.474Z"
+      }
     },
     {
       "id": "way/1533917132",
@@ -1761,7 +2001,13 @@
         "postcode": "21462",
         "city": "Vrbanj"
       },
-      "dguBrojJedinica": 3
+      "dguBrojJedinica": 3,
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "Snimka je nejasna i gotovo jednobojna s minimalnim vidljivim detaljima terena, što ukazuje na nedostatak kvalitetnih podataka za tu lokaciju.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.836Z"
+      }
     },
     {
       "id": "way/1533917133",
@@ -1795,7 +2041,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-06-30T12:41:26Z",
       "changeset": 184852440,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena zelenom vegetacijom i parcelama obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.744Z"
+      }
     },
     {
       "id": "way/1533917134",
@@ -1837,7 +2089,13 @@
         "postcode": "21462",
         "city": "Vrbanj"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s crvenim krovom, jasno vidljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.598Z"
+      }
     },
     {
       "id": "way/1533935336",
@@ -1887,7 +2145,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-06-30T13:48:06Z",
       "changeset": 184855796,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "Snimka je nejasna i pretežno jednobojna, bez pouzdano vidljivih detalja terena ili građevina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.668Z"
+      }
     },
     {
       "id": "way/1533935352",
@@ -1921,7 +2185,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-06-30T13:48:06Z",
       "changeset": 184855796,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva svjetla građevina s pravokutnim krovom, okružena zelenom vegetacijom i pristupnom stazom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.544Z"
+      }
     },
     {
       "id": "way/1533935353",
@@ -1963,7 +2233,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-06-30T13:48:06Z",
       "changeset": 184855796,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom okružena vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.621Z"
+      }
     },
     {
       "id": "way/1533935354",
@@ -1997,7 +2273,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-06-30T13:48:06Z",
       "changeset": 184855796,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s jasno vidljivim krovom svijetle boje, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.754Z"
+      }
     },
     {
       "id": "way/1534065810",
@@ -2055,7 +2337,13 @@
         "postcode": "49210",
         "city": "Zabok"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s pravokutnim krovom, obloženim s nekoliko boja (plava, crvena i siva boja krovnih materijala).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:11.925Z"
+      }
     },
     {
       "id": "way/1534232055",
@@ -2089,7 +2377,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-07-01T10:32:04Z",
       "changeset": 184906375,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s tamnim krovom okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.263Z"
+      }
     },
     {
       "id": "way/1534232056",
@@ -2123,7 +2417,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-07-01T10:32:04Z",
       "changeset": 184906375,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svjetlija pravokutna struktura koja označava krov građevine ili objekta na zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.604Z"
+      }
     },
     {
       "id": "way/1534232066",
@@ -2157,7 +2457,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-07-01T10:32:04Z",
       "changeset": 184906375,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje šumsku vegetaciju s vidljivim stablima, bez jasno vidljive izgrađene građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.727Z"
+      }
     },
     {
       "id": "way/1534243302",
@@ -2191,7 +2497,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-07-01T11:38:07Z",
       "changeset": 184909126,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim/smeđim krovom okružena vegetacijom i šumom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.140Z"
+      }
     },
     {
       "id": "way/1534243307",
@@ -2225,7 +2537,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-07-01T11:38:07Z",
       "changeset": 184909126,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s krovom tamnije boje okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.175Z"
+      }
     },
     {
       "id": "way/1534257030",
@@ -2262,7 +2580,13 @@
       "changeset": 184912050,
       "osmUser": "Martis22X",
       "nearestStreet": "Industrijska ulica",
-      "nearestStreetDist": 23
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s bijelim krovom i zelenim okućnicom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.064Z"
+      }
     },
     {
       "id": "way/1534257031",
@@ -2298,7 +2622,13 @@
       "changeset": 184912050,
       "osmUser": "Martis22X",
       "nearestStreet": "Industrijska ulica",
-      "nearestStreetDist": 103
+      "nearestStreetDist": 103,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva bijela zgrada s tamnim krovom i njena sjena na terenu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.247Z"
+      }
     },
     {
       "id": "way/1534317550",
@@ -2342,7 +2672,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-07-01T16:02:10Z",
       "changeset": 184923349,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s crvenim krovom i bijelim/tamnim zidovima, jasno razlikovana od okoline.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.660Z"
+      }
     },
     {
       "id": "way/1534317551",
@@ -2386,7 +2722,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-07-01T16:02:10Z",
       "changeset": 184923349,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi krov građevine s pravokutnim oblikom, sive boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.312Z"
+      }
     },
     {
       "id": "way/1534317552",
@@ -2454,7 +2796,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-07-01T16:02:10Z",
       "changeset": 184923349,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom, okružena bjelim i sivim površinama, vjerovatno terase ili parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.521Z"
+      }
     },
     {
       "id": "way/1534317553",
@@ -2490,7 +2838,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-07-01T16:02:10Z",
       "changeset": 184923349,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidi se krov s tamnom bojom, što ukazuje na izgrađenu zgradu ili građevinu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:14.072Z"
+      }
     },
     {
       "id": "way/1534317554",
@@ -2542,7 +2896,13 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-07-01T16:02:10Z",
       "changeset": 184923349,
-      "osmUser": "Karlo Kostanjevec"
+      "osmUser": "Karlo Kostanjevec",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:13.978Z"
+      }
     },
     {
       "id": "way/1534363770",
@@ -2593,6 +2953,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom, okružena zemljištem i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:17.679Z"
       }
     },
     {
@@ -2652,6 +3018,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s jasno vidljivim krovom i građevinama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:16.969Z"
       }
     },
     {
@@ -2695,6 +3067,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s jasno vidljivim svjetlijim krovom, okružena s parkiralištima i obrađenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:17.322Z"
       }
     },
     {
@@ -2738,6 +3116,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i okolnim građevinama s sivim/plavim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:16.833Z"
       }
     },
     {
@@ -2797,6 +3181,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s bijelim krovom i tamnom strukturom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:16.927Z"
       }
     },
     {
@@ -2849,6 +3239,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke je vidljiva velika zgrada s tamnim krovom, okružena betoniranom površinom i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:17.140Z"
       }
     },
     {
@@ -2892,6 +3288,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom i betonskim/asfaltnim površinama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:16.932Z"
       }
     },
     {
@@ -2951,6 +3353,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim krovom i građevinskom strukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:16.804Z"
       }
     },
     {
@@ -3002,6 +3410,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s bijelim krovom i tamnim dijelovima, okružena s zelenim površinama i parkiralištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:17.064Z"
       }
     },
     {
@@ -3045,6 +3459,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s tamnim krovom, okružena zelenom vegetacijom i pristupnim putovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:17.008Z"
       }
     },
     {
@@ -3088,6 +3508,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika zgrada s tamnim krovom i jasnim obrubom, okružena obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:16.975Z"
       }
     },
     {
@@ -3139,6 +3565,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina s tamnim (vjerovatno plavim ili crnim) krovom na terenu obojenim u smeđe nijanse.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:17.166Z"
       }
     },
     {
@@ -3182,6 +3614,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno definiranim krovom, okružena zelenim površinama (travnjak, sportski teren).",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:20.194Z"
       }
     },
     {
@@ -3225,6 +3663,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vide najmanje dvije građevine s tamnim krovovima i betonskim površinama, te je vidljivo obrađeno zemljište i vegetacija u neposrednoj okolici.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:20.038Z"
       }
     },
     {
@@ -3268,6 +3712,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je tamna građevina s pravokutnim krovom, smještena na obrađenom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:19.870Z"
       }
     },
     {
@@ -3311,6 +3761,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s tamnosivim krovom, okružena parkiralištima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:19.958Z"
       }
     },
     {
@@ -3362,6 +3818,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s bijelo-sivim krovom te pripadajućim zemljištem oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:20.720Z"
       }
     },
     {
@@ -3405,6 +3867,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim krovom i okolnom vegetacijom na parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:20.022Z"
       }
     },
     {
@@ -3448,6 +3916,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada s pravokutnim krovom smeđe-crvene boje, okružena zemljištem i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:19.986Z"
       }
     },
     {
@@ -3491,6 +3965,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamnosiva/crna krovna površina građevine s pravokutnim oblikom, jasno razlikovana od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:21.284Z"
       }
     },
     {
@@ -3542,6 +4022,12 @@
         "changeset": 184932453,
         "brojZgrada": 21,
         "korisnik": "Mister_Zed"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom, okružena betonskom površinom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:20.292Z"
       }
     },
     {
@@ -3580,7 +4066,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-07-01T18:58:16Z",
       "changeset": 184932905,
-      "osmUser": "Mister_Zed"
+      "osmUser": "Mister_Zed",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s sivim ili tamnosivim krovom, okružena zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:19.974Z"
+      }
     },
     {
       "id": "way/1534365727",
@@ -3618,7 +4110,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-07-01T18:58:16Z",
       "changeset": 184932905,
-      "osmUser": "Mister_Zed"
+      "osmUser": "Mister_Zed",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom i bijелim zidovima, okružena zelenom vegetacijom i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:20.324Z"
+      }
     },
     {
       "id": "way/1534365728",
@@ -3656,7 +4154,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-07-01T18:58:16Z",
       "changeset": 184932905,
-      "osmUser": "Mister_Zed"
+      "osmUser": "Mister_Zed",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada s tamnim (vjerojatno crnim ili tamnosivim) krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:20.110Z"
+      }
     },
     {
       "id": "way/1534365729",
@@ -3694,7 +4198,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-07-01T18:58:16Z",
       "changeset": 184932905,
-      "osmUser": "Mister_Zed"
+      "osmUser": "Mister_Zed",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s crvenim krovom i okolnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.398Z"
+      }
     },
     {
       "id": "way/1534365730",
@@ -3732,7 +4242,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-07-01T18:58:16Z",
       "changeset": 184932905,
-      "osmUser": "Mister_Zed"
+      "osmUser": "Mister_Zed",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenijom i bijelijim krovnom površinom, jasno razlikovnom od okolnog puta i zelenih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.934Z"
+      }
     },
     {
       "id": "way/1534365731",
@@ -3770,7 +4286,13 @@
       "zupanija": "Osječko-baranjska županija",
       "validFrom": "2026-07-01T18:58:16Z",
       "changeset": 184932905,
-      "osmUser": "Mister_Zed"
+      "osmUser": "Mister_Zed",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/roza krovom okružena zelenom vegetacijom i parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.504Z"
+      }
     },
     {
       "id": "way/1534387345",
@@ -3813,6 +4335,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada s crvenim i sivim krovom, jasno vidljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.452Z"
       }
     },
     {
@@ -3862,6 +4390,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.444Z"
       }
     },
     {
@@ -3905,6 +4439,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je najmanje jedna izgrađena zgrada s vidljivim krovom crvene/ružičaste boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.675Z"
       }
     },
     {
@@ -3964,6 +4504,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom i surrounding terenom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.565Z"
       }
     },
     {
@@ -4023,6 +4569,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i jasno definiranim rubovima, okružena obrađenim zemljištem i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.704Z"
       }
     },
     {
@@ -4064,6 +4616,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena s zelenom vegetacijom i manjim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.497Z"
       }
     },
     {
@@ -4115,6 +4673,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada s crvenim krovom, parcela je djelomično obrađena s vegetacijom i putnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.690Z"
       }
     },
     {
@@ -4158,6 +4722,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena vegetacijom i parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.503Z"
       }
     },
     {
@@ -4215,6 +4785,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/smeđim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:23.279Z"
       }
     },
     {
@@ -4256,6 +4832,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.037Z"
       }
     },
     {
@@ -4297,6 +4879,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi crveni krov građevine s okolnom vegetacijom i dijelovima niza zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.150Z"
       }
     },
     {
@@ -4354,6 +4942,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/smeđim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.133Z"
       }
     },
     {
@@ -4397,6 +4991,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i dodatnim strukturama s tamnosmeđim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.123Z"
       }
     },
     {
@@ -4438,6 +5038,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidi se jasno izgrađena zgrada s crvenim krovom i okolnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:25.979Z"
       }
     },
     {
@@ -4495,6 +5101,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom okružena vegetacijom i obrađenim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:25.949Z"
       }
     },
     {
@@ -4546,6 +5158,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenkastvim krovom okružena zelenom vegetacijom uz cestu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.270Z"
       }
     },
     {
@@ -4603,6 +5221,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom i betonskom površinom oko nje, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.170Z"
       }
     },
     {
@@ -4650,6 +5274,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena vegetacijom i dijelomično vidljiva s desne strane snimke.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.085Z"
       }
     },
     {
@@ -4691,6 +5321,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenkastvim krovom okružena zelenom vegetacijom i susjednim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.198Z"
       }
     },
     {
@@ -4736,6 +5372,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiv krov crvene/smeđe boje s građevinama i pripadajućim vanjskim prostorom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.167Z"
       }
     },
     {
@@ -4781,6 +5423,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim krovom okružena vegetacijom i oranjicom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:26.154Z"
       }
     },
     {
@@ -4822,6 +5470,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika zgrada s crvenim krovom i pripadajućim gospodarskim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.318Z"
       }
     },
     {
@@ -4863,6 +5517,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.463Z"
       }
     },
     {
@@ -4904,6 +5564,12 @@
         "changeset": 184937157,
         "brojZgrada": 24,
         "korisnik": "Joško Horvat"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s crvenim/ružičastim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.406Z"
       }
     },
     {
@@ -4940,7 +5606,13 @@
       "changeset": 184937571,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Obrtnička ulica",
-      "nearestStreetDist": 144
+      "nearestStreetDist": 144,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom, okružena vegetacijom i šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.379Z"
+      }
     },
     {
       "id": "way/1534390039",
@@ -4982,7 +5654,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:29.451Z"
+      }
     },
     {
       "id": "way/1534390040",
@@ -5036,7 +5714,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-07-01T20:37:07Z",
       "changeset": 184937571,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "Snimka je vrlo nejasna i presvjetla, bez mogućnosti pouzdane procjene vidljivosti građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.571Z"
+      }
     },
     {
       "id": "way/1534390041",
@@ -5072,7 +5756,13 @@
       "changeset": 184937571,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 77
+      "nearestStreetDist": 77,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom okružena vegetacijom i pristupnom stazom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.598Z"
+      }
     },
     {
       "id": "way/1534390042",
@@ -5108,7 +5798,13 @@
       "changeset": 184937571,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 66
+      "nearestStreetDist": 66,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenijom krovnom površinom na kojem se razlikuje struktura građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.544Z"
+      }
     },
     {
       "id": "way/1534390043",
@@ -5144,7 +5840,13 @@
       "changeset": 184937571,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 35
+      "nearestStreetDist": 35,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/reddish krovom i jasno vidljivim obrisima građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.665Z"
+      }
     },
     {
       "id": "way/1534390044",
@@ -5194,7 +5896,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada s crvenim/smeđim krovom i видљивим obrisom građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.689Z"
+      }
     },
     {
       "id": "way/1534390045",
@@ -5230,7 +5938,13 @@
       "changeset": 184937571,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Obrtnička ulica",
-      "nearestStreetDist": 63
+      "nearestStreetDist": 63,
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje vodenu površinu (bazen ili dio vode) s nekoliko nijansi plave boje, bez vidljive građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.846Z"
+      }
     },
     {
       "id": "way/1534390046",
@@ -5272,7 +5986,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom, jasno razlikovana od okolnog terena s vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:28.857Z"
+      }
     },
     {
       "id": "way/1534390047",
@@ -5310,7 +6030,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-07-01T20:37:07Z",
       "changeset": 184937571,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasno izgrađena zgrada s pravokutnim obrisom i krovom, okružena s parcelama i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:32.137Z"
+      }
     },
     {
       "id": "way/1534390405",
@@ -5346,7 +6072,13 @@
       "changeset": 184937698,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 66
+      "nearestStreetDist": 66,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom i oranjastvom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:31.511Z"
+      }
     },
     {
       "id": "way/1534390406",
@@ -5382,7 +6114,13 @@
       "changeset": 184937698,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 49
+      "nearestStreetDist": 49,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:32.051Z"
+      }
     },
     {
       "id": "way/1534390407",
@@ -5428,7 +6166,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva zgrada s jasno vidljivim krovom crvene/smeđe boje na svjetloj podlozi.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:31.640Z"
+      }
     },
     {
       "id": "way/1534390408",
@@ -5464,7 +6208,13 @@
       "changeset": 184937698,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 132
+      "nearestStreetDist": 132,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je bijela građevina s pravokutnim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:31.550Z"
+      }
     },
     {
       "id": "way/1534390409",
@@ -5505,7 +6255,13 @@
       "zupanija": "Međimurska županija",
       "validFrom": "2026-07-01T20:40:12Z",
       "changeset": 184937698,
-      "osmUser": "Joško Horvat"
+      "osmUser": "Joško Horvat",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina s pravokutnim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:32.008Z"
+      }
     },
     {
       "id": "way/1534390410",
@@ -5541,7 +6297,13 @@
       "changeset": 184937698,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 81
+      "nearestStreetDist": 81,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasno izgrađena zgrada s crvenim krovom i tamnim površinama, okružena zelenom vegetacijom i oranjicom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:31.872Z"
+      }
     },
     {
       "id": "way/1534390411",
@@ -5583,7 +6345,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je jasno vidljiva veća zgrada s crvenim krovom, okružena s biljnom i travnatom površinom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:31.951Z"
+      }
     },
     {
       "id": "way/1534390412",
@@ -5619,7 +6387,13 @@
       "changeset": 184937698,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 55
+      "nearestStreetDist": 55,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:31.569Z"
+      }
     },
     {
       "id": "way/1534390413",
@@ -5663,7 +6437,13 @@
       "changeset": 184937698,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 80
+      "nearestStreetDist": 80,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke je vidljiva izgrađena zgrada s crvenim krovom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:31.516Z"
+      }
     },
     {
       "id": "way/1534390414",
@@ -5699,7 +6479,13 @@
       "changeset": 184937698,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 75
+      "nearestStreetDist": 75,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim krovom i surrounding zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:32.012Z"
+      }
     },
     {
       "id": "way/1534390415",
@@ -5741,7 +6527,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/terakota krovom i sjenom koju baca.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:31.717Z"
+      }
     },
     {
       "id": "way/1534390416",
@@ -5783,7 +6575,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenim površinama i putovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.208Z"
+      }
     },
     {
       "id": "way/1534390417",
@@ -5825,7 +6623,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina s crvenim krovom i tamnom sjenom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.784Z"
+      }
     },
     {
       "id": "way/1534390418",
@@ -5861,7 +6665,13 @@
       "changeset": 184937698,
       "osmUser": "Joško Horvat",
       "nearestStreet": "Čakovečka ulica",
-      "nearestStreetDist": 217
+      "nearestStreetDist": 217,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetlija pravokutna površina s tamnim rubovima koja predstavlja krov građevine, okružene travnjacima i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.466Z"
+      }
     },
     {
       "id": "way/1534390419",
@@ -5903,7 +6713,13 @@
         "postcode": "40305",
         "city": "Nedelišće"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je bijela građevina s pravokutnim obrisom i svetlim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.366Z"
+      }
     },
     {
       "id": "way/1534478185",
@@ -5945,7 +6761,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina s ružičastim/crvenim krovom okružena zelenilom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.498Z"
+      }
     },
     {
       "id": "way/1534478186",
@@ -5987,7 +6809,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/rozim krovom, jasno razlikovana od okolne vegetacije i terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.591Z"
+      }
     },
     {
       "id": "way/1534478187",
@@ -6029,7 +6857,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina s crvenim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.235Z"
+      }
     },
     {
       "id": "way/1534478188",
@@ -6071,7 +6905,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom i sjenom, okružena vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.282Z"
+      }
     },
     {
       "id": "way/1534478189",
@@ -6113,7 +6953,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnosivim krovom, jasno razlučiva od okoline s vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.405Z"
+      }
     },
     {
       "id": "way/1534478190",
@@ -6155,7 +7001,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenkastitim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.249Z"
+      }
     },
     {
       "id": "way/1534478191",
@@ -6197,7 +7049,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenkastavim krovom okružena zelenom vegetacijom i dijelomично plavom površinom vode.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.685Z"
+      }
     },
     {
       "id": "way/1534478192",
@@ -6239,7 +7097,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenkastitim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:34.432Z"
+      }
     },
     {
       "id": "way/1534478193",
@@ -6281,7 +7145,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i bijelim sekundarnim strukturama, okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:37.095Z"
+      }
     },
     {
       "id": "way/1534478194",
@@ -6339,7 +7209,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim krovom okružena zelenom vegetacijom i obrađenim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:38.121Z"
+      }
     },
     {
       "id": "way/1534478195",
@@ -6381,7 +7257,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s terrakota/smeđim krovom okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:36.966Z"
+      }
     },
     {
       "id": "way/1534478196",
@@ -6423,7 +7305,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:37.056Z"
+      }
     },
     {
       "id": "way/1534478197",
@@ -6465,7 +7353,13 @@
         "postcode": "23244",
         "city": "Starigrad Paklenica"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:36.905Z"
+      }
     },
     {
       "id": "way/1534504883",
@@ -6499,7 +7393,13 @@
       "zupanija": "Splitsko-dalmatinska županija",
       "validFrom": "2026-07-02T08:49:53Z",
       "changeset": 184962463,
-      "osmUser": "Duja"
+      "osmUser": "Duja",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s bijelim i sivim krovom, okružena travnatim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:37.360Z"
+      }
     },
     {
       "id": "way/1534582015",
@@ -6545,7 +7445,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s različitim dijelovima krovova u sivoj, crvenoj i plavoj boji.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:37.233Z"
+      }
     },
     {
       "id": "way/1534582016",
@@ -6595,7 +7501,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je jasno izdvojena građevina s crvenim krovom i sjenom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:36.891Z"
+      }
     },
     {
       "id": "way/1534582017",
@@ -6653,7 +7565,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i okolnim parkiralištima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:36.891Z"
+      }
     },
     {
       "id": "way/1534582018",
@@ -6695,7 +7613,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnosivim krovom i nekoliko manjih objekata oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:37.015Z"
+      }
     },
     {
       "id": "way/1534582020",
@@ -6753,7 +7677,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s plavim/tamnijim krovom, jasno odvojena od zelene vegetacije i pristupnih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:37.344Z"
+      }
     },
     {
       "id": "way/1534582021",
@@ -6827,7 +7757,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom, okružena s drugim građevinama različitih boja krovova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:37.309Z"
+      }
     },
     {
       "id": "way/1534582023",
@@ -6885,7 +7821,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom i dodatnim estruturama s plavim krovovima, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.723Z"
+      }
     },
     {
       "id": "way/1534582024",
@@ -6943,7 +7885,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su višebrojna krovišta s različitim bojama i oblicima, što ukazuje na izgrađene zgrade i građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.595Z"
+      }
     },
     {
       "id": "way/1534582025",
@@ -6993,7 +7941,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada sa tamnosivim krovom okružena drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.188Z"
+      }
     },
     {
       "id": "way/1534582026",
@@ -7035,7 +7989,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i tamnom građevinom, okružena zelenom vegetacijom i parcelama terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.463Z"
+      }
     },
     {
       "id": "way/1534582027",
@@ -7093,7 +8053,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s crvenim krovom i okolnom infrastrukturom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:41.119Z"
+      }
     },
     {
       "id": "way/1534582028",
@@ -7141,7 +8107,13 @@
       "changeset": 184976931,
       "osmUser": "bjelsjole",
       "nearestStreet": "Ulica Milana Šufflaya",
-      "nearestStreetDist": 34
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena parcelama s različitim vrstama krovova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.720Z"
+      }
     },
     {
       "id": "way/1534582029",
@@ -7177,7 +8149,13 @@
       "changeset": 184976931,
       "osmUser": "bjelsjole",
       "nearestStreet": "Ivanovčanska ulica",
-      "nearestStreetDist": 27
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena s drugih nekoliko građevina i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.534Z"
+      }
     },
     {
       "id": "way/1534582030",
@@ -7235,7 +8213,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim/ružičastim krovom, okružena s ostalim zgradama i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.588Z"
+      }
     },
     {
       "id": "way/1534582031",
@@ -7289,7 +8273,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i parcelom obrasla vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.367Z"
+      }
     },
     {
       "id": "way/1534582032",
@@ -7347,7 +8337,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 2
+      "dguBrojJedinica": 2,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina s reddastim krovom okružena zelenom vegetacijom i putanjom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.475Z"
+      }
     },
     {
       "id": "way/1534582033",
@@ -7397,7 +8393,13 @@
         "postcode": "43000",
         "city": "Bjelovar"
       },
-      "dguBrojJedinica": 1
+      "dguBrojJedinica": 1,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina s crvenim krovom, okružena s asfaltnom površinom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:40.311Z"
+      }
     },
     {
       "id": "way/1534582034",
@@ -7441,7 +8443,13 @@
       "changeset": 184976931,
       "osmUser": "bjelsjole",
       "nearestStreet": "Ulica Svetog Jeronima",
-      "nearestStreetDist": 32
+      "nearestStreetDist": 32,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim crvenim/smeđim krovom i betonskim/asfaltnim površinama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-08-25T16:51:41.007Z"
+      }
     }
   ]
 }
