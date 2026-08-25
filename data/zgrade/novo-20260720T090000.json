@@ -77418,10 +77418,10 @@
       },
       "dguBrojJedinica": 1,
       "satelitProvjera": {
-        "status": "greska",
-        "obrazlozenje": "Claude odgovor nije valjan JSON: ```json\n{\n  \"vidljivaZgrada\": true,\n  \"obrazlozenje\": \"U centru kadra vidljiva je建築構造 s crvenim krovom i bijele boje zidova, okružena asfaltiranom površinom.\"\n}\n```\n\nIspravka - odgovor na hrvatskom:\n\n```json\n{\n  \"vidljivaZgrada\": true,\n  \"obrazlozenje\": \"U centru kad",
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s karakterističnim krovom, okružena parkiralištima i cestama.",
         "izvor": "DGU ortofoto 2023/24",
-        "provjereno": "2026-08-25T17:10:46.254Z"
+        "provjereno": "2026-08-25T17:24:29.446Z"
       }
     },
     {
