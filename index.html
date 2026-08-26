@@ -821,6 +821,9 @@ let selectedLevels = new Set();
 let selectedStatuses = new Set();
 // Tri dokaza. Svaki je neovisan izvor; kombiniraju se I-logikom.
 let dokazi = { satelit: false, dgu: false, osm: false };
+// Odabir po stanju ortofoto snimke - stoji uz ostale filtere u panelu,
+// jer je rijec o svojstvu zgrade, ne o dokazu da je nova.
+let selectedOrtofoto = new Set();
 // Id-evi zgrada koje se pojavljuju u panelu promjena. Puni se pri
 // ucitavanju tog panela, pa filtar radi tek kad panel zavrsi.
 let zgradeSPromjenom = new Set();
@@ -1341,6 +1344,14 @@ function getFilteredFeatures(){
     if (dokazi.satelit && (f.satelitProvjera || {}).status !== 'kandidat') return false;
     if (dokazi.dgu && !f.dguNovaAdresaPoklapanje) return false;
     if (dokazi.osm && !zgradeSPromjenom.has(f.id)) return false;
+    if (selectedOrtofoto.size > 0) {
+      const st = (f.satelitProvjera || {}).status;
+      const naziv = {
+        nema_snimke: 'nema ortofoto snimke', kandidat: 'nema je na snimci',
+        stara: 'vidi se na snimci', neizvjesno: 'snimka nejasna', greska: 'greška pri provjeri',
+      }[st];
+      if (!naziv || !selectedOrtofoto.has(naziv)) return false;
+    }
     if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
     if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
@@ -1361,6 +1372,14 @@ function getFilteredFeaturesBezZupanije(){
     if (dokazi.satelit && (f.satelitProvjera || {}).status !== 'kandidat') return false;
     if (dokazi.dgu && !f.dguNovaAdresaPoklapanje) return false;
     if (dokazi.osm && !zgradeSPromjenom.has(f.id)) return false;
+    if (selectedOrtofoto.size > 0) {
+      const st = (f.satelitProvjera || {}).status;
+      const naziv = {
+        nema_snimke: 'nema ortofoto snimke', kandidat: 'nema je na snimci',
+        stara: 'vidi se na snimci', neizvjesno: 'snimka nejasna', greska: 'greška pri provjeri',
+      }[st];
+      if (!naziv || !selectedOrtofoto.has(naziv)) return false;
+    }
     if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
     if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
@@ -1395,6 +1414,27 @@ function renderFacetPanel(){
   const levelCounts = facetCounts(baseline, 'building:levels', '(nepoznato)')
     .sort((a,b) => (parseInt(a[0]) || 99) - (parseInt(b[0]) || 99)).slice(0, 10);
 
+
+  // Statusi satelitske provjere pod imenima koja korisniku nesto znace.
+  const NAZIV_ORTOFOTA = {
+    nema_snimke: 'nema ortofoto snimke',
+    kandidat: 'nema je na snimci',
+    stara: 'vidi se na snimci',
+    neizvjesno: 'snimka nejasna',
+    greska: 'greška pri provjeri',
+  };
+  const ortofotoBrojac = {};
+  baseline.forEach(f => {
+    const st = (f.satelitProvjera || {}).status;
+    if (!st) return;
+    ortofotoBrojac[st] = (ortofotoBrojac[st] || 0) + 1;
+  });
+  // Poredak: prvo ono zbog cega se ovaj filtar otvara.
+  const ortofotoRedoslijed = ['nema_snimke', 'neizvjesno', 'kandidat', 'stara', 'greska'];
+  const ortofotoCounts = ortofotoRedoslijed
+    .filter(s => ortofotoBrojac[s] > 0)
+    .map(s => [NAZIV_ORTOFOTA[s] || s, ortofotoBrojac[s]]);
+
   const statusBrojac = {};
   baseline.forEach(f => {
     const s = f.reviewStatus || 'nepotvrđeno';
@@ -1423,7 +1463,7 @@ function renderFacetPanel(){
   };
 
   const panel = $('#facetPanel');
-  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Status', statusCounts, selectedStatuses);
+  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Ortofoto', ortofotoCounts, selectedOrtofoto) + grupa('Status', statusCounts, selectedStatuses);
 
   const groups = panel.querySelectorAll('.facet-group');
   groups[0].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
@@ -1436,17 +1476,20 @@ function renderFacetPanel(){
     updateTable();
     updateMap();
   }));
+  // Grupe se dohvacaju po redoslijedu u panelu. Ortofoto je umetnut kao treca,
+  // pa su Status i Zupanije pomaknuti za jedno mjesto.
   groups[2].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
-    toggleSet(selectedStatuses, e.target.dataset.val);
+    toggleSet(selectedOrtofoto, e.target.dataset.val);
     updateTable();
     updateMap();
   }));
   groups[3].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
+    toggleSet(selectedStatuses, e.target.dataset.val);
     updateTable();
     updateMap();
   }));
 
-  $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0 || selectedStatuses.size > 0);
+  $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0 || selectedStatuses.size > 0 || selectedOrtofoto.size > 0);
 }
 
 function toggleSet(set, val){

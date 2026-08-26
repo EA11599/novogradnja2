@@ -70,6 +70,17 @@
   var zadnjiRezultat = [];
   var radi = false;
   var privitak = null;
+  };
+
+  var POZDRAV =
+    "Pitajte me kako se aplikacija koristi ili tražite zgrade po ulici, mjestu, tipu i statusu.\n\n" +
+    "Na primjer: zgrade u Ilici u Zagrebu koje su kandidati za novogradnju.";
+
+  var poruke = [];
+  var indeks = null;
+  var ucitavanje = null;
+  var zadnjiRezultat = [];
+  var radi = false;
 
   /* ---------- stil ---------- */
 
@@ -131,6 +142,7 @@
     "@media(max-width:520px){.ag-chat{right:8px!important;left:8px!important;width:auto!important;",
     "bottom:80px;height:calc(100vh - 110px)!important}",
     ".ag-grip{display:none}",
+    "@media(max-width:520px){.ag-chat{right:8px;left:8px;width:auto;bottom:80px;height:calc(100vh - 110px)}",
     ".ag-chat-btn{right:14px;bottom:14px}}",
   ].join("");
 
@@ -159,6 +171,9 @@
     '<div class="ag-biblioteka"></div>' +
     '<div class="ag-privitak"><img alt="Priložena slika"><span></span>' +
     '<button type="button" aria-label="Ukloni sliku">&times;</button></div>' +
+    '<div class="ag-chat-head"><span>Asistent</span>' +
+    '<button type="button" aria-label="Zatvori">&times;</button></div>' +
+    '<div class="ag-chat-tijelo"></div>' +
     '<div class="ag-chat-noga">' +
     '<textarea rows="1" placeholder="Pitajte nešto..." aria-label="Poruka"></textarea>' +
     '<button type="button" aria-label="Pošalji">&#9654;</button></div>';
@@ -207,6 +222,7 @@
   var slicica = trakaPrivitka.querySelector("img");
   var opisPrivitka = trakaPrivitka.querySelector("span");
   trakaPrivitka.querySelector("button").addEventListener("click", ocistiPrivitak);
+  var zatvori = panel.querySelector(".ag-chat-head button");
 
   gumb.addEventListener("click", function () {
     panel.classList.toggle("otvoren");
@@ -489,6 +505,11 @@
       poruke.push({ role: "user", content: tekst });
     }
     ocistiPrivitak();
+    if (!tekst || radi) return;
+    polje.value = "";
+    polje.style.height = "40px";
+    dodajPoruku("ja", tekst);
+    poruke.push({ role: "user", content: tekst });
 
     radi = true;
     posalji.disabled = true;
@@ -505,6 +526,7 @@
           method: "POST",
           headers: { "Content-Type": "application/json", Authorization: "Bearer " + token },
           body: JSON.stringify({ poruke: bezStarihSlika() }),
+          body: JSON.stringify({ poruke: poruke }),
         });
       })
       .then(function (r) {
@@ -566,6 +588,7 @@
   var DOZVOLJENA = [
     "ulica", "mjesto", "zupanija", "tip", "katoviMin", "katoviMax",
     "satelit", "imaAdresu", "masovniUnos", "datumOd", "datumDo", "zadnjihDana", "saEkrana",
+    "satelit", "imaAdresu", "masovniUnos", "datumOd", "datumDo",
     "sortiraj", "limit", "izvezi",
   ];
   var SATELIT = ["kandidat", "stara", "nema_snimke"];
@@ -589,6 +612,7 @@
       if (!f.tip.length) delete f.tip;
     }
     ["katoviMin", "katoviMax", "limit", "zadnjihDana"].forEach(function (k) {
+    ["katoviMin", "katoviMax", "limit"].forEach(function (k) {
       if (k in f) {
         var n = Number(f[k]);
         if (isFinite(n)) f[k] = n;
@@ -678,12 +702,14 @@
 
   function odgovara(z, f) {
     if (f._ekran && !f._ekran[z.i]) return false;
+  function odgovara(z, f) {
     if (f.ulica) {
       if (!z.a) return false;
       if (!imaRijec(bezBroja(z.a), f.ulica)) return false;
     }
     if (f.mjesto && !imaRijec(z.m, f.mjesto)) return false;
     if (f._zupanije && f._zupanije.indexOf(z.z) === -1) return false;
+    if (f.zupanija && norm(z.z).indexOf(norm(f.zupanija)) === -1) return false;
     if (f.tip && f.tip.indexOf(z.t) === -1) return false;
     if (f.satelit && f.satelit.indexOf(z.s) === -1) return false;
     if (typeof f.imaAdresu === "boolean" && !!z.a !== f.imaAdresu) return false;
@@ -801,6 +827,13 @@
         (upozorenja.length ? " " + upozorenja.join(" ") : "") +
         " Ako korisnik traži jedan od ovih podskupova, ponovi isti filtar samo bez navedenog uvjeta, ostalo ostavi nepromijenjeno."
       );
+      var granica = f.limit && f.limit > 0 ? Math.min(f.limit, 5000) : 500;
+      rez = rez.slice(0, granica);
+      zadnjiRezultat = rez;
+      window.__agChatRezultat = rez;
+      prikaziRezultat(rez, f);
+      if (f.izvezi && rez.length) uExcel(rez);
+      return "Pretraga je vratila " + rez.length + " zgrada.";
     });
   }
 
@@ -833,6 +866,9 @@
     if (f.katoviMax != null) d.push("max " + f.katoviMax + " kat.");
     if (f.zadnjihDana) d.push("zadnjih " + f.zadnjihDana + " dana");
     else if (f.datumOd) d.push("od " + f.datumOd);
+    if (f.katoviMin != null) d.push("min " + f.katoviMin + " kat.");
+    if (f.katoviMax != null) d.push("max " + f.katoviMax + " kat.");
+    if (f.datumOd) d.push("od " + f.datumOd);
     if (f.datumDo) d.push("do " + f.datumDo);
     return d.length ? d.join(" \u00b7 ") : "bez filtera";
   }
@@ -847,6 +883,12 @@
       ukupno > rez.length
         ? "<b>" + ukupno + " zgrada</b> \u00b7 prikazano prvih " + rez.length
         : "<b>" + ukupno + " zgrada</b>";
+  function prikaziRezultat(rez, f) {
+    var box = document.createElement("div");
+    box.className = "ag-rez";
+
+    var naslov = document.createElement("div");
+    naslov.innerHTML = "<b>" + rez.length + (rez.length === 1 ? " zgrada" : " zgrada") + "</b>";
     box.appendChild(naslov);
 
     var pod = document.createElement("div");
@@ -866,6 +908,7 @@
       rez.slice(0, POSTAVKE.maxPrikaz).forEach(function (z) {
         var li = document.createElement("li");
         li.textContent = adresaZa(z) + (z.m ? ", " + z.m : "") + (z.d ? " (" + z.d + ")" : "");
+        li.textContent = (z.a || "bez adrese") + (z.m ? ", " + z.m : "") + (z.d ? " (" + z.d + ")" : "");
         ul.appendChild(li);
       });
       box.appendChild(ul);
@@ -951,6 +994,21 @@
           var adr = window.XLSX.utils.encode_cell({ r: i + 1, c: stupacKarte });
           if (ws[adr]) {
             ws[adr].l = { Target: redovi[i][stupacKarte], Tooltip: "Otvori u Google Maps" };
+          "Adresa", "Mjesto", "Županija", "Tip", "Katovi",
+          "Satelitska presuda", "Masovni unos", "Datum detekcije", "OSM ID", "Karta",
+        ];
+        var redovi = rez.map(function (z) {
+          return [
+            z.a || "", z.m || "", z.z || "", z.t || "", z.k || "",
+            z.s || "", z.u === 1 ? "da" : "ne", z.d || "", z.i || "",
+            "https://www.google.com/maps?q=" + z.y + "," + z.x,
+          ];
+        });
+        var ws = window.XLSX.utils.aoa_to_sheet([zaglavlje].concat(redovi));
+        for (var i = 0; i < redovi.length; i++) {
+          var adr = window.XLSX.utils.encode_cell({ r: i + 1, c: 9 });
+          if (ws[adr]) {
+            ws[adr].l = { Target: redovi[i][9], Tooltip: "Otvori u Google Maps" };
             ws[adr].v = "karta";
           }
         }
@@ -958,6 +1016,8 @@
           { wch: 36 }, { wch: 14 }, { wch: 18 }, { wch: 24 }, { wch: 14 },
           { wch: 8 }, { wch: 18 }, { wch: 13 }, { wch: 16 }, { wch: 18 },
           { wch: 11 }, { wch: 11 }, { wch: 10 },
+          { wch: 34 }, { wch: 18 }, { wch: 24 }, { wch: 14 }, { wch: 8 },
+          { wch: 18 }, { wch: 13 }, { wch: 16 }, { wch: 18 }, { wch: 10 },
         ];
         var wb = window.XLSX.utils.book_new();
         window.XLSX.utils.book_append_sheet(wb, ws, "Zgrade");
@@ -979,4 +1039,5 @@
       return zadnjiRezultat;
     },
   };
+})();
 })();
