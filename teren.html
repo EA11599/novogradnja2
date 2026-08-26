@@ -299,8 +299,8 @@
   <!-- Uvijek vidljivo: nacin rada i gumb za filtere. Sve ostalo se uvlaci,
        jer je na telefonu od 390 px pet traka zauzimalo pola ekrana. -->
   <div class="traka" id="trakaNacin">
-    <button class="cip aktivan" data-nacin="blizu">📍 Blizu mene</button>
-    <button class="cip" data-nacin="popis">☰ Cijeli popis</button>
+    <button class="cip aktivan" data-nacin="blizu">Blizu mene</button>
+    <button class="cip" data-nacin="popis">Cijeli popis</button>
     <button class="cip filter-gumb" id="btnFiltri">Filteri <span id="brojFiltera"></span></button>
   </div>
 
@@ -732,14 +732,23 @@ $('#popis').addEventListener('click', async (e) => {
   prikazi();
 });
 
-function postaviCip(traka, c){
-  document.querySelectorAll(traka + ' .cip').forEach(x => x.classList.remove('aktivan'));
+// Prima ili traku ("#trakaStatus") ili puni selektor gumba
+// ("#trakaNacin .cip[data-nacin]") - u drugom slucaju ne dodajemo ' .cip'.
+function postaviCip(selektor, c){
+  const puni = selektor.includes('.cip') ? selektor : selektor + ' .cip';
+  document.querySelectorAll(puni).forEach(x => x.classList.remove('aktivan'));
   c.classList.add('aktivan');
 }
 
-document.querySelectorAll('#trakaNacin .cip').forEach(c => {
+// Selektor mora traziti [data-nacin], ne samo .cip.
+//
+// Gumb "Filteri" stoji u istoj traci i ima istu klasu, pa ga je siri selektor
+// takodjer hvatao: klik na njega postavljao je nacin na undefined, popis je
+// padao u granu "cijeli popis", a oznaka aktivnog nacina se premjestala na
+// sam gumb Filteri.
+document.querySelectorAll('#trakaNacin .cip[data-nacin]').forEach(c => {
   c.addEventListener('click', () => {
-    postaviCip('#trakaNacin', c);
+    postaviCip('#trakaNacin .cip[data-nacin]', c);
     nacin = c.dataset.nacin;
     otvorenaKartica = null;
 
