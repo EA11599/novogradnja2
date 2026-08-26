@@ -2171,6 +2171,31 @@ async function ucitajNoveDguAdrese(){
 // Najbliža cesta se računa u pipeline-u (GitHub Actions), ne ovdje uživo —
 // vidi scripts/lib/najbliza-cesta.js. Ovdje samo čitamo gotov podatak.
 
+// PAZI: detaljna karta je zaseban dokument (blob), nema pristup funkcijama
+// glavne stranice. Sve sto opis() koristi mora biti definirano OVDJE.
+// Boje su upisane doslovno jer :root ovog dokumenta nema tokene --teal i sl.
+function escapeHtml(tekst){
+  const div = document.createElement('div');
+  div.textContent = tekst == null ? '' : String(tekst);
+  return div.innerHTML;
+}
+const SATELIT_OZNAKE = {
+  kandidat:     ['rgba(12,156,119,0.10)',  '#0C9C77', 'satelit: nema je na snimci'],
+  stara:        ['rgba(110,113,128,0.10)', '#6E7180', 'satelit: postojala 2023./24.'],
+  nema_snimke:  ['rgba(184,89,12,0.09)',   '#B8590C', 'DGU nema snimku'],
+  neizvjesno:   ['rgba(180,121,14,0.10)',  '#B4790E', 'satelit: neizvjesno'],
+  greska:       ['rgba(194,30,36,0.09)',   '#C21E24', 'satelit: greška'],
+};
+function satelitBedz(f){
+  if (!f.satelitProvjera) return '';
+  const s = f.satelitProvjera;
+  const o = SATELIT_OZNAKE[s.status];
+  if (!o) return '';
+  const naslov = escapeHtml(s.obrazlozenje || '');
+  return ' <span title="' + naslov + '" style="font-size:10px;background:' + o[0] +
+    ';color:' + o[1] + ';padding:1px 6px;border-radius:999px;white-space:nowrap;">' + o[2] + '</span>';
+}
+
 function opis(f){
   let adresa = [tag(f,'addr:street'), tag(f,'addr:housenumber')].filter(Boolean).join(' ');
   let dguNapomena = '';
@@ -2222,7 +2247,12 @@ function render(){
   const vidljive = trenutnoVidljive();
   vidljive.forEach(f => {
     const layer = L.circleMarker([f.lat, f.lon], { radius: 5, color: '#B6650C', weight: 1, fillColor: '#E8871E', fillOpacity: 0.85 });
-    layer.bindPopup(opis(f));
+    // Sadrzaj se racuna tek na klik: ako opis() ikad pukne za jednu zgradu,
+    // pukne samo taj popup, a ne cijeli render (prije je karta ostajala prazna).
+    layer.bindPopup(() => {
+      try { return opis(f); }
+      catch(err){ console.error('Greska u opisu zgrade', f.id, err); return 'Greška pri prikazu podataka.'; }
+    });
     cluster.addLayer(layer);
   });
   document.getElementById('stats').innerHTML = '<b>' + vidljive.length.toLocaleString('hr-HR') + '</b> prikazanih zgrada';
@@ -2459,6 +2489,6 @@ init().catch(err => {
   $('#updatedTag').innerHTML = '<span class="updated-dot" style="background:#C0392B;"></span> Greška: ' + err.message;
 });
 </script>
-
+<script src="assets/chat.js" defer></script>
 </body>
 </html>
