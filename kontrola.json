@@ -1,0 +1,263 @@
+{
+  "pokrenuto": "2026-08-25T20:37:47.470Z",
+  "kvaliteta": "BASE",
+  "ukupno": 20,
+  "prepoznato": 5,
+  "rezultati": [
+    {
+      "id": "dgu/Gornji Kraljevec 50A",
+      "lat": 46.13558,
+      "lon": 16.221775,
+      "zupanija": "krapinsko-zagorska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Košljun 39",
+      "lat": 44.399261,
+      "lon": 15.074825,
+      "zupanija": "zadarska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Laminac 44A",
+      "lat": 45.805429,
+      "lon": 16.737437,
+      "zupanija": "bjelovarsko-bilogorska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Fruščinje 15",
+      "lat": 45.869611,
+      "lon": 16.006574,
+      "zupanija": "grad-zagreb",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": true,
+      "imageryDate": {
+        "year": 2023,
+        "month": 7,
+        "day": 14
+      },
+      "imageryQuality": "HIGH",
+      "povrsinaGoogle": 165,
+      "udaljenostM": 5
+    },
+    {
+      "id": "dgu/Put Vučipolja 8A",
+      "lat": 43.468916,
+      "lon": 16.577377,
+      "zupanija": "splitsko-dalmatinska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": true,
+      "imageryDate": {
+        "year": 2013,
+        "month": 11,
+        "day": 7
+      },
+      "imageryQuality": "HIGH",
+      "povrsinaGoogle": 139,
+      "udaljenostM": 31
+    },
+    {
+      "id": "dgu/Studenčeva ulica - Via Petar Studenac 43",
+      "lat": 44.874406,
+      "lon": 13.862672,
+      "zupanija": "istarska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": true,
+      "imageryDate": {
+        "year": 2013,
+        "month": 10,
+        "day": 18
+      },
+      "imageryQuality": "HIGH",
+      "povrsinaGoogle": 133,
+      "udaljenostM": 1
+    },
+    {
+      "id": "dgu/Biskupa Jerolima Milete 29",
+      "lat": 43.730772,
+      "lon": 15.897698,
+      "zupanija": "sibensko-kninska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Zrinska 26",
+      "lat": 45.693735,
+      "lon": 17.93634,
+      "zupanija": "viroviticko-podravska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Turan 97A",
+      "lat": 45.457123,
+      "lon": 15.572372,
+      "zupanija": "karlovacka-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Vinogradska 114",
+      "lat": 46.240713,
+      "lon": 16.413525,
+      "zupanija": "varazdinska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Gornja Trstenica 44",
+      "lat": 45.396304,
+      "lon": 15.970111,
+      "zupanija": "sisacko-moslavacka-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Šarić Struga 44",
+      "lat": 43.051839,
+      "lon": 17.487613,
+      "zupanija": "dubrovacko-neretvanska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Švica 16",
+      "lat": 44.869735,
+      "lon": 15.18721,
+      "zupanija": "licko-senjska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Štaglanova ulica 9",
+      "lat": 45.84689,
+      "lon": 16.264142,
+      "zupanija": "zagrebacka-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Ulica Bečic 13",
+      "lat": 45.179044,
+      "lon": 17.974117,
+      "zupanija": "brodsko-posavska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": true,
+      "imageryDate": {
+        "year": 2014,
+        "month": 7,
+        "day": 20
+      },
+      "imageryQuality": "HIGH",
+      "povrsinaGoogle": 247,
+      "udaljenostM": 1
+    },
+    {
+      "id": "dgu/Dolac 7B",
+      "lat": 45.326164,
+      "lon": 17.591591,
+      "zupanija": "pozesko-slavonska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Ivana Gundulića 56",
+      "lat": 45.072739,
+      "lon": 18.706407,
+      "zupanija": "vukovarsko-srijemska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Krešimirova ulica 35",
+      "lat": 46.139382,
+      "lon": 16.817494,
+      "zupanija": "koprivnicko-krizevacka-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Selska 21",
+      "lat": 46.456167,
+      "lon": 16.56494,
+      "zupanija": "medjimurska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "dgu/Tomasići 22B",
+      "lat": 45.326022,
+      "lon": 14.492456,
+      "zupanija": "primorsko-goranska-zupanija",
+      "validFrom": null,
+      "povrsinaOsm": null,
+      "nasStatus": null,
+      "googleNasao": true,
+      "imageryDate": {
+        "year": 2014,
+        "month": 7,
+        "day": 4
+      },
+      "imageryQuality": "HIGH",
+      "povrsinaGoogle": 93,
+      "udaljenostM": 1
+    }
+  ]
+}

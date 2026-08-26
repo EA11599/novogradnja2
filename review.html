@@ -377,7 +377,10 @@
   .modal-close{ position:absolute; top:14px; right:16px; background:none; border:none; font-size:22px; color:var(--text-faint); cursor:pointer; line-height:1; }
   .modal-close:hover{ color: var(--text); }
   .modal-card h3{ font-size:17px; margin:0 0 14px; padding-right:24px; }
-  .modal-gmaps{ display:inline-block; margin: 6px 0 14px; font-size:12.5px; color: var(--magenta); }
+  /* Blok, ne inline-block: dvije poveznice - Google Maps i DGU ortofoto -
+     inace stoje jedna uz drugu i stapaju se u jedan redak teksta. */
+  .modal-gmaps{ display:block; width:fit-content; margin: 6px 0; font-size:12.5px; color: var(--magenta); }
+  .modal-gmaps:last-of-type{ margin-bottom: 14px; }
   .modal-tags{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--text-dim); background:var(--panel-alt); border-radius:10px; padding:12px 14px; line-height:1.7; max-height:200px; overflow-y:auto; }
 
   .review-section{ margin: 16px 0; padding: 14px; background: var(--panel-alt); border: 1px solid var(--border); border-radius: 12px; }
@@ -467,13 +470,13 @@
     <div class="filters-block" style="border-bottom:1px solid var(--border);">
       <div class="toggle-filters" style="flex-direction:row; gap:18px;">
         <label title="Zgrade kojih nema na državnom ortofotu 2023./24.">
-          <input type="checkbox" id="dokazSatelit"> Potvrđena satelitska snimka <span class="dokaz-broj" id="brojSatelit"></span>
+          <input type="checkbox" id="dokazSatelit"> Zgrada u ortofoto 2023./2024. <span class="dokaz-broj" id="brojSatelit"></span>
         </label>
         <label title="Na lokaciji se pojavila nova adresa u DGU registru">
-          <input type="checkbox" id="dokazDgu"> DGU kandidat <span class="dokaz-broj" id="brojDgu"></span>
+          <input type="checkbox" id="dokazDgu"> Nova DGU adresa <span class="dokaz-broj" id="brojDgu"></span>
         </label>
         <label title="Zgrada je zabilježena među promjenama na postojećim zgradama">
-          <input type="checkbox" id="dokazOsm"> Promjena u OSM-u <span class="dokaz-broj" id="brojOsm"></span>
+          <input type="checkbox" id="dokazOsm"> OSM atributna promjena <span class="dokaz-broj" id="brojOsm"></span>
         </label>
         <label id="dguJedinicaFilterLabel" style="display:none;">
           <input type="checkbox" id="dguJedinicaFilterCheckbox"> Samo zgrade s više DGU adresa

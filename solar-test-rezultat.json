@@ -1,0 +1,248 @@
+{
+  "pokrenuto": "2026-08-25T20:37:04.207Z",
+  "kvaliteta": "BASE",
+  "ukupno": 20,
+  "prepoznato": 2,
+  "rezultati": [
+    {
+      "id": "way/1544625788",
+      "lat": 43.96849290909091,
+      "lon": 15.117451,
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-07-25T18:33:45Z",
+      "povrsinaOsm": 94,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1532144569",
+      "lat": 42.5807778,
+      "lon": 18.2218796,
+      "zupanija": "Dubrovačko-neretvanska županija",
+      "validFrom": "2026-06-25T03:50:11Z",
+      "povrsinaOsm": 121,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1548296628",
+      "lat": 45.69866180000001,
+      "lon": 15.363315,
+      "zupanija": null,
+      "validFrom": "2026-08-09T12:00:10Z",
+      "povrsinaOsm": 52,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1551531974",
+      "lat": 46.3096404,
+      "lon": 16.338110800000003,
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-08-22T15:04:51Z",
+      "povrsinaOsm": 64,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1544645609",
+      "lat": 45.36840814285714,
+      "lon": 18.47368042857143,
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-07-25T20:04:02Z",
+      "povrsinaOsm": 1639,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1531140142",
+      "lat": 45.2977968,
+      "lon": 18.8184808,
+      "zupanija": "Vukovarsko-srijemska županija",
+      "validFrom": "2026-06-21T05:10:23Z",
+      "povrsinaOsm": 96,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1547934877",
+      "lat": 45.812511,
+      "lon": 15.970184166666668,
+      "zupanija": "Grad Zagreb",
+      "validFrom": "2026-08-07T15:56:32Z",
+      "povrsinaOsm": 94,
+      "nasStatus": "stara",
+      "googleNasao": true,
+      "imageryDate": {
+        "year": 2023,
+        "month": 7,
+        "day": 14
+      },
+      "imageryQuality": "HIGH",
+      "povrsinaGoogle": 76,
+      "udaljenostM": 2,
+      "odstupanjePovrsine": 20,
+      "snimkaStarijaOdUnosa": true,
+      "razlikaDana": 1121
+    },
+    {
+      "id": "way/1523859271",
+      "lat": 45.4063442,
+      "lon": 16.565631200000002,
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-05-28T00:53:55Z",
+      "povrsinaOsm": 198,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1528230093",
+      "lat": 44.771961,
+      "lon": 15.402229857142856,
+      "zupanija": "Ličko-senjska županija",
+      "validFrom": "2026-06-10T17:13:47Z",
+      "povrsinaOsm": 165,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1521901057",
+      "lat": 46.022715,
+      "lon": 15.923826555555555,
+      "zupanija": "Krapinsko-zagorska županija",
+      "validFrom": "2026-05-25T20:08:01Z",
+      "povrsinaOsm": 158,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1551449171",
+      "lat": 45.28689763636363,
+      "lon": 17.803672363636363,
+      "zupanija": "Požeško-slavonska županija",
+      "validFrom": "2026-08-22T05:20:14Z",
+      "povrsinaOsm": 881,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1530926009",
+      "lat": 45.0972482,
+      "lon": 17.8427806,
+      "zupanija": "Brodsko-posavska županija",
+      "validFrom": "2026-06-19T22:02:29Z",
+      "povrsinaOsm": 329,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1546942106",
+      "lat": 45.85819028571429,
+      "lon": 15.802193,
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-08-03T12:15:22Z",
+      "povrsinaOsm": 9,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1532746895",
+      "lat": 45.85589771428572,
+      "lon": 16.926539,
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-06-26T14:34:15Z",
+      "povrsinaOsm": 164,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1551690688",
+      "lat": 44.864637800000004,
+      "lon": 13.811693,
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-08-23T10:05:19Z",
+      "povrsinaOsm": 356,
+      "nasStatus": "kandidat",
+      "googleNasao": true,
+      "imageryDate": {
+        "year": 2013,
+        "month": 10,
+        "day": 18
+      },
+      "imageryQuality": "HIGH",
+      "povrsinaGoogle": 349,
+      "udaljenostM": 3,
+      "odstupanjePovrsine": 2,
+      "snimkaStarijaOdUnosa": true,
+      "razlikaDana": 4693
+    },
+    {
+      "id": "way/1526717089",
+      "lat": 46.391563,
+      "lon": 16.3405804,
+      "zupanija": "Međimurska županija",
+      "validFrom": "2026-06-06T11:35:39Z",
+      "povrsinaOsm": 158,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1532672529",
+      "lat": 45.833014,
+      "lon": 17.3801242,
+      "zupanija": "Virovitičko-podravska županija",
+      "validFrom": "2026-06-26T09:55:17Z",
+      "povrsinaOsm": 213,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1547600071",
+      "lat": 46.168289800000004,
+      "lon": 16.814646600000003,
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-08-06T04:36:03Z",
+      "povrsinaOsm": 78,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1532033818",
+      "lat": 43.022650999999996,
+      "lon": 16.2104948,
+      "zupanija": "Splitsko-dalmatinska županija",
+      "validFrom": "2026-06-24T19:56:40Z",
+      "povrsinaOsm": 96,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    },
+    {
+      "id": "way/1548178891",
+      "lat": 45.290962714285726,
+      "lon": 15.170148,
+      "zupanija": "Karlovačka županija",
+      "validFrom": "2026-08-08T19:08:33Z",
+      "povrsinaOsm": 134,
+      "nasStatus": "stara",
+      "googleNasao": false,
+      "razlog": "NEMA_ZGRADE"
+    }
+  ]
+}
