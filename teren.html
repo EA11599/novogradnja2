@@ -198,6 +198,7 @@
   .b-nepotvrdeno{ background:var(--grey-soft); color:var(--text-dim); }
   .b-nova{ background:var(--teal-soft); color:var(--teal); }
   .b-neprov{ background:var(--amber-soft); color:var(--amber); }
+  .b-bezsn{ background:var(--magenta-soft); color:var(--magenta); }
   .b-nije{ background:var(--grey-soft); color:var(--text-faint); }
   .b-potvrdeno{ background:var(--teal-soft); color:var(--teal); }
   .b-odbaceno{ background:var(--danger-soft); color:var(--danger); }
@@ -335,6 +336,7 @@
       <button class="odabir" id="btnZupanije" data-polje="z">Županije</button>
       <button class="odabir" id="btnTipovi" data-polje="t">Tip zgrade</button>
       <button class="odabir" id="btnKatovi" data-polje="k">Katovi</button>
+      <button class="odabir" id="btnOrtofoto" data-polje="s">Ortofoto</button>
     </div>
 
     <button class="ocisti" id="btnOcisti">Poništi sve filtere</button>
@@ -389,11 +391,15 @@ let tjedana = 0;
 function novostZgrade(z){
   if (z.s === 'kandidat') return 'nova';
   if (z.s === 'stara') return 'nije';
+  // "Nema snimke" i "jos nije provjereno" nisu ista stvar. Prvo znaci da
+  // DGU ortofoto ne pokriva tu lokaciju - ovim putem nikad necemo saznati.
+  // Drugo se rijesi sljedecim pokretanjem provjere.
+  if (z.s === 'nema_snimke') return 'bezsnimke';
   return 'neprovjereno';
 }
 
 // Visestruki odabir - skupovi umjesto pojedinacne vrijednosti.
-const odabrano = { z: new Set(), t: new Set(), k: new Set() };
+const odabrano = { z: new Set(), t: new Set(), k: new Set(), s: new Set() };
 
 // Tri dokaza, isti kao na glavnoj stranici. Kombiniraju se I-logikom:
 // svaki ukljuceni trazi da vrijedi i on.
@@ -404,7 +410,7 @@ function brojAktivnihFiltera(){
   let n = 0;
   if (tjedana !== 0) n++;
   if (filterStatus !== 'nepotvrđeno') n++;
-  ['z','t','k'].forEach(p => { if (odabrano[p].size) n++; });
+  ['z','t','k','s'].forEach(p => { if (odabrano[p].size) n++; });
   ['satelit','dgu','osm'].forEach(d => { if (dokazi[d]) n++; });
   return n;
 }
@@ -592,6 +598,7 @@ function trenutniPopis(){
   if (odabrano.z.size) popis = popis.filter(z => odabrano.z.has(z.z));
   if (odabrano.t.size) popis = popis.filter(z => odabrano.t.has(z.t));
   if (odabrano.k.size) popis = popis.filter(z => odabrano.k.has(z.k));
+  if (odabrano.s.size) popis = popis.filter(z => odabrano.s.has(z.s));
 
   // Tri dokaza, I-logika.
   if (dokazi.satelit) popis = popis.filter(z => z.s === 'kandidat');
@@ -671,7 +678,12 @@ function prikazi(){
           '<span class="bedz ' + klasaBedza + '">' + s + '</span>' +
           (function(){
             const n = novostZgrade(z);
-            const o = { nova: ['b-nova', '● nova'], neprovjereno: ['b-neprov', '◑ neprovj.'], nije: ['b-nije', '○ nije nova'] }[n];
+            const o = {
+              nova:         ['b-nova',   '● nova'],
+              bezsnimke:    ['b-bezsn',  '◍ bez snimke'],
+              neprovjereno: ['b-neprov', '◑ neprovj.'],
+              nije:         ['b-nije',   '○ nije nova'],
+            }[n];
             return ' <span class="bedz ' + o[0] + '">' + o[1] + '</span>';
           })() +
         '</div>' +
@@ -796,7 +808,16 @@ $('#btnFiltri').addEventListener('click', () => {
 // ---------- Birac vise vrijednosti ----------
 // Padajuci izbornik s 53 tipa zgrade na telefonu je neupotrebljiv, pa se
 // otvara plocha odozdo s trazilicom i kvacicama.
-const NASLOVI = { z: 'Županije', t: 'Tip zgrade', k: 'Katovi' };
+const NASLOVI = { z: 'Županije', t: 'Tip zgrade', k: 'Katovi', s: 'Ortofoto' };
+
+// Statusi satelitske provjere pod imenima koja korisniku nesto znace.
+const NAZIV_ORTOFOTA = {
+  nema_snimke: 'nema ortofoto snimke',
+  kandidat: 'nema je na snimci',
+  stara: 'vidi se na snimci',
+  neizvjesno: 'snimka nejasna',
+  greska: 'greška pri provjeri',
+};
 let biracPolje = null;
 
 function otvoriBirac(polje){
@@ -815,8 +836,11 @@ function nacrtajBirac(){
     if (v === null || v === undefined || v === '') return;
     broj[v] = (broj[v] || 0) + 1;
   });
-  const prikaz = (v) => biracPolje === 'z' ? v.replace(/\s*županija\s*$/i, '')
-    : (biracPolje === 'k' ? v + (v === '1' ? ' kat' : ' kata') : v);
+  const prikaz = (v) =>
+    biracPolje === 'z' ? v.replace(/\s*županija\s*$/i, '')
+    : biracPolje === 'k' ? v + (v === '1' ? ' kat' : ' kata')
+    : biracPolje === 's' ? (NAZIV_ORTOFOTA[v] || v)
+    : v;
 
   const stavke = Object.keys(broj)
     .filter(v => !trazi || prikaz(v).toLowerCase().includes(trazi))
@@ -854,13 +878,13 @@ $('#biracZatvori').addEventListener('click', zatvoriBirac);
 $('#biracOmot').addEventListener('click', (e) => { if (e.target === $('#biracOmot')) zatvoriBirac(); });
 $('#biracOcisti').addEventListener('click', () => { odabrano[biracPolje].clear(); nacrtajBirac(); });
 
-[['#btnZupanije','z'], ['#btnTipovi','t'], ['#btnKatovi','k']].forEach(([sel, polje]) => {
+[['#btnZupanije','z'], ['#btnTipovi','t'], ['#btnKatovi','k'], ['#btnOrtofoto','s']].forEach(([sel, polje]) => {
   $(sel).addEventListener('click', () => otvoriBirac(polje));
 });
 
 // ---------- Ponistavanje ----------
 $('#btnOcisti').addEventListener('click', () => {
-  ['z','t','k'].forEach(p => odabrano[p].clear());
+  ['z','t','k','s'].forEach(p => odabrano[p].clear());
   dokazi = { satelit: false, dgu: false, osm: false };
   ['#dokazSatelit','#dokazDgu','#dokazOsm'].forEach(sel => { $(sel).checked = false; });
   tjedana = 0;
@@ -875,7 +899,7 @@ $('#btnOcisti').addEventListener('click', () => {
 
 // Gumbi moraju pokazivati stanje i kad je panel uvucen.
 function osvjeziGumbe(){
-  [['#btnZupanije','z'], ['#btnTipovi','t'], ['#btnKatovi','k']].forEach(([sel, polje]) => {
+  [['#btnZupanije','z'], ['#btnTipovi','t'], ['#btnKatovi','k'], ['#btnOrtofoto','s']].forEach(([sel, polje]) => {
     const n = odabrano[polje].size;
     const e = $(sel);
     e.textContent = NASLOVI[polje] + (n ? ' (' + n + ')' : '');
