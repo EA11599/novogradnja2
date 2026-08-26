@@ -35,8 +35,24 @@ function mjestoZgrade(f) {
   return d.settlement || d.city || null;
 }
 
+// Id-evi zgrada koje se pojavljuju medju promjenama na postojecim zgradama.
+// Terenski ekran nema pristup tim datotekama, pa mu zastavicu pripremamo ovdje.
+function idjeviSPromjenom() {
+  const p = path.join(REPO_ROOT, "data", "prosirenja", "manifest.json");
+  if (!fs.existsSync(p)) return new Set();
+  const manifest = JSON.parse(fs.readFileSync(p, "utf8"));
+  const idjevi = new Set();
+  (manifest.entries || []).forEach((e) => {
+    const f = path.join(REPO_ROOT, e.file);
+    if (!fs.existsSync(f)) return;
+    (JSON.parse(fs.readFileSync(f, "utf8")).features || []).forEach((x) => idjevi.add(x.id));
+  });
+  return idjevi;
+}
+
 function main() {
   const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf8"));
+  const sPromjenom = idjeviSPromjenom();
   const granica = new Date(Date.now() - TJEDANA_UNATRAG * 7 * 24 * 3600 * 1000);
 
   const zgrade = [];
@@ -72,6 +88,8 @@ function main() {
         k: t["building:levels"] || null,          // katovi
         s: sp.status || null,                      // satelitska presuda
         u: f.masovniUnos ? 1 : 0,                  // masovni unos
+        n: f.dguNovaAdresaPoklapanje ? 1 : 0,      // nova DGU adresa na lokaciji
+        p: sPromjenom.has(f.id) ? 1 : 0,           // OSM atributna promjena
         d: e.to ? e.to.slice(0, 10) : null,        // kad je detektirana
       });
     });

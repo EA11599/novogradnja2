@@ -130,6 +130,54 @@
   }
   .brojac{ padding:4px 6px 0; font-size:11.5px; color:var(--text-faint); }
 
+  .filter-gumb{ margin-left:auto; background:var(--panel-alt); border-color:var(--border-strong); }
+  .filter-gumb.ima-filtera{ background:var(--magenta-soft); color:var(--magenta); border-color:var(--magenta); font-weight:600; }
+  #brojFiltera{ font-variant-numeric:tabular-nums; }
+
+  .panel-filtera{ display:none; }
+  .panel-filtera.otvoren{ display:block; }
+
+  .dokazi{ display:flex; flex-direction:column; gap:2px; padding:6px 4px; }
+  .dokazi label{ display:flex; align-items:center; gap:10px; font-size:13.5px;
+    color:var(--text-dim); cursor:pointer; min-height:40px; }
+  .dokazi input{ accent-color:var(--magenta); width:18px; height:18px; flex-shrink:0; }
+  .dokaz-broj{ color:var(--text-faint); font-variant-numeric:tabular-nums; }
+
+  .odabir{
+    flex:1; min-height:40px; padding:8px 11px; border-radius:999px; font-size:13px;
+    font-family:inherit; background:var(--panel-alt); border:1px solid var(--border);
+    color:var(--text-dim); cursor:pointer; white-space:nowrap; overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .odabir.ima-odabir{ background:var(--magenta-soft); color:var(--magenta); border-color:var(--magenta); font-weight:600; }
+
+  .ocisti{
+    width:100%; margin-top:8px; min-height:42px; border-radius:11px;
+    border:1px solid var(--border-strong); background:transparent;
+    color:var(--text-faint); font-family:inherit; font-size:13px; cursor:pointer;
+  }
+
+  /* ---------- Birac vise vrijednosti ---------- */
+  .birac-omot{ position:fixed; inset:0; z-index:60; background:rgba(0,0,0,.55);
+    display:none; align-items:flex-end; }
+  .birac-omot.otvoren{ display:flex; }
+  .birac{ background:var(--panel); width:100%; max-height:78vh; border-radius:16px 16px 0 0;
+    display:flex; flex-direction:column; overflow:hidden; }
+  .birac-vrh{ display:flex; align-items:center; padding:15px 16px 10px; font-weight:600; font-size:15px; }
+  .birac-zatvori{ margin-left:auto; background:transparent; border:none; color:var(--text-faint);
+    font-size:24px; line-height:1; cursor:pointer; padding:0 4px; }
+  #biracTrazi{ margin:0 14px 10px; padding:11px 13px; border-radius:11px; font-size:15px;
+    font-family:inherit; background:var(--panel-alt); border:1px solid var(--border-strong); color:var(--text); }
+  .birac-popis{ overflow-y:auto; padding:0 6px; -webkit-overflow-scrolling:touch; }
+  .birac-popis label{ display:flex; align-items:center; gap:11px; padding:11px 10px;
+    font-size:14px; min-height:46px; border-bottom:1px solid var(--border); cursor:pointer; }
+  .birac-popis input{ accent-color:var(--magenta); width:19px; height:19px; flex-shrink:0; }
+  .birac-popis .cnt{ margin-left:auto; color:var(--text-faint); font-size:12px; }
+  .birac-dno{ display:flex; gap:9px; padding:12px 14px calc(14px + env(safe-area-inset-bottom)); }
+  .birac-btn{ flex:1; min-height:48px; border-radius:12px; font-family:inherit; font-size:14.5px;
+    border:1px solid var(--border-strong); background:var(--panel-alt); color:var(--text); cursor:pointer; }
+  .birac-btn.glavni{ background:var(--magenta); color:#150c03; border-color:transparent; font-weight:700; }
+
   /* ---------- Popis ---------- */
   main{ flex:1 1 auto; overflow-y:auto; padding:11px 11px 28px; -webkit-overflow-scrolling:touch; }
   .kartica{
@@ -248,40 +296,67 @@
 </header>
 
 <div class="trake">
+  <!-- Uvijek vidljivo: nacin rada i gumb za filtere. Sve ostalo se uvlaci,
+       jer je na telefonu od 390 px pet traka zauzimalo pola ekrana. -->
   <div class="traka" id="trakaNacin">
     <button class="cip aktivan" data-nacin="blizu">📍 Blizu mene</button>
     <button class="cip" data-nacin="popis">☰ Cijeli popis</button>
+    <button class="cip filter-gumb" id="btnFiltri">Filteri <span id="brojFiltera"></span></button>
   </div>
-  <div class="traka" id="trakaRazdoblje">
-    <button class="cip" data-tjedana="1">1 tjedan</button>
-    <button class="cip" data-tjedana="4">4 tjedna</button>
-    <button class="cip" data-tjedana="13">3 mjeseca</button>
-    <button class="cip aktivan" data-tjedana="0">Sve</button>
-  </div>
-  <div class="traka" id="trakaRadijus">
-    <button class="cip" data-radijus="100">100 m</button>
-    <button class="cip aktivan" data-radijus="300">300 m</button>
-    <button class="cip" data-radijus="1000">1 km</button>
-    <button class="cip" data-radijus="5000">5 km</button>
-  </div>
-  <div class="traka" id="trakaStatus">
-    <button class="cip aktivan" data-status="nepotvrđeno">Za provjeru</button>
-    <button class="cip" data-status="">Svi statusi</button>
-    <button class="cip" data-status="potvrđeno">Potvrđene</button>
-    <button class="cip" data-status="odbačeno">Odbačene</button>
-  </div>
-  <div class="traka" id="trakaNovost">
-    <button class="cip aktivan" data-novost="">Sve</button>
-    <button class="cip" data-novost="nova">● vjerojatno nova</button>
-    <button class="cip" data-novost="neprovjereno">◑ neprovjereno</button>
-    <button class="cip" data-novost="nije">○ nije nova</button>
-  </div>
-  <div class="traka" id="trakaOdabiri">
-    <select id="odabirZupanije" class="odabir"></select>
-    <select id="odabirTipa" class="odabir"></select>
-    <select id="odabirKatova" class="odabir"></select>
+
+  <div id="panelFiltera" class="panel-filtera">
+    <div class="traka" id="trakaRazdoblje">
+      <button class="cip" data-tjedana="1">1 tjedan</button>
+      <button class="cip" data-tjedana="4">4 tjedna</button>
+      <button class="cip" data-tjedana="13">3 mjeseca</button>
+      <button class="cip aktivan" data-tjedana="0">Sve</button>
+    </div>
+    <div class="traka" id="trakaRadijus">
+      <button class="cip" data-radijus="100">100 m</button>
+      <button class="cip aktivan" data-radijus="300">300 m</button>
+      <button class="cip" data-radijus="1000">1 km</button>
+      <button class="cip" data-radijus="5000">5 km</button>
+    </div>
+    <div class="traka" id="trakaStatus">
+      <button class="cip aktivan" data-status="nepotvrđeno">Za provjeru</button>
+      <button class="cip" data-status="">Svi statusi</button>
+      <button class="cip" data-status="potvrđeno">Potvrđene</button>
+      <button class="cip" data-status="odbačeno">Odbačene</button>
+    </div>
+
+    <!-- Tri dokaza, isti kao na glavnoj stranici. Kombiniraju se I-logikom. -->
+    <div class="dokazi">
+      <label><input type="checkbox" id="dokazSatelit"> Zgrada u ortofoto 2023./2024. <span class="dokaz-broj" id="brojSatelit"></span></label>
+      <label><input type="checkbox" id="dokazDgu"> Nova DGU adresa <span class="dokaz-broj" id="brojDgu"></span></label>
+      <label><input type="checkbox" id="dokazOsm"> OSM atributna promjena <span class="dokaz-broj" id="brojOsm"></span></label>
+    </div>
+
+    <div class="traka">
+      <button class="odabir" id="btnZupanije" data-polje="z">Županije</button>
+      <button class="odabir" id="btnTipovi" data-polje="t">Tip zgrade</button>
+      <button class="odabir" id="btnKatovi" data-polje="k">Katovi</button>
+    </div>
+
+    <button class="ocisti" id="btnOcisti">Poništi sve filtere</button>
   </div>
   <div class="brojac" id="brojac"></div>
+</div>
+
+<!-- Odabir vise vrijednosti odjednom. Otvara se odozdo, kao na mobilnim
+     aplikacijama - padajuci izbornik s 53 tipa zgrade na telefonu je neupotrebljiv. -->
+<div class="birac-omot" id="biracOmot">
+  <div class="birac">
+    <div class="birac-vrh">
+      <span id="biracNaslov">Odabir</span>
+      <button class="birac-zatvori" id="biracZatvori">×</button>
+    </div>
+    <input type="text" id="biracTrazi" placeholder="Traži…">
+    <div class="birac-popis" id="biracPopis"></div>
+    <div class="birac-dno">
+      <button class="birac-btn" id="biracOcisti">Očisti</button>
+      <button class="birac-btn glavni" id="biracGotovo">Gotovo</button>
+    </div>
+  </div>
 </div>
 
 <main id="popis">
@@ -309,16 +384,29 @@ let nacin = 'blizu';       // 'blizu' = po udaljenosti, 'popis' = cijeli popis
 // Pri prelasku na "Cijeli popis" prozor se suzava na tjedan, jer bi inace
 // popis imao 28 tisuca zgrada.
 let tjedana = 0;
-let filterZupanija = '';
-let filterNovost = '';
-let filterTip = '';
-let filterKatovi = '';
-
-// Ista podjela kao na glavnoj stranici: presudu vodi satelitska provjera.
+// Oznaka novosti na kartici. Filtar po njoj je maknut - zamijenile su ga tri
+// kucice s glavne stranice - ali sam bedz ostaje, jer je koristan na terenu.
 function novostZgrade(z){
   if (z.s === 'kandidat') return 'nova';
   if (z.s === 'stara') return 'nije';
   return 'neprovjereno';
+}
+
+// Visestruki odabir - skupovi umjesto pojedinacne vrijednosti.
+const odabrano = { z: new Set(), t: new Set(), k: new Set() };
+
+// Tri dokaza, isti kao na glavnoj stranici. Kombiniraju se I-logikom:
+// svaki ukljuceni trazi da vrijedi i on.
+let dokazi = { satelit: false, dgu: false, osm: false };
+
+// Koliko je filtera aktivno - ide na gumb, da se vidi i kad je panel uvucen.
+function brojAktivnihFiltera(){
+  let n = 0;
+  if (tjedana !== 0) n++;
+  if (filterStatus !== 'nepotvrđeno') n++;
+  ['z','t','k'].forEach(p => { if (odabrano[p].size) n++; });
+  ['satelit','dgu','osm'].forEach(d => { if (dokazi[d]) n++; });
+  return n;
 }
 const NAJVISE_PRIKAZANO = 200;
 let otvorenaKartica = null;
@@ -499,10 +587,16 @@ function trenutniPopis(){
   let popis = sveZgrade;
 
   if (granica) popis = popis.filter(z => !z.d || z.d >= granica);
-  if (filterZupanija) popis = popis.filter(z => z.z === filterZupanija);
-  if (filterNovost) popis = popis.filter(z => novostZgrade(z) === filterNovost);
-  if (filterTip) popis = popis.filter(z => (z.t || '(bez oznake)') === filterTip);
-  if (filterKatovi) popis = popis.filter(z => String(z.k || '') === filterKatovi);
+
+  // Visestruki odabir: prazan skup znaci "sve", inace mora biti u skupu.
+  if (odabrano.z.size) popis = popis.filter(z => odabrano.z.has(z.z));
+  if (odabrano.t.size) popis = popis.filter(z => odabrano.t.has(z.t));
+  if (odabrano.k.size) popis = popis.filter(z => odabrano.k.has(z.k));
+
+  // Tri dokaza, I-logika.
+  if (dokazi.satelit) popis = popis.filter(z => z.s === 'kandidat');
+  if (dokazi.dgu) popis = popis.filter(z => z.n === 1);
+  if (dokazi.osm) popis = popis.filter(z => z.p === 1);
   if (filterStatus) {
     popis = popis.filter(z => ((statusi[z.i] || {}).status || 'nepotvrđeno') === filterStatus);
   }
@@ -528,7 +622,7 @@ function prikazi(){
 
   // Radijus ima smisla samo u nacinu "blizu mene".
   $('#trakaRadijus').style.display = nacin === 'blizu' ? 'flex' : 'none';
-  $('#trakaOdabiri').style.display = 'flex';
+  // Gumbi za odabir stoje u panelu filtera, pa se skrivaju s njim.
 
   if (nacin === 'blizu' && !mojaPozicija){
     $('#brojac').textContent = '';
@@ -539,6 +633,15 @@ function prikazi(){
   }
 
   const { stavke, ukupno } = trenutniPopis();
+
+  // Brojevi uz kucice - koliko bi zgrada ostalo da se ukljuci samo ta.
+  const uProzoru = (() => {
+    const g = granicaProzora();
+    return g ? sveZgrade.filter(z => !z.d || z.d >= g) : sveZgrade;
+  })();
+  $('#brojSatelit').textContent = '(' + uProzoru.filter(z => z.s === 'kandidat').length + ')';
+  $('#brojDgu').textContent = '(' + uProzoru.filter(z => z.n === 1).length + ')';
+  $('#brojOsm').textContent = '(' + uProzoru.filter(z => z.p === 1).length + ')';
 
   $('#brojac').textContent = ukupno === 0 ? '' :
     (ukupno > stavke.length
@@ -658,31 +761,121 @@ document.querySelectorAll('#trakaRazdoblje .cip').forEach(c => {
     postaviCip('#trakaRazdoblje', c);
     tjedana = Number(c.dataset.tjedana);
     otvorenaKartica = null;
+    osvjeziGumbe();
     Dnevnik.zapisiOdgodjeno('pregled', 'teren_razdoblje', { tjedana: tjedana }, 1200);
     prikazi();
   });
 });
 
-document.querySelectorAll('#trakaNovost .cip').forEach(c => {
-  c.addEventListener('click', () => {
-    postaviCip('#trakaNovost', c);
-    filterNovost = c.dataset.novost;
+// ---------- Uvlacenje panela ----------
+$('#btnFiltri').addEventListener('click', () => {
+  const otvoren = $('#panelFiltera').classList.toggle('otvoren');
+  Dnevnik.zapisi('pregled', 'teren_panel_filtera', { otvoren });
+});
+
+// ---------- Tri dokaza ----------
+[['#dokazSatelit','satelit'], ['#dokazDgu','dgu'], ['#dokazOsm','osm']].forEach(([sel, kljuc]) => {
+  $(sel).addEventListener('change', (e) => {
+    dokazi[kljuc] = e.target.checked;
     otvorenaKartica = null;
-    Dnevnik.zapisiOdgodjeno('pregled', 'teren_filter_novost', { novost: filterNovost || 'sve' }, 1200);
+    Dnevnik.zapisiOdgodjeno('pregled', 'teren_dokazi',
+      { odabrano: Object.keys(dokazi).filter(k => dokazi[k]) }, 1200);
     prikazi();
   });
 });
 
-[['#odabirZupanije', v => filterZupanija = v, 'zupanija'],
- ['#odabirTipa',     v => filterTip = v,      'tip'],
- ['#odabirKatova',   v => filterKatovi = v,   'katovi']].forEach(([sel, postavi, ime]) => {
-  $(sel).addEventListener('change', (e) => {
-    postavi(e.target.value);
-    otvorenaKartica = null;
-    Dnevnik.zapisiOdgodjeno('pregled', 'teren_filter', { polje: ime, vrijednost: e.target.value || 'sve' }, 1200);
-    prikazi();
+// ---------- Birac vise vrijednosti ----------
+// Padajuci izbornik s 53 tipa zgrade na telefonu je neupotrebljiv, pa se
+// otvara plocha odozdo s trazilicom i kvacicama.
+const NASLOVI = { z: 'Županije', t: 'Tip zgrade', k: 'Katovi' };
+let biracPolje = null;
+
+function otvoriBirac(polje){
+  biracPolje = polje;
+  $('#biracNaslov').textContent = NASLOVI[polje];
+  $('#biracTrazi').value = '';
+  nacrtajBirac();
+  $('#biracOmot').classList.add('otvoren');
+}
+
+function nacrtajBirac(){
+  const trazi = $('#biracTrazi').value.trim().toLowerCase();
+  const broj = {};
+  sveZgrade.forEach(z => {
+    const v = z[biracPolje];
+    if (v === null || v === undefined || v === '') return;
+    broj[v] = (broj[v] || 0) + 1;
   });
+  const prikaz = (v) => biracPolje === 'z' ? v.replace(/\s*županija\s*$/i, '')
+    : (biracPolje === 'k' ? v + (v === '1' ? ' kat' : ' kata') : v);
+
+  const stavke = Object.keys(broj)
+    .filter(v => !trazi || prikaz(v).toLowerCase().includes(trazi))
+    .sort((a, b) => broj[b] - broj[a]);
+
+  $('#biracPopis').innerHTML = stavke.length
+    ? stavke.map(v =>
+        '<label><input type="checkbox" value="' + escapeHtml(v) + '"' +
+        (odabrano[biracPolje].has(v) ? ' checked' : '') + '>' +
+        escapeHtml(prikaz(v)) + '<span class="cnt">' + broj[v].toLocaleString('hr-HR') + '</span></label>'
+      ).join('')
+    : '<div class="stanje">Nema rezultata za „' + escapeHtml(trazi) + '”.</div>';
+}
+
+$('#biracPopis').addEventListener('change', (e) => {
+  const cb = e.target.closest('input[type=checkbox]');
+  if (!cb) return;
+  if (cb.checked) odabrano[biracPolje].add(cb.value);
+  else odabrano[biracPolje].delete(cb.value);
 });
+
+$('#biracTrazi').addEventListener('input', nacrtajBirac);
+
+function zatvoriBirac(){
+  $('#biracOmot').classList.remove('otvoren');
+  otvorenaKartica = null;
+  osvjeziGumbe();
+  Dnevnik.zapisiOdgodjeno('pregled', 'teren_filter',
+    { polje: biracPolje, odabrano: odabrano[biracPolje].size }, 1200);
+  prikazi();
+}
+
+$('#biracGotovo').addEventListener('click', zatvoriBirac);
+$('#biracZatvori').addEventListener('click', zatvoriBirac);
+$('#biracOmot').addEventListener('click', (e) => { if (e.target === $('#biracOmot')) zatvoriBirac(); });
+$('#biracOcisti').addEventListener('click', () => { odabrano[biracPolje].clear(); nacrtajBirac(); });
+
+[['#btnZupanije','z'], ['#btnTipovi','t'], ['#btnKatovi','k']].forEach(([sel, polje]) => {
+  $(sel).addEventListener('click', () => otvoriBirac(polje));
+});
+
+// ---------- Ponistavanje ----------
+$('#btnOcisti').addEventListener('click', () => {
+  ['z','t','k'].forEach(p => odabrano[p].clear());
+  dokazi = { satelit: false, dgu: false, osm: false };
+  ['#dokazSatelit','#dokazDgu','#dokazOsm'].forEach(sel => { $(sel).checked = false; });
+  tjedana = 0;
+  filterStatus = 'nepotvrđeno';
+  postaviCip('#trakaRazdoblje', document.querySelector('#trakaRazdoblje .cip[data-tjedana="0"]'));
+  postaviCip('#trakaStatus', document.querySelector('#trakaStatus .cip[data-status="nepotvrđeno"]'));
+  otvorenaKartica = null;
+  Dnevnik.zapisi('pregled', 'teren_ocisti_filtere', {});
+  osvjeziGumbe();
+  prikazi();
+});
+
+// Gumbi moraju pokazivati stanje i kad je panel uvucen.
+function osvjeziGumbe(){
+  [['#btnZupanije','z'], ['#btnTipovi','t'], ['#btnKatovi','k']].forEach(([sel, polje]) => {
+    const n = odabrano[polje].size;
+    const e = $(sel);
+    e.textContent = NASLOVI[polje] + (n ? ' (' + n + ')' : '');
+    e.classList.toggle('ima-odabir', n > 0);
+  });
+  const n = brojAktivnihFiltera();
+  $('#brojFiltera').textContent = n ? '(' + n + ')' : '';
+  $('#btnFiltri').classList.toggle('ima-filtera', n > 0);
+}
 
 document.querySelectorAll('#trakaStatus .cip').forEach(c => {
   c.addEventListener('click', () => {
@@ -719,22 +912,9 @@ document.querySelectorAll('#trakaRadijus .cip').forEach(c => {
 
     // Popis zupanija gradimo iz podataka, ne tvrdo upisan - ako se pojavi
     // nova ili se promijeni naziv, sam se azurira.
-    // Izbornici se pune iz podataka, s brojem zgrada uz svaku stavku - tako
-    // se odmah vidi ima li smisla filtrirati po necemu.
-    function napuni(selektor, zaglavlje, vrijednosti, prikaz) {
-      const broj = {};
-      vrijednosti.forEach(v => { if (v !== null && v !== '') broj[v] = (broj[v] || 0) + 1; });
-      const poredak = Object.keys(broj).sort((a, b) => broj[b] - broj[a]);
-      $(selektor).innerHTML = '<option value="">' + zaglavlje + '</option>' +
-        poredak.map(v => '<option value="' + escapeHtml(v) + '">' +
-          escapeHtml(prikaz ? prikaz(v) : v) + ' (' + broj[v].toLocaleString('hr-HR') + ')</option>').join('');
-    }
-
-    napuni('#odabirZupanije', 'Sve županije', sveZgrade.map(z => z.z),
-      v => v.replace(/\s*županija\s*$/i, ''));
-    napuni('#odabirTipa', 'Svi tipovi', sveZgrade.map(z => z.t));
-    napuni('#odabirKatova', 'Svi katovi', sveZgrade.map(z => z.k),
-      v => v + (v === '1' ? ' kat' : ' kata'));
+    // Izbornici se vise ne pune unaprijed - birac ih gradi pri otvaranju,
+    // iz trenutnih podataka.
+    osvjeziGumbe();
 
     // Statuse dohvaćamo samo za zgrade u najširem krugu, ne za svih 28 tisuća.
     // Čekamo prvu poziciju - bez nje ne znamo koje su to.
