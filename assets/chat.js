@@ -22,30 +22,31 @@
     {
       skupina: "Pomoć",
       stavke: [
-        "Što znači satelitska presuda kandidat?",
-        "Koja je razlika između filtera Nova DGU adresa i OSM atributna promjena?",
+        "Što znači ocjena Potvrđena novogradnja?",
+        "Zašto neka zgrada ima ocjenu Izvori proturječe?",
+        "Koja je razlika između Naknadno ucrtano i Adresiranje postojeće?",
+        "Što znači kad uz izvor piše upitnik?",
         "Zašto neke zgrade nemaju adresu nego udaljenost od ulice?",
         "Što znači masovni unos i zašto snižava pouzdanost?",
-        "Kako se računa razdoblje 1 tjedan?",
       ],
     },
     {
       skupina: "Analitika",
       stavke: [
-        "Kandidati za novogradnju u zadnjih 30 dana, po županijama",
-        "Zgrade u Ilici u Zagrebu koje su kandidati",
-        "Višekatnice s 3 ili više katova među kandidatima",
-        "Kandidati u Splitsko-dalmatinskoj županiji u zadnja 3 mjeseca",
-        "Kandidati koji nisu iz masovnog unosa u zadnjih 7 dana",
-        "Zgrade tipa apartments među kandidatima",
+        "Potvrđene novogradnje po županijama",
+        "Gdje se Microsoft i ortofoto najčešće ne slažu?",
+        "Zgrade s ocjenom Promjena na postojećoj",
+        "Potvrđene novogradnje u Splitsko-dalmatinskoj županiji",
+        "Koliko je zgrada ocijenjeno kao naknadno ucrtano?",
+        "Višekatnice s 3 ili više katova među novogradnjama",
       ],
     },
     {
       skupina: "Izvoz",
       stavke: [
-        "Izvezi u Excel kandidate iz zadnjeg tjedna",
-        "Izvezi sve kandidate s poznatom adresom",
-        "Izvezi kandidate u Primorsko-goranskoj županiji",
+        "Izvezi u Excel potvrđene novogradnje",
+        "Izvezi zgrade gdje izvori proturječe",
+        "Izvezi novogradnje u Primorsko-goranskoj županiji",
       ],
     },
     {
@@ -567,8 +568,18 @@
     "ulica", "mjesto", "zupanija", "tip", "katoviMin", "katoviMax",
     "satelit", "imaAdresu", "masovniUnos", "datumOd", "datumDo", "zadnjihDana", "saEkrana",
     "sortiraj", "limit", "izvezi",
+    // Novo uz model kompozitne ocjene. Bez ovoga bi asistent mogao traziti
+    // "potvrdjene novogradnje", ali bi ocisti() taj filtar tiho odbacio i
+    // vratio bi cijeli popis - najgora vrsta greske, jer izgleda kao odgovor.
+    "ocjena", "izvor", "status", "ms",
   ];
   var SATELIT = ["kandidat", "stara", "nema_snimke"];
+  var OCJENE = [
+    "potvrdjena-novogradnja", "vjerojatna-novogradnja", "promjena-na-postojecoj",
+    "adresiranje-postojece", "naknadno-ucrtano", "proturjecje", "nedovoljno-podataka",
+  ];
+  var IZVORI_REDAKA = ["OSM", "DGU", "MS"];
+  var STATUSI = ["nepotvrđeno", "potvrđeno", "odbačeno"];
 
   function ocisti(sirovi) {
     var f = {};
@@ -588,6 +599,14 @@
       });
       if (!f.tip.length) delete f.tip;
     }
+    [["ocjena", OCJENE], ["izvor", IZVORI_REDAKA], ["status", STATUSI]].forEach(function (par) {
+      var kljuc = par[0], dopusteno = par[1];
+      if (!f[kljuc]) return;
+      f[kljuc] = [].concat(f[kljuc]).filter(function (v) {
+        return dopusteno.indexOf(v) > -1;
+      });
+      if (!f[kljuc].length) delete f[kljuc];
+    });
     ["katoviMin", "katoviMax", "limit", "zadnjihDana"].forEach(function (k) {
       if (k in f) {
         var n = Number(f[k]);
@@ -676,6 +695,35 @@
     return najmanji <= 4 && najbolji ? [najbolji] : [];
   }
 
+  // Prijevod zbijenog terenskog zapisa u dokaze koje Ocjena razumije. Isto kao
+  // u teren.html - polja su kratka radi velicine datoteke.
+  function ocjenaZapisa(z) {
+    if (z.__ocj) return z.__ocj;
+    if (typeof Ocjena === "undefined") return "nedovoljno-podataka";
+    var DA = Ocjena.DA, NE = Ocjena.NE, NEP = Ocjena.NEPOZNATO;
+    z.__ocj = Ocjena.ocijeni({
+      noviObris: z.g ? DA : NE,
+      ms: z.ms === 1 ? DA : z.ms === 0 ? NE : NEP,
+      dof: z.s === "stara" ? DA : z.s === "kandidat" ? NE : NEP,
+      dguNova: z.n === 1 ? DA : NE,
+      dguVise: z.v == null ? NEP : (z.v > 1 ? DA : NE),
+      osmOznake: NEP,
+      osmObris: z.p === 1 ? DA : NE,
+    }).stanje;
+    return z.__ocj;
+  }
+
+  // Status rucne provjere zivi u Supabaseu, a chat.js ga sam ne dohvaca.
+  // Stranica ga izlaze kao window.__statusZaId - dogovorena funkcija umjesto
+  // kopanja po globalnim varijablama, koje se ionako razlikuju po stranici
+  // (teren ima mapu statusa, puni pregled polje na svakom zapisu).
+  function statusZapisa(z) {
+    try {
+      if (typeof window.__statusZaId === "function") return window.__statusZaId(z.i) || "nepotvrđeno";
+    } catch (e) {}
+    return "nepotvrđeno";
+  }
+
   function odgovara(z, f) {
     if (f._ekran && !f._ekran[z.i]) return false;
     if (f.ulica) {
@@ -686,6 +734,15 @@
     if (f._zupanije && f._zupanije.indexOf(z.z) === -1) return false;
     if (f.tip && f.tip.indexOf(z.t) === -1) return false;
     if (f.satelit && f.satelit.indexOf(z.s) === -1) return false;
+    // Kompozitna ocjena se racuna iz istih dokaza kao u sucelju, preko
+    // assets/ocjena.js - jedan izvor istine, bez druge implementacije.
+    if (f.ocjena && f.ocjena.indexOf(ocjenaZapisa(z)) === -1) return false;
+    if (f.izvor && f.izvor.indexOf(z.o || "OSM") === -1) return false;
+    if (f.status && f.status.indexOf(statusZapisa(z)) === -1) return false;
+    if (typeof f.ms === "boolean") {
+      if (z.ms === null || z.ms === undefined) return false; // nepoznato nije ni da ni ne
+      if ((z.ms === 1) !== f.ms) return false;
+    }
     if (typeof f.imaAdresu === "boolean" && !!z.a !== f.imaAdresu) return false;
     if (typeof f.masovniUnos === "boolean" && (z.u === 1) !== f.masovniUnos) return false;
     if (f.katoviMin != null || f.katoviMax != null) {
@@ -824,6 +881,14 @@
     if (f.zupanija) d.push(f.zupanija);
     if (f.tip) d.push("tip " + f.tip.join(", "));
     if (f.satelit) d.push(f.satelit.join(" ili "));
+    if (f.ocjena) d.push(f.ocjena.map(function (k) {
+      var st = (typeof Ocjena !== "undefined") ? Ocjena.stanjePoKljucu(k) : null;
+      return st ? st.naziv : k;
+    }).join(" ili "));
+    if (f.izvor) d.push("izvor " + f.izvor.join(", "));
+    if (f.status) d.push(f.status.join(" ili "));
+    if (f.ms === true) d.push("Microsoft ima zgradu");
+    if (f.ms === false) d.push("Microsoft nema zgradu");
     if (f.imaAdresu === true) d.push("s adresom");
     if (f.imaAdresu === false) d.push("bez adrese");
     if (f.masovniUnos === true) d.push("masovni unos");

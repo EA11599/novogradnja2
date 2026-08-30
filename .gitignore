@@ -1,3 +1,12 @@
 ﻿node_modules/
 .tmp-dgu/
 .tmp-dgu-out/
+data/ms-obrisi/*.json
+data/ms-obrisi-*/
+!data/ms-obrisi/snimke/
+files.zip
+solar-test-rezultat.json
+ms-test-rezultat.json
+ms-kontrola.json
+kontrola.json
+registar.csv
