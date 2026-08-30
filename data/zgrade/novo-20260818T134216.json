@@ -50,6 +50,15 @@
         "obrazlozenje": "U centru kadra vidljive su jasno izgrađene građevine s krovovima u različitim bojama, najvidljivija je bijela ili svijetla građevina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:11.861Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.440Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 98,
+        "iou": 0.13
       }
     },
     {
@@ -102,7 +111,27 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine crvene ili terakota boje s jasno definiranim rubovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:11.932Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.442Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 206,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Pašin prolaz",
+          "houseNumber": "34A",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.40562,
+          "lat": 45.312793
+        }
+      ]
     },
     {
       "id": "way/1550459096",
@@ -146,7 +175,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krovište građevine s karakterističnim crvenim i smeđim pokrovom, kao i okolni objekti i dvorišne površine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:13.254Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.445Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 76,
+        "iou": 0.41
+      },
+      "dguTocke": [
+        {
+          "street": "Diljska",
+          "houseNumber": "2A",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.406797,
+          "lat": 45.314039
+        }
+      ]
     },
     {
       "id": "way/1550459108",
@@ -198,7 +247,27 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine s jasno vidljivim rubovima i strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:12.084Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.447Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 88,
+        "iou": 0.17
+      },
+      "dguTocke": [
+        {
+          "street": "Kralja Petra Krešimira",
+          "houseNumber": "1A",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.403814,
+          "lat": 45.310166
+        }
+      ]
     },
     {
       "id": "way/1550459109",
@@ -242,7 +311,27 @@
         "obrazlozenje": "U centru kadra vidljivi su dijelovi krovova i građevina s jasno vidljivim strukturama i različitim bojama krovova.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:12.397Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.450Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 322,
+        "iou": 0.21
+      },
+      "dguTocke": [
+        {
+          "street": "Kneza Branimira",
+          "houseNumber": "38A",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.401915,
+          "lat": 45.312381
+        }
+      ]
     },
     {
       "id": "way/1550459110",
@@ -286,7 +375,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov zgrade s crvenom bojom i pravokutnom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:15.722Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.452Z",
+        "kako": "blizu",
+        "udaljenostM": 11,
+        "povrsinaMs": 219,
+        "iou": 0.04
+      },
+      "dguTocke": [
+        {
+          "street": "Kneza Branimira",
+          "houseNumber": "23A",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.401629,
+          "lat": 45.312186
+        }
+      ]
     },
     {
       "id": "way/1550459111",
@@ -330,7 +439,27 @@
         "obrazlozenje": "U centru kadra vidljivi su krovovi više zgrada s različitim bojama i teksturama, jasno prepoznatljive kao izgrađene strukture.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:16.004Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.455Z",
+        "kako": "blizu",
+        "udaljenostM": 14,
+        "povrsinaMs": 78,
+        "iou": 0.06
+      },
+      "dguTocke": [
+        {
+          "street": "Tina Ujevića",
+          "houseNumber": "2C",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.401126,
+          "lat": 45.310649
+        }
+      ]
     },
     {
       "id": "way/1550459112",
@@ -374,7 +503,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i jasno definiranim obrisima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:15.725Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.462Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 499,
+        "iou": 0.08
+      },
+      "dguTocke": [
+        {
+          "street": "Tina Ujevića",
+          "houseNumber": "1",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.400924,
+          "lat": 45.310933
+        }
+      ]
     },
     {
       "id": "way/1550459113",
@@ -418,7 +567,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim ili ružičastim krovom i jasno definiranim obrisima građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:15.681Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.465Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 499,
+        "iou": 0.07
+      },
+      "dguTocke": [
+        {
+          "street": "Tina Ujevića",
+          "houseNumber": "3",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.400943,
+          "lat": 45.310993
+        }
+      ]
     },
     {
       "id": "way/1550459114",
@@ -462,7 +631,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crnim ili tamnim krovom i okolnom infrastrukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:15.673Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.466Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 110,
+        "iou": 0.48
+      },
+      "dguTocke": [
+        {
+          "street": "Kralja Zvonimira",
+          "houseNumber": "78",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.396951,
+          "lat": 45.312893
+        }
+      ]
     },
     {
       "id": "way/1550459116",
@@ -506,6 +695,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi tamna krovna struktura s pravokutnim oblikom koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:18.511Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.468Z",
+        "kako": "blizu",
+        "udaljenostM": 15,
+        "povrsinaMs": 218,
+        "iou": 0.07
       }
     },
     {
@@ -550,7 +748,23 @@
         "obrazlozenje": "U centru snimke je vidljiva jasna struktura s krovom i izgradenom građevinom od svjetlijeg i tamnijeg materijala.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:18.700Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.469Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica 122. brigade hrvatske vojske",
+          "houseNumber": "9",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.395782,
+          "lat": 45.312279
+        }
+      ]
     },
     {
       "id": "way/1550459118",
@@ -602,7 +816,23 @@
         "obrazlozenje": "U centru kadra vidljiv je tamni krov ili građevina s jasno definiranim rubovima, okružen zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:18.333Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.470Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica 122. brigade hrvatske vojske",
+          "houseNumber": "13",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.395304,
+          "lat": 45.312343
+        }
+      ]
     },
     {
       "id": "way/1550459119",
@@ -646,7 +876,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s krovom u bežoj ili smeđoj boji, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:18.931Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.471Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 245,
+        "iou": 0.4
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica 122. brigade hrvatske vojske",
+          "houseNumber": "17",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.394449,
+          "lat": 45.312462
+        }
+      ]
     },
     {
       "id": "way/1550459120",
@@ -690,7 +940,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim krovom u različitim bojama (crveni, sivi i drugi tonovi), što jasno ukazuje na postojeću građevinu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:18.766Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.473Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 269,
+        "iou": 0.13
+      },
+      "dguTocke": [
+        {
+          "street": "Franje Račkog",
+          "houseNumber": "147B",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.391539,
+          "lat": 45.311067
+        }
+      ]
     },
     {
       "id": "way/1550459121",
@@ -734,7 +1004,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi bijela/siva zgrada s pravokutnim krovom i vidljivim strukturama oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:21.249Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.474Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 948,
+        "iou": 0.64
+      },
+      "dguTocke": [
+        {
+          "street": "Franje Račkog",
+          "houseNumber": "209",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.380484,
+          "lat": 45.31142
+        }
+      ]
     },
     {
       "id": "way/1550459122",
@@ -778,7 +1068,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s vidljivim krovom, okružena zelenilom i parkiralištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:21.418Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.475Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 154,
+        "iou": 0.34
+      },
+      "dguTocke": [
+        {
+          "street": "Franje Račkog",
+          "houseNumber": "192",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.385581,
+          "lat": 45.312092
+        }
+      ]
     },
     {
       "id": "way/1550459123",
@@ -830,7 +1140,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov zgrade s karakterističnom crvenom ili terako bojom i bijelom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:21.158Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.477Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 98,
+        "iou": 0.27
+      },
+      "dguTocke": [
+        {
+          "street": "Franje Račkog",
+          "houseNumber": "160A",
+          "settlement": "Đakovo",
+          "postcode": "31400",
+          "city": "Đakovo",
+          "lon": 18.390554,
+          "lat": 45.311713
+        }
+      ]
     },
     {
       "id": "way/1550488325",
@@ -878,6 +1208,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i pratećim objektima okruženim zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:21.141Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.477Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 49,
+        "iou": 0.57
       }
     },
     {
@@ -926,7 +1265,27 @@
         "obrazlozenje": "U centru kadra vidljiva je crvenkasta ili bež građevina s vidljivim krovom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:21.202Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.477Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 100,
+        "iou": 0.67
+      },
+      "dguTocke": [
+        {
+          "street": "Dubrovačka",
+          "houseNumber": "37",
+          "settlement": "Voćin",
+          "postcode": "33522",
+          "city": "Voćin",
+          "lon": 17.54006,
+          "lat": 45.612916
+        }
+      ]
     },
     {
       "id": "way/1550488327",
@@ -966,6 +1325,15 @@
         "obrazlozenje": "U centru kadra vidljivi su jasno definirani krovovi zgrada s karakterističnim smeđim i crvenim tonovima, što ukazuje na izgrađene strukture.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:24.002Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.478Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 63,
+        "iou": 0.52
       }
     },
     {
@@ -1030,7 +1398,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi crvenasto-smeđi krov zgrade s pravokutnom formom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:23.736Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.478Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 76,
+        "iou": 0.49
+      },
+      "dguTocke": [
+        {
+          "street": "Dubrovačka",
+          "houseNumber": "33",
+          "settlement": "Voćin",
+          "postcode": "33522",
+          "city": "Voćin",
+          "lon": 17.540094,
+          "lat": 45.613279
+        }
+      ]
     },
     {
       "id": "way/1550488329",
@@ -1086,6 +1474,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim krovom, s vanjskim bujnom vegetacijom oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:23.583Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.479Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 27,
+        "iou": 0.21
       }
     },
     {
@@ -1126,6 +1523,15 @@
         "obrazlozenje": "Vidljiva je izgrađena zgrada s crvenim ili ružičastim krovom u centru ortofoto snimke.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:23.720Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.480Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 39,
+        "iou": 0.38
       }
     },
     {
@@ -1190,6 +1596,15 @@
         "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenim/ružičastim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:23.614Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.481Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 49,
+        "iou": 0.48
       }
     },
     {
@@ -1238,7 +1653,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna struktura s crvenim ili smeđim krovom i pravokutnim oblikom tipičnim za izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:26.438Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.481Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 178,
+        "iou": 0.5
+      },
+      "dguTocke": [
+        {
+          "street": "Dubrovačka",
+          "houseNumber": "31",
+          "settlement": "Voćin",
+          "postcode": "33522",
+          "city": "Voćin",
+          "lon": 17.540184,
+          "lat": 45.613606
+        }
+      ]
     },
     {
       "id": "way/1550488333",
@@ -1278,6 +1713,11 @@
         "obrazlozenje": "U centru kadra jasno se vidi pravokutna struktura tamnije boje koja predstavlja krov građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:26.299Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.481Z"
       }
     },
     {
@@ -1318,6 +1758,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov zgrade s tamnom bojom, jasno razlikovan od okolnog zelenila.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:26.980Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.482Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 205,
+        "iou": 0.29
       }
     },
     {
@@ -1374,7 +1823,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:26.317Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.482Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 205,
+        "iou": 0.39
+      },
+      "dguTocke": [
+        {
+          "street": "Dubrovačka",
+          "houseNumber": "25",
+          "settlement": "Voćin",
+          "postcode": "33522",
+          "city": "Voćin",
+          "lon": 17.54062,
+          "lat": 45.614373
+        }
+      ]
     },
     {
       "id": "way/1550497635",
@@ -1419,6 +1888,11 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada s jasno vidljivim krovom tamnije boje uz cestu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:26.294Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.482Z"
       }
     },
     {
@@ -1471,7 +1945,23 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada s tirkiznim krovom i tamnije obojenim strukturama okolo nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:29.400Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.482Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Sveti Petar",
+          "houseNumber": "117B",
+          "settlement": "Sveti Petar",
+          "postcode": "47300",
+          "city": "Ogulin",
+          "lon": 15.195215,
+          "lat": 45.27313
+        }
+      ]
     },
     {
       "id": "way/1550520859",
@@ -1511,6 +2001,11 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine crvenkaste boje okružene gustom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:29.258Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.482Z"
       }
     },
     {
@@ -1567,7 +2062,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi kvadratna ili pravokutna zgrada s tamnim krovom, okružena parkovima i poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:29.621Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.482Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Sveti Petar",
+          "houseNumber": "120B",
+          "settlement": "Sveti Petar",
+          "postcode": "47300",
+          "city": "Ogulin",
+          "lon": 15.199844,
+          "lat": 45.270745
+        }
+      ]
     },
     {
       "id": "way/1550569823",
@@ -1607,6 +2118,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:29.028Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.482Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 21,
+        "iou": 0.26
       }
     },
     {
@@ -1647,6 +2167,11 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena ili smeđa krovna konstrukcija s okružujućim zelenim površinama i putnom infrastrukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:29.844Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.482Z"
       }
     },
     {
@@ -1719,7 +2244,27 @@
         "obrazlozenje": "U centru snimke vidljiv je krov građevine crvene ili smeđe boje s jasno vidljivim obrisima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:32.301Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.483Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 35,
+        "iou": 0.17
+      },
+      "dguTocke": [
+        {
+          "street": "Dubrovačka",
+          "houseNumber": "125",
+          "settlement": "Voćin",
+          "postcode": "33522",
+          "city": "Voćin",
+          "lon": 17.534338,
+          "lat": 45.607584
+        }
+      ]
     }
   ]
 }

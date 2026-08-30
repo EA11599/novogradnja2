@@ -39,6 +39,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna struktura krovnog pokrova u svjetlijoj boji, okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:35.344Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.147Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 74,
+        "iou": 0.04
       }
     },
     {
@@ -77,6 +86,11 @@
         "obrazlozenje": "U centru kadra vidljiva je svjetlosiva/bež konstrukcija koja predstavlja krov zgrade, jasno razlikovana od okolne zelene vegetacije i poljoprivrednih površina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:35.432Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.147Z"
       }
     },
     {
@@ -115,6 +129,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna zgrada s krovom tamnije boje, okružena zelenilom i poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:35.203Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.148Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 143,
+        "iou": 0
       }
     },
     {
@@ -153,6 +176,15 @@
         "obrazlozenje": "U centru kadra vidljiva je tamna građevina/krov okružena šumskom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:35.062Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.148Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 88,
+        "iou": 0.11
       }
     },
     {
@@ -194,7 +226,27 @@
         "obrazlozenje": "U centru snimke vidljiva je jasna smeđa/crvena struktura krova zgrada s jasnim konturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:35.264Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.148Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 72,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Brižac",
+          "houseNumber": "19",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.034123,
+          "lat": 45.350402
+        }
+      ]
     },
     {
       "id": "way/1550170926",
@@ -232,6 +284,15 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena struktura s krovom, jasno vidljiva kao svjetla pravokutna građevina okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:37.778Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.149Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 12,
+        "iou": 0
       }
     },
     {
@@ -270,6 +331,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura s krovom, vjerojatno manja zgrada ili gospodarsko zdanje, okružena poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:37.985Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.149Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 33,
+        "iou": 0.08
       }
     },
     {
@@ -311,7 +381,27 @@
         "obrazlozenje": "U centru kadra vidljivi su dijelovi građevine i krovne površine od svjetlijeg tona, kao i pristupni putovi i okružujuća parcela.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:38.265Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.149Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 54,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "11",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.025337,
+          "lat": 45.355015
+        }
+      ]
     },
     {
       "id": "way/1550170929",
@@ -352,7 +442,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s krovom, vidljivi su rubovi zgrade i njena geometrijska forma.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:37.859Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.149Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 54,
+        "iou": 0.03
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "12",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.025224,
+          "lat": 45.355062
+        }
+      ]
     },
     {
       "id": "way/1550170930",
@@ -397,7 +507,27 @@
         "obrazlozenje": "U centru kadra vidljive su jasno izgrađene građevine s krovovima i tlocrtima, što upućuje na naseljenost i razvijenu infrastrukturu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:37.888Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 17,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "10",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.02546,
+          "lat": 45.354885
+        }
+      ]
     },
     {
       "id": "way/1550170931",
@@ -438,7 +568,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva nekoliko građevina s krovovima različitih boja, uglavnom svjetlosive i smeđe tonalitete.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:40.655Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 17,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "10A",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.025389,
+          "lat": 45.354909
+        }
+      ]
     },
     {
       "id": "way/1550170932",
@@ -479,7 +629,23 @@
         "obrazlozenje": "U centru kadra vidljivi su krovovi više zgrada s jasno definiranim rubovima i strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:40.601Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "8",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.025332,
+          "lat": 45.354811
+        }
+      ]
     },
     {
       "id": "way/1550170933",
@@ -520,7 +686,23 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s vidljivim krovom i tamnijom bojom što ukazuje na građevinu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:42.067Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "9",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.025407,
+          "lat": 45.354757
+        }
+      ]
     },
     {
       "id": "way/1550170934",
@@ -561,7 +743,27 @@
         "obrazlozenje": "U centru kadra je vidljiva betonska/asfaltna površina koja izgleda kao dio trgovačkog centra ili parkirališta s jasno vidljivim krovom i strukturom zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:40.842Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 68,
+        "iou": 0.19
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "4",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.025655,
+          "lat": 45.354605
+        }
+      ]
     },
     {
       "id": "way/1550170935",
@@ -602,7 +804,23 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno definirana pravokutna građevina s krovom sive/tamne boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:40.486Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "5",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.025896,
+          "lat": 45.354634
+        }
+      ]
     },
     {
       "id": "way/1550170936",
@@ -643,6 +861,15 @@
         "obrazlozenje": "U centru kadra vidljiv je sivi krov građevine s jasno vidljivim konturama i strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:45.092Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 34,
+        "iou": 0.23
       }
     },
     {
@@ -684,7 +911,27 @@
         "obrazlozenje": "U centru kadra vidljiv je svijetli krovni pokrivač izgrađene zgrade s jasnim obrubima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:44.362Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 82,
+        "iou": 0.04
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "7",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.025901,
+          "lat": 45.354396
+        }
+      ]
     },
     {
       "id": "way/1550170938",
@@ -725,7 +972,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine svijetle boje s karakterističnom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:44.399Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 82,
+        "iou": 0.61
+      },
+      "dguTocke": [
+        {
+          "street": "Benčići",
+          "houseNumber": "1",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.025975,
+          "lat": 45.354306
+        }
+      ]
     },
     {
       "id": "way/1550171222",
@@ -766,7 +1033,23 @@
         "obrazlozenje": "U centru kadra vidljiv je svijetliji dio koji predstavlja krov zgrade, jasno izdvojen od okolne vegetacije.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:44.348Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Iveći",
+          "houseNumber": "16",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.052484,
+          "lat": 45.330115
+        }
+      ]
     },
     {
       "id": "way/1550171223",
@@ -807,6 +1090,11 @@
         "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada s karakterističnim geometrijskim obrisima između zelenih površina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:44.436Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z"
       }
     },
     {
@@ -848,7 +1136,23 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa sivkastim krovom okružena šumskom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:47.342Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Iveći",
+          "houseNumber": "13",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.052929,
+          "lat": 45.329939
+        }
+      ]
     },
     {
       "id": "way/1550171225",
@@ -889,6 +1193,11 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa sivim krovom okružena šumskom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:47.575Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z"
       }
     },
     {
@@ -927,6 +1236,11 @@
         "obrazlozenje": "U centru kadra jasno se vidi svijetla građevina/krov okružena gustom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:47.496Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.150Z"
       }
     },
     {
@@ -968,7 +1282,27 @@
         "obrazlozenje": "Vidljive su građevine i putna infrastruktura s krovovima i očistima tla u centru kadra između šumskog pokrova.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:47.550Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.151Z",
+        "kako": "blizu",
+        "udaljenostM": 11,
+        "povrsinaMs": 55,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Iveći",
+          "houseNumber": "12",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.053185,
+          "lat": 45.329822
+        }
+      ]
     },
     {
       "id": "way/1550171228",
@@ -1009,6 +1343,11 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s krovom, vidljiva kao tamnije obojana struktura s pravokutnim oblikom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:47.458Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.151Z"
       }
     },
     {
@@ -1050,7 +1389,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:49.832Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.151Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 142,
+        "iou": 0.86
+      },
+      "dguTocke": [
+        {
+          "street": "Kras",
+          "houseNumber": "8",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.066346,
+          "lat": 45.357802
+        }
+      ]
     },
     {
       "id": "way/1550171683",
@@ -1099,7 +1458,27 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim/smeđim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:49.988Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.152Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 399,
+        "iou": 0.55
+      },
+      "dguTocke": [
+        {
+          "street": "Kras",
+          "houseNumber": "6",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.065898,
+          "lat": 45.357417
+        }
+      ]
     },
     {
       "id": "way/1550171684",
@@ -1140,7 +1519,27 @@
         "obrazlozenje": "U centru kadra vidljiva je velika izgrađena građevina s jasno vidljivim krovom tamne boje, okružena manjim objektima i zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:50.250Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.153Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 13,
+        "povrsinaMs": 399,
+        "iou": 0.25
+      },
+      "dguTocke": [
+        {
+          "street": "Kras",
+          "houseNumber": "5",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.065667,
+          "lat": 45.357412
+        }
+      ]
     },
     {
       "id": "way/1550171685",
@@ -1181,7 +1580,27 @@
         "obrazlozenje": "U centru snimke vidljiva je izgrađena struktura s krovom tamnije boje, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:49.970Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.153Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 134,
+        "iou": 0.85
+      },
+      "dguTocke": [
+        {
+          "street": "Kras",
+          "houseNumber": "7",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.065815,
+          "lat": 45.357185
+        }
+      ]
     },
     {
       "id": "way/1550171686",
@@ -1222,7 +1641,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada sa sivim krovom i plavim bazen uz nju.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:49.869Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.153Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 0,
+        "povrsinaMs": 70,
+        "iou": 0.74
+      },
+      "dguTocke": [
+        {
+          "street": "Kras",
+          "houseNumber": "9",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.065395,
+          "lat": 45.357292
+        }
+      ]
     },
     {
       "id": "way/1550171687",
@@ -1260,6 +1699,11 @@
         "obrazlozenje": "Jasno se vidi bijela zgrada s krovom i bazenom u centru ortofoto snimke.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:52.530Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.153Z"
       }
     },
     {
@@ -1309,7 +1753,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s krovom tamnije boje, najveće vrijednosti.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:52.407Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.154Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 0,
+        "povrsinaMs": 277,
+        "iou": 0.7
+      },
+      "dguTocke": [
+        {
+          "street": "Kras",
+          "houseNumber": "4",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.064406,
+          "lat": 45.356721
+        }
+      ]
     },
     {
       "id": "way/1550171689",
@@ -1347,6 +1811,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva velika industrijska ili skladišna zgrada s tamnim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:52.604Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.154Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 82,
+        "iou": 0.25
       }
     },
     {
@@ -1385,6 +1858,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov izgrađene zgrade s tamnom bojom, okružen parcelama s različitim namjenama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:52.627Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.156Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 82,
+        "iou": 0.53
       }
     },
     {
@@ -1426,7 +1908,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenkastim krovom i pripadajućim gospodarskim zgradama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:52.682Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.156Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 15,
+        "povrsinaMs": 277,
+        "iou": 0.23
+      },
+      "dguTocke": [
+        {
+          "street": "Kras",
+          "houseNumber": "2",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.064274,
+          "lat": 45.356774
+        }
+      ]
     },
     {
       "id": "way/1550171692",
@@ -1475,7 +1977,27 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna površina stambene građevine s dijelovima okolnog dvorišta i vegetacije.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:55.441Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.156Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 174,
+        "iou": 0.8
+      },
+      "dguTocke": [
+        {
+          "street": "Kras",
+          "houseNumber": "1",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.064154,
+          "lat": 45.356547
+        }
+      ]
     },
     {
       "id": "way/1550171693",
@@ -1513,6 +2035,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena građevina s krovom crvene/smeđe boje, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:55.126Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.156Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 55,
+        "iou": 0.75
       }
     },
     {
@@ -1551,6 +2082,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika betonska/asfaltna površina koja predstavlja krov ili platformu građevine okružene prirodnom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:55.882Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.157Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 54,
+        "iou": 0.76
       }
     },
     {
@@ -1589,6 +2129,15 @@
         "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada s jasno vidljivim strukturama i obrubima građevina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:55.228Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.157Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 190,
+        "iou": 0.88
       }
     },
     {
@@ -1630,7 +2179,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa sivim/tamnim krovom, vidljivi su i dijelovi bočnih struktura.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:55.043Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.157Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 131,
+        "iou": 0.69
+      },
+      "dguTocke": [
+        {
+          "street": "Kras",
+          "houseNumber": "3",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.064367,
+          "lat": 45.356427
+        }
+      ]
     },
     {
       "id": "way/1550171738",
@@ -1668,6 +2237,15 @@
         "obrazlozenje": "U centru kadra vidljiva je velika bijela građevina s jasno vidljivim krovom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:58.161Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.157Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 239,
+        "iou": 0.79
       }
     },
     {
@@ -1709,7 +2287,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov industrijske ili poslovne zgrade s pravokutnim obrisom i sivom bojom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:58.511Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.158Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 233,
+        "iou": 0.58
+      },
+      "dguTocke": [
+        {
+          "street": "Černehi",
+          "houseNumber": "15",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.063513,
+          "lat": 45.353919
+        }
+      ]
     },
     {
       "id": "way/1550171740",
@@ -1747,6 +2345,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s pravokutnim krovom svijetle boje, jasno razlikovana od okolnog zelenila.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:58.304Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.158Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 85,
+        "iou": 0.6
       }
     },
     {
@@ -1785,6 +2392,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika betonska/asfaltna površina (krov ili platforma) s jasnim rubovima, što ukazuje na izgrađenu strukturu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:58.267Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.159Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 38,
+        "iou": 0.49
       }
     },
     {
@@ -1826,7 +2442,27 @@
         "obrazlozenje": "U centru kadra jasno se vide krovovi većih zgrada s braon/crvenom bojom i dijelovi građevina sa sivom bojom, okruženi zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:13:58.460Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.159Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 181,
+        "iou": 0.77
+      },
+      "dguTocke": [
+        {
+          "street": "Černehi",
+          "houseNumber": "16",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.06353,
+          "lat": 45.353726
+        }
+      ]
     },
     {
       "id": "way/1550171743",
@@ -1864,6 +2500,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva betonska/asfaltna površina sa nekoliko građevina i krovova industrijskih ili komercijalnih objekata.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:00.898Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.159Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 77,
+        "iou": 0.69
       }
     },
     {
@@ -1905,7 +2550,27 @@
         "obrazlozenje": "U centru kadra vidljiva je svijetlija struktura koja predstavlja krov građevine, jasno vidljiva među zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:03.793Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.160Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 46,
+        "iou": 0.06
+      },
+      "dguTocke": [
+        {
+          "street": "Kavci",
+          "houseNumber": "6",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.037462,
+          "lat": 45.340578
+        }
+      ]
     },
     {
       "id": "way/1550171776",
@@ -1946,7 +2611,27 @@
         "obrazlozenje": "U centru snimke vidljiva je građevina s crvenkastim/ružičastim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:00.967Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.160Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 126,
+        "iou": 0.31
+      },
+      "dguTocke": [
+        {
+          "street": "Kavci",
+          "houseNumber": "9",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.037279,
+          "lat": 45.340597
+        }
+      ]
     },
     {
       "id": "way/1550171777",
@@ -1987,7 +2672,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi pravokutna građevina s krovom svijetle boje, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:00.822Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.160Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Kavci",
+          "houseNumber": "8",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.037159,
+          "lat": 45.340508
+        }
+      ]
     },
     {
       "id": "way/1550171778",
@@ -2028,7 +2729,27 @@
         "obrazlozenje": "U centru kadra vidljivi su jasno definirani krovovi nekoliko zgrada s pravokutnim oblicima, okruženi šumskom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:01.102Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.160Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 70,
+        "iou": 0.01
+      },
+      "dguTocke": [
+        {
+          "street": "Kavci",
+          "houseNumber": "7",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.037149,
+          "lat": 45.340223
+        }
+      ]
     },
     {
       "id": "way/1550172109",
@@ -2066,6 +2787,15 @@
         "obrazlozenje": "U centru kadra je vidljiv krov zgrade sivkaste boje, jasno prepoznatljiv kao izgrađena građevina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:06.810Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.161Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 24,
+        "iou": 0
       }
     },
     {
@@ -2107,7 +2837,27 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/roza krovnica građevine s jasno vidljivom strukturom zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:06.785Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.161Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 149,
+        "iou": 0.02
+      },
+      "dguTocke": [
+        {
+          "street": "Mikci",
+          "houseNumber": "13",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.059373,
+          "lat": 45.361311
+        }
+      ]
     },
     {
       "id": "way/1550172111",
@@ -2148,7 +2898,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenim/rezavim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:08.231Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.162Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 73,
+        "iou": 0.08
+      },
+      "dguTocke": [
+        {
+          "street": "Mikci",
+          "houseNumber": "13/1",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.059496,
+          "lat": 45.361172
+        }
+      ]
     },
     {
       "id": "way/1550172112",
@@ -2186,6 +2956,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom tamne boje i jasno vidljivim obrisima građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:07.142Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.163Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 140,
+        "iou": 0.03
       }
     },
     {
@@ -2227,6 +3006,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s svijetlim krovom, okružena poljoprivrednim zemljištem i drugim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:07.383Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.163Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 140,
+        "iou": 0
       }
     },
     {
@@ -2268,6 +3056,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura s crvenim i smeđim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:10.599Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.163Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 67,
+        "iou": 0.05
       }
     },
     {
@@ -2309,7 +3106,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi veliki krov građevine crvene/smeđe boje s vidljivom strukturom zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:10.559Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.164Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 316,
+        "iou": 0.11
+      },
+      "dguTocke": [
+        {
+          "street": "Mikci",
+          "houseNumber": "10",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.059115,
+          "lat": 45.360948
+        }
+      ]
     },
     {
       "id": "way/1550172116",
@@ -2350,7 +3167,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, jasno prepoznatljiva kao izgrađena struktura.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:10.460Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.165Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 107,
+        "iou": 0.01
+      },
+      "dguTocke": [
+        {
+          "street": "Mikci",
+          "houseNumber": "15",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.0592,
+          "lat": 45.360913
+        }
+      ]
     },
     {
       "id": "way/1550172117",
@@ -2391,7 +3228,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i jasno definirane građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:10.685Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.166Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 316,
+        "iou": 0.18
+      },
+      "dguTocke": [
+        {
+          "street": "Mikci",
+          "houseNumber": "14",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.059043,
+          "lat": 45.361007
+        }
+      ]
     },
     {
       "id": "way/1550172118",
@@ -2432,7 +3289,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:10.392Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.167Z",
+        "kako": "blizu",
+        "udaljenostM": 17,
+        "povrsinaMs": 316,
+        "iou": 0.04
+      },
+      "dguTocke": [
+        {
+          "street": "Mikci",
+          "houseNumber": "11",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.058987,
+          "lat": 45.360965
+        }
+      ]
     },
     {
       "id": "way/1550172119",
@@ -2470,6 +3347,15 @@
         "obrazlozenje": "U centru snimke vidljivi su krovovi zgrada s crvenim i sivim pokrivačima te druge građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:12.981Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.168Z",
+        "kako": "blizu",
+        "udaljenostM": 15,
+        "povrsinaMs": 235,
+        "iou": 0
       }
     },
     {
@@ -2511,7 +3397,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s jasno vidljivim roza/crvenim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:13.000Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.168Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 235,
+        "iou": 0.42
+      },
+      "dguTocke": [
+        {
+          "street": "Mikci",
+          "houseNumber": "12",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.058883,
+          "lat": 45.360733
+        }
+      ]
     },
     {
       "id": "way/1550172855",
@@ -2549,6 +3455,15 @@
         "obrazlozenje": "U centru kadra je vidljiva struktura s jasno definiranim krovom, najvjerojatnije stambene zgrade ili gospodarskog objekta.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:12.995Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.169Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 86,
+        "iou": 0.01
       }
     },
     {
@@ -2590,7 +3505,23 @@
         "obrazlozenje": "U centru kadra vidljive su dvije svijetle pravokutne strukture koje predstavljaju krovove zgrada među zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:13.251Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.169Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Duričići",
+          "houseNumber": "2",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.031843,
+          "lat": 45.337574
+        }
+      ]
     },
     {
       "id": "way/1550172857",
@@ -2631,7 +3562,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom, vidljivi su krovni elementi i struktura građevine u okruženju zelene vegetacije.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:13.103Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.169Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 27,
+        "iou": 0.08
+      },
+      "dguTocke": [
+        {
+          "street": "Duričići",
+          "houseNumber": "5",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.031467,
+          "lat": 45.337763
+        }
+      ]
     },
     {
       "id": "way/1550172858",
@@ -2672,7 +3623,23 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine s jasno vidljivim strukturama i linijama karakterističnim za izgrađenu strukturu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:15.642Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.169Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Duričići",
+          "houseNumber": "4",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.031486,
+          "lat": 45.337623
+        }
+      ]
     },
     {
       "id": "way/1550173026",
@@ -2713,7 +3680,27 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/roze krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:15.702Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.169Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 42,
+        "iou": 0.67
+      },
+      "dguTocke": [
+        {
+          "street": "Klanac",
+          "houseNumber": "20",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.070442,
+          "lat": 45.350826
+        }
+      ]
     },
     {
       "id": "way/1550173027",
@@ -2751,6 +3738,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom svijetle boje okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:16.238Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.169Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 39,
+        "iou": 0.84
       }
     },
     {
@@ -2792,7 +3788,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa svijetlucavim krovom plave/tirkizne boje okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:16.690Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.169Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 95,
+        "iou": 0.47
+      },
+      "dguTocke": [
+        {
+          "street": "Klanac",
+          "houseNumber": "19",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.068318,
+          "lat": 45.35121
+        }
+      ]
     },
     {
       "id": "way/1550173029",
@@ -2830,6 +3846,15 @@
         "obrazlozenje": "U centru kadra je vidljiva crvenkasta građevina s krovom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:16.301Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.170Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 25,
+        "iou": 0.37
       }
     },
     {
@@ -2871,7 +3896,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s rožnjastim krovom bež-smeđe boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:18.842Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.170Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 84,
+        "iou": 0.66
+      },
+      "dguTocke": [
+        {
+          "street": "Klanac",
+          "houseNumber": "17",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.067891,
+          "lat": 45.351361
+        }
+      ]
     },
     {
       "id": "way/1550173031",
@@ -2912,6 +3957,11 @@
         "obrazlozenje": "U centru kadra jasno se vidi moderna zgrada s crnim krovom i bazenom, okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:19.147Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.170Z"
       }
     },
     {
@@ -2950,6 +4000,11 @@
         "obrazlozenje": "U centru kadra jasno se vidi moderna zgrada s bazenom i okruživačućim zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:19.344Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.170Z"
       }
     },
     {
@@ -2991,7 +4046,27 @@
         "obrazlozenje": "U centru kadra vidljive su dvije svijetle građevine/traktori ili poljoprivredni objekti s krovovima na poljskom zemljištu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:19.541Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.170Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 238,
+        "iou": 0.79
+      },
+      "dguTocke": [
+        {
+          "street": "Klanac",
+          "houseNumber": "19/1",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.068636,
+          "lat": 45.350728
+        }
+      ]
     },
     {
       "id": "way/1550173059",
@@ -3029,6 +4104,11 @@
         "obrazlozenje": "U centru snimke vidljiva je jasna pravokutna zgrada s crvenim/narančastim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:19.049Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.170Z"
       }
     },
     {
@@ -3070,7 +4150,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa svijetlijom bojom u odnosu na okolnu vegetaciju.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:21.904Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.170Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Podkrog",
+          "houseNumber": "1",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.023055,
+          "lat": 45.368221
+        }
+      ]
     },
     {
       "id": "way/1550173064",
@@ -3111,7 +4207,27 @@
         "obrazlozenje": "U centru kadra vidljiva je betonska/asfaltizirana površina i dijelovi građevine sa sivim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:21.861Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.170Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 52,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Ćukarija",
+          "houseNumber": "24",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.052761,
+          "lat": 45.353105
+        }
+      ]
     },
     {
       "id": "way/1550175009",
@@ -3152,6 +4268,11 @@
         "obrazlozenje": "Vidljiva je velika industrijska/poljoprivredna građevina s tamnom strmom krovnom konstrukcijom u centru snimke.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:22.133Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.170Z"
       }
     },
     {
@@ -3200,7 +4321,27 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine smeđe/ružičaste boje s jasno vidljivim obrisima zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:22.165Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.171Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 167,
+        "iou": 0.1
+      },
+      "dguTocke": [
+        {
+          "street": "Hum",
+          "houseNumber": "6",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.051024,
+          "lat": 45.348231
+        }
+      ]
     },
     {
       "id": "way/1550189398",
@@ -3248,7 +4389,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina s krovom bež-smeđe boje, okružena poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:21.993Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.171Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 76,
+        "iou": 0.15
+      },
+      "dguTocke": [
+        {
+          "street": "Hum",
+          "houseNumber": "3/2",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.050887,
+          "lat": 45.348113
+        }
+      ]
     },
     {
       "id": "way/1550189399",
@@ -3308,7 +4469,27 @@
         "obrazlozenje": "U centru kadra jasno se vide crveni krovovi i strukture nekoliko povezanih zgrada.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:24.341Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.172Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 11,
+        "povrsinaMs": 336,
+        "iou": 0.15
+      },
+      "dguTocke": [
+        {
+          "street": "Hum",
+          "houseNumber": "8/1",
+          "settlement": "Hum",
+          "postcode": "52425",
+          "city": "Roč",
+          "lon": 14.05065,
+          "lat": 45.3484
+        }
+      ]
     },
     {
       "id": "way/1550213328",
@@ -3357,7 +4538,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa tamno crvenim/smeđim krovom, jasno vidljiva na ortofoto snimci.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:24.549Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.173Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 241,
+        "iou": 0.44
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Vidikovac",
+          "houseNumber": "3",
+          "settlement": "Velika Rakovica",
+          "postcode": "10430",
+          "city": "Samobor",
+          "lon": 15.719072,
+          "lat": 45.77648
+        }
+      ]
     },
     {
       "id": "way/1550213329",
@@ -3406,7 +4607,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika zgrada s tamnim krovom i većim građevinskim kompleksom s poljoprivrednim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:24.329Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.174Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 172,
+        "iou": 0.52
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Koletići",
+          "houseNumber": "4",
+          "settlement": "Velika Rakovica",
+          "postcode": "10430",
+          "city": "Samobor",
+          "lon": 15.718029,
+          "lat": 45.776453
+        }
+      ]
     },
     {
       "id": "way/1550213330",
@@ -3455,7 +4676,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom i bijelo-sivim dodatnim strukturama okruženim zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:24.824Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.174Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 171,
+        "iou": 0.56
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Voćnjaci",
+          "houseNumber": "24",
+          "settlement": "Velika Rakovica",
+          "postcode": "10430",
+          "city": "Samobor",
+          "lon": 15.717216,
+          "lat": 45.777137
+        }
+      ]
     },
     {
       "id": "way/1550213331",
@@ -3495,6 +4736,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine s crvenom/smeđom bojom, okružen zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:24.516Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.175Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 161,
+        "iou": 0.21
       }
     },
     {
@@ -3544,7 +4794,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva građevina sa sivim/tamnim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:27.041Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.176Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 96,
+        "iou": 0.23
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Koletići",
+          "houseNumber": "11",
+          "settlement": "Velika Rakovica",
+          "postcode": "10430",
+          "city": "Samobor",
+          "lon": 15.717055,
+          "lat": 45.776633
+        }
+      ]
     },
     {
       "id": "way/1550213333",
@@ -3585,6 +4855,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura s krovom, okružena poljima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:27.233Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.176Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 96,
+        "iou": 0.32
       }
     },
     {
@@ -3633,6 +4912,11 @@
         "obrazlozenje": "U centru kadra vidljiva je reddasta/ružičasta struktura koja predstavlja krov izgrađene zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:27.040Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.176Z"
       }
     },
     {
@@ -3674,6 +4958,11 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom, jasno razlučiva od okolnog terena i ceste.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:22.949Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.176Z"
       }
     },
     {
@@ -3713,6 +5002,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine svijetle boje između ceste i vegetacije.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:27.002Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.177Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 32,
+        "iou": 0.02
       }
     },
     {
@@ -3752,6 +5050,11 @@
         "obrazlozenje": "U centru kadra je vidljiva jasno izgrađena struktura s krovom i vanjskim zidovima, okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:29.540Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.177Z"
       }
     },
     {
@@ -3812,6 +5115,11 @@
         "obrazlozenje": "U centru kadra vidljiv je krov velike građevine s jasno vidljivim konturama i sivom bojom karakterističnom za betonsku/asfaltnu površinu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:30.055Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.177Z"
       }
     },
     {
@@ -3852,6 +5160,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi veća izgrađena struktura s više krovnih površina u beigoj/ružičastoj boji.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:30.731Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.177Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 472,
+        "iou": 0.08
       }
     },
     {
@@ -3892,6 +5209,11 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:29.949Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.179Z"
       }
     },
     {
@@ -3940,7 +5262,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim krovom sive/tamne boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:29.310Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.181Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 147,
+        "iou": 0.25
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Stjepana Stepanića",
+          "houseNumber": "2",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.072063,
+          "lat": 45.702556
+        }
+      ]
     },
     {
       "id": "way/1550295180",
@@ -3980,6 +5322,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s vidljivim krovom crvene boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:32.819Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.182Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 31,
+        "iou": 0.15
       }
     },
     {
@@ -4036,7 +5387,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim krovom i betonskom platformom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:36.166Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.183Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 143,
+        "iou": 0.19
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Stjepana Stepanića",
+          "houseNumber": "4",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.071993,
+          "lat": 45.702408
+        }
+      ]
     },
     {
       "id": "way/1550295182",
@@ -4084,6 +5455,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:33.141Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.184Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 23,
+        "iou": 0.14
       }
     },
     {
@@ -4128,6 +5508,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika bijela/siva zgrada s krovom, okružena manjim crvenim krovovima i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:35.144Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.185Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 62,
+        "iou": 0.21
       }
     },
     {
@@ -4188,6 +5577,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva crvena/ružičasta krovna konstrukcija i bijela zgrada s okolnim gospodarskim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:33.752Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.186Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 62,
+        "iou": 0.24
       }
     },
     {
@@ -4256,7 +5654,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika građevina s crvenim i bijelim krovom, okružena poljima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:44.422Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.187Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 148,
+        "iou": 0.29
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Stjepana Radočaja",
+          "houseNumber": "1",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.071473,
+          "lat": 45.702506
+        }
+      ]
     },
     {
       "id": "way/1550295191",
@@ -4304,6 +5722,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi nekoliko velikih građevina s vidljivim krovovima, uključujući što izgleda kao glavna siva/betonska konstrukcija okružena manjim objektima i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:39.831Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.188Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 50,
+        "iou": 0.2
       }
     },
     {
@@ -4360,7 +5787,27 @@
         "obrazlozenje": "U centru kadra jasno se vide krovovi nekoliko zgrada s različitim bojama i oblicima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:39.694Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.189Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 85,
+        "iou": 0.34
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Stjepana Stepanića",
+          "houseNumber": "6",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.071836,
+          "lat": 45.702067
+        }
+      ]
     },
     {
       "id": "way/1550295193",
@@ -4424,7 +5871,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi crvenih krovova zgrada s njihovim sjenkama, kao i dijelovi grijaće infrastrukture oko njih.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:39.612Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.193Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 90,
+        "iou": 0.24
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Stjepana Radočaja",
+          "houseNumber": "5",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.0712,
+          "lat": 45.702086
+        }
+      ]
     },
     {
       "id": "way/1550295194",
@@ -4472,6 +5939,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi ružičastog krova koja predstavlja izgrađenu građevinu s vidljivom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:39.663Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.194Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 79,
+        "iou": 0.32
       }
     },
     {
@@ -4536,7 +6012,27 @@
         "obrazlozenje": "U centru kadra je vidljiva građevina s crvenim krovom okružena zelenilom i poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:47.286Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.195Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 176,
+        "iou": 0.3
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Stjepana Stepanića",
+          "houseNumber": "8",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.071673,
+          "lat": 45.701952
+        }
+      ]
     },
     {
       "id": "way/1550295196",
@@ -4576,6 +6072,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiv krov crvene/smeđe boje koji pripada izgrađenoj zgradi.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:47.768Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.197Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 14,
+        "povrsinaMs": 341,
+        "iou": 0.08
       }
     },
     {
@@ -4660,7 +6165,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine s crvenom/smeđom bojom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:47.482Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.198Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 341,
+        "iou": 0.3
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Stjepana Stepanića",
+          "houseNumber": "10",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.071675,
+          "lat": 45.701759
+        }
+      ]
     },
     {
       "id": "way/1550295198",
@@ -4724,6 +6249,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenim/rozim krovom i tamnim dijelovima, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:47.794Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.200Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 341,
+        "iou": 0.15
       }
     },
     {
@@ -4768,6 +6302,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni krov izgrađene zgrade s okolnim zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:47.760Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.201Z",
+        "kako": "blizu",
+        "udaljenostM": 18,
+        "povrsinaMs": 341,
+        "iou": 0.03
       }
     },
     {
@@ -4808,6 +6351,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s krovom crvene/smeđe boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:50.145Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.202Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 294,
+        "iou": 0.1
       }
     },
     {
@@ -4848,6 +6400,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenkastim krovom i tamnim/sivim dijelovima konstrukcije.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:50.448Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.203Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 294,
+        "iou": 0.33
       }
     },
     {
@@ -4920,7 +6481,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva rezidencijalna zgrada s crvenim/ružičastim krovom i okolnim lokalitetom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:50.266Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.204Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 11,
+        "povrsinaMs": 320,
+        "iou": 0.3
+      },
+      "dguTocke": [
+        {
+          "street": "Lomnička",
+          "houseNumber": "93",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.071218,
+          "lat": 45.701345
+        }
+      ]
     },
     {
       "id": "way/1550295203",
@@ -4976,6 +6557,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena zgrada sa sivim/plavkastim krovom okružena zelenim površinama i pristupnom cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:50.196Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.205Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 320,
+        "iou": 0.16
       }
     },
     {
@@ -5016,6 +6606,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiv veliki zgrada s tamnosmeđim krovom okružen zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:50.223Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.206Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 204,
+        "iou": 0.07
       }
     },
     {
@@ -5056,6 +6655,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:52.895Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.207Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 204,
+        "iou": 0
       }
     },
     {
@@ -5104,6 +6712,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s terrakota/crvenim krovom i tamnim bočnim dijelovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:53.302Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.208Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 204,
+        "iou": 0.11
       }
     },
     {
@@ -5160,7 +6777,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s tamnom (crnom ili tamnosivom) krovnom konstrukcijom, okružena zelenim poljima i drugim građevinama s crvenim krovovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:53.033Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.209Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 11,
+        "povrsinaMs": 204,
+        "iou": 0.26
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Stjepana Radočaja",
+          "houseNumber": "7",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.07121,
+          "lat": 45.701773
+        }
+      ]
     },
     {
       "id": "way/1550295208",
@@ -5224,7 +6861,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom i jasno definiranim konturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:52.768Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.210Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 54,
+        "iou": 0.16
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Stjepana Radočaja",
+          "houseNumber": "9",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.07106,
+          "lat": 45.701724
+        }
+      ]
     },
     {
       "id": "way/1550295209",
@@ -5264,6 +6921,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov crvene/ružičaste boje koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:52.800Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.211Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 103,
+        "iou": 0.16
       }
     },
     {
@@ -5312,6 +6978,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade sa zelenom vegetacijom oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:55.529Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.212Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 95,
+        "iou": 0.17
       }
     },
     {
@@ -5416,7 +7091,27 @@
         "obrazlozenje": "U centru snimke jasno se vidi građevina s crvenim krovom okružena zelenim površinama i drugim kućama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:55.641Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.214Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 184,
+        "iou": 0.3
+      },
+      "dguTocke": [
+        {
+          "street": "Lomnička",
+          "houseNumber": "91",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.070978,
+          "lat": 45.70145
+        }
+      ]
     },
     {
       "id": "way/1550295458",
@@ -5460,6 +7155,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/tamnocrvena krovna površina građevine s jasnim konturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:56.080Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.214Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 52,
+        "iou": 0
       }
     },
     {
@@ -5504,6 +7208,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna površina koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:55.528Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.215Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 52,
+        "iou": 0.16
       }
     },
     {
@@ -5556,7 +7269,27 @@
         "obrazlozenje": "U centru kadra vidljive su crvene i smeđe krovne površine s nekoliko zgrada i pratećih građevina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:55.621Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.216Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 129,
+        "iou": 0.25
+      },
+      "dguTocke": [
+        {
+          "street": "Horvatova ulica",
+          "houseNumber": "48",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.072072,
+          "lat": 45.702911
+        }
+      ]
     },
     {
       "id": "way/1550295461",
@@ -5636,7 +7369,27 @@
         "obrazlozenje": "U centru snimke jasno se vidi zgrada s crvenim/ružičastim krovom i pridruženim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:58.404Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.217Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 102,
+        "iou": 0.23
+      },
+      "dguTocke": [
+        {
+          "street": "Horvatova ulica",
+          "houseNumber": "46",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.071948,
+          "lat": 45.702919
+        }
+      ]
     },
     {
       "id": "way/1550295462",
@@ -5684,6 +7437,15 @@
         "obrazlozenje": "U centru kadra vidljive su izgradnje s krovovima različitih boja (crvena, siva, plava) i zelenim površinama oko njih.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:58.675Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.218Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 40,
+        "iou": 0.24
       }
     },
     {
@@ -5752,7 +7514,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov objekta s karakterističnom crvenom/ružičastom bojom i dijelovima zelene vegetacije oko njega.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:58.428Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.220Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 90,
+        "iou": 0.19
+      },
+      "dguTocke": [
+        {
+          "street": "Horvatova ulica",
+          "houseNumber": "44",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.071761,
+          "lat": 45.702896
+        }
+      ]
     },
     {
       "id": "way/1550295464",
@@ -5796,6 +7578,15 @@
         "obrazlozenje": "U centru kadra vidljivi su krovovi nekoliko zgrada s različitim bojama i strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:58.278Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.221Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 77,
+        "iou": 0.18
       }
     },
     {
@@ -5844,7 +7635,23 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine s jasno vidljivom strukturom i senkom, smještene pored puta.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:14:58.420Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.222Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Nikole Tesle",
+          "houseNumber": "6",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.053335,
+          "lat": 45.708007
+        }
+      ]
     },
     {
       "id": "way/1550301005",
@@ -5884,6 +7691,11 @@
         "obrazlozenje": "U centru kadra vidljive su dvije građevine - veća zgrada sa sivim krovom i manja građevina, smještene između poljoprivrednih površina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:02.038Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.223Z"
       }
     },
     {
@@ -5932,7 +7744,23 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine s pravokutnim oblikom, jasno razlikovan od okoline.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:01.008Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.224Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Nikole Tesle",
+          "houseNumber": "8",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.053739,
+          "lat": 45.707791
+        }
+      ]
     },
     {
       "id": "way/1550301351",
@@ -5992,7 +7820,32 @@
         "obrazlozenje": "U centru kadra jasno se vidi više zgrada s krovovima različitih boja i oblika, uključujući crne, smeđe i crvene krovove.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:01.073Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.225Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Nikole Tesle",
+          "houseNumber": "78",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.063483,
+          "lat": 45.703466
+        },
+        {
+          "street": "Slavka Kolara",
+          "houseNumber": "99A",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.063463,
+          "lat": 45.703338
+        }
+      ]
     },
     {
       "id": "way/1550305288",
@@ -6042,7 +7895,27 @@
         "obrazlozenje": "Jasno je vidljiva pravokutna građevina s tamnim krovom u centru snimke, okružena parkirnom zonom i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:01.125Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.226Z",
+        "kako": "blizu",
+        "udaljenostM": 16,
+        "povrsinaMs": 327,
+        "iou": 0.06
+      },
+      "dguTocke": [
+        {
+          "street": "Pavleka Miškine",
+          "houseNumber": "102",
+          "settlement": "Ždala",
+          "postcode": "48332",
+          "city": "Ždala",
+          "lon": 17.165274,
+          "lat": 46.12295
+        }
+      ]
     },
     {
       "id": "way/1550322581",
@@ -6106,7 +7979,36 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov veće zgrade s vidljivom strukturom i dijelovima građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:01.169Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.227Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 380,
+        "iou": 0.22
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "28",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496446,
+          "lat": 45.304362
+        },
+        {
+          "street": "Žuknica",
+          "houseNumber": "27",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496401,
+          "lat": 45.304426
+        }
+      ]
     },
     {
       "id": "way/1550322582",
@@ -6154,7 +8056,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov građevine",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:04.169Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.227Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "49",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495797,
+          "lat": 45.304295
+        }
+      ]
     },
     {
       "id": "way/1550322583",
@@ -6206,7 +8124,27 @@
         "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim/smeđim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:06.123Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.228Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 81,
+        "iou": 0.54
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "42",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495187,
+          "lat": 45.305268
+        }
+      ]
     },
     {
       "id": "way/1550322584",
@@ -6254,7 +8192,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/terrakota krovom, jasno razlicitim od okolnog terena i vegetacije.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:04.433Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.228Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 76,
+        "iou": 0.25
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "44",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495779,
+          "lat": 45.304772
+        }
+      ]
     },
     {
       "id": "way/1550322585",
@@ -6302,7 +8260,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika bijela/svijetla zgrada s krovom, okružena parcelama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:04.356Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.229Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 105,
+        "iou": 0.36
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "15",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.498834,
+          "lat": 45.307127
+        }
+      ]
     },
     {
       "id": "way/1550322586",
@@ -6350,7 +8328,27 @@
         "obrazlozenje": "U centru kadra vidljiv je rozi/crveni krov zgrade s jasno vidljivim konturama i strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:04.434Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.229Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 132,
+        "iou": 0.48
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "30",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496656,
+          "lat": 45.303934
+        }
+      ]
     },
     {
       "id": "way/1550322587",
@@ -6422,7 +8420,27 @@
         "obrazlozenje": "U centru kadra jasno su vidljive građevine s crvenim/ružičastim krovovima i zelenim nasadima oko njih.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:08.816Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.230Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 247,
+        "iou": 0.49
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "53C",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.493965,
+          "lat": 45.305195
+        }
+      ]
     },
     {
       "id": "way/1550322588",
@@ -6470,7 +8488,27 @@
         "obrazlozenje": "U centru kadra vidljiva je svijetla građevina s krovom između vegetacije.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:08.370Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.231Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 108,
+        "iou": 0.48
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "4",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49649,
+          "lat": 45.305751
+        }
+      ]
     },
     {
       "id": "way/1550322589",
@@ -6526,7 +8564,27 @@
         "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina s krovom, okružena zelenim površinama i crvenim krovovima obližnjih zgrada.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:08.556Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.231Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 175,
+        "iou": 0.37
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "2",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49728,
+          "lat": 45.308104
+        }
+      ]
     },
     {
       "id": "way/1550322590",
@@ -6634,7 +8692,32 @@
         "obrazlozenje": "U centru snimke je jasno vidljiva građevina s krovom i okućnicom sa dodatnim manjim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:08.468Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.231Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "54H",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495478,
+          "lat": 45.303091
+        },
+        {
+          "street": "Žuknica",
+          "houseNumber": "54J",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495481,
+          "lat": 45.302991
+        }
+      ]
     },
     {
       "id": "way/1550322591",
@@ -6698,7 +8781,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika crvena/ružičasta krovna površina pravokutnog oblika, što ukazuje na izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:08.848Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.231Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 236,
+        "iou": 0.48
+      },
+      "dguTocke": [
+        {
+          "street": "Glavani",
+          "houseNumber": "83A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495604,
+          "lat": 45.309338
+        }
+      ]
     },
     {
       "id": "way/1550322592",
@@ -6754,7 +8857,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna kvadratna građevina sa sivim/betonskim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:11.408Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.232Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 69,
+        "iou": 0.4
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "52A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494879,
+          "lat": 45.30457
+        }
+      ]
     },
     {
       "id": "way/1550322593",
@@ -6802,7 +8925,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:11.089Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.232Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 88,
+        "iou": 0.4
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "18",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.499134,
+          "lat": 45.306977
+        }
+      ]
     },
     {
       "id": "way/1550322594",
@@ -6874,7 +9017,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi roza/crveni krov zgrade s jasno vidljivim konturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:11.210Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.233Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 238,
+        "iou": 0.39
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "29",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496324,
+          "lat": 45.30382
+        }
+      ]
     },
     {
       "id": "way/1550322595",
@@ -6914,6 +9077,15 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena struktura sa sivim/plavkastim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:11.148Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.233Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 60,
+        "iou": 0.21
       }
     },
     {
@@ -6962,7 +9134,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim/teracota krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:10.973Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.234Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 97,
+        "iou": 0.21
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "36",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496105,
+          "lat": 45.304252
+        }
+      ]
     },
     {
       "id": "way/1550322597",
@@ -7002,6 +9194,11 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom, okružena sa svjetlijim površinama (vjerojatno parkiralište ili učvršćeni dio) i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:14.042Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.234Z"
       }
     },
     {
@@ -7074,7 +9271,27 @@
         "obrazlozenje": "U centru kadra je vidljiva svijetlija građevina s krovom, okružena zelenim poljima i šumskom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:13.719Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.234Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 189,
+        "iou": 0.5
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "17",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.499357,
+          "lat": 45.307261
+        }
+      ]
     },
     {
       "id": "way/1550322599",
@@ -7130,7 +9347,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom boje bež/smeđe, okružena parcelama i putanjama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:13.951Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.234Z",
+        "kako": "blizu",
+        "udaljenostM": 2,
+        "povrsinaMs": 157,
+        "iou": 0.39
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "25",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496299,
+          "lat": 45.304937
+        }
+      ]
     },
     {
       "id": "way/1550322600",
@@ -7210,7 +9447,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim krovom crvene/smeđe boje i dijelovima strukture.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:13.716Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.235Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 280,
+        "iou": 0.55
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "54C",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495692,
+          "lat": 45.303912
+        }
+      ]
     },
     {
       "id": "way/1550322601",
@@ -7270,7 +9527,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi reddasta krovna konstrukcija koja pripada izgrađenoj zgradi.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:13.816Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.235Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 117,
+        "iou": 0.33
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "24",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496319,
+          "lat": 45.305311
+        }
+      ]
     },
     {
       "id": "way/1550322602",
@@ -7318,7 +9595,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade s vidljivom građevnom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:16.330Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.236Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 133,
+        "iou": 0.36
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "10",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.497903,
+          "lat": 45.307364
+        }
+      ]
     },
     {
       "id": "way/1550322603",
@@ -7378,7 +9675,27 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine bež/smeđe boje okružen zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:16.217Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.236Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 158,
+        "iou": 0.45
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "8",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49673,
+          "lat": 45.305602
+        }
+      ]
     },
     {
       "id": "way/1550322604",
@@ -7426,7 +9743,36 @@
         "obrazlozenje": "U centru kadra jasno se vidi krovna površina sive/tamnosive boje koja pripada izgrađenoj zgradi.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:16.346Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.237Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 149,
+        "iou": 0.51
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "22",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.499585,
+          "lat": 45.306864
+        },
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "21",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.499492,
+          "lat": 45.306908
+        }
+      ]
     },
     {
       "id": "way/1550322605",
@@ -7466,6 +9812,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna površina građevine s jasno vidljivim obrisima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:16.451Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.237Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 50,
+        "iou": 0.29
       }
     },
     {
@@ -7526,7 +9881,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna struktura objekta s pravokutnim krovom crvene/smeđe boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:16.500Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.238Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 12,
+        "povrsinaMs": 336,
+        "iou": 0.15
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "53A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494869,
+          "lat": 45.304868
+        }
+      ]
     },
     {
       "id": "way/1550322608",
@@ -7586,7 +9961,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov plave/tamne boje, što ukazuje na izgrađenu građevinu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:18.913Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.238Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 243,
+        "iou": 0.33
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "23",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49976,
+          "lat": 45.306989
+        }
+      ]
     },
     {
       "id": "way/1550322609",
@@ -7646,7 +10041,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov velike građevine s vidljivom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:19.055Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.239Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 235,
+        "iou": 0.18
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "47",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495751,
+          "lat": 45.304458
+        }
+      ]
     },
     {
       "id": "way/1550322610",
@@ -7694,7 +10109,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna građevina sa sivim krovom okružena zelenim površinama i poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:18.896Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.239Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 119,
+        "iou": 0.27
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "38",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495832,
+          "lat": 45.304936
+        }
+      ]
     },
     {
       "id": "way/1550322611",
@@ -7734,6 +10169,11 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva bijela/svijetla građevina (zgrada) s pravokutnim obrisom i krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:19.770Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.239Z"
       }
     },
     {
@@ -7798,6 +10238,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi industrijska ili poljoprivredna zgrada s terrakota/crvenim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:18.942Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.240Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 127,
+        "iou": 0.43
       }
     },
     {
@@ -7846,7 +10295,27 @@
         "obrazlozenje": "Jasno se vidi veća zgrada sa tamnim krovom i pratećim građevinama s svjetlim krovovima u centru snimke.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:22.121Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.240Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 269,
+        "iou": 0.55
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "54G",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494789,
+          "lat": 45.303824
+        }
+      ]
     },
     {
       "id": "way/1550322614",
@@ -7910,7 +10379,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva građevina s crvenim/smeđim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:21.983Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.240Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 147,
+        "iou": 0.47
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "3",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.497368,
+          "lat": 45.307934
+        }
+      ]
     },
     {
       "id": "way/1550322615",
@@ -7958,7 +10447,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s svjetlim krovom i jasnim obrисima građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:21.914Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.241Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 71,
+        "iou": 0.48
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "23A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496166,
+          "lat": 45.305024
+        }
+      ]
     },
     {
       "id": "way/1550322616",
@@ -8022,7 +10531,27 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna struktura koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:22.023Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.242Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 212,
+        "iou": 0.47
+      },
+      "dguTocke": [
+        {
+          "street": "Glavani",
+          "houseNumber": "82",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495779,
+          "lat": 45.309906
+        }
+      ]
     },
     {
       "id": "way/1550322619",
@@ -8062,6 +10591,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine s jasno vidljivim rubovima i strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:22.031Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.242Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 21,
+        "iou": 0
       }
     },
     {
@@ -8102,6 +10640,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim krovom crvenkaste boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:24.229Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.242Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 40,
+        "iou": 0.39
       }
     },
     {
@@ -8150,7 +10697,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenim krovom i bijелim/sivim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:24.324Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.243Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 87,
+        "iou": 0.24
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "42A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495007,
+          "lat": 45.305177
+        }
+      ]
     },
     {
       "id": "way/1550322622",
@@ -8230,7 +10797,27 @@
         "obrazlozenje": "U centru kadra vidljive su bijele i crvene građevine s krovovima, jasno identificirane kao izgrađene zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:24.391Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.244Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 207,
+        "iou": 0.33
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "53/2",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494905,
+          "lat": 45.305274
+        }
+      ]
     },
     {
       "id": "way/1550322623",
@@ -8302,7 +10889,27 @@
         "obrazlozenje": "Jasno je vidljiv krov crvene/terakota boje u centru snimke, što ukazuje na izgrađenu građevinu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:24.449Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.244Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 229,
+        "iou": 0.46
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "54D",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495814,
+          "lat": 45.303775
+        }
+      ]
     },
     {
       "id": "way/1550322624",
@@ -8342,6 +10949,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/narančastim krovom i dijelom bijelog dijela građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:24.438Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.245Z",
+        "kako": "blizu",
+        "udaljenostM": 16,
+        "povrsinaMs": 235,
+        "iou": 0.01
       }
     },
     {
@@ -8406,7 +11022,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika industrijska ili trgovačka zgrada s pravokutnim sivim/bijelim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:27.183Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.245Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 221,
+        "iou": 0.54
+      },
+      "dguTocke": [
+        {
+          "street": "Glavani",
+          "houseNumber": "82E",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496413,
+          "lat": 45.309994
+        }
+      ]
     },
     {
       "id": "way/1550322626",
@@ -8454,7 +11090,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi roза/crveni krov veće građevine s više crnih dijelova i zelenih površina oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:26.887Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.246Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 75,
+        "iou": 0.33
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "35",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496244,
+          "lat": 45.304317
+        }
+      ]
     },
     {
       "id": "way/1550322627",
@@ -8502,7 +11158,27 @@
         "obrazlozenje": "U centru kadra vidljiva je velika siva/betonska građevina s jasno vidljivim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:26.653Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.247Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 109,
+        "iou": 0.51
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "54",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495375,
+          "lat": 45.304299
+        }
+      ]
     },
     {
       "id": "way/1550322628",
@@ -8562,7 +11238,27 @@
         "obrazlozenje": "U centru kadra vidljivi su crveni/ružičasti krovovi višestrukih zgrada s jasno vidljivim strukturama i linijama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:27.340Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.248Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 16,
+        "iou": 0.03
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "50",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495711,
+          "lat": 45.304362
+        }
+      ]
     },
     {
       "id": "way/1550322629",
@@ -8618,7 +11314,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:26.646Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.248Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 98,
+        "iou": 0.43
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "51",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495309,
+          "lat": 45.304674
+        }
+      ]
     },
     {
       "id": "way/1550322630",
@@ -8658,6 +11374,11 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine crvene/ružičaste boje s jasno vidljivim obrисima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:29.696Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.248Z"
       }
     },
     {
@@ -8710,6 +11431,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s vidljivim krovom u bež/ružičastoj boji.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:31.317Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.249Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 243,
+        "iou": 0.18
       }
     },
     {
@@ -8758,7 +11488,27 @@
         "obrazlozenje": "U centru kadra vidljiva je veća izgrađena struktura s jasno vidljivim krovom terakota boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:29.638Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.250Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 150,
+        "iou": 0.38
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "29A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496464,
+          "lat": 45.303698
+        }
+      ]
     },
     {
       "id": "way/1550322633",
@@ -8806,7 +11556,27 @@
         "obrazlozenje": "U centru kadra vidljiv je jasno crvenostni/narančasti krov građevine okružene zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:29.581Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.250Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 160,
+        "iou": 0.56
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "24",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49969,
+          "lat": 45.306718
+        }
+      ]
     },
     {
       "id": "way/1550322634",
@@ -8878,7 +11648,27 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s crvenim/narančastim krovom, jasno razlikovana od okolnog zelenila.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:29.735Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.252Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 73,
+        "iou": 0.22
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "33",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49642,
+          "lat": 45.304098
+        }
+      ]
     },
     {
       "id": "way/1550322636",
@@ -8926,7 +11716,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenim/smeđim krovom i strukturom karakterističnom za stambenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:33.752Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.253Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 81,
+        "iou": 0.18
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "41",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495302,
+          "lat": 45.305223
+        }
+      ]
     },
     {
       "id": "way/1550322637",
@@ -8982,7 +11792,23 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena struktura s krovom i jasno definiranim rubovima građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:33.469Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.253Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "54I",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495129,
+          "lat": 45.303346
+        }
+      ]
     },
     {
       "id": "way/1550322638",
@@ -9062,7 +11888,27 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada s crvenim/ružičastim krovom i jasno definiranim obrисima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:33.604Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.254Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 211,
+        "iou": 0.45
+      },
+      "dguTocke": [
+        {
+          "street": "Glavani",
+          "houseNumber": "82A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496042,
+          "lat": 45.309728
+        }
+      ]
     },
     {
       "id": "way/1550322639",
@@ -9110,7 +11956,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiv krov građevine svjetlije boje s geometrijskim oblicima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:33.544Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.254Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 163,
+        "iou": 0.44
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "23",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496319,
+          "lat": 45.30512
+        }
+      ]
     },
     {
       "id": "way/1550322640",
@@ -9150,6 +12016,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva siva/betonska građevina s krovom, vjerojatno industrijska ili gospodarska zgrada.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:33.800Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.255Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 59,
+        "iou": 0.28
       }
     },
     {
@@ -9214,7 +12089,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi rdeća krovna konstrukcija zgrade okružena zelenom vegetacijom i ostalim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:36.102Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.255Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 267,
+        "iou": 0.45
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "53B",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494329,
+          "lat": 45.305419
+        }
+      ]
     },
     {
       "id": "way/1550322642",
@@ -9278,7 +12173,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/smeđim krovom i jasno definiranom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:36.114Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.256Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 120,
+        "iou": 0.38
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "9",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.498197,
+          "lat": 45.30738
+        }
+      ]
     },
     {
       "id": "way/1550322643",
@@ -9326,7 +12241,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada s crvenim/ružičastim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:35.889Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.256Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 60,
+        "iou": 0.27
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "16",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.498741,
+          "lat": 45.307031
+        }
+      ]
     },
     {
       "id": "way/1550322644",
@@ -9382,7 +12317,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom i okolnom infrastrukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:36.270Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.256Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 148,
+        "iou": 0.46
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "30A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496805,
+          "lat": 45.304077
+        }
+      ]
     },
     {
       "id": "way/1550322645",
@@ -9462,7 +12417,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva veća zgrada s crvenim krovom i białim zidovima, okružena vanjskim prostorom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:36.166Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.257Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 269,
+        "iou": 0.58
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "3A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496389,
+          "lat": 45.306115
+        }
+      ]
     },
     {
       "id": "way/1550322646",
@@ -9502,6 +12477,15 @@
         "obrazlozenje": "U centru snimke vidljiva je jasno izgrađena struktura s krovom, vidljivi su rubovi i konture građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:38.664Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.257Z",
+        "kako": "blizu",
+        "udaljenostM": 11,
+        "povrsinaMs": 38,
+        "iou": 0
       }
     },
     {
@@ -9562,7 +12546,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva velika industrijska ili poljoprivredna građevina s pravokutnim krovom sive boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:38.672Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.257Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 180,
+        "iou": 0.35
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "4B",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.497065,
+          "lat": 45.307496
+        }
+      ]
     },
     {
       "id": "way/1550322648",
@@ -9618,6 +12622,11 @@
         "obrazlozenje": "U centru kadra jasno se vidi pravokutna građevina s reddkastim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:38.726Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.258Z"
       }
     },
     {
@@ -9658,6 +12667,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/terracotta krov rezidencijalne zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:38.614Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.258Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 120,
+        "iou": 0
       }
     },
     {
@@ -9706,7 +12724,27 @@
         "obrazlozenje": "U centru kadra je vidljiva velika bijela građevina s pravokutnim oblikom, što izgleda kao krov industrijske ili poljoprivredne zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:38.731Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.258Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 249,
+        "iou": 0.58
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "54E",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495759,
+          "lat": 45.303223
+        }
+      ]
     },
     {
       "id": "way/1550322651",
@@ -9790,7 +12828,27 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta krovna konstrukcija koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:41.169Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.259Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 380,
+        "iou": 0.31
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "26",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496337,
+          "lat": 45.304491
+        }
+      ]
     },
     {
       "id": "way/1550322652",
@@ -9838,7 +12896,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s krovom u boji opeke, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:40.953Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.260Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 198,
+        "iou": 0.66
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "19",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.498559,
+          "lat": 45.306339
+        }
+      ]
     },
     {
       "id": "way/1550322653",
@@ -9894,7 +12972,23 @@
         "obrazlozenje": "U centru kadra je vidljiva velika pravokutna građevina s jasno vidljivim krovom smeđe boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:41.017Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.260Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "5A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.492966,
+          "lat": 45.302314
+        }
+      ]
     },
     {
       "id": "way/1550322654",
@@ -9942,7 +13036,27 @@
         "obrazlozenje": "U centru kadra je vidljiva roза/crvena krovišta građevine s jasno definiranim rubovima i obrisima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:41.105Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.261Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 64,
+        "iou": 0.25
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "12",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496008,
+          "lat": 45.305771
+        }
+      ]
     },
     {
       "id": "way/1550322655",
@@ -10014,7 +13128,23 @@
         "obrazlozenje": "U centru kadra je vidljiva siva/tamna krovišna površina koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:40.954Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.261Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "4A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.497458,
+          "lat": 45.307703
+        }
+      ]
     },
     {
       "id": "way/1550322656",
@@ -10078,7 +13208,23 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/ružičastim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:43.307Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.261Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "48",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49589,
+          "lat": 45.304221
+        }
+      ]
     },
     {
       "id": "way/1550322657",
@@ -10150,7 +13296,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov veće građevine s vidljivim obrisima zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:43.536Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.261Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "54F",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495154,
+          "lat": 45.303624
+        }
+      ]
     },
     {
       "id": "way/1550322658",
@@ -10190,6 +13352,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa sivim/beigeim krovom, okružena zelenim površinama i poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:43.477Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.261Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 67,
+        "iou": 0.29
       }
     },
     {
@@ -10262,7 +13433,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi ružičastocrveni krov zgrade s pravokutnim oblikom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:43.475Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.262Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 177,
+        "iou": 0.53
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "10A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.497261,
+          "lat": 45.307055
+        }
+      ]
     },
     {
       "id": "way/1550322660",
@@ -10310,7 +13501,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:43.723Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.263Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 235,
+        "iou": 0.2
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "46",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495669,
+          "lat": 45.304535
+        }
+      ]
     },
     {
       "id": "way/1550322661",
@@ -10358,7 +13569,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva bijela/svjetla građevina s krovom, okružena poljima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:45.971Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.263Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 198,
+        "iou": 0.21
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "40",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495387,
+          "lat": 45.305177
+        }
+      ]
     },
     {
       "id": "way/1550322663",
@@ -10406,7 +13637,27 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine tamnije boje okružen vegetacijom i poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:46.198Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.263Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 40,
+        "iou": 0.11
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "51A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495278,
+          "lat": 45.304812
+        }
+      ]
     },
     {
       "id": "way/1550322664",
@@ -10446,6 +13697,11 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva građevina s crvenkastim/smeđim krovom okružena šumskom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:46.218Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.263Z"
       }
     },
     {
@@ -10494,7 +13750,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov izgrađene zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:45.927Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.264Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 88,
+        "iou": 0.34
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "34",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49632,
+          "lat": 45.304164
+        }
+      ]
     },
     {
       "id": "way/1550322666",
@@ -10534,6 +13810,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom i strukturom, okružena vegetacijom i poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:46.363Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.264Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 38,
+        "iou": 0.17
       }
     },
     {
@@ -10590,7 +13875,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom, jasno vidljiva na ortofoto snimci.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:48.725Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.265Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 146,
+        "iou": 0.33
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "6",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49782,
+          "lat": 45.307647
+        }
+      ]
     },
     {
       "id": "way/1550322668",
@@ -10638,7 +13943,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim crvenim/ružičastim krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:48.674Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.265Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 251,
+        "iou": 0.47
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "53D",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.493779,
+          "lat": 45.305336
+        }
+      ]
     },
     {
       "id": "way/1550322670",
@@ -10682,6 +14007,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina sa sivim/betonskim krovom jasno razlikovanja od okolnog zelenog terena i poljoprivrednih parcela.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:48.891Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.266Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 47,
+        "iou": 0.47
       }
     },
     {
@@ -10730,7 +14064,27 @@
         "obrazlozenje": "U centru kadra vidljiva je tamna građevina s krovom, jasno vidljiva na satelitskoj snimci.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:48.690Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.266Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 106,
+        "iou": 0.42
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "39A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495476,
+          "lat": 45.304984
+        }
+      ]
     },
     {
       "id": "way/1550322672",
@@ -10798,7 +14152,72 @@
         "obrazlozenje": "U centru kadra jasno je vidljiv krov zgrade crvene/ružičaste boje s pratećim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:50.039Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.267Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 453,
+        "iou": 0.46
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "11",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496252,
+          "lat": 45.305605
+        },
+        {
+          "street": "Žuknica",
+          "houseNumber": "14",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496159,
+          "lat": 45.305761
+        },
+        {
+          "street": "Žuknica",
+          "houseNumber": "15",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496343,
+          "lat": 45.305635
+        },
+        {
+          "street": "Žuknica",
+          "houseNumber": "10",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496201,
+          "lat": 45.305719
+        },
+        {
+          "street": "Žuknica",
+          "houseNumber": "13",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496249,
+          "lat": 45.305787
+        },
+        {
+          "street": "Žuknica",
+          "houseNumber": "9",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496294,
+          "lat": 45.305715
+        }
+      ]
     },
     {
       "id": "way/1550322673",
@@ -10838,6 +14257,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom, jasno vidljiva kao izgrađena struktura.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:59.110Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.268Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 117,
+        "iou": 0.21
       }
     },
     {
@@ -10918,6 +14346,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i susjednom strukturom s svjetlim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:52.413Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.269Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 223,
+        "iou": 0.36
       }
     },
     {
@@ -10990,7 +14427,27 @@
         "obrazlozenje": "U centru kadra vidljiva je velika bijela zgrada s bazenom, okružena zelenim površinama i parkiralištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:52.610Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.269Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 149,
+        "iou": 0.38
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "53/1",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494775,
+          "lat": 45.305428
+        }
+      ]
     },
     {
       "id": "way/1550322676",
@@ -11038,7 +14495,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:52.324Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.270Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 235,
+        "iou": 0.01
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "45",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495791,
+          "lat": 45.304563
+        }
+      ]
     },
     {
       "id": "way/1550322677",
@@ -11086,7 +14563,27 @@
         "obrazlozenje": "U centru snimke vidljiva je betonska/asfaltna površina (vjerojatno parking ili prometna površina) sa strukturom ili manjom građevinom u neposrednoj blizini.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:15:52.719Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.270Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 59,
+        "iou": 0.32
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "8",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49829,
+          "lat": 45.307626
+        }
+      ]
     },
     {
       "id": "way/1550322678",
@@ -11150,7 +14647,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi građevina s crvenim/ružičastim krovom i vidljive su njene konture.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:02.143Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.271Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 109,
+        "iou": 0.38
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "3B",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496217,
+          "lat": 45.306267
+        }
+      ]
     },
     {
       "id": "way/1550322679",
@@ -11194,6 +14711,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika zgrada s crvenim/ružičastim krovom i vidljivom građevinom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:02.073Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.271Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 235,
+        "iou": 0.22
       }
     },
     {
@@ -11234,6 +14760,15 @@
         "obrazlozenje": "U centru kadra jasno se vide najmanje dvije zgrade s crvenim/smeđim krovovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:02.187Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.272Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 34,
+        "iou": 0.2
       }
     },
     {
@@ -11282,7 +14817,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna pravokutna struktura sa sivkastim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:02.300Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.272Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 69,
+        "iou": 0.31
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "16A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.498919,
+          "lat": 45.306898
+        }
+      ]
     },
     {
       "id": "way/1550322682",
@@ -11330,7 +14885,27 @@
         "obrazlozenje": "U centru kadra vidljiva je betonska struktura sa sivim krovom, vjerojatno industrijska ili poljoprivredna zgrada.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:02.454Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.273Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 71,
+        "iou": 0.27
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "17",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496457,
+          "lat": 45.305645
+        }
+      ]
     },
     {
       "id": "way/1550322683",
@@ -11378,7 +14953,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom sivkaste boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:04.552Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.274Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 181,
+        "iou": 0.43
+      },
+      "dguTocke": [
+        {
+          "street": "Glavani",
+          "houseNumber": "81A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495759,
+          "lat": 45.310156
+        }
+      ]
     },
     {
       "id": "way/1550322684",
@@ -11438,7 +15033,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi reddkasto-smeđi krov izgrađene zgrade okružen zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:05.033Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.275Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 336,
+        "iou": 0.38
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "52",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494993,
+          "lat": 45.30477
+        }
+      ]
     },
     {
       "id": "way/1550322685",
@@ -11478,6 +15093,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov građevine okružen zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:04.915Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.276Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 31,
+        "iou": 0.15
       }
     },
     {
@@ -11534,6 +15158,11 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s krovom, okružena parkiralištima i prometnom infrastrukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:04.888Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.276Z"
       }
     },
     {
@@ -11582,7 +15211,27 @@
         "obrazlozenje": "U centru kadra vidljivi su jasni obrisi krovova zgrada s različitim bojama i geometrijskim oblicima tipičnim za stambene objekte.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:04.983Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.277Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 57,
+        "iou": 0.47
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "20",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.499396,
+          "lat": 45.306958
+        }
+      ]
     },
     {
       "id": "way/1550322688",
@@ -11622,6 +15271,11 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna kvadratna/pravokutna struktura s krovom, prepoznatljiva kao izgrađena zgrada.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:07.380Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.277Z"
       }
     },
     {
@@ -11662,6 +15316,15 @@
         "obrazlozenje": "U centru kadra je vidljiva bijela zgrada s krovom, okružena zelenim površinama i poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:07.389Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.277Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 119,
+        "iou": 0.11
       }
     },
     {
@@ -11710,7 +15373,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim krovom crvene boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:07.189Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.278Z",
+        "kako": "blizu",
+        "udaljenostM": 14,
+        "povrsinaMs": 453,
+        "iou": 0.12
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "16",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49639,
+          "lat": 45.305563
+        }
+      ]
     },
     {
       "id": "way/1550322691",
@@ -11758,7 +15441,27 @@
         "obrazlozenje": "U centru kadra vidljive su dvije crvene/ružičaste građevine (krovovi) okružene zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:07.326Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.278Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 151,
+        "iou": 0.3
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "13",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.498554,
+          "lat": 45.307073
+        }
+      ]
     },
     {
       "id": "way/1550322692",
@@ -11814,7 +15517,27 @@
         "obrazlozenje": "Vidljiva je velika industrijska ili skladišna zgrada s jasno vidljivim krovom u centru snimke.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:07.189Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.278Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 147,
+        "iou": 0.33
+      },
+      "dguTocke": [
+        {
+          "street": "Glavani",
+          "houseNumber": "81C",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495223,
+          "lat": 45.309894
+        }
+      ]
     },
     {
       "id": "way/1550322693",
@@ -11862,7 +15585,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s tamnim krovom i bijelim zidovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:09.516Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.279Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 149,
+        "iou": 0.42
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "1",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496981,
+          "lat": 45.308247
+        }
+      ]
     },
     {
       "id": "way/1550322694",
@@ -11902,6 +15645,15 @@
         "obrazlozenje": "U centru kadra vidljivi su crveni krovovi karakteristični za izgrađene zgrade, jasno vidljive na satelitskoj snimci.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:09.627Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.279Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 20,
+        "iou": 0.02
       }
     },
     {
@@ -11950,7 +15702,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s krovom - bijela/svijetla struktura sa zelenim površinama oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:09.797Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.279Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 104,
+        "iou": 0.38
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "54A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495242,
+          "lat": 45.304228
+        }
+      ]
     },
     {
       "id": "way/1550322696",
@@ -11998,7 +15770,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/terakota krovom, jasno razlikovana od zelenih poljoprivrednih površina oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:09.998Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.279Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 71,
+        "iou": 0.35
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "20",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496495,
+          "lat": 45.30542
+        }
+      ]
     },
     {
       "id": "way/1550322697",
@@ -12046,7 +15838,27 @@
         "obrazlozenje": "U centru kadra vidljiva je reddkasta/roze krovana zgrada okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:09.660Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.280Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 198,
+        "iou": 0.19
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "39",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495477,
+          "lat": 45.305127
+        }
+      ]
     },
     {
       "id": "way/1550322698",
@@ -12102,7 +15914,27 @@
         "obrazlozenje": "U centru kadra vidljivi su dijelovi krovova zgrada s crvenim/ružičastim pokrivačem i drugih građevina sa sivim krovovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:12.650Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.281Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 54,
+        "iou": 0.24
+      },
+      "dguTocke": [
+        {
+          "street": "Sveta Lucija",
+          "houseNumber": "4",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.497623,
+          "lat": 45.307864
+        }
+      ]
     },
     {
       "id": "way/1550322699",
@@ -12158,7 +15990,36 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenim/terakota krovom i perifernim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:12.122Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.281Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 145,
+        "iou": 0.45
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "31",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49656,
+          "lat": 45.304031
+        },
+        {
+          "street": "Žuknica",
+          "houseNumber": "32",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.496614,
+          "lat": 45.304076
+        }
+      ]
     },
     {
       "id": "way/1550322700",
@@ -12206,6 +16067,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim/ružičastim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:12.196Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.282Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 119,
+        "iou": 0.28
       }
     },
     {
@@ -12254,7 +16124,27 @@
         "obrazlozenje": "U centru kadra vidljiv je dio zgrade s vidljivim krovom u sivoj boji, jasno razlikovan od okoline.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:12.291Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.282Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 85,
+        "iou": 0.3
+      },
+      "dguTocke": [
+        {
+          "street": "Žuknica",
+          "houseNumber": "37",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495944,
+          "lat": 45.304738
+        }
+      ]
     },
     {
       "id": "way/1550337002",
@@ -12292,6 +16182,11 @@
         "obrazlozenje": "U centru snimke vidljiv je krov zgrade s svjetijom bojom od okoline, jasno odvojen od okolne šume.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:13.530Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.282Z"
       }
     },
     {
@@ -12338,7 +16233,27 @@
         "obrazlozenje": "U centru kadra vidljiva je pravokutna struktura s krovom i jasno vidljivim obrisima građevine okružene vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:15.958Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:16.282Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 40,
+        "iou": 0.07
+      },
+      "dguTocke": [
+        {
+          "street": "Veli Iž",
+          "houseNumber": "1F",
+          "settlement": "Veli Iž",
+          "postcode": "23284",
+          "city": "Veli Iž",
+          "lon": 15.117856,
+          "lat": 44.047334
+        }
+      ]
     }
   ]
 }
