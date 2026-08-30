@@ -274,23 +274,24 @@
     height:300px; margin-bottom:11px; border-radius:10px;
     border:1px solid var(--border); overflow:hidden; background:var(--panel-alt);
   }
-  /* Razvijen popis slojeva. Veci razmaci nego na desktopu - ovo se dodiruje
-     prstom, pa je svaki redak visok barem 30 px. */
-  .k-karta .leaflet-control-layers{
-    font-size:13px; padding:8px 10px; max-width:none;
-    background:rgba(255,255,255,.94);
+  /* Traka slojeva ISPOD karte, ne u njoj. Leafletov izbornik je na telefonu
+     pokrivao pola snimke; ovako ne oduzima ni piksel karte. */
+  .k-slojevi{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:11px; }
+  .sloj-cip{
+    padding:8px 13px; border-radius:999px; font-size:13px; line-height:1;
+    border:1px solid var(--border); background:var(--panel-alt);
+    color:var(--text-dim); cursor:pointer; white-space:nowrap;
   }
-  .k-karta .leaflet-control-layers label{
-    display:flex; align-items:center; gap:7px; padding:6px 0; margin:0;
-    line-height:1.25; white-space:nowrap;
-  }
-  .k-karta .leaflet-control-layers input{ width:17px; height:17px; margin:0; }
-  .k-karta .leaflet-control-layers-separator{ margin:6px 0; }
+  .sloj-cip.aktivan{ background:var(--magenta); border-color:var(--magenta); color:#fff; }
+  /* Preklop (adresne tocke) ima crtkani rub - nije podloga, dodaje se povrh. */
+  .sloj-cip.preklop{ border-style:dashed; }
+  .sloj-cip.preklop.aktivan{ background:transparent; color:var(--magenta); border-style:solid; }
   .karta-gumb{
     display:flex; align-items:center; justify-content:center;
-    width:34px; height:34px; font-size:16px; line-height:1;
+    width:38px; height:38px; font-size:17px; line-height:1;
     background:#fff; color:#333; text-decoration:none;
   }
+  .karta-gumb-zatvori{ color:#b00; font-weight:700; }
   .k-dgu{
     margin-bottom:11px; padding:9px 11px; border-radius:9px;
     border:1px solid var(--border); background:var(--panel-alt); font-size:12.5px;
@@ -824,6 +825,7 @@ function prikazi(){
 
   // Popis se prerisuje pri svakoj promjeni, pa stara Leaflet instanca ostaje
   // vezana na uklonjen cvor. Uvijek je prvo unistimo.
+  if (karticaJeMaks()) vratiKarticnuKartu();
   if (karticnaKarta) { karticnaKarta.remove(); karticnaKarta = null; }
   const otvorena = stavke.find(o => o.z.i === otvorenaKartica);
   if (otvorena) nacrtajKarticnuKartu(otvorena.z);
@@ -864,7 +866,9 @@ function karticaHtml(z, d){
         '</div>' +
       '</div>' +
       '<div class="k-akcije">' +
-        (otvorenaKartica === z.i ? '<div class="k-karta" id="kkarta"></div>' + dguPodaciBlok(z) : '') +
+        (otvorenaKartica === z.i
+          ? '<div class="k-karta" id="kkarta"></div><div class="k-slojevi" id="kslojevi"></div>' + dguPodaciBlok(z)
+          : '') +
         '<div class="par">' +
           '<button class="veliki v-potvrdi" data-akcija="potvrđeno">✓ Potvrdi</button>' +
           '<button class="veliki v-odbaci" data-akcija="odbačeno">✕ Odbaci</button>' +
@@ -992,6 +996,51 @@ function nacrtajKartuSvih(stavke){
 // pred zgradom i usporedjuje sto vidi sa sluzbenom snimkom iz dvije epohe.
 // Staticna slika koja je ovdje bila prije nije se mogla ni pomaknuti ni
 // priblizti, pa je za provjeru susjedstva bila neupotrebljiva.
+// Puni zaslon za karticnu kartu. Stilovi se postavljaju INLINE, za oba stanja
+// izricito - oslanjanje na CSS klasu pokazalo se nepouzdanim na glavnoj
+// stranici (karta bi ostala prevelika nakon smanjivanja).
+const K_STIL_MALA =
+  'position:relative;top:auto;left:auto;right:auto;bottom:auto;' +
+  'width:auto;height:300px;margin:0 0 11px;z-index:auto;' +
+  'border:1px solid var(--border);border-radius:10px;';
+
+const K_STIL_VELIKA =
+  'position:fixed;top:0;left:0;right:0;bottom:0;' +
+  'width:100vw;height:100vh;margin:0;z-index:99999;' +
+  'border:none;border-radius:0;background:var(--panel-alt);';
+
+function karticaJeMaks(){
+  const el = document.getElementById('kkarta');
+  return !!(el && el.classList.contains('karta-maks'));
+}
+
+function vratiKarticnuKartu(){
+  const el = document.getElementById('kkarta');
+  if (!el) return;
+  el.classList.remove('karta-maks');
+  el.style.cssText = K_STIL_MALA;
+  const tr = document.getElementById('kslojevi');
+  if (tr) tr.style.cssText = '';
+  if (karticnaKarta) setTimeout(() => karticnaKarta.invalidateSize(), 60);
+}
+
+function prebaciMaksKarticnu(){
+  const el = document.getElementById('kkarta');
+  if (!el) return;
+  if (karticaJeMaks()) { vratiKarticnuKartu(); return; }
+  el.classList.add('karta-maks');
+  el.style.cssText = K_STIL_VELIKA;
+  // Traka slojeva ide preko karte, uz donji rub - inace ostaje zarobljena u
+  // kartici ispod i u punom zaslonu se ne moze doseci.
+  const tr = document.getElementById('kslojevi');
+  if (tr) {
+    tr.style.cssText = 'position:fixed;left:0;right:0;bottom:0;z-index:100000;' +
+      'justify-content:center;padding:10px 8px calc(10px + env(safe-area-inset-bottom));' +
+      'background:rgba(0,0,0,.55);margin:0;';
+  }
+  if (karticnaKarta) setTimeout(() => karticnaKarta.invalidateSize(), 60);
+}
+
 function nacrtajKarticnuKartu(z){
   const el = document.getElementById('kkarta');
   if (!el || typeof L === 'undefined') return;
@@ -1017,18 +1066,66 @@ function nacrtajKarticnuKartu(z){
 
   karticnaKarta = L.map(el, { layers: [dgu], zoomControl: true }).setView([z.y, z.x], 18);
 
-  // Razvijen popis, isto kao na glavnoj stranici. Sklopljen izbornik je bio
-  // samo ikona u kutu - covjek na terenu ne bi ni znao da slojevi postoje, a
-  // upravo je prebacivanje izmedju epoha ono zbog cega karta ovdje stoji.
-  L.control.layers(
-    {
-      'DGU ortofoto 2023./24.': dgu,
-      'DGU ortofoto 2021./22.': ranije,
-      'OSM (što je ucrtano)': osm
-    },
-    { 'DGU adresne točke (INSPIRE)': adrese },
-    { collapsed: false }
-  ).addTo(karticnaKarta);
+  // Slojevi se biraju IZVAN karte, u traci ispod nje. Leafletov ugradjeni
+  // izbornik je na stvarnom telefonu pokrivao pola karte - razvijen je prevelik,
+  // a sklopljen je samo ikona za koju korisnik ne zna da postoji. Traka ispod
+  // ne oduzima nista od snimke i uvijek se vidi sto je odabrano.
+  const podloge = [
+    { naziv: '2023./24.', sloj: dgu },
+    { naziv: '2021./22.', sloj: ranije },
+    { naziv: 'OSM',       sloj: osm },
+  ];
+  const traka = document.getElementById('kslojevi');
+  if (traka) {
+    traka.innerHTML = '';
+    podloge.forEach((p, i) => {
+      const b = document.createElement('button');
+      b.className = 'sloj-cip' + (i === 0 ? ' aktivan' : '');
+      b.textContent = p.naziv;
+      b.addEventListener('click', (e) => {
+        e.stopPropagation();
+        podloge.forEach(x => { if (karticnaKarta.hasLayer(x.sloj)) karticnaKarta.removeLayer(x.sloj); });
+        karticnaKarta.addLayer(p.sloj);
+        traka.querySelectorAll('.sloj-cip').forEach(x => x.classList.remove('aktivan'));
+        b.classList.add('aktivan');
+      });
+      traka.appendChild(b);
+    });
+
+    // Adresne tocke su preklop, ne podloga - zato zaseban gumb s drukcijim rubom.
+    const a = document.createElement('button');
+    a.className = 'sloj-cip preklop';
+    a.textContent = 'Adrese';
+    a.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (karticnaKarta.hasLayer(adrese)) { karticnaKarta.removeLayer(adrese); a.classList.remove('aktivan'); }
+      else { karticnaKarta.addLayer(adrese); a.classList.add('aktivan'); }
+    });
+    traka.appendChild(a);
+  }
+
+  // Povecanje i zatvaranje. Na telefonu je karta u kartici mala, a usporedba
+  // sa snimkom je glavni posao - bez punog zaslona se ne vidi susjedstvo.
+  const Alati = L.Control.extend({
+    options: { position: 'topright' },
+    onAdd: function(){
+      const okvir = L.DomUtil.create('div', 'leaflet-bar');
+      const maks = L.DomUtil.create('a', 'karta-gumb', okvir);
+      maks.href = '#'; maks.textContent = '\u26F6'; maks.title = 'Preko cijelog zaslona';
+      L.DomEvent.on(maks, 'click', function(e){ L.DomEvent.stop(e); prebaciMaksKarticnu(); });
+
+      const zatv = L.DomUtil.create('a', 'karta-gumb karta-gumb-zatvori', okvir);
+      zatv.href = '#'; zatv.textContent = '\u2715'; zatv.title = 'Zatvori';
+      L.DomEvent.on(zatv, 'click', function(e){
+        L.DomEvent.stop(e);
+        if (karticaJeMaks()) vratiKarticnuKartu();
+        else if (nacin === 'karta') zatvoriDetaljNadKartom();
+        else { otvorenaKartica = null; prikazi(); }
+      });
+      return okvir;
+    }
+  });
+  new Alati().addTo(karticnaKarta);
 
   // Terenski indeks nosi samo tocku, ne obris - zato krug, ne poligon.
   L.circleMarker([z.y, z.x], {
