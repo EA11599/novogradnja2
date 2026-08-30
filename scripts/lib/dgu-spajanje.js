@@ -85,7 +85,10 @@ function pronadjiSveDguAdrese(feature) {
       if (!kandidati) continue;
       for (const kandidat of kandidati) {
         if (booleanPointInPolygon([kandidat.lon, kandidat.lat], poly)) {
-          rezultati.push(kandidat.props);
+          // Uz atribute nosimo i koordinatu - bez nje se adresna tocka ne
+          // moze oznaciti na karti, a upravo je raspored tocaka unutar obrisa
+          // ono sto otkriva podjelu objekta na vise jedinica.
+          rezultati.push({ ...kandidat.props, lon: kandidat.lon, lat: kandidat.lat });
         }
       }
     }
@@ -110,6 +113,12 @@ function dodajDguAdrese(features) {
     if (sveAdrese.length > 0) {
       f.dguAdresa = sveAdrese[0]; // glavna prikazana adresa - i dalje prva
       f.dguBrojJedinica = sveAdrese.length; // broj DGU adresa unutar obrisa
+      // Cijeli popis s koordinatama, za oznacavanje na karti.
+      f.dguTocke = sveAdrese.map(a => ({
+        street: a.street || null, houseNumber: a.houseNumber || null,
+        settlement: a.settlement || null, postcode: a.postcode || null,
+        city: a.city || null, lon: a.lon, lat: a.lat,
+      }));
       nadjeno++;
     }
   }

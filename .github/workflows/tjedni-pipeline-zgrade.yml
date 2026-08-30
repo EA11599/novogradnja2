@@ -33,6 +33,24 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
+      # Microsoftovi obrisi su ~200 MB u 46 pocica. Bez predmemorije bi se
+      # skidali svaki tjedan iznova. Kljuc je vezan na oznaku izdanja iz
+      # scripts/lib/ms-indeks.js - kad se ondje promijeni IZDANJE, promijeni
+      # i kljuc ovdje, inace bi se koristile stare pocice.
+      - name: Predmemorija Microsoftovih obrisa
+        uses: actions/cache@v4
+        with:
+          path: data/ms-obrisi
+          key: ms-obrisi-2026-08-13
+
+      - name: Preuzmi Microsoftove obrise (preskace vec preuzeto)
+        run: node scripts/skini-ms-hrvatska.js
+
+      # Upisuje msProvjera u nove zapise. Bez ovoga sucelje za njih ne moze
+      # izracunati kompozitnu ocjenu - dokaz 'ms' ostaje nepoznat.
+      - name: Upisi Microsoftov nalaz u zapise zgrada
+        run: node scripts/backfill-ms-oznaka.js
+
       - name: Unakrsna provjera s novim DGU adresama
         run: node scripts/dgu-osm-krizna-provjera.js
 
@@ -47,6 +65,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/zgrade 2>/dev/null || true
+          # Snimke indeksne tablice su nasa jedina povijest izdanja -
+          # Microsoft stare verzije ne cuva. Same pocice su u .gitignore.
+          git add data/ms-obrisi/snimke 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nema promjena za commit."
           else

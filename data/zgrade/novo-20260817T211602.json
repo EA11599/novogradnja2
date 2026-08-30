@@ -47,7 +47,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom i białom strukturom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:18.293Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.312Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 198,
+        "iou": 0.57
+      },
+      "dguTocke": [
+        {
+          "street": "Poljanica Bistrička",
+          "houseNumber": "149",
+          "settlement": "Poljanica Bistrička",
+          "postcode": "49246",
+          "city": "Marija Bistrica",
+          "lon": 16.152379,
+          "lat": 46.037216
+        }
+      ]
     },
     {
       "id": "way/1550388455",
@@ -87,6 +107,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s krovom, vidljiva kao svjetla površina okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:18.877Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.313Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 130,
+        "iou": 0.74
       }
     },
     {
@@ -135,6 +164,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika crvena/bordo građevina s krovom te dodatne zelene površine oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:18.962Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.314Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 249,
+        "iou": 0.83
       }
     },
     {
@@ -175,6 +213,15 @@
         "obrazlozenje": "U centru kadra vidljivi su krovovi više zgrada, uključujući crvene i sive krovove, kao i građevina s jasno vidljivim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:19.079Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.314Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 110,
+        "iou": 0.56
       }
     },
     {
@@ -224,7 +271,27 @@
         "obrazlozenje": "U centru kadra je vidljiva tamnosmeđa/braon zgrada s jasno vidljivim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:18.910Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.315Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 200,
+        "iou": 0.81
+      },
+      "dguTocke": [
+        {
+          "street": "Gorčica",
+          "houseNumber": "3",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.304976,
+          "lat": 46.291561
+        }
+      ]
     },
     {
       "id": "way/1550388459",
@@ -265,7 +332,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika zgrada s krovom tamnije boje, okružena manjim gospodarskim objektima i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:21.315Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.315Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 188,
+        "iou": 0.73
+      },
+      "dguTocke": [
+        {
+          "street": "Gorčica",
+          "houseNumber": "5",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.304968,
+          "lat": 46.291386
+        }
+      ]
     },
     {
       "id": "way/1550388460",
@@ -305,6 +392,15 @@
         "obrazlozenje": "U centru kadra je vidljiv bijeli krov građevine s jasnim obrisima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:21.336Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.316Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 46,
+        "iou": 0.16
       }
     },
     {
@@ -345,6 +441,15 @@
         "obrazlozenje": "U centru kadra jasno se vide dva velika cilindarska objekta (silosi) s metalnim krovovima i dodatne građevine oko njih.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:21.562Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.317Z",
+        "kako": "blizu",
+        "udaljenostM": 16,
+        "povrsinaMs": 134,
+        "iou": 0.24
       }
     },
     {
@@ -385,6 +490,15 @@
         "obrazlozenje": "Vidljive su dvije paralelne cilindične strukture (silosi ili rezervoari) sa sivozelenim krovovima u centru kadra.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:21.506Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.318Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 240,
+        "iou": 0.84
       }
     },
     {
@@ -425,6 +539,11 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura s krovom, vidljivi su obrisi zgrade sa zelenom/sivom bojom koja ukazuje na postojeću građevinu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:21.670Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.318Z"
       }
     },
     {
@@ -465,6 +584,11 @@
         "obrazlozenje": "U centru kadra vidljiva je tamnosiva/plava struktura koja predstavlja krov građevine, okružena zelenim poljima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:24.187Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.318Z"
       }
     },
     {
@@ -505,6 +629,11 @@
         "obrazlozenje": "U centru kadra vidljiva je siva/tamna krovna struktura koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:24.155Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.318Z"
       }
     },
     {
@@ -545,6 +674,11 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena struktura s krovom tamnije boje, jasno različita od okolnog terena.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:23.880Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.319Z"
       }
     },
     {
@@ -586,7 +720,23 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva svjetla građevina s pravokutnim obrisom, vjerojatno stambena kuća s krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:23.937Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.319Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Gorčica",
+          "houseNumber": "15",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.30494,
+          "lat": 46.290539
+        }
+      ]
     },
     {
       "id": "way/1550388468",
@@ -626,6 +776,11 @@
         "obrazlozenje": "U centru kadra jasno se vidi građevina s svjetlosivim/bijelim krovom i tamnim dijelovima, okružena zelenim poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:24.000Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.319Z"
       }
     },
     {
@@ -666,6 +821,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov građevine s svjetijom bojom, okružen zelenim površinama i pristupnim putanjama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:26.492Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.320Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 52,
+        "iou": 0.75
       }
     },
     {
@@ -706,6 +870,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenkastvim krovom, okružena zelenim površinama i poljem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:26.436Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.321Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 43,
+        "iou": 0.6
       }
     },
     {
@@ -746,6 +919,11 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s pravokutnim krovom, okružena zelenim površinama i poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:26.378Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.322Z"
       }
     },
     {
@@ -786,6 +964,15 @@
         "obrazlozenje": "U centru kadra je vidljiva velika zgrada s bijelim krovom svijetle boje okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:26.456Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.324Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 77,
+        "iou": 0.51
       }
     },
     {
@@ -826,6 +1013,11 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/smeđim krovom i bijeli dio građevine sa lijeve strane.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:26.580Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.325Z"
       }
     },
     {
@@ -866,6 +1058,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov zgrade sa sivom/tamnom bojom, okružen zelenim površinama i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:28.952Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.326Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 0,
+        "povrsinaMs": 20,
+        "iou": 0.65
       }
     },
     {
@@ -906,6 +1107,11 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna građevina s krovom, sa strukturom koja se ističe od okolnog terena.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:29.059Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.326Z"
       }
     },
     {
@@ -946,6 +1152,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika zgrada sa sivim/tamnim krovom, okružena zelenim površinama i poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:28.881Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.327Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 44,
+        "iou": 0.46
       }
     },
     {
@@ -987,7 +1202,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva crvena/ružičasta krovna struktura sa susjednim gospodarskim zgradama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:28.874Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.328Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 107,
+        "iou": 0.55
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Tina Ujevića",
+          "houseNumber": "18",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.298858,
+          "lat": 46.285176
+        }
+      ]
     },
     {
       "id": "way/1550389052",
@@ -1028,7 +1263,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade s pravokutnim obrisom, okružen zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:28.881Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.329Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 144,
+        "iou": 0.66
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Tina Ujevića",
+          "houseNumber": "20",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.298643,
+          "lat": 46.284963
+        }
+      ]
     },
     {
       "id": "way/1550389053",
@@ -1069,7 +1324,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi tamna zgrada s krovom i okolnim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:31.265Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.329Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Tina Ujevića",
+          "houseNumber": "21",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.299582,
+          "lat": 46.284409
+        }
+      ]
     },
     {
       "id": "way/1550389054",
@@ -1110,7 +1381,23 @@
         "obrazlozenje": "Jasno je vidljiva industrijska ili poljoprivredna zgrada s bijelim krovom u centru snimke.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:31.585Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.330Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Tina Ujevića",
+          "houseNumber": "23",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.299196,
+          "lat": 46.28447
+        }
+      ]
     },
     {
       "id": "way/1550397107",
@@ -1158,7 +1445,27 @@
         "obrazlozenje": "U centru kadra je vidljiva velika betonska ili asfaltna površina (vjerojatno stadion ili sportski kompleks) s jasno vidljivim strukturama i linijama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:31.585Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.331Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 167,
+        "iou": 0.41
+      },
+      "dguTocke": [
+        {
+          "street": "Žurkovo",
+          "houseNumber": "4",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.489143,
+          "lat": 45.307113
+        }
+      ]
     },
     {
       "id": "way/1550397108",
@@ -1214,7 +1521,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva velika zgrada s bijelim krovom i bazenom, okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:31.344Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.332Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 217,
+        "iou": 0.21
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "14A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.493424,
+          "lat": 45.299819
+        }
+      ]
     },
     {
       "id": "way/1550397109",
@@ -1254,6 +1581,15 @@
         "obrazlozenje": "U centru kadra jasno se vide dvije bijele građevine s vidljivim krovovima, položene paralelno jedna uz drugu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:31.352Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.332Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 188,
+        "iou": 0.52
       }
     },
     {
@@ -1302,7 +1638,27 @@
         "obrazlozenje": "U centru kadra je vidljiva veća izgrađena zgrada s jasno vidljivim krovom i strukturom, okružena manjim objektima i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:34.174Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.333Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 274,
+        "iou": 0.2
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "19",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495246,
+          "lat": 45.299101
+        }
+      ]
     },
     {
       "id": "way/1550397113",
@@ -1342,6 +1698,15 @@
         "obrazlozenje": "U centru kadra vidljiva je bijela građevina s vidljivim krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:33.752Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.333Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 38,
+        "iou": 0.18
       }
     },
     {
@@ -1430,7 +1795,27 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada s krovom crvene/ružičaste boje i njene okoline.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:34.107Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.334Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 248,
+        "iou": 0.51
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "12",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49285,
+          "lat": 45.300406
+        }
+      ]
     },
     {
       "id": "way/1550397115",
@@ -1506,7 +1891,27 @@
         "obrazlozenje": "U centru kadra vidljiva je veća industrijska ili skladišna zgrada s svjetlosivim krovom i plavim strukturama/objektima pored nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:33.972Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.335Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 11,
+        "povrsinaMs": 531,
+        "iou": 0.26
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "17",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494671,
+          "lat": 45.298983
+        }
+      ]
     },
     {
       "id": "way/1550397116",
@@ -1554,6 +1959,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna betonska/cementna površina s parkiralištima i strukturama što ukazuje na izgrađenu građevinu ili kompleks uz obalu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:34.280Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.336Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 38,
+        "iou": 0.41
       }
     },
     {
@@ -1642,7 +2056,27 @@
         "obrazlozenje": "U centru snimke je jasno vidljiv krov zgrade s crvenom/narančastom bojom na tlu s vegetacijom oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:36.684Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.337Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 444,
+        "iou": 0.48
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "11",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.493964,
+          "lat": 45.298241
+        }
+      ]
     },
     {
       "id": "way/1550397119",
@@ -1690,7 +2124,36 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/ružičastim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:36.711Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.338Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 115,
+        "iou": 0.27
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "8",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.492057,
+          "lat": 45.300455
+        },
+        {
+          "street": "Rožići",
+          "houseNumber": "7",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.492023,
+          "lat": 45.3005
+        }
+      ]
     },
     {
       "id": "way/1550397120",
@@ -1730,6 +2193,15 @@
         "obrazlozenje": "U centru kadra vidljiva je velika betonska zgrada s jasno vidljivim krovom i građevinskom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:36.718Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.338Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 210,
+        "iou": 0.49
       }
     },
     {
@@ -1794,7 +2266,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena zgrada s krovom, vidljivi su dijelovi strukture i arhitekturnih elemenata zgrade.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:36.967Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.339Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 171,
+        "iou": 0.32
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "18",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495475,
+          "lat": 45.299034
+        }
+      ]
     },
     {
       "id": "way/1550397127",
@@ -1858,7 +2350,23 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika industrijska ili proizvodna zgrada s karakterističnim pravokutnim krovom, okružena parkiralištem i pristupnom cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:36.952Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.340Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Kostrenskih boraca",
+          "houseNumber": "18",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.490837,
+          "lat": 45.307416
+        }
+      ]
     },
     {
       "id": "way/1550397131",
@@ -1906,7 +2414,27 @@
         "obrazlozenje": "U centru kadra vidljiva je crvenkasta/ružičasta struktura koja predstavlja krov građevine, okružena zelenilom i djelomično vodom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:39.439Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.340Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 77,
+        "iou": 0.44
+      },
+      "dguTocke": [
+        {
+          "street": "Žurkovo",
+          "houseNumber": "9",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.488035,
+          "lat": 45.308278
+        }
+      ]
     },
     {
       "id": "way/1550397134",
@@ -1946,6 +2474,11 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika tirkizna/zelena struktura s pravokutnim oblikom koja predstavlja krov građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:39.597Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.341Z"
       }
     },
     {
@@ -1994,7 +2527,27 @@
         "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina s krovom i jasno vidljivim rubovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:39.290Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.341Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 12,
+        "povrsinaMs": 263,
+        "iou": 0.5
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "16",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494291,
+          "lat": 45.299205
+        }
+      ]
     },
     {
       "id": "way/1550397139",
@@ -2090,7 +2643,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi bijela/svijetla građevina sa vidljivim krovom i strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:39.196Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.343Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 241,
+        "iou": 0.4
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "12B",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.492599,
+          "lat": 45.301179
+        }
+      ]
     },
     {
       "id": "way/1550397140",
@@ -2130,6 +2703,11 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada s krovom svijetle boje, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:39.431Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.343Z"
       }
     },
     {
@@ -2194,7 +2772,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiv crveni krov građevine s pravokutnim oblikom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:41.665Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.344Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 204,
+        "iou": 0.5
+      },
+      "dguTocke": [
+        {
+          "street": "Žurkovo",
+          "houseNumber": "3",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.488796,
+          "lat": 45.307086
+        }
+      ]
     },
     {
       "id": "way/1550397142",
@@ -2242,7 +2840,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s crvenim/ružičastim krovom i okolnim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:41.989Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.344Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 206,
+        "iou": 0.52
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "20",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.49564,
+          "lat": 45.29934
+        }
+      ]
     },
     {
       "id": "way/1550397143",
@@ -2306,7 +2924,27 @@
         "obrazlozenje": "U centru snimke je jasno vidljiva zgrada s crvenim/橙 krovom i betoniranim površinama oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:42.199Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.345Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 376,
+        "iou": 0.52
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "14",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.493864,
+          "lat": 45.2995
+        }
+      ]
     },
     {
       "id": "way/1550397144",
@@ -2362,7 +3000,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika bijela građevina s krovom, vjerojatno industrijska ili skladišna zgrada.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:42.404Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.346Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 200,
+        "iou": 0.43
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "14B",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.493226,
+          "lat": 45.29995
+        }
+      ]
     },
     {
       "id": "way/1550397145",
@@ -2402,6 +3060,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s plavim/tirkiznim krovom i njene okoline s putovima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:42.083Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.346Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 109,
+        "iou": 0.3
       }
     },
     {
@@ -2466,7 +3133,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi bijela/svijetla zgrada s pravokutnim krovom i tamnim dijelovima, okružena zelenim površinama i drugim konstrukcijama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:45.306Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.349Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 122,
+        "iou": 0.35
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "21",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.495823,
+          "lat": 45.299179
+        }
+      ]
     },
     {
       "id": "way/1550397147",
@@ -2526,7 +3213,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenroza krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:46.619Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.349Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 98,
+        "iou": 0.35
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "2",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.491053,
+          "lat": 45.302125
+        }
+      ]
     },
     {
       "id": "way/1550397148",
@@ -2582,6 +3289,15 @@
         "obrazlozenje": "U centru kadra vidljive su jasne strukture zgrada s krovovima, posebno bijele/svjetle građevine koje se jasno razlikuju od okoline.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:45.053Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.350Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 141,
+        "iou": 0.43
       }
     },
     {
@@ -2630,6 +3346,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s vidljivim krovom i strukturom, jasno razlikovana od okolnog prostora.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:45.010Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.351Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 108,
+        "iou": 0.46
       }
     },
     {
@@ -2678,7 +3403,23 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva bijela/svijetla zgrada s pravokutnim obrisom i krovom, okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:44.893Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.351Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ivice Opačka Paje",
+          "houseNumber": "1",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.493426,
+          "lat": 45.30102
+        }
+      ]
     },
     {
       "id": "way/1550397152",
@@ -2718,6 +3459,11 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta struktura koja predstavlja krov zgrade okružene zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:48.977Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.351Z"
       }
     },
     {
@@ -2790,7 +3536,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika bijela zgrada s pravokutnim krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:49.417Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.352Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 347,
+        "iou": 0.56
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "12A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.492609,
+          "lat": 45.300613
+        }
+      ]
     },
     {
       "id": "way/1550397157",
@@ -2842,7 +3608,27 @@
         "obrazlozenje": "U centru kadra vidljive su jasne građevine s krovovima, uključujući bijelu zgradu i plave krovove industrijskih objekata.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:49.163Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.354Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 531,
+        "iou": 0.26
+      },
+      "dguTocke": [
+        {
+          "street": "Rožići",
+          "houseNumber": "17A",
+          "settlement": "Kostrena",
+          "postcode": "51221",
+          "city": "Kostrena",
+          "lon": 14.494902,
+          "lat": 45.298896
+        }
+      ]
     },
     {
       "id": "way/1550397158",
@@ -2882,6 +3668,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine/kuće s jasno vidljivim rubovima i strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:49.048Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.354Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 11,
+        "iou": 0.12
       }
     },
     {
@@ -2922,6 +3717,11 @@
         "obrazlozenje": "U centru kadra vidljiva je velika bijela/svijetla građevina s jasno definiranim pravokutnim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:48.852Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.355Z"
       }
     },
     {
@@ -2978,7 +3778,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika industrijska ili poslovna zgrada s tamnosivim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:51.605Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.356Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 188,
+        "iou": 0.75
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Vladimira Nazora",
+          "houseNumber": "22",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300537,
+          "lat": 46.285333
+        }
+      ]
     },
     {
       "id": "way/1550406310",
@@ -3018,6 +3838,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada s krovom, okružena zelenim površinama i poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:51.863Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.357Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 116,
+        "iou": 0.68
       }
     },
     {
@@ -3058,6 +3887,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa smeđim/crvenim krovom okružena zelenim vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:52.357Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.358Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 92,
+        "iou": 0.72
       }
     },
     {
@@ -3098,6 +3936,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/bordo krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:51.551Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.358Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 56,
+        "iou": 0.72
       }
     },
     {
@@ -3138,6 +3985,15 @@
         "obrazlozenje": "U centru kadra je vidljiva građevina s crvenastim krovom okružena zelenim površinama i drugim zgradama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:51.689Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.359Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 68,
+        "iou": 0.65
       }
     },
     {
@@ -3178,6 +4034,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvensmđim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:55.059Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.359Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 36,
+        "iou": 0.44
       }
     },
     {
@@ -3218,6 +4083,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s vidljivim krovom crvene/smeđe boje i dijelovima građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:54.928Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.360Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 138,
+        "iou": 0.88
       }
     },
     {
@@ -3258,6 +4132,15 @@
         "obrazlozenje": "Jasno je vidljiva zgrada s krovom (ili više objekata) u centru ortofoto snimke.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:54.582Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.360Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 387,
+        "iou": 0.45
       }
     },
     {
@@ -3298,6 +4181,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena struktura s crvenim/smeđim krovom i više povezanih građevina s različitim bojama krovova.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:54.850Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.361Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 135,
+        "iou": 0.63
       }
     },
     {
@@ -3338,6 +4230,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov građevine tamnije boje s pravokutnim obrisom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:54.768Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.362Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 162,
+        "iou": 0.82
       }
     },
     {
@@ -3378,6 +4279,15 @@
         "obrazlozenje": "U centru snimke jasno se vide građevine s crvenkastavim i tamnim krovovima uz poljsku cestu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:57.469Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.362Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 202,
+        "iou": 0.45
       }
     },
     {
@@ -3435,7 +4345,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi više građevina s vidljivim krovovima različitih boja - bijeli, sivi i crveni krov.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:57.402Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.362Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 15,
+        "iou": 0.04
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Vladimira Nazora",
+          "houseNumber": "4A",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302967,
+          "lat": 46.28543
+        }
+      ]
     },
     {
       "id": "way/1550409396",
@@ -3475,6 +4405,15 @@
         "obrazlozenje": "U centru kadra vidljivi su crveni i smeđi krovovi zgrada s jasno vidljivom strukturom i konturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:57.364Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.363Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 119,
+        "iou": 0.44
       }
     },
     {
@@ -3515,6 +4454,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva velika zgrada s crvenim i sivim krovom te betonskim placem oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:57.936Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.364Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 130,
+        "iou": 0.28
       }
     },
     {
@@ -3555,6 +4503,15 @@
         "obrazlozenje": "U centru snimke je jasno vidljiva velika zgrada s crvenim i sivim krovom te pratećim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:16:57.617Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.364Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 132,
+        "iou": 0.3
       }
     },
     {
@@ -3595,6 +4552,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva velika industrijska/poljoprivredna zgrada s karakterističnim svjetlim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:00.208Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.365Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 119,
+        "iou": 0.42
       }
     },
     {
@@ -3635,6 +4601,15 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine s jasno prepoznatljivim obrisima i strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:00.180Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.366Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 123,
+        "iou": 0.39
       }
     },
     {
@@ -3675,6 +4650,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s vidljivim krovom crvene/smeđe boje i nekoliko drugih građevina oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:00.588Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.367Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 127,
+        "iou": 0.34
       }
     },
     {
@@ -3715,6 +4699,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi više izgrađenih objekata s vidljivim krovovima, uključujući crnu i crvenu krovnu površinu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:00.576Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.367Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 72,
+        "iou": 0.4
       }
     },
     {
@@ -3755,6 +4748,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i tamnim obrисima zgrade između zelenih površina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:00.193Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.367Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 86,
+        "iou": 0.43
       }
     },
     {
@@ -3795,6 +4797,15 @@
         "obrazlozenje": "U centru kadra vidljiva je veća izgrađena struktura s jasno vidljivim krovom bež/tamnije boje okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:03.029Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.368Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 0,
+        "povrsinaMs": 78,
+        "iou": 0.7
       }
     },
     {
@@ -3835,6 +4846,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva građevina s crvenim/ružičastim krovom i dodatnim objektima oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:03.057Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.368Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 95,
+        "iou": 0.7
       }
     },
     {
@@ -3875,6 +4895,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/smeđim krovom i vidljive su njene konture.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:03.032Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.368Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 49,
+        "iou": 0.57
       }
     },
     {
@@ -3915,6 +4944,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s krovom crveno-smeđe boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:03.088Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.369Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 49,
+        "iou": 0
       }
     },
     {
@@ -3963,7 +5001,27 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/ružičasta zgrada s vidljivim krovom i strukturom",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:02.697Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.369Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 138,
+        "iou": 0.59
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "46",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.304112,
+          "lat": 46.285324
+        }
+      ]
     },
     {
       "id": "way/1550409413",
@@ -4011,7 +5069,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/smeđim krovom i pratećim građevinama okruženim zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:05.473Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.369Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 91,
+        "iou": 0.7
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "52",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.304865,
+          "lat": 46.285158
+        }
+      ]
     },
     {
       "id": "way/1550409414",
@@ -4051,6 +5129,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov crne/tamne boje veće građevine s okolnim zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:05.611Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.370Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 151,
+        "iou": 0.59
       }
     },
     {
@@ -4091,6 +5178,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s vidljivim krovom i građevinom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:06.069Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.370Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 96,
+        "iou": 0.64
       }
     },
     {
@@ -4131,6 +5227,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi kompleks građevina s vidljivim krovovima crvene i smeđe boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:05.453Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.371Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 141,
+        "iou": 0.26
       }
     },
     {
@@ -4171,6 +5276,15 @@
         "obrazlozenje": "U centru kadra jasno se vide višestruke građevine s različitim bojama krovova (crvena, siva, plava) okružene poljoprivrednim zemljištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:05.572Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.371Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 83,
+        "iou": 0.4
       }
     },
     {
@@ -4211,6 +5325,15 @@
         "obrazlozenje": "U centru kadra vidljiva je svijetla građevina/zgrada s krovom, okružena zelenim površinama i drugim kućama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:08.589Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.372Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 177,
+        "iou": 0.44
       }
     },
     {
@@ -4251,6 +5374,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva građevina s crvenim/smeđim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:08.993Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.372Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 48,
+        "iou": 0.49
       }
     },
     {
@@ -4291,6 +5423,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim/ružičastim krovom i susjednim zelenim površinama i objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:08.642Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.373Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 96,
+        "iou": 0.45
       }
     },
     {
@@ -4339,7 +5480,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena zgrada s crvenim/ružičastim krovom i svjetlijom vanjskom ovojnicom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:08.408Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.374Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 101,
+        "iou": 0.45
+      },
+      "dguTocke": [
+        {
+          "street": "Zavojna ulica",
+          "houseNumber": "8",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.304228,
+          "lat": 46.284322
+        }
+      ]
     },
     {
       "id": "way/1550409429",
@@ -4379,6 +5540,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvenkasta/smeđa građevina s krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:08.423Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.374Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 51,
+        "iou": 0.38
       }
     },
     {
@@ -4419,6 +5589,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim/smeđim krovom, okružena zelenim poljima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:11.670Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.375Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 89,
+        "iou": 0.53
       }
     },
     {
@@ -4460,7 +5639,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni krov zgrade/kuće s bijelo-sivim dodatnim strukturama pored nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:11.504Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.375Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 155,
+        "iou": 0.66
+      },
+      "dguTocke": [
+        {
+          "street": "Plitvička ulica",
+          "houseNumber": "5",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.303562,
+          "lat": 46.284332
+        }
+      ]
     },
     {
       "id": "way/1550409432",
@@ -4501,7 +5700,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov zgrade s tamnom sivom/crnom bojom i bijela površina (vjerojatno solarni paneli ili terasa).",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:11.495Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.376Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 192,
+        "iou": 0.35
+      },
+      "dguTocke": [
+        {
+          "street": "Plitvička ulica",
+          "houseNumber": "9",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.303265,
+          "lat": 46.283977
+        }
+      ]
     },
     {
       "id": "way/1550409433",
@@ -4541,6 +5760,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov građevine s temeljima i pristupnom cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:11.563Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.376Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 106,
+        "iou": 0.64
       }
     },
     {
@@ -4581,6 +5809,11 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s krovom tamnije boje i pratećim gospodarskim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:11.239Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.376Z"
       }
     },
     {
@@ -4621,6 +5854,11 @@
         "obrazlozenje": "U centru snimke jasno se vidi bijela zgrada s crvenim krovom i pratećim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:17.196Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.376Z"
       }
     },
     {
@@ -4662,7 +5900,23 @@
         "obrazlozenje": "U centru snimke je vidljiva velika bijela/svijetla zgrada s krovom i parkiralištima oko nje, što ukazuje na izgrađenu strukturu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:14.368Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.376Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Tina Ujevića",
+          "houseNumber": "5",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301448,
+          "lat": 46.284111
+        }
+      ]
     },
     {
       "id": "way/1550409437",
@@ -4703,7 +5957,27 @@
         "obrazlozenje": "U centru kadra vidljiva je reddasta/smeđa krovna konstrukcija koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:14.001Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.377Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 92,
+        "iou": 0.59
+      },
+      "dguTocke": [
+        {
+          "street": "Plitvička ulica",
+          "houseNumber": "4",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302415,
+          "lat": 46.283981
+        }
+      ]
     },
     {
       "id": "way/1550409438",
@@ -4744,7 +6018,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena građevina s crvenim krovom i bijelu nadstrešnicu, okružena zelenim površinama i pristupnom cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:14.150Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.377Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 104,
+        "iou": 0.71
+      },
+      "dguTocke": [
+        {
+          "street": "Plitvička ulica",
+          "houseNumber": "6",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302319,
+          "lat": 46.283831
+        }
+      ]
     },
     {
       "id": "way/1550409439",
@@ -4785,7 +6079,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s jasno vidljivim krovovima i građevinskim strukturama okruženim zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:13.906Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.378Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 177,
+        "iou": 0.51
+      },
+      "dguTocke": [
+        {
+          "street": "Plitvička ulica",
+          "houseNumber": "11",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.303013,
+          "lat": 46.283709
+        }
+      ]
     },
     {
       "id": "way/1550409440",
@@ -4826,7 +6140,27 @@
         "obrazlozenje": "Jasno je vidljiva zgrada s crvenim krovom u centru snimke, okružena zelenim poljima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:20.218Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.378Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 126,
+        "iou": 0.64
+      },
+      "dguTocke": [
+        {
+          "street": "Plitvička ulica",
+          "houseNumber": "12",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302208,
+          "lat": 46.283363
+        }
+      ]
     },
     {
       "id": "way/1550409441",
@@ -4867,7 +6201,27 @@
         "obrazlozenje": "Jasno je vidljiv krov kuće crvene boje u centru ortofoto snimke okružen zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:20.193Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.379Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 67,
+        "iou": 0.38
+      },
+      "dguTocke": [
+        {
+          "street": "Plitvička ulica",
+          "houseNumber": "14",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302207,
+          "lat": 46.283222
+        }
+      ]
     },
     {
       "id": "way/1550409442",
@@ -4908,7 +6262,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika bijela/svijetla zgrada s vidljivim krovom i strukturom, okružena zelenim terenima i šumom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:21.008Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.379Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 177,
+        "iou": 0.49
+      },
+      "dguTocke": [
+        {
+          "street": "Plitvička ulica",
+          "houseNumber": "30",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.303855,
+          "lat": 46.281522
+        }
+      ]
     },
     {
       "id": "way/1550410491",
@@ -4948,6 +6322,11 @@
         "obrazlozenje": "U centru kadra vidljivi su krovovi zgrada s crvenom/rozom bojom, kao i dijelovi građevina uz desnu stranu slike.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:20.614Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.380Z"
       }
     },
     {
@@ -4988,6 +6367,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni krov i crni krov zgrade s okolnim zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:20.489Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.380Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 273,
+        "iou": 0.3
       }
     },
     {
@@ -5036,7 +6424,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s tamnosivim krovom okružena vanjskim prostorima i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:23.618Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.381Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 119,
+        "iou": 0.72
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "21",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301562,
+          "lat": 46.286392
+        }
+      ]
     },
     {
       "id": "way/1550410494",
@@ -5084,7 +6492,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/smeđim krovom i jasno definiranim konturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:23.318Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.381Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 273,
+        "iou": 0.42
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "19",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301453,
+          "lat": 46.286679
+        }
+      ]
     },
     {
       "id": "way/1550410495",
@@ -5132,7 +6560,23 @@
         "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina s krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:23.395Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.381Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "17",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301078,
+          "lat": 46.286402
+        }
+      ]
     },
     {
       "id": "way/1550410496",
@@ -5180,7 +6624,27 @@
         "obrazlozenje": "U centru kadra vidljivi su dijelovi crvenoga krova i građevine okružene zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:23.417Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.382Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 122,
+        "iou": 0.7
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "15",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300857,
+          "lat": 46.286402
+        }
+      ]
     },
     {
       "id": "way/1550410497",
@@ -5228,7 +6692,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s crvenim/ružičastim krovom i bijelo-sivim građevinskim dijelovima, okružena zelenim površinama i cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:23.475Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.382Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 12,
+        "povrsinaMs": 239,
+        "iou": 0.47
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "13",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300549,
+          "lat": 46.286403
+        }
+      ]
     },
     {
       "id": "way/1550410498",
@@ -5268,6 +6752,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s vidljivim krovom i strukturom, okružena zelenim površinama i poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:25.890Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.382Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 85,
+        "iou": 0.61
       }
     },
     {
@@ -5308,6 +6801,15 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim/rozičastim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:25.765Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.383Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 74,
+        "iou": 0.72
       }
     },
     {
@@ -5349,7 +6851,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenom/ružičastom krovnom pločom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:26.115Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.383Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 145,
+        "iou": 0.51
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "1",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300658,
+          "lat": 46.287192
+        }
+      ]
     },
     {
       "id": "way/1550410501",
@@ -5390,7 +6912,23 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i okolnim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:25.764Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.383Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "1A",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301001,
+          "lat": 46.287204
+        }
+      ]
     },
     {
       "id": "way/1550410502",
@@ -5438,7 +6976,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva crvena/smeđa krovna konstrukcija koja predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:26.122Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.384Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 189,
+        "iou": 0.68
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica braće Radić",
+          "houseNumber": "29",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301686,
+          "lat": 46.28739
+        }
+      ]
     },
     {
       "id": "way/1550410503",
@@ -5486,7 +7044,27 @@
         "obrazlozenje": "U centru kadra jasno su vidljive zgrade s crvenim i smeđim krovovima te pratećim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:28.446Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.384Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 228,
+        "iou": 0.87
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica braće Radić",
+          "houseNumber": "27",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.30161,
+          "lat": 46.287544
+        }
+      ]
     },
     {
       "id": "way/1550410504",
@@ -5526,6 +7104,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena zgrada s crnim/tamnim krovom i okolnim zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:28.482Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.385Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 221,
+        "iou": 0.35
       }
     },
     {
@@ -5574,7 +7161,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov zgrade s karakterističnim crvenim i tamnim pokrivačem, kao i oblikovanjem građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:28.789Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.385Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 221,
+        "iou": 0.42
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica braće Radić",
+          "houseNumber": "23",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301312,
+          "lat": 46.287946
+        }
+      ]
     },
     {
       "id": "way/1550410506",
@@ -5622,7 +7229,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiv krov kuće s crvenom/smeđom bojom i pratećim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:28.458Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.385Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 0,
+        "povrsinaMs": 99,
+        "iou": 0.61
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica braće Radić",
+          "houseNumber": "25",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301344,
+          "lat": 46.287811
+        }
+      ]
     },
     {
       "id": "way/1550410507",
@@ -5670,7 +7297,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom i okružujućim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:28.608Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.386Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 147,
+        "iou": 0.67
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica braće Radić",
+          "houseNumber": "20",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301014,
+          "lat": 46.287612
+        }
+      ]
     },
     {
       "id": "way/1550410508",
@@ -5711,7 +7358,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada s tamnim krovom i okolnim zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:30.888Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.386Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 164,
+        "iou": 0.79
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "2",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300617,
+          "lat": 46.287491
+        }
+      ]
     },
     {
       "id": "way/1550410509",
@@ -5752,7 +7419,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s krovom tamnije boje okružena zelenim površinama i poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:31.074Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.387Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 138,
+        "iou": 0.61
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "4",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300444,
+          "lat": 46.287487
+        }
+      ]
     },
     {
       "id": "way/1550410510",
@@ -5792,6 +7479,15 @@
         "obrazlozenje": "U centru kadra vidljiva je višeslojno obojana građevina s krovovima u različitim bojama (crvena, crna, bijela), što ukazuje na postojeću izgrađenu strukturu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:31.502Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.387Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 102,
+        "iou": 0.6
       }
     },
     {
@@ -5832,6 +7528,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva crvena krovna konstrukcija s okolnim gospodarskim zgradama i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:31.091Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.388Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 66,
+        "iou": 0.73
       }
     },
     {
@@ -5873,7 +7578,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s vidljivim krovom (bijela/svijetla površina) i pratećim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:31.499Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.388Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 136,
+        "iou": 0.52
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "8",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300075,
+          "lat": 46.287451
+        }
+      ]
     },
     {
       "id": "way/1550410513",
@@ -5914,7 +7639,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva crvena/smeđa krovna konstrukcija s jasno definiranim rubovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:33.843Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.389Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 196,
+        "iou": 0.55
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "5",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300171,
+          "lat": 46.287147
+        }
+      ]
     },
     {
       "id": "way/1550410514",
@@ -5955,7 +7700,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiv krov građevine s plavkastom bojom, okružen zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:33.912Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.390Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 134,
+        "iou": 0.56
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "7",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.299936,
+          "lat": 46.287175
+        }
+      ]
     },
     {
       "id": "way/1550410515",
@@ -5995,6 +7760,11 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s vidljivim krovom i zgradama s tamnom bojom, kao i pratećim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:33.931Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.390Z"
       }
     },
     {
@@ -6043,7 +7813,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi više građevina s krovovima različitih boja, uključujući crvene, tamne i svijetле krovove.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:34.054Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.391Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 177,
+        "iou": 0.64
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "7",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.299569,
+          "lat": 46.286345
+        }
+      ]
     },
     {
       "id": "way/1550410517",
@@ -6091,7 +7881,27 @@
         "obrazlozenje": "U centru kadra vidljiva je velika izgrađena struktura s više krovnih dijelova različitih boja (siva, crna, plava) i jasno definiranim obrисima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:34.093Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.391Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 152,
+        "iou": 0.6
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "9",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.299754,
+          "lat": 46.28633
+        }
+      ]
     },
     {
       "id": "way/1550410518",
@@ -6132,7 +7942,23 @@
         "obrazlozenje": "U centru kadra vidljiva je tamna građevina s krovom, okružena poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:36.671Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.391Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "13",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.299289,
+          "lat": 46.287206
+        }
+      ]
     },
     {
       "id": "way/1550410519",
@@ -6172,6 +7998,15 @@
         "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina s krovom okružena poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:36.966Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.392Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 118,
+        "iou": 0.58
       }
     },
     {
@@ -6212,6 +8047,15 @@
         "obrazlozenje": "Jasno se vidi duža pravokutna građevina s crvenim/smeđim krovom u centru kadra.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:36.449Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.392Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 12,
+        "povrsinaMs": 207,
+        "iou": 0.65
       }
     },
     {
@@ -6260,7 +8104,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s vidljivim krovom plave boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:36.118Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.393Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 166,
+        "iou": 0.51
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "1",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.298863,
+          "lat": 46.286443
+        }
+      ]
     },
     {
       "id": "way/1550410522",
@@ -6308,7 +8172,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi tamni krov/građevina s pravokutnim oblikom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:36.458Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.393Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 138,
+        "iou": 0.61
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "3",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.299111,
+          "lat": 46.286415
+        }
+      ]
     },
     {
       "id": "way/1550410523",
@@ -6349,7 +8233,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva izgrađena zgrada s crvenim/smeđim krovom i bijelim dijelovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:39.310Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.393Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 260,
+        "iou": 0.59
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "22",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.298487,
+          "lat": 46.287174
+        }
+      ]
     },
     {
       "id": "way/1550410524",
@@ -6390,7 +8294,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s crvenkastanim krovom i zelenim vanjskim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:39.385Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.394Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 122,
+        "iou": 0.58
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "24",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.298501,
+          "lat": 46.286958
+        }
+      ]
     },
     {
       "id": "way/1550410525",
@@ -6430,6 +8354,11 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/roze krovom i jasno definiranim obrисима.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:39.607Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.394Z"
       }
     },
     {
@@ -6470,6 +8399,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva velika zgrada s crvenim krovom i vidljivim dijelovima građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:39.283Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.394Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 80,
+        "iou": 0.02
       }
     },
     {
@@ -6511,7 +8449,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s krovom crvene/narančaste boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:39.245Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.394Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 124,
+        "iou": 0.52
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "26",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.298506,
+          "lat": 46.286833
+        }
+      ]
     },
     {
       "id": "way/1550410528",
@@ -6552,7 +8510,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva bijela građevina/zgrada s krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:41.651Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.395Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 140,
+        "iou": 0.62
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "30",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.298408,
+          "lat": 46.286484
+        }
+      ]
     },
     {
       "id": "way/1550410529",
@@ -6592,6 +8570,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/smeđim krovom okružena betonskom površinom i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:42.135Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.395Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 244,
+        "iou": 0.85
       }
     },
     {
@@ -6633,7 +8620,27 @@
         "obrazlozenje": "U centru kadra vidljivi su crveni krovovi zgrada i betonske površine što ukazuje na izgrađenu naseljenost.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:41.720Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.395Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 131,
+        "iou": 0.71
+      },
+      "dguTocke": [
+        {
+          "street": "Vrtna ulica",
+          "houseNumber": "32",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.298433,
+          "lat": 46.286313
+        }
+      ]
     },
     {
       "id": "way/1550410719",
@@ -6673,6 +8680,11 @@
         "obrazlozenje": "U centru kadra je vidljiva građevina s krovom, jasno vidljiva kao tamna struktura okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:41.834Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.396Z"
       }
     },
     {
@@ -6721,7 +8733,27 @@
         "obrazlozenje": "U centru snimke jasno se vidi smeđi/crveni krov građevine i dijelovi zgrade sa strukturom tipičnom za stambenu ili gospodarsku zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:43.050Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.396Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 139,
+        "iou": 0.51
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "56",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.305392,
+          "lat": 46.284881
+        }
+      ]
     },
     {
       "id": "way/1550410721",
@@ -6761,6 +8793,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/smeđim krovom i okolnim infrastrukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:45.615Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.397Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 139,
+        "iou": 0
       }
     },
     {
@@ -6802,7 +8843,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasna struktura s krovom svjetlije boje, okružena tamijom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:45.429Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.398Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 111,
+        "iou": 0.24
+      },
+      "dguTocke": [
+        {
+          "street": "Zavojna ulica",
+          "houseNumber": "1",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.305862,
+          "lat": 46.284818
+        }
+      ]
     },
     {
       "id": "way/1550410723",
@@ -6843,7 +8904,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva crvena/smeđa krovna konstrukcija koja pripada većoj građevini.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:45.416Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.398Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 83,
+        "iou": 0.69
+      },
+      "dguTocke": [
+        {
+          "street": "Zavojna ulica",
+          "houseNumber": "2",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.305251,
+          "lat": 46.284885
+        }
+      ]
     },
     {
       "id": "way/1550410724",
@@ -6883,6 +8964,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/terakota krovom i zelenim okolnim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:45.279Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.399Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 125,
+        "iou": 0.69
       }
     },
     {
@@ -6931,7 +9021,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s krovom tamnije boje, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:45.462Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.400Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 167,
+        "iou": 0.6
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Matije Gupca",
+          "houseNumber": "54/1",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.304995,
+          "lat": 46.28497
+        }
+      ]
     },
     {
       "id": "way/1550416147",
@@ -6987,6 +9097,11 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s vidljivim krovom tamne boje i okružena je zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:48.053Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.400Z"
       }
     },
     {
@@ -7027,6 +9142,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenim/smeđim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:48.052Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.400Z",
+        "kako": "blizu",
+        "udaljenostM": 16,
+        "povrsinaMs": 260,
+        "iou": 0
       }
     },
     {
@@ -7075,6 +9199,15 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:23.149Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.401Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 53,
+        "iou": 0.77
       }
     },
     {
@@ -7123,6 +9256,15 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:23.655Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.402Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 196,
+        "iou": 0.47
       }
     },
     {
@@ -7163,6 +9305,15 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:23.671Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.402Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 31,
+        "iou": 0
       }
     },
     {
@@ -7205,7 +9356,27 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:23.842Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.403Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 133,
+        "iou": 0.72
+      },
+      "dguTocke": [
+        {
+          "street": "Martinska",
+          "houseNumber": "80",
+          "settlement": "Mursko Središće",
+          "postcode": "40315",
+          "city": "Mursko Središće",
+          "lon": 16.428873,
+          "lat": 46.515464
+        }
+      ]
     },
     {
       "id": "way/1550420151",
@@ -7253,6 +9424,15 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:23.838Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.404Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 58,
+        "iou": 0.8
       }
     },
     {
@@ -7293,6 +9473,15 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:24.022Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.406Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 96,
+        "iou": 0.68
       }
     },
     {
@@ -7357,6 +9546,15 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:24.025Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.407Z",
+        "kako": "blizu",
+        "udaljenostM": 1,
+        "povrsinaMs": 148,
+        "iou": 0.78
       }
     },
     {
@@ -7403,7 +9601,27 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:24.245Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.407Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 201,
+        "iou": 0.77
+      },
+      "dguTocke": [
+        {
+          "street": "Martinska",
+          "houseNumber": "60",
+          "settlement": "Mursko Središće",
+          "postcode": "40315",
+          "city": "Mursko Središće",
+          "lon": 16.43066,
+          "lat": 46.51447
+        }
+      ]
     },
     {
       "id": "way/1550420155",
@@ -7443,6 +9661,15 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:24.252Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.408Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 0,
+        "povrsinaMs": 10,
+        "iou": 0.54
       }
     },
     {
@@ -7495,6 +9722,15 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:24.253Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.409Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 280,
+        "iou": 0.09
       }
     },
     {
@@ -7543,6 +9779,15 @@
         "obrazlozenje": "DGU nema ortofoto pokrivenost na ovoj lokaciji (prazan isječak, 1850 B)",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:24.252Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.410Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 115,
+        "iou": 0.75
       }
     },
     {
@@ -7583,6 +9828,11 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s vidljivim krovom i strukturom, što se razlikuje od okolnog poljoprivrednog tla.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:52.237Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.410Z"
       }
     },
     {
@@ -7624,7 +9874,27 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s krovom, crvenosmeđe boje, jasno razlikovana od okolnog zelenog terena.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:52.020Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.411Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 203,
+        "iou": 0.51
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "3",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.305405,
+          "lat": 46.292107
+        }
+      ]
     },
     {
       "id": "way/1550420736",
@@ -7688,7 +9958,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva bijela/svjetla zgrada s krovom, okružena zelenim površinama i susjednim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:55.689Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.412Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 283,
+        "iou": 0.74
+      },
+      "dguTocke": [
+        {
+          "street": "Prigradska ulica",
+          "houseNumber": "8",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301912,
+          "lat": 46.292502
+        }
+      ]
     },
     {
       "id": "way/1550420737",
@@ -7736,7 +10026,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi tamna krovna površina (crni/tamnosivi krov) s jasnim konturama građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:54.738Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.412Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 16,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Prigradska ulica",
+          "houseNumber": "1",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.304198,
+          "lat": 46.292193
+        }
+      ]
     },
     {
       "id": "way/1550420738",
@@ -7776,6 +10086,15 @@
         "obrazlozenje": "U centru kadra vidljiva je velika bijela građevina (industrijska/poljoprivredna zgrada) s jasno vidljivim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:54.561Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.413Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 203,
+        "iou": 0.56
       }
     },
     {
@@ -7816,6 +10135,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi bijela zgrada s pravokutnim krovom, okružena poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:54.559Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.414Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 75,
+        "iou": 0.7
       }
     },
     {
@@ -7864,7 +10192,27 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s crvenim krovom i jasno definiranom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:54.446Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.415Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 122,
+        "iou": 0.75
+      },
+      "dguTocke": [
+        {
+          "street": "Varaždinska ulica",
+          "houseNumber": "20",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302515,
+          "lat": 46.29196
+        }
+      ]
     },
     {
       "id": "way/1550420741",
@@ -7912,7 +10260,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi roza/crveni krov velike zgrade okružen zelenim površinama i drugim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:58.012Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.416Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 184,
+        "iou": 0.84
+      },
+      "dguTocke": [
+        {
+          "street": "Varaždinska ulica",
+          "houseNumber": "20A",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302238,
+          "lat": 46.291897
+        }
+      ]
     },
     {
       "id": "way/1550420742",
@@ -7952,6 +10320,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiv crveni krov veće zgrade/građevine s pripadajućim objektima oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:58.509Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.416Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 200,
+        "iou": 0.65
       }
     },
     {
@@ -8000,7 +10377,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa sivim/tamnim krovom okružena zelenom površinom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:57.733Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.417Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 165,
+        "iou": 0.72
+      },
+      "dguTocke": [
+        {
+          "street": "Prigradska ulica",
+          "houseNumber": "4",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302705,
+          "lat": 46.292339
+        }
+      ]
     },
     {
       "id": "way/1550420744",
@@ -8048,7 +10445,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni/ružičasti krov zgrade s vidljivom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:58.232Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.417Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Prigradska ulica",
+          "houseNumber": "5",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302492,
+          "lat": 46.292417
+        }
+      ]
     },
     {
       "id": "way/1550420745",
@@ -8096,7 +10509,27 @@
         "obrazlozenje": "U centru kadra vidljiva je tamna građevina/krov, vjerojatno mali objekt ili dio većeg kompleksa.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:17:57.896Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.417Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 113,
+        "iou": 0.66
+      },
+      "dguTocke": [
+        {
+          "street": "Prigradska ulica",
+          "houseNumber": "6",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302242,
+          "lat": 46.292495
+        }
+      ]
     },
     {
       "id": "way/1550420746",
@@ -8144,7 +10577,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim i tamnim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:00.728Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.418Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 136,
+        "iou": 0.72
+      },
+      "dguTocke": [
+        {
+          "street": "Prigradska ulica",
+          "houseNumber": "10",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301562,
+          "lat": 46.292702
+        }
+      ]
     },
     {
       "id": "way/1550420747",
@@ -8192,7 +10645,27 @@
         "obrazlozenje": "Jasno je vidljiva zgrada s crvenim/smeđim krovom u centru snimke, okružena zelenim poljima i vodom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:01.051Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.418Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 186,
+        "iou": 0.76
+      },
+      "dguTocke": [
+        {
+          "street": "Prigradska ulica",
+          "houseNumber": "14",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301042,
+          "lat": 46.292981
+        }
+      ]
     },
     {
       "id": "way/1550420748",
@@ -8232,6 +10705,15 @@
         "obrazlozenje": "U centru kadra je vidljiva građevina s krovom boje pijeska/braon okružena gustom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:00.769Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.419Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 125,
+        "iou": 0.65
       }
     },
     {
@@ -8280,7 +10762,27 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s jasno vidljivim krovom tamnije boje, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:00.689Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.419Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 153,
+        "iou": 0.76
+      },
+      "dguTocke": [
+        {
+          "street": "Prigradska ulica",
+          "houseNumber": "17",
+          "settlement": "Nedeljanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.299976,
+          "lat": 46.293388
+        }
+      ]
     },
     {
       "id": "way/1550420750",
@@ -8320,6 +10822,15 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa svijetlom krovnom površinom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:00.954Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.420Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 208,
+        "iou": 0.79
       }
     },
     {
@@ -8361,7 +10872,23 @@
         "obrazlozenje": "Jasno je vidljiva bijela građevina s krovom u centru ortofoto snimke, okružena poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:03.433Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.420Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "48",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300549,
+          "lat": 46.294057
+        }
+      ]
     },
     {
       "id": "way/1550420752",
@@ -8402,7 +10929,27 @@
         "obrazlozenje": "U centru kadra je vidljiva tamna struktura koja predstavlja krov zgrade, vjerojatno industrijske ili poljoprivredne namjene.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:03.672Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.420Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 201,
+        "iou": 0.68
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "40A",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301711,
+          "lat": 46.293756
+        }
+      ]
     },
     {
       "id": "way/1550420753",
@@ -8443,7 +10990,23 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva velika industrijska/skladišna zgrada s tamnim krovom i betonskim parkiralištima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:03.460Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.421Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "44",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300852,
+          "lat": 46.293759
+        }
+      ]
     },
     {
       "id": "way/1550420754",
@@ -8484,7 +11047,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi više zgrada s vidljivim krovovima različitih boja (plava, crvena, siva) i njihove strukture.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:03.384Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.422Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 159,
+        "iou": 0.65
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "42",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.300965,
+          "lat": 46.293647
+        }
+      ]
     },
     {
       "id": "way/1550420755",
@@ -8525,7 +11108,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/ružičastim krovom okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:03.526Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.422Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 138,
+        "iou": 0.58
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "40",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.301084,
+          "lat": 46.293516
+        }
+      ]
     },
     {
       "id": "way/1550420756",
@@ -8566,7 +11169,27 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine sive ili bijele boje s jasno definiranim rubovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:05.895Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.423Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 153,
+        "iou": 0.75
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "38",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.30129,
+          "lat": 46.293368
+        }
+      ]
     },
     {
       "id": "way/1550420757",
@@ -8606,6 +11229,15 @@
         "obrazlozenje": "U centru kadra je vidljiva velika bijela građevina s pravokutnim krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:06.222Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.425Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 138,
+        "iou": 0.72
       }
     },
     {
@@ -8646,6 +11278,11 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov industrijske/proizvodne zgrade tamnosive boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:05.966Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.425Z"
       }
     },
     {
@@ -8687,7 +11324,27 @@
         "obrazlozenje": "U centru kadra je vidljiva veća zgrada s tamnim krovom, okružena zelenim površinama i parkiralištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:06.404Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.425Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 166,
+        "iou": 0.7
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "30",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302232,
+          "lat": 46.293068
+        }
+      ]
     },
     {
       "id": "way/1550420760",
@@ -8728,7 +11385,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika industrijska ili poljoprivredna zgrada s tamnim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:05.970Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.426Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "28",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.30243,
+          "lat": 46.29299
+        }
+      ]
     },
     {
       "id": "way/1550420761",
@@ -8769,7 +11442,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena struktura s krovom, bijele i sive boje, te pratećim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:09.356Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.426Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 187,
+        "iou": 0.78
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "26",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.302664,
+          "lat": 46.292891
+        }
+      ]
     },
     {
       "id": "way/1550420762",
@@ -8810,7 +11503,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim ili smeđim krovom i bijelim pomoćnim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:08.985Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.427Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 187,
+        "iou": 0.8
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "20",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.303109,
+          "lat": 46.292713
+        }
+      ]
     },
     {
       "id": "way/1550420763",
@@ -8875,7 +11588,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s krovom pokrivenim solarnim panelima i drugim građevinskim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:08.545Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.431Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 1382,
+        "iou": 0.89
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "16",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.303658,
+          "lat": 46.29271
+        }
+      ]
     },
     {
       "id": "way/1550420764",
@@ -8916,7 +11649,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krovna konstrukcija s karakterističnim crvenim i beigem tonovima, što predstavlja izgrađenu zgradu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-21T20:18:08.893Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:29.432Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 151,
+        "iou": 0.76
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ljudevita Gaja",
+          "houseNumber": "4",
+          "settlement": "Gojanec",
+          "postcode": "42205",
+          "city": "Vidovec",
+          "lon": 16.305205,
+          "lat": 46.292647
+        }
+      ]
     }
   ]
 }

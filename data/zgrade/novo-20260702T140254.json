@@ -51,7 +51,27 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i okolnim strukama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:02.316Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.230Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 321,
+        "iou": 0.02
+      },
+      "dguTocke": [
+        {
+          "street": "Odra-cesta",
+          "houseNumber": "58",
+          "settlement": "Odra Sisačka",
+          "postcode": "44000",
+          "city": "Sisak",
+          "lon": 16.346355,
+          "lat": 45.499494
+        }
+      ]
     },
     {
       "id": "way/1533548734",
@@ -94,6 +114,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/tamno obojanim krovom i jasno razgraničenim rubovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:02.206Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.232Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 321,
+        "iou": 0.14
       }
     },
     {
@@ -144,7 +173,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi crveni krov građevine sa okružujućim zemljištem i cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:03.040Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.233Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 274,
+        "iou": 0.19
+      },
+      "dguTocke": [
+        {
+          "street": "Odra-cesta",
+          "houseNumber": "60",
+          "settlement": "Odra Sisačka",
+          "postcode": "44000",
+          "city": "Sisak",
+          "lon": 16.346288,
+          "lat": 45.499496
+        }
+      ]
     },
     {
       "id": "way/1533548736",
@@ -202,7 +251,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena ostalim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:01.901Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.234Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 274,
+        "iou": 0.45
+      },
+      "dguTocke": [
+        {
+          "street": "Odra-cesta",
+          "houseNumber": "62",
+          "settlement": "Odra Sisačka",
+          "postcode": "44000",
+          "city": "Sisak",
+          "lon": 16.346188,
+          "lat": 45.499493
+        }
+      ]
     },
     {
       "id": "way/1533549008",
@@ -252,7 +321,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s karakterističnim krovom i jasno vidljivim konturama građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:02.227Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.239Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 196,
+        "iou": 0.42
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ognjena Price",
+          "houseNumber": "13",
+          "settlement": "Varaždin",
+          "postcode": "42000",
+          "city": "Varaždin",
+          "lon": 16.340688,
+          "lat": 46.31095
+        }
+      ]
     },
     {
       "id": "way/1533549009",
@@ -294,7 +383,27 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/smeđim krovom, okružena ulicama i drugim zgradama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:02.013Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.243Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 121,
+        "iou": 0.52
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ognjena Price",
+          "houseNumber": "15",
+          "settlement": "Varaždin",
+          "postcode": "42000",
+          "city": "Varaždin",
+          "lon": 16.340691,
+          "lat": 46.31112
+        }
+      ]
     },
     {
       "id": "way/1533612855",
@@ -342,7 +451,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s svjetlijim krovom smještena između vegetacije.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:01.891Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.243Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 92,
+        "iou": 0.17
+      },
+      "dguTocke": [
+        {
+          "street": "Bravarica",
+          "houseNumber": "3",
+          "settlement": "Zaton Obrovački",
+          "postcode": "23450",
+          "city": "Obrovac",
+          "lon": 15.693523,
+          "lat": 44.213936
+        }
+      ]
     },
     {
       "id": "way/1533612856",
@@ -390,7 +519,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim krovom, okružena poljoprivrednim površinama i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:02.175Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.243Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 120,
+        "iou": 0.26
+      },
+      "dguTocke": [
+        {
+          "street": "Bravarica",
+          "houseNumber": "4",
+          "settlement": "Zaton Obrovački",
+          "postcode": "23450",
+          "city": "Obrovac",
+          "lon": 15.693174,
+          "lat": 44.213984
+        }
+      ]
     },
     {
       "id": "way/1533612857",
@@ -438,7 +587,27 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s roza/beige krovom na oranično obrađenom zemljištu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:02.192Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.243Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 91,
+        "iou": 0.13
+      },
+      "dguTocke": [
+        {
+          "street": "Bravarica",
+          "houseNumber": "5",
+          "settlement": "Zaton Obrovački",
+          "postcode": "23450",
+          "city": "Obrovac",
+          "lon": 15.692835,
+          "lat": 44.214007
+        }
+      ]
     },
     {
       "id": "way/1533612858",
@@ -478,6 +647,15 @@
         "obrazlozenje": "U centru snimke jasno se vidi građevina s terakota/crvenim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:02.416Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.244Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 58,
+        "iou": 0
       }
     },
     {
@@ -518,6 +696,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom, okružena poljoprivrednim zemljištem i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:02.419Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.244Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 264,
+        "iou": 0.37
       }
     },
     {
@@ -566,7 +753,27 @@
         "obrazlozenje": "U centru kadra je vidljiva građevina s crvenim krovom i bijela struktura uz nju, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:03.322Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.244Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 164,
+        "iou": 0.4
+      },
+      "dguTocke": [
+        {
+          "street": "Bravarica",
+          "houseNumber": "10",
+          "settlement": "Zaton Obrovački",
+          "postcode": "23450",
+          "city": "Obrovac",
+          "lon": 15.690848,
+          "lat": 44.215123
+        }
+      ]
     },
     {
       "id": "way/1533816313",
@@ -634,7 +841,27 @@
         "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s tamnosivim krovom okružena vegetacijom i pristupnom cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.729Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.245Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 55,
+        "iou": 0.47
+      },
+      "dguTocke": [
+        {
+          "street": "Cerje Nebojse",
+          "houseNumber": "163",
+          "settlement": "Cerje Nebojse",
+          "postcode": "42243",
+          "city": "Maruševec",
+          "lon": 16.177499,
+          "lat": 46.256815
+        }
+      ]
     },
     {
       "id": "way/1533816314",
@@ -682,6 +909,15 @@
         "obrazlozenje": "U centru snimke vidljiva je tamnosiva građevina s pravokutnim krovom, okružena zelenom vegetacijom i oranjicom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.836Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.245Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 63,
+        "iou": 0.87
       }
     },
     {
@@ -735,7 +971,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim sivim krovom i okružena cestom te vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:06.224Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.245Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 178,
+        "iou": 0.35
+      },
+      "dguTocke": [
+        {
+          "street": "Cerje Nebojse",
+          "houseNumber": "159",
+          "settlement": "Cerje Nebojse",
+          "postcode": "42243",
+          "city": "Maruševec",
+          "lon": 16.178483,
+          "lat": 46.256756
+        }
+      ]
     },
     {
       "id": "way/1533816316",
@@ -783,6 +1039,15 @@
         "obrazlozenje": "U centru kadra je vidljiva građevina s nekoliko dijelova - bijela/svijetla zgrada s plavim krovom, zelena građevina te crni krov s desne strane.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.902Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.246Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 178,
+        "iou": 0.22
       }
     },
     {
@@ -832,6 +1097,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s pravokutnim oblikom i tamnim krovom, okružena vegetacijom i manjim gospodarskim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.572Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.246Z",
+        "kako": "blizu",
+        "udaljenostM": 15,
+        "povrsinaMs": 171,
+        "iou": 0.2
       }
     },
     {
@@ -885,7 +1159,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom i pristupnom cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.728Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.247Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 149,
+        "iou": 0.63
+      },
+      "dguTocke": [
+        {
+          "street": "Cerje Nebojse",
+          "houseNumber": "157",
+          "settlement": "Cerje Nebojse",
+          "postcode": "42243",
+          "city": "Maruševec",
+          "lon": 16.178423,
+          "lat": 46.256537
+        }
+      ]
     },
     {
       "id": "way/1533816319",
@@ -930,6 +1224,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i pratećim objektima s tamnim krovovima, okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:06.751Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.248Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 87,
+        "iou": 0.56
       }
     },
     {
@@ -971,6 +1274,15 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnosivim krovom i crvenim zidovima, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.576Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.249Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 183,
+        "iou": 0.35
       }
     },
     {
@@ -1020,6 +1332,15 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s tamnim krovom okružena vegetacijom i susjednim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.413Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.250Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 183,
+        "iou": 0.44
       }
     },
     {
@@ -1061,6 +1382,15 @@
         "obrazlozenje": "U centru kadra vidljiva je crvena/riđa građevina s krovom, okružena poljoprivrednim zemljištem i zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.631Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.250Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 64,
+        "iou": 0.77
       }
     },
     {
@@ -1102,6 +1432,15 @@
         "obrazlozenje": "U centru kadra vidljiva je nekoliko građevina s različitim bojama krovova, od kojih dominira crvena i smeđa boja.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.771Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.250Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 133,
+        "iou": 0.77
       }
     },
     {
@@ -1142,6 +1481,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i dijelom zelene vegetacije oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:05.371Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.250Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 0,
+        "povrsinaMs": 37,
+        "iou": 0.65
       }
     },
     {
@@ -1183,6 +1531,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom, okružena zelenom vegetacijom i oranicama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:08.925Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.251Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 36,
+        "iou": 0.83
       }
     },
     {
@@ -1233,7 +1590,27 @@
         "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenim krovom i povezanom gospodarskom građevinom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:08.876Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.251Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 165,
+        "iou": 0.88
+      },
+      "dguTocke": [
+        {
+          "street": "Cerje Nebojse",
+          "houseNumber": "161",
+          "settlement": "Cerje Nebojse",
+          "postcode": "42243",
+          "city": "Maruševec",
+          "lon": 16.176675,
+          "lat": 46.256614
+        }
+      ]
     },
     {
       "id": "way/1533816327",
@@ -1291,7 +1668,27 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i okolnom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:08.995Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.251Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 172,
+        "iou": 0.83
+      },
+      "dguTocke": [
+        {
+          "street": "Cerje Nebojse",
+          "houseNumber": "161A",
+          "settlement": "Cerje Nebojse",
+          "postcode": "42243",
+          "city": "Maruševec",
+          "lon": 16.176441,
+          "lat": 46.256623
+        }
+      ]
     },
     {
       "id": "way/1533816328",
@@ -1332,6 +1729,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada s crvenim krovom i njezinim sjenom na zelenom zemljištu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:09.152Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.252Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 172,
+        "iou": 0
       }
     },
     {
@@ -1372,6 +1778,15 @@
         "obrazlozenje": "U centru snimke vidljiva je građevina s crvenijim krovom okružena zelenom vegetacijom i oranicama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:09.186Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.252Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 32,
+        "iou": 0.6
       }
     },
     {
@@ -1421,7 +1836,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i dijelom bijele/sive boje, okružena zelenim poljima i drugim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:09.157Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.252Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 221,
+        "iou": 0.76
+      },
+      "dguTocke": [
+        {
+          "street": "Cerje Nebojse",
+          "houseNumber": "149",
+          "settlement": "Cerje Nebojse",
+          "postcode": "42243",
+          "city": "Maruševec",
+          "lon": 16.177599,
+          "lat": 46.255912
+        }
+      ]
     },
     {
       "id": "way/1533828065",
@@ -1463,6 +1898,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnosmeđim/crvenim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:09.031Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.253Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 18,
+        "iou": 0.16
       }
     },
     {
@@ -1521,6 +1965,15 @@
         "obrazlozenje": "U centru kadra vidljiv je crvenkasti krov građevine između zelene vegetacije i vode.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:08.947Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.254Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 192,
+        "iou": 0.24
       }
     },
     {
@@ -1591,7 +2044,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika građevina s bijelim/svjetlim krovom, okružena manjim strukturama s tamnim krovovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:09.304Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.256Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 24,
+        "iou": 0.08
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Jure Petrekovića",
+          "houseNumber": "22",
+          "settlement": "Zaprešić",
+          "postcode": "10290",
+          "city": "Zaprešić",
+          "lon": 15.802666,
+          "lat": 45.854849
+        }
+      ]
     },
     {
       "id": "way/1533917084",
@@ -1671,7 +2144,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi света kvadratna zgrada s ravnim krovom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:09.195Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.256Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Vrbanj",
+          "houseNumber": "361",
+          "settlement": "Vrbanj",
+          "postcode": "21462",
+          "city": "Vrbanj",
+          "lon": 16.658847,
+          "lat": 43.198675
+        }
+      ]
     },
     {
       "id": "way/1533917087",
@@ -1719,7 +2208,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i okružena s travnjacima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:08.919Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.256Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 15,
+        "iou": 0.07
+      },
+      "dguTocke": [
+        {
+          "street": "Vrbanj",
+          "houseNumber": "399A",
+          "settlement": "Vrbanj",
+          "postcode": "21462",
+          "city": "Vrbanj",
+          "lon": 16.661056,
+          "lat": 43.200382
+        }
+      ]
     },
     {
       "id": "way/1533917088",
@@ -1767,7 +2276,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom s jasno razlučivim obrisima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:08.913Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.257Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 113,
+        "iou": 0.64
+      },
+      "dguTocke": [
+        {
+          "street": "Vrbanj",
+          "houseNumber": "385A",
+          "settlement": "Vrbanj",
+          "postcode": "21462",
+          "city": "Vrbanj",
+          "lon": 16.661129,
+          "lat": 43.200085
+        }
+      ]
     },
     {
       "id": "way/1533917097",
@@ -1807,6 +2336,15 @@
         "obrazlozenje": "U centru kadra vidljiva je svjetlija pravokutna površina s definiranim rubovima koja predstavlja krov građevine, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.821Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.257Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 254,
+        "iou": 0.39
       }
     },
     {
@@ -1863,6 +2401,11 @@
         "obrazlozenje": "Snimka prikazuje vegetaciju i šumsku površinu bez vidljivih krovova ili građevina u centru kadra.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.549Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.257Z"
       }
     },
     {
@@ -1903,6 +2446,15 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s jasno vidljivim svetlim krovom okružena parkiralištima i putanjama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:12.000Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.257Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 0,
+        "povrsinaMs": 47,
+        "iou": 0.31
       }
     },
     {
@@ -1951,7 +2503,23 @@
         "obrazlozenje": "U centru snimke vidljiva je svijetla zgrada s pravokutnim krovom okružena zelenom vegetacijom i poljoprivrednim zemljištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.474Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.257Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Vrbanj",
+          "houseNumber": "364A",
+          "settlement": "Vrbanj",
+          "postcode": "21462",
+          "city": "Vrbanj",
+          "lon": 16.659383,
+          "lat": 43.199467
+        }
+      ]
     },
     {
       "id": "way/1533917132",
@@ -2007,7 +2575,45 @@
         "obrazlozenje": "Snimka je nejasna i gotovo jednobojna s minimalnim vidljivim detaljima terena, što ukazuje na nedostatak kvalitetnih podataka za tu lokaciju.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.836Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.258Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 230,
+        "iou": 0.45
+      },
+      "dguTocke": [
+        {
+          "street": "Vrbanj",
+          "houseNumber": "366",
+          "settlement": "Vrbanj",
+          "postcode": "21462",
+          "city": "Vrbanj",
+          "lon": 16.659936,
+          "lat": 43.19944
+        },
+        {
+          "street": "Vrbanj",
+          "houseNumber": "367",
+          "settlement": "Vrbanj",
+          "postcode": "21462",
+          "city": "Vrbanj",
+          "lon": 16.659897,
+          "lat": 43.199521
+        },
+        {
+          "street": "Vrbanj",
+          "houseNumber": "368",
+          "settlement": "Vrbanj",
+          "postcode": "21462",
+          "city": "Vrbanj",
+          "lon": 16.659818,
+          "lat": 43.199583
+        }
+      ]
     },
     {
       "id": "way/1533917133",
@@ -2047,6 +2653,11 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom okružena zelenom vegetacijom i parcelama obrađenog zemljišta.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.744Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.258Z"
       }
     },
     {
@@ -2095,7 +2706,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s crvenim krovom, jasno vidljiva na ortofoto snimci.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.598Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.258Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 128,
+        "iou": 0.42
+      },
+      "dguTocke": [
+        {
+          "street": "Vrbanj",
+          "houseNumber": "388",
+          "settlement": "Vrbanj",
+          "postcode": "21462",
+          "city": "Vrbanj",
+          "lon": 16.66009,
+          "lat": 43.199881
+        }
+      ]
     },
     {
       "id": "way/1533935336",
@@ -2151,6 +2782,11 @@
         "obrazlozenje": "Snimka je nejasna i pretežno jednobojna, bez pouzdano vidljivih detalja terena ili građevina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.668Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.258Z"
       }
     },
     {
@@ -2191,6 +2827,15 @@
         "obrazlozenje": "U centru kadra je vidljiva svjetla građevina s pravokutnim krovom, okružena zelenom vegetacijom i pristupnom stazom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.544Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.259Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 66,
+        "iou": 0.71
       }
     },
     {
@@ -2239,6 +2884,15 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom okružena vegetacijom i obrađenim zemljištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.621Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.259Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 60,
+        "iou": 0.53
       }
     },
     {
@@ -2279,6 +2933,11 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s jasno vidljivim krovom svijetle boje, okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.754Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.259Z"
       }
     },
     {
@@ -2343,7 +3002,23 @@
         "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s pravokutnim krovom, obloženim s nekoliko boja (plava, crvena i siva boja krovnih materijala).",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:11.925Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.260Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica 103. brigade",
+          "houseNumber": "2",
+          "settlement": "Zabok",
+          "postcode": "49210",
+          "city": "Zabok",
+          "lon": 15.899382,
+          "lat": 46.022583
+        }
+      ]
     },
     {
       "id": "way/1534232055",
@@ -2383,6 +3058,11 @@
         "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s tamnim krovom okružena šumskom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.263Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.260Z"
       }
     },
     {
@@ -2423,6 +3103,11 @@
         "obrazlozenje": "U centru kadra vidljiva je svjetlija pravokutna struktura koja označava krov građevine ili objekta na zemljištu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.604Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.260Z"
       }
     },
     {
@@ -2463,6 +3148,11 @@
         "obrazlozenje": "Snimka prikazuje šumsku vegetaciju s vidljivim stablima, bez jasno vidljive izgrađene građevine ili krova u centru kadra.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.727Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.260Z"
       }
     },
     {
@@ -2503,6 +3193,11 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim/smeđim krovom okružena vegetacijom i šumom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.140Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.260Z"
       }
     },
     {
@@ -2543,6 +3238,11 @@
         "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s krovom tamnije boje okružena šumskom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.175Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.260Z"
       }
     },
     {
@@ -2586,6 +3286,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s bijelim krovom i zelenim okućnicom oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.064Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.260Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 44,
+        "iou": 0
       }
     },
     {
@@ -2628,6 +3337,11 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva bijela zgrada s tamnim krovom i njena sjena na terenu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.247Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.260Z"
       }
     },
     {
@@ -2678,7 +3392,27 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s crvenim krovom i bijelim/tamnim zidovima, jasno razlikovana od okoline.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.660Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.262Z",
+        "kako": "blizu",
+        "udaljenostM": 13,
+        "povrsinaMs": 226,
+        "iou": 0.01
+      },
+      "dguTocke": [
+        {
+          "street": "Zavrtnica",
+          "houseNumber": "8",
+          "settlement": "Varaždin",
+          "postcode": "42000",
+          "city": "Varaždin",
+          "lon": 16.340179,
+          "lat": 46.312853
+        }
+      ]
     },
     {
       "id": "way/1534317551",
@@ -2728,7 +3462,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov građevine s pravokutnim oblikom, sive boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.312Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.264Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 122,
+        "iou": 0.33
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ognjena Price",
+          "houseNumber": "31",
+          "settlement": "Varaždin",
+          "postcode": "42000",
+          "city": "Varaždin",
+          "lon": 16.340428,
+          "lat": 46.312747
+        }
+      ]
     },
     {
       "id": "way/1534317552",
@@ -2802,7 +3556,23 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom, okružena bjelim i sivim površinama, vjerovatno terase ili parkiralištima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.521Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.264Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Ognjena Price",
+          "houseNumber": "29A",
+          "settlement": "Varaždin",
+          "postcode": "42000",
+          "city": "Varaždin",
+          "lon": 16.340101,
+          "lat": 46.312582
+        }
+      ]
     },
     {
       "id": "way/1534317553",
@@ -2844,7 +3614,27 @@
         "obrazlozenje": "U centru kadra vidi se krov s tamnom bojom, što ukazuje na izgrađenu zgradu ili građevinu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:14.072Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.266Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 234,
+        "iou": 0.27
+      },
+      "dguTocke": [
+        {
+          "street": "Zavrtnica",
+          "houseNumber": "1",
+          "settlement": "Varaždin",
+          "postcode": "42000",
+          "city": "Varaždin",
+          "lon": 16.339162,
+          "lat": 46.312815
+        }
+      ]
     },
     {
       "id": "way/1534317554",
@@ -2902,7 +3692,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:13.978Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.267Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 123,
+        "iou": 0.29
+      },
+      "dguTocke": [
+        {
+          "street": "Zavrtnica",
+          "houseNumber": "6",
+          "settlement": "Varaždin",
+          "postcode": "42000",
+          "city": "Varaždin",
+          "lon": 16.33956,
+          "lat": 46.312704
+        }
+      ]
     },
     {
       "id": "way/1534363770",
@@ -2959,7 +3769,23 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom, okružena zemljištem i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:17.679Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.268Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "16",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.634645,
+          "lat": 45.533641
+        }
+      ]
     },
     {
       "id": "way/1534363771",
@@ -3024,7 +3850,23 @@
         "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s jasno vidljivim krovom i građevinama oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:16.969Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.268Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "18",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.634777,
+          "lat": 45.533538
+        }
+      ]
     },
     {
       "id": "way/1534363772",
@@ -3073,7 +3915,23 @@
         "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s jasno vidljivim svjetlijim krovom, okružena s parkiralištima i obrađenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:17.322Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.269Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "20",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.634882,
+          "lat": 45.533396
+        }
+      ]
     },
     {
       "id": "way/1534363773",
@@ -3122,7 +3980,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i okolnim građevinama s sivim/plavim krovovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:16.833Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.269Z",
+        "kako": "blizu",
+        "udaljenostM": 14,
+        "povrsinaMs": 145,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "28",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.63517,
+          "lat": 45.533663
+        }
+      ]
     },
     {
       "id": "way/1534363774",
@@ -3187,7 +4065,23 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s bijelim krovom i tamnom strukturom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:16.927Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.269Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "25",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.636065,
+          "lat": 45.534578
+        }
+      ]
     },
     {
       "id": "way/1534363775",
@@ -3245,7 +4139,23 @@
         "obrazlozenje": "U centru snimke je vidljiva velika zgrada s tamnim krovom, okružena betoniranom površinom i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:17.140Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.270Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "27",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.636216,
+          "lat": 45.534632
+        }
+      ]
     },
     {
       "id": "way/1534363776",
@@ -3294,7 +4204,27 @@
         "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom i betonskim/asfaltnim površinama oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:16.932Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.270Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 200,
+        "iou": 0.53
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "31",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.636587,
+          "lat": 45.534703
+        }
+      ]
     },
     {
       "id": "way/1534363777",
@@ -3359,7 +4289,23 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim krovom i građevinskom strukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:16.804Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.270Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "35",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.636828,
+          "lat": 45.534854
+        }
+      ]
     },
     {
       "id": "way/1534363778",
@@ -3416,7 +4362,23 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s bijelim krovom i tamnim dijelovima, okružena s zelenim površinama i parkiralištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:17.064Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.271Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "37",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.636994,
+          "lat": 45.534937
+        }
+      ]
     },
     {
       "id": "way/1534363779",
@@ -3465,7 +4427,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva građevina s tamnim krovom, okružena zelenom vegetacijom i pristupnim putovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:17.008Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.271Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 137,
+        "iou": 0.52
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "39",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.637115,
+          "lat": 45.534961
+        }
+      ]
     },
     {
       "id": "way/1534363780",
@@ -3514,7 +4496,27 @@
         "obrazlozenje": "U centru kadra vidljiva je velika zgrada s tamnim krovom i jasnim obrubom, okružena obrađenim zemljištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:16.975Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.271Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 137,
+        "iou": 0.04
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "41",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.637248,
+          "lat": 45.535039
+        }
+      ]
     },
     {
       "id": "way/1534363781",
@@ -3571,7 +4573,23 @@
         "obrazlozenje": "U centru kadra jasno se vidi građevina s tamnim (vjerovatno plavim ili crnim) krovom na terenu obojenim u smeđe nijanse.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:17.166Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.271Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "41A",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.637701,
+          "lat": 45.534968
+        }
+      ]
     },
     {
       "id": "way/1534363782",
@@ -3620,7 +4638,23 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno definiranim krovom, okružena zelenim površinama (travnjak, sportski teren).",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:20.194Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.272Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "45",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.637604,
+          "lat": 45.534517
+        }
+      ]
     },
     {
       "id": "way/1534363783",
@@ -3669,7 +4703,27 @@
         "obrazlozenje": "U centru kadra jasno se vide najmanje dvije građevine s tamnim krovovima i betonskim površinama, te je vidljivo obrađeno zemljište i vegetacija u neposrednoj okolici.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:20.038Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.272Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 221,
+        "iou": 0.39
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "54",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.637146,
+          "lat": 45.534576
+        }
+      ]
     },
     {
       "id": "way/1534363784",
@@ -3718,6 +4772,11 @@
         "obrazlozenje": "U centru snimke vidljiva je tamna građevina s pravokutnim krovom, smještena na obrađenom zemljištu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:19.870Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.273Z"
       }
     },
     {
@@ -3767,7 +4826,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s tamnosivim krovom, okružena parkiralištima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:19.958Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.273Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 145,
+        "iou": 0.58
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "26",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.635233,
+          "lat": 45.533557
+        }
+      ]
     },
     {
       "id": "way/1534363786",
@@ -3824,7 +4903,23 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s bijelo-sivim krovom te pripadajućim zemljištem oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:20.720Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.273Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "38",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.635864,
+          "lat": 45.534115
+        }
+      ]
     },
     {
       "id": "way/1534363787",
@@ -3873,7 +4968,23 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim krovom i okolnom vegetacijom na parcelama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:20.022Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.273Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "24",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.635434,
+          "lat": 45.533512
+        }
+      ]
     },
     {
       "id": "way/1534363788",
@@ -3922,7 +5033,23 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada s pravokutnim krovom smeđe-crvene boje, okružena zemljištem i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:19.986Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.274Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "78",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.634966,
+          "lat": 45.533318
+        }
+      ]
     },
     {
       "id": "way/1534363789",
@@ -3971,7 +5098,23 @@
         "obrazlozenje": "U centru kadra vidljiva je tamnosiva/crna krovna površina građevine s pravokutnim oblikom, jasno razlikovana od okolnog terena.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:21.284Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.274Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "82",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.634511,
+          "lat": 45.53315
+        }
+      ]
     },
     {
       "id": "way/1534363790",
@@ -4028,7 +5171,23 @@
         "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom, okružena betonskom površinom i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:20.292Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.274Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "84",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.634491,
+          "lat": 45.533037
+        }
+      ]
     },
     {
       "id": "way/1534365726",
@@ -4072,7 +5231,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s sivim ili tamnosivim krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:19.974Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.275Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 73,
+        "iou": 0.34
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica jela",
+          "houseNumber": "4",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.633295,
+          "lat": 45.534137
+        }
+      ]
     },
     {
       "id": "way/1534365727",
@@ -4116,7 +5295,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/ružičastim krovom i bijелim zidovima, okružena zelenom vegetacijom i parkiralištima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:20.324Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.275Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 134,
+        "iou": 0.59
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica svetog Leopolda Bogdana Mandića",
+          "houseNumber": "173",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.633551,
+          "lat": 45.5346
+        }
+      ]
     },
     {
       "id": "way/1534365728",
@@ -4160,7 +5359,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva izgrađena zgrada s tamnim (vjerojatno crnim ili tamnosivim) krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:20.110Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.276Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 295,
+        "iou": 0.25
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica svetog Leopolda Bogdana Mandića",
+          "houseNumber": "171",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.633704,
+          "lat": 45.534695
+        }
+      ]
     },
     {
       "id": "way/1534365729",
@@ -4204,7 +5423,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s crvenim krovom i okolnom infrastrukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.398Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.277Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 11,
+        "povrsinaMs": 384,
+        "iou": 0.24
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica svetog Leopolda Bogdana Mandića",
+          "houseNumber": "167",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.634021,
+          "lat": 45.534811
+        }
+      ]
     },
     {
       "id": "way/1534365730",
@@ -4248,7 +5487,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenijom i bijelijim krovnom površinom, jasno razlikovnom od okolnog puta i zelenih površina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.934Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.278Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 384,
+        "iou": 0.18
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica svetog Leopolda Bogdana Mandića",
+          "houseNumber": "165",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.634145,
+          "lat": 45.534868
+        }
+      ]
     },
     {
       "id": "way/1534365731",
@@ -4292,7 +5551,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/roza krovom okružena zelenom vegetacijom i parkiralištima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.504Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.280Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 292,
+        "iou": 0.37
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica svetog Leopolda Bogdana Mandića",
+          "houseNumber": "161A",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.634426,
+          "lat": 45.534989
+        }
+      ]
     },
     {
       "id": "way/1534387345",
@@ -4341,7 +5620,27 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada s crvenim i sivim krovom, jasno vidljiva na ortofoto snimci.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.452Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.282Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 173,
+        "iou": 0.36
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "78",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.36156,
+          "lat": 46.344984
+        }
+      ]
     },
     {
       "id": "way/1534387346",
@@ -4396,6 +5695,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.444Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.282Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 80,
+        "iou": 0.07
       }
     },
     {
@@ -4445,7 +5753,27 @@
         "obrazlozenje": "U centru snimke vidljiva je najmanje jedna izgrađena zgrada s vidljivim krovom crvene/ružičaste boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.675Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.283Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 561,
+        "iou": 0.17
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "76",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.361548,
+          "lat": 46.345122
+        }
+      ]
     },
     {
       "id": "way/1534387348",
@@ -4510,7 +5838,27 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom i surrounding terenom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.565Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.285Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 28,
+        "iou": 0.17
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "74",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.36152,
+          "lat": 46.345247
+        }
+      ]
     },
     {
       "id": "way/1534387349",
@@ -4575,6 +5923,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i jasno definiranim rubovima, okružena obrađenim zemljištem i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.704Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.285Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 131,
+        "iou": 0.47
       }
     },
     {
@@ -4622,6 +5979,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena s zelenom vegetacijom i manjim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.497Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.286Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 124,
+        "iou": 0.02
       }
     },
     {
@@ -4679,7 +6045,27 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada s crvenim krovom, parcela je djelomično obrađena s vegetacijom i putnom infrastrukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.690Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.287Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 124,
+        "iou": 0.35
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "70",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.361424,
+          "lat": 46.34552
+        }
+      ]
     },
     {
       "id": "way/1534387352",
@@ -4728,7 +6114,27 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena vegetacijom i parcelama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.503Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.287Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 120,
+        "iou": 0.38
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "68",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.36136,
+          "lat": 46.345639
+        }
+      ]
     },
     {
       "id": "way/1534387353",
@@ -4791,6 +6197,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/smeđim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:23.279Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.288Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 212,
+        "iou": 0.17
       }
     },
     {
@@ -4838,6 +6253,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena vegetacijom i obrađenim zemljištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.037Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.290Z",
+        "kako": "blizu",
+        "udaljenostM": 16,
+        "povrsinaMs": 212,
+        "iou": 0.09
       }
     },
     {
@@ -4885,6 +6309,15 @@
         "obrazlozenje": "U centru snimke jasno se vidi crveni krov građevine s okolnom vegetacijom i dijelovima niza zgrada.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.150Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.291Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 127,
+        "iou": 0.18
       }
     },
     {
@@ -4948,6 +6381,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/smeđim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.133Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.292Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 190,
+        "iou": 0.37
       }
     },
     {
@@ -4997,7 +6439,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i dodatnim strukturama s tamnosmeđim krovom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.123Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.292Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 53,
+        "iou": 0.24
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "69",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.362183,
+          "lat": 46.345658
+        }
+      ]
     },
     {
       "id": "way/1534387358",
@@ -5044,6 +6506,15 @@
         "obrazlozenje": "U centru snimke vidi se jasno izgrađena zgrada s crvenim krovom i okolnom infrastrukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:25.979Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.293Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 209,
+        "iou": 0.02
       }
     },
     {
@@ -5107,6 +6578,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom okružena vegetacijom i obrađenim poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:25.949Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.294Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 209,
+        "iou": 0.31
       }
     },
     {
@@ -5164,7 +6644,27 @@
         "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenkastvim krovom okružena zelenom vegetacijom uz cestu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.270Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.294Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 150,
+        "iou": 0.21
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "67",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.361793,
+          "lat": 46.345831
+        }
+      ]
     },
     {
       "id": "way/1534387361",
@@ -5227,6 +6727,15 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom i betonskom površinom oko nje, okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.170Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.295Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 26,
+        "iou": 0.21
       }
     },
     {
@@ -5280,7 +6789,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena vegetacijom i dijelomično vidljiva s desne strane snimke.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.085Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.295Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 139,
+        "iou": 0.16
+      },
+      "dguTocke": [
+        {
+          "street": "Dravska ulica",
+          "houseNumber": "5",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.360676,
+          "lat": 46.348182
+        }
+      ]
     },
     {
       "id": "way/1534387363",
@@ -5327,6 +6856,15 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva zgrada s crvenkastvim krovom okružena zelenom vegetacijom i susjednim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.198Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.296Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 96,
+        "iou": 0.14
       }
     },
     {
@@ -5378,6 +6916,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiv krov crvene/smeđe boje s građevinama i pripadajućim vanjskim prostorom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.167Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.296Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 96,
+        "iou": 0.11
       }
     },
     {
@@ -5429,6 +6976,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina sa crvenim krovom okružena vegetacijom i oranjicom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:26.154Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.297Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 96,
+        "iou": 0.16
       }
     },
     {
@@ -5476,6 +7032,15 @@
         "obrazlozenje": "U centru kadra vidljiva je velika zgrada s crvenim krovom i pripadajućim gospodarskim objektima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.318Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.297Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 38,
+        "iou": 0.31
       }
     },
     {
@@ -5523,6 +7088,15 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.463Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.297Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 26,
+        "iou": 0
       }
     },
     {
@@ -5570,6 +7144,15 @@
         "obrazlozenje": "U centru kadra je vidljiva izgrađena zgrada s crvenim/ružičastim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.406Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.298Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 26,
+        "iou": 0.13
       }
     },
     {
@@ -5612,6 +7195,15 @@
         "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom, okružena vegetacijom i šumskom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.379Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.299Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 69,
+        "iou": 0
       }
     },
     {
@@ -5660,7 +7252,27 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:29.451Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.299Z",
+        "kako": "blizu",
+        "udaljenostM": 15,
+        "povrsinaMs": 69,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "10",
+          "settlement": "Gornji Kuršanec",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.356765,
+          "lat": 46.332542
+        }
+      ]
     },
     {
       "id": "way/1534390040",
@@ -5720,7 +7332,27 @@
         "obrazlozenje": "Snimka je vrlo nejasna i presvjetla, bez mogućnosti pouzdane procjene vidljivosti građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.571Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.304Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 13,
+        "povrsinaMs": 3472,
+        "iou": 0.61
+      },
+      "dguTocke": [
+        {
+          "street": "Obrtnička ulica",
+          "houseNumber": "5",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.358323,
+          "lat": 46.333054
+        }
+      ]
     },
     {
       "id": "way/1534390041",
@@ -5762,6 +7394,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom okružena vegetacijom i pristupnom stazom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.598Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.308Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 61,
+        "iou": 0.16
       }
     },
     {
@@ -5804,6 +7445,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenijom krovnom površinom na kojem se razlikuje struktura građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.544Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.310Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 36,
+        "iou": 0.19
       }
     },
     {
@@ -5846,6 +7496,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/reddish krovom i jasno vidljivim obrisima građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.665Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.310Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 225,
+        "iou": 0.2
       }
     },
     {
@@ -5902,7 +7561,27 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno definirana zgrada s crvenim/smeđim krovom i видљивим obrisom građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.689Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.311Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 225,
+        "iou": 0.28
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "2",
+          "settlement": "Gornji Kuršanec",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.360034,
+          "lat": 46.332588
+        }
+      ]
     },
     {
       "id": "way/1534390045",
@@ -5944,6 +7623,15 @@
         "obrazlozenje": "Snimka pokazuje vodenu površinu (bazen ili dio vode) s nekoliko nijansi plave boje, bez vidljive građevine ili krova u centru kadra.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.846Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.312Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 1500,
+        "iou": 0.52
       }
     },
     {
@@ -5992,7 +7680,23 @@
         "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom, jasno razlikovana od okolnog terena s vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:28.857Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.312Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Obrtnička ulica",
+          "houseNumber": "20A",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.354378,
+          "lat": 46.335552
+        }
+      ]
     },
     {
       "id": "way/1534390047",
@@ -6036,7 +7740,27 @@
         "obrazlozenje": "U centru snimke vidljiva je jasno izgrađena zgrada s pravokutnim obrisom i krovom, okružena s parcelama i pristupnom cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:32.137Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.313Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 216,
+        "iou": 0.37
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "88A",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.361806,
+          "lat": 46.343594
+        }
+      ]
     },
     {
       "id": "way/1534390405",
@@ -6078,6 +7802,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom i oranjastvom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:31.511Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.313Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 76,
+        "iou": 0.21
       }
     },
     {
@@ -6120,6 +7853,15 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom i obrađenim zemljištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:32.051Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.314Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 232,
+        "iou": 0.21
       }
     },
     {
@@ -6172,7 +7914,27 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada s jasno vidljivim krovom crvene/smeđe boje na svjetloj podlozi.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:31.640Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.314Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 12,
+        "povrsinaMs": 232,
+        "iou": 0.21
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "145",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.361508,
+          "lat": 46.336776
+        }
+      ]
     },
     {
       "id": "way/1534390408",
@@ -6214,6 +7976,11 @@
         "obrazlozenje": "U centru snimke vidljiva je bijela građevina s pravokutnim krovom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:31.550Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.314Z"
       }
     },
     {
@@ -6261,7 +8028,27 @@
         "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina s pravokutnim krovom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:32.008Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.315Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 14,
+        "povrsinaMs": 521,
+        "iou": 0.51
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "143B",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.36215,
+          "lat": 46.336876
+        }
+      ]
     },
     {
       "id": "way/1534390410",
@@ -6303,6 +8090,15 @@
         "obrazlozenje": "U centru snimke vidljiva je jasno izgrađena zgrada s crvenim krovom i tamnim površinama, okružena zelenom vegetacijom i oranjicom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:31.872Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.316Z",
+        "kako": "blizu",
+        "udaljenostM": 21,
+        "povrsinaMs": 302,
+        "iou": 0.15
       }
     },
     {
@@ -6351,7 +8147,27 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva veća zgrada s crvenim krovom, okružena s biljnom i travnatom površinom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:31.951Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.317Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 116,
+        "iou": 0.25
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "141",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.361551,
+          "lat": 46.337339
+        }
+      ]
     },
     {
       "id": "way/1534390412",
@@ -6393,6 +8209,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:31.569Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.318Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 82,
+        "iou": 0.43
       }
     },
     {
@@ -6443,6 +8268,15 @@
         "obrazlozenje": "U centru snimke je vidljiva izgrađena zgrada s crvenim krovom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:31.516Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.318Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 227,
+        "iou": 0.39
       }
     },
     {
@@ -6485,6 +8319,15 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim krovom i surrounding zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:32.012Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.319Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 375,
+        "iou": 0.29
       }
     },
     {
@@ -6533,7 +8376,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenim/terakota krovom i sjenom koju baca.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:31.717Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.320Z",
+        "kako": "blizu",
+        "udaljenostM": 11,
+        "povrsinaMs": 170,
+        "iou": 0.3
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "139",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.361585,
+          "lat": 46.337478
+        }
+      ]
     },
     {
       "id": "way/1534390416",
@@ -6581,7 +8444,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenim površinama i putovima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.208Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.321Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 256,
+        "iou": 0.22
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "137",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.361601,
+          "lat": 46.337608
+        }
+      ]
     },
     {
       "id": "way/1534390417",
@@ -6629,7 +8512,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi građevina s crvenim krovom i tamnom sjenom, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.784Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.321Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 256,
+        "iou": 0.15
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "135",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.361627,
+          "lat": 46.337723
+        }
+      ]
     },
     {
       "id": "way/1534390418",
@@ -6671,6 +8574,11 @@
         "obrazlozenje": "U centru kadra vidljiva je svetlija pravokutna površina s tamnim rubovima koja predstavlja krov građevine, okružene travnjacima i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.466Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.322Z"
       }
     },
     {
@@ -6719,7 +8627,27 @@
         "obrazlozenje": "U centru snimke vidljiva je bijela građevina s pravokutnim obrisom i svetlim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.366Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.324Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 2117,
+        "iou": 0.65
+      },
+      "dguTocke": [
+        {
+          "street": "Čakovečka ulica",
+          "houseNumber": "133A",
+          "settlement": "Pušćine",
+          "postcode": "40305",
+          "city": "Nedelišće",
+          "lon": 16.362661,
+          "lat": 46.337803
+        }
+      ]
     },
     {
       "id": "way/1534478185",
@@ -6767,7 +8695,27 @@
         "obrazlozenje": "U centru kadra je vidljiva građevina s ružičastim/crvenim krovom okružena zelenilom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.498Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.324Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 131,
+        "iou": 0.48
+      },
+      "dguTocke": [
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "3",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.435675,
+          "lat": 44.298351
+        }
+      ]
     },
     {
       "id": "way/1534478186",
@@ -6815,7 +8763,36 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/rozim krovom, jasno razlikovana od okolne vegetacije i terena.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.591Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.325Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 169,
+        "iou": 0.06
+      },
+      "dguTocke": [
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "9",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.435992,
+          "lat": 44.29826
+        },
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "7",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.435918,
+          "lat": 44.2983
+        }
+      ]
     },
     {
       "id": "way/1534478187",
@@ -6863,7 +8840,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi građevina s crvenim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.235Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.325Z",
+        "kako": "blizu",
+        "udaljenostM": 13,
+        "povrsinaMs": 134,
+        "iou": 0.05
+      },
+      "dguTocke": [
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "11",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.436196,
+          "lat": 44.298554
+        }
+      ]
     },
     {
       "id": "way/1534478188",
@@ -6911,7 +8908,23 @@
         "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom i sjenom, okružena vegetacijom i obrađenim zemljištem.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.282Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.326Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "13",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.436226,
+          "lat": 44.298821
+        }
+      ]
     },
     {
       "id": "way/1534478189",
@@ -6959,7 +8972,23 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnosivim krovom, jasno razlučiva od okoline s vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.405Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.326Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "15",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.436397,
+          "lat": 44.298782
+        }
+      ]
     },
     {
       "id": "way/1534478190",
@@ -7007,7 +9036,36 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s crvenkastitim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.249Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.326Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 89,
+        "iou": 0.32
+      },
+      "dguTocke": [
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "4",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.436191,
+          "lat": 44.29814
+        },
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "2",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.43611,
+          "lat": 44.298193
+        }
+      ]
     },
     {
       "id": "way/1534478191",
@@ -7055,7 +9113,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenkastavim krovom okružena zelenom vegetacijom i dijelomично plavom površinom vode.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.685Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.327Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 115,
+        "iou": 0.53
+      },
+      "dguTocke": [
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "1",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.435635,
+          "lat": 44.298081
+        }
+      ]
     },
     {
       "id": "way/1534478192",
@@ -7103,7 +9181,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenkastitim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:34.432Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.327Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 100,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Jurja Barakovića",
+          "houseNumber": "4",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.435459,
+          "lat": 44.299009
+        }
+      ]
     },
     {
       "id": "way/1534478193",
@@ -7151,7 +9249,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i bijelim sekundarnim strukturama, okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:37.095Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.328Z",
+        "kako": "blizu",
+        "udaljenostM": 14,
+        "povrsinaMs": 130,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Jurja Barakovića",
+          "houseNumber": "6",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.43524,
+          "lat": 44.29913
+        }
+      ]
     },
     {
       "id": "way/1534478194",
@@ -7215,7 +9333,27 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim krovom okružena zelenom vegetacijom i obrađenim poljima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:38.121Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.328Z",
+        "kako": "blizu",
+        "udaljenostM": 11,
+        "povrsinaMs": 163,
+        "iou": 0.03
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Jurja Barakovića",
+          "houseNumber": "8",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.435419,
+          "lat": 44.299254
+        }
+      ]
     },
     {
       "id": "way/1534478195",
@@ -7263,7 +9401,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s terrakota/smeđim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:36.966Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.329Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 171,
+        "iou": 0.17
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Jurja Barakovića",
+          "houseNumber": "12",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.435701,
+          "lat": 44.299175
+        }
+      ]
     },
     {
       "id": "way/1534478196",
@@ -7311,7 +9469,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:37.056Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.330Z",
+        "kako": "blizu",
+        "udaljenostM": 14,
+        "povrsinaMs": 94,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Ulica Jose Dokoza",
+          "houseNumber": "28B",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.435547,
+          "lat": 44.298449
+        }
+      ]
     },
     {
       "id": "way/1534478197",
@@ -7359,7 +9537,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:36.905Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.330Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 118,
+        "iou": 0
+      },
+      "dguTocke": [
+        {
+          "street": "Kruškovačka ulica",
+          "houseNumber": "5",
+          "settlement": "Starigrad",
+          "postcode": "23244",
+          "city": "Starigrad Paklenica",
+          "lon": 15.435876,
+          "lat": 44.298426
+        }
+      ]
     },
     {
       "id": "way/1534504883",
@@ -7399,6 +9597,15 @@
         "obrazlozenje": "U centru kadra jasno se vidi izgrađena zgrada s bijelim i sivim krovom, okružena travnatim površinama i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:37.360Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.330Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 42,
+        "iou": 0
       }
     },
     {
@@ -7451,7 +9658,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s različitim dijelovima krovova u sivoj, crvenoj i plavoj boji.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:37.233Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.332Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 116,
+        "iou": 0.14
+      },
+      "dguTocke": [
+        {
+          "street": "Andrije Hebranga",
+          "houseNumber": "24A",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.853075,
+          "lat": 45.910643
+        }
+      ]
     },
     {
       "id": "way/1534582016",
@@ -7507,7 +9734,27 @@
         "obrazlozenje": "U centru snimke vidljiva je jasno izdvojena građevina s crvenim krovom i sjenom oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:36.891Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.334Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 149,
+        "iou": 0.19
+      },
+      "dguTocke": [
+        {
+          "street": "Andrije Hebranga",
+          "houseNumber": "26A",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.85324,
+          "lat": 45.910792
+        }
+      ]
     },
     {
       "id": "way/1534582017",
@@ -7571,7 +9818,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i okolnim parkiralištima.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:36.891Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.336Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 229,
+        "iou": 0.33
+      },
+      "dguTocke": [
+        {
+          "street": "Andrije Hebranga",
+          "houseNumber": "28",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.853337,
+          "lat": 45.910899
+        }
+      ]
     },
     {
       "id": "way/1534582018",
@@ -7619,7 +9886,27 @@
         "obrazlozenje": "U centru snimke vidljiva je građevina s tamnosivim krovom i nekoliko manjih objekata oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:37.015Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.337Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 216,
+        "iou": 0.15
+      },
+      "dguTocke": [
+        {
+          "street": "Andrije Hebranga",
+          "houseNumber": "28/1",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.853641,
+          "lat": 45.910787
+        }
+      ]
     },
     {
       "id": "way/1534582020",
@@ -7683,7 +9970,27 @@
         "obrazlozenje": "U centru kadra vidljiva je građevina s plavim/tamnijim krovom, jasno odvojena od zelene vegetacije i pristupnih površina.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:37.344Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.339Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 75,
+        "iou": 0.1
+      },
+      "dguTocke": [
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "9",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.851079,
+          "lat": 45.910394
+        }
+      ]
     },
     {
       "id": "way/1534582021",
@@ -7763,7 +10070,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom, okružena s drugim građevinama različitih boja krovova.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:37.309Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.342Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 150,
+        "iou": 0.24
+      },
+      "dguTocke": [
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "7",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.851319,
+          "lat": 45.910382
+        }
+      ]
     },
     {
       "id": "way/1534582023",
@@ -7827,7 +10154,27 @@
         "obrazlozenje": "U centru snimke vidljiva je zgrada s crvenim krovom i dodatnim estruturama s plavim krovovima, okružena zelenom vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.723Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.344Z",
+        "kako": "blizu",
+        "udaljenostM": 11,
+        "povrsinaMs": 136,
+        "iou": 0.21
+      },
+      "dguTocke": [
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "5",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.851469,
+          "lat": 45.910333
+        }
+      ]
     },
     {
       "id": "way/1534582024",
@@ -7891,7 +10238,27 @@
         "obrazlozenje": "U centru kadra vidljive su višebrojna krovišta s različitim bojama i oblicima, što ukazuje na izgrađene zgrade i građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.595Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.347Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 265,
+        "iou": 0.48
+      },
+      "dguTocke": [
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "3",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.851625,
+          "lat": 45.910262
+        }
+      ]
     },
     {
       "id": "way/1534582025",
@@ -7947,7 +10314,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa tamnosivim krovom okružena drugim građevinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.188Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.348Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 171,
+        "iou": 0.4
+      },
+      "dguTocke": [
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "1",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.851781,
+          "lat": 45.910205
+        }
+      ]
     },
     {
       "id": "way/1534582026",
@@ -7995,7 +10382,27 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i tamnom građevinom, okružena zelenom vegetacijom i parcelama terena.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.463Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.349Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 106,
+        "iou": 0.36
+      },
+      "dguTocke": [
+        {
+          "street": "Andrije Hebranga",
+          "houseNumber": "35B",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.851924,
+          "lat": 45.910059
+        }
+      ]
     },
     {
       "id": "way/1534582027",
@@ -8059,7 +10466,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s crvenim krovom i okolnom infrastrukturom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:41.119Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.351Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 144,
+        "iou": 0.27
+      },
+      "dguTocke": [
+        {
+          "street": "Andrije Hebranga",
+          "houseNumber": "35A",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.851779,
+          "lat": 45.910036
+        }
+      ]
     },
     {
       "id": "way/1534582028",
@@ -8113,6 +10540,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena parcelama s različitim vrstama krovova.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.720Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.352Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 71,
+        "iou": 0.48
       }
     },
     {
@@ -8155,6 +10591,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena s drugih nekoliko građevina i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.534Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.354Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 144,
+        "iou": 0.23
       }
     },
     {
@@ -8219,7 +10664,27 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva građevina s crvenim/ružičastim krovom, okružena s ostalim zgradama i zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.588Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.355Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 236,
+        "iou": 0.35
+      },
+      "dguTocke": [
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "20",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.847499,
+          "lat": 45.911817
+        }
+      ]
     },
     {
       "id": "way/1534582031",
@@ -8279,7 +10744,27 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i parcelom obrasla vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.367Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.357Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 236,
+        "iou": 0.3
+      },
+      "dguTocke": [
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "18",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.847617,
+          "lat": 45.911803
+        }
+      ]
     },
     {
       "id": "way/1534582032",
@@ -8343,7 +10828,36 @@
         "obrazlozenje": "U centru kadra je vidljiva građevina s reddastim krovom okružena zelenom vegetacijom i putanjom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.475Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.359Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 239,
+        "iou": 0.65
+      },
+      "dguTocke": [
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "22",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.847331,
+          "lat": 45.911887
+        },
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "22/2",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.84739,
+          "lat": 45.912016
+        }
+      ]
     },
     {
       "id": "way/1534582033",
@@ -8399,7 +10913,27 @@
         "obrazlozenje": "U centru kadra je vidljiva građevina s crvenim krovom, okružena s asfaltnom površinom i vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:40.311Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.360Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 82,
+        "iou": 0.29
+      },
+      "dguTocke": [
+        {
+          "street": "Ivanovčanska",
+          "houseNumber": "24",
+          "settlement": "Bjelovar",
+          "postcode": "43000",
+          "city": "Bjelovar",
+          "lon": 16.847078,
+          "lat": 45.911846
+        }
+      ]
     },
     {
       "id": "way/1534582034",
@@ -8449,6 +10983,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim crvenim/smeđim krovom i betonskim/asfaltnim površinama oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T16:51:41.007Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:24.365Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 29,
+        "povrsinaMs": 1235,
+        "iou": 0.19
       }
     }
   ]

@@ -91,9 +91,54 @@ function main() {
         n: f.dguNovaAdresaPoklapanje ? 1 : 0,      // nova DGU adresa na lokaciji
         p: sPromjenom.has(f.id) ? 1 : 0,           // OSM atributna promjena
         d: e.to ? e.to.slice(0, 10) : null,        // kad je detektirana
+        // Microsoftov nalaz: 1 = ima zgradu, 0 = nema, null = jos nije
+        // provjereno. Bez ovoga terenski ekran ne moze izracunati kompozitnu
+        // ocjenu - dokaz 'ms' bi ostao nepoznat za sve zgrade.
+        ms: f.msProvjera ? (f.msProvjera.ima ? 1 : 0) : null,
+        v: f.dguAdrese ? f.dguAdrese.length : (f.dguBrojJedinica || null), // broj DGU adresa
+        g: 1,                                      // ima obris (OSM zgrada)
+        o: "OSM",                                  // izvor retka
       });
     });
   });
+
+  // Kandidati iz DGU delte (izlaz dgu-ms-detektor.js). To su adresne tocke bez
+  // OSM obrisa - na terenu jednako vrijedne, cesto i vrjednije, jer OSM za njih
+  // uglavnom nema nista ucrtano.
+  const NOVOGRADNJA_DIR = path.join(REPO_ROOT, "data", "novogradnja");
+  let dguDodano = 0;
+  if (fs.existsSync(NOVOGRADNJA_DIR)) {
+    const datoteke = fs.readdirSync(NOVOGRADNJA_DIR)
+      .filter((f) => f.startsWith("novogradnja-") && f.endsWith(".json"));
+    datoteke.forEach((datoteka) => {
+      const d = JSON.parse(fs.readFileSync(path.join(NOVOGRADNJA_DIR, datoteka), "utf8"));
+      [...(d.novogradnja || []), ...(d.legalizacija || [])].forEach((z) => {
+        if (typeof z.lat !== "number" || typeof z.lon !== "number") return;
+        const id = "dgu/" + z.lat.toFixed(5) + "_" + z.lon.toFixed(5);
+        if (vidjeni.has(id)) return;
+        vidjeni.add(id);
+        zgrade.push({
+          i: id,
+          y: Math.round(z.lat * 1e5) / 1e5,
+          x: Math.round(z.lon * 1e5) / 1e5,
+          a: z.adresa || null,
+          m: z.naselje || null,
+          z: null,
+          t: null, k: null,
+          s: null,                                  // ortofoto nije provjeren
+          u: 0,
+          n: 1,                                     // po definiciji nova DGU adresa
+          p: 0,
+          d: d.datum || null,
+          ms: z.ms ? (z.ms.ima ? 1 : 0) : null,
+          v: 1,
+          g: 0,                                     // nema OSM obris
+          o: "DGU",
+        });
+        dguDodano++;
+      });
+    });
+  }
 
   const izlaz = {
     generirano: new Date().toISOString(),
@@ -104,7 +149,7 @@ function main() {
 
   fs.writeFileSync(IZLAZ_PATH, JSON.stringify(izlaz));
   const mb = fs.statSync(IZLAZ_PATH).size / 1024 / 1024;
-  console.log(`Terenski indeks: ${zgrade.length} zgrada, ${mb.toFixed(2)} MB (preskoceno ${preskoceno} starijih datoteka).`);
+  console.log(`Terenski indeks: ${zgrade.length} zapisa (${dguDodano} iz DGU delte), ${mb.toFixed(2)} MB (preskoceno ${preskoceno} starijih datoteka).`);
   console.log(`Spremljeno u: ${IZLAZ_PATH}`);
 }
 

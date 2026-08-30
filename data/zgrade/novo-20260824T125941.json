@@ -57,7 +57,23 @@
         "obrazlozenje": "U centru snimke vidljiva je betonska/asfaltna površina sa nekoliko građevina i struktura koji ukazuju na izgrađenu infrastrukturu.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:27.530Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.797Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Deveta ulica - Nona Strada",
+          "houseNumber": "12",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.546051,
+          "lat": 45.45148
+        }
+      ]
     },
     {
       "id": "way/1551942347",
@@ -105,7 +121,27 @@
         "obrazlozenje": "U centru kadra jasno se vidi krov zgrade/građevine sa karakterističnom strukturom i bojom koja se razlikuje od okolnog terena.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:27.800Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.797Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 126,
+        "iou": 0.74
+      },
+      "dguTocke": [
+        {
+          "street": "Prva ulica - Prima Strada",
+          "houseNumber": "42C",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.543345,
+          "lat": 45.450758
+        }
+      ]
     },
     {
       "id": "way/1551942348",
@@ -147,6 +183,15 @@
         "obrazlozenje": "U centru kadra vidljiva je zgrada sa jasno vidljivim krovom, bijele i sive boje, sa pratećim građevinama i strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:27.376Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.798Z",
+        "kako": "blizu",
+        "udaljenostM": 13,
+        "povrsinaMs": 189,
+        "iou": 0
       }
     },
     {
@@ -195,7 +240,32 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa tamnom krovnom površinom okružena poljoprivrednim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:27.463Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.798Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Druga ulica - Seconda Strada",
+          "houseNumber": "6",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.539817,
+          "lat": 45.451455
+        },
+        {
+          "street": "Druga ulica - Seconda Strada",
+          "houseNumber": "6A",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.539901,
+          "lat": 45.451417
+        }
+      ]
     },
     {
       "id": "way/1551942350",
@@ -259,7 +329,23 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada sa pravokutnim krovom smeđe-crvene boje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:27.586Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.798Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Druga ulica - Seconda Strada",
+          "houseNumber": "4",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.539502,
+          "lat": 45.451697
+        }
+      ]
     },
     {
       "id": "way/1551942351",
@@ -301,6 +387,15 @@
         "obrazlozenje": "U centru kadra vidljiva je izgrađena građevina s rožnatim krovom boje između bež i smeđe tonalitete.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:30.135Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.799Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 32,
+        "iou": 0
       }
     },
     {
@@ -343,6 +438,15 @@
         "obrazlozenje": "U centru kadra je vidljiva zgrada sa crvenim/ružičastim krovom i dijelovima građevine uz nju.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:30.060Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.799Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 99,
+        "iou": 0.44
       }
     },
     {
@@ -385,6 +489,11 @@
         "obrazlozenje": "Snimka pokazuje šumsku i travnatom vegetaciju bez vidljive građevine ili krovne strukture u centru kadra.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-25T17:56:33.665Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.799Z"
       }
     },
     {
@@ -441,7 +550,23 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina sa sivim krovom okružena vegetacijom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:29.768Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.800Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Peta ulica - Quinta Strada",
+          "houseNumber": "25",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.546698,
+          "lat": 45.453075
+        }
+      ]
     },
     {
       "id": "way/1551942355",
@@ -489,7 +614,32 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena struktura sa krovom, vidljive su i obrube građevine.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:32.772Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.801Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Peta ulica - Quinta Strada",
+          "houseNumber": "3D",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.542404,
+          "lat": 45.454139
+        },
+        {
+          "street": "Petnaesta ulica - Quindicesima Strada",
+          "houseNumber": "3D/1",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.542313,
+          "lat": 45.454142
+        }
+      ]
     },
     {
       "id": "way/1551942356",
@@ -531,6 +681,11 @@
         "obrazlozenje": "U centru kadra je vidljiva bijela/svijetla zgrada s krovom, okružena s betonskom ili asfaltnom površinom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:35.615Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.801Z"
       }
     },
     {
@@ -595,7 +750,32 @@
         "obrazlozenje": "U centru kadra jasno se vidi velika bijela zgrada s pravokutnim krovom i nekoliko manjih zgrada oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:35.321Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.802Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Petnaesta ulica - Quindicesima Strada",
+          "houseNumber": "8A",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.539701,
+          "lat": 45.453251
+        },
+        {
+          "street": "Petnaesta ulica - Quindicesima Strada",
+          "houseNumber": "8B",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.539658,
+          "lat": 45.453327
+        }
+      ]
     },
     {
       "id": "way/1551942358",
@@ -651,7 +831,23 @@
         "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena građevina sa krovom i vanjskim strukturama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:35.739Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.802Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Petnaesta ulica - Quindicesima Strada",
+          "houseNumber": "6",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.539773,
+          "lat": 45.453044
+        }
+      ]
     },
     {
       "id": "way/1551942359",
@@ -699,7 +895,45 @@
         "obrazlozenje": "U centru kadra jasno je vidljiva zgrada sa crvenom/smeđom krovnom pločom i dijelovima zelenila oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:35.981Z"
-      }
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.803Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 13,
+        "povrsinaMs": 384,
+        "iou": 0.34
+      },
+      "dguTocke": [
+        {
+          "street": "Petnaesta ulica - Quindicesima Strada",
+          "houseNumber": "3",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.539216,
+          "lat": 45.452875
+        },
+        {
+          "street": "Petnaesta ulica - Quindicesima Strada",
+          "houseNumber": "3C",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.539188,
+          "lat": 45.453016
+        },
+        {
+          "street": "Petnaesta ulica - Quindicesima Strada",
+          "houseNumber": "3B",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.539201,
+          "lat": 45.45295
+        }
+      ]
     },
     {
       "id": "way/1551942360",
@@ -755,7 +989,23 @@
         "obrazlozenje": "U centru kadra vidljiva je bijela/svijetla građevina sa krovom, okružena zelenim površinama i pristupnom cestom.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:36.009Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.803Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Šesnaesta ulica - Sedicesima Strada",
+          "houseNumber": "6",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.537887,
+          "lat": 45.453183
+        }
+      ]
     },
     {
       "id": "way/1551942361",
@@ -811,7 +1061,23 @@
         "obrazlozenje": "U centru kadra vidljiva je beža/bijela zgrada s krovom, okružena zelenim površinama.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:39.267Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.803Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Šesnaesta ulica - Sedicesima Strada",
+          "houseNumber": "4",
+          "settlement": "Murine - Morno",
+          "postcode": "52470",
+          "city": "Umag (Umago)",
+          "lon": 13.538089,
+          "lat": 45.453172
+        }
+      ]
     },
     {
       "id": "way/1551987204",
@@ -860,7 +1126,23 @@
         "obrazlozenje": "U centru kadra je jasno vidljiva siva/betonska struktura koja predstavlja krov ili građevinu, kontrastira s omčom zelene vegetacije oko nje.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:39.110Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.806Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Gajeva ulica",
+          "houseNumber": "32B",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.062828,
+          "lat": 45.706739
+        }
+      ]
     },
     {
       "id": "way/1551987205",
@@ -909,7 +1191,23 @@
         "obrazlozenje": "U centru kadra vidljiv je krov građevine svijetle boje sa što izgleda kao manja prizemna ili niskokatna zgrada.",
         "izvor": "DGU ortofoto 2023/24",
         "provjereno": "2026-08-24T13:03:38.449Z"
-      }
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-08-29T20:04:31.809Z"
+      },
+      "dguTocke": [
+        {
+          "street": "Gajeva ulica",
+          "houseNumber": "32C",
+          "settlement": "Velika Gorica",
+          "postcode": "10410",
+          "city": "Velika Gorica",
+          "lon": 16.063092,
+          "lat": 45.706642
+        }
+      ]
     }
   ]
 }

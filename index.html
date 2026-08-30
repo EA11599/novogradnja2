@@ -12,6 +12,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="assets/dnevnik.js"></script>
+<!-- ?v= je oznaka verzije. Preglednik podskripte zna drzati u predmemoriji
+     i kad se HTML osvjezi, pa promjena logike ocjenjivanja ne bi bila vidljiva.
+     Kod svake izmjene ocjena.js podigni broj. -->
+<script src="assets/ocjena.js?v=3"></script>
 <script>
   // ---- Auth-guard: provjeri prijavu I MFA (aal2) PRIJE prikaza aplikacije ----
   // <html> element je sakriven (style="visibility:hidden" na <html> tagu) dok
@@ -238,7 +242,9 @@
   .layout{
     flex: 1 1 auto;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* Dva stupca otkad su prosirenja i nove DGU adrese preseljeni u glavnu
+       listu kao izvori. Lista je siri stupac jer sad nosi sve retke. */
+    grid-template-columns: 1.15fr 1fr;
     gap: 12px;
     padding: 12px;
     min-height: 0;
@@ -258,6 +264,85 @@
   .toggle-filters label{ display:flex; align-items:center; gap:8px; font-size: 12px; color: var(--text-dim); cursor:pointer; }
   .toggle-filters input{ accent-color: var(--magenta); width:14px; height:14px; }
   .dokaz-broj{ color: var(--text-faint); font-variant-numeric: tabular-nums; }
+
+  /* --- Kompozitna stanja: zetoni, ILI-logika --- */
+  .status-red{ display:flex; flex-wrap:wrap; gap:5px; margin-bottom:10px; }
+  .status-zeton{
+    display:inline-flex; align-items:center; gap:6px;
+    padding:4px 9px; border-radius:999px; cursor:pointer;
+    font-size:11.5px; line-height:1.2; white-space:nowrap;
+    border:1px dashed var(--border); background:transparent;
+    color:var(--text-dim); transition:background .12s, border-color .12s, color .12s;
+  }
+  .status-zeton:hover{ border-color:var(--text-faint); }
+  .status-zeton.aktivan{ border-style:solid; color:var(--text); border-color:currentColor; }
+  .status-zeton .cnt{ font-variant-numeric:tabular-nums; opacity:.75; }
+
+  .aktivni-filtri{ display:flex; flex-wrap:wrap; gap:5px; margin-top:8px; }
+  .aktivni-filtri:empty{ display:none; }
+  .filtar-zeton{
+    display:inline-flex; align-items:center; gap:6px;
+    padding:3px 8px; border-radius:999px; font-size:11px; line-height:1.3;
+    background:var(--bg-soft); border:1px solid var(--border); color:var(--text-secondary);
+  }
+  .filtar-zeton .vrsta{ color:var(--text-faint); }
+  .filtar-zeton button{
+    background:none; border:none; color:var(--text-faint); cursor:pointer;
+    font-size:13px; line-height:1; padding:0; margin-left:1px;
+  }
+  .filtar-zeton button:hover{ color:var(--danger); }
+  .filtar-ocisti{
+    background:none; border:none; color:var(--magenta); cursor:pointer;
+    font-size:11px; padding:3px 4px; text-decoration:underline;
+  }
+
+  .stanja-red{ display:flex; flex-wrap:wrap; gap:5px; margin-bottom:10px; }
+  .stanje-zeton{
+    display:inline-flex; align-items:center; gap:6px;
+    padding:4px 9px; border-radius:999px; cursor:pointer;
+    font-size:11.5px; line-height:1.2; white-space:nowrap;
+    border:1px solid var(--border); background:transparent;
+    color:var(--text-dim); transition:background .12s, border-color .12s, color .12s;
+  }
+  .stanje-zeton:hover{ border-color:var(--text-faint); }
+  .stanje-zeton .tocka{ width:7px; height:7px; border-radius:50%; flex:0 0 auto; }
+  .stanje-zeton .cnt{ font-variant-numeric:tabular-nums; opacity:.75; }
+  .stanje-zeton.aktivan{ color:var(--text); border-color:currentColor; }
+  .stanje-zeton.prazan{ opacity:.4; }
+
+  /* --- Izvori: tro-stanjno --- */
+  .izvori-naslov{
+    font-size:10.5px; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--text-faint); margin-bottom:2px; display:flex; align-items:center; gap:6px;
+  }
+  .izvori-pomoc{
+    display:inline-flex; align-items:center; justify-content:center;
+    width:13px; height:13px; border-radius:50%; border:1px solid var(--border);
+    font-size:9px; cursor:help;
+  }
+  .izvor-red{
+    display:flex; align-items:center; gap:8px; font-size:12px;
+    color:var(--text-dim); cursor:pointer; user-select:none; padding:1px 0;
+  }
+  .izvor-red:hover{ color:var(--text); }
+  /* Kvadratic mijenja izgled ovisno o stanju - prazan, kvacica, kriz. */
+  .izvor-kvad{
+    width:14px; height:14px; flex:0 0 auto; border-radius:3px;
+    border:1px solid var(--border); display:flex; align-items:center;
+    justify-content:center; font-size:10px; line-height:1; font-weight:700;
+  }
+  .izvor-red[data-stanje="da"] .izvor-kvad{ background:var(--magenta); border-color:var(--magenta); color:#fff; }
+  .izvor-red[data-stanje="ne"] .izvor-kvad{ background:transparent; border-color:#DC2626; color:#DC2626; }
+  .izvor-naziv{ flex:1 1 auto; }
+  .izvor-brojevi{ font-variant-numeric:tabular-nums; color:var(--text-faint); font-size:11px; }
+  .izvor-brojevi .nepoznato{ opacity:.6; }
+
+  /* --- Oznaka stanja u retku tablice --- */
+  .stanje-oznaka{
+    display:inline-flex; align-items:center; gap:5px;
+    font-size:11px; white-space:nowrap;
+  }
+  .stanje-oznaka .tocka{ width:6px; height:6px; border-radius:50%; flex:0 0 auto; }
 
   .filter-toggle-btn{
     display:flex; align-items:center; justify-content:space-between; gap:6px; width:100%;
@@ -401,6 +486,21 @@
   .modal-card h3{ font-size:17px; margin:0 0 14px; padding-right:24px; }
   /* Blok, ne inline-block: dvije poveznice - Google Maps i DGU ortofoto -
      inace stoje jedna uz drugu i stapaju se u jedan redak teksta. */
+  .modal-karta{
+    height: 260px; margin: 12px 0 10px; border-radius: 8px;
+    border: 1px solid var(--border); overflow: hidden; background: var(--bg-soft);
+  }
+  /* Klasa .karta-maks sluzi SAMO kao oznaka stanja za JavaScript.
+     Sam izgled se postavlja inline u prebaciMaksKarte(), jer je <body>
+     display:flex pa bi se premjesteni element inace ponasao kao flex-stavka. */
+  .karta-gumb{
+    display:flex; align-items:center; justify-content:center;
+    width:30px; height:30px; font-size:15px; line-height:1;
+    background:#fff; color:#333; cursor:pointer; text-decoration:none;
+  }
+  .karta-gumb:hover{ background:#f4f4f4; }
+  .karta-gumb-zatvori{ color:#b00; font-weight:700; }
+  .modal-karta .leaflet-control-layers{ font-size: 11.5px; }
   .modal-gmaps{ display:block; width:fit-content; margin: 6px 0; font-size:12.5px; color: var(--magenta); }
   .modal-gmaps:last-of-type{ margin-bottom: 14px; }
   .modal-tags{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--text-dim); background:var(--panel-alt); border-radius:10px; padding:12px 14px; line-height:1.7; max-height:200px; overflow-y:auto; }
@@ -488,27 +588,29 @@
       <span class="count-badge num" id="statTotal">–</span>
     </div>
     <div class="filters-block">
-      <div class="toggle-filters">
-        <!-- Tri neovisna dokaza da je zgrada stvarno nova. Kombiniraju se
-             I-logikom: svaka dodatna kvacica suzava popis na zgrade za koje
-             vrijedi sve odabrano. Nijedna oznacena = sve zgrade. -->
-        <label title="Zgrade kojih nema na državnom ortofotu 2023./24.">
-          <input type="checkbox" id="dokazSatelit"> Zgrada u ortofoto 2023./2024. <span class="dokaz-broj" id="brojSatelit"></span>
-        </label>
-        <label title="Na lokaciji se pojavila nova adresa u DGU registru">
-          <input type="checkbox" id="dokazDgu"> Nova DGU adresa <span class="dokaz-broj" id="brojDgu"></span>
-        </label>
-        <label title="Zgrada je zabilježena u panelu promjena na postojećim zgradama">
-          <input type="checkbox" id="dokazOsm"> OSM atributna promjena <span class="dokaz-broj" id="brojOsm"></span>
-        </label>
-        <label id="dguJedinicaFilterLabel" style="display:none;">
-          <input type="checkbox" id="dguJedinicaFilterCheckbox"> Samo zgrade s više DGU adresa
-        </label>
+      <!-- DVIJE OSI FILTRIRANJA, namjerno odvojene.
+           Gore: kompozitno stanje - izvedeni zakljucak po zgradi. ILI-logika,
+                 odaberi koja stanja zelis vidjeti.
+           Dolje: pojedinacni izvori - sirovi dokazi iza tog zakljucka.
+                 I-logika, tro-stanjno (ima / nema / ne filtriraj). -->
+      <div class="stanja-red" id="stanjaRed"></div>
+
+      <!-- Rucna provjera. Zaseban red jer je to sto COVJEK presudi, dok su
+           stanja i izvori ono sto SUSTAV zakljucuje - dvije razlicite stvari. -->
+      <div class="status-red" id="statusRed"></div>
+
+      <div class="toggle-filters izvori-blok" id="izvoriBlok">
+        <div class="izvori-naslov">
+          Izvori <span class="izvori-pomoc" title="Klik mijenja: ne filtriraj → ima dokaz → nema dokaza. Nepoznato se nikad ne broji ni u jedno.">?</span>
+        </div>
       </div>
       <div style="display:flex; gap:8px;">
         <button class="filter-toggle-btn" id="facetToggleBtn" style="flex:1 1 auto;"><span>⚙ Tip zgrade / katovi</span></button>
         <button class="filter-toggle-btn" id="zupToggleBtn" style="flex:0 0 auto; width:auto; padding-left:14px; padding-right:14px;"><span>📍 Županije</span></button>
       </div>
+      <!-- Aktivni odabiri iz padajucih panela. Bez ovoga korisnik zatvori panel
+           i vise ne vidi sto je odabrao - jedini trag je zamucen gumb. -->
+      <div class="aktivni-filtri" id="aktivniFiltri"></div>
       <div class="facet-panel" id="facetPanel"></div>
       <div class="zup-popup" id="zupPopup">
         <div class="zup-bubble-header">
@@ -567,29 +669,6 @@
       <div class="map-legend">
         <span><span class="legend-swatch" style="background:#E8871E;"></span>Zgrade</span>
       </div>
-    </div>
-  </div>
-
-  <!-- DESNO: pregled prosirenja postojecih zgrada + panel za nove DGU adrese -->
-  <div class="right-stack">
-    <div class="col dgu-panel is-empty" id="prosirenjaPanel">
-      <div class="col-header">
-        <div><h3>Promjene na postojećim zgradama</h3><div class="sub" id="prosirenjaStat">Učitavanje…</div></div>
-      </div>
-      <div id="prosirenjaTableWrap">
-        <div class="empty-state compact"><div class="big">Učitavanje…</div></div>
-      </div>
-    </div>
-
-    <div class="col dgu-panel" id="dguNoveAdresePanel" style="display:none;">
-      <div class="col-header">
-        <div><h3>Nove DGU adrese</h3><div class="sub" id="dguNoveAdreseStat">–</div></div>
-      </div>
-      <div style="padding:10px 16px; font-size:11px; color:var(--text-faint); line-height:1.5; border-bottom:1px solid var(--border);">
-        Lokacije koje ranije nisu imale DGU adresu u krugu od ~20m. Nije potvrda nove gradnje.
-        <span id="dguMetodologijaNapomena" style="display:none;"><br>Metoda usporedbe nedavno promijenjena (prostorna, preciznija) — trenutno prikazani stariji rezultati, novi stižu nakon sljedeće usporedbe.</span>
-      </div>
-      <div id="dguNoveAdreseTableWrap" style="flex:1 1 auto; overflow-y:auto; min-height:0;"></div>
     </div>
   </div>
 
@@ -812,32 +891,100 @@ let manifest = null;
 let zupanijeGeo = null;
 let cachedChunks = {};      // file -> parsed diff data
 let allFeaturesInWindow = []; // trenutno spojene zgrade za odabrani prozor
-let dguNoveFeatures = []; // trenutno prikazane nove DGU adrese (za klik-modal)
 let selectedZupanije = new Set(); // prazan set = sve prikazane
-let samoSatelitskiKandidati = false;
-let samoViseDguAdresa = false;
+// Nekadasnji samostalni filtri "satelitski kandidat" i "vise DGU adresa" sada
+// su izvori u modelu ocjene (dof i dguVise), pa vise ne postoje kao zasebne
+// varijable - filtriranje ide kroz Ocjena.prolaziFiltar.
 let selectedBuildingTypes = new Set();
 let selectedLevels = new Set();
 let selectedStatuses = new Set();
+
+// Izlozeno asistentu (assets/chat.js). Na punom pregledu status stoji na samom
+// zapisu, a ne u zasebnoj mapi kao na terenu - zato funkcija, ne varijabla.
+window.__statusZaId = (id) => {
+  const f = (allFeaturesInWindow || []).find(x => x.id === id);
+  return (f && f.reviewStatus) || 'nepotvrđeno';
+};
 // Tri dokaza. Svaki je neovisan izvor; kombiniraju se I-logikom.
-let dokazi = { satelit: false, dgu: false, osm: false };
+// Tro-stanjni filtar po izvorima: null = ne filtriraj, 'da' = ima dokaz,
+// 'ne' = izvor je provjerio i nema ga. Nepoznato nikad ne prolazi ni 'da' ni
+// 'ne' - to je cijela poanta prelaska s kvacica na tri stanja.
+let filtarIzvora = { ms:null, dof:null, dguNova:null, dguVise:null, osmOznake:null, osmObris:null };
+
+// Odabrana kompozitna stanja. Prazan skup = prikazi sva.
+// Zadano su potvrdjene novogradnje - to je ono zbog cega netko otvara popis.
+// Ostalo je uglavnom naknadno ucrtano (u mjerenju oko 93% zapisa), pa bi
+// prazan odabir znacio da korisnik svaki put prvo mora filtrirati sam.
+let odabranaStanja = new Set(['potvrdjena-novogradnja']);
+
+// Kontekst koji Ocjena treba, a ne stoji na samom zapisu. znaObrise se
+// prebacuje na true tek kad panel prosirenja zavrsi ucitavanje - do tada je
+// dokaz 'osmObris' posteno nepoznat, umjesto laznog 'ne'.
+let ocjenaCtx = { znaOznake:true, znaObrise:false, zgradeSPromjenom:null };
+
+function ocjenaZa(f){
+  if (!f.__ocjena) f.__ocjena = Ocjena.ocijeniZapis(f, ocjenaCtx);
+  return f.__ocjena;
+}
+
+// Odakle redak dolazi. Bez ovoga se u jednoj listi ne razlikuje OSM zgrada
+// (poligon) od DGU adresne tocke - a to su podaci razlicite prirode.
+function izvorBedz(f){
+  const izvor = f.izvor || 'OSM';
+  const boje = { 'OSM': 'var(--text-faint)', 'DGU': 'var(--teal)', 'MS': 'var(--magenta)' };
+  return '<span class="badge-tip" style="color:' + (boje[izvor] || 'var(--text-faint)') + ';">'
+    + izvor + '</span>';
+}
+
+// Oznaka stanja u retku tablice. Naslov nosi obrazlozenje, pa korisnik na
+// hover dobije odgovor na "zasto ovdje pise ovo" bez otvaranja modala.
+function oznakaStanja(f){
+  const o = ocjenaZa(f);
+  const st = Ocjena.stanjePoKljucu(o.stanje);
+  if (!st) return '<span class="muted">—</span>';
+  const naslov = (st.opis + '\n\n' + (o.razlozi || []).join('\n')).replace(/"/g, '&quot;');
+  return '<span class="stanje-oznaka" title="' + naslov + '">'
+    + '<span class="tocka" style="background:' + st.boja + '"></span>'
+    + st.naziv + '</span>';
+}
+
+// Dvije osi: stanje (ILI medju odabranima) i izvori (I medju odabranima).
+function prolaziOcjenu(f){
+  const o = ocjenaZa(f);
+  if (odabranaStanja.size && !odabranaStanja.has(o.stanje)) return false;
+  return Ocjena.prolaziFiltar(o.dokazi, filtarIzvora);
+}
+// Poziva se kad se promijeni kontekst (npr. stigne panel prosirenja).
+function ponistiOcjene(){
+  (allFeaturesInWindow || []).forEach(f => { delete f.__ocjena; });
+}
 // Odabir po stanju ortofoto snimke - stoji uz ostale filtere u panelu,
 // jer je rijec o svojstvu zgrade, ne o dokazu da je nova.
 let selectedOrtofoto = new Set();
 // Id-evi zgrada koje se pojavljuju u panelu promjena. Puni se pri
 // ucitavanju tog panela, pa filtar radi tek kad panel zavrsi.
 let zgradeSPromjenom = new Set();
+// Skupovi ucitani u trenutnom prozoru. Cuvaju se globalno jer updateStats
+// racuna tjedni prosjek iz njihova broja, a zove se i izvan selectWindow -
+// npr. kad DGU adrese ili prosirenja naknadno dodaju retke.
+let ucitaniSkupovi = [];
 let facetPanelOpen = false;
 let map, geoLayer, markerLayer;
 // Pocinje se od zadnjeg tjedna, ne od cijele retencije. Tri mjeseca znaci
 // ucitavanje desetaka tisuca zgrada - sporo, a korisnika u pravilu zanima
 // sto je novo od zadnjeg pregleda. Siri prozor je jedan klik dalje.
-let currentWindowWeeks = 1;
+// Zadano je najsiri prozor. Ranije je bio 1 tjedan, jer je datum datoteke bio
+// jedina vremenska os i "novo" je bilo jedino sto se moglo pitati. Otkad
+// kandidati imaju trajan zapis i kompozitno stanje, korisnika vise ne zanima
+// "sto je novo" nego "sto jos nije obradjeno" - a uzak prozor mu taj zaostatak
+// aktivno skriva. Razdoblje je sada suzenje, ne polaziste.
+let currentWindowWeeks = null;
 
 const WINDOW_OPTIONS = [
   { label: '1 tjedan', weeks: 1 },
   { label: '4 tjedna', weeks: 4 },
-  { label: '3 mjeseca', weeks: null }, // null = sve dostupno (cijela retencija)
+  { label: '3 mjeseca', weeks: 13 },
+  { label: 'Sve', weeks: null }, // null = cijela dostupna retencija
 ];
 
 async function init(){
@@ -871,10 +1018,21 @@ async function init(){
   await renderTrendChart();
 }
 
+// Nove DGU adrese vise ne idu u zaseban panel nego kao RETCI u glavnu listu.
+// Razlog: to su kandidati kao i svi drugi, samo iz drugog izvora. Dvije liste
+// jedna do druge znacile su da korisnik istu prosudbu radi na dva mjesta.
+//
+// Prednost se daje izlazu detektora (data/novogradnja/), jer on uz adresu nosi
+// i Microsoftov nalaz, pa redak odmah dobiva punu kompozitnu ocjenu. Ako tog
+// izlaza nema, pada se na sirovu deltu (data/dgu-nove-adrese/), gdje je
+// Microsoft nepoznat - i to se posteno prikaze kao "?".
 async function loadDguNoveAdrese(){
+  const izDetektora = await ucitajIzDetektora();
+  if (izDetektora.length) { dodajDguRetke(izDetektora); return; }
+
   try {
     const res = await fetch('data/dgu-nove-adrese/manifest.json', { cache: 'no-store' });
-    if (!res.ok) return; // manifest još ne postoji - workflow se nije pokrenuo
+    if (!res.ok) return;
     const dguManifest = await res.json();
     if (!dguManifest.entries || dguManifest.entries.length === 0) return;
 
@@ -883,60 +1041,77 @@ async function loadDguNoveAdrese(){
     if (!dataRes.ok) return;
     const podaci = await dataRes.json();
 
-    $('#dguNoveAdresePanel').style.display = 'block';
-    $('#dguNoveAdreseStat').textContent = podaci.count.toLocaleString('hr-HR') + ' novih DGU adresa (' + formatDatum(podaci.datum) + ')';
-
-    // Prikaži napomenu o promjeni metodologije samo dok su prikazani
-    // rezultati na dan migracije ili prije nje - čim stigne prva prava
-    // usporedba po novoj (prostornoj) metodi, ovo se samo sakrije.
-    if (podaci.datum && podaci.datum <= '2026-08-18') {
-      $('#dguMetodologijaNapomena').style.display = 'inline';
-    }
-
     $('#statDguNove').textContent = podaci.count.toLocaleString('hr-HR');
     const kartica = $('#statDguNoveCard');
-    kartica.style.display = 'block';
-    kartica.addEventListener('click', () => {
-      $('#dguNoveAdresePanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
+    if (kartica) kartica.style.display = 'block';
 
-    let html = '<table class="building-table"><thead><tr><th>Adresa</th><th>Naselje</th><th>Grad</th><th>Poštanski broj</th><th>Status</th><th>Karta</th></tr></thead><tbody>';
-
-    const kljucevi = podaci.features.map(f => dguKljuc(f.properties));
-    const reviewMapa = await dohvatiRecenzije('dgu_review', 'dgu_kljuc', kljucevi);
-    podaci.features.forEach((f, i) => {
-      const r = reviewMapa[kljucevi[i]];
-      f.reviewStatus = r ? r.status : 'nepotvrđeno';
-      f.reviewNapomena = r ? r.napomena : null;
-      f.reviewAzurirao = r ? r.azurirao : null;
-      f.reviewAzuriranoAt = r ? r.azurirano_at : null;
-    });
-    dguNoveFeatures = podaci.features;
-
-    podaci.features.slice(0, 500).forEach((f, i) => {
-      const p = f.properties;
-      const coords = f.geometry && f.geometry.coordinates;
-      const gmapsLink = coords
-        ? '<a href="https://www.google.com/maps/search/?api=1&query=' + coords[1] + ',' + coords[0] + '" target="_blank" rel="noopener" onclick="event.stopPropagation();">Google Maps ↗</a>'
-        : '<span class="muted">—</span>';
-      html += '<tr data-dgu-idx="' + i + '" style="cursor:pointer;"><td>' + [p.street, p.houseNumber].filter(Boolean).join(' ') + '</td>' +
-        '<td>' + (p.settlement || '<span class="muted">—</span>') + '</td>' +
-        '<td>' + (p.city || '<span class="muted">—</span>') + '</td>' +
-        '<td>' + (p.postcode || '<span class="muted">—</span>') + '</td>' +
-        '<td>' + statusBedz(f.reviewStatus) + '</td>' +
-        '<td>' + gmapsLink + '</td></tr>';
-    });
-    html += '</tbody></table>';
-    if (podaci.features.length > 500) {
-      html += '<div class="list-footer">Prikazano prvih 500 od ' + podaci.count.toLocaleString('hr-HR') + '.</div>';
-    }
-    $('#dguNoveAdreseTableWrap').innerHTML = html;
-    $('#dguNoveAdreseTableWrap').querySelectorAll('tr[data-dgu-idx]').forEach(tr => {
-      tr.addEventListener('click', () => openDguModal(dguNoveFeatures[+tr.dataset.dguIdx]));
-    });
+    dodajDguRetke((podaci.features || []).map(f => {
+      const [lon, lat] = f.geometry.coordinates;
+      const pr = f.properties || {};
+      return {
+        lat, lon,
+        adresa: [pr.street, pr.houseNumber].filter(Boolean).join(' '),
+        naselje: pr.settlement, grad: pr.city, postanskiBroj: pr.postcode,
+        datum: podaci.datum, ms: null,
+      };
+    }));
   } catch (err) {
     console.warn('DGU nove adrese nisu dostupne:', err.message);
   }
+}
+
+async function ucitajIzDetektora(){
+  try {
+    const res = await fetch('data/novogradnja/manifest.json', { cache: 'no-store' });
+    if (!res.ok) return [];
+    const man = await res.json();
+    const svi = [];
+    for (const e of (man.entries || [])) {
+      const r = await fetch(e.file, { cache: 'no-store' });
+      if (!r.ok) continue;
+      const d = await r.json();
+      [...(d.novogradnja || []), ...(d.legalizacija || [])].forEach(z => {
+        svi.push({
+          lat: z.lat, lon: z.lon, adresa: z.adresa,
+          naselje: z.naselje, grad: z.grad, postanskiBroj: z.postanskiBroj,
+          datum: d.datum, ms: z.ms || null,
+        });
+      });
+    }
+    if (svi.length) {
+      $('#statDguNove').textContent = svi.length.toLocaleString('hr-HR');
+      const k = $('#statDguNoveCard');
+      if (k) k.style.display = 'block';
+    }
+    return svi;
+  } catch (err) { return []; }
+}
+
+// Pretvara DGU zapise u retke glavne liste. Kljuc je izveden iz koordinate -
+// isti princip kao idStabilan u registru, jer adresna tocka nema OSM ID.
+function dodajDguRetke(zapisi){
+  const noviRedci = zapisi.map(z => ({
+    id: 'dgu/' + z.lat.toFixed(5) + '_' + z.lon.toFixed(5),
+    izvor: 'DGU',
+    lat: z.lat, lon: z.lon,
+    obris: null,
+    zupanija: null,
+    validFrom: z.datum ? z.datum + 'T00:00:00Z' : null,
+    tags: {},
+    dguAdresa: {
+      street: z.adresa, houseNumber: '', settlement: z.naselje,
+      city: z.grad, postcode: z.postanskiBroj,
+    },
+    dguTocke: [{
+      street: z.adresa, houseNumber: '', settlement: z.naselje,
+      city: z.grad, postcode: z.postanskiBroj, lon: z.lon, lat: z.lat,
+    }],
+    dguNovaAdresaPoklapanje: { street: z.adresa, houseNumber: '', datum: z.datum },
+    // Nalaz detektora, ako ga ima. Bez njega dokaz 'ms' ostaje nepoznat.
+    msProvjera: z.ms ? { ima: !!z.ms.ima, izdanje: null } : undefined,
+  }));
+
+  ugradiDodatneRetke(noviRedci);
 }
 
 // Priblizan centar poligona - prosjek svih tocaka. Dovoljno precizno za
@@ -947,140 +1122,62 @@ function priblizniCentar(obris){
   return [zbroj[0] / obris.length, zbroj[1] / obris.length]; // [lon, lat]
 }
 
-// Panel prosirenja je UVIJEK vidljiv. Kad nema redaka za prikazati, umjesto
-// skrivanja panela ispisujemo kratku poruku zasto ga nema - korisnik tako zna
-// da funkcija postoji i radi, samo jos nema sto uhvatiti.
-function prosirenjaPrazno(naslov, objasnjenje){
-  const panel = $('#prosirenjaPanel');
-  if (!panel) return;
-  panel.classList.add('is-empty');
-  $('#prosirenjaStat').textContent = 'Nema promjena';
-  $('#prosirenjaTableWrap').innerHTML =
-    '<div class="empty-state compact"><div class="big">' + naslov + '</div>' + objasnjenje + '</div>';
-}
-
+// Promjene na postojecim zgradama (prosirenja, prenamjene, nove adrese nad
+// istim obrisom) takodjer ulaze u glavnu listu umjesto u zaseban panel.
+// Kompozitna ocjena ih prepoznaje kao "Promjena na postojecoj".
 async function loadProsirenja(){
   try {
     const res = await fetch('data/prosirenja/manifest.json', { cache: 'no-store' });
-    if (!res.ok) { // manifest jos ne postoji - nijedno mjerenje jos nije provedeno
-      prosirenjaPrazno('Još nema mjerenja', 'Prva usporedba površina provest će se pri sljedećem tjednom ažuriranju.');
-      return;
-    }
-    const prosirenjaManifest = await res.json();
-    if (!prosirenjaManifest.entries || prosirenjaManifest.entries.length === 0) {
-      prosirenjaPrazno('Zasad nema promjena', 'Usporedba se provodi svaki tjedan. Nijedna praćena zgrada dosad nije promijenila obris, tip ni broj adresa.');
-      return;
-    }
+    if (!res.ok) { oznaciObriseKaoPoznate(new Set()); return; }
+    const man = await res.json();
+    if (!man.entries || man.entries.length === 0) { oznaciObriseKaoPoznate(new Set()); return; }
 
-    // Uzimamo SVE zapise unutar zadnjih 30 dana (ne samo zadnji, jer se
-    // prosirenja mogu naci u vise tjednih pokretanja) - slicno kao "zadnjih
-    // 7 dana" logika kod satelitske skripte, samo malo siri prozor jer su
-    // prosirenja rjeda pa je smisleno prikazati vise povijesti odjednom.
     const trideset = new Date();
     trideset.setUTCDate(trideset.getUTCDate() - 30);
-    const noviji = prosirenjaManifest.entries.filter(e => new Date(e.to) > trideset);
-    if (noviji.length === 0) {
-      prosirenjaPrazno('Nema promjena u zadnjih 30 dana', 'Nijednoj praćenoj zgradi nije se promijenila površina obrisa.');
-      return;
-    }
+    const noviji = man.entries.filter(e => new Date(e.to) > trideset);
+    if (noviji.length === 0) { oznaciObriseKaoPoznate(new Set()); return; }
 
-    let sveFeatures = [];
+    let sve = [];
     for (const e of noviji) {
-      const dataRes = await fetch(e.file, { cache: 'no-store' });
-      if (!dataRes.ok) continue;
-      const podaci = await dataRes.json();
-      sveFeatures = sveFeatures.concat(podaci.features);
+      const r = await fetch(e.file, { cache: 'no-store' });
+      if (!r.ok) continue;
+      const d = await r.json();
+      sve = sve.concat(d.features || []);
     }
-    if (sveFeatures.length === 0) {
-      prosirenjaPrazno('Nema promjena u zadnjih 30 dana', 'Nijednoj praćenoj zgradi nije se promijenila površina obrisa.');
-      return;
-    }
+    if (!sve.length) { oznaciObriseKaoPoznate(new Set()); return; }
 
-    // Najnovije prvo.
-    sveFeatures.sort((a, b) => (b.validFrom || '').localeCompare(a.validFrom || ''));
+    sve.sort((a, b) => (b.validFrom || '').localeCompare(a.validFrom || ''));
 
-    $('#prosirenjaPanel').classList.remove('is-empty');
-    const brPrenamjena = sveFeatures.filter(f => f.mogucaPrenamjena).length;
-    $('#prosirenjaStat').textContent = sveFeatures.length.toLocaleString('hr-HR') + ' promjena u zadnjih 30 dana' +
-      (brPrenamjena > 0 ? ' — ' + brPrenamjena + ' moguće višestambenih' : '');
+    const idevi = new Set(sve.map(f => f.id));
+    oznaciObriseKaoPoznate(idevi);
 
-    // Zgrade iz ovog panela pamtimo, da filtar "OSM atributna promjena" zna koje su.
-    // Panel se ucitava neovisno o glavnom popisu, pa filtar prorada tek kad
-    // ovo zavrsi - zato na kraju osvjezavamo brojeve i tablicu.
-    zgradeSPromjenom = new Set(sveFeatures.map(f => f.id));
-    if (typeof osvjeziBrojeveDokaza === 'function') osvjeziBrojeveDokaza();
-    if (dokazi.osm) updateTable();
-
-    // Moguće prenamjene idu na vrh - to je ono zbog čega se panel otvara.
-    sveFeatures.sort((a, b) => (b.mogucaPrenamjena ? 1 : 0) - (a.mogucaPrenamjena ? 1 : 0));
-
-    let html = '<table class="building-table"><thead><tr><th>Tip</th><th>Što se promijenilo</th><th>Stara pov.</th><th>Nova pov.</th><th>Promjena</th><th>Karta</th></tr></thead><tbody>';
-    sveFeatures.slice(0, 500).forEach((f) => {
-      const centar = priblizniCentar(f.obris);
-      const gmapsLink = centar
-        ? '<a href="https://www.google.com/maps/search/?api=1&query=' + centar[1] + ',' + centar[0] + '" target="_blank" rel="noopener">Google Maps ↗</a>'
-        : '<span class="muted">—</span>';
-      const tip = (f.tags && f.tags.building) || 'zgrada';
-      const bojaPostotka = f.postotak > 0 ? 'var(--teal)' : 'var(--danger)';
-      const strelica = f.postotak > 0 ? '▲' : '▼';
-
-      // Opis promjene. Prikazujemo SVE promjene, i one koje kod ne tumači -
-      // poznatima dajemo hrvatski naziv, ostale ispisujemo kako se zovu u OSM-u.
-      const NAZIVI = {
-        'oznaka:building': 'tip zgrade',
-        'oznaka:building:levels': 'katovi',
-        'oznaka:building:flats': 'broj stanova',
-        'oznaka:building:units': 'broj jedinica',
-        'oznaka:addr:street': 'ulica',
-        'oznaka:addr:housenumber': 'kućni broj',
-        'oznaka:addr:city': 'grad',
-        'oznaka:addr:postcode': 'poštanski broj',
-        'oznaka:name': 'naziv',
-        'oznaka:amenity': 'namjena',
-        'oznaka:start_date': 'godina gradnje',
-        'dgu:broj_adresa': 'DGU adresa u zgradi',
-        'dgu:adresa': 'DGU adresa',
-        'oblik': 'tlocrt',
-      };
-      const vrijednost = (v) => (v === null || v === undefined || v === '') ? '—' : String(v);
-      const opisi = [];
-      (f.promjene || []).forEach(p => {
-        if (p.polje === 'povrsina') return; // već ima svoje stupce
-        if (p.polje === 'oblik') {
-          // Tlocrt dobiva tumačenje, ne samo brojke - razlika između
-          // "netko je precrtao točnije" i "zgrada je narasla" je bitna.
-          opisi.push('tlocrt: ' + (p.vrsta || 'promijenjen') +
-            ((p.detalji && p.detalji.length) ? ' (' + p.detalji.join(', ') + ')' : ''));
-          return;
-        }
-        const naziv = NAZIVI[p.polje] || (p.oznaka || p.polje);
-        opisi.push(naziv + ': ' + vrijednost(p.staro) + ' → ' + vrijednost(p.novo));
-      });
-      let opisCelija = opisi.length ? escapeHtml(opisi.join(' · ')) : '<span class="muted">samo obris</span>';
-
-      if (f.mogucaPrenamjena) {
-        const zasto = escapeHtml((f.razloziPrenamjene || []).join(' • '));
-        opisCelija = '<span title="' + zasto + '" style="font-size:10px;font-weight:700;background:var(--magenta-soft);color:var(--magenta);padding:1px 7px;border-radius:999px;">možda višestambena</span> ' + opisCelija;
-      }
-
-      html += '<tr' + (f.mogucaPrenamjena ? ' style="background:var(--magenta-soft);"' : '') + '>' +
-        '<td>' + tip + '</td>' +
-        '<td>' + opisCelija + '</td>' +
-        '<td>' + f.staraPovrsina.toLocaleString('hr-HR') + ' m²</td>' +
-        '<td>' + f.novaPovrsina.toLocaleString('hr-HR') + ' m²</td>' +
-        '<td style="color:' + bojaPostotka + ';font-weight:600;" title="' + (f.postotak > 0 ? 'Površina povećana' : 'Površina smanjena') + '">' + strelica + ' ' + (f.postotak > 0 ? '+' : '') + f.postotak + '%</td>' +
-        '<td>' + gmapsLink + '</td></tr>';
+    // Zgrade koje NISU u trenutnom prozoru dodajemo kao nove retke; one koje
+    // jesu vec postoje i samo su dobile dokaz 'osmObris'.
+    const postojeci = new Set((allFeaturesInWindow || []).map(f => f.id));
+    const dodatni = sve.filter(f => !postojeci.has(f.id)).map(f => {
+      const c = priblizniCentar(f.obris) || [f.lon, f.lat];
+      // izPromjena razlikuje "postojeci obris koji se promijenio" od
+      // "novo ucrtanog obrisa" - to je dokaz 'noviObris'.
+      return { ...f, izvor: 'OSM', izPromjena: true, lat: c[1], lon: c[0] };
     });
-    html += '</tbody></table>';
-    if (sveFeatures.length > 500) {
-      html += '<div class="list-footer">Prikazano prvih 500 od ' + sveFeatures.length.toLocaleString('hr-HR') + '.</div>';
-    }
-    $('#prosirenjaTableWrap').innerHTML = html;
+    if (dodatni.length) ugradiDodatneRetke(dodatni);
   } catch (err) {
     console.warn('Prosirenja nisu dostupna:', err.message);
-    prosirenjaPrazno('Podaci trenutno nedostupni', 'Pokušaj osvježiti stranicu za koju minutu.');
+    oznaciObriseKaoPoznate(new Set());
   }
 }
+
+// Dokaz 'osmObris' prestaje biti nepoznat tek kad ovaj dohvat zavrsi - i kad
+// zavrsi prazan. Prazan rezultat je nalaz "ne", ne odsutnost nalaza.
+function oznaciObriseKaoPoznate(idevi){
+  zgradeSPromjenom = idevi;
+  ocjenaCtx.zgradeSPromjenom = idevi;
+  ocjenaCtx.znaObrise = true;
+  if (typeof ponistiOcjene === 'function') ponistiOcjene();
+  if (typeof osvjeziBrojeveDokaza === 'function') osvjeziBrojeveDokaza();
+  updateTable();
+}
+
 
 function renderWindowButtons(){
   const wrap = $('#windowSelect');
@@ -1112,7 +1209,7 @@ async function selectWindow(weeks){
   const __pocetakUcitavanja = Date.now();
   const entries = entriesForWindow(weeks);
 
-  const dataSets = (await Promise.all(entries.map(async (e) => {
+  const dataSets = ucitaniSkupovi = (await Promise.all(entries.map(async (e) => {
     if (!cachedChunks[e.file]){
       try {
         const res = await fetch(e.file, { cache: 'no-store' });
@@ -1145,9 +1242,7 @@ async function selectWindow(weeks){
 
   const imaSatelitskihPodataka = allFeaturesInWindow.some(f => f.satelitProvjera);
 
-  const imaDguBrojaJedinica = allFeaturesInWindow.some(f => f.dguBrojJedinica > 1);
-  $('#dguJedinicaFilterLabel').style.display = imaDguBrojaJedinica ? 'flex' : 'none';
-  if (!imaDguBrojaJedinica) { samoViseDguAdresa = false; $('#dguJedinicaFilterCheckbox').checked = false; }
+
 
   updateStats(entries);
   updateZupanijeList();
@@ -1158,6 +1253,7 @@ async function selectWindow(weeks){
   // Koliko je stvarno trajalo i koliko je zapisa doslo - kad netko javi
   // "sporo je" ili "nema podataka", ovdje pise brojka umjesto dojma.
   if (typeof osvjeziBrojeveDokaza === 'function') osvjeziBrojeveDokaza();
+  if (typeof crtajAktivneFiltre === 'function') crtajAktivneFiltre();
 
   Dnevnik.zapisi('sustav', 'prozor_ucitan', {
     tjedana: weeks,
@@ -1198,18 +1294,30 @@ let tileLayer = null;
 function initMap(){
   map = L.map('map', { scrollWheelZoom: false }).setView([45.15, 16.8], 7);
   tileLayer = L.tileLayer(trenutnaTemaTileUrl(), {
-    attribution: '© OpenStreetMap, © CARTO',
-    maxZoom: 18,
+    attribution: trenutnaTemaAtribucija(),
+    maxZoom: 19,
   }).addTo(map);
   geoLayer = L.geoJSON(null).addTo(map);
   markerLayer = L.layerGroup().addTo(map);
 }
 
+// CARTO od nedavno trazi API kljuc, pa preko cijele karte ispisuje
+// "API KEY REQUIRED". Dok kljuc ne dobijemo, padamo na OSM-ove pocice koje su
+// bez kljuca i bez ogranicenja za nas obim. Kad kljuc stigne, upisi ga u
+// CARTO_KLJUC i CARTO se automatski vraca u upotrebu.
+const CARTO_KLJUC = '';
+
 function trenutnaTemaTileUrl(){
   const tema = document.documentElement.getAttribute('data-theme');
-  return tema === 'dark'
-    ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
-    : 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png';
+  if (CARTO_KLJUC) {
+    const stil = tema === 'dark' ? 'dark_all' : 'light_all';
+    return 'https://{s}.basemaps.cartocdn.com/' + stil + '/{z}/{x}/{y}{r}.png?api_key=' + CARTO_KLJUC;
+  }
+  return 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+}
+
+function trenutnaTemaAtribucija(){
+  return CARTO_KLJUC ? '© OpenStreetMap, © CARTO' : '© OpenStreetMap';
 }
 
 function colorScale(count, max){
@@ -1297,6 +1405,7 @@ function toggleZupanija(naziv){
   updateZupanijeList();
   updateMap();
   updateTable();
+  crtajAktivneFiltre();
   if (facetPanelOpen) renderFacetPanel();
 }
 
@@ -1341,9 +1450,7 @@ function getFilteredFeatures(){
     if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
     if (selectedStatuses.size > 0 && !selectedStatuses.has(f.reviewStatus || 'nepotvrđeno')) return false;
-    if (dokazi.satelit && (f.satelitProvjera || {}).status !== 'kandidat') return false;
-    if (dokazi.dgu && !f.dguNovaAdresaPoklapanje) return false;
-    if (dokazi.osm && !zgradeSPromjenom.has(f.id)) return false;
+    if (!prolaziOcjenu(f)) return false;
     if (selectedOrtofoto.size > 0) {
       const st = (f.satelitProvjera || {}).status;
       const naziv = {
@@ -1352,8 +1459,6 @@ function getFilteredFeatures(){
       }[st];
       if (!naziv || !selectedOrtofoto.has(naziv)) return false;
     }
-    if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
-    if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
     const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'name'), tag(f,'building')]
       .filter(Boolean).join(' ').toLowerCase();
@@ -1369,9 +1474,7 @@ function getFilteredFeaturesBezZupanije(){
     if (selectedBuildingTypes.size > 0 && !selectedBuildingTypes.has(tag(f,'building') || '(bez oznake)')) return false;
     if (selectedLevels.size > 0 && !selectedLevels.has(tag(f,'building:levels') || '(nepoznato)')) return false;
     if (selectedStatuses.size > 0 && !selectedStatuses.has(f.reviewStatus || 'nepotvrđeno')) return false;
-    if (dokazi.satelit && (f.satelitProvjera || {}).status !== 'kandidat') return false;
-    if (dokazi.dgu && !f.dguNovaAdresaPoklapanje) return false;
-    if (dokazi.osm && !zgradeSPromjenom.has(f.id)) return false;
+    if (!prolaziOcjenu(f)) return false;
     if (selectedOrtofoto.size > 0) {
       const st = (f.satelitProvjera || {}).status;
       const naziv = {
@@ -1380,8 +1483,6 @@ function getFilteredFeaturesBezZupanije(){
       }[st];
       if (!naziv || !selectedOrtofoto.has(naziv)) return false;
     }
-    if (samoSatelitskiKandidati && (!f.satelitProvjera || f.satelitProvjera.status !== 'kandidat')) return false;
-    if (samoViseDguAdresa && !(f.dguBrojJedinica > 1)) return false;
     if (!q) return true;
     const hay = [tag(f,'addr:street'), tag(f,'addr:housenumber'), tag(f,'addr:city'), f.zupanija, tag(f,'name'), tag(f,'building')]
       .filter(Boolean).join(' ').toLowerCase();
@@ -1435,14 +1536,6 @@ function renderFacetPanel(){
     .filter(s => ortofotoBrojac[s] > 0)
     .map(s => [NAZIV_ORTOFOTA[s] || s, ortofotoBrojac[s]]);
 
-  const statusBrojac = {};
-  baseline.forEach(f => {
-    const s = f.reviewStatus || 'nepotvrđeno';
-    statusBrojac[s] = (statusBrojac[s] || 0) + 1;
-  });
-  const statusRedoslijed = ['nepotvrđeno', 'potvrđeno', 'odbačeno'];
-  const statusCounts = statusRedoslijed.filter(s => statusBrojac[s] > 0).map(s => [s, statusBrojac[s]]);
-
   const pouzdanostBrojac = {};
   baseline.forEach(f => {
     const t = izracunajPouzdanost(f).tier;
@@ -1463,30 +1556,29 @@ function renderFacetPanel(){
   };
 
   const panel = $('#facetPanel');
-  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Ortofoto', ortofotoCounts, selectedOrtofoto) + grupa('Status', statusCounts, selectedStatuses);
+  // Status vise nije ovdje - izvucen je u vidljivi red iznad tablice, jer se
+  // rucna provjera radi stalno i ne treba biti sakrivena iza padajuceg panela.
+  panel.innerHTML = grupa('Tip zgrade', buildingCounts, selectedBuildingTypes) + grupa('Katovi', levelCounts, selectedLevels) + grupa('Ortofoto', ortofotoCounts, selectedOrtofoto);
 
   const groups = panel.querySelectorAll('.facet-group');
   groups[0].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
     toggleSet(selectedBuildingTypes, e.target.dataset.val);
     updateTable();
     updateMap();
+    crtajAktivneFiltre();
   }));
   groups[1].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
     toggleSet(selectedLevels, e.target.dataset.val);
     updateTable();
     updateMap();
+    crtajAktivneFiltre();
   }));
-  // Grupe se dohvacaju po redoslijedu u panelu. Ortofoto je umetnut kao treca,
-  // pa su Status i Zupanije pomaknuti za jedno mjesto.
+  // Grupe se dohvacaju po redoslijedu u panelu.
   groups[2].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
     toggleSet(selectedOrtofoto, e.target.dataset.val);
     updateTable();
     updateMap();
-  }));
-  groups[3].querySelectorAll('input').forEach(cb => cb.addEventListener('change', (e) => {
-    toggleSet(selectedStatuses, e.target.dataset.val);
-    updateTable();
-    updateMap();
+    crtajAktivneFiltre();
   }));
 
   $('#facetToggleBtn').classList.toggle('has-active', selectedBuildingTypes.size > 0 || selectedLevels.size > 0 || selectedStatuses.size > 0 || selectedOrtofoto.size > 0);
@@ -1521,7 +1613,11 @@ function vrijednostZaSort(f, stupac){
     case 'adresa': return (prikazAdrese(f) || '').toLowerCase();
     case 'mjesto': return (tag(f,'addr:city') || (f.dguAdresa && f.dguAdresa.settlement) || '').toLowerCase();
     case 'zupanija': return (f.zupanija || '').toLowerCase();
+    case 'izvor': return (f.izvor || 'OSM').toLowerCase();
     case 'tip': return (tag(f,'building') || '').toLowerCase();
+    // Sortiramo po redoslijedu iz Ocjena.STANJA, ne abecedno - tako
+    // potvrdjene novogradnje dolaze na vrh, a nedovoljno podataka na dno.
+    case 'ocjena': return Ocjena.STANJA.findIndex(s => s.kljuc === ocjenaZa(f).stanje);
     case 'datum': return f.validFrom || '';
     case 'status': {
       const rang = { 'potvrđeno': 2, 'nepotvrđeno': 1, 'odbačeno': 0 };
@@ -1574,7 +1670,7 @@ function updateTable(resetPage = true){
   const th = (stupac, naslov) => '<th class="sortable-th" data-sort="' + stupac + '">' + naslov + strelica(stupac) + '</th>';
 
   let html = '<table class="building-table"><thead><tr>' +
-    th('adresa','Adresa') + th('mjesto','Mjesto') + th('zupanija','Županija') + th('tip','Tip') + th('datum','Datum') + th('status','Status') +
+    th('izvor','Izvor') + th('adresa','Adresa') + th('mjesto','Mjesto') + th('zupanija','Županija') + th('ocjena','Ocjena') + th('datum','Datum') + th('status','Status') +
     '</tr></thead><tbody>';
 
   prikazano.forEach((f, i) => {
@@ -1585,10 +1681,11 @@ function updateTable(resetPage = true){
         : adresa)
       : '<span class="muted">—</span>';
     html += '<tr data-idx="' + i + '">' +
+      '<td>' + izvorBedz(f) + '</td>' +
       '<td>' + adresaHtml + '</td>' +
       '<td>' + (tag(f,'addr:city') || (f.dguAdresa && f.dguAdresa.settlement) || '<span class="muted">—</span>') + '</td>' +
       '<td>' + (f.zupanija ? '<span class="badge-tip">' + f.zupanija + '</span>' : '<span class="muted">—</span>') + '</td>' +
-      '<td>' + (tag(f,'building') || '<span class="muted">—</span>') + '</td>' +
+      '<td>' + oznakaStanja(f) + '</td>' +
       '<td class="muted">' + formatDatum(f.validFrom) + '</td>' +
       '<td>' + statusBedz(f.reviewStatus) + '</td>' +
       '</tr>';
@@ -1634,42 +1731,286 @@ function updateTable(resetPage = true){
   }
 }
 
-// ---------- DGU ortofoto isjecak ----------
-// Ista snimka koju je vidio model pri satelitskoj provjeri: DGU ortofoto
-// 2023./24., isjecak od oko 50x50 m centriran na zgradu.
-//
-// Zasto je vrijedna u pregledu: recenzent ne mora vjerovati presudi modela na
-// rijec - vidi isti dokaz. Ako je zgrada "kandidat", ovdje bi trebala biti
-// prazna parcela, a na Google Mapsu zgrada. Ta razlika JE novogradnja.
-function dguOrtofotoUrl(lat, lon, piksela = 400, poluOpsegM = 25) {
-  if (!lat || !lon) return null;
-  const dLat = poluOpsegM / 111000;
-  const dLon = poluOpsegM / (111000 * Math.cos(lat * Math.PI / 180));
-  const bbox = [lon - dLon, lat - dLat, lon + dLon, lat + dLat].map(v => v.toFixed(7)).join(',');
-  return 'https://geoportal.dgu.hr/services/inspire/orthophoto_2023_2024/wms' +
-    '?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=OI.OrthoimageCoverage' +
-    '&STYLES=&FORMAT=image/png&SRS=EPSG:4326&WIDTH=' + piksela + '&HEIGHT=' + piksela +
-    '&BBOX=' + bbox;
-}
-
 // Poveznica na DGU snimku, uz onu na Google Maps.
 //
 // Na glavnoj stranici NE ugradujemo sliku nego samo link - prozor pregleda je
 // ovdje kratak i sluzi brzom pregledu, a svaka ugradena snimka je jedan dohvat
 // prema DGU posluzitelju. Na review.html i teren.html slika se prikazuje, jer
 // se ondje zgrade stvarno procjenjuju.
-function dguOrtofotoBlok(f) {
-  const url = dguOrtofotoUrl(f.lat, f.lon, 900);
-  if (!url) return '';
-  const s = f.satelitProvjera || {};
-  const opis = s.obrazlozenje
-    ? '<div style="font-size:11.5px;color:var(--text-secondary);margin-top:6px;line-height:1.45;">' +
-        escapeHtml(s.obrazlozenje) + '</div>'
-    : '';
-  return '<a class="modal-gmaps" href="' + url + '" target="_blank" rel="noopener" ' +
-    'title="Ista snimka na temelju koje je donesena satelitska procjena">' +
-    'DGU ortofoto 2023./24. ↗</a>' + opis;
+// Obrazlozenje satelitske presude. Ranije je uz njega isla i poveznica na DGU
+// snimku, ali otkad je ortofoto sloj na karti u modalu, poveznica je bila samo
+// jos jedan klik do istog sadrzaja. Ostaje tekst - on objasnjava ZASTO je
+// model presudio kako jest, sto se iz same snimke ne vidi.
+// Sto DGU zna o ovoj zgradi. Do sada je adresa bila samo u naslovu modala, a
+// ostalo skriveno u podacima - iako je kod telekom klijenta broj adresnih
+// tocaka na jednom obrisu upravo ono sto znaci broj prikljucaka.
+function dguPodaciBlok(f) {
+  const tocke = f.dguTocke || [];
+  const nova = f.dguNovaAdresaPoklapanje;
+  if (!tocke.length && !f.dguAdresa && !nova) return '';
+
+  const redak = (oznaka, vrijednost) =>
+    '<div style="display:flex;gap:8px;font-size:11.5px;line-height:1.6;">' +
+    '<span style="color:var(--text-faint);min-width:96px;">' + oznaka + '</span>' +
+    '<span style="color:var(--text-secondary);">' + vrijednost + '</span></div>';
+
+  let html = '<div style="margin-top:10px;padding:10px 12px;border:1px solid var(--border);' +
+    'border-radius:8px;background:var(--bg-soft);">' +
+    '<div style="font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;' +
+    'color:var(--text-faint);margin-bottom:6px;">DGU registar prostornih jedinica</div>';
+
+  if (tocke.length) {
+    const popis = tocke.map(t =>
+      escapeHtml([t.street, t.houseNumber].filter(Boolean).join(' ') || '—')).join(', ');
+    html += redak('Adrese', popis);
+    const prva = tocke[0];
+    if (prva.settlement) html += redak('Naselje', escapeHtml(prva.settlement));
+    if (prva.city && prva.city !== prva.settlement) html += redak('Grad', escapeHtml(prva.city));
+    if (prva.postcode) html += redak('Poštanski broj', escapeHtml(prva.postcode));
+    html += redak('Broj točaka', tocke.length +
+      (tocke.length > 1 ? ' <span style="color:var(--magenta);">— više jedinica</span>' : ''));
+  } else if (f.dguAdresa) {
+    // Stariji zapisi, prije backfill-dgu-koordinate.js - nemaju koordinate.
+    const a = f.dguAdresa;
+    html += redak('Adresa', escapeHtml([a.street, a.houseNumber].filter(Boolean).join(' ')));
+    if (a.settlement) html += redak('Naselje', escapeHtml(a.settlement));
+    if (a.postcode) html += redak('Poštanski broj', escapeHtml(a.postcode));
+    html += '<div style="font-size:10.5px;color:var(--text-faint);margin-top:6px;">' +
+      'Koordinate nisu dostupne — pokreni backfill-dgu-koordinate.js za prikaz na karti.</div>';
+  }
+
+  if (nova) {
+    html += redak('Nova adresa', escapeHtml([nova.street, nova.houseNumber].filter(Boolean).join(' ')) +
+      (nova.datum ? ' <span style="color:var(--text-faint);">(' + escapeHtml(nova.datum) + ')</span>' : ''));
+  }
+
+  return html + '</div>';
 }
+
+function satelitObrazlozenje(f) {
+  const s = f.satelitProvjera || {};
+  if (!s.obrazlozenje) return '';
+  return '<div style="font-size:11.5px;color:var(--text-secondary);margin-top:6px;line-height:1.45;">' +
+    escapeHtml(s.obrazlozenje) + '</div>';
+}
+
+
+// ---------- Mini-karta u modalu ----------
+//
+// Zasto postoji: Googleove snimke Hrvatske dolaze od Airbusa i Maxara i znaju
+// biti stare vise godina (u nasem uzorku i iz 2013.), pa se novogradnja na
+// njima cesto uopce ne vidi. Recenzent zato mora moci prebaciti izvor umjesto
+// da zakljucuje iz jedne snimke.
+//
+// Slojevi, redom po korisnosti za nas slucaj:
+//   DGU 2023./24. - 25 cm, sluzbena drzavna snimka, isti dokaz na temelju
+//                   kojeg je donesena satelitska presuda
+//   DGU 2021.     - druga epoha; prebacivanje daje usporedbu prije/poslije
+//   OSM           - vektorski; pokazuje TOCNO onaj poligon koji je mapper
+//                   ucrtao, uz to i tko ga je ucrtao
+
+let modalKarta = null;
+
+// Stilovi za oba stanja karte postavljaju se IZRICITO, inline. Ranija verzija
+// je pri smanjivanju samo brisala style atribut i oslanjala se na CSS klasu -
+// to se pokazalo nepouzdanim (karta bi ostala prevelika i prekrila modal).
+// Sada za svako svojstvo koje postavimo pri povecanju postoji parnjak koji ga
+// vraca, pa nema oslanjanja na to sto ce pobijediti u kaskadi.
+const STIL_MALA =
+  'position:relative;top:auto;left:auto;right:auto;bottom:auto;' +
+  'width:auto;height:260px;margin:12px 0 10px;z-index:auto;' +
+  'border:1px solid var(--border);border-radius:8px;background:var(--bg-soft);';
+
+const STIL_VELIKA =
+  'position:fixed;top:0;left:0;right:0;bottom:0;' +
+  'width:100vw;height:100vh;margin:0;z-index:99999;' +
+  'border:none;border-radius:0;background:var(--bg-soft);';
+
+function kartaJeMaks(){
+  const el = document.getElementById('modalKarta');
+  return !!(el && el.classList.contains('karta-maks'));
+}
+
+function osvjeziMaksGumb(){
+  const el = document.getElementById('modalKarta');
+  // Trazi po VLASTITOJ klasi. Ranije su i gumb za povecanje i gumb za
+  // zatvaranje dijelili istu klasu, pa je querySelector znao uhvatiti krivi.
+  const gumb = el && el.querySelector('.karta-gumb-maks');
+  if (!gumb) return;
+  const maks = kartaJeMaks();
+  gumb.textContent = maks ? '\u2921' : '\u26F6';
+  gumb.title = maks ? 'Vrati na manju kartu (Esc)' : 'Pove\u0107aj preko cijelog zaslona';
+}
+
+function vratiKartuUModal(){
+  const el = document.getElementById('modalKarta');
+  if (!el) return;
+  el.classList.remove('karta-maks');
+  el.style.cssText = STIL_MALA;
+  if (modalKarta) setTimeout(() => modalKarta.invalidateSize(), 50);
+  osvjeziMaksGumb();
+}
+
+function prebaciMaksKarte(){
+  const el = document.getElementById('modalKarta');
+  if (!el) return;
+  if (kartaJeMaks()) { vratiKartuUModal(); return; }
+  el.classList.add('karta-maks');
+  el.style.cssText = STIL_VELIKA;
+  if (modalKarta) setTimeout(() => modalKarta.invalidateSize(), 50);
+  osvjeziMaksGumb();
+}
+
+function zatvoriModalIKartu(){
+  vratiKartuUModal();
+  uklomiModalKartu();
+  $('#modalOverlay').classList.remove('open');
+}
+
+function uklomiModalKartu(){
+  const el = document.getElementById('modalKarta');
+  if (el) { el.classList.remove('karta-maks'); el.style.cssText = STIL_MALA; }
+  if (modalKarta) { modalKarta.remove(); modalKarta = null; }
+}
+
+function nacrtajModalKartu(f){
+  const el = document.getElementById('modalKarta');
+  if (!el || !f.lat || !f.lon) return;
+
+  uklomiModalKartu();
+
+  const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19, attribution: '© OpenStreetMap'
+  });
+
+  // NAPOMENA O LICENCAMA - ne dodavati slojeve bez provjere:
+  //
+  //   Google    - pocice se smiju prikazivati samo kroz njihov Maps JavaScript
+  //               API ili Map Tiles API, uz kljuc i naplatu. Popularni trik s
+  //               mt1.google.com/vt krsi uvjete koristenja.
+  //   Esri      - World Imagery radi bez kljuca, ali prema Esrijevim uvjetima
+  //               trazi ArcGIS Online/Enterprise licencu i NIJE dostupan za
+  //               komercijalnu upotrebu. Njihova definicija nekomercijalnog je
+  //               uska: usluga bez naplate, bez prihoda za tebe i korisnike.
+  //               Za povratak treba ArcGIS Location Platform kljuc.
+  //   Bing      - trazi kljuc.
+  //
+  // DGU je jedini izvor na razini zgrade koji je za nas i besplatan i pravno
+  // cist: otvorena dozvola, bez ogranicenja komercijalne upotrebe, uz to i
+  // 25 cm, dakle bolje od vecine satelitskih podloga.
+
+  const dgu = L.tileLayer.wms('https://geoportal.dgu.hr/services/inspire/orthophoto_2023_2024/wms', {
+    layers: 'OI.OrthoimageCoverage', format: 'image/png', transparent: false,
+    version: '1.1.1', maxZoom: 21, attribution: 'DGU — Otvorena dozvola'
+  });
+  // Prethodna epoha. VAZNO: DGU snima Hrvatsku u dva navrata - snimanje 2021.
+  // pokriva istocnu i juznu polovicu, a 2022. zapadnu i sjevernu. Zato su oba
+  // sloja u istoj grupi: pojedinacno bi svaki bio prazan nad pola zemlje
+  // (upravo se to dogadjalo nad Sesvetama). Zajedno daju cijelu Hrvatsku.
+  const dofRanije = L.layerGroup([
+    L.tileLayer.wms('https://geoportal.dgu.hr/services/inspire/orthophoto_2021/wms', {
+      layers: 'OI.OrthoimageCoverage', format: 'image/png', transparent: false,
+      version: '1.1.1', maxZoom: 21, attribution: 'DGU — Otvorena dozvola'
+    }),
+    L.tileLayer.wms('https://geoportal.dgu.hr/services/inspire/orthophoto_2022/wms', {
+      layers: 'OI.OrthoimageCoverage', format: 'image/png', transparent: false,
+      version: '1.1.1', maxZoom: 21, attribution: 'DGU — Otvorena dozvola'
+    })
+  ]);
+
+  modalKarta = L.map(el, { layers: [dgu], zoomControl: true, attributionControl: true })
+    .setView([f.lat, f.lon], 18);
+
+  // Poredani po vremenu, od najnovijeg prema najstarijem - prebacivanje
+  // odozgo prema dolje je onda putovanje unatrag kroz vrijeme.
+  //
+  // Preklopni sloj: INSPIRE tema Adrese (AD) iz Registra prostornih jedinica.
+  // Anonimna usluga, cijela Hrvatska, otvorena dozvola. Crta SVE sluzbene
+  // adresne tocke, pa se odmah vidi ima li susjedstvo adrese kojih nasa zgrada
+  // nema - i obrnuto.
+  const dguAdreseWms = L.tileLayer.wms('https://geoportal.dgu.hr/services/inspire/ad/wms', {
+    layers: 'AD.Address', format: 'image/png', transparent: true,
+    version: '1.3.0', maxZoom: 21, opacity: 0.9,
+    attribution: 'DGU — Registar prostornih jedinica'
+  });
+
+  L.control.layers({
+    'DGU ortofoto 2023./24.': dgu,
+    'DGU ortofoto 2021./22.': dofRanije,
+    'OSM (što je ucrtano)': osm
+  }, {
+    'DGU adresne točke (INSPIRE)': dguAdreseWms
+  }, { collapsed: false }).addTo(modalKarta);
+
+  // Gumb za povecanje, gornji lijevi kut.
+  const MaksKontrola = L.Control.extend({
+    options: { position: 'topleft' },
+    onAdd: function(){
+      const okvir = L.DomUtil.create('div', 'leaflet-bar');
+      const a = L.DomUtil.create('a', 'karta-gumb karta-gumb-maks', okvir);
+      a.href = '#';
+      a.textContent = '\u26F6';
+      a.title = 'Povećaj preko cijelog zaslona';
+      L.DomEvent.on(a, 'click', function(e){
+        L.DomEvent.stop(e);
+        prebaciMaksKarte();
+      });
+      return okvir;
+    }
+  });
+  new MaksKontrola().addTo(modalKarta);
+
+  // Zatvaranje, gornji desni kut. UVIJEK vidljiv: u punom zaslonu je "×"
+  // modala nedostupan, a u malom prikazu karta zna prekriti gornji dio modala,
+  // pa se na njega ne moze racunati.
+  const ZatvoriKontrola = L.Control.extend({
+    options: { position: 'topright' },
+    onAdd: function(){
+      const okvir = L.DomUtil.create('div', 'leaflet-bar');
+      const a = L.DomUtil.create('a', 'karta-gumb karta-gumb-zatvori', okvir);
+      a.href = '#';
+      a.textContent = '\u2715';
+      a.title = 'Zatvori (Esc)';
+      L.DomEvent.on(a, 'click', function(e){
+        L.DomEvent.stop(e);
+        zatvoriModalIKartu();
+      });
+      return okvir;
+    }
+  });
+  new ZatvoriKontrola().addTo(modalKarta);
+
+  // Obris zgrade preko podloge - odmah se vidi poklapa li se ucrtano sa snimkom.
+  if (f.obris && f.obris.length >= 3) {
+    L.polygon(f.obris.map(t => [t[1], t[0]]), {
+      color: '#E0752D', weight: 2, fillOpacity: 0.15
+    }).addTo(modalKarta);
+  } else {
+    L.circleMarker([f.lat, f.lon], {
+      radius: 7, color: '#E0752D', weight: 2, fillOpacity: 0.3
+    }).addTo(modalKarta);
+  }
+
+  // Sluzbene DGU adresne tocke koje padaju unutar OVOG obrisa. Razlikuju se od
+  // WMS preklopa iznad: ovo su tocno one koje smo pridruzili zgradi, pa nose i
+  // atribute. Ako ih je vise od jedne, to je signal podjele objekta na vise
+  // jedinica - vidi se i prostorno, po rasporedu tocaka.
+  const tocke = f.dguTocke || (f.dguAdresa && f.dguAdresa.lon ? [f.dguAdresa] : []);
+  tocke.forEach(t => {
+    if (typeof t.lat !== 'number' || typeof t.lon !== 'number') return;
+    const naziv = [t.street, t.houseNumber].filter(Boolean).join(' ') || 'DGU adresa';
+    const mjesto = [t.settlement, t.postcode, t.city].filter(Boolean).join(' · ');
+    L.circleMarker([t.lat, t.lon], {
+      radius: 5, color: '#34D8A6', weight: 2,
+      fillColor: '#34D8A6', fillOpacity: 0.85
+    }).bindTooltip(naziv + (mjesto ? '<br><span style="opacity:.7">' + mjesto + '</span>' : ''),
+      { direction: 'top' }).addTo(modalKarta);
+  });
+
+  // Leaflet krivo izracuna velicinu dok je spremnik tek postao vidljiv.
+  setTimeout(() => { if (modalKarta) modalKarta.invalidateSize(); }, 60);
+}
+
 
 function openModal(f){
   const adresa = prikazAdrese(f) || 'Adresa nepoznata';
@@ -1686,8 +2027,12 @@ function openModal(f){
     '<h3' + adresaStil + '>' + adresa + dguNapomena + satelitBedz(f) + tipZgradeBedz(f) + '</h3>' +
     '<div style="color:var(--text-secondary);font-size:13.5px;">' + (tag(f,'addr:city') || '') + (f.zupanija ? ' · ' + f.zupanija : '') + '</div>' +
     '<div style="color:var(--text-secondary);font-size:13px;margin-top:4px;">' + (tag(f,'building') || 'zgrada') + ' · ' + formatDatum(f.validFrom) + '</div>' +
+    '<div id="modalKarta" class="modal-karta"></div>' +
+    // OSM i DGU ortofoto su sada slojevi na karti iznad, pa im zasebne
+    // poveznice vise ne trebaju. Google ostaje jer ga ne smijemo ugraditi.
     '<a class="modal-gmaps" href="' + gmaps + '" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>' +
-    dguOrtofotoBlok(f) +
+    satelitObrazlozenje(f) +
+    dguPodaciBlok(f) +
     '<div class="review-section">' +
       '<label class="review-label">Status</label>' +
       '<select id="modalStatusSelect">' + opcije + '</select>' +
@@ -1699,6 +2044,7 @@ function openModal(f){
     '</div>' +
     '<div class="modal-tags">' + tagoviHtml + '</div>';
   $('#modalOverlay').classList.add('open');
+  nacrtajModalKartu(f);
   Dnevnik.zapisi('pregled', 'pregled_zgrade', { zgrada_id: f.id, zupanija: f.zupanija || null, status: f.reviewStatus || null });
 
   $('#modalSpremiBtn').addEventListener('click', async () => {
@@ -1731,71 +2077,20 @@ function openModal(f){
 
 // Otvara isti modal, ali za DGU adresu (pojednostavljen sadrzaj - nema OSM
 // oznaka/pouzdanosti/satelita, samo adresa + status + napomena).
-function openDguModal(f){
-  const p = f.properties;
-  const adresa = [p.street, p.houseNumber].filter(Boolean).join(' ') || 'Adresa nepoznata';
-  const kljuc = dguKljuc(p);
-  Dnevnik.zapisi('pregled', 'pregled_dgu_adrese', { dgu_kljuc: kljuc, adresa: adresa, status: f.reviewStatus || null });
-  const coords = f.geometry && f.geometry.coordinates;
-  const gmaps = coords ? 'https://www.google.com/maps/search/?api=1&query=' + coords[1] + ',' + coords[0] : null;
-  const trenutniStatus = f.reviewStatus || 'nepotvrđeno';
-  const opcije = ['nepotvrđeno', 'potvrđeno', 'odbačeno'].map(s =>
-    '<option value="' + s + '"' + (s === trenutniStatus ? ' selected' : '') + '>' + s.charAt(0).toUpperCase() + s.slice(1) + '</option>'
-  ).join('');
-  $('#modalCard').innerHTML =
-    '<button class="modal-close" id="modalCloseBtn">×</button>' +
-    '<h3>' + adresa + ' <span class="pouzd-badge" style="background:var(--magenta-soft);color:var(--magenta);">DGU adresa</span></h3>' +
-    '<div style="color:var(--text-secondary);font-size:13.5px;">' + (p.settlement || '') + (p.city ? ' · ' + p.city : '') + (p.postcode ? ' · ' + p.postcode : '') + '</div>' +
-    (gmaps ? '<a class="modal-gmaps" href="' + gmaps + '" target="_blank" rel="noopener">Otvori u Google Maps ↗</a>' : '') +
-    '<div class="review-section">' +
-      '<label class="review-label">Status</label>' +
-      '<select id="modalStatusSelect">' + opcije + '</select>' +
-      '<label class="review-label">Napomena</label>' +
-      '<textarea id="modalNapomenaInput" placeholder="Dodaj napomenu...">' + escapeHtml(f.reviewNapomena) + '</textarea>' +
-      '<button class="btn-export" id="modalSpremiBtn" style="width:100%;justify-content:center;margin-top:8px;">Spremi</button>' +
-      '<div id="modalSpremljenoNote" style="display:none;font-size:11.5px;color:var(--teal);margin-top:8px;">✓ Spremljeno</div>' +
-      azuriraoInfoHtml(f) +
-    '</div>';
-  $('#modalOverlay').classList.add('open');
-
-  $('#modalSpremiBtn').addEventListener('click', async () => {
-    const btn = $('#modalSpremiBtn');
-    const noviStatus = $('#modalStatusSelect').value;
-    const novaNapomena = $('#modalNapomenaInput').value.trim();
-    btn.disabled = true;
-    btn.textContent = 'Spremanje...';
-    try {
-      await spremiRecenziju('dgu_review', 'dgu_kljuc', kljuc, noviStatus, novaNapomena,
-        { status: f.reviewStatus, napomena: f.reviewNapomena });
-      f.reviewStatus = noviStatus;
-      f.reviewNapomena = novaNapomena || null;
-      f.reviewAzurirao = trenutniKorisnikIme;
-      f.reviewAzuriranoAt = new Date().toISOString();
-      $('#modalSpremljenoNote').style.display = 'block';
-      const postojeciInfo = document.getElementById('modalAzuriraoInfo');
-      const noviInfoHtml = azuriraoInfoHtml(f);
-      if (postojeciInfo) postojeciInfo.outerHTML = noviInfoHtml;
-      else $('#modalSpremljenoNote').insertAdjacentHTML('afterend', noviInfoHtml);
-      // osvjezi bedz u DGU tablici bez ponovnog dohvata s mreze
-      const idx = dguNoveFeatures.indexOf(f);
-      const tr = $('#dguNoveAdreseTableWrap').querySelector('tr[data-dgu-idx="' + idx + '"]');
-      if (tr) tr.children[4].innerHTML = statusBedz(noviStatus);
-    } catch (err) {
-      alert('Greška pri spremanju: ' + err.message);
-    } finally {
-      btn.disabled = false;
-      btn.textContent = 'Spremi';
-    }
-  });
-}
 
 $('#modalOverlay').addEventListener('click', (e) => {
   if (e.target.id === 'modalOverlay' || e.target.id === 'modalCloseBtn') {
+    if (kartaJeMaks()) return; // karta prekriva ekran - klik ispod nije namjeran
+    uklomiModalKartu();
     $('#modalOverlay').classList.remove('open');
   }
 });
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') $('#modalOverlay').classList.remove('open');
+  if (e.key !== 'Escape') return;
+  // Esc je dvostupanjski: prvo vraca kartu iz punog zaslona, a tek sljedeci
+  // Esc zatvara modal. Inace bi korisnik iz pune karte ispao ravno van.
+  if (kartaJeMaks()) { vratiKartuUModal(); return; }
+  zatvoriModalIKartu();
 });
 
 $('#searchBox').addEventListener('input', () => {
@@ -1803,35 +2098,233 @@ $('#searchBox').addEventListener('input', () => {
   if (facetPanelOpen) renderFacetPanel();
 });
 
-// ---------- Tri dokaza ----------
-[['#dokazSatelit', 'satelit'], ['#dokazDgu', 'dgu'], ['#dokazOsm', 'osm']].forEach(([sel, kljuc]) => {
-  $(sel).addEventListener('change', (e) => {
-    dokazi[kljuc] = e.target.checked;
-    Dnevnik.zapisi('pregled', 'filter_dokaza', {
-      odabrano: Object.keys(dokazi).filter(k => dokazi[k])
-    });
-    updateTable();
-    updateMap();
-    updateStats(dataSets);
-  });
-});
+// Zetoni aktivnih odabira iz padajucih panela. Panel se zatvori i korisnik
+// vise ne vidi sto je odabrao - dosad je jedini trag bio zamucen gumb, sto ne
+// govori NI koji filtar NI koja vrijednost. Svaki zeton se moze pojedinacno
+// skinuti, a kad ih ima vise od jednog nudi se i brisanje svih odjednom.
+function crtajAktivneFiltre(){
+  const spremnik = $('#aktivniFiltri');
+  if (!spremnik) return;
+  spremnik.innerHTML = '';
 
-// Broj zgrada uz svaku kvacicu - odmah se vidi ima li smisla kliknuti.
-function osvjeziBrojeveDokaza(){
-  const svi = allFeaturesInWindow || [];
-  const broj = (uvjet) => svi.filter(uvjet).length;
-  const ispis = (sel, n) => { const e = $(sel); if (e) e.textContent = n > 0 ? '(' + n + ')' : '(0)'; };
-  ispis('#brojSatelit', broj(f => (f.satelitProvjera || {}).status === 'kandidat'));
-  ispis('#brojDgu', broj(f => !!f.dguNovaAdresaPoklapanje));
-  ispis('#brojOsm', broj(f => zgradeSPromjenom.has(f.id)));
+  // Redoslijed je namjerno isti kao u panelu, da se oko ne mora tražiti.
+  const popis = [
+    { oznaka: 'Tip',       skup: selectedBuildingTypes },
+    { oznaka: 'Katovi',    skup: selectedLevels },
+    { oznaka: 'Ortofoto',  skup: selectedOrtofoto },
+    { oznaka: 'Status',    skup: selectedStatuses },
+    { oznaka: 'Županija',  skup: selectedZupanije },
+  ];
+
+  let ukupno = 0;
+  popis.forEach(({ oznaka, skup }) => {
+    if (!skup || !skup.size) return;
+    [...skup].forEach(vrijednost => {
+      ukupno++;
+      const el = document.createElement('span');
+      el.className = 'filtar-zeton';
+      el.innerHTML = '<span class="vrsta">' + oznaka + ':</span> ' + escapeHtml(String(vrijednost));
+      const x = document.createElement('button');
+      x.textContent = '×';
+      x.title = 'Ukloni ovaj filtar';
+      x.addEventListener('click', () => {
+        skup.delete(vrijednost);
+        if (oznaka === 'Županija') updateZupanijeList();
+        osvjeziSveFiltre();
+      });
+      el.appendChild(x);
+      spremnik.appendChild(el);
+    });
+  });
+
+  if (ukupno > 1) {
+    const ocisti = document.createElement('button');
+    ocisti.className = 'filtar-ocisti';
+    ocisti.textContent = 'Očisti sve';
+    ocisti.addEventListener('click', () => {
+      [selectedBuildingTypes, selectedLevels, selectedOrtofoto, selectedStatuses, selectedZupanije]
+        .forEach(s => s.clear());
+      updateZupanijeList();
+      osvjeziSveFiltre();
+    });
+    spremnik.appendChild(ocisti);
+  }
 }
 
-
-$('#dguJedinicaFilterCheckbox').addEventListener('change', (e) => {
-  samoViseDguAdresa = e.target.checked;
+// Jedno mjesto za osvjezavanje svega nakon promjene filtra.
+function osvjeziSveFiltre(){
+  if (facetPanelOpen) renderFacetPanel();
+  crtajAktivneFiltre();
   updateTable();
   updateMap();
-});
+  osvjeziBrojeveDokaza();
+}
+
+// Ugradjuje retke iz drugih izvora (DGU adrese, promjene na postojecim) u
+// glavnu listu. Duplikati se odbacuju po ID-u - isti objekt moze doci iz vise
+// dohvata, a lista mora ostati jedan redak po objektu.
+function ugradiDodatneRetke(redci){
+  if (!Array.isArray(allFeaturesInWindow)) allFeaturesInWindow = [];
+  const postojeci = new Set(allFeaturesInWindow.map(f => f.id));
+  const novi = redci.filter(r => r.id && !postojeci.has(r.id));
+  if (!novi.length) return;
+
+  allFeaturesInWindow.push(...novi);
+  novi.forEach(f => { delete f.__ocjena; });
+
+  // Recenzije za nove retke - iste tablice, kljuc je ID retka.
+  dohvatiRecenzije('zgrada_review', 'zgrada_id', novi.map(f => f.id))
+    .then(mapa => {
+      novi.forEach(f => {
+        const r = mapa[f.id];
+        f.reviewStatus = r ? r.status : 'nepotvrđeno';
+        f.reviewNapomena = r ? r.napomena : null;
+        f.reviewAzurirao = r ? r.azurirao : null;
+        f.reviewAzuriranoAt = r ? r.azurirano_at : null;
+      });
+      updateTable();
+    })
+    .catch(() => { novi.forEach(f => { f.reviewStatus = 'nepotvrđeno'; }); updateTable(); });
+
+  updateTable();
+  updateMap();
+  updateStats(ucitaniSkupovi);
+  osvjeziBrojeveDokaza();
+}
+
+// ---------- Kompozitna stanja i tro-stanjni izvori ----------
+
+function osvjeziFiltre(){
+  Dnevnik.zapisi('pregled', 'filter_ocjene', {
+    stanja: [...odabranaStanja],
+    izvori: Object.keys(filtarIzvora).filter(k => filtarIzvora[k])
+      .map(k => k + '=' + filtarIzvora[k])
+  });
+  updateTable();
+  updateMap();
+  updateStats(ucitaniSkupovi);
+  osvjeziBrojeveDokaza();
+}
+
+// Rucna provjera. Isti oblik kao zetoni stanja, ali crtkani rub - da se na
+// prvi pogled razlikuje ljudska presuda od strojnog zakljucka.
+function crtajStatuse(){
+  const spremnik = $('#statusRed');
+  if (!spremnik) return;
+  const svi = allFeaturesInWindow || [];
+
+  const boje = {
+    'nepotvrđeno': 'var(--text-faint)',
+    'potvrđeno':   'var(--teal)',
+    'odbačeno':    'var(--danger)',
+  };
+  const broj = {};
+  svi.forEach(f => {
+    const st = f.reviewStatus || 'nepotvrđeno';
+    broj[st] = (broj[st] || 0) + 1;
+  });
+
+  spremnik.innerHTML = '';
+  ['nepotvrđeno', 'potvrđeno', 'odbačeno'].forEach(st => {
+    const n = broj[st] || 0;
+    const el = document.createElement('button');
+    el.className = 'status-zeton' + (selectedStatuses.has(st) ? ' aktivan' : '');
+    el.style.color = selectedStatuses.has(st) ? boje[st] : '';
+    el.title = 'Ručna provjera: ' + st;
+    el.innerHTML = '<span class="tocka" style="width:7px;height:7px;border-radius:50%;background:'
+      + boje[st] + '"></span>' + st.charAt(0).toUpperCase() + st.slice(1)
+      + ' <span class="cnt">' + n + '</span>';
+    el.addEventListener('click', () => {
+      if (selectedStatuses.has(st)) selectedStatuses.delete(st);
+      else selectedStatuses.add(st);
+      crtajStatuse();
+      crtajAktivneFiltre();
+      osvjeziFiltre();
+    });
+    spremnik.appendChild(el);
+  });
+}
+
+// Zetoni stanja - ILI-logika. Klik ukljucuje/iskljucuje stanje.
+function crtajStanja(){
+  const spremnik = $('#stanjaRed');
+  if (!spremnik) return;
+  const svi = allFeaturesInWindow || [];
+
+  // Brojimo uz primijenjen filtar IZVORA, ali bez filtra stanja - inace bi
+  // klik na jedno stanje nulirao brojeve svih ostalih.
+  const podSkup = svi.filter(f => Ocjena.prolaziFiltar(ocjenaZa(f).dokazi, filtarIzvora));
+  const brojPo = {};
+  podSkup.forEach(f => { const s = ocjenaZa(f).stanje; brojPo[s] = (brojPo[s] || 0) + 1; });
+
+  spremnik.innerHTML = '';
+  Ocjena.STANJA.forEach(st => {
+    const n = brojPo[st.kljuc] || 0;
+    const el = document.createElement('button');
+    el.className = 'stanje-zeton'
+      + (odabranaStanja.has(st.kljuc) ? ' aktivan' : '')
+      + (n === 0 ? ' prazan' : '');
+    el.style.color = odabranaStanja.has(st.kljuc) ? st.boja : '';
+    el.title = st.opis;
+    el.innerHTML = '<span class="tocka" style="background:' + st.boja + '"></span>'
+      + st.naziv + ' <span class="cnt">' + n + '</span>';
+    el.addEventListener('click', () => {
+      if (odabranaStanja.has(st.kljuc)) odabranaStanja.delete(st.kljuc);
+      else odabranaStanja.add(st.kljuc);
+      crtajStanja();
+      osvjeziFiltre();
+    });
+    spremnik.appendChild(el);
+  });
+}
+
+// Izvori - tri stanja u krug: null -> 'da' -> 'ne' -> null.
+function crtajIzvore(){
+  const blok = $('#izvoriBlok');
+  if (!blok) return;
+  const svi = allFeaturesInWindow || [];
+
+  // Stari redci (osim naslova) se brisu i crtaju iznova.
+  [...blok.querySelectorAll('.izvor-red')].forEach(e => e.remove());
+
+  Ocjena.IZVORI.forEach(izv => {
+    let da = 0, ne = 0, nep = 0;
+    svi.forEach(f => {
+      const v = ocjenaZa(f).dokazi[izv.kljuc];
+      if (v === Ocjena.DA) da++;
+      else if (v === Ocjena.NE) ne++;
+      else nep++;
+    });
+
+    const stanje = filtarIzvora[izv.kljuc];
+    const red = document.createElement('div');
+    red.className = 'izvor-red';
+    if (stanje) red.setAttribute('data-stanje', stanje);
+    red.title = izv.opis + '\n\nKlik: ne filtriraj → ima dokaz → nema dokaza';
+    red.innerHTML =
+      '<span class="izvor-kvad">' + (stanje === 'da' ? '✓' : stanje === 'ne' ? '✕' : '') + '</span>' +
+      '<span class="izvor-naziv">' + izv.naziv + '</span>' +
+      '<span class="izvor-brojevi">' + da + ' / ' + ne +
+        (nep ? ' <span class="nepoznato">(' + nep + ' ?)</span>' : '') + '</span>';
+
+    red.addEventListener('click', () => {
+      const sad = filtarIzvora[izv.kljuc];
+      filtarIzvora[izv.kljuc] = sad === null ? 'da' : sad === 'da' ? 'ne' : null;
+      crtajIzvore();
+      crtajStanja();
+      osvjeziFiltre();
+    });
+    blok.appendChild(red);
+  });
+}
+
+// Zajednicko osvjezavanje obje osi.
+function osvjeziBrojeveDokaza(){
+  crtajStanja();
+  crtajIzvore();
+  crtajStatuse();
+}
+
 
 function redakZaIzvoz(f){
   return {
@@ -1918,7 +2411,9 @@ function izvrsiIzvozTrenutnaLista(){
 
 function imaAktivnihFiltera(){
   return selectedZupanije.size > 0 || selectedBuildingTypes.size > 0 || selectedLevels.size > 0
-    || samoSatelitskiKandidati || samoViseDguAdresa || (($('#searchBox').value || '').trim() !== '');
+    || odabranaStanja.size > 0
+    || Object.keys(filtarIzvora).some(k => filtarIzvora[k])
+    || (($('#searchBox').value || '').trim() !== '');
 }
 
 function otvoriIzborZupanijaModal(){
@@ -1926,8 +2421,15 @@ function otvoriIzborZupanijaModal(){
   if (selectedZupanije.size > 0) dijeloviOpisa.push(selectedZupanije.size + ' županija');
   if (selectedBuildingTypes.size > 0) dijeloviOpisa.push(selectedBuildingTypes.size + ' tip(ova) zgrade');
   if (selectedLevels.size > 0) dijeloviOpisa.push('katovi');
-  if (samoSatelitskiKandidati) dijeloviOpisa.push('satelitski kandidati');
-  if (samoViseDguAdresa) dijeloviOpisa.push('više DGU adresa');
+  if (odabranaStanja.size > 0) {
+    dijeloviOpisa.push([...odabranaStanja]
+      .map(k => (Ocjena.stanjePoKljucu(k) || {}).naziv || k).join(', '));
+  }
+  Object.keys(filtarIzvora).forEach(k => {
+    if (!filtarIzvora[k]) return;
+    const izv = Ocjena.IZVORI.find(i => i.kljuc === k);
+    dijeloviOpisa.push((izv ? izv.naziv : k) + (filtarIzvora[k] === 'da' ? ': ima' : ': nema'));
+  });
   if (($('#searchBox').value || '').trim()) dijeloviOpisa.push('pretraga "' + $('#searchBox').value.trim() + '"');
 
   let gumbi = '<button class="modal-choice-btn" id="izvozTrenutnaListaBtn">Trenutna lista<span class="sub">Točno kako je prikazano - svi aktivni filteri, jedan list</span></button>';
@@ -2369,7 +2871,7 @@ function postaviTemu(tema){
   $('#btnThemeDark').classList.toggle('active', tema === 'dark');
   if (tileLayer && map){
     map.removeLayer(tileLayer);
-    tileLayer = L.tileLayer(trenutnaTemaTileUrl(), { attribution: '© OpenStreetMap, © CARTO', maxZoom: 18 }).addTo(map);
+    tileLayer = L.tileLayer(trenutnaTemaTileUrl(), { attribution: trenutnaTemaAtribucija(), maxZoom: 19 }).addTo(map);
     tileLayer.bringToBack();
   }
 }
@@ -2449,6 +2951,39 @@ document.addEventListener('click', (e) => {
     $('#userMenuDropdown').classList.remove('open');
   }
 });
+
+// ---------- Automatsko prepoznavanje mobilnog uredjaja ----------
+// Do sada je automatika radila samo pri prijavi (login.html). Tko bi index.html
+// otvorio izravno - iz zabiljeske, ili vec prijavljen - dobio bi punu verziju
+// i morao rucno kliknuti prijelaz. Sada se preusmjerava sam.
+//
+// Rucni izbor UVIJEK ima prednost: ako je korisnik svjesno odabrao punu verziju
+// na telefonu (npr. zeli siru tablicu), postuje se i ne preusmjeravamo ga.
+// Ista funkcija kao u login.html - namjerno duplirana, jer index.html ne
+// ucitava skriptu prijave, a razilazenje bi znacilo dva razlicita ponasanja.
+function jeMobilniUredjaj(){
+  try {
+    if (navigator.userAgentData && typeof navigator.userAgentData.mobile === 'boolean') {
+      return navigator.userAgentData.mobile;
+    }
+  } catch (e) { /* stariji preglednici nemaju userAgentData */ }
+
+  const ua = navigator.userAgent || '';
+  if (/Android|iPhone|iPod|Windows Phone|IEMobile|Opera Mini/i.test(ua)) return true;
+  if (/iPad/i.test(ua)) return true;
+  if (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1) return true;
+  return false;
+}
+
+(function preusmjeriAkoJeMobilni(){
+  let izbor = null;
+  try { izbor = localStorage.getItem('ng-nacin'); } catch (e) {}
+  if (izbor === 'puna') return;            // svjestan izbor korisnika
+  if (!jeMobilniUredjaj()) return;
+  // Uzak zaslon bez dodira (npr. suzen prozor na racunalu) nije mobitel.
+  if (!('ontouchstart' in window) && !(navigator.maxTouchPoints > 0)) return;
+  window.location.replace('teren.html');
+})();
 
 // ---------- Birac verzije sucelja ----------
 // Rucni odabir ima prednost pred automatskim prepoznavanjem uredjaja - zato

@@ -9,7 +9,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=Barlow:wght@600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="assets/dnevnik.js"></script>
+<script src="assets/ocjena.js?v=3"></script>
 <script>
   // Auth-guard - isti kao na ostalim stranicama.
   (async function authGuard(){
@@ -137,6 +140,29 @@
   .panel-filtera{ display:none; }
   .panel-filtera.otvoren{ display:block; }
 
+  /* Zetoni kompozitnog stanja. Na telefonu se lome u vise redaka. */
+  .stanja-red{ display:flex; flex-wrap:wrap; gap:6px; padding:6px 4px; }
+  .stanje-cip{ display:inline-flex; align-items:center; gap:6px; font-size:12.5px; }
+  .stanje-cip .tocka{ width:7px; height:7px; border-radius:50%; flex-shrink:0; }
+
+  /* Tro-stanjni izvori. Cijeli redak je dodirna meta - na telefonu je
+     kvadratic od 18 px premala meta za prst. */
+  .izvor-red{
+    display:flex; align-items:center; gap:10px; padding:9px 4px;
+    font-size:13.5px; color:var(--text-dim); cursor:pointer;
+    border-bottom:1px solid var(--border); user-select:none;
+  }
+  .izvor-red:last-child{ border-bottom:none; }
+  .izvor-kvad{
+    width:20px; height:20px; flex-shrink:0; border-radius:4px;
+    border:1px solid var(--border-strong); display:flex;
+    align-items:center; justify-content:center; font-size:12px; font-weight:700;
+  }
+  .izvor-red[data-stanje="da"] .izvor-kvad{ background:var(--magenta); border-color:var(--magenta); color:#fff; }
+  .izvor-red[data-stanje="ne"] .izvor-kvad{ border-color:var(--danger); color:var(--danger); }
+  .izvor-naziv{ flex:1 1 auto; }
+  .izvor-brojevi{ font-size:12px; color:var(--text-faint); font-variant-numeric:tabular-nums; }
+
   .dokazi{ display:flex; flex-direction:column; gap:2px; padding:6px 4px; }
   .dokazi label{ display:flex; align-items:center; gap:10px; font-size:13.5px;
     color:var(--text-dim); cursor:pointer; min-height:40px; }
@@ -218,8 +244,64 @@
   .veliki:disabled{ opacity:.45; }
   /* Snimka se ucitava tek kad se kartica otvori - inace bi popis od 60
      zgrada povukao 60 slika odjednom, na mobilnoj mrezi. */
-  .dgu-slika{ position:relative; margin-bottom:11px; }
-  .dgu-slika img{
+  /* Interaktivna karta u otvorenoj kartici. Visina je namjerno velika - na
+     terenu je usporedba sa snimkom glavni posao, a ne popratni detalj. */
+  /* Karta svih rezultata. Puni prostor ispod traka - na terenu se gleda
+     preko cijelog zaslona, ne u okviru. */
+  /* Kao i main: uzima preostali prostor umjesto fiksne visine. Body je flex
+     stupac, pa bi se stavka s fiksnom visinom mogla stisnuti - upravo se to
+     dogadjalo, karta je bila puna visine ali su se pocice crtale samo gore. */
+  #kartaSvih{ flex:1 1 auto; min-height:320px; }
+  /* Ploca s karticom nad kartom. Izlazi odozdo i pokriva donji dio zaslona -
+     karta ostaje vidljiva iznad, pa se ne gubi kontekst gdje je zgrada. */
+  #kartaDetalj{
+    position:fixed; left:0; right:0; bottom:0; z-index:1200;
+    max-height:78vh; overflow-y:auto;
+    background:var(--bg); border-top:1px solid var(--border-strong);
+    box-shadow:0 -8px 28px rgba(0,0,0,.45);
+    padding:8px 10px calc(14px + env(safe-area-inset-bottom));
+  }
+  #kartaDetalj .kartica{ margin:0; }
+  .detalj-zatvori{
+    display:block; width:100%; padding:11px; margin-bottom:8px;
+    background:var(--panel-alt); color:var(--text-dim);
+    border:1px solid var(--border); border-radius:9px;
+    font-size:14px; cursor:pointer;
+  }
+  #kartaSvih .stanje{ padding:30px 16px; }
+
+  .k-karta{
+    height:300px; margin-bottom:11px; border-radius:10px;
+    border:1px solid var(--border); overflow:hidden; background:var(--panel-alt);
+  }
+  /* Razvijen popis slojeva. Veci razmaci nego na desktopu - ovo se dodiruje
+     prstom, pa je svaki redak visok barem 30 px. */
+  .k-karta .leaflet-control-layers{
+    font-size:13px; padding:8px 10px; max-width:none;
+    background:rgba(255,255,255,.94);
+  }
+  .k-karta .leaflet-control-layers label{
+    display:flex; align-items:center; gap:7px; padding:6px 0; margin:0;
+    line-height:1.25; white-space:nowrap;
+  }
+  .k-karta .leaflet-control-layers input{ width:17px; height:17px; margin:0; }
+  .k-karta .leaflet-control-layers-separator{ margin:6px 0; }
+  .karta-gumb{
+    display:flex; align-items:center; justify-content:center;
+    width:34px; height:34px; font-size:16px; line-height:1;
+    background:#fff; color:#333; text-decoration:none;
+  }
+  .k-dgu{
+    margin-bottom:11px; padding:9px 11px; border-radius:9px;
+    border:1px solid var(--border); background:var(--panel-alt); font-size:12.5px;
+  }
+  .k-dgu-naslov{
+    font-size:10.5px; text-transform:uppercase; letter-spacing:.06em;
+    color:var(--text-faint); margin-bottom:5px;
+  }
+  .k-dgu-red{ display:flex; gap:8px; line-height:1.65; }
+  .k-dgu-red span:first-child{ color:var(--text-faint); min-width:92px; }
+
     width:100%; border-radius:11px; display:block; background:var(--panel-alt);
     aspect-ratio:1; object-fit:cover;
   }
@@ -302,6 +384,7 @@
   <div class="traka" id="trakaNacin">
     <button class="cip aktivan" data-nacin="blizu">Blizu mene</button>
     <button class="cip" data-nacin="popis">Cijeli popis</button>
+    <button class="cip" data-nacin="karta">Karta</button>
     <button class="cip filter-gumb" id="btnFiltri">Filteri <span id="brojFiltera"></span></button>
   </div>
 
@@ -318,6 +401,16 @@
       <button class="cip" data-radijus="1000">1 km</button>
       <button class="cip" data-radijus="5000">5 km</button>
     </div>
+    <!-- Sortiranje. Dosad je bilo zakljucano uz nacin prikaza: "blizu mene" je
+         uvijek slagao po udaljenosti, "cijeli popis" po datumu. Sada se bira. -->
+    <div class="traka" id="trakaSort">
+      <button class="cip aktivan" data-sort="auto">Zadano</button>
+      <button class="cip" data-sort="daljina">Najbliže</button>
+      <button class="cip" data-sort="datum">Najnovije</button>
+      <button class="cip" data-sort="adresa">Adresa A–Ž</button>
+      <button class="cip" data-sort="ocjena">Po ocjeni</button>
+    </div>
+
     <div class="traka" id="trakaStatus">
       <button class="cip aktivan" data-status="nepotvrđeno">Za provjeru</button>
       <button class="cip" data-status="">Svi statusi</button>
@@ -325,12 +418,13 @@
       <button class="cip" data-status="odbačeno">Odbačene</button>
     </div>
 
-    <!-- Tri dokaza, isti kao na glavnoj stranici. Kombiniraju se I-logikom. -->
-    <div class="dokazi">
-      <label><input type="checkbox" id="dokazSatelit"> Zgrada u ortofoto 2023./2024. <span class="dokaz-broj" id="brojSatelit"></span></label>
-      <label><input type="checkbox" id="dokazDgu"> Nova DGU adresa <span class="dokaz-broj" id="brojDgu"></span></label>
-      <label><input type="checkbox" id="dokazOsm"> OSM atributna promjena <span class="dokaz-broj" id="brojOsm"></span></label>
-    </div>
+    <!-- Kompozitna ocjena, isto kao na glavnoj stranici. ILI-logika: odaberi
+         koja stanja zelis vidjeti. Prazan odabir = sva. -->
+    <div class="stanja-red" id="stanjaRed"></div>
+
+    <!-- Pojedinacni izvori, tro-stanjno: ne filtriraj -> ima -> nema.
+         Nepoznato se nikad ne broji ni u jedno. -->
+    <div class="dokazi" id="izvoriBlok"></div>
 
     <div class="traka">
       <button class="odabir" id="btnZupanije" data-polje="z">Županije</button>
@@ -361,6 +455,8 @@
   </div>
 </div>
 
+<div id="kartaSvih"></div>
+<div id="kartaDetalj" style="display:none;"></div>
 <main id="popis">
   <div class="stanje"><b>Učitavam…</b>Dohvaćam popis zgrada i tvoju lokaciju.</div>
 </main>
@@ -373,10 +469,17 @@ const sb = window.__sbClient;
 
 let sveZgrade = [];          // laki indeks
 let statusi = {};            // { id: {status, napomena} }
+// Izlozeno asistentu (assets/chat.js) - on nema pristup Supabaseu, a treba
+// znati sto je covjek vec presudio da bi mogao filtrirati po statusu.
+window.__statusZaId = (id) => (statusi[id] || {}).status || 'nepotvrđeno';
 let mojaPozicija = null;     // {lat, lon, tocnost}
 let filterStatus = 'nepotvrđeno';
 let radijus = 300;
-let nacin = 'blizu';       // 'blizu' = po udaljenosti, 'popis' = cijeli popis
+let nacin = 'blizu';       // 'blizu' | 'popis' | 'karta'
+// 'auto' zadrzava dosadasnje ponasanje: blizu mene po udaljenosti, ostalo po
+// datumu. Ostali nacini vrijede bez obzira na odabrani prikaz.
+let sortiranje = 'auto';
+let kartaSvihObj = null;   // Leaflet instanca prikaza svih rezultata
 // Vremenski prozor; 0 = sve.
 //
 // Na terenu je ZADANO "sve", a ne zadnji tjedan kao na ostalim stranicama.
@@ -403,7 +506,37 @@ const odabrano = { z: new Set(), t: new Set(), k: new Set(), s: new Set() };
 
 // Tri dokaza, isti kao na glavnoj stranici. Kombiniraju se I-logikom:
 // svaki ukljuceni trazi da vrijedi i on.
-let dokazi = { satelit: false, dgu: false, osm: false };
+// Tro-stanjni filtar po izvorima i odabrana kompozitna stanja - isti model
+// kao na glavnoj stranici, dijeljen kroz assets/ocjena.js.
+let filtarIzvora = { noviObris:null, ms:null, dof:null, dguNova:null, dguVise:null, osmOznake:null, osmObris:null };
+// Zadano se otvara na potvrdjenim novogradnjama. To je posao koji se stvarno
+// obilazi; ostalo su uglavnom naknadno ucrtane stare zgrade (u nasem mjerenju
+// oko 93% svih zapisa), koje na terenu nemaju sto traziti.
+let odabranaStanja = new Set(['potvrdjena-novogradnja']);
+
+// Terenski indeks je zbijen (kratka imena polja), pa ga prevodimo u oblik koji
+// Ocjena razumije. Radi se jednom po zapisu i pamti na samom zapisu.
+function ocjenaZa(z){
+  if (!z.__ocjena) {
+    z.__ocjena = Ocjena.ocijeni(dokaziIzIndeksa(z));
+    z.__ocjena.dokazi = dokaziIzIndeksa(z);
+  }
+  return z.__ocjena;
+}
+
+function dokaziIzIndeksa(z){
+  const DA = Ocjena.DA, NE = Ocjena.NE, NEP = Ocjena.NEPOZNATO;
+  return {
+    // g = ima obris; retci iz DGU delte ga nemaju
+    noviObris: z.g ? DA : NE,
+    ms:        z.ms === 1 ? DA : z.ms === 0 ? NE : NEP,
+    dof:       z.s === 'stara' ? DA : z.s === 'kandidat' ? NE : NEP,
+    dguNova:   z.n === 1 ? DA : NE,
+    dguVise:   z.v == null ? NEP : (z.v > 1 ? DA : NE),
+    osmOznake: NEP,
+    osmObris:  z.p === 1 ? DA : NE,
+  };
+}
 
 // Koliko je filtera aktivno - ide na gumb, da se vidi i kad je panel uvucen.
 function brojAktivnihFiltera(){
@@ -411,11 +544,16 @@ function brojAktivnihFiltera(){
   if (tjedana !== 0) n++;
   if (filterStatus !== 'nepotvrđeno') n++;
   ['z','t','k','s'].forEach(p => { if (odabrano[p].size) n++; });
-  ['satelit','dgu','osm'].forEach(d => { if (dokazi[d]) n++; });
+  n += odabranaStanja.size;
+  n += Object.keys(filtarIzvora).filter(k => filtarIzvora[k]).length;
   return n;
 }
 const NAJVISE_PRIKAZANO = 200;
+// Na karti crtamo puno vise od popisa - tocka je jeftina, kartica nije. Iznad
+// ovoga i canvas na telefonu pocinje trzati.
+const NAJVISE_NA_KARTI = 3000;
 let otvorenaKartica = null;
+let karticnaKarta = null;   // Leaflet instanca u otvorenoj kartici
 let korisnikIme = null;
 
 // ---------- Tema ----------
@@ -475,20 +613,6 @@ function escapeHtml(t){
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-// ---------- DGU ortofoto isjecak ----------
-// Snimka iz 2023./24. za istu lokaciju. Na terenu je najkorisnija od svih
-// podataka: tehnicar usporedi sto je bilo tada s onim sto vidi pred sobom.
-function dguOrtofotoUrl(lat, lon, piksela){
-  const poluOpseg = 25;
-  const dLat = poluOpseg / 111000;
-  const dLon = poluOpseg / (111000 * Math.cos(lat * Math.PI / 180));
-  const bbox = [lon - dLon, lat - dLat, lon + dLon, lat + dLat].map(v => v.toFixed(7)).join(',');
-  return 'https://geoportal.dgu.hr/services/inspire/orthophoto_2023_2024/wms' +
-    '?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=OI.OrthoimageCoverage' +
-    '&STYLES=&FORMAT=image/png&SRS=EPSG:4326&WIDTH=' + piksela + '&HEIGHT=' + piksela +
-    '&BBOX=' + bbox;
-}
-
 // ---------- Udaljenost ----------
 // Haversine. Na ovim udaljenostima bi i ravninska aproksimacija bila dovoljna,
 // ali razlika u cijeni je zanemariva.
@@ -540,6 +664,8 @@ async function ucitajIndeks(){
   if (!res.ok) throw new Error('Terenski indeks nije dostupan (HTTP ' + res.status + ')');
   const podaci = await res.json();
   sveZgrade = podaci.zgrade || [];
+  // Tek sad se moze izracunati raspodjela po stanjima i izvorima.
+  if (typeof crtajStanja === 'function') { crtajStanja(); crtajIzvore(); }
 }
 
 async function dohvatiStatuse(idjevi){
@@ -600,28 +726,51 @@ function trenutniPopis(){
   if (odabrano.k.size) popis = popis.filter(z => odabrano.k.has(z.k));
   if (odabrano.s.size) popis = popis.filter(z => odabrano.s.has(z.s));
 
-  // Tri dokaza, I-logika.
-  if (dokazi.satelit) popis = popis.filter(z => z.s === 'kandidat');
-  if (dokazi.dgu) popis = popis.filter(z => z.n === 1);
-  if (dokazi.osm) popis = popis.filter(z => z.p === 1);
+  // Kompozitno stanje (ILI) pa izvori (I).
+  if (odabranaStanja.size) popis = popis.filter(z => odabranaStanja.has(ocjenaZa(z).stanje));
+  popis = popis.filter(z => Ocjena.prolaziFiltar(ocjenaZa(z).dokazi, filtarIzvora));
   if (filterStatus) {
     popis = popis.filter(z => ((statusi[z.i] || {}).status || 'nepotvrđeno') === filterStatus);
   }
 
+  // "Blizu mene" je ujedno i filtar po radijusu, ne samo poredak.
   if (nacin === 'blizu') {
     if (!mojaPozicija) return { stavke: [], ukupno: 0 };
-    const s = popis
-      .map(z => ({ z, d: udaljenost(mojaPozicija.lat, mojaPozicija.lon, z.y, z.x) }))
-      .filter(o => o.d <= radijus)
-      .sort((a, b) => a.d - b.d);
-    return { stavke: s.slice(0, NAJVISE_PRIKAZANO), ukupno: s.length };
+    popis = popis.filter(z => udaljenost(mojaPozicija.lat, mojaPozicija.lon, z.y, z.x) <= radijus);
   }
 
-  // Cijeli popis: najnovije prvo. Udaljenost racunamo samo ako znamo gdje smo.
-  const s = popis
-    .map(z => ({ z, d: mojaPozicija ? udaljenost(mojaPozicija.lat, mojaPozicija.lon, z.y, z.x) : null }))
-    .sort((a, b) => (b.z.d || '').localeCompare(a.z.d || ''));
-  return { stavke: s.slice(0, NAJVISE_PRIKAZANO), ukupno: s.length };
+  const s = popis.map(z => ({
+    z, d: mojaPozicija ? udaljenost(mojaPozicija.lat, mojaPozicija.lon, z.y, z.x) : null
+  }));
+
+  poredaj(s);
+
+  // U nacinu "karta" ne reze se na 200 - tocka na karti kosta puno manje od
+  // kartice u popisu, a poanta prikaza je bas vidjeti raspored svih rezultata.
+  const granicaPrikaza = nacin === 'karta' ? NAJVISE_NA_KARTI : NAJVISE_PRIKAZANO;
+  return { stavke: s.slice(0, granicaPrikaza), ukupno: s.length };
+}
+
+// Poredak. 'auto' cuva dosadasnje ponasanje po nacinu prikaza, ostali su
+// izricit izbor korisnika i vrijede u svakom nacinu.
+function poredaj(s){
+  const nacinSort = sortiranje === 'auto'
+    ? (nacin === 'blizu' ? 'daljina' : 'datum')
+    : sortiranje;
+
+  if (nacinSort === 'daljina') {
+    // Bez poznate pozicije nema po cemu sortirati - padamo na datum.
+    if (!mojaPozicija) { s.sort((a, b) => (b.z.d || '').localeCompare(a.z.d || '')); return; }
+    s.sort((a, b) => a.d - b.d);
+  } else if (nacinSort === 'adresa') {
+    s.sort((a, b) => (a.z.a || '\uffff').localeCompare(b.z.a || '\uffff', 'hr'));
+  } else if (nacinSort === 'ocjena') {
+    // Redoslijed iz Ocjena.STANJA - potvrdjene novogradnje na vrh.
+    const rang = z => Ocjena.STANJA.findIndex(x => x.kljuc === ocjenaZa(z).stanje);
+    s.sort((a, b) => rang(a.z) - rang(b.z) || (b.z.d || '').localeCompare(a.z.d || ''));
+  } else {
+    s.sort((a, b) => (b.z.d || '').localeCompare(a.z.d || ''));
+  }
 }
 
 function prikazi(){
@@ -629,6 +778,12 @@ function prikazi(){
 
   // Radijus ima smisla samo u nacinu "blizu mene".
   $('#trakaRadijus').style.display = nacin === 'blizu' ? 'flex' : 'none';
+  // Karta i popis se iskljucuju.
+  // '' vraca na vrijednost iz CSS-a umjesto da nametne 'block' - tako pravilo
+  // flex:1 1 auto ostane netaknuto.
+  $('#kartaSvih').style.display = nacin === 'karta' ? '' : 'none';
+  if (nacin !== 'karta') { const dt = $('#kartaDetalj'); if (dt) { dt.style.display = 'none'; dt.innerHTML = ''; } }
+  popis.style.display = nacin === 'karta' ? 'none' : '';
   // Gumbi za odabir stoje u panelu filtera, pa se skrivaju s njim.
 
   if (nacin === 'blizu' && !mojaPozicija){
@@ -641,19 +796,21 @@ function prikazi(){
 
   const { stavke, ukupno } = trenutniPopis();
 
-  // Brojevi uz kucice - koliko bi zgrada ostalo da se ukljuci samo ta.
-  const uProzoru = (() => {
-    const g = granicaProzora();
-    return g ? sveZgrade.filter(z => !z.d || z.d >= g) : sveZgrade;
-  })();
-  $('#brojSatelit').textContent = '(' + uProzoru.filter(z => z.s === 'kandidat').length + ')';
-  $('#brojDgu').textContent = '(' + uProzoru.filter(z => z.n === 1).length + ')';
-  $('#brojOsm').textContent = '(' + uProzoru.filter(z => z.p === 1).length + ')';
+  // Brojevi uz stanja i izvore crtaju crtajStanja() i crtajIzvore() - racunaju
+  // se nad cijelim indeksom, ne nad trenutno filtriranim popisom.
 
   $('#brojac').textContent = ukupno === 0 ? '' :
     (ukupno > stavke.length
       ? 'Prikazano ' + stavke.length + ' od ' + ukupno.toLocaleString('hr-HR') + ' zgrada'
       : ukupno.toLocaleString('hr-HR') + (ukupno === 1 ? ' zgrada' : ' zgrada'));
+
+  // Karta zamjenjuje popis - crtamo je i izlazimo prije gradnje kartica.
+  if (nacin === 'karta') {
+    if (karticnaKarta) { karticnaKarta.remove(); karticnaKarta = null; }
+    nacrtajKartuSvih(stavke);
+    return;
+  }
+  if (kartaSvihObj) { kartaSvihObj.remove(); kartaSvihObj = null; }
 
   if (stavke.length === 0){
     const razlog = nacin === 'blizu'
@@ -663,7 +820,20 @@ function prikazi(){
     return;
   }
 
-  popis.innerHTML = stavke.map(({ z, d }) => {
+  popis.innerHTML = stavke.map(({ z, d }) => karticaHtml(z, d)).join('');
+
+  // Popis se prerisuje pri svakoj promjeni, pa stara Leaflet instanca ostaje
+  // vezana na uklonjen cvor. Uvijek je prvo unistimo.
+  if (karticnaKarta) { karticnaKarta.remove(); karticnaKarta = null; }
+  const otvorena = stavke.find(o => o.z.i === otvorenaKartica);
+  if (otvorena) nacrtajKarticnuKartu(otvorena.z);
+}
+
+// Gradnja jedne kartice. Izdvojeno iz prikazi() jer se isti HTML koristi i u
+// prikazu preko karte - ondje se otvara kao ploca nad kartom, umjesto da se
+// korisnika vraca u popis gdje trazene kartice cesto ni nema (popis je rezan
+// na 200 stavki).
+function karticaHtml(z, d){
     const s = (statusi[z.i] || {}).status || 'nepotvrđeno';
     const nap = (statusi[z.i] || {}).napomena || '';
     const df = (d === null || d === undefined) ? null : formatirajDaljinu(d);
@@ -694,12 +864,7 @@ function prikazi(){
         '</div>' +
       '</div>' +
       '<div class="k-akcije">' +
-        (otvorenaKartica === z.i ?
-          '<div class="dgu-slika">' +
-            '<div class="dgu-oznaka">Ovdje 2023./24.</div>' +
-            '<img src="' + dguOrtofotoUrl(z.y, z.x, 400) + '" alt="DGU ortofoto" ' +
-              'onerror="this.parentNode.style.display=\'none\';">' +
-          '</div>' : '') +
+        (otvorenaKartica === z.i ? '<div class="k-karta" id="kkarta"></div>' + dguPodaciBlok(z) : '') +
         '<div class="par">' +
           '<button class="veliki v-potvrdi" data-akcija="potvrđeno">✓ Potvrdi</button>' +
           '<button class="veliki v-odbaci" data-akcija="odbačeno">✕ Odbaci</button>' +
@@ -710,11 +875,206 @@ function prikazi(){
           '<a href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=' + z.y + ',' + z.x + '" target="_blank" rel="noopener">👁 Street View</a>' +
         '</div>' +
       '</div></div>';
-  }).join('');
+}
+
+// Ploca s punom karticom nad kartom. Ista kartica kao u popisu - ista dugmad,
+// isto polje za napomenu, ista karta s tri sloja - samo prikazana preko karte
+// umjesto u popisu.
+function otvoriDetaljNadKartom(z, d){
+  try { otvoriDetaljNadKartomUnutra(z, d); }
+  catch (err) {
+    // Tiho padanje bi izgledalo kao "dodir ne radi" - a upravo se to najteze
+    // dijagnosticira na terenu, gdje nema konzole.
+    Dnevnik.greska('teren_detalj', err);
+    poruka('Kartica se nije otvorila: ' + err.message, 'err');
+  }
+}
+
+function otvoriDetaljNadKartomUnutra(z, d){
+  const el = $('#kartaDetalj');
+  if (!el) return;
+  otvorenaKartica = z.i;
+  el.innerHTML = '<button class="detalj-zatvori" id="detaljZatvori">Zatvori ▾</button>'
+    + karticaHtml(z, d);
+  el.style.display = 'block';
+  $('#detaljZatvori').addEventListener('click', zatvoriDetaljNadKartom);
+  // Karta unutar kartice mora se crtati tek kad je element u dokumentu.
+  if (karticnaKarta) { karticnaKarta.remove(); karticnaKarta = null; }
+  nacrtajKarticnuKartu(z);
+}
+
+function zatvoriDetaljNadKartom(){
+  const el = $('#kartaDetalj');
+  if (!el) return;
+  if (karticnaKarta) { karticnaKarta.remove(); karticnaKarta = null; }
+  el.style.display = 'none';
+  el.innerHTML = '';
+  otvorenaKartica = null;
+}
+
+// ---------- Karta svih rezultata ----------
+//
+// Popis odgovara na "sto je na redu", karta na "gdje se to skuplja". Drugo se
+// iz popisa ne vidi: dvadeset adresa u istoj ulici izgleda isto kao dvadeset
+// razbacanih po zupaniji, a za planiranje obilaska je razlika presudna.
+function nacrtajKartuSvih(stavke){
+  const el = $('#kartaSvih');
+  if (!el || typeof L === 'undefined') return;
+  if (kartaSvihObj) { kartaSvihObj.remove(); kartaSvihObj = null; }
+  if (!stavke.length) {
+    el.innerHTML = '<div class="stanje"><b>Nema zgrada</b>Nijedna ne odgovara filtrima.</div>';
+    return;
+  }
+  el.innerHTML = '';
+
+  kartaSvihObj = L.map(el, { zoomControl: true, preferCanvas: true });
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19, attribution: '© OpenStreetMap'
+  }).addTo(kartaSvihObj);
+
+  // Canvas, ne SVG: kod nekoliko tisuca tocaka SVG na telefonu stane.
+  const platno = L.canvas({ padding: 0.5 });
+  const granice = [];
+
+  stavke.forEach(({ z, d }) => {
+    const st = Ocjena.stanjePoKljucu(ocjenaZa(z).stanje);
+    const boja = st ? st.boja : '#6B7280';
+    granice.push([z.y, z.x]);
+    L.circleMarker([z.y, z.x], {
+      renderer: platno, radius: 7, color: boja, weight: 2,
+      fillColor: boja, fillOpacity: 0.6
+    }).addTo(kartaSvihObj);
+  });
+
+  if (mojaPozicija) {
+    L.circleMarker([mojaPozicija.lat, mojaPozicija.lon], {
+      radius: 7, color: '#34D8A6', weight: 3, fillColor: '#34D8A6', fillOpacity: 0.9
+    }).addTo(kartaSvihObj).bindTooltip('Vi ste ovdje');
+    granice.push([mojaPozicija.lat, mojaPozicija.lon]);
+  }
+
+  // Otvaranje kartice NE visi o pogotku u sam kruzic. Kruzic je 6 px, a prst
+  // pokriva 40-ak - trazenje tocnog pogotka na canvasu znacilo bi da vecina
+  // dodira promasi. Umjesto toga hvatamo klik na kartu i uzimamo najblizu
+  // tocku unutar 30 piksela.
+  kartaSvihObj.on('click', (e) => {
+    let najbliza = null, najmanje = Infinity;
+    const t = e.containerPoint;
+    stavke.forEach(({ z, d }) => {
+      const p = kartaSvihObj.latLngToContainerPoint([z.y, z.x]);
+      const r = Math.hypot(p.x - t.x, p.y - t.y);
+      if (r < najmanje) { najmanje = r; najbliza = { z, d }; }
+    });
+    if (najbliza && najmanje <= 30) otvoriDetaljNadKartom(najbliza.z, najbliza.d);
+  });
+
+  // REDOSLIJED JE BITAN. Spremnik je tek postao vidljiv (display se mijenja u
+  // prikazi()), pa Leaflet u trenutku stvaranja jos vidi nultu visinu. Ako
+  // fitBounds pozovemo odmah, racuna okvir za krivu velicinu - karta ispadne
+  // puna visine, ali se pocice crtaju samo u gornjem dijelu.
+  //
+  // Zato: prvo invalidateSize (Leaflet ocita stvarnu visinu), pa tek onda
+  // fitBounds. requestAnimationFrame ceka da preglednik zavrsi raspored.
+  const namjesti = () => {
+    if (!kartaSvihObj) return;
+    kartaSvihObj.invalidateSize();
+    kartaSvihObj.fitBounds(L.latLngBounds(granice), { padding: [30, 30], maxZoom: 17 });
+  };
+  requestAnimationFrame(() => requestAnimationFrame(namjesti));
+  // Jos jednom nakon kratke odgode - na sporijim telefonima raspored zna
+  // kasniti i preko dva okvira.
+  setTimeout(namjesti, 250);
+}
+
+// ---------- Karta u otvorenoj kartici ----------
+//
+// Ista tri sloja kao na glavnoj stranici. Na terenu su i vazniji: covjek stoji
+// pred zgradom i usporedjuje sto vidi sa sluzbenom snimkom iz dvije epohe.
+// Staticna slika koja je ovdje bila prije nije se mogla ni pomaknuti ni
+// priblizti, pa je za provjeru susjedstva bila neupotrebljiva.
+function nacrtajKarticnuKartu(z){
+  const el = document.getElementById('kkarta');
+  if (!el || typeof L === 'undefined') return;
+  if (karticnaKarta) { karticnaKarta.remove(); karticnaKarta = null; }
+
+  const dgu = L.tileLayer.wms('https://geoportal.dgu.hr/services/inspire/orthophoto_2023_2024/wms', {
+    layers: 'OI.OrthoimageCoverage', format: 'image/png',
+    version: '1.1.1', maxZoom: 21, attribution: 'DGU'
+  });
+  // DGU snima Hrvatsku u dva navrata: 2021. istok i jug, 2022. zapad i sjever.
+  // Zato oba sloja u istoj grupi - pojedinacno je svaki prazan nad pola zemlje.
+  const ranije = L.layerGroup([
+    L.tileLayer.wms('https://geoportal.dgu.hr/services/inspire/orthophoto_2021/wms', {
+      layers: 'OI.OrthoimageCoverage', format: 'image/png', version: '1.1.1', maxZoom: 21 }),
+    L.tileLayer.wms('https://geoportal.dgu.hr/services/inspire/orthophoto_2022/wms', {
+      layers: 'OI.OrthoimageCoverage', format: 'image/png', version: '1.1.1', maxZoom: 21 })
+  ]);
+  const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19, attribution: '© OpenStreetMap' });
+  const adrese = L.tileLayer.wms('https://geoportal.dgu.hr/services/inspire/ad/wms', {
+    layers: 'AD.Address', format: 'image/png', transparent: true,
+    version: '1.3.0', maxZoom: 21, attribution: 'DGU RPJ' });
+
+  karticnaKarta = L.map(el, { layers: [dgu], zoomControl: true }).setView([z.y, z.x], 18);
+
+  // Razvijen popis, isto kao na glavnoj stranici. Sklopljen izbornik je bio
+  // samo ikona u kutu - covjek na terenu ne bi ni znao da slojevi postoje, a
+  // upravo je prebacivanje izmedju epoha ono zbog cega karta ovdje stoji.
+  L.control.layers(
+    {
+      'DGU ortofoto 2023./24.': dgu,
+      'DGU ortofoto 2021./22.': ranije,
+      'OSM (što je ucrtano)': osm
+    },
+    { 'DGU adresne točke (INSPIRE)': adrese },
+    { collapsed: false }
+  ).addTo(karticnaKarta);
+
+  // Terenski indeks nosi samo tocku, ne obris - zato krug, ne poligon.
+  L.circleMarker([z.y, z.x], {
+    radius: 9, color: '#E0752D', weight: 3, fillOpacity: 0.25
+  }).addTo(karticnaKarta);
+
+  // Moja pozicija, ako je poznata - na terenu je korisno vidjeti odnos.
+  if (mojaPozicija) {
+    L.circleMarker([mojaPozicija.lat, mojaPozicija.lon], {
+      radius: 6, color: '#34D8A6', weight: 2, fillColor: '#34D8A6', fillOpacity: 0.9
+    }).addTo(karticnaKarta).bindTooltip('Vi ste ovdje');
+  }
+
+  // Dvostruka zastita: uz provjeru u rukovatelju kartice, i sam Leaflet
+  // zaustavlja propagaciju dogadjaja koji ne idu istim putem (dvoklik, kotacic).
+  L.DomEvent.disableClickPropagation(el);
+  L.DomEvent.disableScrollPropagation(el);
+
+  const namjestiKarticnu = () => { if (karticnaKarta) karticnaKarta.invalidateSize(); };
+  requestAnimationFrame(() => requestAnimationFrame(namjestiKarticnu));
+  setTimeout(namjestiKarticnu, 250);
+}
+
+// Sto DGU zna o ovoj lokaciji. Na terenu je broj adresnih tocaka na jednom
+// objektu izravan pokazatelj broja jedinica, dakle i broja prikljucaka.
+function dguPodaciBlok(z){
+  const redci = [];
+  if (z.a) redci.push(['Adresa', z.a]);
+  if (z.m) redci.push(['Naselje', z.m]);
+  if (z.v && z.v > 1) redci.push(['DGU adresa', z.v + ' — više jedinica']);
+  if (z.o) redci.push(['Izvor', z.o]);
+  if (z.ms !== null && z.ms !== undefined) {
+    redci.push(['Microsoft', z.ms === 1 ? 'ima zgradu (do 2024.)' : 'nema zgradu (do 2024.)']);
+  }
+  if (!redci.length) return '';
+  return '<div class="k-dgu"><div class="k-dgu-naslov">Podaci</div>' +
+    redci.map(([a, b]) => '<div class="k-dgu-red"><span>' + a + '</span><span>' +
+      escapeHtml(String(b)) + '</span></div>').join('') + '</div>';
 }
 
 // ---------- Interakcija ----------
-$('#popis').addEventListener('click', async (e) => {
+// Isti rukovatelj vrijedi za popis i za plocu nad kartom - u oba slucaja je
+// rijec o istoj kartici s istim gumbima.
+['#popis', '#kartaDetalj'].forEach(sel => $(sel).addEventListener('click', rukujKlikNaKartici));
+
+async function rukujKlikNaKartici(e){
   const kartica = e.target.closest('.kartica');
   if (!kartica) return;
   const id = kartica.dataset.id;
@@ -727,6 +1087,7 @@ $('#popis').addEventListener('click', async (e) => {
     try {
       await spremiStatus(id, status, napomena);
       poruka(status === 'potvrđeno' ? 'Potvrđeno ✓' : 'Odbačeno ✕', 'ok');
+      if (nacin === 'karta') { zatvoriDetaljNadKartom(); prikazi(); return; }
       otvorenaKartica = null;
       prikazi();
     } catch (err){
@@ -736,12 +1097,26 @@ $('#popis').addEventListener('click', async (e) => {
     return;
   }
 
-  // Klik na tijelo kartice otvara/zatvara akcije. Ne zatvaramo ako je
-  // korisnik kliknuo u polje za napomenu.
-  if (e.target.closest('textarea') || e.target.closest('a')) return;
+  // Klik na tijelo kartice otvara/zatvara akcije. Ne zatvaramo ako je korisnik
+  // kliknuo u polje za napomenu, poveznicu, ili BILO GDJE U KARTI - prebacivanje
+  // sloja, pomicanje i zumiranje su klikovi unutar kartice i inace bi je zatvorili.
+  if (e.target.closest('textarea') || e.target.closest('a') || e.target.closest('.k-karta')) return;
+  // Nad kartom kartica je vec otvorena i klik na zaglavlje je zatvara.
+  if (nacin === 'karta') { zatvoriDetaljNadKartom(); return; }
+
   otvorenaKartica = (otvorenaKartica === id) ? null : id;
   if (otvorenaKartica) Dnevnik.zapisi('pregled', 'pregled_zgrade', { zgrada_id: id, izvor: 'teren' });
   prikazi();
+}
+
+document.querySelectorAll('#trakaSort .cip').forEach(c => {
+  c.addEventListener('click', () => {
+    postaviCip('#trakaSort', c);
+    sortiranje = c.dataset.sort;
+    otvorenaKartica = null;
+    Dnevnik.zapisiOdgodjeno('pregled', 'teren_sort', { nacin: sortiranje }, 1200);
+    prikazi();
+  });
 });
 
 // Prima ili traku ("#trakaStatus") ili puni selektor gumba
@@ -794,16 +1169,67 @@ $('#btnFiltri').addEventListener('click', () => {
   Dnevnik.zapisi('pregled', 'teren_panel_filtera', { otvoren });
 });
 
-// ---------- Tri dokaza ----------
-[['#dokazSatelit','satelit'], ['#dokazDgu','dgu'], ['#dokazOsm','osm']].forEach(([sel, kljuc]) => {
-  $(sel).addEventListener('change', (e) => {
-    dokazi[kljuc] = e.target.checked;
-    otvorenaKartica = null;
-    Dnevnik.zapisiOdgodjeno('pregled', 'teren_dokazi',
-      { odabrano: Object.keys(dokazi).filter(k => dokazi[k]) }, 1200);
-    prikazi();
+// ---------- Kompozitna stanja i tro-stanjni izvori ----------
+
+// Brojevi se racunaju nad SVIM zapisima u indeksu, ne nad trenutno filtriranim
+// popisom - inace bi klik na jedno stanje nulirao brojeve svih ostalih.
+function crtajStanja(){
+  const spremnik = $('#stanjaRed');
+  if (!spremnik || !window.Ocjena) return;
+  const svi = sveZgrade || [];
+  const broj = {};
+  svi.forEach(z => { const k = ocjenaZa(z).stanje; broj[k] = (broj[k] || 0) + 1; });
+
+  spremnik.innerHTML = '';
+  Ocjena.STANJA.forEach(st => {
+    const n = broj[st.kljuc] || 0;
+    const el = document.createElement('button');
+    el.className = 'cip stanje-cip' + (odabranaStanja.has(st.kljuc) ? ' aktivan' : '');
+    el.style.borderColor = odabranaStanja.has(st.kljuc) ? st.boja : '';
+    el.innerHTML = '<span class="tocka" style="background:' + st.boja + '"></span>'
+      + st.naziv + ' ' + n;
+    el.addEventListener('click', () => {
+      if (odabranaStanja.has(st.kljuc)) odabranaStanja.delete(st.kljuc);
+      else odabranaStanja.add(st.kljuc);
+      otvorenaKartica = null;
+      crtajStanja(); crtajIzvore(); osvjeziGumbe(); prikazi();
+    });
+    spremnik.appendChild(el);
   });
-});
+}
+
+function crtajIzvore(){
+  const blok = $('#izvoriBlok');
+  if (!blok || !window.Ocjena) return;
+  const svi = sveZgrade || [];
+  blok.innerHTML = '';
+
+  Ocjena.IZVORI.forEach(izv => {
+    let da = 0, ne = 0, nep = 0;
+    svi.forEach(z => {
+      const v = ocjenaZa(z).dokazi[izv.kljuc];
+      if (v === Ocjena.DA) da++; else if (v === Ocjena.NE) ne++; else nep++;
+    });
+
+    const stanje = filtarIzvora[izv.kljuc];
+    const red = document.createElement('label');
+    red.className = 'izvor-red';
+    if (stanje) red.setAttribute('data-stanje', stanje);
+    red.innerHTML = '<span class="izvor-kvad">'
+      + (stanje === 'da' ? '\u2713' : stanje === 'ne' ? '\u2715' : '')
+      + '</span><span class="izvor-naziv">' + izv.naziv + '</span>'
+      + '<span class="izvor-brojevi">' + da + ' / ' + ne
+      + (nep ? ' (' + nep + ' ?)' : '') + '</span>';
+
+    red.addEventListener('click', () => {
+      const sad = filtarIzvora[izv.kljuc];
+      filtarIzvora[izv.kljuc] = sad === null ? 'da' : sad === 'da' ? 'ne' : null;
+      otvorenaKartica = null;
+      crtajIzvore(); crtajStanja(); osvjeziGumbe(); prikazi();
+    });
+    blok.appendChild(red);
+  });
+}
 
 // ---------- Birac vise vrijednosti ----------
 // Padajuci izbornik s 53 tipa zgrade na telefonu je neupotrebljiv, pa se
@@ -885,8 +1311,11 @@ $('#biracOcisti').addEventListener('click', () => { odabrano[biracPolje].clear()
 // ---------- Ponistavanje ----------
 $('#btnOcisti').addEventListener('click', () => {
   ['z','t','k','s'].forEach(p => odabrano[p].clear());
-  dokazi = { satelit: false, dgu: false, osm: false };
-  ['#dokazSatelit','#dokazDgu','#dokazOsm'].forEach(sel => { $(sel).checked = false; });
+  filtarIzvora = { noviObris:null, ms:null, dof:null, dguNova:null, dguVise:null, osmOznake:null, osmObris:null };
+  // Vraca na ZADANO, ne na prazno - inace bi "ponisti sve" dalo popis od
+  // 28.000 zapisa, sto na terenu nije upotrebljivo.
+  odabranaStanja = new Set(['potvrdjena-novogradnja']);
+  crtajStanja(); crtajIzvore();
   tjedana = 0;
   filterStatus = 'nepotvrđeno';
   postaviCip('#trakaRazdoblje', document.querySelector('#trakaRazdoblje .cip[data-tjedana="0"]'));

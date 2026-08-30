@@ -1,0 +1,2322 @@
+{
+  "datum": "2026-08-18",
+  "izvor": "nove-2026-08-18.geojson",
+  "nacin": "blago",
+  "ukupno": 133,
+  "brojNovogradnja": 70,
+  "brojLegalizacija": 63,
+  "novogradnja": [
+    {
+      "idStabilan": "geo/45.88632_16.87670",
+      "lat": 45.886322,
+      "lon": 16.876702,
+      "adresa": "Crkvena 7B",
+      "naselje": "Ždralovi",
+      "grad": "Bjelovar",
+      "postanskiBroj": "43000",
+      "ms": {
+        "ima": false,
+        "pregledano": 1729
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.17956_18.04757",
+      "lat": 45.179557,
+      "lon": 18.047573,
+      "adresa": "Turčinović Mirka 70",
+      "naselje": "Slavonski Brod",
+      "grad": "Slavonski Brod",
+      "postanskiBroj": "35000",
+      "ms": {
+        "ima": false,
+        "pregledano": 4397
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.21788_17.65311",
+      "lat": 45.21788,
+      "lon": 17.653106,
+      "adresa": "Donji Lipovac 18A",
+      "naselje": "Donji Lipovac",
+      "grad": "Nova Kapela",
+      "postanskiBroj": "35410",
+      "ms": {
+        "ima": false,
+        "pregledano": 363
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/42.98454_17.08575",
+      "lat": 42.984544,
+      "lon": 17.085747,
+      "adresa": "Viganj 251",
+      "naselje": "Viganj",
+      "grad": "Kučište",
+      "postanskiBroj": "20267",
+      "ms": {
+        "ima": false,
+        "pregledano": 232
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/42.63132_18.18789",
+      "lat": 42.631324,
+      "lon": 18.18789,
+      "adresa": "Pod Petračom 36A",
+      "naselje": "Petrača",
+      "grad": "Mlini",
+      "postanskiBroj": "20207",
+      "ms": {
+        "ima": false,
+        "pregledano": 1993
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.73144_15.90161",
+      "lat": 45.731437,
+      "lon": 15.901613,
+      "adresa": "Golobreška ulica II. odvojak 2B",
+      "naselje": "Goli Breg",
+      "grad": "Brezovica",
+      "postanskiBroj": "10257",
+      "ms": {
+        "ima": false,
+        "pregledano": 2230
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.70435_15.89537",
+      "lat": 45.704354,
+      "lon": 15.895373,
+      "adresa": "Grančarska ulica II. odvojak 6B",
+      "naselje": "Grančari",
+      "grad": "Brezovica",
+      "postanskiBroj": "10257",
+      "ms": {
+        "ima": false,
+        "pregledano": 1443
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.92697_13.99840",
+      "lat": 44.926971,
+      "lon": 13.998402,
+      "adresa": "Pavićini 13F",
+      "naselje": "Pavićini",
+      "grad": "Krnica",
+      "postanskiBroj": "52208",
+      "ms": {
+        "ima": false,
+        "pregledano": 1220
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.39551_13.54782",
+      "lat": 45.395511,
+      "lon": 13.547819,
+      "adresa": "Dolinci - Dolinzi 135C",
+      "naselje": "Babići - Babici",
+      "grad": "Umag (Umago)",
+      "postanskiBroj": "52470",
+      "ms": {
+        "ima": false,
+        "pregledano": 1638
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.82674_13.95284",
+      "lat": 44.826737,
+      "lon": 13.952837,
+      "adresa": "Šaraja 9C",
+      "naselje": "Ližnjan",
+      "grad": "Ližnjan (Lisignano)",
+      "postanskiBroj": "52204",
+      "ms": {
+        "ima": false,
+        "pregledano": 2069
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.82878_13.93981",
+      "lat": 44.828777,
+      "lon": 13.93981,
+      "adresa": "Vrčevan 180",
+      "naselje": "Medulin",
+      "grad": "Medulin",
+      "postanskiBroj": "52203",
+      "ms": {
+        "ima": false,
+        "pregledano": 2530
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.85389_13.87476",
+      "lat": 44.853886,
+      "lon": 13.874756,
+      "adresa": "Ulica Lovežica - Via Lovezizza 23E",
+      "naselje": "Pula",
+      "grad": "Pula (Pola)",
+      "postanskiBroj": "52100",
+      "ms": {
+        "ima": false,
+        "pregledano": 2498
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.42224_13.52478",
+      "lat": 45.422242,
+      "lon": 13.52478,
+      "adresa": "Ulica Vrh - Via Monte 24",
+      "naselje": "Umag - Umago",
+      "grad": "Umag (Umago)",
+      "postanskiBroj": "52470",
+      "ms": {
+        "ima": false,
+        "pregledano": 1415
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.42226_13.52487",
+      "lat": 45.422259,
+      "lon": 13.524872,
+      "adresa": "Ulica Vrh - Via Monte 24A",
+      "naselje": "Umag - Umago",
+      "grad": "Umag (Umago)",
+      "postanskiBroj": "52470",
+      "ms": {
+        "ima": false,
+        "pregledano": 1415
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.82828_13.94028",
+      "lat": 44.828283,
+      "lon": 13.94028,
+      "adresa": "Vrčevan 187F",
+      "naselje": "Medulin",
+      "grad": "Medulin",
+      "postanskiBroj": "52203",
+      "ms": {
+        "ima": false,
+        "pregledano": 2637
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.82826_13.94061",
+      "lat": 44.828262,
+      "lon": 13.940612,
+      "adresa": "Vrčevan 187G",
+      "naselje": "Medulin",
+      "grad": "Medulin",
+      "postanskiBroj": "52203",
+      "ms": {
+        "ima": false,
+        "pregledano": 2637
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.82825_13.94082",
+      "lat": 44.828245,
+      "lon": 13.940816,
+      "adresa": "Vrčevan 187H",
+      "naselje": "Medulin",
+      "grad": "Medulin",
+      "postanskiBroj": "52203",
+      "ms": {
+        "ima": false,
+        "pregledano": 2637
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.40135_13.86654",
+      "lat": 45.401348,
+      "lon": 13.866536,
+      "adresa": "Jakci - Pizzi 63C",
+      "naselje": "Zrenj - Stridone",
+      "grad": "Oprtalj (Portole)",
+      "postanskiBroj": "52428",
+      "ms": {
+        "ima": false,
+        "pregledano": 195
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.82852_13.94036",
+      "lat": 44.828516,
+      "lon": 13.94036,
+      "adresa": "Vrčevan 187C",
+      "naselje": "Medulin",
+      "grad": "Medulin",
+      "postanskiBroj": "52203",
+      "ms": {
+        "ima": false,
+        "pregledano": 2637
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.12644_14.20598",
+      "lat": 45.126439,
+      "lon": 14.205979,
+      "adresa": "Načinovići 119",
+      "naselje": "Zagorje",
+      "grad": "Plomin",
+      "postanskiBroj": "52234",
+      "ms": {
+        "ima": false,
+        "pregledano": 142
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.47548_15.55643",
+      "lat": 45.475485,
+      "lon": 15.556431,
+      "adresa": "Josipa Račića 54",
+      "naselje": "Karlovac",
+      "grad": "Karlovac",
+      "postanskiBroj": "47000",
+      "ms": {
+        "ima": false,
+        "pregledano": 2620
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.14064_16.20841",
+      "lat": 46.140639,
+      "lon": 16.208407,
+      "adresa": "Krapinica 42C",
+      "naselje": "Krapinica",
+      "grad": "Budinščina",
+      "postanskiBroj": "49284",
+      "ms": {
+        "ima": false,
+        "pregledano": 906
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.06894_16.00110",
+      "lat": 46.068945,
+      "lon": 16.001102,
+      "adresa": "Grabe 54A",
+      "naselje": "Grabe",
+      "grad": "Brestovec Orehovički",
+      "postanskiBroj": "49228",
+      "ms": {
+        "ima": false,
+        "pregledano": 658
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.13581_15.96907",
+      "lat": 46.135809,
+      "lon": 15.969074,
+      "adresa": "Mihovljan 28F",
+      "naselje": "Mihovljan",
+      "grad": "Mihovljan",
+      "postanskiBroj": "49252",
+      "ms": {
+        "ima": false,
+        "pregledano": 423
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.02874_15.89881",
+      "lat": 46.02874,
+      "lon": 15.898808,
+      "adresa": "Repovec 19A",
+      "naselje": "Repovec",
+      "grad": "Zabok",
+      "postanskiBroj": "49210",
+      "ms": {
+        "ima": false,
+        "pregledano": 1743
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.32573_16.62146",
+      "lat": 46.325731,
+      "lon": 16.621462,
+      "adresa": "Ulica Ivana Glavine 13",
+      "naselje": "Prelog",
+      "grad": "Prelog",
+      "postanskiBroj": "40323",
+      "ms": {
+        "ima": false,
+        "pregledano": 1956
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.32581_16.62145",
+      "lat": 46.32581,
+      "lon": 16.621454,
+      "adresa": "Ulica Ivana Glavine 13A",
+      "naselje": "Prelog",
+      "grad": "Prelog",
+      "postanskiBroj": "40323",
+      "ms": {
+        "ima": false,
+        "pregledano": 1956
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.32588_16.62145",
+      "lat": 46.325881,
+      "lon": 16.621445,
+      "adresa": "Ulica Ivana Glavine 13B",
+      "naselje": "Prelog",
+      "grad": "Prelog",
+      "postanskiBroj": "40323",
+      "ms": {
+        "ima": false,
+        "pregledano": 1956
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.36472_16.46477",
+      "lat": 46.364722,
+      "lon": 16.464769,
+      "adresa": "Varaždinska 27",
+      "naselje": "Ivanovec",
+      "grad": "Čakovec",
+      "postanskiBroj": "40000",
+      "ms": {
+        "ima": false,
+        "pregledano": 1909
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.37396_16.52279",
+      "lat": 46.373955,
+      "lon": 16.522793,
+      "adresa": "Glavna ulica 13B",
+      "naselje": "Mala Subotica",
+      "grad": "Mala Subotica",
+      "postanskiBroj": "40321",
+      "ms": {
+        "ima": false,
+        "pregledano": 1618
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.30545_18.47212",
+      "lat": 45.305453,
+      "lon": 18.472118,
+      "adresa": "Pisak 128B",
+      "naselje": "Đakovo",
+      "grad": "Đakovo",
+      "postanskiBroj": "31400",
+      "ms": {
+        "ima": false,
+        "pregledano": 332
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.53359_18.63425",
+      "lat": 45.533589,
+      "lon": 18.634251,
+      "adresa": "Ulica jela 14",
+      "naselje": "Osijek",
+      "grad": "Osijek",
+      "postanskiBroj": "31000",
+      "ms": {
+        "ima": false,
+        "pregledano": 1998
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.53383_18.63439",
+      "lat": 45.533833,
+      "lon": 18.634391,
+      "adresa": "Ulica jela 12",
+      "naselje": "Osijek",
+      "grad": "Osijek",
+      "postanskiBroj": "31000",
+      "ms": {
+        "ima": false,
+        "pregledano": 1998
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.53376_18.63458",
+      "lat": 45.533759,
+      "lon": 18.634577,
+      "adresa": "Ulica jela 14A",
+      "naselje": "Osijek",
+      "grad": "Osijek",
+      "postanskiBroj": "31000",
+      "ms": {
+        "ima": false,
+        "pregledano": 1998
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.53372_18.63462",
+      "lat": 45.533718,
+      "lon": 18.634615,
+      "adresa": "Ulica jela 14B",
+      "naselje": "Osijek",
+      "grad": "Osijek",
+      "postanskiBroj": "31000",
+      "ms": {
+        "ima": false,
+        "pregledano": 1998
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.59966_18.73958",
+      "lat": 45.599656,
+      "lon": 18.739583,
+      "adresa": "Vukovarska ulica 53",
+      "naselje": "Bilje",
+      "grad": "Bilje",
+      "postanskiBroj": "31327",
+      "ms": {
+        "ima": false,
+        "pregledano": 1973
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.42469_18.40300",
+      "lat": 45.424687,
+      "lon": 18.403004,
+      "adresa": "Ulica svetog Josipa 35",
+      "naselje": "Josipovac Punitovački",
+      "grad": "Punitovci",
+      "postanskiBroj": "31424",
+      "ms": {
+        "ima": false,
+        "pregledano": 1167
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.33816_17.70009",
+      "lat": 45.338162,
+      "lon": 17.700092,
+      "adresa": "Industrijska 36",
+      "naselje": "Požega",
+      "grad": "Požega",
+      "postanskiBroj": "34000",
+      "ms": {
+        "ima": false,
+        "pregledano": 2303
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.04130_14.48466",
+      "lat": 45.041303,
+      "lon": 14.484664,
+      "adresa": "Potok 49B",
+      "naselje": "Pinezići",
+      "grad": "Krk",
+      "postanskiBroj": "51500",
+      "ms": {
+        "ima": false,
+        "pregledano": 863
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.32970_14.78622",
+      "lat": 45.3297,
+      "lon": 14.786215,
+      "adresa": "Brestova Draga 56",
+      "naselje": "Brestova Draga",
+      "grad": "Mrkopalj",
+      "postanskiBroj": "51315",
+      "ms": {
+        "ima": false,
+        "pregledano": 107
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.77638_15.90780",
+      "lat": 43.77638,
+      "lon": 15.9078,
+      "adresa": "Slavice 23",
+      "naselje": "Bilice",
+      "grad": "Šibenik",
+      "postanskiBroj": "22000",
+      "ms": {
+        "ima": false,
+        "pregledano": 890
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.63885_15.95736",
+      "lat": 43.638849,
+      "lon": 15.957362,
+      "adresa": "Ulica Galešnica 23D",
+      "naselje": "Grebaštica",
+      "grad": "Šibenik-Brodarica",
+      "postanskiBroj": "22010",
+      "ms": {
+        "ima": false,
+        "pregledano": 941
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.99918_16.29978",
+      "lat": 43.999182,
+      "lon": 16.299784,
+      "adresa": "Kod doma 58B",
+      "naselje": "Polača",
+      "grad": "Polača",
+      "postanskiBroj": "22302",
+      "ms": {
+        "ima": false,
+        "pregledano": 186
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.81655_15.58221",
+      "lat": 43.81655,
+      "lon": 15.582212,
+      "adresa": "Put Slanice 85",
+      "naselje": "Murter",
+      "grad": "Murter",
+      "postanskiBroj": "22243",
+      "ms": {
+        "ima": false,
+        "pregledano": 2177
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.69093_15.91660",
+      "lat": 43.690933,
+      "lon": 15.916601,
+      "adresa": "Gomljanik 33A",
+      "naselje": "Brodarica",
+      "grad": "Šibenik-Brodarica",
+      "postanskiBroj": "22010",
+      "ms": {
+        "ima": false,
+        "pregledano": 2705
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.50023_16.36498",
+      "lat": 45.50023,
+      "lon": 16.364984,
+      "adresa": "Ulica Frana Kršinića 6",
+      "naselje": "Sisak",
+      "grad": "Sisak",
+      "postanskiBroj": "44000",
+      "ms": {
+        "ima": false,
+        "pregledano": 3019
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.04263_16.23815",
+      "lat": 43.042627,
+      "lon": 16.238153,
+      "adresa": "Ženka 51",
+      "naselje": "Milna",
+      "grad": "Vis",
+      "postanskiBroj": "21480",
+      "ms": {
+        "ima": false,
+        "pregledano": 238
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.55575_16.37920",
+      "lat": 43.555746,
+      "lon": 16.379205,
+      "adresa": "Karlovo 151",
+      "naselje": "Kaštel Kambelovac",
+      "grad": "Kaštel Kambelovac",
+      "postanskiBroj": "21214",
+      "ms": {
+        "ima": false,
+        "pregledano": 2719
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.55640_16.35473",
+      "lat": 43.556399,
+      "lon": 16.354734,
+      "adresa": "Ulica dr. Vjekoslava Omašića 19",
+      "naselje": "Kaštel Lukšić",
+      "grad": "Kaštel Lukšić",
+      "postanskiBroj": "21215",
+      "ms": {
+        "ima": false,
+        "pregledano": 3684
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.32633_16.45091",
+      "lat": 43.326326,
+      "lon": 16.450907,
+      "adresa": "Butor dolac 36",
+      "naselje": "Milna",
+      "grad": "Milna",
+      "postanskiBroj": "21405",
+      "ms": {
+        "ima": false,
+        "pregledano": 1166
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.63928_16.58583",
+      "lat": 43.639283,
+      "lon": 16.585835,
+      "adresa": "Dicmo Kraj 102E",
+      "naselje": "Dicmo Kraj",
+      "grad": "Dicmo",
+      "postanskiBroj": "21232",
+      "ms": {
+        "ima": false,
+        "pregledano": 827
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.19243_16.35692",
+      "lat": 46.192425,
+      "lon": 16.356923,
+      "adresa": "Oštrice 77A",
+      "naselje": "Oštrice",
+      "grad": "Novi Marof",
+      "postanskiBroj": "42220",
+      "ms": {
+        "ima": false,
+        "pregledano": 1530
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.30959_16.32716",
+      "lat": 46.309588,
+      "lon": 16.327161,
+      "adresa": "Ulica Ratimira Hercega 22A",
+      "naselje": "Varaždin",
+      "grad": "Varaždin",
+      "postanskiBroj": "42000",
+      "ms": {
+        "ima": false,
+        "pregledano": 6556
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.22208_15.54841",
+      "lat": 44.222082,
+      "lon": 15.548413,
+      "adresa": "Maslenica Ulica Alojzija Stepinca 25",
+      "naselje": "Maslenica",
+      "grad": "Jasenice",
+      "postanskiBroj": "23243",
+      "ms": {
+        "ima": false,
+        "pregledano": 1026
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.34892_15.10368",
+      "lat": 44.348922,
+      "lon": 15.103682,
+      "adresa": "Splitska ulica 3",
+      "naselje": "Povljana",
+      "grad": "Povljana",
+      "postanskiBroj": "23249",
+      "ms": {
+        "ima": false,
+        "pregledano": 1106
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.85700_15.50300",
+      "lat": 43.857,
+      "lon": 15.502995,
+      "adresa": "Vrgada 117B",
+      "naselje": "Vrgada",
+      "grad": "Pakoštane",
+      "postanskiBroj": "23211",
+      "ms": {
+        "ima": false,
+        "pregledano": 266
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.09825_15.26791",
+      "lat": 44.098251,
+      "lon": 15.26791,
+      "adresa": "Ulica 159. brigade 11A",
+      "naselje": "Zadar",
+      "grad": "Zadar",
+      "postanskiBroj": "23000",
+      "ms": {
+        "ima": false,
+        "pregledano": 2721
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.12426_15.11825",
+      "lat": 44.124264,
+      "lon": 15.118246,
+      "adresa": "Ulica Brodarica 1",
+      "naselje": "Ugljan",
+      "grad": "Ugljan",
+      "postanskiBroj": "23275",
+      "ms": {
+        "ima": false,
+        "pregledano": 989
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.14669_15.21423",
+      "lat": 44.14669,
+      "lon": 15.21423,
+      "adresa": "Vukovica 2B",
+      "naselje": "Zadar",
+      "grad": "Zadar",
+      "postanskiBroj": "23000",
+      "ms": {
+        "ima": false,
+        "pregledano": 2674
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.10057_15.28073",
+      "lat": 44.100569,
+      "lon": 15.280732,
+      "adresa": "Benkovačka cesta 74",
+      "naselje": "Zadar",
+      "grad": "Zadar",
+      "postanskiBroj": "23000",
+      "ms": {
+        "ima": false,
+        "pregledano": 1649
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.96438_15.35292",
+      "lat": 43.964383,
+      "lon": 15.352924,
+      "adresa": "Otočka cesta 8B",
+      "naselje": "Mrljane",
+      "grad": "Neviđane",
+      "postanskiBroj": "23264",
+      "ms": {
+        "ima": false,
+        "pregledano": 815
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.74375_16.43974",
+      "lat": 45.743748,
+      "lon": 16.439737,
+      "adresa": "Vinogradski odvojak X 71A",
+      "naselje": "Kloštar Ivanić",
+      "grad": "Kloštar Ivanić",
+      "postanskiBroj": "10312",
+      "ms": {
+        "ima": false,
+        "pregledano": 2130
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.81666_15.80618",
+      "lat": 45.816656,
+      "lon": 15.806184,
+      "adresa": "Gospodsko 16",
+      "naselje": "Orešje",
+      "grad": "Strmec",
+      "postanskiBroj": "10434",
+      "ms": {
+        "ima": false,
+        "pregledano": 2785
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.81663_15.80609",
+      "lat": 45.816633,
+      "lon": 15.806089,
+      "adresa": "Gospodsko 18",
+      "naselje": "Orešje",
+      "grad": "Strmec",
+      "postanskiBroj": "10434",
+      "ms": {
+        "ima": false,
+        "pregledano": 2785
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.81661_15.80601",
+      "lat": 45.816611,
+      "lon": 15.806005,
+      "adresa": "Gospodsko 20",
+      "naselje": "Orešje",
+      "grad": "Strmec",
+      "postanskiBroj": "10434",
+      "ms": {
+        "ima": false,
+        "pregledano": 2785
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.74293_16.23498",
+      "lat": 45.742931,
+      "lon": 16.234982,
+      "adresa": "Ulica Hrvatskog proljeća 20",
+      "naselje": "Rugvica",
+      "grad": "Dugo Selo",
+      "postanskiBroj": "10370",
+      "ms": {
+        "ima": false,
+        "pregledano": 649
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.82207_15.73370",
+      "lat": 45.822068,
+      "lon": 15.733696,
+      "adresa": "Gradna 13A",
+      "naselje": "Gradna",
+      "grad": "Samobor",
+      "postanskiBroj": "10430",
+      "ms": {
+        "ima": false,
+        "pregledano": 1138
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.80906_15.81530",
+      "lat": 45.809057,
+      "lon": 15.815301,
+      "adresa": "Zlatarska ulica 4",
+      "naselje": "Bestovje",
+      "grad": "Bestovje",
+      "postanskiBroj": "10437",
+      "ms": {
+        "ima": false,
+        "pregledano": 3109
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.80862_15.78006",
+      "lat": 45.808622,
+      "lon": 15.780058,
+      "adresa": "Slavonska ulica 2H",
+      "naselje": "Strmec",
+      "grad": "Strmec",
+      "postanskiBroj": "10434",
+      "ms": {
+        "ima": false,
+        "pregledano": 3028
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.78599_15.71974",
+      "lat": 45.78599,
+      "lon": 15.719735,
+      "adresa": "Ulica Vinogradarska 16",
+      "naselje": "Mala Rakovica",
+      "grad": "Samobor",
+      "postanskiBroj": "10430",
+      "ms": {
+        "ima": false,
+        "pregledano": 2573
+      },
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft nema zgradu na ovoj lokaciji (snimke do 2024.), a adresa je dodijeljena 2026-08-18. - vjerojatno sagrađeno nakon 2024."
+    }
+  ],
+  "legalizacija": [
+    {
+      "idStabilan": "geo/45.56074_17.05736",
+      "lat": 45.560742,
+      "lon": 17.057361,
+      "adresa": "Ulica Stjepana Radića 6A",
+      "naselje": "Blagorodovac",
+      "grad": "Garešnica",
+      "postanskiBroj": "43280",
+      "ms": {
+        "ima": true,
+        "pregledano": 310,
+        "kako": "blizu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 3,
+        "povrsinaMs": 118,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.61169_16.94747",
+      "lat": 45.611694,
+      "lon": 16.947467,
+      "adresa": "Staklena ulica 17",
+      "naselje": "Garešnički Brestovac",
+      "grad": "Garešnica",
+      "postanskiBroj": "43280",
+      "ms": {
+        "ima": true,
+        "pregledano": 1074,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 62,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.19061_18.00484",
+      "lat": 45.190606,
+      "lon": 18.004839,
+      "adresa": "Čaplja 67A",
+      "naselje": "Slavonski Brod",
+      "grad": "Slavonski Brod",
+      "postanskiBroj": "35000",
+      "ms": {
+        "ima": true,
+        "pregledano": 2599,
+        "kako": "blizu",
+        "udaljenostCentara": 11,
+        "udaljenostDoRuba": 5,
+        "povrsinaMs": 108,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.22366_18.01034",
+      "lat": 45.223656,
+      "lon": 18.010341,
+      "adresa": "Brodska ulica 27A",
+      "naselje": "Podcrkavlje",
+      "grad": "Podcrkavlje",
+      "postanskiBroj": "35201",
+      "ms": {
+        "ima": true,
+        "pregledano": 565,
+        "kako": "blizu",
+        "udaljenostCentara": 14,
+        "udaljenostDoRuba": 5,
+        "povrsinaMs": 247,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.18736_17.90542",
+      "lat": 45.187359,
+      "lon": 17.905424,
+      "adresa": "Eugena Kvaternika 9",
+      "naselje": "Sibinj",
+      "grad": "Sibinj",
+      "postanskiBroj": "35252",
+      "ms": {
+        "ima": true,
+        "pregledano": 2001,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 135,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.26713_17.37104",
+      "lat": 45.267127,
+      "lon": 17.371041,
+      "adresa": "Vladimira Nikolića 11",
+      "naselje": "Nova Gradiška",
+      "grad": "Nova Gradiška",
+      "postanskiBroj": "35400",
+      "ms": {
+        "ima": true,
+        "pregledano": 4965,
+        "kako": "blizu",
+        "udaljenostCentara": 14,
+        "udaljenostDoRuba": 7,
+        "povrsinaMs": 117,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/42.97890_17.18600",
+      "lat": 42.978905,
+      "lon": 17.186001,
+      "adresa": "S. S. Kranjčevića 30",
+      "naselje": "Orebić",
+      "grad": "Orebić",
+      "postanskiBroj": "20250",
+      "ms": {
+        "ima": true,
+        "pregledano": 1706,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 1,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 170,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/42.98444_17.08543",
+      "lat": 42.984441,
+      "lon": 17.085429,
+      "adresa": "Viganj 252",
+      "naselje": "Viganj",
+      "grad": "Kučište",
+      "postanskiBroj": "20267",
+      "ms": {
+        "ima": true,
+        "pregledano": 232,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 146,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/42.97428_17.17993",
+      "lat": 42.97428,
+      "lon": 17.179928,
+      "adresa": "Trg Mimbelli 10A",
+      "naselje": "Orebić",
+      "grad": "Orebić",
+      "postanskiBroj": "20250",
+      "ms": {
+        "ima": true,
+        "pregledano": 1543,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 1,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 71,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.76377_15.92025",
+      "lat": 45.763768,
+      "lon": 15.920249,
+      "adresa": "Holjakova ulica 5/1",
+      "naselje": "Zagreb",
+      "grad": "Zagreb-Novi Zagreb",
+      "postanskiBroj": "10020",
+      "ms": {
+        "ima": true,
+        "pregledano": 2332,
+        "kako": "blizu",
+        "udaljenostCentara": 6,
+        "udaljenostDoRuba": 4,
+        "povrsinaMs": 36,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.90460_16.06702",
+      "lat": 45.904595,
+      "lon": 16.067017,
+      "adresa": "Mali Sruki 12",
+      "naselje": "Zagreb",
+      "grad": "Zagreb-Dubrava",
+      "postanskiBroj": "10040",
+      "ms": {
+        "ima": true,
+        "pregledano": 1332,
+        "kako": "blizu",
+        "udaljenostCentara": 9,
+        "udaljenostDoRuba": 2,
+        "povrsinaMs": 136,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.49300_13.50387",
+      "lat": 45.493002,
+      "lon": 13.503874,
+      "adresa": "Ravna dolina - Valdepian 58",
+      "naselje": "Savudrija - Salvore",
+      "grad": "Savudrija (Salvore)",
+      "postanskiBroj": "52475",
+      "ms": {
+        "ima": true,
+        "pregledano": 1350,
+        "kako": "blizu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 15,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.14011_14.10975",
+      "lat": 45.140107,
+      "lon": 14.109748,
+      "adresa": "Nedešćina 67A",
+      "naselje": "Nedešćina",
+      "grad": "Nedešćina",
+      "postanskiBroj": "52231",
+      "ms": {
+        "ima": true,
+        "pregledano": 841,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 64,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.39578_13.54777",
+      "lat": 45.395776,
+      "lon": 13.547767,
+      "adresa": "Dolinci - Dolinzi 136A",
+      "naselje": "Babići - Babici",
+      "grad": "Umag (Umago)",
+      "postanskiBroj": "52470",
+      "ms": {
+        "ima": true,
+        "pregledano": 1638,
+        "kako": "blizu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 4,
+        "povrsinaMs": 83,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.28294_14.12244",
+      "lat": 45.282935,
+      "lon": 14.122441,
+      "adresa": "Šestani 68A",
+      "naselje": "Boljunsko Polje",
+      "grad": "Boljun",
+      "postanskiBroj": "52434",
+      "ms": {
+        "ima": true,
+        "pregledano": 231,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 6,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 192,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.27373_14.00619",
+      "lat": 45.273726,
+      "lon": 14.006194,
+      "adresa": "Cerovlje 73A",
+      "naselje": "Cerovlje",
+      "grad": "Cerovlje",
+      "postanskiBroj": "52402",
+      "ms": {
+        "ima": true,
+        "pregledano": 422,
+        "kako": "blizu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 2,
+        "povrsinaMs": 40,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.99985_13.95484",
+      "lat": 44.999845,
+      "lon": 13.95484,
+      "adresa": "Filipana 11A",
+      "naselje": "Filipana",
+      "grad": "Marčana",
+      "postanskiBroj": "52206",
+      "ms": {
+        "ima": true,
+        "pregledano": 228,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 212,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/46.03862_15.75972",
+      "lat": 46.038621,
+      "lon": 15.759722,
+      "adresa": "Lučelnica Tomaševečka 10A",
+      "naselje": "Lučelnica Tomaševečka",
+      "grad": "Klanjec",
+      "postanskiBroj": "49290",
+      "ms": {
+        "ima": true,
+        "pregledano": 447,
+        "kako": "blizu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 70,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.56001_14.87528",
+      "lat": 44.560007,
+      "lon": 14.875282,
+      "adresa": "Primorska ulica 43A",
+      "naselje": "Novalja",
+      "grad": "Novalja",
+      "postanskiBroj": "53291",
+      "ms": {
+        "ima": true,
+        "pregledano": 1972,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 187,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.40634_18.47367",
+      "lat": 45.406339,
+      "lon": 18.473665,
+      "adresa": "Ulica Sunčana 30",
+      "naselje": "Široko Polje",
+      "grad": "Đakovo",
+      "postanskiBroj": "31400",
+      "ms": {
+        "ima": true,
+        "pregledano": 850,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 144,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.56266_18.64998",
+      "lat": 45.562657,
+      "lon": 18.649979,
+      "adresa": "Žumberačka ulica 84",
+      "naselje": "Osijek",
+      "grad": "Osijek",
+      "postanskiBroj": "31000",
+      "ms": {
+        "ima": true,
+        "pregledano": 3592,
+        "kako": "blizu",
+        "udaljenostCentara": 12,
+        "udaljenostDoRuba": 6,
+        "povrsinaMs": 165,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.56361_18.64864",
+      "lat": 45.563613,
+      "lon": 18.648639,
+      "adresa": "Plješevička 26",
+      "naselje": "Osijek",
+      "grad": "Osijek",
+      "postanskiBroj": "31000",
+      "ms": {
+        "ima": true,
+        "pregledano": 3592,
+        "kako": "blizu",
+        "udaljenostCentara": 11,
+        "udaljenostDoRuba": 3,
+        "povrsinaMs": 191,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.56362_18.64872",
+      "lat": 45.563618,
+      "lon": 18.648721,
+      "adresa": "Plješevička 26A",
+      "naselje": "Osijek",
+      "grad": "Osijek",
+      "postanskiBroj": "31000",
+      "ms": {
+        "ima": true,
+        "pregledano": 3592,
+        "kako": "blizu",
+        "udaljenostCentara": 9,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 315,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.54776_18.70337",
+      "lat": 45.547761,
+      "lon": 18.703367,
+      "adresa": "Banjalučka 36",
+      "naselje": "Osijek",
+      "grad": "Osijek",
+      "postanskiBroj": "31000",
+      "ms": {
+        "ima": true,
+        "pregledano": 4213,
+        "kako": "blizu",
+        "udaljenostCentara": 9,
+        "udaljenostDoRuba": 7,
+        "povrsinaMs": 41,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.43860_17.19123",
+      "lat": 45.438599,
+      "lon": 17.19123,
+      "adresa": "Ulica Matije Gupca 1/1",
+      "naselje": "Pakrac",
+      "grad": "Pakrac",
+      "postanskiBroj": "34550",
+      "ms": {
+        "ima": true,
+        "pregledano": 3322,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 6,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 278,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.83806_14.72207",
+      "lat": 44.838061,
+      "lon": 14.722068,
+      "adresa": "Lopar 31B",
+      "naselje": "Lopar",
+      "grad": "Lopar",
+      "postanskiBroj": "51281",
+      "ms": {
+        "ima": true,
+        "pregledano": 1007,
+        "kako": "blizu",
+        "udaljenostCentara": 16,
+        "udaljenostDoRuba": 8,
+        "povrsinaMs": 224,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.20400_14.22920",
+      "lat": 45.204001,
+      "lon": 14.229199,
+      "adresa": "Filipaši 15A",
+      "naselje": "Sveta Jelena",
+      "grad": "Brseč",
+      "postanskiBroj": "51418",
+      "ms": {
+        "ima": true,
+        "pregledano": 286,
+        "kako": "blizu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 88,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.02137_14.56503",
+      "lat": 45.02137,
+      "lon": 14.565033,
+      "adresa": "Rapska 13",
+      "naselje": "Krk",
+      "grad": "Krk",
+      "postanskiBroj": "51500",
+      "ms": {
+        "ima": true,
+        "pregledano": 2178,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 6,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 303,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.49692_16.00290",
+      "lat": 43.496925,
+      "lon": 16.002901,
+      "adresa": "Kanica 250A",
+      "naselje": "Kanica",
+      "grad": "Rogoznica",
+      "postanskiBroj": "22203",
+      "ms": {
+        "ima": true,
+        "pregledano": 960,
+        "kako": "blizu",
+        "udaljenostCentara": 6,
+        "udaljenostDoRuba": 3,
+        "povrsinaMs": 12,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.04564_16.20477",
+      "lat": 44.04564,
+      "lon": 16.204772,
+      "adresa": "Trpimirova 3",
+      "naselje": "Knin",
+      "grad": "Knin",
+      "postanskiBroj": "22300",
+      "ms": {
+        "ima": true,
+        "pregledano": 2746,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 3,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 187,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.96932_16.18253",
+      "lat": 43.969325,
+      "lon": 16.182529,
+      "adresa": "Lazići 7",
+      "naselje": "Ramljane",
+      "grad": "Zvjerinac (Kosovo)",
+      "postanskiBroj": "22312",
+      "ms": {
+        "ima": true,
+        "pregledano": 235,
+        "kako": "blizu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 32,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.81159_15.59489",
+      "lat": 43.811588,
+      "lon": 15.594891,
+      "adresa": "Stojanova ulica 1A",
+      "naselje": "Murter",
+      "grad": "Murter",
+      "postanskiBroj": "22243",
+      "ms": {
+        "ima": true,
+        "pregledano": 2832,
+        "kako": "blizu",
+        "udaljenostCentara": 6,
+        "udaljenostDoRuba": 2,
+        "povrsinaMs": 63,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.73796_15.89482",
+      "lat": 43.73796,
+      "lon": 15.894819,
+      "adresa": "Sedmog kontinenta 35",
+      "naselje": "Šibenik",
+      "grad": "Šibenik",
+      "postanskiBroj": "22000",
+      "ms": {
+        "ima": true,
+        "pregledano": 5019,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 130,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.71026_16.14680",
+      "lat": 43.710258,
+      "lon": 16.146803,
+      "adresa": "Mrčele kod lokve 5A",
+      "naselje": "Koprno",
+      "grad": "Unešić",
+      "postanskiBroj": "22323",
+      "ms": {
+        "ima": true,
+        "pregledano": 105,
+        "kako": "blizu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 147,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.43223_16.35914",
+      "lat": 45.432229,
+      "lon": 16.359141,
+      "adresa": "22. lipnja 28",
+      "naselje": "Mošćenica",
+      "grad": "Mošćenica",
+      "postanskiBroj": "44253",
+      "ms": {
+        "ima": true,
+        "pregledano": 2000,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 3,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 69,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.48073_16.40327",
+      "lat": 45.480729,
+      "lon": 16.403266,
+      "adresa": "Velebitska ulica 14",
+      "naselje": "Sisak",
+      "grad": "Sisak",
+      "postanskiBroj": "44000",
+      "ms": {
+        "ima": true,
+        "pregledano": 2488,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 393,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.49412_16.36596",
+      "lat": 45.494116,
+      "lon": 16.365963,
+      "adresa": "Zagrebačka ulica 54",
+      "naselje": "Sisak",
+      "grad": "Sisak",
+      "postanskiBroj": "44000",
+      "ms": {
+        "ima": true,
+        "pregledano": 3476,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 319,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.51449_16.42897",
+      "lat": 43.51449,
+      "lon": 16.428973,
+      "adresa": "Teslina 28B",
+      "naselje": "Split",
+      "grad": "Split",
+      "postanskiBroj": "21000",
+      "ms": {
+        "ima": true,
+        "pregledano": 2143,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 28,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.63375_16.30299",
+      "lat": 43.633754,
+      "lon": 16.302987,
+      "adresa": "Ulica kralja Zvonimira 132A",
+      "naselje": "Lećevica",
+      "grad": "Lećevica",
+      "postanskiBroj": "21202",
+      "ms": {
+        "ima": true,
+        "pregledano": 140,
+        "kako": "blizu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 31,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.93480_16.41862",
+      "lat": 43.934796,
+      "lon": 16.418617,
+      "adresa": "Kosore 104A",
+      "naselje": "Kosore",
+      "grad": "Vrlika",
+      "postanskiBroj": "21236",
+      "ms": {
+        "ima": true,
+        "pregledano": 354,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 149,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.60466_16.82923",
+      "lat": 43.604665,
+      "lon": 16.829233,
+      "adresa": "Vrpolje 8",
+      "naselje": "Vrpolje",
+      "grad": "Trilj",
+      "postanskiBroj": "21240",
+      "ms": {
+        "ima": true,
+        "pregledano": 195,
+        "kako": "blizu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 52,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.73490_16.68584",
+      "lat": 43.734905,
+      "lon": 16.685839,
+      "adresa": "Obrovac Sinjski 108",
+      "naselje": "Obrovac Sinjski",
+      "grad": "Obrovac Sinjski",
+      "postanskiBroj": "21241",
+      "ms": {
+        "ima": true,
+        "pregledano": 1053,
+        "kako": "blizu",
+        "udaljenostCentara": 9,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 162,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.36887_16.64178",
+      "lat": 43.36887,
+      "lon": 16.64178,
+      "adresa": "Put Šantića vode 41",
+      "naselje": "Postira",
+      "grad": "Postira",
+      "postanskiBroj": "21410",
+      "ms": {
+        "ima": true,
+        "pregledano": 714,
+        "kako": "blizu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 79,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/46.19505_16.35748",
+      "lat": 46.195047,
+      "lon": 16.357479,
+      "adresa": "Oštrice 77/11",
+      "naselje": "Oštrice",
+      "grad": "Novi Marof",
+      "postanskiBroj": "42220",
+      "ms": {
+        "ima": true,
+        "pregledano": 1530,
+        "kako": "blizu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 5,
+        "povrsinaMs": 44,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.87790_17.22428",
+      "lat": 45.877895,
+      "lon": 17.224277,
+      "adresa": "Bilogorska 40D",
+      "naselje": "Vukosavljevica",
+      "grad": "Špišić Bukovica",
+      "postanskiBroj": "33404",
+      "ms": {
+        "ima": true,
+        "pregledano": 1308,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 1,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 100,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.88858_15.54294",
+      "lat": 43.888578,
+      "lon": 15.542939,
+      "adresa": "Ulica dr. Ante Starčevića 2C",
+      "naselje": "Drage",
+      "grad": "Pakoštane",
+      "postanskiBroj": "23211",
+      "ms": {
+        "ima": true,
+        "pregledano": 1062,
+        "kako": "blizu",
+        "udaljenostCentara": 18,
+        "udaljenostDoRuba": 8,
+        "povrsinaMs": 215,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.10712_15.25591",
+      "lat": 44.107118,
+      "lon": 15.255914,
+      "adresa": "Kliška ulica 11",
+      "naselje": "Zadar",
+      "grad": "Zadar",
+      "postanskiBroj": "23000",
+      "ms": {
+        "ima": true,
+        "pregledano": 5525,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 148,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.45043_15.05368",
+      "lat": 44.450425,
+      "lon": 15.05368,
+      "adresa": "Put Veli Brig 18A",
+      "naselje": "Pag",
+      "grad": "Pag",
+      "postanskiBroj": "23250",
+      "ms": {
+        "ima": true,
+        "pregledano": 1299,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 63,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.13840_15.22627",
+      "lat": 44.138403,
+      "lon": 15.226269,
+      "adresa": "Ulica Matije Gupca 55",
+      "naselje": "Zadar",
+      "grad": "Zadar",
+      "postanskiBroj": "23000",
+      "ms": {
+        "ima": true,
+        "pregledano": 4897,
+        "kako": "blizu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 82,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.15752_15.33806",
+      "lat": 44.157525,
+      "lon": 15.338061,
+      "adresa": "Put Betega 7",
+      "naselje": "Murvica Gornja",
+      "grad": "Zadar",
+      "postanskiBroj": "23000",
+      "ms": {
+        "ima": true,
+        "pregledano": 659,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 86,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.30466_15.09129",
+      "lat": 44.30466,
+      "lon": 15.091289,
+      "adresa": "Lučica XXXVIII 16",
+      "naselje": "Vir",
+      "grad": "Vir",
+      "postanskiBroj": "23234",
+      "ms": {
+        "ima": true,
+        "pregledano": 4778,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 1,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 46,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.30226_15.09499",
+      "lat": 44.302262,
+      "lon": 15.094991,
+      "adresa": "Srid kućice XIV 18",
+      "naselje": "Vir",
+      "grad": "Vir",
+      "postanskiBroj": "23234",
+      "ms": {
+        "ima": true,
+        "pregledano": 4778,
+        "kako": "blizu",
+        "udaljenostCentara": 13,
+        "udaljenostDoRuba": 8,
+        "povrsinaMs": 47,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.91374_15.80477",
+      "lat": 45.913742,
+      "lon": 15.804767,
+      "adresa": "Vinogradska ulica 7A",
+      "naselje": "Pojatno",
+      "grad": "Donja Pušća",
+      "postanskiBroj": "10294",
+      "ms": {
+        "ima": true,
+        "pregledano": 1345,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 3,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 216,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.86078_16.32789",
+      "lat": 45.860784,
+      "lon": 16.327891,
+      "adresa": "Lonjica 62B",
+      "naselje": "Lonjica",
+      "grad": "Lonjica",
+      "postanskiBroj": "10341",
+      "ms": {
+        "ima": true,
+        "pregledano": 1005,
+        "kako": "blizu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 2,
+        "povrsinaMs": 8,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.74378_16.21108",
+      "lat": 45.743783,
+      "lon": 16.211084,
+      "adresa": "Sop Bukevski 20",
+      "naselje": "Sop Bukevski",
+      "grad": "Orle",
+      "postanskiBroj": "10411",
+      "ms": {
+        "ima": true,
+        "pregledano": 1295,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 6,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 163,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.62152_15.82943",
+      "lat": 45.621525,
+      "lon": 15.829428,
+      "adresa": "Bratina 127L",
+      "naselje": "Bratina",
+      "grad": "Pisarovina",
+      "postanskiBroj": "10451",
+      "ms": {
+        "ima": true,
+        "pregledano": 690,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 108,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.74401_16.21179",
+      "lat": 45.744007,
+      "lon": 16.21179,
+      "adresa": "Sop Bukevski 19",
+      "naselje": "Sop Bukevski",
+      "grad": "Orle",
+      "postanskiBroj": "10411",
+      "ms": {
+        "ima": true,
+        "pregledano": 1295,
+        "kako": "blizu",
+        "udaljenostCentara": 6,
+        "udaljenostDoRuba": 4,
+        "povrsinaMs": 10,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.68151_16.11807",
+      "lat": 45.681506,
+      "lon": 16.118068,
+      "adresa": "Stara cesta 13/1",
+      "naselje": "Vukovina",
+      "grad": "Vukovina",
+      "postanskiBroj": "10419",
+      "ms": {
+        "ima": true,
+        "pregledano": 1512,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 150,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.82615_15.69662",
+      "lat": 45.826149,
+      "lon": 15.696617,
+      "adresa": "Kneza Branimira 1",
+      "naselje": "Lug Samoborski",
+      "grad": "Bregana",
+      "postanskiBroj": "10432",
+      "ms": {
+        "ima": true,
+        "pregledano": 3176,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 3,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 157,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.70380_16.45960",
+      "lat": 45.703797,
+      "lon": 16.459596,
+      "adresa": "Derežani 30/1",
+      "naselje": "Derežani",
+      "grad": "Graberje Ivanićko",
+      "postanskiBroj": "10313",
+      "ms": {
+        "ima": true,
+        "pregledano": 1003,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 109,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.77864_15.72923",
+      "lat": 45.778642,
+      "lon": 15.729226,
+      "adresa": "Plješivička ulica 21",
+      "naselje": "Kladje",
+      "grad": "Samobor",
+      "postanskiBroj": "10430",
+      "ms": {
+        "ima": true,
+        "pregledano": 1853,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 364,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.69794_16.39294",
+      "lat": 45.697936,
+      "lon": 16.392935,
+      "adresa": "Rajski odvojak 1",
+      "naselje": "Ivanić-Grad",
+      "grad": "Ivanić Grad",
+      "postanskiBroj": "10310",
+      "ms": {
+        "ima": true,
+        "pregledano": 2922,
+        "kako": "blizu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 4,
+        "povrsinaMs": 89,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.75674_15.84570",
+      "lat": 45.756738,
+      "lon": 15.845704,
+      "adresa": "Gornjostupnička ulica 56",
+      "naselje": "Gornji Stupnik",
+      "grad": "Gornji Stupnik",
+      "postanskiBroj": "10255",
+      "ms": {
+        "ima": true,
+        "pregledano": 1925,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 100,
+        "visinaMs": null
+      },
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft ima zgradu na ovoj lokaciji (snimke do 2024.) - objekt je postojao prije, adresa je naknadno dodijeljena."
+    }
+  ]
+}
