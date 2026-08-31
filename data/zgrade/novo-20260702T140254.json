@@ -3785,7 +3785,14 @@
           "lon": 18.634645,
           "lat": 45.533641
         }
-      ]
+      ],
+      "dguNovaAdresaPoklapanje": {
+        "street": "Ulica jela",
+        "houseNumber": "14B",
+        "datum": "2026-08-18",
+        "udaljenostM": 8.4,
+        "unutarObrisa": false
+      }
     },
     {
       "id": "way/1534363771",

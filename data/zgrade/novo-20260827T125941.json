@@ -12682,7 +12682,14 @@
       "zupanija": "Varaždinska županija",
       "validFrom": "2026-08-25T17:08:29Z",
       "changeset": 188001855,
-      "osmUser": "LeonH_OSM"
+      "osmUser": "LeonH_OSM",
+      "dguNovaAdresaPoklapanje": {
+        "street": "Kalnička cesta",
+        "houseNumber": "8",
+        "datum": "2026-08-31",
+        "udaljenostM": 0,
+        "unutarObrisa": true
+      }
     },
     {
       "id": "way/1552345757",

@@ -202,7 +202,9 @@
       "dguNovaAdresaPoklapanje": {
         "street": "Ulica Ratimira Hercega",
         "houseNumber": "22A",
-        "datum": "2026-08-18"
+        "datum": "2026-08-18",
+        "udaljenostM": 0,
+        "unutarObrisa": true
       },
       "msProvjera": {
         "ima": false,

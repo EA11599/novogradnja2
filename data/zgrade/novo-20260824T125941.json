@@ -566,7 +566,14 @@
           "lon": 13.546698,
           "lat": 45.453075
         }
-      ]
+      ],
+      "dguNovaAdresaPoklapanje": {
+        "street": "Peta ulica - Quinta Strada",
+        "houseNumber": "27",
+        "datum": "2026-08-31",
+        "udaljenostM": 22.4,
+        "unutarObrisa": false
+      }
     },
     {
       "id": "way/1551942355",

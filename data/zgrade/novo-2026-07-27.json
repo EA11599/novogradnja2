@@ -26877,7 +26877,14 @@
           "lon": 15.895108,
           "lat": 43.737953
         }
-      ]
+      ],
+      "dguNovaAdresaPoklapanje": {
+        "street": "Sedmog kontinenta",
+        "houseNumber": "35",
+        "datum": "2026-08-18",
+        "udaljenostM": 19.1,
+        "unutarObrisa": false
+      }
     },
     {
       "id": "way/1542864047",
