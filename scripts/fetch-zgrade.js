@@ -425,8 +425,21 @@ async function dohvatiGeometrijuZaElemente(wayIds, relationIds) {
       relation(id:${relationIds.join(",")});
       out center;
     `;
-    const relationElementi = await posaljiUpit(relationQuery, { ocekujMeta: false });
-    geomElementi = geomElementi.concat(relationElementi);
+    // Relacije su gotovo uvijek sitan ostatak (31.8. su bile 3 od 8181
+    // elemenata), a dolaze na red POSLIJE velikog way upita - dakle onda
+    // kad je kvota kod Overpassa vec potrosena. Tada je najvjerojatnije
+    // mjesto pada, i besmisleno je zbog tri zgrade baciti osam tisuca.
+    // Zato ovaj upit smije podbaciti: zabiljezimo i idemo dalje.
+    try {
+      const relationElementi = await posaljiUpit(relationQuery, { ocekujMeta: false });
+      geomElementi = geomElementi.concat(relationElementi);
+    } catch (err) {
+      console.log(
+        `  UPOZORENJE: geometrija za ${relationIds.length} relacija nije dohvacena ` +
+        `(${err.message.split("\n")[0]}). Nastavljam bez njih - te zgrade ce biti ` +
+        `preskocene, a iduci prolaz ce ih pokupiti.`
+      );
+    }
   }
 
   const geometrijaPoId = {};
@@ -591,8 +604,22 @@ async function posaljiUpit(query, { ocekujMeta = true } = {}) {
       console.log(`  Pokušaj ${pokusaj}/${MAX_POKUSAJA} neuspio: ${err.message.split("\n")[0]}${jePrivremena ? " (privremeno, pokušavam ponovno)" : ""}`);
     }
     if (pokusaj < MAX_POKUSAJA) {
-      const pauzaMs = pokusaj * 12000;
-      console.log(`  Čekam ${pauzaMs / 1000}s prije sljedećeg pokušaja...`);
+      // Dvije vrste cekanja, jer nisu isti problem.
+      //
+      // 429 i "fetch failed" znace da nas Overpass odbija zbog kvote - kod
+      // njega se slotovi oslobadjaju u minutama, a ne sekundama. Stare pauze
+      // (12/24/36/48/60s, ukupno ~3 min) bile su prekratke: 31.8. je posao
+      // pao jer je nakon dva 429 dobio cetiri puta "fetch failed", sto znaci
+      // da poslužitelj vise nije ni prihvacao vezu.
+      //
+      // Ostale privremene greske (502/503/504) su prolazne i za njih stara
+      // kratka pauza i dalje vrijedi.
+      const poruka = (zadnjaGreska && zadnjaGreska.message) || "";
+      const jeKvota = /429|fetch failed|ECONNRESET|ETIMEDOUT|socket hang up/i.test(poruka);
+      const osnovna = jeKvota ? pokusaj * 90000 : pokusaj * 12000;
+      // Nasumicni dodatak da svi pokusaji ne padaju u isti trenutak.
+      const pauzaMs = osnovna + Math.floor(Math.random() * 15000);
+      console.log(`  Čekam ${Math.round(pauzaMs / 1000)}s prije sljedećeg pokušaja${jeKvota ? " (Overpass nas odbija zbog kvote)" : ""}...`);
       await new Promise((r) => setTimeout(r, pauzaMs));
     }
   }
