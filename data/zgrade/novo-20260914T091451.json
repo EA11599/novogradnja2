@@ -1,0 +1,6937 @@
+{
+  "from": "2026-09-13T08:37:22Z",
+  "to": "2026-09-14T09:14:51Z",
+  "count": 119,
+  "features": [
+    {
+      "id": "way/1558500257",
+      "lat": 46.2958984,
+      "lon": 16.3432468,
+      "obris": [
+        [
+          16.343248,
+          46.296
+        ],
+        [
+          16.343145,
+          46.295979
+        ],
+        [
+          16.343245,
+          46.295746
+        ],
+        [
+          16.343348,
+          46.295767
+        ],
+        [
+          16.343248,
+          46.296
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T10:16:09Z",
+      "changeset": 188953401,
+      "osmUser": "Đuro Jiří",
+      "nearestStreet": "Zagrebačka ulica",
+      "nearestStreetDist": 97,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika zgrada s ravnim krovom svijetlijeg tona, uz koju se nalazi manja zgrada s zelenim/plavkastim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:14.762Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.805Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 34,
+        "povrsinaMs": 3125,
+        "iou": 0.05
+      }
+    },
+    {
+      "id": "way/1558500829",
+      "lat": 45.911942999999994,
+      "lon": 16.823801800000002,
+      "obris": [
+        [
+          16.82384,
+          45.911917
+        ],
+        [
+          16.823857,
+          45.911963
+        ],
+        [
+          16.823744,
+          45.911982
+        ],
+        [
+          16.823728,
+          45.911936
+        ],
+        [
+          16.82384,
+          45.911917
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-09-13T10:18:35Z",
+      "changeset": 188953514,
+      "osmUser": "bjelsjole",
+      "nearestStreet": "Ulica Dinka Šimunovića",
+      "nearestStreetDist": 81,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada sa jasno vidljivim krovom i vjerojatno aneksom ili gospodarskim objektom s desne strane.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:14.809Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.805Z"
+      }
+    },
+    {
+      "id": "way/1558500830",
+      "lat": 45.9118898,
+      "lon": 16.823924800000004,
+      "obris": [
+        [
+          16.823889,
+          45.911862
+        ],
+        [
+          16.823955,
+          45.911853
+        ],
+        [
+          16.823979,
+          45.911931
+        ],
+        [
+          16.823912,
+          45.911941
+        ],
+        [
+          16.823889,
+          45.911862
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-09-13T10:18:35Z",
+      "changeset": 188953514,
+      "osmUser": "bjelsjole",
+      "nearestStreet": "Ulica Miroslava Krleže",
+      "nearestStreetDist": 75,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom, okružena zelenom vegetacijom i dijelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:14.629Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.806Z"
+      }
+    },
+    {
+      "id": "way/1558500831",
+      "lat": 45.91183480000001,
+      "lon": 16.8241684,
+      "obris": [
+        [
+          16.824196,
+          45.91181
+        ],
+        [
+          16.824214,
+          45.911855
+        ],
+        [
+          16.824127,
+          45.911872
+        ],
+        [
+          16.824109,
+          45.911827
+        ],
+        [
+          16.824196,
+          45.91181
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-09-13T10:18:35Z",
+      "changeset": 188953514,
+      "osmUser": "bjelsjole",
+      "nearestStreet": "Ulica Miroslava Krleže",
+      "nearestStreetDist": 57,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina sa crvenim krovom okružena zelenom vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:14.751Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.809Z",
+        "kako": "blizu",
+        "udaljenostM": 23,
+        "povrsinaMs": 301,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558500832",
+      "lat": 45.912670285714285,
+      "lon": 16.824225571428574,
+      "obris": [
+        [
+          16.824293,
+          45.91263
+        ],
+        [
+          16.824303,
+          45.912664
+        ],
+        [
+          16.824213,
+          45.912678
+        ],
+        [
+          16.824223,
+          45.912711
+        ],
+        [
+          16.824137,
+          45.912723
+        ],
+        [
+          16.824117,
+          45.912656
+        ],
+        [
+          16.824293,
+          45.91263
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-09-13T10:18:35Z",
+      "changeset": 188953514,
+      "osmUser": "bjelsjole",
+      "nearestStreet": "Ulica Miroslava Krleže",
+      "nearestStreetDist": 49,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom okružena zelenilom i pristupnom cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:14.565Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.809Z"
+      }
+    },
+    {
+      "id": "way/1558500833",
+      "lat": 45.912848,
+      "lon": 16.8241466,
+      "obris": [
+        [
+          16.824112,
+          45.912828
+        ],
+        [
+          16.824178,
+          45.912817
+        ],
+        [
+          16.824199,
+          45.912878
+        ],
+        [
+          16.824132,
+          45.912889
+        ],
+        [
+          16.824112,
+          45.912828
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Bjelovarsko-bilogorska županija",
+      "validFrom": "2026-09-13T10:18:35Z",
+      "changeset": 188953514,
+      "osmUser": "bjelsjole",
+      "nearestStreet": "Ulica Josipa Kozarca",
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s tamnosivim krovom, okružena zelenom vegetacijom i dijelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:16.845Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.809Z"
+      }
+    },
+    {
+      "id": "way/1558507184",
+      "lat": 45.4799068,
+      "lon": 16.4023064,
+      "obris": [
+        [
+          16.402242,
+          45.479902
+        ],
+        [
+          16.402264,
+          45.479947
+        ],
+        [
+          16.402403,
+          45.479914
+        ],
+        [
+          16.402381,
+          45.479869
+        ],
+        [
+          16.402242,
+          45.479902
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "roof:shape": "gabled"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T10:54:02Z",
+      "changeset": 188954894,
+      "osmUser": "DominikNew",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena zelenom vegetacijom i ostalim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:16.588Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.810Z"
+      }
+    },
+    {
+      "id": "way/1558507185",
+      "lat": 45.478547,
+      "lon": 16.401443,
+      "obris": [
+        [
+          16.401415,
+          45.478577
+        ],
+        [
+          16.401499,
+          45.478569
+        ],
+        [
+          16.401485,
+          45.478502
+        ],
+        [
+          16.401401,
+          45.47851
+        ],
+        [
+          16.401415,
+          45.478577
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T10:54:02Z",
+      "changeset": 188954894,
+      "osmUser": "DominikNew",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i njezina sjena, okružena vegetacijom i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:16.903Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.810Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 102,
+        "iou": 0.03
+      }
+    },
+    {
+      "id": "way/1558508368",
+      "lat": 46.321201599999995,
+      "lon": 16.3348994,
+      "obris": [
+        [
+          16.334905,
+          46.321227
+        ],
+        [
+          16.334939,
+          46.321212
+        ],
+        [
+          16.334891,
+          46.321163
+        ],
+        [
+          16.334857,
+          46.321179
+        ],
+        [
+          16.334905,
+          46.321227
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "80A",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17009131"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim (crvenim/smeđim) krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:17.061Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.811Z",
+        "kako": "blizu",
+        "udaljenostM": 13,
+        "povrsinaMs": 176,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558508369",
+      "lat": 46.3215048,
+      "lon": 16.335854599999998,
+      "obris": [
+        [
+          16.335887,
+          46.321545
+        ],
+        [
+          16.335775,
+          46.321524
+        ],
+        [
+          16.335808,
+          46.321444
+        ],
+        [
+          16.335916,
+          46.321466
+        ],
+        [
+          16.335887,
+          46.321545
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "88",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1169855"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgrađena zgrada s crvenijom krovnom konstrukcijom, okružena zelenom vegetacijom i dijelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:16.768Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.812Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 15,
+        "povrsinaMs": 293,
+        "iou": 0.11
+      }
+    },
+    {
+      "id": "way/1558508370",
+      "lat": 46.3203774,
+      "lon": 16.33435,
+      "obris": [
+        [
+          16.334298,
+          46.320364
+        ],
+        [
+          16.334377,
+          46.320428
+        ],
+        [
+          16.334428,
+          46.320397
+        ],
+        [
+          16.334349,
+          46.320334
+        ],
+        [
+          16.334298,
+          46.320364
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "nearestStreet": "Ulica Eugena Kumičića",
+      "nearestStreetDist": 49,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgradena zgrada s crvenim krovom i pripadajućim građevinama oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:18.842Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.812Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 71,
+        "iou": 0.16
+      }
+    },
+    {
+      "id": "way/1558508371",
+      "lat": 46.31889700000001,
+      "lon": 16.331608399999997,
+      "obris": [
+        [
+          16.331622,
+          46.318866
+        ],
+        [
+          16.331547,
+          46.318909
+        ],
+        [
+          16.331588,
+          46.318943
+        ],
+        [
+          16.331663,
+          46.318901
+        ],
+        [
+          16.331622,
+          46.318866
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "37/1",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17008713"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:18.942Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.813Z",
+        "kako": "blizu",
+        "udaljenostM": 2,
+        "povrsinaMs": 86,
+        "iou": 0.17
+      }
+    },
+    {
+      "id": "way/1558508372",
+      "lat": 46.3187386,
+      "lon": 16.331450200000003,
+      "obris": [
+        [
+          16.331428,
+          46.318777
+        ],
+        [
+          16.33153,
+          46.318725
+        ],
+        [
+          16.331484,
+          46.318681
+        ],
+        [
+          16.331381,
+          46.318733
+        ],
+        [
+          16.331428,
+          46.318777
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "35",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1169804"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je crvena zgrada s krovom okružena betonskom površinom i zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:19.166Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.814Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 265,
+        "iou": 0.1
+      }
+    },
+    {
+      "id": "way/1558508374",
+      "lat": 46.317600999999996,
+      "lon": 16.3309208,
+      "obris": [
+        [
+          16.330967,
+          46.317512
+        ],
+        [
+          16.33074,
+          46.317641
+        ],
+        [
+          16.330851,
+          46.317735
+        ],
+        [
+          16.331079,
+          46.317605
+        ],
+        [
+          16.330967,
+          46.317512
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "34",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2163733342"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i spremištem, okružena travom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:18.942Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.814Z"
+      }
+    },
+    {
+      "id": "way/1558508375",
+      "lat": 46.317477600000004,
+      "lon": 16.330566799999996,
+      "obris": [
+        [
+          16.330535,
+          46.317539
+        ],
+        [
+          16.330692,
+          46.317454
+        ],
+        [
+          16.330614,
+          46.317386
+        ],
+        [
+          16.330458,
+          46.31747
+        ],
+        [
+          16.330535,
+          46.317539
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "house",
+        "ref:HR:kucni_broj": "17014740"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s ljubičastim/tamnijim krovom i jasno iscrtanim rubovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:19.104Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.815Z"
+      }
+    },
+    {
+      "id": "way/1558508376",
+      "lat": 46.317545800000005,
+      "lon": 16.3306446,
+      "obris": [
+        [
+          16.330613,
+          46.317607
+        ],
+        [
+          16.33077,
+          46.317522
+        ],
+        [
+          16.330692,
+          46.317454
+        ],
+        [
+          16.330535,
+          46.317539
+        ],
+        [
+          16.330613,
+          46.317607
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "32",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "house",
+        "ref:HR:kucni_broj": "17014741"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "Snimka je nejasna i nedovoljno vidljiva za pouzdanu procjenu prisutnosti građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:21.192Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.815Z"
+      }
+    },
+    {
+      "id": "way/1558508377",
+      "lat": 46.3172778,
+      "lon": 16.330350399999997,
+      "obris": [
+        [
+          16.330323,
+          46.317337
+        ],
+        [
+          16.330472,
+          46.31726
+        ],
+        [
+          16.330392,
+          46.317188
+        ],
+        [
+          16.330242,
+          46.317267
+        ],
+        [
+          16.330323,
+          46.317337
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "house",
+        "ref:HR:kucni_broj": "17008948"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i okolnim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:20.868Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.816Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 336,
+        "iou": 0.36
+      }
+    },
+    {
+      "id": "way/1558508378",
+      "lat": 46.3173422,
+      "lon": 16.330422,
+      "obris": [
+        [
+          16.330389,
+          46.317397
+        ],
+        [
+          16.330537,
+          46.31732
+        ],
+        [
+          16.330472,
+          46.31726
+        ],
+        [
+          16.330323,
+          46.317337
+        ],
+        [
+          16.330389,
+          46.317397
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "28",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "house",
+        "ref:HR:kucni_broj": "17014317"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i bijelijm dijelovima, okružena parkiralištem i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:21.130Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.816Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 336,
+        "iou": 0.36
+      }
+    },
+    {
+      "id": "way/1558508379",
+      "lat": 46.3162464,
+      "lon": 16.329250000000002,
+      "obris": [
+        [
+          16.329152,
+          46.316263
+        ],
+        [
+          16.329232,
+          46.316325
+        ],
+        [
+          16.329397,
+          46.316221
+        ],
+        [
+          16.329317,
+          46.31616
+        ],
+        [
+          16.329152,
+          46.316263
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1169789"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je bijela građevina s pravokutnim oblikom i jasno vidljivim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:21.039Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.817Z",
+        "kako": "blizu",
+        "udaljenostM": 1,
+        "povrsinaMs": 199,
+        "iou": 0.32
+      }
+    },
+    {
+      "id": "way/1558508380",
+      "lat": 46.3160254,
+      "lon": 16.329096,
+      "obris": [
+        [
+          16.329041,
+          46.316035
+        ],
+        [
+          16.329084,
+          46.316069
+        ],
+        [
+          16.329179,
+          46.316011
+        ],
+        [
+          16.329135,
+          46.315977
+        ],
+        [
+          16.329041,
+          46.316035
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "16/1",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17008720"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim/ružičastim krovom i vidljive su sjene koje potvrđuju trodimenzionalnost strukture.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:21.410Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.817Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 205,
+        "iou": 0.11
+      }
+    },
+    {
+      "id": "way/1558508381",
+      "lat": 46.3158632,
+      "lon": 16.3288412,
+      "obris": [
+        [
+          16.328769,
+          46.315879
+        ],
+        [
+          16.328809,
+          46.315914
+        ],
+        [
+          16.328949,
+          46.31584
+        ],
+        [
+          16.32891,
+          46.315804
+        ],
+        [
+          16.328769,
+          46.315879
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "14/1",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2176103806"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljivi su krovovi više zgrada s različitim bojama (crvene, smeđe i druge nijanse), što ukazuje na izgrađeno područje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:23.647Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.818Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 368,
+        "iou": 0.1
+      }
+    },
+    {
+      "id": "way/1558508382",
+      "lat": 46.315126199999995,
+      "lon": 16.328133,
+      "obris": [
+        [
+          16.32813,
+          46.315159
+        ],
+        [
+          16.328192,
+          46.315126
+        ],
+        [
+          16.328137,
+          46.315077
+        ],
+        [
+          16.328076,
+          46.31511
+        ],
+        [
+          16.32813,
+          46.315159
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "4/1",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17008719"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i dijelovima bijele/sive boje, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:23.437Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.819Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 150,
+        "iou": 0.24
+      }
+    },
+    {
+      "id": "way/1558508383",
+      "lat": 46.3148096,
+      "lon": 16.3275804,
+      "obris": [
+        [
+          16.327509,
+          46.314832
+        ],
+        [
+          16.327549,
+          46.314863
+        ],
+        [
+          16.327688,
+          46.314776
+        ],
+        [
+          16.327647,
+          46.314745
+        ],
+        [
+          16.327509,
+          46.314832
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1168038"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T11:00:58Z",
+      "changeset": 188955128,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, okružena s obrađenim zemljištem i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:23.361Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.822Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 98,
+        "iou": 0.42
+      }
+    },
+    {
+      "id": "way/1558513351",
+      "lat": 45.69520933333333,
+      "lon": 16.181695166666664,
+      "obris": [
+        [
+          16.181607,
+          45.695175
+        ],
+        [
+          16.181641,
+          45.69513
+        ],
+        [
+          16.181799,
+          45.695239
+        ],
+        [
+          16.181767,
+          45.695263
+        ],
+        [
+          16.18175,
+          45.695274
+        ],
+        [
+          16.181607,
+          45.695175
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 56,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Jasno je vidljiva zgrada s krovom sivkaste boje u centru kadra, okružena s poljoprivrednim površinama i vodenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:23.538Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.823Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 257,
+        "iou": 0.2
+      }
+    },
+    {
+      "id": "way/1558513352",
+      "lat": 45.6959668,
+      "lon": 16.1811298,
+      "obris": [
+        [
+          16.180983,
+          45.69592
+        ],
+        [
+          16.18125,
+          45.696107
+        ],
+        [
+          16.18135,
+          45.696037
+        ],
+        [
+          16.181083,
+          45.69585
+        ],
+        [
+          16.180983,
+          45.69592
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Poljana Čička",
+        "houseNumber": "64A",
+        "settlement": "Poljana Čička",
+        "postcode": "10415",
+        "city": "Novo Čiče",
+        "lon": 16.181103,
+        "lat": 45.695944
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Poljana Čička",
+          "houseNumber": "64A",
+          "settlement": "Poljana Čička",
+          "postcode": "10415",
+          "city": "Novo Čiče",
+          "lon": 16.181103,
+          "lat": 45.695944
+        }
+      ],
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je大velikaZgrada s bijelim/svjetlim krovom, okružena s zelenom vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:23.460Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.823Z"
+      }
+    },
+    {
+      "id": "way/1558513353",
+      "lat": 45.69589428571428,
+      "lon": 16.179815285714287,
+      "obris": [
+        [
+          16.179677,
+          45.695926
+        ],
+        [
+          16.179846,
+          45.695909
+        ],
+        [
+          16.179842,
+          45.695894
+        ],
+        [
+          16.180002,
+          45.695877
+        ],
+        [
+          16.179996,
+          45.695847
+        ],
+        [
+          16.179667,
+          45.695881
+        ],
+        [
+          16.179677,
+          45.695926
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 40,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva bijela ili світло obojana zgrada s krovom, okružena drugim građevinama s crvenim i rozim krovovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:25.674Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.823Z",
+        "kako": "blizu",
+        "udaljenostM": 3,
+        "povrsinaMs": 63,
+        "iou": 0.16
+      }
+    },
+    {
+      "id": "way/1558513354",
+      "lat": 45.69568300000001,
+      "lon": 16.18012442857143,
+      "obris": [
+        [
+          16.180058,
+          45.695574
+        ],
+        [
+          16.180134,
+          45.695869
+        ],
+        [
+          16.180184,
+          45.695863
+        ],
+        [
+          16.180135,
+          45.69567
+        ],
+        [
+          16.180164,
+          45.695666
+        ],
+        [
+          16.180138,
+          45.695565
+        ],
+        [
+          16.180058,
+          45.695574
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 64,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i svijetlim zidovima, okružena obrađenim zemljištem i drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:25.612Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.823Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 28,
+        "iou": 0.08
+      }
+    },
+    {
+      "id": "way/1558513355",
+      "lat": 45.695916272727274,
+      "lon": 16.180362545454543,
+      "obris": [
+        [
+          16.180315,
+          45.695867
+        ],
+        [
+          16.180248,
+          45.695961
+        ],
+        [
+          16.18028,
+          45.695972
+        ],
+        [
+          16.180266,
+          45.695991
+        ],
+        [
+          16.180417,
+          45.696043
+        ],
+        [
+          16.180532,
+          45.695881
+        ],
+        [
+          16.180449,
+          45.695853
+        ],
+        [
+          16.180423,
+          45.695888
+        ],
+        [
+          16.180376,
+          45.695872
+        ],
+        [
+          16.180367,
+          45.695884
+        ],
+        [
+          16.180315,
+          45.695867
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 69,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/ružičastim krovom, jasno razlučiva od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:25.580Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.823Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 244,
+        "iou": 0.5
+      }
+    },
+    {
+      "id": "way/1558513356",
+      "lat": 45.69641188888889,
+      "lon": 16.18005611111111,
+      "obris": [
+        [
+          16.180018,
+          45.696371
+        ],
+        [
+          16.179943,
+          45.696451
+        ],
+        [
+          16.180068,
+          45.696508
+        ],
+        [
+          16.180132,
+          45.696439
+        ],
+        [
+          16.180083,
+          45.696416
+        ],
+        [
+          16.180109,
+          45.696388
+        ],
+        [
+          16.180075,
+          45.696373
+        ],
+        [
+          16.180059,
+          45.69639
+        ],
+        [
+          16.180018,
+          45.696371
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Poljana Čička",
+        "houseNumber": "63",
+        "settlement": "Poljana Čička",
+        "postcode": "10415",
+        "city": "Novo Čiče",
+        "lon": 16.18004,
+        "lat": 45.696435
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Poljana Čička",
+          "houseNumber": "63",
+          "settlement": "Poljana Čička",
+          "postcode": "10415",
+          "city": "Novo Čiče",
+          "lon": 16.18004,
+          "lat": 45.696435
+        }
+      ],
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom, okružena s parkiralištima i manjim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:25.681Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.824Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 174,
+        "iou": 0.42
+      }
+    },
+    {
+      "id": "way/1558513358",
+      "lat": 45.69748173333334,
+      "lon": 16.1789248,
+      "obris": [
+        [
+          16.178716,
+          45.697489
+        ],
+        [
+          16.178733,
+          45.697419
+        ],
+        [
+          16.179066,
+          45.69746
+        ],
+        [
+          16.179081,
+          45.697403
+        ],
+        [
+          16.179197,
+          45.697417
+        ],
+        [
+          16.179168,
+          45.697531
+        ],
+        [
+          16.179051,
+          45.697517
+        ],
+        [
+          16.179053,
+          45.69751
+        ],
+        [
+          16.178954,
+          45.697498
+        ],
+        [
+          16.178948,
+          45.697525
+        ],
+        [
+          16.178812,
+          45.697508
+        ],
+        [
+          16.178818,
+          45.697484
+        ],
+        [
+          16.178782,
+          45.697479
+        ],
+        [
+          16.178777,
+          45.697497
+        ],
+        [
+          16.178716,
+          45.697489
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Poljana Čička",
+        "houseNumber": "59B",
+        "settlement": "Poljana Čička",
+        "postcode": "10415",
+        "city": "Novo Čiče",
+        "lon": 16.179092,
+        "lat": 45.697461
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Poljana Čička",
+          "houseNumber": "59B",
+          "settlement": "Poljana Čička",
+          "postcode": "10415",
+          "city": "Novo Čiče",
+          "lon": 16.179092,
+          "lat": 45.697461
+        }
+      ],
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i betonskom platformom, uz parkirane automobile pored nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:25.842Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.824Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 87,
+        "iou": 0.26
+      }
+    },
+    {
+      "id": "way/1558513359",
+      "lat": 45.697446,
+      "lon": 16.1786222,
+      "obris": [
+        [
+          16.178675,
+          45.697434
+        ],
+        [
+          16.178553,
+          45.69742
+        ],
+        [
+          16.178543,
+          45.697464
+        ],
+        [
+          16.178665,
+          45.697478
+        ],
+        [
+          16.178675,
+          45.697434
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 66,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/smeđim krovom i okolnim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:27.677Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.824Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 24,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558513360",
+      "lat": 45.697387545454546,
+      "lon": 16.17866863636364,
+      "obris": [
+        [
+          16.178643,
+          45.697342
+        ],
+        [
+          16.178627,
+          45.697403
+        ],
+        [
+          16.178653,
+          45.697407
+        ],
+        [
+          16.178649,
+          45.697426
+        ],
+        [
+          16.178681,
+          45.69743
+        ],
+        [
+          16.178688,
+          45.697403
+        ],
+        [
+          16.178671,
+          45.697401
+        ],
+        [
+          16.178677,
+          45.697377
+        ],
+        [
+          16.178708,
+          45.697381
+        ],
+        [
+          16.178715,
+          45.697351
+        ],
+        [
+          16.178643,
+          45.697342
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 64,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom i dodatnim gospodarskim objektima uz nju.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:27.605Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.824Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 24,
+        "iou": 0.03
+      }
+    },
+    {
+      "id": "way/1558513361",
+      "lat": 45.69737799999999,
+      "lon": 16.178507,
+      "obris": [
+        [
+          16.178483,
+          45.697389
+        ],
+        [
+          16.178566,
+          45.697396
+        ],
+        [
+          16.178573,
+          45.697358
+        ],
+        [
+          16.178472,
+          45.697349
+        ],
+        [
+          16.178465,
+          45.697387
+        ],
+        [
+          16.178483,
+          45.697389
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 77,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/smeđim krovom okružena zelenom vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:28.047Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.824Z"
+      }
+    },
+    {
+      "id": "way/1558513362",
+      "lat": 45.697404111111105,
+      "lon": 16.178222666666667,
+      "obris": [
+        [
+          16.178193,
+          45.69735
+        ],
+        [
+          16.178311,
+          45.697363
+        ],
+        [
+          16.178292,
+          45.69745
+        ],
+        [
+          16.17822,
+          45.697442
+        ],
+        [
+          16.178222,
+          45.69743
+        ],
+        [
+          16.178195,
+          45.697428
+        ],
+        [
+          16.178199,
+          45.697413
+        ],
+        [
+          16.178179,
+          45.697411
+        ],
+        [
+          16.178193,
+          45.69735
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 97,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim krovom i bijелim ziđima, okružena zelenom vegetacijom i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:28.008Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.824Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 66,
+        "iou": 0.21
+      }
+    },
+    {
+      "id": "way/1558513363",
+      "lat": 45.697207428571424,
+      "lon": 16.17809642857143,
+      "obris": [
+        [
+          16.177982,
+          45.697162
+        ],
+        [
+          16.177965,
+          45.697241
+        ],
+        [
+          16.178271,
+          45.697274
+        ],
+        [
+          16.178281,
+          45.697229
+        ],
+        [
+          16.178093,
+          45.697209
+        ],
+        [
+          16.178101,
+          45.697175
+        ],
+        [
+          16.177982,
+          45.697162
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Poljana Čička",
+        "houseNumber": "59A",
+        "settlement": "Poljana Čička",
+        "postcode": "10415",
+        "city": "Novo Čiče",
+        "lon": 16.178041,
+        "lat": 45.697217
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Poljana Čička",
+          "houseNumber": "59A",
+          "settlement": "Poljana Čička",
+          "postcode": "10415",
+          "city": "Novo Čiče",
+          "lon": 16.178041,
+          "lat": 45.697217
+        }
+      ],
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena zelenom vegetacijom i poljoprivrednim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:27.673Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.825Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 128,
+        "iou": 0.41
+      }
+    },
+    {
+      "id": "way/1558513366",
+      "lat": 45.7008696,
+      "lon": 16.1793086,
+      "obris": [
+        [
+          16.179315,
+          45.700846
+        ],
+        [
+          16.179268,
+          45.700887
+        ],
+        [
+          16.179299,
+          45.700905
+        ],
+        [
+          16.179346,
+          45.700864
+        ],
+        [
+          16.179315,
+          45.700846
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 59,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom, okružena manjim pomoćnim objektima i oranicama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:29.968Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.825Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 27,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558513367",
+      "lat": 45.70079957142857,
+      "lon": 16.179192571428572,
+      "obris": [
+        [
+          16.179191,
+          45.700774
+        ],
+        [
+          16.179244,
+          45.700803
+        ],
+        [
+          16.179202,
+          45.700842
+        ],
+        [
+          16.17916,
+          45.700819
+        ],
+        [
+          16.179186,
+          45.700796
+        ],
+        [
+          16.179174,
+          45.700789
+        ],
+        [
+          16.179191,
+          45.700774
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 50,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s više krovnih dijelova u različitim bojama (plava, crvena, siva), okružena parkiralištima i poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:30.329Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.825Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 27,
+        "iou": 0.04
+      }
+    },
+    {
+      "id": "way/1558513368",
+      "lat": 45.7007924,
+      "lon": 16.1789862,
+      "obris": [
+        [
+          16.178979,
+          45.700774
+        ],
+        [
+          16.178954,
+          45.700793
+        ],
+        [
+          16.178997,
+          45.70082
+        ],
+        [
+          16.179022,
+          45.700801
+        ],
+        [
+          16.178979,
+          45.700774
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 35,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su izgrađene zgrade s tamnim krovovima i betonskih površina.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:31.289Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.825Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 70,
+        "iou": 0.08
+      }
+    },
+    {
+      "id": "way/1558513369",
+      "lat": 45.700716799999995,
+      "lon": 16.179041599999998,
+      "obris": [
+        [
+          16.17903,
+          45.700686
+        ],
+        [
+          16.178987,
+          45.700726
+        ],
+        [
+          16.179059,
+          45.700763
+        ],
+        [
+          16.179102,
+          45.700723
+        ],
+        [
+          16.17903,
+          45.700686
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 41,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s plavim krovom i nekoliko drugih gospodarskih zgrada s crvenim i tamnim krovovima na obrađenom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:30.154Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.825Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 70,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558513370",
+      "lat": 45.700722,
+      "lon": 16.1789484,
+      "obris": [
+        [
+          16.178941,
+          45.700702
+        ],
+        [
+          16.178914,
+          45.700731
+        ],
+        [
+          16.178959,
+          45.700752
+        ],
+        [
+          16.178987,
+          45.700723
+        ],
+        [
+          16.178941,
+          45.700702
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 34,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom na betonskoj podlozi, okružena obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:29.900Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.825Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 15,
+        "povrsinaMs": 190,
+        "iou": 0.07
+      }
+    },
+    {
+      "id": "way/1558513371",
+      "lat": 45.700675,
+      "lon": 16.178845000000003,
+      "obris": [
+        [
+          16.17883,
+          45.700627
+        ],
+        [
+          16.178761,
+          45.700688
+        ],
+        [
+          16.178867,
+          45.700747
+        ],
+        [
+          16.178937,
+          45.700686
+        ],
+        [
+          16.17883,
+          45.700627
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 30,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s jasno vidljivim svijetlim krovom, okružena zelenom vegetacijom i dijelomično vodenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:33.348Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.826Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 190,
+        "iou": 0.34
+      }
+    },
+    {
+      "id": "way/1558513372",
+      "lat": 45.700072999999996,
+      "lon": 16.1781464,
+      "obris": [
+        [
+          16.178181,
+          45.700058
+        ],
+        [
+          16.178093,
+          45.700059
+        ],
+        [
+          16.178094,
+          45.700096
+        ],
+        [
+          16.178183,
+          45.700094
+        ],
+        [
+          16.178181,
+          45.700058
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 44,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:33.285Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.826Z"
+      }
+    },
+    {
+      "id": "way/1558513374",
+      "lat": 45.70037753846155,
+      "lon": 16.179178615384615,
+      "obris": [
+        [
+          16.179085,
+          45.700372
+        ],
+        [
+          16.179105,
+          45.70038
+        ],
+        [
+          16.179073,
+          45.700418
+        ],
+        [
+          16.179128,
+          45.70044
+        ],
+        [
+          16.179096,
+          45.700477
+        ],
+        [
+          16.179195,
+          45.700517
+        ],
+        [
+          16.179284,
+          45.700412
+        ],
+        [
+          16.179243,
+          45.700396
+        ],
+        [
+          16.179278,
+          45.700354
+        ],
+        [
+          16.179222,
+          45.700331
+        ],
+        [
+          16.179302,
+          45.700235
+        ],
+        [
+          16.179226,
+          45.700204
+        ],
+        [
+          16.179085,
+          45.700372
+        ]
+      ],
+      "tags": {
+        "building": "barn"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 43,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je velika zgrada s ravnim krovom, vjerojatno industrijska ili poljoprivredna građevina s karakterističnom sjenom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:33.374Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.826Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 661,
+        "iou": 0.27
+      }
+    },
+    {
+      "id": "way/1558513375",
+      "lat": 45.700111400000004,
+      "lon": 16.179236600000003,
+      "obris": [
+        [
+          16.179223,
+          45.700086
+        ],
+        [
+          16.179191,
+          45.700117
+        ],
+        [
+          16.179257,
+          45.70015
+        ],
+        [
+          16.179289,
+          45.700118
+        ],
+        [
+          16.179223,
+          45.700086
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 43,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi objekta s tamnom krovnom konstrukcijom, okružena zelenom vegetacijom i parcelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:33.326Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.829Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 60,
+        "iou": 0.12
+      }
+    },
+    {
+      "id": "way/1558513376",
+      "lat": 45.700188,
+      "lon": 16.179039799999998,
+      "obris": [
+        [
+          16.179042,
+          45.700164
+        ],
+        [
+          16.179002,
+          45.700209
+        ],
+        [
+          16.179037,
+          45.700224
+        ],
+        [
+          16.179076,
+          45.700179
+        ],
+        [
+          16.179042,
+          45.700164
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 33,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnosmeđim i svjetlijim dijelovima krova, okružena zelenom vegetacijom i oranjicom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:33.407Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 50,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558513377",
+      "lat": 45.7001284,
+      "lon": 16.179129800000002,
+      "obris": [
+        [
+          16.179119,
+          45.700093
+        ],
+        [
+          16.179069,
+          45.700145
+        ],
+        [
+          16.179146,
+          45.700181
+        ],
+        [
+          16.179196,
+          45.70013
+        ],
+        [
+          16.179119,
+          45.700093
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 36,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim krovom položena uz cestu, s okolnom zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:35.407Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 50,
+        "iou": 0.19
+      }
+    },
+    {
+      "id": "way/1558513378",
+      "lat": 45.699980200000006,
+      "lon": 16.1798524,
+      "obris": [
+        [
+          16.179784,
+          45.699922
+        ],
+        [
+          16.179995,
+          45.700029
+        ],
+        [
+          16.179955,
+          45.700068
+        ],
+        [
+          16.179744,
+          45.69996
+        ],
+        [
+          16.179784,
+          45.699922
+        ]
+      ],
+      "tags": {
+        "building": "industrial"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 89,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "Vidljive su dvije građevine s bijelo-sivo obojenim krovovima na zelenom poljoprivrednom terenu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:35.305Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z",
+        "kako": "blizu",
+        "udaljenostM": 13,
+        "povrsinaMs": 176,
+        "iou": 0.05
+      }
+    },
+    {
+      "id": "way/1558513379",
+      "lat": 45.6999378,
+      "lon": 16.1796166,
+      "obris": [
+        [
+          16.179586,
+          45.699875
+        ],
+        [
+          16.179506,
+          45.699955
+        ],
+        [
+          16.179662,
+          45.700032
+        ],
+        [
+          16.179743,
+          45.699952
+        ],
+        [
+          16.179586,
+          45.699875
+        ]
+      ],
+      "tags": {
+        "building": "industrial"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 71,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je velika zgrada s ravnim krovom, vjerojatno industrijska ili poljoprivredna namjena, okružena zelenim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:35.546Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 176,
+        "iou": 0.39
+      }
+    },
+    {
+      "id": "way/1558513380",
+      "lat": 45.69983739999999,
+      "lon": 16.1794454,
+      "obris": [
+        [
+          16.17945,
+          45.699807
+        ],
+        [
+          16.179394,
+          45.69986
+        ],
+        [
+          16.179438,
+          45.699883
+        ],
+        [
+          16.179495,
+          45.69983
+        ],
+        [
+          16.17945,
+          45.699807
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 55,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnosivim/crnim krovom i bijeli dio strukture, okružena zelenom vegetacijom i poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:35.613Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 21,
+        "iou": 0.02
+      }
+    },
+    {
+      "id": "way/1558513381",
+      "lat": 45.6997212,
+      "lon": 16.179487599999998,
+      "obris": [
+        [
+          16.179464,
+          45.699686
+        ],
+        [
+          16.179424,
+          45.699724
+        ],
+        [
+          16.179523,
+          45.699774
+        ],
+        [
+          16.179563,
+          45.699736
+        ],
+        [
+          16.179464,
+          45.699686
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 54,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je tamna zgrada s krovom okružena travnatim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:35.296Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 36,
+        "iou": 0.5
+      }
+    },
+    {
+      "id": "way/1558513382",
+      "lat": 45.7075102,
+      "lon": 16.1770508,
+      "obris": [
+        [
+          16.177029,
+          45.707476
+        ],
+        [
+          16.177001,
+          45.707545
+        ],
+        [
+          16.177083,
+          45.707562
+        ],
+        [
+          16.177112,
+          45.707492
+        ],
+        [
+          16.177029,
+          45.707476
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 573,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidi se bijela/svijetla građevina s krovom okružena zelenom vegetacijom i šumom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:37.714Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z"
+      }
+    },
+    {
+      "id": "way/1558513383",
+      "lat": 45.70738659999999,
+      "lon": 16.176521,
+      "obris": [
+        [
+          16.176492,
+          45.707352
+        ],
+        [
+          16.176466,
+          45.707421
+        ],
+        [
+          16.176565,
+          45.707439
+        ],
+        [
+          16.17659,
+          45.707369
+        ],
+        [
+          16.176492,
+          45.707352
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 568,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom i okolnim gospodarskim objektima na obrađenom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:37.555Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 12,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558513384",
+      "lat": 45.707362200000006,
+      "lon": 16.1764282,
+      "obris": [
+        [
+          16.176468,
+          45.707347
+        ],
+        [
+          16.176388,
+          45.707333
+        ],
+        [
+          16.176369,
+          45.707385
+        ],
+        [
+          16.176448,
+          45.707399
+        ],
+        [
+          16.176468,
+          45.707347
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 567,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s tamnim krovom, okružena zelenom vegetacijom i poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:37.281Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 17,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558513396",
+      "lat": 45.706762181818185,
+      "lon": 16.18325018181818,
+      "obris": [
+        [
+          16.183355,
+          45.706732
+        ],
+        [
+          16.182903,
+          45.706505
+        ],
+        [
+          16.182782,
+          45.706624
+        ],
+        [
+          16.183065,
+          45.706766
+        ],
+        [
+          16.182995,
+          45.706835
+        ],
+        [
+          16.18317,
+          45.706922
+        ],
+        [
+          16.183503,
+          45.706884
+        ],
+        [
+          16.183493,
+          45.706843
+        ],
+        [
+          16.18358,
+          45.706832
+        ],
+        [
+          16.183551,
+          45.706709
+        ],
+        [
+          16.183355,
+          45.706732
+        ]
+      ],
+      "tags": {
+        "building": "construction",
+        "construction": "kindergarten"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-13T11:28:00Z",
+      "changeset": 188956235,
+      "osmUser": "Vedran V",
+      "nearestStreet": "Poljana Čička",
+      "nearestStreetDist": 618,
+      "masovniUnos": {
+        "changeset": 188956235,
+        "brojZgrada": 31,
+        "korisnik": "Vedran V"
+      },
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje isključivo vegetaciju i prirodni teren bez vidljivih građevina ili krovova.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:37.865Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.830Z"
+      }
+    },
+    {
+      "id": "way/1558519483",
+      "lat": 46.32030639999999,
+      "lon": 16.3340156,
+      "obris": [
+        [
+          16.333962,
+          46.320308
+        ],
+        [
+          16.334017,
+          46.320352
+        ],
+        [
+          16.334096,
+          46.320304
+        ],
+        [
+          16.334041,
+          46.32026
+        ],
+        [
+          16.333962,
+          46.320308
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "64",
+        "addr:street": "Ulica Eugena Kumičića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1169836"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:01:51Z",
+      "changeset": 188957720,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnosivim krovom i zelenom vegetacijom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:37.507Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.831Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 38,
+        "iou": 0.17
+      }
+    },
+    {
+      "id": "way/1558524897",
+      "lat": 46.311782799999996,
+      "lon": 16.319417000000005,
+      "obris": [
+        [
+          16.319465,
+          46.311828
+        ],
+        [
+          16.319469,
+          46.311717
+        ],
+        [
+          16.319345,
+          46.311715
+        ],
+        [
+          16.319341,
+          46.311826
+        ],
+        [
+          16.319465,
+          46.311828
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Petrinjska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "1164595"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:25:21Z",
+      "changeset": 188958738,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i vanjskim prostorom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:39.653Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.831Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 227,
+        "iou": 0.35
+      }
+    },
+    {
+      "id": "way/1558524898",
+      "lat": 46.311784599999996,
+      "lon": 16.319541000000005,
+      "obris": [
+        [
+          16.319589,
+          46.31183
+        ],
+        [
+          16.319593,
+          46.311718
+        ],
+        [
+          16.319469,
+          46.311717
+        ],
+        [
+          16.319465,
+          46.311828
+        ],
+        [
+          16.319589,
+          46.31183
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Petrinjska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "1164593"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:25:21Z",
+      "changeset": 188958738,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke jasno se vidi građevina s crvenim krovom okružena parkiralištima i cestama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:39.700Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.831Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 227,
+        "iou": 0.45
+      }
+    },
+    {
+      "id": "way/1558527077",
+      "lat": 46.3156152,
+      "lon": 16.3204286,
+      "obris": [
+        [
+          16.320402,
+          46.315662
+        ],
+        [
+          16.320514,
+          46.315638
+        ],
+        [
+          16.320471,
+          46.315545
+        ],
+        [
+          16.320354,
+          46.315569
+        ],
+        [
+          16.320402,
+          46.315662
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "Radnička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "1168198"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:33:09Z",
+      "changeset": 188959060,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi zgrada s crvenkastavim krovom okružena s drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:39.750Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.832Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 198,
+        "iou": 0.41
+      }
+    },
+    {
+      "id": "way/1558527078",
+      "lat": 46.31569533333334,
+      "lon": 16.32035533333333,
+      "obris": [
+        [
+          16.320341,
+          46.315791
+        ],
+        [
+          16.320454,
+          46.315762
+        ],
+        [
+          16.320402,
+          46.315662
+        ],
+        [
+          16.320354,
+          46.315569
+        ],
+        [
+          16.32024,
+          46.315597
+        ],
+        [
+          16.320341,
+          46.315791
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "16",
+        "addr:street": "Radnička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "1168200"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:33:09Z",
+      "changeset": 188959060,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s pravokutnim krovom tamnije boje, okružena s parcelama i biljnom pokrovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:40.063Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.832Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 198,
+        "iou": 0.26
+      }
+    },
+    {
+      "id": "way/1558527079",
+      "lat": 46.315432,
+      "lon": 16.3211618,
+      "obris": [
+        [
+          16.321135,
+          46.315478
+        ],
+        [
+          16.321246,
+          46.315452
+        ],
+        [
+          16.321202,
+          46.315363
+        ],
+        [
+          16.321091,
+          46.315389
+        ],
+        [
+          16.321135,
+          46.315478
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Radnička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "1168190"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:33:09Z",
+      "changeset": 188959060,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s tamnim krovom okružena zelenim površinama i ostalim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:39.721Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.833Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 209,
+        "iou": 0.41
+      }
+    },
+    {
+      "id": "way/1558527080",
+      "lat": 46.315458,
+      "lon": 16.321050800000002,
+      "obris": [
+        [
+          16.321024,
+          46.315504
+        ],
+        [
+          16.321135,
+          46.315478
+        ],
+        [
+          16.321091,
+          46.315389
+        ],
+        [
+          16.32098,
+          46.315415
+        ],
+        [
+          16.321024,
+          46.315504
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Radnička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "1168192"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:33:09Z",
+      "changeset": 188959060,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom okružena vegetacijom i cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:44.191Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.833Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 209,
+        "iou": 0.36
+      }
+    },
+    {
+      "id": "way/1558527081",
+      "lat": 46.3150126,
+      "lon": 16.3217104,
+      "obris": [
+        [
+          16.321688,
+          46.315055
+        ],
+        [
+          16.321789,
+          46.315027
+        ],
+        [
+          16.321744,
+          46.314949
+        ],
+        [
+          16.321643,
+          46.314977
+        ],
+        [
+          16.321688,
+          46.315055
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Radnička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "1168183"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:33:09Z",
+      "changeset": 188959060,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i okolnom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:42.049Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.833Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 170,
+        "iou": 0.45
+      }
+    },
+    {
+      "id": "way/1558527082",
+      "lat": 46.315040599999996,
+      "lon": 16.3216094,
+      "obris": [
+        [
+          16.321587,
+          46.315083
+        ],
+        [
+          16.321688,
+          46.315055
+        ],
+        [
+          16.321643,
+          46.314977
+        ],
+        [
+          16.321542,
+          46.315005
+        ],
+        [
+          16.321587,
+          46.315083
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Radnička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "1168187"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:33:09Z",
+      "changeset": 188959060,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgradjena zgrada s tamnim krovom okružena svjetlijim površinama i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:42.223Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.833Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 170,
+        "iou": 0.4
+      }
+    },
+    {
+      "id": "way/1558528342",
+      "lat": 46.3129336,
+      "lon": 16.3249478,
+      "obris": [
+        [
+          16.324893,
+          46.312914
+        ],
+        [
+          16.324928,
+          46.312987
+        ],
+        [
+          16.32503,
+          46.312963
+        ],
+        [
+          16.324995,
+          46.31289
+        ],
+        [
+          16.324893,
+          46.312914
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "14/1",
+        "addr:street": "Ulica Fortunata Pintarića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17010626"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:34:44Z",
+      "changeset": 188959154,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenkastim krovom, jasno razlikovana od okolnog zelenog zemljišta i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:42.130Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.834Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 83,
+        "iou": 0.44
+      }
+    },
+    {
+      "id": "way/1558528343",
+      "lat": 46.3128244,
+      "lon": 16.32629,
+      "obris": [
+        [
+          16.326258,
+          46.312865
+        ],
+        [
+          16.326374,
+          46.312839
+        ],
+        [
+          16.326338,
+          46.312763
+        ],
+        [
+          16.326222,
+          46.31279
+        ],
+        [
+          16.326258,
+          46.312865
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "3/1",
+        "addr:street": "Ulica Fortunata Pintarića",
+        "building": "house",
+        "ref:HR:kucni_broj": "2171943201"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:34:44Z",
+      "changeset": 188959154,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je jasno izgrađena zgrada s crvenim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:41.910Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.834Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 9,
+        "povrsinaMs": 231,
+        "iou": 0.18
+      }
+    },
+    {
+      "id": "way/1558528344",
+      "lat": 46.3128598,
+      "lon": 16.326127200000002,
+      "obris": [
+        [
+          16.326064,
+          46.312907
+        ],
+        [
+          16.326258,
+          46.312865
+        ],
+        [
+          16.326222,
+          46.31279
+        ],
+        [
+          16.326028,
+          46.31283
+        ],
+        [
+          16.326064,
+          46.312907
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Ulica Fortunata Pintarića",
+        "building": "house",
+        "ref:HR:kucni_broj": "1189909"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:34:44Z",
+      "changeset": 188959154,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i svjetlijim bočnim dijelovima, okružena s vegetacijom i parcelama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:46.190Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.834Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 231,
+        "iou": 0.3
+      }
+    },
+    {
+      "id": "way/1558528483",
+      "lat": 46.314293600000006,
+      "lon": 16.323456,
+      "obris": [
+        [
+          16.323428,
+          46.314413
+        ],
+        [
+          16.323624,
+          46.314366
+        ],
+        [
+          16.323498,
+          46.314115
+        ],
+        [
+          16.323302,
+          46.314161
+        ],
+        [
+          16.323428,
+          46.314413
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:36:34Z",
+      "changeset": 188959261,
+      "osmUser": "LeonH_OSM",
+      "dguAdresa": {
+        "street": "Ulica Vladimira Gortana",
+        "houseNumber": "20",
+        "settlement": "Varaždin",
+        "postcode": "42000",
+        "city": "Varaždin",
+        "lon": 16.323421,
+        "lat": 46.314173
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Ulica Vladimira Gortana",
+          "houseNumber": "20",
+          "settlement": "Varaždin",
+          "postcode": "42000",
+          "city": "Varaždin",
+          "lon": 16.323421,
+          "lat": 46.314173
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina sa svjetlijim krovom okružena tamnjim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:46.080Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.835Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 450,
+        "iou": 0.59
+      }
+    },
+    {
+      "id": "way/1558528484",
+      "lat": 46.314320800000004,
+      "lon": 16.3238596,
+      "obris": [
+        [
+          16.323838,
+          46.314379
+        ],
+        [
+          16.323952,
+          46.314352
+        ],
+        [
+          16.323892,
+          46.314233
+        ],
+        [
+          16.323778,
+          46.314261
+        ],
+        [
+          16.323838,
+          46.314379
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "28",
+        "addr:street": "Ulica Vatroslava Jagića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1184845"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:36:34Z",
+      "changeset": 188959261,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:45.961Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.835Z"
+      }
+    },
+    {
+      "id": "way/1558528485",
+      "lat": 46.3144548,
+      "lon": 16.3243098,
+      "obris": [
+        [
+          16.324271,
+          46.314488
+        ],
+        [
+          16.324395,
+          46.314458
+        ],
+        [
+          16.324368,
+          46.314405
+        ],
+        [
+          16.324244,
+          46.314435
+        ],
+        [
+          16.324271,
+          46.314488
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "24/1",
+        "addr:street": "Ulica Vatroslava Jagića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17010618"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:36:34Z",
+      "changeset": 188959261,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je krov s crvenim i tamnim pokrovom, što jasnoIndicira prisutnost građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:46.049Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.835Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 187,
+        "iou": 0.3
+      }
+    },
+    {
+      "id": "way/1558528486",
+      "lat": 46.31387285714286,
+      "lon": 16.325301571428575,
+      "obris": [
+        [
+          16.325241,
+          46.313837
+        ],
+        [
+          16.325267,
+          46.313897
+        ],
+        [
+          16.325317,
+          46.313887
+        ],
+        [
+          16.325332,
+          46.313922
+        ],
+        [
+          16.325377,
+          46.313913
+        ],
+        [
+          16.325336,
+          46.313817
+        ],
+        [
+          16.325241,
+          46.313837
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "7A",
+        "addr:street": "Ulica Vatroslava Jagića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1184830"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:36:34Z",
+      "changeset": 188959261,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom okružena zelenim vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:46.171Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.836Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 114,
+        "iou": 0.33
+      }
+    },
+    {
+      "id": "way/1558528487",
+      "lat": 46.314054,
+      "lon": 16.3261456,
+      "obris": [
+        [
+          16.326122,
+          46.31409
+        ],
+        [
+          16.326216,
+          46.314068
+        ],
+        [
+          16.326181,
+          46.314
+        ],
+        [
+          16.326087,
+          46.314022
+        ],
+        [
+          16.326122,
+          46.31409
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "6/1",
+        "addr:street": "Ulica Vatroslava Jagića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17010617"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:36:34Z",
+      "changeset": 188959261,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnom krovnom površinom okružena drugim zgradama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:47.994Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.839Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 64,
+        "iou": 0.43
+      }
+    },
+    {
+      "id": "way/1558528488",
+      "lat": 46.313967428571424,
+      "lon": 16.326419714285713,
+      "obris": [
+        [
+          16.326401,
+          46.314019
+        ],
+        [
+          16.326503,
+          46.313995
+        ],
+        [
+          16.326457,
+          46.3139
+        ],
+        [
+          16.32639,
+          46.313915
+        ],
+        [
+          16.32641,
+          46.313958
+        ],
+        [
+          16.326376,
+          46.313966
+        ],
+        [
+          16.326401,
+          46.314019
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "4/1",
+        "addr:street": "Ulica Vatroslava Jagića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17010616"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:36:34Z",
+      "changeset": 188959261,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s karakterističnim krovom u crvenoj i sivoj boji, okružena drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:48.285Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.839Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 244,
+        "iou": 0.26
+      }
+    },
+    {
+      "id": "way/1558531901",
+      "lat": 46.313333,
+      "lon": 16.3227146,
+      "obris": [
+        [
+          16.322749,
+          46.313285
+        ],
+        [
+          16.322783,
+          46.313385
+        ],
+        [
+          16.322663,
+          46.313405
+        ],
+        [
+          16.322629,
+          46.313305
+        ],
+        [
+          16.322749,
+          46.313285
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Ulica Dragutina Domjanića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1164344"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:49:38Z",
+      "changeset": 188959925,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom, jasno razlikovana od okolnog zemljišta i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:48.043Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.839Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 189,
+        "iou": 0.03
+      }
+    },
+    {
+      "id": "way/1558535431",
+      "lat": 46.313439,
+      "lon": 16.3244896,
+      "obris": [
+        [
+          16.324426,
+          46.313403
+        ],
+        [
+          16.324472,
+          46.313515
+        ],
+        [
+          16.324585,
+          46.313493
+        ],
+        [
+          16.324539,
+          46.313381
+        ],
+        [
+          16.324426,
+          46.313403
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "2A",
+        "addr:street": "Ulica Leopolda Ebnera",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17010624"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:55:29Z",
+      "changeset": 188960228,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenkastvim krovom i okolnim manjim građevinama na parceliranom zemljištu.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:48.337Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.840Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 94,
+        "iou": 0.64
+      }
+    },
+    {
+      "id": "way/1558535432",
+      "lat": 46.3128184,
+      "lon": 16.3228094,
+      "obris": [
+        [
+          16.322761,
+          46.31277
+        ],
+        [
+          16.322755,
+          46.312888
+        ],
+        [
+          16.322882,
+          46.312891
+        ],
+        [
+          16.322888,
+          46.312773
+        ],
+        [
+          16.322761,
+          46.31277
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Ulica Leopolda Ebnera",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1177273"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:55:29Z",
+      "changeset": 188960228,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/smeđim krovom, okružena vegetacijom i parceliranim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:48.300Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.840Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 133,
+        "iou": 0.11
+      }
+    },
+    {
+      "id": "way/1558536423",
+      "lat": 46.3120792,
+      "lon": 16.3245572,
+      "obris": [
+        [
+          16.324484,
+          46.312242
+        ],
+        [
+          16.324755,
+          46.312211
+        ],
+        [
+          16.324667,
+          46.311835
+        ],
+        [
+          16.324396,
+          46.311866
+        ],
+        [
+          16.324484,
+          46.312242
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T12:56:58Z",
+      "changeset": 188960303,
+      "osmUser": "LeonH_OSM",
+      "dguAdresa": {
+        "street": "Ulica Ivana Nepomuka Petrovića",
+        "houseNumber": "10",
+        "settlement": "Varaždin",
+        "postcode": "42000",
+        "city": "Varaždin",
+        "lon": 16.324611,
+        "lat": 46.312007
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Ulica Ivana Nepomuka Petrovića",
+          "houseNumber": "10",
+          "settlement": "Varaždin",
+          "postcode": "42000",
+          "city": "Varaždin",
+          "lon": 16.324611,
+          "lat": 46.312007
+        }
+      ],
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje obrađeno zemljište s vegetacijom, bez vidljive izgrađene zgrade ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:50.304Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.840Z"
+      }
+    },
+    {
+      "id": "way/1558545125",
+      "lat": 44.051747899999995,
+      "lon": 15.1091982,
+      "obris": [
+        [
+          15.10908,
+          44.05176
+        ],
+        [
+          15.109237,
+          44.05184
+        ],
+        [
+          15.109306,
+          44.05177
+        ],
+        [
+          15.109241,
+          44.051737
+        ],
+        [
+          15.109238,
+          44.05174
+        ],
+        [
+          15.109225,
+          44.051733
+        ],
+        [
+          15.109211,
+          44.051726
+        ],
+        [
+          15.109214,
+          44.051723
+        ],
+        [
+          15.10915,
+          44.05169
+        ],
+        [
+          15.10908,
+          44.05176
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "367",
+        "addr:place": "Veli Iž",
+        "amenity": "doctors",
+        "building": "public",
+        "email": "ordinacija-iz@dzzdzup.hr",
+        "healthcare:speciality": "general",
+        "name": "Ambulanta Veli Iž",
+        "opening_hours": "Tu,Fr 7:00-13:30; We 13:00-19:30; PH off",
+        "operator": "Dom zdravlja Zadarske županije",
+        "operator:website": "https://www.dzzdzup.hr",
+        "phone": "+385 23 277 012"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-13T14:02:29Z",
+      "changeset": 188963553,
+      "osmUser": "jacrtamstaze",
+      "dguAdresa": {
+        "street": "Veli Iž",
+        "houseNumber": "367",
+        "settlement": "Veli Iž",
+        "postcode": "23284",
+        "city": "Veli Iž",
+        "lon": 15.109163,
+        "lat": 44.051792
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Veli Iž",
+          "houseNumber": "367",
+          "settlement": "Veli Iž",
+          "postcode": "23284",
+          "city": "Veli Iž",
+          "lon": 15.109163,
+          "lat": 44.051792
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina s crvenim/ružičastim krovom i betonskom plohom oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:50.549Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.840Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 154,
+        "iou": 0.28
+      }
+    },
+    {
+      "id": "way/1558545126",
+      "lat": 44.0490926,
+      "lon": 15.109262999999999,
+      "obris": [
+        [
+          15.109214,
+          44.049093
+        ],
+        [
+          15.109271,
+          44.049137
+        ],
+        [
+          15.109336,
+          44.049092
+        ],
+        [
+          15.10928,
+          44.049048
+        ],
+        [
+          15.109214,
+          44.049093
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "110",
+        "addr:place": "Veli Iž",
+        "building": "house"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-13T14:02:29Z",
+      "changeset": 188963553,
+      "osmUser": "jacrtamstaze",
+      "dguAdresa": {
+        "street": "Veli Iž",
+        "houseNumber": "110",
+        "settlement": "Veli Iž",
+        "postcode": "23284",
+        "city": "Veli Iž",
+        "lon": 15.109299,
+        "lat": 44.049107
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Veli Iž",
+          "houseNumber": "110",
+          "settlement": "Veli Iž",
+          "postcode": "23284",
+          "city": "Veli Iž",
+          "lon": 15.109299,
+          "lat": 44.049107
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina s crvenim krovom okružena obrađenim poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:50.313Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.841Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 8,
+        "povrsinaMs": 284,
+        "iou": 0.09
+      }
+    },
+    {
+      "id": "way/1558545130",
+      "lat": 44.049388,
+      "lon": 15.1078464,
+      "obris": [
+        [
+          15.107844,
+          44.049424
+        ],
+        [
+          15.107905,
+          44.049375
+        ],
+        [
+          15.107856,
+          44.049343
+        ],
+        [
+          15.107783,
+          44.049374
+        ],
+        [
+          15.107844,
+          44.049424
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "150",
+        "addr:place": "Veli Iž",
+        "building": "house"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-13T14:02:29Z",
+      "changeset": 188963553,
+      "osmUser": "jacrtamstaze",
+      "dguAdresa": {
+        "street": "Veli Iž",
+        "houseNumber": "150",
+        "settlement": "Veli Iž",
+        "postcode": "23284",
+        "city": "Veli Iž",
+        "lon": 15.10783,
+        "lat": 44.04937
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Veli Iž",
+          "houseNumber": "150",
+          "settlement": "Veli Iž",
+          "postcode": "23284",
+          "city": "Veli Iž",
+          "lon": 15.10783,
+          "lat": 44.04937
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s terrakota crvenim krovom okružena oranjicom i zelenim površinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:50.434Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.841Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 310,
+        "iou": 0.1
+      }
+    },
+    {
+      "id": "way/1558559005",
+      "lat": 45.99455485714286,
+      "lon": 17.040883857142855,
+      "obris": [
+        [
+          17.041021,
+          45.994415
+        ],
+        [
+          17.041138,
+          45.994535
+        ],
+        [
+          17.040689,
+          45.994747
+        ],
+        [
+          17.04063,
+          45.994687
+        ],
+        [
+          17.040873,
+          45.994572
+        ],
+        [
+          17.040815,
+          45.994513
+        ],
+        [
+          17.041021,
+          45.994415
+        ]
+      ],
+      "tags": {
+        "amenity": "community_centre",
+        "building": "yes",
+        "community_centre": "community_hall",
+        "name": "Mjesni dom"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-09-13T15:26:14Z",
+      "changeset": 188967419,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Planinska",
+        "houseNumber": "90",
+        "settlement": "Čepelovac",
+        "postcode": "48350",
+        "city": "Đurđevac",
+        "lon": 17.040917,
+        "lat": 45.994561
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Planinska",
+          "houseNumber": "90",
+          "settlement": "Čepelovac",
+          "postcode": "48350",
+          "city": "Đurđevac",
+          "lon": 17.040917,
+          "lat": 45.994561
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgradjena zgrada s crvenim/smeđim krovom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:50.105Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.842Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 482,
+        "iou": 0.46
+      }
+    },
+    {
+      "id": "way/1558559109",
+      "lat": 46.31482222222222,
+      "lon": 16.324862444444445,
+      "obris": [
+        [
+          16.324908,
+          46.314747
+        ],
+        [
+          16.324773,
+          46.314789
+        ],
+        [
+          16.324809,
+          46.314844
+        ],
+        [
+          16.324775,
+          46.314855
+        ],
+        [
+          16.324814,
+          46.314915
+        ],
+        [
+          16.324933,
+          46.314877
+        ],
+        [
+          16.324896,
+          46.314821
+        ],
+        [
+          16.324946,
+          46.314805
+        ],
+        [
+          16.324908,
+          46.314747
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "20A",
+        "addr:street": "Vinička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2166588450"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T15:27:05Z",
+      "changeset": 188967466,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s jasno vidljivim krovom svijetlosive boje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:52.428Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.843Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 17,
+        "povrsinaMs": 567,
+        "iou": 0.19
+      }
+    },
+    {
+      "id": "way/1558559110",
+      "lat": 46.3146946,
+      "lon": 16.324823600000002,
+      "obris": [
+        [
+          16.324756,
+          46.314675
+        ],
+        [
+          16.324801,
+          46.314757
+        ],
+        [
+          16.324925,
+          46.314724
+        ],
+        [
+          16.32488,
+          46.314642
+        ],
+        [
+          16.324756,
+          46.314675
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Vinička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1162778"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T15:27:05Z",
+      "changeset": 188967466,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim/smeđim krovom, okružena drugim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:52.608Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.844Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 180,
+        "iou": 0.38
+      }
+    },
+    {
+      "id": "way/1558559111",
+      "lat": 46.3143836,
+      "lon": 16.325062600000003,
+      "obris": [
+        [
+          16.324961,
+          46.314381
+        ],
+        [
+          16.324998,
+          46.314446
+        ],
+        [
+          16.325215,
+          46.314388
+        ],
+        [
+          16.325178,
+          46.314322
+        ],
+        [
+          16.324961,
+          46.314381
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "13/1",
+        "addr:street": "Vinička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "17010613"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T15:27:05Z",
+      "changeset": 188967466,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom i okružujućim građevinama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:52.525Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.844Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 88,
+        "iou": 0.36
+      }
+    },
+    {
+      "id": "way/1558559112",
+      "lat": 46.3142666,
+      "lon": 16.3254758,
+      "obris": [
+        [
+          16.325512,
+          46.314237
+        ],
+        [
+          16.325399,
+          46.314262
+        ],
+        [
+          16.325422,
+          46.314311
+        ],
+        [
+          16.325534,
+          46.314286
+        ],
+        [
+          16.325512,
+          46.314237
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "11/1",
+        "addr:street": "Vinička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2196471839"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T15:27:05Z",
+      "changeset": 188967466,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim krovom i okolnim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:52.591Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.844Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 76,
+        "iou": 0.21
+      }
+    },
+    {
+      "id": "way/1558559271",
+      "lat": 45.254126142857146,
+      "lon": 16.521540714285717,
+      "obris": [
+        [
+          16.521663,
+          45.254009
+        ],
+        [
+          16.521623,
+          45.254163
+        ],
+        [
+          16.52192,
+          45.254201
+        ],
+        [
+          16.521883,
+          45.254343
+        ],
+        [
+          16.520978,
+          45.254227
+        ],
+        [
+          16.521055,
+          45.253931
+        ],
+        [
+          16.521663,
+          45.254009
+        ]
+      ],
+      "tags": {
+        "building": "industrial"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka prikazuje terenu s vegetacijom i obraĎenim površinama, ali bez vidljive izgrađene zgrade ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:52.630Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.847Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 2036,
+        "iou": 0.94
+      }
+    },
+    {
+      "id": "way/1558559272",
+      "lat": 45.2536696,
+      "lon": 16.520930200000002,
+      "obris": [
+        [
+          16.520904,
+          45.253642
+        ],
+        [
+          16.520891,
+          45.253702
+        ],
+        [
+          16.520969,
+          45.253711
+        ],
+        [
+          16.520983,
+          45.253651
+        ],
+        [
+          16.520904,
+          45.253642
+        ]
+      ],
+      "tags": {
+        "building": "industrial"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "Snimka je nejasna i nekvalitetna, gotovo bijela s minimalnim detaljima koji nisu dovoljni za pouzdanu procjenu prisutnosti građevine.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:54.676Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.847Z",
+        "kako": "blizu",
+        "udaljenostM": 2,
+        "povrsinaMs": 26,
+        "iou": 0.48
+      }
+    },
+    {
+      "id": "way/1558559273",
+      "lat": 45.25372660000001,
+      "lon": 16.520702,
+      "obris": [
+        [
+          16.520772,
+          45.253697
+        ],
+        [
+          16.520752,
+          45.253788
+        ],
+        [
+          16.520597,
+          45.253771
+        ],
+        [
+          16.520617,
+          45.25368
+        ],
+        [
+          16.520772,
+          45.253697
+        ]
+      ],
+      "tags": {
+        "building": "industrial"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "nema_snimke",
+        "obrazlozenje": "Snimka je nejasna i nekvalitetna s prevladavajućim sivim i bijelim tonovima koji onemogućavaju pouzdanu procjenu terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:54.869Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.848Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 145,
+        "iou": 0.65
+      }
+    },
+    {
+      "id": "way/1558559274",
+      "lat": 45.253779200000004,
+      "lon": 16.520265799999997,
+      "obris": [
+        [
+          16.520446,
+          45.253587
+        ],
+        [
+          16.520317,
+          45.254107
+        ],
+        [
+          16.519995,
+          45.254067
+        ],
+        [
+          16.520125,
+          45.253548
+        ],
+        [
+          16.520446,
+          45.253587
+        ]
+      ],
+      "tags": {
+        "building": "industrial"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljive su tri zgrade s krovovima i solarnim panelima, jasno vidljive od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:54.695Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.849Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 1837,
+        "iou": 0.76
+      }
+    },
+    {
+      "id": "way/1558559275",
+      "lat": 45.2546088,
+      "lon": 16.5214944,
+      "obris": [
+        [
+          16.522122,
+          45.254638
+        ],
+        [
+          16.522077,
+          45.25479
+        ],
+        [
+          16.520553,
+          45.254565
+        ],
+        [
+          16.520598,
+          45.254413
+        ],
+        [
+          16.522122,
+          45.254638
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s jasno vidljivim svijetlim krovom i tamnijom senkom, okružena oranjicom i vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:54.745Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.852Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 23,
+        "povrsinaMs": 2225,
+        "iou": 0.83
+      }
+    },
+    {
+      "id": "way/1558559276",
+      "lat": 45.252936285714284,
+      "lon": 16.521901285714286,
+      "obris": [
+        [
+          16.521811,
+          45.252972
+        ],
+        [
+          16.521931,
+          45.252985
+        ],
+        [
+          16.521945,
+          45.252921
+        ],
+        [
+          16.521987,
+          45.252926
+        ],
+        [
+          16.521993,
+          45.252898
+        ],
+        [
+          16.521831,
+          45.25288
+        ],
+        [
+          16.521811,
+          45.252972
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom, jasno razlikujući se od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:54.450Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.853Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 25,
+        "povrsinaMs": 793,
+        "iou": 0.11
+      }
+    },
+    {
+      "id": "way/1558559277",
+      "lat": 45.2528418,
+      "lon": 16.521633599999998,
+      "obris": [
+        [
+          16.521597,
+          45.252809
+        ],
+        [
+          16.521582,
+          45.252879
+        ],
+        [
+          16.521688,
+          45.252891
+        ],
+        [
+          16.521704,
+          45.252821
+        ],
+        [
+          16.521597,
+          45.252809
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "kandidat",
+        "obrazlozenje": "Snimka pokazuje oranicu i travnatim površinama, bez vidljive građevine ili krova u centru kadra.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:56.901Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.853Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 793,
+        "iou": 0.02
+      }
+    },
+    {
+      "id": "way/1558559299",
+      "lat": 45.2494272,
+      "lon": 16.5165152,
+      "obris": [
+        [
+          16.516537,
+          45.24937
+        ],
+        [
+          16.516405,
+          45.249448
+        ],
+        [
+          16.516483,
+          45.249513
+        ],
+        [
+          16.516614,
+          45.249435
+        ],
+        [
+          16.516537,
+          45.24937
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s ružičastim/crvenkastim krovom, jasno razlikujući se od zelene vegetacije oko nje.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:56.895Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.853Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 129,
+        "iou": 0.68
+      }
+    },
+    {
+      "id": "way/1558559300",
+      "lat": 45.2493468,
+      "lon": 16.5162176,
+      "obris": [
+        [
+          16.516231,
+          45.249319
+        ],
+        [
+          16.516153,
+          45.249347
+        ],
+        [
+          16.516202,
+          45.249393
+        ],
+        [
+          16.516271,
+          45.249356
+        ],
+        [
+          16.516231,
+          45.249319
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s pravokutnim krovom (crveno-smeđe boje) s pridruženim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:57.068Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.853Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 51,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558559301",
+      "lat": 45.24927933333333,
+      "lon": 16.5161875,
+      "obris": [
+        [
+          16.516196,
+          45.249221
+        ],
+        [
+          16.516089,
+          45.249259
+        ],
+        [
+          16.516153,
+          45.249347
+        ],
+        [
+          16.516231,
+          45.249319
+        ],
+        [
+          16.51626,
+          45.249309
+        ],
+        [
+          16.516196,
+          45.249221
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Sisačko-moslavačka županija",
+      "validFrom": "2026-09-13T15:28:04Z",
+      "changeset": 188967513,
+      "osmUser": "Vedran V",
+      "dguAdresa": {
+        "street": "Panjani",
+        "houseNumber": "23",
+        "settlement": "Panjani",
+        "postcode": "44430",
+        "city": "Hrvatska Kostajnica",
+        "lon": 16.516153,
+        "lat": 45.249279
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Panjani",
+          "houseNumber": "23",
+          "settlement": "Panjani",
+          "postcode": "44430",
+          "city": "Hrvatska Kostajnica",
+          "lon": 16.516153,
+          "lat": 45.249279
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnim krovom i okolnim zemljištem, jasno prepoznatljiva na ortofoto snimci.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:57.011Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.853Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 109,
+        "iou": 0.64
+      }
+    },
+    {
+      "id": "way/1558565497",
+      "lat": 45.99259885714286,
+      "lon": 17.042586285714286,
+      "obris": [
+        [
+          17.042441,
+          45.992658
+        ],
+        [
+          17.042521,
+          45.992757
+        ],
+        [
+          17.042858,
+          45.992626
+        ],
+        [
+          17.042693,
+          45.992421
+        ],
+        [
+          17.042532,
+          45.992483
+        ],
+        [
+          17.042618,
+          45.992589
+        ],
+        [
+          17.042441,
+          45.992658
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "historic": "castle",
+        "name": "Kurija Barnagor"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-09-13T15:57:30Z",
+      "changeset": 188969053,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Lukove",
+        "houseNumber": "12",
+        "settlement": "Čepelovac",
+        "postcode": "48350",
+        "city": "Đurđevac",
+        "lon": 17.042637,
+        "lat": 45.992578
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Lukove",
+          "houseNumber": "12",
+          "settlement": "Čepelovac",
+          "postcode": "48350",
+          "city": "Đurđevac",
+          "lon": 17.042637,
+          "lat": 45.992578
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim krovom okružena vegetacijom i dijelom obrađenog zemljišta.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:56.931Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.854Z",
+        "kako": "blizu",
+        "udaljenostM": 10,
+        "povrsinaMs": 168,
+        "iou": 0.3
+      }
+    },
+    {
+      "id": "way/1558566852",
+      "lat": 46.0530778,
+      "lon": 16.6729418,
+      "obris": [
+        [
+          16.672857,
+          46.053029
+        ],
+        [
+          16.672925,
+          46.053182
+        ],
+        [
+          16.673069,
+          46.053151
+        ],
+        [
+          16.673001,
+          46.052998
+        ],
+        [
+          16.672857,
+          46.053029
+        ]
+      ],
+      "tags": {
+        "amenity": "community_centre",
+        "building": "yes",
+        "name": "Mjesni dom Velike Sesvete"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-09-13T16:03:30Z",
+      "changeset": 188969349,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Velike Sesvete",
+        "houseNumber": "41",
+        "settlement": "Velike Sesvete",
+        "postcode": "48260",
+        "city": "Križevci",
+        "lon": 16.672941,
+        "lat": 46.053089
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Velike Sesvete",
+          "houseNumber": "41",
+          "settlement": "Velike Sesvete",
+          "postcode": "48260",
+          "city": "Križevci",
+          "lon": 16.672941,
+          "lat": 46.053089
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnosinjim krovom, jasno razlikovana od okolnog terena.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:58.890Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.854Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 142,
+        "iou": 0.59
+      }
+    },
+    {
+      "id": "way/1558566853",
+      "lat": 46.05279625,
+      "lon": 16.67275825,
+      "obris": [
+        [
+          16.672686,
+          46.052798
+        ],
+        [
+          16.672711,
+          46.052837
+        ],
+        [
+          16.672799,
+          46.05281
+        ],
+        [
+          16.67281,
+          46.052798
+        ],
+        [
+          16.672805,
+          46.052785
+        ],
+        [
+          16.672794,
+          46.052773
+        ],
+        [
+          16.672775,
+          46.052771
+        ],
+        [
+          16.672686,
+          46.052798
+        ]
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "serbian_orthodox",
+        "name": "kapela sv. Velikomučenika Georgija",
+        "religion": "christian"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-09-13T16:03:30Z",
+      "changeset": 188969349,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Velike Sesvete",
+        "houseNumber": "43",
+        "settlement": "Velike Sesvete",
+        "postcode": "48260",
+        "city": "Križevci",
+        "lon": 16.672712,
+        "lat": 46.052798
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Velike Sesvete",
+          "houseNumber": "43",
+          "settlement": "Velike Sesvete",
+          "postcode": "48260",
+          "city": "Križevci",
+          "lon": 16.672712,
+          "lat": 46.052798
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je tamna крovna površina građevine s pravokutnim oblikom, jasno razlikovana od okolnog terena i vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:59.154Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.854Z"
+      }
+    },
+    {
+      "id": "way/1558570302",
+      "lat": 46.097775444444444,
+      "lon": 16.677639888888887,
+      "obris": [
+        [
+          16.67754,
+          46.097743
+        ],
+        [
+          16.677628,
+          46.097785
+        ],
+        [
+          16.677605,
+          46.097808
+        ],
+        [
+          16.677653,
+          46.09783
+        ],
+        [
+          16.677679,
+          46.097803
+        ],
+        [
+          16.677725,
+          46.097825
+        ],
+        [
+          16.677785,
+          46.097764
+        ],
+        [
+          16.677604,
+          46.097678
+        ],
+        [
+          16.67754,
+          46.097743
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-09-13T16:20:28Z",
+      "changeset": 188970161,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Lepavina",
+        "houseNumber": "21",
+        "settlement": "Lepavina",
+        "postcode": "48306",
+        "city": "Sokolovac",
+        "lon": 16.67772,
+        "lat": 46.097774
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Lepavina",
+          "houseNumber": "21",
+          "settlement": "Lepavina",
+          "postcode": "48306",
+          "city": "Sokolovac",
+          "lon": 16.67772,
+          "lat": 46.097774
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je izgrađena zgrada s crvenim/ružičastim krovom i okolnom zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:59.090Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.854Z"
+      }
+    },
+    {
+      "id": "way/1558570303",
+      "lat": 46.0978204,
+      "lon": 16.677791,
+      "obris": [
+        [
+          16.677725,
+          46.097825
+        ],
+        [
+          16.67783,
+          46.097875
+        ],
+        [
+          16.67789,
+          46.097813
+        ],
+        [
+          16.677785,
+          46.097764
+        ],
+        [
+          16.677725,
+          46.097825
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-09-13T16:20:28Z",
+      "changeset": 188970161,
+      "osmUser": "bjelsjole",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i pratećim građevinama na poljoprivrednom području.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:58.913Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.854Z"
+      }
+    },
+    {
+      "id": "way/1558570304",
+      "lat": 46.09770388888889,
+      "lon": 16.677240333333334,
+      "obris": [
+        [
+          16.67723,
+          46.09758
+        ],
+        [
+          16.677075,
+          46.097767
+        ],
+        [
+          16.677148,
+          46.097796
+        ],
+        [
+          16.677137,
+          46.09781
+        ],
+        [
+          16.677263,
+          46.09786
+        ],
+        [
+          16.677415,
+          46.097677
+        ],
+        [
+          16.677325,
+          46.097641
+        ],
+        [
+          16.67734,
+          46.097624
+        ],
+        [
+          16.67723,
+          46.09758
+        ]
+      ],
+      "tags": {
+        "amenity": "community_centre",
+        "building": "yes",
+        "community_centre": "community_hall",
+        "name": "Društveni dom Lepavina"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-09-13T16:20:28Z",
+      "changeset": 188970161,
+      "osmUser": "bjelsjole",
+      "dguAdresa": {
+        "street": "Lepavina",
+        "houseNumber": "19",
+        "settlement": "Lepavina",
+        "postcode": "48306",
+        "city": "Sokolovac",
+        "lon": 16.6773,
+        "lat": 46.097665
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Lepavina",
+          "houseNumber": "19",
+          "settlement": "Lepavina",
+          "postcode": "48306",
+          "city": "Sokolovac",
+          "lon": 16.6773,
+          "lat": 46.097665
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s tamnosivim krovom, okružena vegetacijom i manjim objektima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T09:59:58.885Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.854Z",
+        "kako": "blizu",
+        "udaljenostM": 11,
+        "povrsinaMs": 82,
+        "iou": 0.16
+      }
+    },
+    {
+      "id": "way/1558571522",
+      "lat": 46.04269976923077,
+      "lon": 16.62439023076923,
+      "obris": [
+        [
+          16.624282,
+          46.042685
+        ],
+        [
+          16.624299,
+          46.042741
+        ],
+        [
+          16.624344,
+          46.042735
+        ],
+        [
+          16.624379,
+          46.042851
+        ],
+        [
+          16.624507,
+          46.042832
+        ],
+        [
+          16.624464,
+          46.042691
+        ],
+        [
+          16.624491,
+          46.042687
+        ],
+        [
+          16.624476,
+          46.042639
+        ],
+        [
+          16.624448,
+          46.042642
+        ],
+        [
+          16.624438,
+          46.042608
+        ],
+        [
+          16.624324,
+          46.042625
+        ],
+        [
+          16.624339,
+          46.042676
+        ],
+        [
+          16.624282,
+          46.042685
+        ]
+      ],
+      "tags": {
+        "amenity": "community_centre",
+        "building": "yes",
+        "community_centre": "community_hall",
+        "name": "Društveni dom Kloštar Vojakovački"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-09-13T16:26:07Z",
+      "changeset": 188970403,
+      "osmUser": "bjelsjole",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je građevina s crvenim/ružičastim krovom okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:01.061Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.854Z"
+      }
+    },
+    {
+      "id": "way/1558571776",
+      "lat": 46.063968,
+      "lon": 16.5941458,
+      "obris": [
+        [
+          16.594089,
+          46.063988
+        ],
+        [
+          16.594228,
+          46.063992
+        ],
+        [
+          16.594231,
+          46.063938
+        ],
+        [
+          16.594092,
+          46.063934
+        ],
+        [
+          16.594089,
+          46.063988
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "shop": "funeral_directors"
+      },
+      "zupanija": "Koprivničko-križevačka županija",
+      "validFrom": "2026-09-13T16:28:40Z",
+      "changeset": 188970487,
+      "osmUser": "bjelsjole",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je svetlosna struktura s pravokutnim oblikom koja se može identificirati kao krov građevine ili zgrada.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:01.143Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.855Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 64,
+        "iou": 0.17
+      }
+    },
+    {
+      "id": "way/1558584176",
+      "lat": 46.209402,
+      "lon": 16.295062,
+      "obris": [
+        [
+          16.295039,
+          46.20941
+        ],
+        [
+          16.295084,
+          46.209419
+        ],
+        [
+          16.295097,
+          46.20939
+        ],
+        [
+          16.295051,
+          46.209381
+        ],
+        [
+          16.295039,
+          46.20941
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T17:31:42Z",
+      "changeset": 188973292,
+      "osmUser": "rokeg",
+      "nearestStreet": "Podevčevo",
+      "nearestStreetDist": 132,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom, jasno razlučljiva među poljoprivrednim površinama i cestom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:01.254Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.855Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 29,
+        "iou": 0.35
+      }
+    },
+    {
+      "id": "way/1558586541",
+      "lat": 46.3146258,
+      "lon": 16.3226344,
+      "obris": [
+        [
+          16.322578,
+          46.314665
+        ],
+        [
+          16.322746,
+          46.314632
+        ],
+        [
+          16.322719,
+          46.314567
+        ],
+        [
+          16.322551,
+          46.3146
+        ],
+        [
+          16.322578,
+          46.314665
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Ulica Franje Račkog",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1173560"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T17:45:10Z",
+      "changeset": 188973880,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s crvenim/smeđim krovom, okružena vegetacijom i parkiralištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:01.132Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.855Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 76,
+        "iou": 0.7
+      }
+    },
+    {
+      "id": "way/1558586542",
+      "lat": 46.3131618,
+      "lon": 16.3213864,
+      "obris": [
+        [
+          16.321541,
+          46.313169
+        ],
+        [
+          16.321506,
+          46.313084
+        ],
+        [
+          16.321155,
+          46.313151
+        ],
+        [
+          16.321189,
+          46.313236
+        ],
+        [
+          16.321541,
+          46.313169
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "36",
+        "addr:street": "Ulica Franje Račkog",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1175307"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T17:45:10Z",
+      "changeset": 188973880,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra jasno se vidi građevina s crvenim/ružičastim krovom okružena manjim strukturama.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:01.001Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.856Z",
+        "kako": "blizu",
+        "udaljenostM": 13,
+        "povrsinaMs": 285,
+        "iou": 0.14
+      }
+    },
+    {
+      "id": "way/1558588989",
+      "lat": 45.182966199999996,
+      "lon": 13.877951199999998,
+      "obris": [
+        [
+          13.877918,
+          45.182977
+        ],
+        [
+          13.877996,
+          45.182983
+        ],
+        [
+          13.878001,
+          45.18295
+        ],
+        [
+          13.877923,
+          45.182944
+        ],
+        [
+          13.877918,
+          45.182977
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-13T17:56:59Z",
+      "changeset": 188974441,
+      "osmUser": "skrtaca",
+      "nearestStreet": "Dragovanci",
+      "nearestStreetDist": 126,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidi se jasno izgrađena zgrada s crvenim krovom okružena gustom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:04.629Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.856Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 36,
+        "iou": 0.11
+      }
+    },
+    {
+      "id": "way/1558588990",
+      "lat": 45.181196799999995,
+      "lon": 13.8759522,
+      "obris": [
+        [
+          13.875915,
+          45.181208
+        ],
+        [
+          13.875988,
+          45.181224
+        ],
+        [
+          13.876008,
+          45.18118
+        ],
+        [
+          13.875935,
+          45.181164
+        ],
+        [
+          13.875915,
+          45.181208
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-13T17:56:59Z",
+      "changeset": 188974441,
+      "osmUser": "skrtaca",
+      "nearestStreet": "Dragovanci",
+      "nearestStreetDist": 34,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je izgradjena zgrada s jasno vidljivim svjetlijim krovom na pozadini zelene vegetacije.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:03.358Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.856Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 30,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558588991",
+      "lat": 45.180756,
+      "lon": 13.8754966,
+      "obris": [
+        [
+          13.875455,
+          45.180776
+        ],
+        [
+          13.875472,
+          45.180714
+        ],
+        [
+          13.875559,
+          45.180726
+        ],
+        [
+          13.875542,
+          45.180788
+        ],
+        [
+          13.875455,
+          45.180776
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-13T17:56:59Z",
+      "changeset": 188974441,
+      "osmUser": "skrtaca",
+      "nearestStreet": "Dragovanci",
+      "nearestStreetDist": 72,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiv je krov sive/tamne boje s jasnim konturama, što ukazuje na izgrađenu zgradu okruženu vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:03.888Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.856Z",
+        "kako": "blizu",
+        "udaljenostM": 4,
+        "povrsinaMs": 19,
+        "iou": 0.14
+      }
+    },
+    {
+      "id": "way/1558588992",
+      "lat": 45.180905599999996,
+      "lon": 13.8762664,
+      "obris": [
+        [
+          13.876229,
+          45.180906
+        ],
+        [
+          13.876288,
+          45.180937
+        ],
+        [
+          13.876322,
+          45.180905
+        ],
+        [
+          13.876264,
+          45.180874
+        ],
+        [
+          13.876229,
+          45.180906
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-13T17:56:59Z",
+      "changeset": 188974441,
+      "osmUser": "skrtaca",
+      "nearestStreet": "Dragovanci",
+      "nearestStreetDist": 9,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom okružena vegetacijom i obrađenim poljoprivrednim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:04.027Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.856Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 32,
+        "iou": 0.68
+      }
+    },
+    {
+      "id": "way/1558588993",
+      "lat": 45.180938857142856,
+      "lon": 13.87579657142857,
+      "obris": [
+        [
+          13.875773,
+          45.180866
+        ],
+        [
+          13.875676,
+          45.180934
+        ],
+        [
+          13.875856,
+          45.18106
+        ],
+        [
+          13.875909,
+          45.181023
+        ],
+        [
+          13.875773,
+          45.180927
+        ],
+        [
+          13.875816,
+          45.180896
+        ],
+        [
+          13.875773,
+          45.180866
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-13T17:56:59Z",
+      "changeset": 188974441,
+      "osmUser": "skrtaca",
+      "nearestStreet": "Dragovanci",
+      "nearestStreetDist": 43,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s sivim krovom okružena s vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:03.856Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.856Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 72,
+        "iou": 0.37
+      }
+    },
+    {
+      "id": "way/1558601846",
+      "lat": 46.10711740000001,
+      "lon": 16.2761942,
+      "obris": [
+        [
+          16.276195,
+          46.107129
+        ],
+        [
+          16.276214,
+          46.107112
+        ],
+        [
+          16.276193,
+          46.1071
+        ],
+        [
+          16.276174,
+          46.107117
+        ],
+        [
+          16.276195,
+          46.107129
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-13T18:55:57Z",
+      "changeset": 188976694,
+      "osmUser": "rokeg",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva građevina s crvenim krovom okružena zelenom vegetacijom i obrađenim poljima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:07.275Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.856Z"
+      }
+    },
+    {
+      "id": "way/1558604051",
+      "lat": 44.051104200000005,
+      "lon": 15.3191562,
+      "obris": [
+        [
+          15.31919,
+          44.051053
+        ],
+        [
+          15.319053,
+          44.051098
+        ],
+        [
+          15.319105,
+          44.051181
+        ],
+        [
+          15.319243,
+          44.051136
+        ],
+        [
+          15.31919,
+          44.051053
+        ]
+      ],
+      "tags": {
+        "addr:city": "Sukošan",
+        "addr:postcode": "23206",
+        "addr:street": "Svetog Martina",
+        "building": "detached",
+        "building:levels": "3"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-13T19:11:55Z",
+      "changeset": 188977520,
+      "osmUser": "Pitchyscratchee",
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s jasnо razvidljivim krovom svijetlosive boje okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:06.870Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.857Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 123,
+        "iou": 0.26
+      }
+    },
+    {
+      "id": "way/1558758626",
+      "lat": 42.8892038,
+      "lon": 17.4557996,
+      "obris": [
+        [
+          17.455796,
+          42.889252
+        ],
+        [
+          17.455876,
+          42.889217
+        ],
+        [
+          17.455805,
+          42.889131
+        ],
+        [
+          17.455725,
+          42.889167
+        ],
+        [
+          17.455796,
+          42.889252
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Dubrovačko-neretvanska županija",
+      "validFrom": "2026-09-14T06:34:11Z",
+      "changeset": 188993218,
+      "osmUser": "phlustik",
+      "dguAdresa": {
+        "street": "Polje",
+        "houseNumber": "9",
+        "settlement": "Žuljana",
+        "postcode": "20247",
+        "city": "Žuljana",
+        "lon": 17.455805,
+        "lat": 42.889184
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Polje",
+          "houseNumber": "9",
+          "settlement": "Žuljana",
+          "postcode": "20247",
+          "city": "Žuljana",
+          "lon": 17.455805,
+          "lat": 42.889184
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s tamnim krovom okružena vegetacijom i poljskim putovima.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:07.517Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.857Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 89,
+        "iou": 0.34
+      }
+    },
+    {
+      "id": "way/1558762757",
+      "lat": 45.298017,
+      "lon": 13.633093399999998,
+      "obris": [
+        [
+          13.633073,
+          45.298043
+        ],
+        [
+          13.633057,
+          45.297987
+        ],
+        [
+          13.633124,
+          45.297978
+        ],
+        [
+          13.63314,
+          45.298034
+        ],
+        [
+          13.633073,
+          45.298043
+        ]
+      ],
+      "tags": {
+        "building": "carport"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-14T07:07:44Z",
+      "changeset": 188994331,
+      "osmUser": "Nicthurne",
+      "nearestStreet": "Ulica Vladimira Gortana",
+      "nearestStreetDist": 116,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s plavim bazenom i šumskom vegetacijom u neposrednoj blizini.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:06.744Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.857Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 44,
+        "iou": 0.35
+      }
+    },
+    {
+      "id": "way/1558762758",
+      "lat": 45.29788533333333,
+      "lon": 13.632614833333333,
+      "obris": [
+        [
+          13.632576,
+          45.297852
+        ],
+        [
+          13.632651,
+          45.297842
+        ],
+        [
+          13.632672,
+          45.297916
+        ],
+        [
+          13.632616,
+          45.297923
+        ],
+        [
+          13.632598,
+          45.297927
+        ],
+        [
+          13.632576,
+          45.297852
+        ]
+      ],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "shelter_type": "gazebo"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-14T07:07:44Z",
+      "changeset": 188994331,
+      "osmUser": "Nicthurne",
+      "nearestStreet": "Ulica Vladimira Gortana",
+      "nearestStreetDist": 77,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra je vidljiva bijela građevina s plavim bazenom, okružena zelenom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:07.011Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.857Z"
+      }
+    },
+    {
+      "id": "way/1558762761",
+      "lat": 45.297955,
+      "lon": 13.632647400000002,
+      "obris": [
+        [
+          13.632631,
+          45.297981
+        ],
+        [
+          13.632616,
+          45.297923
+        ],
+        [
+          13.632672,
+          45.297916
+        ],
+        [
+          13.632687,
+          45.297974
+        ],
+        [
+          13.632631,
+          45.297981
+        ]
+      ],
+      "tags": {
+        "building": "bungalow"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-14T07:07:44Z",
+      "changeset": 188994331,
+      "osmUser": "Nicthurne",
+      "dguAdresa": {
+        "street": "Stancija Markovica",
+        "houseNumber": "4",
+        "settlement": "Tar",
+        "postcode": "52465",
+        "city": "Tar (Torre)",
+        "lon": 13.632663,
+        "lat": 45.297934
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Stancija Markovica",
+          "houseNumber": "4",
+          "settlement": "Tar",
+          "postcode": "52465",
+          "city": "Tar (Torre)",
+          "lon": 13.632663,
+          "lat": 45.297934
+        }
+      ],
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidi se svijetla građevina s bazenom i dijelom krovnog pokrova okružena vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:09.489Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.857Z"
+      }
+    },
+    {
+      "id": "way/1558762762",
+      "lat": 45.2980576,
+      "lon": 13.6326874,
+      "obris": [
+        [
+          13.632711,
+          45.298078
+        ],
+        [
+          13.63272,
+          45.298034
+        ],
+        [
+          13.632652,
+          45.298027
+        ],
+        [
+          13.632643,
+          45.298071
+        ],
+        [
+          13.632711,
+          45.298078
+        ]
+      ],
+      "tags": {
+        "building": "bungalow"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-14T07:07:44Z",
+      "changeset": 188994331,
+      "osmUser": "Nicthurne",
+      "nearestStreet": "Ulica Vladimira Gortana",
+      "nearestStreetDist": 92,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru snimke vidljiva je zgrada s pravokutnim obrisom i svjetlijim krovom, okružena s vegetacijom i obrađenim zemljištem.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:09.979Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.857Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 16,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1558762763",
+      "lat": 45.2977838,
+      "lon": 13.632459,
+      "obris": [
+        [
+          13.6324,
+          45.297813
+        ],
+        [
+          13.6324,
+          45.297741
+        ],
+        [
+          13.632547,
+          45.29774
+        ],
+        [
+          13.632548,
+          45.297812
+        ],
+        [
+          13.6324,
+          45.297813
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-14T07:07:44Z",
+      "changeset": 188994331,
+      "osmUser": "Nicthurne",
+      "nearestStreet": "Ulica Vladimira Gortana",
+      "nearestStreetDist": 60,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je građevina s jasno vidljivim krovom svijetle boje okružena šumskom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:09.940Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.858Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 58,
+        "iou": 0.5
+      }
+    },
+    {
+      "id": "way/1558776740",
+      "lat": 42.889542399999996,
+      "lon": 17.4555626,
+      "obris": [
+        [
+          17.455511,
+          42.889535
+        ],
+        [
+          17.45559,
+          42.889497
+        ],
+        [
+          17.45564,
+          42.889554
+        ],
+        [
+          17.455561,
+          42.889591
+        ],
+        [
+          17.455511,
+          42.889535
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Dubrovačko-neretvanska županija",
+      "validFrom": "2026-09-14T08:06:53Z",
+      "changeset": 188996641,
+      "osmUser": "phlustik",
+      "nearestStreet": "Polje",
+      "nearestStreetDist": 37,
+      "satelitProvjera": {
+        "status": "stara",
+        "obrazlozenje": "U centru kadra vidljiva je zgrada s crvenim krovom i okolnom vegetacijom.",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-14T10:00:09.936Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-14T10:00:30.858Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 91,
+        "iou": 0.45
+      }
+    }
+  ]
+}
