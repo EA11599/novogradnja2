@@ -43713,6 +43713,13 @@
         "udaljenostM": 4,
         "povrsinaMs": 99,
         "iou": 0.63
+      },
+      "dguNovaAdresaPoklapanje": {
+        "street": "Fuškulin - Foscolino",
+        "houseNumber": "83G",
+        "datum": "2026-09-14",
+        "udaljenostM": 0,
+        "unutarObrisa": true
       }
     },
     {

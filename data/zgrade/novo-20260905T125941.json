@@ -25871,6 +25871,13 @@
         "udaljenostM": 2,
         "povrsinaMs": 237,
         "iou": 0.47
+      },
+      "dguNovaAdresaPoklapanje": {
+        "street": "Josipa Jurja Strossmayera",
+        "houseNumber": "50A",
+        "datum": "2026-09-14",
+        "udaljenostM": 0,
+        "unutarObrisa": true
       }
     },
     {
