@@ -1,0 +1,2759 @@
+{
+  "from": "2026-09-27T09:16:47Z",
+  "to": "2026-09-28T10:08:43Z",
+  "count": 47,
+  "features": [
+    {
+      "id": "way/1562705182",
+      "lat": 44.3433922,
+      "lon": 15.107011600000002,
+      "obris": [
+        [
+          15.106928,
+          44.343373
+        ],
+        [
+          15.106947,
+          44.343446
+        ],
+        [
+          15.107137,
+          44.343421
+        ],
+        [
+          15.107118,
+          44.343348
+        ],
+        [
+          15.106928,
+          44.343373
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T09:24:47Z",
+      "changeset": 189620259,
+      "osmUser": "N7lo",
+      "nearestStreet": "Put svetog Nikole",
+      "nearestStreetDist": 60,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:12.582Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.317Z"
+      }
+    },
+    {
+      "id": "way/1562705183",
+      "lat": 44.3435112,
+      "lon": 15.107043999999998,
+      "obris": [
+        [
+          15.106961,
+          44.343492
+        ],
+        [
+          15.106979,
+          44.343565
+        ],
+        [
+          15.107169,
+          44.34354
+        ],
+        [
+          15.10715,
+          44.343467
+        ],
+        [
+          15.106961,
+          44.343492
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T09:24:47Z",
+      "changeset": 189620259,
+      "osmUser": "N7lo",
+      "nearestStreet": "Put svetog Nikole",
+      "nearestStreetDist": 66,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:12.395Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.317Z"
+      }
+    },
+    {
+      "id": "way/1562707901",
+      "lat": 45.715852999999996,
+      "lon": 15.679400285714284,
+      "obris": [
+        [
+          15.67936,
+          45.715852
+        ],
+        [
+          15.679383,
+          45.715801
+        ],
+        [
+          15.679464,
+          45.715818
+        ],
+        [
+          15.679429,
+          45.715896
+        ],
+        [
+          15.679397,
+          45.715889
+        ],
+        [
+          15.679409,
+          45.715863
+        ],
+        [
+          15.67936,
+          45.715852
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "dguAdresa": {
+        "street": "Vlaškovečka",
+        "houseNumber": "21",
+        "settlement": "Prhoć",
+        "postcode": "10450",
+        "city": "Jastrebarsko",
+        "lon": 15.679422,
+        "lat": 45.715835
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Vlaškovečka",
+          "houseNumber": "21",
+          "settlement": "Prhoć",
+          "postcode": "10450",
+          "city": "Jastrebarsko",
+          "lon": 15.679422,
+          "lat": 45.715835
+        }
+      ],
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:12.401Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.317Z",
+        "kako": "blizu",
+        "udaljenostM": 5,
+        "povrsinaMs": 53,
+        "iou": 0.41
+      }
+    },
+    {
+      "id": "way/1562707928",
+      "lat": 45.714444199999996,
+      "lon": 15.6707786,
+      "obris": [
+        [
+          15.670757,
+          45.714475
+        ],
+        [
+          15.670723,
+          45.714431
+        ],
+        [
+          15.670811,
+          45.714398
+        ],
+        [
+          15.670845,
+          45.714442
+        ],
+        [
+          15.670757,
+          45.714475
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "dguAdresa": {
+        "street": "Vlaškovec",
+        "houseNumber": "86A",
+        "settlement": "Vlaškovec",
+        "postcode": "10450",
+        "city": "Jastrebarsko",
+        "lon": 15.670788,
+        "lat": 45.714438
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Vlaškovec",
+          "houseNumber": "86A",
+          "settlement": "Vlaškovec",
+          "postcode": "10450",
+          "city": "Jastrebarsko",
+          "lon": 15.670788,
+          "lat": 45.714438
+        }
+      ],
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:12.339Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 64,
+        "iou": 0.08
+      }
+    },
+    {
+      "id": "way/1562707936",
+      "lat": 45.7166912,
+      "lon": 15.670331,
+      "obris": [
+        [
+          15.670352,
+          45.716712
+        ],
+        [
+          15.67035,
+          45.716659
+        ],
+        [
+          15.670299,
+          45.71666
+        ],
+        [
+          15.670302,
+          45.716713
+        ],
+        [
+          15.670352,
+          45.716712
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "nearestStreet": "Vinogradarska",
+      "nearestStreetDist": 140,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:12.713Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z"
+      }
+    },
+    {
+      "id": "way/1562707937",
+      "lat": 45.7167886,
+      "lon": 15.6704476,
+      "obris": [
+        [
+          15.67042,
+          45.716801
+        ],
+        [
+          15.670418,
+          45.716773
+        ],
+        [
+          15.670489,
+          45.71677
+        ],
+        [
+          15.670491,
+          45.716798
+        ],
+        [
+          15.67042,
+          45.716801
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "nearestStreet": "Vinogradarska",
+      "nearestStreetDist": 149,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:13.704Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z"
+      }
+    },
+    {
+      "id": "way/1562707938",
+      "lat": 45.7166538,
+      "lon": 15.670567600000002,
+      "obris": [
+        [
+          15.670546,
+          45.716664
+        ],
+        [
+          15.670544,
+          45.716642
+        ],
+        [
+          15.6706,
+          45.716638
+        ],
+        [
+          15.670602,
+          45.716661
+        ],
+        [
+          15.670546,
+          45.716664
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "nearestStreet": "Vinogradarska",
+      "nearestStreetDist": 155,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:13.564Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z"
+      }
+    },
+    {
+      "id": "way/1562707940",
+      "lat": 45.7150404,
+      "lon": 15.6744296,
+      "obris": [
+        [
+          15.674437,
+          45.715025
+        ],
+        [
+          15.674456,
+          45.715051
+        ],
+        [
+          15.674418,
+          45.715064
+        ],
+        [
+          15.6744,
+          45.715037
+        ],
+        [
+          15.674437,
+          45.715025
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "nearestStreet": "Vinogradarska",
+      "nearestStreetDist": 219,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:13.824Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z"
+      }
+    },
+    {
+      "id": "way/1562707941",
+      "lat": 45.7148192,
+      "lon": 15.674619400000001,
+      "obris": [
+        [
+          15.674636,
+          45.714823
+        ],
+        [
+          15.674622,
+          45.714804
+        ],
+        [
+          15.674595,
+          45.714814
+        ],
+        [
+          15.674608,
+          45.714832
+        ],
+        [
+          15.674636,
+          45.714823
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "nearestStreet": "Vinogradarska",
+      "nearestStreetDist": 213,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:13.837Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z"
+      }
+    },
+    {
+      "id": "way/1562707945",
+      "lat": 45.7140458,
+      "lon": 15.6764924,
+      "obris": [
+        [
+          15.676465,
+          45.714075
+        ],
+        [
+          15.676437,
+          45.714036
+        ],
+        [
+          15.676533,
+          45.714002
+        ],
+        [
+          15.676562,
+          45.714041
+        ],
+        [
+          15.676465,
+          45.714075
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "nearestStreet": "Vinogradarska",
+      "nearestStreetDist": 223,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:13.466Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 1,
+        "povrsinaMs": 42,
+        "iou": 0.62
+      }
+    },
+    {
+      "id": "way/1562707946",
+      "lat": 45.713932400000004,
+      "lon": 15.677018799999999,
+      "obris": [
+        [
+          15.677004,
+          45.713966
+        ],
+        [
+          15.67697,
+          45.7139
+        ],
+        [
+          15.677041,
+          45.713882
+        ],
+        [
+          15.677075,
+          45.713948
+        ],
+        [
+          15.677004,
+          45.713966
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "nearestStreet": "Vinogradarska",
+      "nearestStreetDist": 234,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:14.729Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 75,
+        "iou": 0.59
+      }
+    },
+    {
+      "id": "way/1562707947",
+      "lat": 45.7137594,
+      "lon": 15.6770636,
+      "obris": [
+        [
+          15.677095,
+          45.713771
+        ],
+        [
+          15.677067,
+          45.713726
+        ],
+        [
+          15.677017,
+          45.713742
+        ],
+        [
+          15.677044,
+          45.713787
+        ],
+        [
+          15.677095,
+          45.713771
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T09:38:26Z",
+      "changeset": 189620737,
+      "osmUser": "Aranc",
+      "nearestStreet": "Vinogradarska",
+      "nearestStreetDist": 220,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:14.780Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z",
+        "kako": "blizu",
+        "udaljenostM": 2,
+        "povrsinaMs": 34,
+        "iou": 0.31
+      }
+    },
+    {
+      "id": "way/1562737550",
+      "lat": 45.505050142857144,
+      "lon": 18.669017571428572,
+      "obris": [
+        [
+          18.668821,
+          45.505103
+        ],
+        [
+          18.66899,
+          45.504844
+        ],
+        [
+          18.66927,
+          45.504931
+        ],
+        [
+          18.669147,
+          45.505116
+        ],
+        [
+          18.669062,
+          45.505091
+        ],
+        [
+          18.669012,
+          45.505163
+        ],
+        [
+          18.668821,
+          45.505103
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Mlakar Viličari"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-09-27T11:37:20Z",
+      "changeset": 189625495,
+      "osmUser": "AntonioToni",
+      "dguAdresa": {
+        "street": "Gospodarska zona Antunovac",
+        "houseNumber": "63",
+        "settlement": "Antunovac",
+        "postcode": "31216",
+        "city": "Antunovac",
+        "lon": 18.668951,
+        "lat": 45.505071
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Gospodarska zona Antunovac",
+          "houseNumber": "63",
+          "settlement": "Antunovac",
+          "postcode": "31216",
+          "city": "Antunovac",
+          "lon": 18.668951,
+          "lat": 45.505071
+        }
+      ],
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:14.817Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.319Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 6,
+        "povrsinaMs": 464,
+        "iou": 0.61
+      }
+    },
+    {
+      "id": "way/1562758328",
+      "lat": 45.808213,
+      "lon": 15.983203916666666,
+      "obris": [
+        [
+          15.983332,
+          45.808274
+        ],
+        [
+          15.983398,
+          45.808274
+        ],
+        [
+          15.983401,
+          45.808258
+        ],
+        [
+          15.983407,
+          45.808212
+        ],
+        [
+          15.983355,
+          45.808212
+        ],
+        [
+          15.983087,
+          45.808204
+        ],
+        [
+          15.983086,
+          45.808154
+        ],
+        [
+          15.983087,
+          45.808103
+        ],
+        [
+          15.982989,
+          45.808102
+        ],
+        [
+          15.982988,
+          45.808228
+        ],
+        [
+          15.982985,
+          45.808261
+        ],
+        [
+          15.983332,
+          45.808274
+        ]
+      ],
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "58/2",
+        "addr:postcode": "10000",
+        "addr:street": "Draškovićeva ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22123413",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      },
+      "zupanija": "Grad Zagreb",
+      "validFrom": "2026-09-27T13:04:06Z",
+      "changeset": 189629264,
+      "osmUser": "Janjko",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:14.568Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.340Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 74,
+        "povrsinaMs": 16320,
+        "iou": 0.02
+      }
+    },
+    {
+      "id": "way/1562758329",
+      "lat": 45.80814266666666,
+      "lon": 15.983287166666665,
+      "obris": [
+        [
+          15.983386,
+          45.808164
+        ],
+        [
+          15.983387,
+          45.808158
+        ],
+        [
+          15.983391,
+          45.808113
+        ],
+        [
+          15.983087,
+          45.808103
+        ],
+        [
+          15.983086,
+          45.808154
+        ],
+        [
+          15.983386,
+          45.808164
+        ]
+      ],
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "58/1",
+        "addr:postcode": "10000",
+        "addr:street": "Draškovićeva ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22123412"
+      },
+      "zupanija": "Grad Zagreb",
+      "validFrom": "2026-09-27T13:04:06Z",
+      "changeset": 189629264,
+      "osmUser": "Janjko",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:14.776Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.359Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 83,
+        "povrsinaMs": 16320,
+        "iou": 0.01
+      }
+    },
+    {
+      "id": "way/1562758330",
+      "lat": 45.8081412,
+      "lon": 15.983416,
+      "obris": [
+        [
+          15.983387,
+          45.808158
+        ],
+        [
+          15.983455,
+          45.808161
+        ],
+        [
+          15.98346,
+          45.808116
+        ],
+        [
+          15.983391,
+          45.808113
+        ],
+        [
+          15.983387,
+          45.808158
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Grad Zagreb",
+      "validFrom": "2026-09-27T13:04:06Z",
+      "changeset": 189629264,
+      "osmUser": "Janjko",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:15.758Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.377Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 86,
+        "povrsinaMs": 16320,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1562763958",
+      "lat": 45.809185400000004,
+      "lon": 15.983266300000002,
+      "obris": [
+        [
+          15.983345,
+          45.809226
+        ],
+        [
+          15.983346,
+          45.809215
+        ],
+        [
+          15.983347,
+          45.809158
+        ],
+        [
+          15.983349,
+          45.809147
+        ],
+        [
+          15.983246,
+          45.809141
+        ],
+        [
+          15.983123,
+          45.809119
+        ],
+        [
+          15.983112,
+          45.809198
+        ],
+        [
+          15.983154,
+          45.809205
+        ],
+        [
+          15.983296,
+          45.809219
+        ],
+        [
+          15.983345,
+          45.809226
+        ]
+      ],
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "46/2",
+        "addr:postcode": "10000",
+        "addr:street": "Draškovićeva ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22123410"
+      },
+      "zupanija": "Grad Zagreb",
+      "validFrom": "2026-09-27T13:32:08Z",
+      "changeset": 189630528,
+      "osmUser": "Janjko",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:15.754Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.397Z",
+        "kako": "blizu",
+        "udaljenostM": 12,
+        "povrsinaMs": 370,
+        "iou": 0.08
+      }
+    },
+    {
+      "id": "way/1562767368",
+      "lat": 45.80905966666666,
+      "lon": 15.983257333333333,
+      "obris": [
+        [
+          15.983362,
+          45.809065
+        ],
+        [
+          15.983357,
+          45.809083
+        ],
+        [
+          15.98313,
+          45.809062
+        ],
+        [
+          15.983137,
+          45.809039
+        ],
+        [
+          15.983196,
+          45.809044
+        ],
+        [
+          15.983362,
+          45.809065
+        ]
+      ],
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "46/1",
+        "addr:postcode": "10000",
+        "addr:street": "Draškovićeva ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22123409"
+      },
+      "zupanija": "Grad Zagreb",
+      "validFrom": "2026-09-27T13:49:58Z",
+      "changeset": 189631380,
+      "osmUser": "Janjko",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:15.543Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.415Z",
+        "kako": "blizu",
+        "udaljenostM": 25,
+        "povrsinaMs": 370,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1562767895",
+      "lat": 45.80900728571429,
+      "lon": 15.983197142857142,
+      "obris": [
+        [
+          15.98323,
+          45.809006
+        ],
+        [
+          15.983234,
+          45.808979
+        ],
+        [
+          15.983148,
+          45.808973
+        ],
+        [
+          15.983137,
+          45.809039
+        ],
+        [
+          15.983196,
+          45.809044
+        ],
+        [
+          15.983205,
+          45.809004
+        ],
+        [
+          15.98323,
+          45.809006
+        ]
+      ],
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "48/1",
+        "addr:postcode": "10000",
+        "addr:street": "Draškovićeva ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22134750"
+      },
+      "zupanija": "Grad Zagreb",
+      "validFrom": "2026-09-27T13:53:38Z",
+      "changeset": 189631573,
+      "osmUser": "Janjko",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:15.723Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.434Z",
+        "kako": "blizu",
+        "udaljenostM": 21,
+        "povrsinaMs": 16320,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1562771639",
+      "lat": 44.34857600000001,
+      "lon": 15.102338800000002,
+      "obris": [
+        [
+          15.102222,
+          44.348609
+        ],
+        [
+          15.102251,
+          44.348658
+        ],
+        [
+          15.102322,
+          44.348636
+        ],
+        [
+          15.102349,
+          44.348679
+        ],
+        [
+          15.102472,
+          44.348641
+        ],
+        [
+          15.102452,
+          44.348608
+        ],
+        [
+          15.10252,
+          44.348587
+        ],
+        [
+          15.102429,
+          44.348437
+        ],
+        [
+          15.102347,
+          44.348462
+        ],
+        [
+          15.102366,
+          44.348493
+        ],
+        [
+          15.102289,
+          44.348517
+        ],
+        [
+          15.102308,
+          44.348548
+        ],
+        [
+          15.102258,
+          44.348564
+        ],
+        [
+          15.102275,
+          44.348592
+        ],
+        [
+          15.102222,
+          44.348609
+        ]
+      ],
+      "tags": {
+        "addr:city": "Povljana",
+        "addr:housenumber": "13",
+        "addr:postcode": "23249",
+        "addr:street": "Zadarska ulica",
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:15.803Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.435Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 401,
+        "iou": 0.68
+      }
+    },
+    {
+      "id": "way/1562771640",
+      "lat": 44.34858559999999,
+      "lon": 15.102809200000001,
+      "obris": [
+        [
+          15.102688,
+          44.34859
+        ],
+        [
+          15.102758,
+          44.348676
+        ],
+        [
+          15.102991,
+          44.348579
+        ],
+        [
+          15.102921,
+          44.348493
+        ],
+        [
+          15.102688,
+          44.34859
+        ]
+      ],
+      "tags": {
+        "addr:city": "Povljana",
+        "addr:housenumber": "11",
+        "addr:postcode": "23249",
+        "addr:street": "Zadarska ulica",
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:16.553Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.435Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 284,
+        "iou": 0.69
+      }
+    },
+    {
+      "id": "way/1562771641",
+      "lat": 44.348668999999994,
+      "lon": 15.103005,
+      "obris": [
+        [
+          15.102886,
+          44.348675
+        ],
+        [
+          15.102944,
+          44.348752
+        ],
+        [
+          15.103183,
+          44.34866
+        ],
+        [
+          15.103126,
+          44.348583
+        ],
+        [
+          15.102886,
+          44.348675
+        ]
+      ],
+      "tags": {
+        "addr:city": "Povljana",
+        "addr:housenumber": "10",
+        "addr:postcode": "23249",
+        "addr:street": "Splitska ulica",
+        "building": "yes"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:16.697Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.435Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 278,
+        "iou": 0.64
+      }
+    },
+    {
+      "id": "way/1562771653",
+      "lat": 44.3974794,
+      "lon": 15.1181998,
+      "obris": [
+        [
+          15.118135,
+          44.397477
+        ],
+        [
+          15.118238,
+          44.397536
+        ],
+        [
+          15.118297,
+          44.397483
+        ],
+        [
+          15.118194,
+          44.397424
+        ],
+        [
+          15.118135,
+          44.397477
+        ]
+      ],
+      "tags": {
+        "addr:city": "Gorica",
+        "addr:housenumber": "5A",
+        "addr:postcode": "23249",
+        "addr:street": "Gorica",
+        "building": "house"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:16.694Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.435Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 151,
+        "iou": 0.38
+      }
+    },
+    {
+      "id": "way/1562771654",
+      "lat": 44.3982252,
+      "lon": 15.119570199999998,
+      "obris": [
+        [
+          15.119627,
+          44.398237
+        ],
+        [
+          15.119577,
+          44.398172
+        ],
+        [
+          15.119485,
+          44.398208
+        ],
+        [
+          15.119535,
+          44.398272
+        ],
+        [
+          15.119627,
+          44.398237
+        ]
+      ],
+      "tags": {
+        "addr:city": "Gorica",
+        "addr:housenumber": "24B",
+        "addr:postcode": "23249",
+        "addr:street": "Gorica",
+        "building": "house"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:16.727Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.435Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 169,
+        "iou": 0.31
+      }
+    },
+    {
+      "id": "way/1562771655",
+      "lat": 44.39858399999999,
+      "lon": 15.1187984,
+      "obris": [
+        [
+          15.118754,
+          44.398588
+        ],
+        [
+          15.118804,
+          44.398623
+        ],
+        [
+          15.118865,
+          44.398578
+        ],
+        [
+          15.118815,
+          44.398543
+        ],
+        [
+          15.118754,
+          44.398588
+        ]
+      ],
+      "tags": {
+        "addr:city": "Gorica",
+        "addr:housenumber": "47",
+        "addr:postcode": "23249",
+        "addr:street": "Gorica",
+        "building": "house"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:16.907Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.435Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 91,
+        "iou": 0.31
+      }
+    },
+    {
+      "id": "way/1562771656",
+      "lat": 44.3985018,
+      "lon": 15.118681599999999,
+      "obris": [
+        [
+          15.118688,
+          44.398542
+        ],
+        [
+          15.118609,
+          44.398487
+        ],
+        [
+          15.118673,
+          44.398441
+        ],
+        [
+          15.11875,
+          44.398497
+        ],
+        [
+          15.118688,
+          44.398542
+        ]
+      ],
+      "tags": {
+        "addr:city": "Gorica",
+        "addr:housenumber": "43",
+        "addr:postcode": "23249",
+        "addr:street": "Gorica",
+        "building": "house"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:18.023Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "blizu",
+        "udaljenostM": 16,
+        "povrsinaMs": 91,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1562771657",
+      "lat": 44.3987786,
+      "lon": 15.118314199999997,
+      "obris": [
+        [
+          15.118257,
+          44.398762
+        ],
+        [
+          15.118326,
+          44.398838
+        ],
+        [
+          15.1184,
+          44.398803
+        ],
+        [
+          15.118331,
+          44.398728
+        ],
+        [
+          15.118257,
+          44.398762
+        ]
+      ],
+      "tags": {
+        "addr:city": "Gorica",
+        "addr:housenumber": "55",
+        "addr:postcode": "23249",
+        "addr:street": "Gorica",
+        "building": "house"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:17.915Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z"
+      }
+    },
+    {
+      "id": "way/1562771658",
+      "lat": 44.399330799999994,
+      "lon": 15.1193364,
+      "obris": [
+        [
+          15.119286,
+          44.399332
+        ],
+        [
+          15.119342,
+          44.399375
+        ],
+        [
+          15.119412,
+          44.399329
+        ],
+        [
+          15.119356,
+          44.399286
+        ],
+        [
+          15.119286,
+          44.399332
+        ]
+      ],
+      "tags": {
+        "addr:city": "Gorica",
+        "addr:housenumber": "79",
+        "addr:postcode": "23249",
+        "addr:street": "Gorica",
+        "building": "house"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:17.914Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 32,
+        "iou": 0.67
+      }
+    },
+    {
+      "id": "way/1562771659",
+      "lat": 44.3994632,
+      "lon": 15.1189894,
+      "obris": [
+        [
+          15.118992,
+          44.399434
+        ],
+        [
+          15.119041,
+          44.399467
+        ],
+        [
+          15.118991,
+          44.399509
+        ],
+        [
+          15.118931,
+          44.399472
+        ],
+        [
+          15.118992,
+          44.399434
+        ]
+      ],
+      "tags": {
+        "addr:city": "Gorica",
+        "addr:housenumber": "71",
+        "addr:postcode": "23249",
+        "addr:street": "Gorica",
+        "building": "house"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-27T14:14:58Z",
+      "changeset": 189632699,
+      "osmUser": "N7lo",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:17.738Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 264,
+        "iou": 0.11
+      }
+    },
+    {
+      "id": "way/1562774678",
+      "lat": 46.305228428571425,
+      "lon": 16.437696428571428,
+      "obris": [
+        [
+          16.437672,
+          46.305209
+        ],
+        [
+          16.437667,
+          46.30523
+        ],
+        [
+          16.437689,
+          46.305233
+        ],
+        [
+          16.437685,
+          46.305247
+        ],
+        [
+          16.437741,
+          46.305253
+        ],
+        [
+          16.437749,
+          46.305218
+        ],
+        [
+          16.437672,
+          46.305209
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T14:29:49Z",
+      "changeset": 189633419,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Prilaz jezeru",
+      "nearestStreetDist": 19,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:17.609Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "blizu",
+        "udaljenostM": 9,
+        "povrsinaMs": 27,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1562774679",
+      "lat": 46.305249399999994,
+      "lon": 16.4377754,
+      "obris": [
+        [
+          16.437748,
+          46.305263
+        ],
+        [
+          16.437807,
+          46.30527
+        ],
+        [
+          16.437817,
+          46.305229
+        ],
+        [
+          16.437757,
+          46.305222
+        ],
+        [
+          16.437748,
+          46.305263
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T14:29:49Z",
+      "changeset": 189633419,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Prilaz jezeru",
+      "nearestStreetDist": 26,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:19.022Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 27,
+        "iou": 0.27
+      }
+    },
+    {
+      "id": "way/1562774680",
+      "lat": 46.305321,
+      "lon": 16.437596142857142,
+      "obris": [
+        [
+          16.437485,
+          46.305341
+        ],
+        [
+          16.437735,
+          46.305371
+        ],
+        [
+          16.437748,
+          46.30532
+        ],
+        [
+          16.437608,
+          46.305304
+        ],
+        [
+          16.437612,
+          46.305292
+        ],
+        [
+          16.4375,
+          46.305278
+        ],
+        [
+          16.437485,
+          46.305341
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T14:29:49Z",
+      "changeset": 189633419,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Prilaz jezeru",
+        "houseNumber": "22",
+        "settlement": "Bartolovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki",
+        "lon": 16.437599,
+        "lat": 46.305322
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Prilaz jezeru",
+          "houseNumber": "22",
+          "settlement": "Bartolovec",
+          "postcode": "42202",
+          "city": "Trnovec Bartolovečki",
+          "lon": 16.437599,
+          "lat": 46.305322
+        }
+      ],
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:18.865Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 4,
+        "povrsinaMs": 129,
+        "iou": 0.55
+      }
+    },
+    {
+      "id": "way/1562774682",
+      "lat": 46.3052648,
+      "lon": 16.436892399999998,
+      "obris": [
+        [
+          16.43685,
+          46.305284
+        ],
+        [
+          16.436958,
+          46.305281
+        ],
+        [
+          16.436956,
+          46.305236
+        ],
+        [
+          16.436848,
+          46.305239
+        ],
+        [
+          16.43685,
+          46.305284
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T14:29:49Z",
+      "changeset": 189633419,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Prilaz jezeru",
+        "houseNumber": "29",
+        "settlement": "Bartolovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki",
+        "lon": 16.436897,
+        "lat": 46.305251
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Prilaz jezeru",
+          "houseNumber": "29",
+          "settlement": "Bartolovec",
+          "postcode": "42202",
+          "city": "Trnovec Bartolovečki",
+          "lon": 16.436897,
+          "lat": 46.305251
+        }
+      ],
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:18.931Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 27,
+        "iou": 0.45
+      }
+    },
+    {
+      "id": "way/1562774683",
+      "lat": 46.3050894,
+      "lon": 16.4370182,
+      "obris": [
+        [
+          16.436981,
+          46.305105
+        ],
+        [
+          16.437074,
+          46.305105
+        ],
+        [
+          16.437074,
+          46.305066
+        ],
+        [
+          16.436981,
+          46.305066
+        ],
+        [
+          16.436981,
+          46.305105
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T14:29:49Z",
+      "changeset": 189633419,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Prilaz jezeru",
+        "houseNumber": "27",
+        "settlement": "Bartolovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki",
+        "lon": 16.43701,
+        "lat": 46.305084
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Prilaz jezeru",
+          "houseNumber": "27",
+          "settlement": "Bartolovec",
+          "postcode": "42202",
+          "city": "Trnovec Bartolovečki",
+          "lon": 16.43701,
+          "lat": 46.305084
+        }
+      ],
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:18.985Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 35,
+        "iou": 0.32
+      }
+    },
+    {
+      "id": "way/1562774684",
+      "lat": 46.3048942,
+      "lon": 16.437334599999996,
+      "obris": [
+        [
+          16.437278,
+          46.304937
+        ],
+        [
+          16.437419,
+          46.304938
+        ],
+        [
+          16.43742,
+          46.30483
+        ],
+        [
+          16.437278,
+          46.304829
+        ],
+        [
+          16.437278,
+          46.304937
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T14:29:49Z",
+      "changeset": 189633419,
+      "osmUser": "Joško Horvat",
+      "dguAdresa": {
+        "street": "Prilaz jezeru",
+        "houseNumber": "25",
+        "settlement": "Bartolovec",
+        "postcode": "42202",
+        "city": "Trnovec Bartolovečki",
+        "lon": 16.437332,
+        "lat": 46.304883
+      },
+      "dguBrojJedinica": 1,
+      "dguTocke": [
+        {
+          "street": "Prilaz jezeru",
+          "houseNumber": "25",
+          "settlement": "Bartolovec",
+          "postcode": "42202",
+          "city": "Trnovec Bartolovečki",
+          "lon": 16.437332,
+          "lat": 46.304883
+        }
+      ],
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:19.085Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 2,
+        "povrsinaMs": 152,
+        "iou": 0.63
+      }
+    },
+    {
+      "id": "way/1562774685",
+      "lat": 46.3048706,
+      "lon": 16.436945400000003,
+      "obris": [
+        [
+          16.436981,
+          46.304831
+        ],
+        [
+          16.436893,
+          46.304831
+        ],
+        [
+          16.436892,
+          46.30493
+        ],
+        [
+          16.43698,
+          46.30493
+        ],
+        [
+          16.436981,
+          46.304831
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T14:29:49Z",
+      "changeset": 189633419,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Prilaz jezeru",
+      "nearestStreetDist": 46,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:20.063Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "blizu",
+        "udaljenostM": 6,
+        "povrsinaMs": 14,
+        "iou": 0.12
+      }
+    },
+    {
+      "id": "way/1562774686",
+      "lat": 46.30487214285715,
+      "lon": 16.437038714285716,
+      "obris": [
+        [
+          16.437117,
+          46.304819
+        ],
+        [
+          16.436981,
+          46.304818
+        ],
+        [
+          16.436981,
+          46.304831
+        ],
+        [
+          16.43698,
+          46.30493
+        ],
+        [
+          16.43698,
+          46.304944
+        ],
+        [
+          16.437115,
+          46.304944
+        ],
+        [
+          16.437117,
+          46.304819
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T14:29:49Z",
+      "changeset": 189633419,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Prilaz jezeru",
+      "nearestStreetDist": 39,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:19.959Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 5,
+        "povrsinaMs": 148,
+        "iou": 0.77
+      }
+    },
+    {
+      "id": "way/1562774687",
+      "lat": 46.3053262,
+      "lon": 16.4366686,
+      "obris": [
+        [
+          16.43658,
+          46.305349
+        ],
+        [
+          16.436803,
+          46.305346
+        ],
+        [
+          16.436802,
+          46.305292
+        ],
+        [
+          16.436578,
+          46.305295
+        ],
+        [
+          16.43658,
+          46.305349
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T14:29:49Z",
+      "changeset": 189633419,
+      "osmUser": "Joško Horvat",
+      "nearestStreet": "Prilaz jezeru",
+      "nearestStreetDist": 57,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:19.938Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.436Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 3,
+        "povrsinaMs": 59,
+        "iou": 0.33
+      }
+    },
+    {
+      "id": "way/1562776649",
+      "lat": 45.299452200000005,
+      "lon": 13.625802199999999,
+      "obris": [
+        [
+          13.625754,
+          45.299465
+        ],
+        [
+          13.625859,
+          45.299485
+        ],
+        [
+          13.625872,
+          45.29943
+        ],
+        [
+          13.625772,
+          45.299416
+        ],
+        [
+          13.625754,
+          45.299465
+        ]
+      ],
+      "tags": {
+        "building": "roof",
+        "leisure": "outdoor_seating",
+        "weather_protection": "roof"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-27T14:41:15Z",
+      "changeset": 189633961,
+      "osmUser": "APneunzehn74",
+      "nearestStreet": "Vladimira Gortana",
+      "nearestStreetDist": 27,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:20.018Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.437Z",
+        "kako": "blizu",
+        "udaljenostM": 8,
+        "povrsinaMs": 121,
+        "iou": 0.12
+      }
+    },
+    {
+      "id": "way/1562776651",
+      "lat": 45.299691333333335,
+      "lon": 13.6255655,
+      "obris": [
+        [
+          13.625545,
+          45.299714
+        ],
+        [
+          13.625535,
+          45.299685
+        ],
+        [
+          13.625553,
+          45.299668
+        ],
+        [
+          13.625603,
+          45.299664
+        ],
+        [
+          13.625612,
+          45.299703
+        ],
+        [
+          13.625545,
+          45.299714
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-27T14:41:15Z",
+      "changeset": 189633961,
+      "osmUser": "APneunzehn74",
+      "nearestStreet": "Ulica sv. Martina",
+      "nearestStreetDist": 11,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:19.809Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.438Z",
+        "kako": "blizu",
+        "udaljenostM": 24,
+        "povrsinaMs": 337,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1562776652",
+      "lat": 45.29942355555555,
+      "lon": 13.625624888888888,
+      "obris": [
+        [
+          13.625533,
+          45.299364
+        ],
+        [
+          13.625496,
+          45.299433
+        ],
+        [
+          13.625547,
+          45.299442
+        ],
+        [
+          13.625635,
+          45.299455
+        ],
+        [
+          13.62575,
+          45.299473
+        ],
+        [
+          13.625754,
+          45.299465
+        ],
+        [
+          13.625772,
+          45.299416
+        ],
+        [
+          13.625604,
+          45.2994
+        ],
+        [
+          13.625533,
+          45.299364
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Istarska županija",
+      "validFrom": "2026-09-27T14:41:15Z",
+      "changeset": 189633961,
+      "osmUser": "APneunzehn74",
+      "nearestStreet": "Vladimira Gortana",
+      "nearestStreetDist": 16,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:21.162Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.439Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 10,
+        "povrsinaMs": 337,
+        "iou": 0.18
+      }
+    },
+    {
+      "id": "way/1562776664",
+      "lat": 45.5607899,
+      "lon": 18.6819561,
+      "obris": [
+        [
+          18.681671,
+          45.560719
+        ],
+        [
+          18.681762,
+          45.560974
+        ],
+        [
+          18.682186,
+          45.560895
+        ],
+        [
+          18.682219,
+          45.560869
+        ],
+        [
+          18.682223,
+          45.560707
+        ],
+        [
+          18.68207,
+          45.560735
+        ],
+        [
+          18.682078,
+          45.560773
+        ],
+        [
+          18.681858,
+          45.560814
+        ],
+        [
+          18.681823,
+          45.560694
+        ],
+        [
+          18.681671,
+          45.560719
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Osječko-baranjska županija",
+      "validFrom": "2026-09-27T14:41:20Z",
+      "changeset": 189633968,
+      "osmUser": "Badojo",
+      "dguAdresa": {
+        "street": "Kapucinska ulica",
+        "houseNumber": "17",
+        "settlement": "Osijek",
+        "postcode": "31000",
+        "city": "Osijek",
+        "lon": 18.681856,
+        "lat": 45.560849
+      },
+      "dguBrojJedinica": 2,
+      "dguTocke": [
+        {
+          "street": "Kapucinska ulica",
+          "houseNumber": "17",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.681856,
+          "lat": 45.560849
+        },
+        {
+          "street": "Kapucinska ulica",
+          "houseNumber": "15",
+          "settlement": "Osijek",
+          "postcode": "31000",
+          "city": "Osijek",
+          "lon": 18.682042,
+          "lat": 45.560819
+        }
+      ],
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:20.911Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.444Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 37,
+        "povrsinaMs": 3555,
+        "iou": 0.22
+      }
+    },
+    {
+      "id": "way/1562805075",
+      "lat": 45.959313800000004,
+      "lon": 16.2118338,
+      "obris": [
+        [
+          16.211819,
+          45.959328
+        ],
+        [
+          16.211867,
+          45.959317
+        ],
+        [
+          16.211856,
+          45.959293
+        ],
+        [
+          16.211808,
+          45.959303
+        ],
+        [
+          16.211819,
+          45.959328
+        ]
+      ],
+      "tags": {
+        "building": "yes"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T16:34:32Z",
+      "changeset": 189640225,
+      "osmUser": "rokeg",
+      "nearestStreet": "Zelingradska",
+      "nearestStreetDist": 6,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:20.981Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.444Z",
+        "kako": "blizu",
+        "udaljenostM": 13,
+        "povrsinaMs": 174,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1562892044",
+      "lat": 45.9495316,
+      "lon": 16.2008422,
+      "obris": [
+        [
+          16.200842,
+          45.949551
+        ],
+        [
+          16.200876,
+          45.949521
+        ],
+        [
+          16.200842,
+          45.949503
+        ],
+        [
+          16.200809,
+          45.949532
+        ],
+        [
+          16.200842,
+          45.949551
+        ]
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "religion": "christian"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T16:56:44Z",
+      "changeset": 189641199,
+      "osmUser": "rokeg",
+      "nearestStreet": "Nespeš",
+      "nearestStreetDist": 117,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:20.781Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.444Z"
+      }
+    },
+    {
+      "id": "way/1562912778",
+      "lat": 46.30138514285714,
+      "lon": 16.322724,
+      "obris": [
+        [
+          16.32259,
+          46.301392
+        ],
+        [
+          16.322625,
+          46.301334
+        ],
+        [
+          16.322735,
+          46.301366
+        ],
+        [
+          16.322748,
+          46.301345
+        ],
+        [
+          16.322914,
+          46.301394
+        ],
+        [
+          16.322866,
+          46.301473
+        ],
+        [
+          16.32259,
+          46.301392
+        ]
+      ],
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Ulica Matka Laginje",
+        "building": "yes",
+        "ref:HR:kucni_broj": "1180940"
+      },
+      "zupanija": "Varaždinska županija",
+      "validFrom": "2026-09-27T17:19:50Z",
+      "changeset": 189642105,
+      "osmUser": "LeonH_OSM",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:20.935Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.445Z",
+        "kako": "centar-u-obrisu",
+        "udaljenostM": 7,
+        "povrsinaMs": 395,
+        "iou": 0.38
+      }
+    },
+    {
+      "id": "way/1562934045",
+      "lat": 45.943957,
+      "lon": 16.182421599999998,
+      "obris": [
+        [
+          16.182415,
+          45.943981
+        ],
+        [
+          16.182466,
+          45.943957
+        ],
+        [
+          16.182432,
+          45.943921
+        ],
+        [
+          16.18238,
+          45.943945
+        ],
+        [
+          16.182415,
+          45.943981
+        ]
+      ],
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "chapel",
+        "religion": "christian"
+      },
+      "zupanija": "Zagrebačka županija",
+      "validFrom": "2026-09-27T19:02:21Z",
+      "changeset": 189646287,
+      "osmUser": "rokeg",
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:22.157Z"
+      },
+      "msProvjera": {
+        "ima": true,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.446Z",
+        "kako": "blizu",
+        "udaljenostM": 7,
+        "povrsinaMs": 42,
+        "iou": 0
+      }
+    },
+    {
+      "id": "way/1563082517",
+      "lat": 44.01790199999999,
+      "lon": 15.4750394,
+      "obris": [
+        [
+          15.475037,
+          44.017928
+        ],
+        [
+          15.475085,
+          44.017899
+        ],
+        [
+          15.475043,
+          44.017863
+        ],
+        [
+          15.474995,
+          44.017892
+        ],
+        [
+          15.475037,
+          44.017928
+        ]
+      ],
+      "tags": {
+        "building": "yes",
+        "name": "Dva kuma"
+      },
+      "zupanija": "Zadarska županija",
+      "validFrom": "2026-09-28T10:06:21Z",
+      "changeset": 189670250,
+      "osmUser": "debeli75",
+      "nearestStreet": "Tinj",
+      "nearestStreetDist": 23,
+      "satelitProvjera": {
+        "status": "greska",
+        "obrazlozenje": "Anthropic API 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
+        "izvor": "DGU ortofoto 2023/24",
+        "provjereno": "2026-09-28T10:36:22.065Z"
+      },
+      "msProvjera": {
+        "ima": false,
+        "izdanje": "2026-08-13",
+        "provjereno": "2026-09-28T10:36:39.446Z"
+      }
+    }
+  ]
+}

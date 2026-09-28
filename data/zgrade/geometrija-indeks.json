@@ -12121,7 +12121,8 @@
       "building": "house",
       "building:levels": "3",
       "ref:HR:kucni_broj": "872550",
-      "roof:levels": "1"
+      "roof:levels": "1",
+      "roof:shape": "gabled"
     },
     "jedinica": null,
     "dguAdresa": null,
@@ -21239,10 +21240,14 @@
   "way/1524055838": {
     "povrsina": 88.88,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "2",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 2",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118204,44.396142 15.118280,44.396219 15.118367,44.396174 15.118291,44.396098 15.118204,44.396142",
     "vrhova": 4,
     "opseg": 37.9
@@ -21250,10 +21255,14 @@
   "way/1524055839": {
     "povrsina": 95.11,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "4",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 4",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118319,44.396090 15.118388,44.396164 15.118488,44.396117 15.118420,44.396042 15.118319,44.396090",
     "vrhova": 4,
     "opseg": 39
@@ -21272,10 +21281,14 @@
   "way/1524055841": {
     "povrsina": 87.38,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "4A",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 4A",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118364,44.395781 15.118423,44.395872 15.118512,44.395842 15.118453,44.395751 15.118364,44.395781",
     "vrhova": 4,
     "opseg": 38
@@ -21294,10 +21307,14 @@
   "way/1524055843": {
     "povrsina": 104.78,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "2A",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 2A",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118024,44.395748 15.118092,44.395819 15.118206,44.395764 15.118138,44.395693 15.118024,44.395748",
     "vrhova": 4,
     "opseg": 41
@@ -21349,10 +21366,14 @@
   "way/1524055848": {
     "povrsina": 75.24,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "9",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 9",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.117465,44.397979 15.117533,44.398039 15.117619,44.397990 15.117552,44.397930 15.117465,44.397979",
     "vrhova": 4,
     "opseg": 34.7
@@ -21448,10 +21469,14 @@
   "way/1524055857": {
     "povrsina": 113.18,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "26",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 26",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.120052,44.398649 15.119946,44.398697 15.120021,44.398783 15.120128,44.398735 15.120052,44.398649",
     "vrhova": 4,
     "opseg": 42.6
@@ -21459,10 +21484,14 @@
   "way/1524055858": {
     "povrsina": 48.33,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "29",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 29",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119562,44.398823 15.119623,44.398778 15.119560,44.398735 15.119499,44.398781 15.119562,44.398823",
     "vrhova": 4,
     "opseg": 27.8
@@ -21470,10 +21499,14 @@
   "way/1524055859": {
     "povrsina": 108.75,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "27",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 27",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119363,44.398676 15.119485,44.398607 15.119417,44.398545 15.119295,44.398613 15.119363,44.398676",
     "vrhova": 4,
     "opseg": 42.3
@@ -21481,10 +21514,14 @@
   "way/1524055860": {
     "povrsina": 102.82,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "31",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 31",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119150,44.398705 15.119211,44.398774 15.119332,44.398719 15.119271,44.398651 15.119150,44.398705",
     "vrhova": 4,
     "opseg": 40.8
@@ -21492,10 +21529,14 @@
   "way/1524055861": {
     "povrsina": 141.95,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "63",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 63",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118981,44.399116 15.118866,44.399020 15.118816,44.399050 15.118829,44.399061 15.118776,44.399093 15.118878,44.399178 15.118981,44.399116",
     "vrhova": 6,
     "opseg": 49.6
@@ -21514,10 +21555,14 @@
   "way/1524055863": {
     "povrsina": 67.33,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "65",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 65",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118994,44.399230 15.119061,44.399283 15.119140,44.399232 15.119073,44.399179 15.118994,44.399230",
     "vrhova": 4,
     "opseg": 32.8
@@ -21536,10 +21581,14 @@
   "way/1524055865": {
     "povrsina": 57.06,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "77",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 77",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119089,44.399338 15.119044,44.399368 15.119117,44.399423 15.119145,44.399443 15.119190,44.399413 15.119089,44.399338",
     "vrhova": 5,
     "opseg": 33
@@ -21547,32 +21596,44 @@
   "way/1524055866": {
     "povrsina": 81.69,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "75",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 75",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119051,44.399470 15.119149,44.399540 15.119215,44.399493 15.119145,44.399443 15.119117,44.399423 15.119051,44.399470",
     "vrhova": 5,
     "opseg": 36.9
   },
   "way/1524055867": {
-    "povrsina": 91.95,
+    "povrsina": 91.71,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "69",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 69",
-    "oblik": "15.118860,44.399431 15.118920,44.399479 15.119041,44.399404 15.118982,44.399355 15.118860,44.399431",
-    "vrhova": 4,
+    "jedinica": null,
+    "dguAdresa": null,
+    "oblik": "15.118860,44.399431 15.118920,44.399479 15.118931,44.399472 15.118992,44.399434 15.119041,44.399404 15.118982,44.399355 15.118860,44.399431",
+    "vrhova": 6,
     "opseg": 40
   },
   "way/1524055868": {
     "povrsina": 34.28,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "67",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 67",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118813,44.399315 15.118771,44.399282 15.118707,44.399324 15.118748,44.399357 15.118813,44.399315",
     "vrhova": 4,
     "opseg": 23.8
@@ -21580,10 +21641,14 @@
   "way/1524055869": {
     "povrsina": 85.56,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "59",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 59",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118380,44.399149 15.118441,44.399204 15.118549,44.399143 15.118487,44.399088 15.118380,44.399149",
     "vrhova": 4,
     "opseg": 37.5
@@ -21591,7 +21656,11 @@
   "way/1524055870": {
     "povrsina": 144.66,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "57A",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
     "jedinica": null,
     "dguAdresa": null,
@@ -21602,10 +21671,14 @@
   "way/1524055871": {
     "povrsina": 46.05,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "57",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 57",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118213,44.398948 15.118269,44.398979 15.118332,44.398921 15.118276,44.398890 15.118213,44.398948",
     "vrhova": 4,
     "opseg": 27.6
@@ -21613,10 +21686,14 @@
   "way/1524055872": {
     "povrsina": 104.84,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "61",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 61",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118640,44.398995 15.118698,44.399034 15.118841,44.398926 15.118783,44.398887 15.118640,44.398995",
     "vrhova": 4,
     "opseg": 45.8
@@ -21624,10 +21701,14 @@
   "way/1524055873": {
     "povrsina": 62.48,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "53",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 53",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118611,44.398744 15.118555,44.398772 15.118635,44.398857 15.118692,44.398829 15.118611,44.398744",
     "vrhova": 4,
     "opseg": 33.8
@@ -21635,7 +21716,11 @@
   "way/1524055874": {
     "povrsina": 63.75,
     "tags": {
-      "building": "yes"
+      "amenity": "place_of_worship",
+      "building": "yes",
+      "denomination": "roman_catholic",
+      "name": "Crkva sv. Ante",
+      "religion": "christian"
     },
     "jedinica": null,
     "dguAdresa": null,
@@ -21657,43 +21742,59 @@
   "way/1524055876": {
     "povrsina": 56.57,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "51",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 51",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118466,44.398576 15.118386,44.398609 15.118399,44.398625 15.118434,44.398667 15.118435,44.398669 15.118515,44.398635 15.118466,44.398576",
     "vrhova": 6,
     "opseg": 30.1
   },
   "way/1524055877": {
-    "povrsina": 27.58,
+    "povrsina": 35.73,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "49",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 49",
-    "oblik": "15.118813,44.398629 15.118851,44.398654 15.118908,44.398611 15.118869,44.398585 15.118813,44.398629",
+    "jedinica": null,
+    "dguAdresa": null,
+    "oblik": "15.118804,44.398623 15.118851,44.398655 15.118911,44.398611 15.118865,44.398578 15.118804,44.398623",
     "vrhova": 4,
-    "opseg": 21.6
+    "opseg": 24.2
   },
   "way/1524055878": {
-    "povrsina": 80.15,
+    "povrsina": 51.15,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "45",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 2,
-    "dguAdresa": "Gorica 47",
-    "oblik": "15.118825,44.398547 15.118720,44.398478 15.118660,44.398524 15.118765,44.398594 15.118825,44.398547",
+    "jedinica": null,
+    "dguAdresa": null,
+    "oblik": "15.118815,44.398543 15.118750,44.398497 15.118688,44.398542 15.118754,44.398588 15.118815,44.398543",
     "vrhova": 4,
-    "opseg": 36.9
+    "opseg": 28.6
   },
   "way/1524055879": {
     "povrsina": 78.75,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "41",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 41",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118943,44.398527 15.118840,44.398444 15.118780,44.398482 15.118883,44.398565 15.118943,44.398527",
     "vrhova": 4,
     "opseg": 37.5
@@ -21701,10 +21802,14 @@
   "way/1524055880": {
     "povrsina": 48.4,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "33",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 33",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118999,44.398487 15.119049,44.398528 15.119125,44.398481 15.119075,44.398440 15.118999,44.398487",
     "vrhova": 4,
     "opseg": 28.1
@@ -21723,10 +21828,14 @@
   "way/1524055882": {
     "povrsina": 83.72,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "39",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 39",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118912,44.398328 15.118827,44.398373 15.118901,44.398445 15.118986,44.398401 15.118912,44.398328",
     "vrhova": 4,
     "opseg": 36.7
@@ -21734,10 +21843,14 @@
   "way/1524055883": {
     "povrsina": 102.8,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "21",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 21",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118798,44.398272 15.118890,44.398222 15.118805,44.398142 15.118713,44.398192 15.118798,44.398272",
     "vrhova": 4,
     "opseg": 40.7
@@ -21745,7 +21858,11 @@
   "way/1524055884": {
     "povrsina": 22.75,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "25",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
     "jedinica": null,
     "dguAdresa": null,
@@ -21756,10 +21873,14 @@
   "way/1524055885": {
     "povrsina": 74.38,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "37",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 37",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119059,44.398318 15.118984,44.398251 15.118908,44.398294 15.118983,44.398362 15.118992,44.398357 15.119059,44.398318",
     "vrhova": 5,
     "opseg": 34.7
@@ -21767,10 +21888,14 @@
   "way/1524055886": {
     "povrsina": 100.18,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "35",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 35",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119192,44.398319 15.119140,44.398272 15.119059,44.398318 15.118992,44.398357 15.119044,44.398403 15.119192,44.398319",
     "vrhova": 5,
     "opseg": 43.4
@@ -21778,24 +21903,32 @@
   "way/1524055887": {
     "povrsina": 74.34,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "23",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 2,
-    "dguAdresa": "Gorica 25",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119203,44.398313 15.119304,44.398254 15.119247,44.398204 15.119205,44.398229 15.119156,44.398257 15.119146,44.398263 15.119203,44.398313",
     "vrhova": 6,
     "opseg": 35.1
   },
   "way/1524055888": {
-    "povrsina": 130.16,
+    "povrsina": 69.01,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "24A",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 2,
-    "dguAdresa": "Gorica 24A",
-    "oblik": "15.119527,44.398107 15.119436,44.398142 15.119531,44.398267 15.119622,44.398232 15.119527,44.398107",
+    "jedinica": null,
+    "dguAdresa": null,
+    "oblik": "15.119577,44.398172 15.119528,44.398107 15.119435,44.398143 15.119485,44.398208 15.119577,44.398172",
     "vrhova": 4,
-    "opseg": 48.1
+    "opseg": 33.2
   },
   "way/1524055889": {
     "povrsina": 97.7,
@@ -21833,10 +21966,14 @@
   "way/1524055892": {
     "povrsina": 143.33,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "24",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 24",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119454,44.397944 15.119532,44.398046 15.119654,44.397998 15.119576,44.397896 15.119454,44.397944",
     "vrhova": 4,
     "opseg": 48
@@ -21844,10 +21981,14 @@
   "way/1524055893": {
     "povrsina": 32.01,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "15",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 15",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118816,44.397739 15.118759,44.397766 15.118800,44.397810 15.118857,44.397783 15.118816,44.397739",
     "vrhova": 4,
     "opseg": 22.6
@@ -21855,10 +21996,14 @@
   "way/1524055894": {
     "povrsina": 76.11,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "17",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 17",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.118854,44.397820 15.118887,44.397879 15.119012,44.397842 15.118979,44.397783 15.118854,44.397820",
     "vrhova": 4,
     "opseg": 35.7
@@ -21875,15 +22020,19 @@
     "opseg": 68.1
   },
   "way/1524055896": {
-    "povrsina": 104.8,
+    "povrsina": 104.79,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "5B",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 5B",
-    "oblik": "15.118174,44.397599 15.118066,44.397535 15.117991,44.397601 15.118099,44.397664 15.118174,44.397599",
+    "jedinica": null,
+    "dguAdresa": null,
+    "oblik": "15.118173,44.397595 15.118067,44.397535 15.117991,44.397601 15.118099,44.397664 15.118173,44.397595",
     "vrhova": 4,
-    "opseg": 41.1
+    "opseg": 41
   },
   "way/1524055898": {
     "povrsina": 30.86,
@@ -21899,24 +22048,32 @@
   "way/1524055899": {
     "povrsina": 35.57,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "20",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 20",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.119808,44.397378 15.119824,44.397426 15.119903,44.397413 15.119888,44.397365 15.119808,44.397378",
     "vrhova": 4,
     "opseg": 23.9
   },
   "way/1524055900": {
-    "povrsina": 86.41,
+    "povrsina": 85.54,
     "tags": {
-      "building": "yes"
+      "addr:city": "Gorica",
+      "addr:housenumber": "18",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
     },
-    "jedinica": 1,
-    "dguAdresa": "Gorica 18",
-    "oblik": "15.119385,44.397470 15.119439,44.397539 15.119547,44.397495 15.119494,44.397427 15.119385,44.397470",
+    "jedinica": null,
+    "dguAdresa": null,
+    "oblik": "15.119386,44.397470 15.119436,44.397538 15.119547,44.397495 15.119494,44.397427 15.119386,44.397470",
     "vrhova": 4,
-    "opseg": 37.3
+    "opseg": 37.1
   },
   "way/1524059397": {
     "povrsina": 19.63,
@@ -94343,10 +94500,12 @@
   "way/1529755050": {
     "povrsina": 165.29,
     "tags": {
-      "building": "yes"
+      "building": "bungalow",
+      "building:year_built": "1998",
+      "ref": "Novasol CDA837"
     },
-    "jedinica": 1,
-    "dguAdresa": "Polača 374A",
+    "jedinica": null,
+    "dguAdresa": null,
     "oblik": "15.496947,44.013410 15.497116,44.013301 15.497040,44.013240 15.496871,44.013350 15.496947,44.013410",
     "vrhova": 4,
     "opseg": 54.6
@@ -94354,7 +94513,7 @@
   "way/1529755051": {
     "povrsina": 77.86,
     "tags": {
-      "building": "yes"
+      "building": "roof"
     },
     "jedinica": null,
     "dguAdresa": null,
@@ -377498,10 +377657,10 @@
     "dguAdresa": null
   },
   "way/1559020968": {
-    "povrsina": 1149.07,
-    "oblik": "15.746125,45.875247 15.746729,45.874993 15.746849,45.875131 15.746474,45.875289 15.746527,45.875350 15.746298,45.875447 15.746125,45.875247",
-    "vrhova": 6,
-    "opseg": 161.3,
+    "povrsina": 1668.28,
+    "oblik": "15.746119,45.875246 15.746730,45.874991 15.746930,45.875224 15.746319,45.875479 15.746119,45.875246",
+    "vrhova": 4,
+    "opseg": 170.9,
     "tags": {
       "building": "construction"
     },
@@ -387486,6 +387645,5068 @@
       "building": "yes"
     },
     "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561013384": {
+    "povrsina": 427.48,
+    "oblik": "15.733163,45.878117 15.732951,45.877820 15.733085,45.877774 15.733297,45.878071 15.733163,45.878117",
+    "vrhova": 4,
+    "opseg": 97,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561013405": {
+    "povrsina": 188.88,
+    "oblik": "15.732588,45.878095 15.732680,45.878061 15.732788,45.878201 15.732630,45.878260 15.732582,45.878197 15.732648,45.878173 15.732588,45.878095",
+    "vrhova": 6,
+    "opseg": 63.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561013413": {
+    "povrsina": 163.69,
+    "oblik": "15.734194,45.878942 15.734230,45.879023 15.734182,45.879034 15.734196,45.879065 15.734053,45.879096 15.734048,45.879085 15.734018,45.879017 15.734098,45.878999 15.734084,45.878966 15.734194,45.878942",
+    "vrhova": 9,
+    "opseg": 57.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561013415": {
+    "povrsina": 444.68,
+    "oblik": "15.731557,45.879512 15.731752,45.879466 15.731635,45.879226 15.731435,45.879274 15.731495,45.879397 15.731541,45.879386 15.731555,45.879415 15.731514,45.879425 15.731557,45.879512",
+    "vrhova": 8,
+    "opseg": 95.8,
+    "tags": {
+      "building": "apartments"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561013417": {
+    "povrsina": 241.3,
+    "oblik": "15.731612,45.879587 15.731818,45.879533 15.731882,45.879652 15.731676,45.879706 15.731612,45.879587",
+    "vrhova": 4,
+    "opseg": 62.4,
+    "tags": {
+      "building": "apartments"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561013418": {
+    "povrsina": 241.02,
+    "oblik": "15.731759,45.879868 15.731965,45.879814 15.732029,45.879933 15.731824,45.879987 15.731759,45.879868",
+    "vrhova": 4,
+    "opseg": 62.4,
+    "tags": {
+      "building": "apartments"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561013420": {
+    "povrsina": 127.48,
+    "oblik": "15.732084,45.880045 15.732040,45.880056 15.732053,45.880082 15.731937,45.880111 15.731921,45.880080 15.731894,45.880087 15.731868,45.880037 15.732056,45.879991 15.732084,45.880045",
+    "vrhova": 8,
+    "opseg": 49.9,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561013421": {
+    "povrsina": 128.21,
+    "oblik": "15.732129,45.880125 15.732085,45.880136 15.732098,45.880163 15.731982,45.880192 15.731966,45.880161 15.731939,45.880168 15.731913,45.880118 15.732101,45.880071 15.732129,45.880125",
+    "vrhova": 8,
+    "opseg": 50,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561013422": {
+    "povrsina": 128.17,
+    "oblik": "15.732173,45.880206 15.732129,45.880217 15.732143,45.880244 15.732026,45.880272 15.732010,45.880241 15.731983,45.880248 15.731957,45.880198 15.732145,45.880152 15.732173,45.880206",
+    "vrhova": 8,
+    "opseg": 50.1,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561013423": {
+    "povrsina": 128.92,
+    "oblik": "15.732214,45.880288 15.732170,45.880299 15.732184,45.880326 15.732067,45.880355 15.732051,45.880324 15.732024,45.880330 15.731998,45.880280 15.732186,45.880234 15.732214,45.880288",
+    "vrhova": 8,
+    "opseg": 50.1,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561026940": {
+    "povrsina": 78.04,
+    "oblik": "15.731775,45.878778 15.731897,45.878753 15.731927,45.878821 15.731805,45.878846 15.731775,45.878778",
+    "vrhova": 4,
+    "opseg": 35.5,
+    "tags": {
+      "abandoned": "yes",
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561026941": {
+    "povrsina": 110.98,
+    "oblik": "15.731780,45.878729 15.731709,45.878754 15.731640,45.878661 15.731652,45.878656 15.731632,45.878628 15.731740,45.878590 15.731768,45.878629 15.731719,45.878646 15.731780,45.878729",
+    "vrhova": 8,
+    "opseg": 51.2,
+    "tags": {
+      "abandoned": "yes",
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561026951": {
+    "povrsina": 152.57,
+    "oblik": "15.727738,45.879405 15.727872,45.879375 15.727816,45.879255 15.727683,45.879285 15.727738,45.879405",
+    "vrhova": 4,
+    "opseg": 49.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561031810": {
+    "povrsina": 167.42,
+    "oblik": "15.723495,45.882155 15.723377,45.882057 15.723494,45.881989 15.723611,45.882086 15.723495,45.882155",
+    "vrhova": 4,
+    "opseg": 52,
+    "tags": {
+      "building": "apartments",
+      "roof:shape": "flat"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561031811": {
+    "povrsina": 166.54,
+    "oblik": "15.723719,45.882332 15.723602,45.882235 15.723719,45.882167 15.723836,45.882264 15.723719,45.882332",
+    "vrhova": 4,
+    "opseg": 51.8,
+    "tags": {
+      "building": "apartments",
+      "roof:shape": "flat"
+    },
+    "jedinica": 2,
+    "dguAdresa": null
+  },
+  "way/1561031812": {
+    "povrsina": 167.42,
+    "oblik": "15.723933,45.882505 15.723815,45.882408 15.723932,45.882339 15.724049,45.882437 15.723933,45.882505",
+    "vrhova": 4,
+    "opseg": 52,
+    "tags": {
+      "building": "apartments",
+      "roof:shape": "flat"
+    },
+    "jedinica": 2,
+    "dguAdresa": null
+  },
+  "way/1561031813": {
+    "povrsina": 167.12,
+    "oblik": "15.724127,45.882678 15.724009,45.882581 15.724126,45.882513 15.724244,45.882610 15.724127,45.882678",
+    "vrhova": 4,
+    "opseg": 51.9,
+    "tags": {
+      "building": "apartments",
+      "roof:shape": "flat"
+    },
+    "jedinica": 2,
+    "dguAdresa": null
+  },
+  "way/1561031814": {
+    "povrsina": 167.33,
+    "oblik": "15.724451,45.882801 15.724311,45.882883 15.724213,45.882801 15.724353,45.882720 15.724451,45.882801",
+    "vrhova": 4,
+    "opseg": 51.9,
+    "tags": {
+      "building": "house",
+      "roof:shape": "flat"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561031815": {
+    "povrsina": 621.86,
+    "oblik": "15.723757,45.882875 15.723953,45.882796 15.724183,45.883070 15.723987,45.883150 15.723757,45.882875",
+    "vrhova": 4,
+    "opseg": 105.9,
+    "tags": {
+      "building": "apartments"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561055067": {
+    "povrsina": 69.1,
+    "oblik": "15.971938,45.815414 15.971909,45.815418 15.971922,45.815460 15.972107,45.815436 15.972100,45.815396 15.971938,45.815414",
+    "vrhova": 5,
+    "opseg": 38.9,
+    "tags": {
+      "addr:housenumber": "5/1",
+      "addr:street": "Ulica Antuna Gustava Matoša",
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561055731": {
+    "povrsina": 56.08,
+    "oblik": "15.972039,45.816419 15.972080,45.816459 15.972192,45.816428 15.972163,45.816379 15.972039,45.816419",
+    "vrhova": 4,
+    "opseg": 31.3,
+    "tags": {
+      "addr:housenumber": "38",
+      "addr:street": "Mesnička ulica",
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561065589": {
+    "povrsina": 74.05,
+    "oblik": "16.176429,46.077294 16.176524,46.077312 16.176556,46.077226 16.176463,46.077209 16.176429,46.077294",
+    "vrhova": 4,
+    "opseg": 34.7,
+    "tags": {
+      "building": "yes",
+      "name": "Lovački dom Fazan Konjščina",
+      "tourism": "hunting_lodge"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561069813": {
+    "povrsina": 18.97,
+    "oblik": "16.220991,46.034340 16.221038,46.034331 16.221056,46.034320 16.221050,46.034303 16.221030,46.034298 16.220978,46.034308 16.220991,46.034340",
+    "vrhova": 6,
+    "opseg": 17.1,
+    "tags": {
+      "amenity": "place_of_worship",
+      "building": "chapel",
+      "name": "Gospa Fatimska",
+      "religion": "christian"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561071279": {
+    "povrsina": 112.07,
+    "oblik": "16.236703,46.030306 16.236819,46.030299 16.236806,46.030188 16.236689,46.030195 16.236703,46.030306",
+    "vrhova": 4,
+    "opseg": 42.9,
+    "tags": {
+      "building": "yes",
+      "name": "Lovački dom Fazan - Bedenica",
+      "tourism": "hunting_lodge"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561077085": {
+    "povrsina": 17.67,
+    "oblik": "16.264641,46.021856 16.264589,46.021843 16.264571,46.021878 16.264623,46.021891 16.264641,46.021856",
+    "vrhova": 4,
+    "opseg": 16.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561079839": {
+    "povrsina": 3.51,
+    "oblik": "15.731993,45.798700 15.731992,45.798691 15.732037,45.798690 15.732038,45.798699 15.731993,45.798700",
+    "vrhova": 4,
+    "opseg": 9,
+    "tags": {
+      "amenity": "shelter",
+      "building": "yes",
+      "shelter_type": "public_transport"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561092536": {
+    "povrsina": 8.96,
+    "oblik": "16.196890,46.017471 16.196929,46.017470 16.196927,46.017443 16.196889,46.017444 16.196890,46.017471",
+    "vrhova": 4,
+    "opseg": 12,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561096971": {
+    "povrsina": 69.73,
+    "oblik": "16.332542,46.164362 16.332491,46.164395 16.332600,46.164477 16.332663,46.164436 16.332643,46.164422 16.332632,46.164429 16.332542,46.164362",
+    "vrhova": 6,
+    "opseg": 38,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561096972": {
+    "povrsina": 105.59,
+    "oblik": "16.332632,46.164429 16.332643,46.164422 16.332731,46.164366 16.332641,46.164299 16.332542,46.164362 16.332632,46.164429",
+    "vrhova": 5,
+    "opseg": 41.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561096973": {
+    "povrsina": 125.31,
+    "oblik": "16.332518,46.164636 16.332578,46.164536 16.332453,46.164501 16.332393,46.164601 16.332518,46.164636",
+    "vrhova": 4,
+    "opseg": 44.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561096974": {
+    "povrsina": 574.74,
+    "oblik": "16.333279,46.164598 16.333454,46.164313 16.333367,46.164287 16.333328,46.164349 16.333301,46.164341 16.333262,46.164405 16.333224,46.164394 16.333284,46.164296 16.333207,46.164274 16.333050,46.164530 16.333279,46.164598",
+    "vrhova": 10,
+    "opseg": 130.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561096975": {
+    "povrsina": 113.28,
+    "oblik": "16.332718,46.164844 16.332705,46.164863 16.332675,46.164853 16.332635,46.164910 16.332783,46.164960 16.332836,46.164884 16.332718,46.164844",
+    "vrhova": 6,
+    "opseg": 44.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561096976": {
+    "povrsina": 122.75,
+    "oblik": "16.332974,46.164548 16.333036,46.164448 16.332914,46.164413 16.332853,46.164513 16.332974,46.164548",
+    "vrhova": 4,
+    "opseg": 44.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561096977": {
+    "povrsina": 149.56,
+    "oblik": "16.332904,46.164723 16.332971,46.164625 16.332826,46.164577 16.332759,46.164675 16.332904,46.164723",
+    "vrhova": 4,
+    "opseg": 48.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561096978": {
+    "povrsina": 122.89,
+    "oblik": "16.332779,46.164757 16.332718,46.164844 16.332836,46.164884 16.332851,46.164888 16.332912,46.164801 16.332779,46.164757",
+    "vrhova": 5,
+    "opseg": 44.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561096979": {
+    "povrsina": 175.48,
+    "oblik": "16.333174,46.164957 16.333141,46.164824 16.332984,46.164843 16.333014,46.164959 16.333068,46.164952 16.333073,46.164969 16.333174,46.164957",
+    "vrhova": 6,
+    "opseg": 54.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561096980": {
+    "povrsina": 232.25,
+    "oblik": "16.333258,46.164958 16.333454,46.164929 16.333413,46.164797 16.333217,46.164826 16.333258,46.164958",
+    "vrhova": 4,
+    "opseg": 61,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098026": {
+    "povrsina": 72.38,
+    "oblik": "18.061623,45.161193 18.061623,45.161209 18.061651,45.161209 18.061651,45.161219 18.061705,45.161219 18.061705,45.161119 18.061623,45.161119 18.061623,45.161155 18.061610,45.161155 18.061610,45.161183 18.061623,45.161183 18.061623,45.161193",
+    "vrhova": 11,
+    "opseg": 37.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561098027": {
+    "povrsina": 62.28,
+    "oblik": "18.061524,45.161265 18.061623,45.161265 18.061623,45.161193 18.061524,45.161193 18.061524,45.161265",
+    "vrhova": 4,
+    "opseg": 31.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561098028": {
+    "povrsina": 99.18,
+    "oblik": "18.061521,45.161403 18.061621,45.161404 18.061622,45.161290 18.061522,45.161290 18.061521,45.161403",
+    "vrhova": 4,
+    "opseg": 41,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561098029": {
+    "povrsina": 85.54,
+    "oblik": "18.061376,45.161229 18.061490,45.161229 18.061490,45.161143 18.061375,45.161144 18.061376,45.161229",
+    "vrhova": 4,
+    "opseg": 37,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098030": {
+    "povrsina": 112.34,
+    "oblik": "18.061319,45.161434 18.061465,45.161437 18.061468,45.161349 18.061322,45.161346 18.061319,45.161434",
+    "vrhova": 4,
+    "opseg": 42.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098031": {
+    "povrsina": 62.24,
+    "oblik": "18.061032,45.161132 18.061112,45.161133 18.061115,45.161044 18.061035,45.161043 18.061032,45.161132",
+    "vrhova": 4,
+    "opseg": 32.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098546": {
+    "povrsina": 94.19,
+    "oblik": "18.062208,45.161604 18.062194,45.161489 18.062101,45.161495 18.062115,45.161610 18.062208,45.161604",
+    "vrhova": 4,
+    "opseg": 40.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098547": {
+    "povrsina": 73.36,
+    "oblik": "18.062081,45.161362 18.062229,45.161350 18.062220,45.161294 18.062072,45.161306 18.062081,45.161362",
+    "vrhova": 4,
+    "opseg": 35.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561098548": {
+    "povrsina": 103.05,
+    "oblik": "18.062070,45.161217 18.062231,45.161209 18.062224,45.161142 18.062034,45.161152 18.062038,45.161186 18.062067,45.161185 18.062070,45.161217",
+    "vrhova": 6,
+    "opseg": 44.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561098549": {
+    "povrsina": 161.69,
+    "oblik": "18.062247,45.161487 18.062411,45.161474 18.062394,45.161369 18.062343,45.161373 18.062340,45.161355 18.062281,45.161360 18.062284,45.161378 18.062230,45.161382 18.062247,45.161487",
+    "vrhova": 8,
+    "opseg": 53.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098550": {
+    "povrsina": 109.91,
+    "oblik": "18.062335,45.161194 18.062471,45.161183 18.062456,45.161098 18.062424,45.161101 18.062421,45.161087 18.062356,45.161092 18.062359,45.161106 18.062321,45.161109 18.062335,45.161194",
+    "vrhova": 8,
+    "opseg": 43.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098551": {
+    "povrsina": 85.71,
+    "oblik": "18.062099,45.160999 18.062095,45.161066 18.062160,45.161068 18.062161,45.161049 18.062191,45.161050 18.062191,45.161056 18.062264,45.161059 18.062267,45.161004 18.062099,45.160999",
+    "vrhova": 8,
+    "opseg": 42.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561098553": {
+    "povrsina": 105.57,
+    "oblik": "18.062335,45.160820 18.062331,45.160905 18.062473,45.160908 18.062477,45.160823 18.062335,45.160820",
+    "vrhova": 4,
+    "opseg": 41.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098554": {
+    "povrsina": 78.76,
+    "oblik": "18.062719,45.160790 18.062924,45.160796 18.062926,45.160752 18.062722,45.160746 18.062719,45.160790",
+    "vrhova": 4,
+    "opseg": 41.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561098700": {
+    "povrsina": 84.74,
+    "oblik": "18.063460,45.161444 18.063627,45.161448 18.063630,45.161390 18.063463,45.161386 18.063460,45.161444",
+    "vrhova": 4,
+    "opseg": 39.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098701": {
+    "povrsina": 118.11,
+    "oblik": "18.063345,45.161458 18.063460,45.161461 18.063463,45.161386 18.063465,45.161343 18.063351,45.161340 18.063345,45.161458",
+    "vrhova": 5,
+    "opseg": 44.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098702": {
+    "povrsina": 85,
+    "oblik": "18.063422,45.161079 18.063426,45.160989 18.063318,45.160987 18.063314,45.161077 18.063422,45.161079",
+    "vrhova": 4,
+    "opseg": 37,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561098703": {
+    "povrsina": 123.42,
+    "oblik": "18.062757,45.161398 18.062755,45.161481 18.062788,45.161481 18.062787,45.161508 18.062880,45.161509 18.062880,45.161482 18.062896,45.161482 18.062898,45.161400 18.062757,45.161398",
+    "vrhova": 8,
+    "opseg": 46.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561117185": {
+    "povrsina": 307.71,
+    "oblik": "15.721782,45.883039 15.721870,45.883010 15.721890,45.883039 15.721927,45.883027 15.722022,45.883169 15.721983,45.883181 15.722024,45.883241 15.721915,45.883277 15.721895,45.883248 15.721877,45.883254 15.721851,45.883215 15.721892,45.883202 15.721852,45.883142 15.721810,45.883155 15.721785,45.883118 15.721826,45.883105 15.721782,45.883039",
+    "vrhova": 16,
+    "opseg": 92.2,
+    "tags": {
+      "building": "apartments"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561117186": {
+    "povrsina": 47.4,
+    "oblik": "15.722351,45.882927 15.722389,45.882971 15.722296,45.883009 15.722259,45.882965 15.722351,45.882927",
+    "vrhova": 4,
+    "opseg": 28,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561117187": {
+    "povrsina": 48.04,
+    "oblik": "15.721960,45.882890 15.722076,45.882856 15.722100,45.882897 15.721985,45.882931 15.721960,45.882890",
+    "vrhova": 4,
+    "opseg": 29.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561117194": {
+    "povrsina": 73.5,
+    "oblik": "15.720512,45.882918 15.720572,45.882911 15.720536,45.882773 15.720476,45.882781 15.720512,45.882918",
+    "vrhova": 4,
+    "opseg": 40.6,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561117196": {
+    "povrsina": 134.94,
+    "oblik": "15.720073,45.883039 15.720250,45.883018 15.720230,45.882932 15.720053,45.882953 15.720073,45.883039",
+    "vrhova": 4,
+    "opseg": 47.2,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561117203": {
+    "povrsina": 22.15,
+    "oblik": "15.719636,45.882504 15.719686,45.882501 15.719692,45.882552 15.719642,45.882555 15.719636,45.882504",
+    "vrhova": 4,
+    "opseg": 19.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561119317": {
+    "povrsina": 47.78,
+    "oblik": "15.715080,45.883569 15.715104,45.883630 15.715189,45.883613 15.715165,45.883553 15.715080,45.883569",
+    "vrhova": 4,
+    "opseg": 27.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561122634": {
+    "povrsina": 28.04,
+    "oblik": "16.245713,45.997282 16.245734,45.997286 16.245753,45.997279 16.245759,45.997265 16.245714,45.997217 16.245671,45.997236 16.245713,45.997282",
+    "vrhova": 6,
+    "opseg": 21.4,
+    "tags": {
+      "amenity": "place_of_worship",
+      "building": "chapel",
+      "religion": "christian"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561129279": {
+    "povrsina": 165.88,
+    "oblik": "18.063524,45.160576 18.063517,45.160731 18.063629,45.160733 18.063631,45.160664 18.063651,45.160664 18.063655,45.160578 18.063524,45.160576",
+    "vrhova": 6,
+    "opseg": 55.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561129280": {
+    "povrsina": 122.77,
+    "oblik": "18.063725,45.160654 18.063862,45.160657 18.063865,45.160554 18.063728,45.160552 18.063725,45.160654",
+    "vrhova": 4,
+    "opseg": 44.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561129281": {
+    "povrsina": 121.2,
+    "oblik": "18.063333,45.160685 18.063479,45.160685 18.063479,45.160590 18.063333,45.160590 18.063333,45.160685",
+    "vrhova": 4,
+    "opseg": 44.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561297073": {
+    "povrsina": 161.11,
+    "oblik": "15.709752,45.886356 15.709946,45.886299 15.710005,45.886395 15.709949,45.886411 15.709937,45.886391 15.709799,45.886432 15.709752,45.886356",
+    "vrhova": 6,
+    "opseg": 55.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561297097": {
+    "povrsina": 66.74,
+    "oblik": "15.714270,45.889423 15.714365,45.889464 15.714313,45.889523 15.714218,45.889482 15.714270,45.889423",
+    "vrhova": 4,
+    "opseg": 32.7,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561297098": {
+    "povrsina": 55.42,
+    "oblik": "15.714393,45.889265 15.714469,45.889281 15.714435,45.889359 15.714360,45.889343 15.714393,45.889265",
+    "vrhova": 4,
+    "opseg": 30.4,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561297102": {
+    "povrsina": 45.98,
+    "oblik": "15.709402,45.884989 15.709481,45.884973 15.709454,45.884911 15.709375,45.884927 15.709402,45.884989",
+    "vrhova": 4,
+    "opseg": 27.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561303901": {
+    "povrsina": 1045.13,
+    "oblik": "15.739056,45.873478 15.739207,45.873673 15.738725,45.873854 15.738575,45.873659 15.739056,45.873478",
+    "vrhova": 4,
+    "opseg": 134.1,
+    "tags": {
+      "building": "yes",
+      "leisure": "sports_hall",
+      "name": "Školska dvorana",
+      "proposed": "building"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561303904": {
+    "povrsina": 116.45,
+    "oblik": "15.696899,45.888838 15.697026,45.888802 15.696972,45.888711 15.696845,45.888747 15.696899,45.888838",
+    "vrhova": 4,
+    "opseg": 43.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561303905": {
+    "povrsina": 176.13,
+    "oblik": "15.696793,45.889310 15.696942,45.889272 15.696877,45.889151 15.696729,45.889189 15.696793,45.889310",
+    "vrhova": 4,
+    "opseg": 53.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561305712": {
+    "povrsina": 162.84,
+    "oblik": "16.371075,46.292804 16.371058,46.292673 16.371202,46.292664 16.371219,46.292795 16.371075,46.292804",
+    "vrhova": 4,
+    "opseg": 51.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561305713": {
+    "povrsina": 44.53,
+    "oblik": "16.371050,46.292527 16.371041,46.292465 16.371124,46.292459 16.371133,46.292521 16.371050,46.292527",
+    "vrhova": 4,
+    "opseg": 26.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305714": {
+    "povrsina": 96.34,
+    "oblik": "16.371838,46.292729 16.371830,46.292645 16.371962,46.292638 16.371971,46.292723 16.371838,46.292729",
+    "vrhova": 4,
+    "opseg": 39.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561305715": {
+    "povrsina": 81.15,
+    "oblik": "16.371535,46.292819 16.371527,46.292750 16.371634,46.292744 16.371668,46.292757 16.371674,46.292812 16.371535,46.292819",
+    "vrhova": 5,
+    "opseg": 35.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305716": {
+    "povrsina": 163.87,
+    "oblik": "16.371998,46.292369 16.371985,46.292274 16.371807,46.292286 16.371809,46.292302 16.371782,46.292304 16.371793,46.292382 16.371998,46.292369",
+    "vrhova": 6,
+    "opseg": 52.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561305717": {
+    "povrsina": 36.85,
+    "oblik": "16.371766,46.292390 16.371761,46.292356 16.371636,46.292364 16.371640,46.292398 16.371766,46.292390",
+    "vrhova": 4,
+    "opseg": 27,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305718": {
+    "povrsina": 159.75,
+    "oblik": "16.371987,46.292224 16.371979,46.292099 16.371830,46.292103 16.371838,46.292228 16.371987,46.292224",
+    "vrhova": 4,
+    "opseg": 50.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561305719": {
+    "povrsina": 49.5,
+    "oblik": "16.371059,46.292596 16.371050,46.292527 16.371133,46.292521 16.371142,46.292590 16.371059,46.292596",
+    "vrhova": 4,
+    "opseg": 28.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305720": {
+    "povrsina": 169.33,
+    "oblik": "16.371348,46.292786 16.371332,46.292650 16.371477,46.292642 16.371492,46.292778 16.371348,46.292786",
+    "vrhova": 4,
+    "opseg": 52.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561305721": {
+    "povrsina": 24.01,
+    "oblik": "16.371588,46.292564 16.371658,46.292562 16.371660,46.292602 16.371590,46.292604 16.371588,46.292564",
+    "vrhova": 4,
+    "opseg": 19.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305722": {
+    "povrsina": 67.29,
+    "oblik": "16.371660,46.292602 16.371663,46.292653 16.371622,46.292654 16.371554,46.292656 16.371509,46.292657 16.371506,46.292606 16.371590,46.292604 16.371660,46.292602",
+    "vrhova": 7,
+    "opseg": 35.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305723": {
+    "povrsina": 20.27,
+    "oblik": "16.371622,46.292654 16.371554,46.292656 16.371557,46.292691 16.371624,46.292689 16.371622,46.292654",
+    "vrhova": 4,
+    "opseg": 18.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305724": {
+    "povrsina": 463.79,
+    "oblik": "16.371933,46.292010 16.371922,46.291896 16.371449,46.291918 16.371460,46.292032 16.371933,46.292010",
+    "vrhova": 4,
+    "opseg": 98.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561305725": {
+    "povrsina": 53.91,
+    "oblik": "16.371506,46.292606 16.371501,46.292532 16.371585,46.292529 16.371588,46.292564 16.371590,46.292604 16.371506,46.292606",
+    "vrhova": 5,
+    "opseg": 29.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305726": {
+    "povrsina": 185.44,
+    "oblik": "16.371041,46.292465 16.371022,46.292322 16.371237,46.292308 16.371247,46.292381 16.371115,46.292389 16.371124,46.292459 16.371041,46.292465",
+    "vrhova": 6,
+    "opseg": 65.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305727": {
+    "povrsina": 136.24,
+    "oblik": "16.372025,46.292586 16.372014,46.292491 16.371923,46.292496 16.371925,46.292513 16.371902,46.292514 16.371904,46.292530 16.371817,46.292535 16.371825,46.292597 16.372025,46.292586",
+    "vrhova": 8,
+    "opseg": 52.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561305728": {
+    "povrsina": 46.86,
+    "oblik": "16.371469,46.291897 16.371448,46.291854 16.371561,46.291827 16.371582,46.291871 16.371469,46.291897",
+    "vrhova": 4,
+    "opseg": 28.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561305729": {
+    "povrsina": 147.72,
+    "oblik": "16.371868,46.292755 16.371983,46.292749 16.371996,46.292853 16.371821,46.292863 16.371810,46.292778 16.371870,46.292774 16.371868,46.292755",
+    "vrhova": 6,
+    "opseg": 50.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310865": {
+    "povrsina": 21.8,
+    "oblik": "15.629647,45.319039 15.629603,45.319008 15.629644,45.318980 15.629688,45.319012 15.629647,45.319039",
+    "vrhova": 4,
+    "opseg": 18.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310867": {
+    "povrsina": 73.87,
+    "oblik": "15.628439,45.319703 15.628443,45.319690 15.628480,45.319591 15.628551,45.319604 15.628509,45.319716 15.628439,45.319703",
+    "vrhova": 5,
+    "opseg": 37.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310868": {
+    "povrsina": 32.18,
+    "oblik": "15.635328,45.314354 15.635355,45.314323 15.635442,45.314360 15.635416,45.314391 15.635328,45.314354",
+    "vrhova": 4,
+    "opseg": 24,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310869": {
+    "povrsina": 70.9,
+    "oblik": "15.632343,45.318104 15.632269,45.318027 15.632342,45.317993 15.632416,45.318070 15.632343,45.318104",
+    "vrhova": 4,
+    "opseg": 34.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310870": {
+    "povrsina": 98.96,
+    "oblik": "15.616174,45.308116 15.616242,45.308117 15.616238,45.308284 15.616171,45.308281 15.616170,45.308241 15.616174,45.308116",
+    "vrhova": 5,
+    "opseg": 47.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310871": {
+    "povrsina": 23.77,
+    "oblik": "15.629713,45.322387 15.629731,45.322349 15.629796,45.322365 15.629779,45.322402 15.629713,45.322387",
+    "vrhova": 4,
+    "opseg": 19.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310872": {
+    "povrsina": 74.07,
+    "oblik": "15.637224,45.318339 15.637232,45.318283 15.637207,45.318280 15.637125,45.318275 15.637083,45.318272 15.637075,45.318328 15.637224,45.318339",
+    "vrhova": 6,
+    "opseg": 36,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310873": {
+    "povrsina": 6.35,
+    "oblik": "15.637934,45.308234 15.637937,45.308210 15.637967,45.308213 15.637964,45.308237 15.637934,45.308234",
+    "vrhova": 4,
+    "opseg": 10.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310874": {
+    "povrsina": 148.26,
+    "oblik": "15.621519,45.310244 15.621677,45.310290 15.621740,45.310182 15.621650,45.310156 15.621628,45.310193 15.621560,45.310173 15.621519,45.310244",
+    "vrhova": 6,
+    "opseg": 52.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310875": {
+    "povrsina": 74.08,
+    "oblik": "15.629115,45.323467 15.629108,45.323411 15.628959,45.323419 15.628965,45.323476 15.629115,45.323467",
+    "vrhova": 4,
+    "opseg": 36.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310876": {
+    "povrsina": 38.83,
+    "oblik": "15.629581,45.319417 15.629608,45.319440 15.629489,45.319507 15.629463,45.319484 15.629489,45.319470 15.629581,45.319417",
+    "vrhova": 5,
+    "opseg": 30.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310877": {
+    "povrsina": 159.19,
+    "oblik": "15.628616,45.321708 15.628594,45.321573 15.628727,45.321562 15.628750,45.321697 15.628616,45.321708",
+    "vrhova": 4,
+    "opseg": 51.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310878": {
+    "povrsina": 262.54,
+    "oblik": "15.627526,45.320814 15.627529,45.320751 15.628003,45.320761 15.628000,45.320825 15.627526,45.320814",
+    "vrhova": 4,
+    "opseg": 88.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310879": {
+    "povrsina": 94.66,
+    "oblik": "15.636934,45.318423 15.636953,45.318315 15.637052,45.318324 15.637033,45.318432 15.636934,45.318423",
+    "vrhova": 4,
+    "opseg": 39.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310880": {
+    "povrsina": 92.48,
+    "oblik": "15.635233,45.318195 15.635252,45.318121 15.635390,45.318138 15.635371,45.318213 15.635233,45.318195",
+    "vrhova": 4,
+    "opseg": 38.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310881": {
+    "povrsina": 205.62,
+    "oblik": "15.627886,45.322957 15.627840,45.322895 15.627543,45.323004 15.627589,45.323067 15.627886,45.322957",
+    "vrhova": 4,
+    "opseg": 68.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310882": {
+    "povrsina": 97.73,
+    "oblik": "15.635815,45.318780 15.635844,45.318709 15.635699,45.318679 15.635669,45.318750 15.635815,45.318780",
+    "vrhova": 4,
+    "opseg": 40.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310883": {
+    "povrsina": 55.86,
+    "oblik": "15.621878,45.310627 15.621942,45.310549 15.621881,45.310524 15.621816,45.310602 15.621878,45.310627",
+    "vrhova": 4,
+    "opseg": 31.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310885": {
+    "povrsina": 45.78,
+    "oblik": "15.629243,45.319089 15.629148,45.319040 15.629186,45.319004 15.629281,45.319054 15.629243,45.319089",
+    "vrhova": 4,
+    "opseg": 28.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310886": {
+    "povrsina": 241.08,
+    "oblik": "15.629361,45.318647 15.629432,45.318588 15.629477,45.318615 15.629591,45.318520 15.629678,45.318573 15.629494,45.318726 15.629440,45.318694 15.629361,45.318647",
+    "vrhova": 7,
+    "opseg": 72,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310887": {
+    "povrsina": 97.14,
+    "oblik": "15.628474,45.319569 15.628488,45.319495 15.628636,45.319509 15.628622,45.319583 15.628474,45.319569",
+    "vrhova": 4,
+    "opseg": 40,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310888": {
+    "povrsina": 52.15,
+    "oblik": "15.630783,45.320534 15.630719,45.320507 15.630777,45.320438 15.630841,45.320464 15.630783,45.320534",
+    "vrhova": 4,
+    "opseg": 29.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310889": {
+    "povrsina": 127.82,
+    "oblik": "15.631663,45.318201 15.631645,45.318111 15.631804,45.318095 15.631822,45.318186 15.631663,45.318201",
+    "vrhova": 4,
+    "opseg": 45.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310890": {
+    "povrsina": 80.66,
+    "oblik": "15.629095,45.323725 15.629078,45.323783 15.629230,45.323805 15.629247,45.323746 15.629095,45.323725",
+    "vrhova": 4,
+    "opseg": 37.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310891": {
+    "povrsina": 58.68,
+    "oblik": "15.622551,45.310363 15.622648,45.310380 15.622625,45.310445 15.622528,45.310429 15.622551,45.310363",
+    "vrhova": 4,
+    "opseg": 30.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310892": {
+    "povrsina": 67.66,
+    "oblik": "15.635407,45.318159 15.635461,45.318059 15.635529,45.318078 15.635475,45.318177 15.635407,45.318159",
+    "vrhova": 4,
+    "opseg": 35.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310893": {
+    "povrsina": 77.42,
+    "oblik": "15.629489,45.319470 15.629422,45.319412 15.629513,45.319359 15.629581,45.319417 15.629489,45.319470",
+    "vrhova": 4,
+    "opseg": 35.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310894": {
+    "povrsina": 75.97,
+    "oblik": "15.628009,45.322017 15.628026,45.321933 15.628140,45.321945 15.628127,45.322010 15.628073,45.322004 15.628069,45.322023 15.628009,45.322017",
+    "vrhova": 6,
+    "opseg": 36.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310895": {
+    "povrsina": 54.38,
+    "oblik": "15.636822,45.312727 15.636858,45.312674 15.636954,45.312706 15.636918,45.312759 15.636822,45.312727",
+    "vrhova": 4,
+    "opseg": 29.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310896": {
+    "povrsina": 106.51,
+    "oblik": "15.629773,45.318709 15.629659,45.318639 15.629734,45.318578 15.629848,45.318647 15.629773,45.318709",
+    "vrhova": 4,
+    "opseg": 41.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310897": {
+    "povrsina": 84.95,
+    "oblik": "15.637168,45.312617 15.637194,45.312537 15.637310,45.312555 15.637284,45.312635 15.637168,45.312617",
+    "vrhova": 4,
+    "opseg": 36.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310898": {
+    "povrsina": 264.32,
+    "oblik": "15.627916,45.323191 15.627842,45.323020 15.628004,45.322985 15.628078,45.323157 15.627916,45.323191",
+    "vrhova": 4,
+    "opseg": 66.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310899": {
+    "povrsina": 72.76,
+    "oblik": "15.632088,45.318593 15.632090,45.318515 15.632197,45.318517 15.632195,45.318595 15.632088,45.318593",
+    "vrhova": 4,
+    "opseg": 34.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310900": {
+    "povrsina": 248.01,
+    "oblik": "15.627603,45.321181 15.627603,45.321106 15.627980,45.321105 15.627980,45.321181 15.627603,45.321181",
+    "vrhova": 4,
+    "opseg": 75.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310901": {
+    "povrsina": 29.2,
+    "oblik": "15.629188,45.318974 15.629143,45.318954 15.629193,45.318901 15.629237,45.318922 15.629188,45.318974",
+    "vrhova": 4,
+    "opseg": 22.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310902": {
+    "povrsina": 77.66,
+    "oblik": "15.628443,45.319690 15.628392,45.319681 15.628397,45.319667 15.628338,45.319657 15.628334,45.319669 15.628308,45.319664 15.628288,45.319722 15.628424,45.319745 15.628439,45.319703 15.628443,45.319690",
+    "vrhova": 9,
+    "opseg": 37.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310903": {
+    "povrsina": 92.82,
+    "oblik": "15.630767,45.320173 15.630709,45.320105 15.630823,45.320056 15.630882,45.320124 15.630767,45.320173",
+    "vrhova": 4,
+    "opseg": 38.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310904": {
+    "povrsina": 50.51,
+    "oblik": "15.632440,45.318575 15.632444,45.318510 15.632533,45.318513 15.632529,45.318578 15.632440,45.318575",
+    "vrhova": 4,
+    "opseg": 28.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310905": {
+    "povrsina": 98.66,
+    "oblik": "15.627784,45.321717 15.627774,45.321658 15.627964,45.321643 15.627973,45.321702 15.627784,45.321717",
+    "vrhova": 4,
+    "opseg": 43.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310906": {
+    "povrsina": 60.16,
+    "oblik": "15.629965,45.322350 15.629937,45.322265 15.630014,45.322253 15.630043,45.322337 15.629965,45.322350",
+    "vrhova": 4,
+    "opseg": 31.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310907": {
+    "povrsina": 49.8,
+    "oblik": "15.638062,45.308385 15.638163,45.308389 15.638158,45.308436 15.638036,45.308430 15.638040,45.308384 15.638062,45.308385",
+    "vrhova": 5,
+    "opseg": 29.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310908": {
+    "povrsina": 242.37,
+    "oblik": "15.633728,45.313993 15.633726,45.313885 15.633984,45.313883 15.633985,45.313991 15.633728,45.313993",
+    "vrhova": 4,
+    "opseg": 64.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310909": {
+    "povrsina": 109.47,
+    "oblik": "15.628944,45.323793 15.628963,45.323710 15.629095,45.323725 15.629078,45.323783 15.629072,45.323827 15.628994,45.323818 15.628998,45.323799 15.628944,45.323793",
+    "vrhova": 7,
+    "opseg": 43.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310910": {
+    "povrsina": 107.1,
+    "oblik": "15.635844,45.318709 15.635889,45.318601 15.635992,45.318622 15.635947,45.318733 15.635844,45.318709",
+    "vrhova": 4,
+    "opseg": 42.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310911": {
+    "povrsina": 123.41,
+    "oblik": "15.634801,45.314746 15.634895,45.314656 15.634997,45.314709 15.634903,45.314799 15.634801,45.314746",
+    "vrhova": 4,
+    "opseg": 44.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310912": {
+    "povrsina": 117.42,
+    "oblik": "15.622065,45.310701 15.621922,45.310664 15.621954,45.310601 15.621978,45.310608 15.621991,45.310583 15.622110,45.310614 15.622065,45.310701",
+    "vrhova": 6,
+    "opseg": 44.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310913": {
+    "povrsina": 58.07,
+    "oblik": "15.616005,45.308283 15.616171,45.308281 15.616170,45.308241 15.616003,45.308243 15.616005,45.308283",
+    "vrhova": 4,
+    "opseg": 35,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310914": {
+    "povrsina": 96.61,
+    "oblik": "15.632435,45.319015 15.632465,45.318901 15.632559,45.318913 15.632528,45.319028 15.632435,45.319015",
+    "vrhova": 4,
+    "opseg": 40.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310915": {
+    "povrsina": 57.79,
+    "oblik": "15.630976,45.320357 15.630898,45.320283 15.630956,45.320253 15.631034,45.320327 15.630976,45.320357",
+    "vrhova": 4,
+    "opseg": 31.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310916": {
+    "povrsina": 95.41,
+    "oblik": "15.637314,45.318759 15.637308,45.318637 15.637398,45.318635 15.637404,45.318756 15.637314,45.318759",
+    "vrhova": 4,
+    "opseg": 41.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310917": {
+    "povrsina": 64.54,
+    "oblik": "15.622112,45.310715 15.622138,45.310663 15.622266,45.310694 15.622242,45.310745 15.622112,45.310715",
+    "vrhova": 4,
+    "opseg": 33.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310918": {
+    "povrsina": 32.54,
+    "oblik": "15.623475,45.311106 15.623496,45.311068 15.623581,45.311092 15.623560,45.311130 15.623475,45.311106",
+    "vrhova": 4,
+    "opseg": 23.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310919": {
+    "povrsina": 23.94,
+    "oblik": "15.622068,45.310718 15.622106,45.310727 15.622112,45.310715 15.622138,45.310663 15.622099,45.310654 15.622068,45.310718",
+    "vrhova": 5,
+    "opseg": 21.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310920": {
+    "povrsina": 102.79,
+    "oblik": "15.628697,45.323040 15.628645,45.322961 15.628768,45.322921 15.628820,45.323000 15.628697,45.323040",
+    "vrhova": 4,
+    "opseg": 40.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310921": {
+    "povrsina": 112.42,
+    "oblik": "15.634197,45.318745 15.634231,45.318644 15.634352,45.318664 15.634318,45.318765 15.634197,45.318745",
+    "vrhova": 4,
+    "opseg": 42.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310922": {
+    "povrsina": 48.39,
+    "oblik": "15.629027,45.323658 15.628996,45.323613 15.629096,45.323579 15.629127,45.323624 15.629027,45.323658",
+    "vrhova": 4,
+    "opseg": 28.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310924": {
+    "povrsina": 94.78,
+    "oblik": "15.622165,45.310419 15.622187,45.310339 15.622318,45.310357 15.622296,45.310437 15.622165,45.310419",
+    "vrhova": 4,
+    "opseg": 39,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310925": {
+    "povrsina": 36.15,
+    "oblik": "15.628259,45.320352 15.628334,45.320358 15.628342,45.320303 15.628268,45.320297 15.628259,45.320352",
+    "vrhova": 4,
+    "opseg": 24.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310927": {
+    "povrsina": 33.84,
+    "oblik": "15.637125,45.318275 15.637131,45.318228 15.637213,45.318233 15.637207,45.318280 15.637125,45.318275",
+    "vrhova": 4,
+    "opseg": 23.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310928": {
+    "povrsina": 56.25,
+    "oblik": "15.622149,45.310589 15.622173,45.310540 15.622291,45.310568 15.622267,45.310617 15.622149,45.310589",
+    "vrhova": 4,
+    "opseg": 31,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310929": {
+    "povrsina": 60.31,
+    "oblik": "15.628767,45.319142 15.628833,45.319167 15.628770,45.319248 15.628704,45.319223 15.628767,45.319142",
+    "vrhova": 4,
+    "opseg": 32.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310930": {
+    "povrsina": 130.73,
+    "oblik": "15.633786,45.314215 15.633765,45.314145 15.633969,45.314115 15.633990,45.314186 15.633786,45.314215",
+    "vrhova": 4,
+    "opseg": 48.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310931": {
+    "povrsina": 83.53,
+    "oblik": "15.637944,45.308380 15.637950,45.308299 15.638068,45.308304 15.638062,45.308385 15.638040,45.308384 15.637944,45.308380",
+    "vrhova": 5,
+    "opseg": 36.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310932": {
+    "povrsina": 13.79,
+    "oblik": "15.629810,45.318454 15.629769,45.318412 15.629794,45.318399 15.629835,45.318441 15.629810,45.318454",
+    "vrhova": 4,
+    "opseg": 16.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310933": {
+    "povrsina": 60.66,
+    "oblik": "15.629412,45.322550 15.629435,45.322483 15.629534,45.322501 15.629510,45.322567 15.629412,45.322550",
+    "vrhova": 4,
+    "opseg": 31.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310934": {
+    "povrsina": 58.07,
+    "oblik": "15.628074,45.322234 15.628075,45.322174 15.628187,45.322175 15.628186,45.322234 15.628074,45.322234",
+    "vrhova": 4,
+    "opseg": 30.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310935": {
+    "povrsina": 141.59,
+    "oblik": "15.621407,45.310571 15.621448,45.310501 15.621456,45.310488 15.621305,45.310444 15.621313,45.310430 15.621278,45.310420 15.621253,45.310463 15.621291,45.310474 15.621259,45.310528 15.621407,45.310571",
+    "vrhova": 9,
+    "opseg": 54.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310936": {
+    "povrsina": 94.4,
+    "oblik": "15.637021,45.318516 15.637046,45.318432 15.637170,45.318450 15.637144,45.318534 15.637021,45.318516",
+    "vrhova": 4,
+    "opseg": 38.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310937": {
+    "povrsina": 73.69,
+    "oblik": "15.635715,45.318327 15.635739,45.318260 15.635857,45.318280 15.635833,45.318348 15.635715,45.318327",
+    "vrhova": 4,
+    "opseg": 34.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310938": {
+    "povrsina": 45.55,
+    "oblik": "15.630758,45.320360 15.630681,45.320296 15.630729,45.320268 15.630806,45.320332 15.630758,45.320360",
+    "vrhova": 4,
+    "opseg": 28.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310939": {
+    "povrsina": 74.5,
+    "oblik": "15.635202,45.318992 15.635205,45.318881 15.635282,45.318882 15.635279,45.318993 15.635202,45.318992",
+    "vrhova": 4,
+    "opseg": 36.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310940": {
+    "povrsina": 109.4,
+    "oblik": "15.635660,45.318947 15.635660,45.318854 15.635795,45.318855 15.635795,45.318948 15.635660,45.318947",
+    "vrhova": 4,
+    "opseg": 41.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310942": {
+    "povrsina": 45.23,
+    "oblik": "15.637397,45.311892 15.637425,45.311840 15.637513,45.311864 15.637485,45.311915 15.637397,45.311892",
+    "vrhova": 4,
+    "opseg": 27,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310943": {
+    "povrsina": 91.73,
+    "oblik": "15.632174,45.318715 15.632174,45.318657 15.632356,45.318658 15.632355,45.318716 15.632174,45.318715",
+    "vrhova": 4,
+    "opseg": 41.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310944": {
+    "povrsina": 82.28,
+    "oblik": "15.621090,45.309952 15.621134,45.309878 15.621243,45.309911 15.621199,45.309984 15.621090,45.309952",
+    "vrhova": 4,
+    "opseg": 36.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310945": {
+    "povrsina": 77.52,
+    "oblik": "15.623344,45.310918 15.623427,45.310944 15.623369,45.311033 15.623286,45.311007 15.623344,45.310918",
+    "vrhova": 4,
+    "opseg": 36,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310946": {
+    "povrsina": 31.34,
+    "oblik": "15.628962,45.319214 15.628995,45.319181 15.628922,45.319145 15.628889,45.319178 15.628962,45.319214",
+    "vrhova": 4,
+    "opseg": 22.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310947": {
+    "povrsina": 51.23,
+    "oblik": "15.637257,45.318414 15.637277,45.318334 15.637349,45.318344 15.637328,45.318423 15.637257,45.318414",
+    "vrhova": 4,
+    "opseg": 29.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310948": {
+    "povrsina": 91.36,
+    "oblik": "15.638174,45.308188 15.638154,45.308127 15.638317,45.308100 15.638337,45.308161 15.638174,45.308188",
+    "vrhova": 4,
+    "opseg": 40.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310949": {
+    "povrsina": 5.23,
+    "oblik": "15.628311,45.325709 15.628316,45.325729 15.628345,45.325725 15.628340,45.325705 15.628311,45.325709",
+    "vrhova": 4,
+    "opseg": 9.1,
+    "tags": {
+      "building": "yes",
+      "power": "substation"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310950": {
+    "povrsina": 168.49,
+    "oblik": "15.629335,45.318787 15.629209,45.318716 15.629316,45.318622 15.629361,45.318647 15.629440,45.318694 15.629335,45.318787",
+    "vrhova": 5,
+    "opseg": 51.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310951": {
+    "povrsina": 59.55,
+    "oblik": "15.629442,45.322340 15.629471,45.322287 15.629583,45.322318 15.629554,45.322371 15.629442,45.322340",
+    "vrhova": 4,
+    "opseg": 31.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310952": {
+    "povrsina": 46.33,
+    "oblik": "15.629127,45.323560 15.629093,45.323488 15.629160,45.323473 15.629194,45.323544 15.629127,45.323560",
+    "vrhova": 4,
+    "opseg": 27.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310953": {
+    "povrsina": 100.76,
+    "oblik": "15.629610,45.318868 15.629523,45.318807 15.629617,45.318740 15.629704,45.318801 15.629610,45.318868",
+    "vrhova": 4,
+    "opseg": 40.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310954": {
+    "povrsina": 20.65,
+    "oblik": "15.630610,45.320417 15.630666,45.320432 15.630645,45.320469 15.630589,45.320453 15.630610,45.320417",
+    "vrhova": 4,
+    "opseg": 18.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310955": {
+    "povrsina": 99.97,
+    "oblik": "15.635265,45.318727 15.635259,45.318640 15.635390,45.318635 15.635397,45.318722 15.635265,45.318727",
+    "vrhova": 4,
+    "opseg": 40,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310956": {
+    "povrsina": 32.16,
+    "oblik": "15.616195,45.308106 15.616195,45.308061 15.616277,45.308060 15.616277,45.308105 15.616195,45.308106",
+    "vrhova": 4,
+    "opseg": 22.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310957": {
+    "povrsina": 67.02,
+    "oblik": "15.621509,45.310408 15.621577,45.310430 15.621516,45.310523 15.621448,45.310501 15.621456,45.310488 15.621509,45.310408",
+    "vrhova": 5,
+    "opseg": 34.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310958": {
+    "povrsina": 10.54,
+    "oblik": "15.635131,45.314508 15.635162,45.314479 15.635189,45.314493 15.635157,45.314522 15.635131,45.314508",
+    "vrhova": 4,
+    "opseg": 13.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310959": {
+    "povrsina": 92.23,
+    "oblik": "15.629349,45.318950 15.629298,45.318920 15.629375,45.318854 15.629465,45.318906 15.629375,45.318982 15.629337,45.318960 15.629349,45.318950",
+    "vrhova": 6,
+    "opseg": 40.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310960": {
+    "povrsina": 54.31,
+    "oblik": "15.635514,45.318830 15.635511,45.318743 15.635583,45.318742 15.635586,45.318828 15.635514,45.318830",
+    "vrhova": 4,
+    "opseg": 30.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310961": {
+    "povrsina": 242.81,
+    "oblik": "15.635347,45.314185 15.635237,45.314137 15.635075,45.314319 15.635186,45.314367 15.635347,45.314185",
+    "vrhova": 4,
+    "opseg": 68.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310962": {
+    "povrsina": 31.11,
+    "oblik": "15.621004,45.309901 15.621019,45.309862 15.621104,45.309879 15.621089,45.309918 15.621004,45.309901",
+    "vrhova": 4,
+    "opseg": 22.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310963": {
+    "povrsina": 101.77,
+    "oblik": "15.622360,45.310400 15.622382,45.310335 15.622551,45.310363 15.622528,45.310429 15.622360,45.310400",
+    "vrhova": 4,
+    "opseg": 42.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561310964": {
+    "povrsina": 101.08,
+    "oblik": "15.629815,45.322516 15.629836,45.322420 15.629954,45.322433 15.629933,45.322529 15.629815,45.322516",
+    "vrhova": 4,
+    "opseg": 40.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310965": {
+    "povrsina": 71.69,
+    "oblik": "15.622297,45.310738 15.622329,45.310664 15.622431,45.310686 15.622398,45.310760 15.622297,45.310738",
+    "vrhova": 4,
+    "opseg": 33.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561310966": {
+    "povrsina": 86.14,
+    "oblik": "15.632137,45.318049 15.632100,45.317991 15.632242,45.317945 15.632279,45.318002 15.632137,45.318049",
+    "vrhova": 4,
+    "opseg": 38.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313884": {
+    "povrsina": 55.61,
+    "oblik": "15.695789,45.887373 15.695860,45.887357 15.695820,45.887275 15.695749,45.887292 15.695789,45.887373",
+    "vrhova": 4,
+    "opseg": 30.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313885": {
+    "povrsina": 121.99,
+    "oblik": "15.693570,45.888899 15.693716,45.888870 15.693678,45.888775 15.693566,45.888798 15.693575,45.888820 15.693540,45.888827 15.693570,45.888899",
+    "vrhova": 6,
+    "opseg": 45.5,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561313886": {
+    "povrsina": 721.36,
+    "oblik": "15.694865,45.888215 15.695121,45.888167 15.695181,45.888324 15.694937,45.888370 15.694951,45.888405 15.694717,45.888449 15.694652,45.888280 15.694875,45.888239 15.694865,45.888215",
+    "vrhova": 8,
+    "opseg": 121.2,
+    "tags": {
+      "building": "apartments"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313887": {
+    "povrsina": 50.4,
+    "oblik": "15.694677,45.886968 15.694550,45.887012 15.694524,45.886975 15.694651,45.886931 15.694677,45.886968",
+    "vrhova": 4,
+    "opseg": 31.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313888": {
+    "povrsina": 138.23,
+    "oblik": "15.694663,45.886994 15.694815,45.886953 15.694866,45.887044 15.694714,45.887086 15.694663,45.886994",
+    "vrhova": 4,
+    "opseg": 47.2,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561313889": {
+    "povrsina": 42.94,
+    "oblik": "15.695390,45.886859 15.695470,45.886837 15.695439,45.886783 15.695359,45.886806 15.695390,45.886859",
+    "vrhova": 4,
+    "opseg": 26.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313890": {
+    "povrsina": 67.72,
+    "oblik": "15.694976,45.886639 15.695130,45.886596 15.695155,45.886640 15.695002,45.886683 15.694976,45.886639",
+    "vrhova": 4,
+    "opseg": 36.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313891": {
+    "povrsina": 53.67,
+    "oblik": "15.695087,45.886672 15.695149,45.886654 15.695200,45.886739 15.695137,45.886757 15.695087,45.886672",
+    "vrhova": 4,
+    "opseg": 31,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313892": {
+    "povrsina": 32.16,
+    "oblik": "15.695156,45.886579 15.695228,45.886560 15.695253,45.886605 15.695180,45.886624 15.695156,45.886579",
+    "vrhova": 4,
+    "opseg": 22.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313893": {
+    "povrsina": 74.95,
+    "oblik": "15.694144,45.886852 15.694195,45.886832 15.694149,45.886776 15.694168,45.886768 15.694125,45.886715 15.694055,45.886743 15.694144,45.886852",
+    "vrhova": 6,
+    "opseg": 40.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313894": {
+    "povrsina": 36.64,
+    "oblik": "15.696248,45.887045 15.696308,45.887029 15.696275,45.886967 15.696215,45.886983 15.696248,45.887045",
+    "vrhova": 4,
+    "opseg": 24.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313895": {
+    "povrsina": 52.14,
+    "oblik": "15.696307,45.886980 15.696340,45.887038 15.696430,45.887013 15.696397,45.886955 15.696307,45.886980",
+    "vrhova": 4,
+    "opseg": 28.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561313897": {
+    "povrsina": 175.62,
+    "oblik": "15.692717,45.888303 15.692848,45.888275 15.692784,45.888133 15.692653,45.888162 15.692717,45.888303",
+    "vrhova": 4,
+    "opseg": 54.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313898": {
+    "povrsina": 88.35,
+    "oblik": "15.692669,45.888153 15.692757,45.888135 15.692749,45.888116 15.692779,45.888110 15.692758,45.888060 15.692719,45.888068 15.692709,45.888044 15.692630,45.888061 15.692669,45.888153",
+    "vrhova": 8,
+    "opseg": 40.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561313899": {
+    "povrsina": 192.7,
+    "oblik": "15.692192,45.887998 15.692308,45.887967 15.692216,45.887799 15.692100,45.887830 15.692192,45.887998",
+    "vrhova": 4,
+    "opseg": 59.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561323537": {
+    "povrsina": 49.22,
+    "oblik": "13.910909,45.227680 13.910921,45.227632 13.911035,45.227646 13.911023,45.227694 13.910909,45.227680",
+    "vrhova": 4,
+    "opseg": 29,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561328557": {
+    "povrsina": 55.35,
+    "oblik": "13.655545,45.411043 13.655548,45.410964 13.655628,45.410979 13.655634,45.411051 13.655545,45.411043",
+    "vrhova": 4,
+    "opseg": 30.3,
+    "tags": {
+      "building": "garage"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561328558": {
+    "povrsina": 132.8,
+    "oblik": "13.655333,45.411011 13.655341,45.410934 13.655446,45.410938 13.655532,45.410949 13.655513,45.411032 13.655440,45.411021 13.655333,45.411011",
+    "vrhova": 6,
+    "opseg": 47.3,
+    "tags": {
+      "building": "garage"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561413208": {
+    "povrsina": 125.06,
+    "oblik": "16.887887,45.904973 16.888163,45.905021 16.888170,45.905072 16.887870,45.905021 16.887887,45.904973",
+    "vrhova": 4,
+    "opseg": 57.2,
+    "tags": {
+      "building": "ruins"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561413209": {
+    "povrsina": 40.11,
+    "oblik": "16.888131,45.904987 16.888153,45.904914 16.888214,45.904923 16.888192,45.904996 16.888131,45.904987",
+    "vrhova": 4,
+    "opseg": 26.3,
+    "tags": {
+      "building": "ruins"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561419092": {
+    "povrsina": 34.89,
+    "oblik": "17.050075,45.928883 17.050139,45.928901 17.050171,45.928846 17.050107,45.928829 17.050075,45.928883",
+    "vrhova": 4,
+    "opseg": 23.8,
+    "tags": {
+      "amenity": "place_of_worship",
+      "building": "yes",
+      "name": "kapela Pohoda Blažene Djevice Marije",
+      "religion": "christian"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561419093": {
+    "povrsina": 174.48,
+    "oblik": "17.048320,45.928951 17.048586,45.928992 17.048596,45.928961 17.048574,45.928957 17.048588,45.928912 17.048344,45.928875 17.048320,45.928951",
+    "vrhova": 6,
+    "opseg": 59.5,
+    "tags": {
+      "amenity": "community_centre",
+      "building": "yes",
+      "community_centre": "community_hall",
+      "name": "Mjesni dom Jasenik"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449163": {
+    "povrsina": 234.86,
+    "oblik": "16.846368,45.915154 16.846345,45.915235 16.846476,45.915246 16.846787,45.915159 16.846752,45.915116 16.846508,45.915172 16.846368,45.915154",
+    "vrhova": 6,
+    "opseg": 81.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449164": {
+    "povrsina": 100.15,
+    "oblik": "16.846579,45.915062 16.846607,45.915128 16.846769,45.915095 16.846741,45.915029 16.846579,45.915062",
+    "vrhova": 4,
+    "opseg": 41.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449165": {
+    "povrsina": 140.84,
+    "oblik": "16.846657,45.915004 16.846670,45.915038 16.846798,45.915013 16.846781,45.914973 16.846804,45.914968 16.846793,45.914941 16.846843,45.914932 16.846835,45.914912 16.846596,45.914959 16.846618,45.915012 16.846657,45.915004",
+    "vrhova": 10,
+    "opseg": 58.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449169": {
+    "povrsina": 94.45,
+    "oblik": "16.846840,45.914439 16.847042,45.914406 16.847025,45.914355 16.846823,45.914387 16.846840,45.914439",
+    "vrhova": 4,
+    "opseg": 43.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449170": {
+    "povrsina": 52.07,
+    "oblik": "16.846798,45.914494 16.846814,45.914533 16.846911,45.914513 16.846881,45.914444 16.846821,45.914457 16.846834,45.914487 16.846798,45.914494",
+    "vrhova": 6,
+    "opseg": 31.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449171": {
+    "povrsina": 154.11,
+    "oblik": "16.846958,45.914082 16.846998,45.914167 16.847168,45.914128 16.847168,45.914034 16.846958,45.914082",
+    "vrhova": 4,
+    "opseg": 51.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449172": {
+    "povrsina": 34.77,
+    "oblik": "16.846943,45.914287 16.846942,45.914223 16.847005,45.914223 16.847007,45.914286 16.846943,45.914287",
+    "vrhova": 4,
+    "opseg": 24,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449174": {
+    "povrsina": 63.3,
+    "oblik": "16.847227,45.916959 16.847259,45.916996 16.847402,45.916935 16.847369,45.916897 16.847227,45.916959",
+    "vrhova": 4,
+    "opseg": 35.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449175": {
+    "povrsina": 48.78,
+    "oblik": "16.846066,45.916774 16.846103,45.916814 16.846203,45.916771 16.846167,45.916730 16.846066,45.916774",
+    "vrhova": 4,
+    "opseg": 29,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449176": {
+    "povrsina": 44.92,
+    "oblik": "16.846178,45.916999 16.846214,45.917038 16.846309,45.916998 16.846273,45.916958 16.846178,45.916999",
+    "vrhova": 4,
+    "opseg": 27.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449184": {
+    "povrsina": 550.55,
+    "oblik": "16.855136,45.913497 16.855244,45.913630 16.854880,45.913773 16.854772,45.913640 16.855136,45.913497",
+    "vrhova": 4,
+    "opseg": 98.8,
+    "tags": {
+      "building": "residential"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449188": {
+    "povrsina": 126.26,
+    "oblik": "16.853896,45.913415 16.853974,45.913508 16.854091,45.913461 16.854013,45.913367 16.853896,45.913415",
+    "vrhova": 4,
+    "opseg": 45.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449189": {
+    "povrsina": 203.99,
+    "oblik": "16.854025,45.913349 16.854111,45.913461 16.854165,45.913440 16.854182,45.913462 16.854233,45.913443 16.854249,45.913464 16.854299,45.913445 16.854233,45.913360 16.854202,45.913372 16.854149,45.913303 16.854025,45.913349",
+    "vrhova": 10,
+    "opseg": 66.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449190": {
+    "povrsina": 188.29,
+    "oblik": "16.854196,45.913282 16.854312,45.913438 16.854373,45.913416 16.854332,45.913361 16.854409,45.913334 16.854334,45.913233 16.854196,45.913282",
+    "vrhova": 6,
+    "opseg": 63.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449191": {
+    "povrsina": 154.42,
+    "oblik": "16.854392,45.913225 16.854465,45.913326 16.854607,45.913276 16.854535,45.913176 16.854392,45.913225",
+    "vrhova": 4,
+    "opseg": 49.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449192": {
+    "povrsina": 234.45,
+    "oblik": "16.854658,45.913302 16.854755,45.913268 16.854741,45.913249 16.854863,45.913206 16.854791,45.913106 16.854644,45.913158 16.854664,45.913187 16.854592,45.913212 16.854658,45.913302",
+    "vrhova": 8,
+    "opseg": 67.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449193": {
+    "povrsina": 32.38,
+    "oblik": "16.854083,45.913502 16.854120,45.913554 16.854178,45.913534 16.854141,45.913482 16.854083,45.913502",
+    "vrhova": 4,
+    "opseg": 22.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449194": {
+    "povrsina": 405.76,
+    "oblik": "16.853655,45.913478 16.853810,45.913681 16.854042,45.913595 16.853987,45.913522 16.853879,45.913562 16.853858,45.913534 16.853892,45.913521 16.853815,45.913419 16.853655,45.913478",
+    "vrhova": 8,
+    "opseg": 98,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449195": {
+    "povrsina": 172.61,
+    "oblik": "16.853359,45.913672 16.853426,45.913764 16.853589,45.913707 16.853545,45.913645 16.853523,45.913652 16.853495,45.913613 16.853461,45.913625 16.853451,45.913612 16.853395,45.913632 16.853411,45.913654 16.853359,45.913672",
+    "vrhova": 10,
+    "opseg": 56.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449196": {
+    "povrsina": 60.74,
+    "oblik": "16.853453,45.913788 16.853528,45.913890 16.853583,45.913870 16.853508,45.913769 16.853453,45.913788",
+    "vrhova": 4,
+    "opseg": 35,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449197": {
+    "povrsina": 129.28,
+    "oblik": "16.853602,45.913640 16.853722,45.913594 16.853648,45.913498 16.853527,45.913544 16.853602,45.913640",
+    "vrhova": 4,
+    "opseg": 45.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 2,
+    "dguAdresa": null
+  },
+  "way/1561449198": {
+    "povrsina": 38.72,
+    "oblik": "16.853586,45.913672 16.853628,45.913732 16.853689,45.913711 16.853647,45.913652 16.853586,45.913672",
+    "vrhova": 4,
+    "opseg": 25.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449199": {
+    "povrsina": 21.33,
+    "oblik": "16.853760,45.913619 16.853714,45.913635 16.853745,45.913678 16.853791,45.913662 16.853760,45.913619",
+    "vrhova": 4,
+    "opseg": 18.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449200": {
+    "povrsina": 169.53,
+    "oblik": "16.854208,45.913608 16.854271,45.913683 16.854435,45.913615 16.854430,45.913584 16.854458,45.913573 16.854416,45.913523 16.854208,45.913608",
+    "vrhova": 6,
+    "opseg": 55.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449201": {
+    "povrsina": 86.7,
+    "oblik": "16.854437,45.913531 16.854389,45.913454 16.854516,45.913416 16.854550,45.913471 16.854492,45.913489 16.854505,45.913510 16.854437,45.913531",
+    "vrhova": 6,
+    "opseg": 39.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449202": {
+    "povrsina": 20.69,
+    "oblik": "16.854141,45.911980 16.854171,45.912016 16.854221,45.911996 16.854191,45.911960 16.854141,45.911980",
+    "vrhova": 4,
+    "opseg": 18.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561449204": {
+    "povrsina": 189.71,
+    "oblik": "16.856544,45.913203 16.856600,45.913297 16.856780,45.913246 16.856752,45.913198 16.856790,45.913187 16.856762,45.913140 16.856544,45.913203",
+    "vrhova": 6,
+    "opseg": 59.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449205": {
+    "povrsina": 108.51,
+    "oblik": "16.856922,45.912989 16.856970,45.913068 16.857105,45.913028 16.857057,45.912949 16.856922,45.912989",
+    "vrhova": 4,
+    "opseg": 41.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449206": {
+    "povrsina": 82.99,
+    "oblik": "16.858249,45.912368 16.858288,45.912429 16.858419,45.912389 16.858379,45.912327 16.858249,45.912368",
+    "vrhova": 4,
+    "opseg": 37.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561449207": {
+    "povrsina": 167.77,
+    "oblik": "16.856303,45.912894 16.856365,45.912985 16.856540,45.912928 16.856478,45.912837 16.856303,45.912894",
+    "vrhova": 4,
+    "opseg": 52.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561450093": {
+    "povrsina": 148.92,
+    "oblik": "16.846868,45.913207 16.846875,45.913283 16.847101,45.913274 16.847095,45.913198 16.846868,45.913207",
+    "vrhova": 4,
+    "opseg": 52.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561450094": {
+    "povrsina": 55.5,
+    "oblik": "16.846922,45.913522 16.846922,45.913481 16.847079,45.913481 16.847079,45.913522 16.846922,45.913522",
+    "vrhova": 4,
+    "opseg": 33.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561450095": {
+    "povrsina": 82.91,
+    "oblik": "16.847131,45.913453 16.847069,45.913454 16.847063,45.913299 16.847125,45.913298 16.847131,45.913453",
+    "vrhova": 4,
+    "opseg": 44.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561450096": {
+    "povrsina": 64.86,
+    "oblik": "16.846599,45.912940 16.846583,45.913025 16.846670,45.913033 16.846686,45.912948 16.846599,45.912940",
+    "vrhova": 4,
+    "opseg": 32.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561466952": {
+    "povrsina": 45.65,
+    "oblik": "16.867440,45.887507 16.867486,45.887530 16.867564,45.887452 16.867519,45.887430 16.867440,45.887507",
+    "vrhova": 4,
+    "opseg": 29.8,
+    "tags": {
+      "building": "greenhouse"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561466953": {
+    "povrsina": 45.91,
+    "oblik": "16.867577,45.887781 16.867619,45.887807 16.867709,45.887736 16.867667,45.887710 16.867577,45.887781",
+    "vrhova": 4,
+    "opseg": 29.8,
+    "tags": {
+      "building": "greenhouse"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561473974": {
+    "povrsina": 404.61,
+    "oblik": "16.903614,45.814541 16.903740,45.814727 16.903996,45.814643 16.903966,45.814599 16.903933,45.814610 16.903902,45.814564 16.903854,45.814580 16.903788,45.814483 16.903614,45.814541",
+    "vrhova": 8,
+    "opseg": 89.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561473975": {
+    "povrsina": 1023.16,
+    "oblik": "16.903478,45.814307 16.903550,45.814413 16.903954,45.814282 16.903942,45.814264 16.904091,45.814216 16.903935,45.813983 16.903999,45.813962 16.903961,45.813906 16.903527,45.814047 16.903566,45.814107 16.903755,45.814046 16.903878,45.814231 16.903644,45.814307 16.903614,45.814263 16.903478,45.814307",
+    "vrhova": 14,
+    "opseg": 224,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561473977": {
+    "povrsina": 37.55,
+    "oblik": "16.903972,45.815917 16.904002,45.815973 16.904070,45.815955 16.904040,45.815899 16.903972,45.815917",
+    "vrhova": 4,
+    "opseg": 24.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561473978": {
+    "povrsina": 36.97,
+    "oblik": "16.903959,45.815808 16.903989,45.815863 16.904057,45.815845 16.904027,45.815790 16.903959,45.815808",
+    "vrhova": 4,
+    "opseg": 24.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561473985": {
+    "povrsina": 251.01,
+    "oblik": "16.903782,45.815086 16.903846,45.815177 16.904157,45.815066 16.904127,45.815012 16.903986,45.815060 16.903961,45.815024 16.903782,45.815086",
+    "vrhova": 6,
+    "opseg": 77,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561473986": {
+    "povrsina": 823.65,
+    "oblik": "16.903949,45.815294 16.904038,45.815388 16.904688,45.815089 16.904622,45.815020 16.904415,45.815115 16.904370,45.815067 16.904424,45.815041 16.904384,45.815000 16.904296,45.815040 16.904271,45.815014 16.904157,45.815066 16.904274,45.815189 16.904128,45.815256 16.904098,45.815225 16.903949,45.815294",
+    "vrhova": 14,
+    "opseg": 188.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561473987": {
+    "povrsina": 581.76,
+    "oblik": "16.904031,45.815461 16.904108,45.815551 16.904697,45.815306 16.904574,45.815162 16.904412,45.815229 16.904493,45.815324 16.904194,45.815448 16.904160,45.815407 16.904031,45.815461",
+    "vrhova": 8,
+    "opseg": 154.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561473988": {
+    "povrsina": 137.44,
+    "oblik": "16.904126,45.815611 16.904199,45.815705 16.904330,45.815656 16.904258,45.815562 16.904126,45.815611",
+    "vrhova": 4,
+    "opseg": 46.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561473989": {
+    "povrsina": 138.06,
+    "oblik": "16.904741,45.815147 16.904814,45.815241 16.904946,45.815192 16.904873,45.815098 16.904741,45.815147",
+    "vrhova": 4,
+    "opseg": 47,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561473990": {
+    "povrsina": 141.67,
+    "oblik": "16.904272,45.815756 16.904337,45.815850 16.904479,45.815803 16.904414,45.815709 16.904272,45.815756",
+    "vrhova": 4,
+    "opseg": 47.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561473993": {
+    "povrsina": 711.84,
+    "oblik": "16.903426,45.816387 16.903448,45.816449 16.903478,45.816443 16.903572,45.816700 16.903621,45.816689 16.903662,45.816766 16.903998,45.816666 16.903946,45.816584 16.903682,45.816652 16.903625,45.816521 16.903641,45.816516 16.903608,45.816430 16.903678,45.816418 16.903654,45.816337 16.903426,45.816387",
+    "vrhova": 14,
+    "opseg": 172.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561473994": {
+    "povrsina": 89.3,
+    "oblik": "16.903702,45.816786 16.903785,45.816898 16.903858,45.816871 16.903775,45.816760 16.903702,45.816786",
+    "vrhova": 4,
+    "opseg": 40.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561473995": {
+    "povrsina": 89.22,
+    "oblik": "16.903958,45.816924 16.904122,45.816871 16.904088,45.816819 16.903924,45.816872 16.903958,45.816924",
+    "vrhova": 4,
+    "opseg": 40.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561473996": {
+    "povrsina": 37.55,
+    "oblik": "16.903880,45.816466 16.903910,45.816522 16.903978,45.816504 16.903948,45.816448 16.903880,45.816466",
+    "vrhova": 4,
+    "opseg": 24.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561474001": {
+    "povrsina": 130.77,
+    "oblik": "16.901507,45.814768 16.901536,45.814822 16.901782,45.814758 16.901753,45.814704 16.901507,45.814768",
+    "vrhova": 4,
+    "opseg": 53.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561509335": {
+    "povrsina": 163.79,
+    "oblik": "15.689633,45.889440 15.689700,45.889503 15.689894,45.889402 15.689827,45.889339 15.689633,45.889440",
+    "vrhova": 4,
+    "opseg": 55,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561511261": {
+    "povrsina": 14.51,
+    "oblik": "15.752619,45.896200 15.752656,45.896203 15.752662,45.896158 15.752624,45.896156 15.752619,45.896200",
+    "vrhova": 4,
+    "opseg": 15.8,
+    "tags": {
+      "building": "power_substation",
+      "power": "substation",
+      "substation": "minor_distribution"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561699543": {
+    "povrsina": 265.76,
+    "oblik": "14.282037,45.477744 14.282066,45.477622 14.282183,45.477636 14.282194,45.477589 14.282286,45.477600 14.282245,45.477769 14.282037,45.477744",
+    "vrhova": 6,
+    "opseg": 71.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561699545": {
+    "povrsina": 130.35,
+    "oblik": "14.283808,45.474606 14.283743,45.474548 14.283903,45.474460 14.283968,45.474518 14.283808,45.474606",
+    "vrhova": 4,
+    "opseg": 48.2,
+    "tags": {
+      "building": "roof",
+      "layer": "1"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561709923": {
+    "povrsina": 31.44,
+    "oblik": "13.918876,44.797402 13.918910,44.797410 13.918929,44.797370 13.918937,44.797353 13.918902,44.797345 13.918842,44.797331 13.918833,44.797353 13.918893,44.797366 13.918876,44.797402",
+    "vrhova": 8,
+    "opseg": 29.1,
+    "tags": {
+      "building": "roof"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561716097": {
+    "povrsina": 94.96,
+    "oblik": "14.074869,45.057831 14.074925,45.057751 14.075034,45.057789 14.074978,45.057869 14.074869,45.057831",
+    "vrhova": 4,
+    "opseg": 39,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561722037": {
+    "povrsina": 219.02,
+    "oblik": "13.522838,45.451042 13.522937,45.451052 13.523007,45.451008 13.522941,45.450887 13.522779,45.450911 13.522838,45.451042",
+    "vrhova": 5,
+    "opseg": 57.8,
+    "tags": {
+      "amenity": "toilets",
+      "building": "service",
+      "shower": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561737785": {
+    "povrsina": 21.33,
+    "oblik": "14.191852,45.194572 14.191915,45.194600 14.191891,45.194628 14.191871,45.194619 14.191828,45.194601 14.191852,45.194572",
+    "vrhova": 5,
+    "opseg": 19,
+    "tags": {
+      "addr:housenumber": "98",
+      "addr:street": "Kožljak",
+      "building": "house",
+      "house": "detached"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561812808": {
+    "povrsina": 69.22,
+    "oblik": "17.941637,42.691209 17.941562,42.691137 17.941629,42.691100 17.941704,42.691172 17.941637,42.691209",
+    "vrhova": 4,
+    "opseg": 33.9,
+    "tags": {
+      "building": "barn"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561817318": {
+    "povrsina": 51.23,
+    "oblik": "17.951425,42.679317 17.951377,42.679214 17.951328,42.679226 17.951376,42.679329 17.951425,42.679317",
+    "vrhova": 4,
+    "opseg": 32.7,
+    "tags": {
+      "building": "roof"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561817319": {
+    "povrsina": 78.6,
+    "oblik": "17.951475,42.679856 17.951355,42.679714 17.951399,42.679694 17.951519,42.679836 17.951484,42.679851 17.951475,42.679856",
+    "vrhova": 5,
+    "opseg": 45.7,
+    "tags": {
+      "building": "roof"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561819517": {
+    "povrsina": 93.2,
+    "oblik": "17.956041,42.683162 17.955977,42.683083 17.956088,42.683035 17.956117,42.683072 17.956090,42.683083 17.956124,42.683126 17.956041,42.683162",
+    "vrhova": 6,
+    "opseg": 41.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561819519": {
+    "povrsina": 31.42,
+    "oblik": "17.954027,42.684598 17.953985,42.684539 17.953939,42.684557 17.953982,42.684616 17.954027,42.684598",
+    "vrhova": 4,
+    "opseg": 23.3,
+    "tags": {
+      "building": "chapel",
+      "historic": "wayside_chapel"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561904400": {
+    "povrsina": 260.53,
+    "oblik": "18.693225,45.621083 18.693318,45.620963 18.693516,45.621032 18.693407,45.621154 18.693225,45.621083",
+    "vrhova": 4,
+    "opseg": 64.7,
+    "tags": {
+      "addr:city": "Darda",
+      "addr:housenumber": "59",
+      "addr:postcode": "31326",
+      "addr:street": "Ulica Ljudevita Gaja",
+      "building": "apartments",
+      "building:levels": "2",
+      "name": "Ul. Ljudevita Gaja 59",
+      "name:en": "Ljudevita Gaja 59"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561922731": {
+    "povrsina": 552.83,
+    "oblik": "16.934366,43.366986 16.934022,43.366860 16.934092,43.366740 16.934153,43.366742 16.934220,43.366781 16.934259,43.366748 16.934364,43.366819 16.934477,43.366855 16.934439,43.366910 16.934366,43.366986",
+    "vrhova": 9,
+    "opseg": 101.2,
+    "tags": {
+      "addr:city": "Brela",
+      "addr:housenumber": "18",
+      "addr:postcode": "21322",
+      "addr:street": "Ivana Gundulića",
+      "building": "house",
+      "building:levels": "4",
+      "house": "maisonette",
+      "name": "Nede Medić Apartments"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561923735": {
+    "povrsina": 243.95,
+    "oblik": "13.641745,45.239458 13.641910,45.239343 13.641749,45.239227 13.641669,45.239282 13.641745,45.239458",
+    "vrhova": 4,
+    "opseg": 65.5,
+    "tags": {
+      "addr:city": "Porec",
+      "addr:housenumber": "25",
+      "addr:postcode": "52440",
+      "addr:street": "Antonci",
+      "addr:unit": "a",
+      "building": "apartments",
+      "building:colour": "white",
+      "building:levels": "1",
+      "building:material": "plaster",
+      "height": "9",
+      "name": "Ustanova Eleonora"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561923740": {
+    "povrsina": 122.51,
+    "oblik": "13.641181,45.238699 13.641264,45.238660 13.641155,45.238543 13.641071,45.238582 13.641181,45.238699",
+    "vrhova": 4,
+    "opseg": 46.9,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561923741": {
+    "povrsina": 169.26,
+    "oblik": "13.641553,45.238785 13.641637,45.238735 13.641660,45.238750 13.641775,45.238696 13.641690,45.238626 13.641495,45.238733 13.641553,45.238785",
+    "vrhova": 6,
+    "opseg": 58.9,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561923742": {
+    "povrsina": 110.71,
+    "oblik": "13.641283,45.238883 13.641224,45.238802 13.641099,45.238847 13.641158,45.238927 13.641283,45.238883",
+    "vrhova": 4,
+    "opseg": 42.1,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561923743": {
+    "povrsina": 65.53,
+    "oblik": "13.642649,45.239626 13.642729,45.239543 13.642668,45.239513 13.642587,45.239597 13.642649,45.239626",
+    "vrhova": 4,
+    "opseg": 34.1,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561923746": {
+    "povrsina": 341.99,
+    "oblik": "13.642036,45.239665 13.642202,45.239734 13.642349,45.239559 13.642183,45.239490 13.642036,45.239665",
+    "vrhova": 4,
+    "opseg": 75.5,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561923752": {
+    "povrsina": 91.87,
+    "oblik": "13.641498,45.240907 13.641559,45.240971 13.641673,45.240918 13.641612,45.240854 13.641498,45.240907",
+    "vrhova": 4,
+    "opseg": 38.6,
+    "tags": {
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561933378": {
+    "povrsina": 192.61,
+    "oblik": "15.932119,45.804290 15.931914,45.804288 15.931913,45.804352 15.931971,45.804352 15.931969,45.804415 15.932116,45.804417 15.932119,45.804290",
+    "vrhova": 6,
+    "opseg": 60.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561934138": {
+    "povrsina": 785.82,
+    "oblik": "15.932090,45.803175 15.931948,45.803173 15.931960,45.802743 15.931961,45.802698 15.931967,45.802555 15.932118,45.802558 15.932090,45.803175",
+    "vrhova": 6,
+    "opseg": 160.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941496": {
+    "povrsina": 72.84,
+    "oblik": "16.513558,45.249848 16.513610,45.249827 16.513678,45.249800 16.513720,45.249852 16.513600,45.249901 16.513558,45.249848",
+    "vrhova": 5,
+    "opseg": 35.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561941497": {
+    "povrsina": 52.05,
+    "oblik": "16.513483,45.249805 16.513552,45.249778 16.513565,45.249772 16.513610,45.249827 16.513558,45.249848 16.513528,45.249860 16.513483,45.249805",
+    "vrhova": 6,
+    "opseg": 28.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941498": {
+    "povrsina": 71.39,
+    "oblik": "16.513479,45.249688 16.513552,45.249778 16.513483,45.249805 16.513410,45.249716 16.513479,45.249688",
+    "vrhova": 4,
+    "opseg": 35.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941499": {
+    "povrsina": 50.92,
+    "oblik": "16.513532,45.249601 16.513431,45.249645 16.513467,45.249687 16.513569,45.249642 16.513532,45.249601",
+    "vrhova": 4,
+    "opseg": 29.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941509": {
+    "povrsina": 139.78,
+    "oblik": "16.513504,45.250193 16.513659,45.250149 16.513707,45.250234 16.513552,45.250278 16.513545,45.250265 16.513532,45.250268 16.513503,45.250217 16.513516,45.250213 16.513504,45.250193",
+    "vrhova": 8,
+    "opseg": 48.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 2,
+    "dguAdresa": null
+  },
+  "way/1561941510": {
+    "povrsina": 81.38,
+    "oblik": "16.513483,45.250391 16.513505,45.250281 16.513588,45.250290 16.513566,45.250400 16.513483,45.250391",
+    "vrhova": 4,
+    "opseg": 37.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941511": {
+    "povrsina": 111.33,
+    "oblik": "16.513483,45.250454 16.513483,45.250402 16.513733,45.250416 16.513727,45.250467 16.513483,45.250454",
+    "vrhova": 4,
+    "opseg": 50.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941512": {
+    "povrsina": 112.42,
+    "oblik": "16.513385,45.250391 16.513327,45.250249 16.513433,45.250227 16.513464,45.250304 16.513415,45.250314 16.513431,45.250356 16.513432,45.250391 16.513385,45.250391",
+    "vrhova": 7,
+    "opseg": 50.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561941513": {
+    "povrsina": 53.44,
+    "oblik": "16.513385,45.250453 16.513385,45.250391 16.513432,45.250391 16.513483,45.250391 16.513483,45.250402 16.513483,45.250454 16.513385,45.250453",
+    "vrhova": 6,
+    "opseg": 29.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941514": {
+    "povrsina": 90.06,
+    "oblik": "16.513206,45.250413 16.513379,45.250413 16.513379,45.250473 16.513205,45.250472 16.513206,45.250413",
+    "vrhova": 4,
+    "opseg": 40.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941515": {
+    "povrsina": 75.85,
+    "oblik": "16.513062,45.250371 16.513062,45.250475 16.513146,45.250475 16.513146,45.250372 16.513062,45.250371",
+    "vrhova": 4,
+    "opseg": 36.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561941517": {
+    "povrsina": 16.33,
+    "oblik": "16.512981,45.251175 16.512982,45.251127 16.512943,45.251127 16.512942,45.251175 16.512981,45.251175",
+    "vrhova": 4,
+    "opseg": 16.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941518": {
+    "povrsina": 21.29,
+    "oblik": "16.512995,45.251163 16.512990,45.251206 16.513047,45.251209 16.513052,45.251167 16.512995,45.251163",
+    "vrhova": 4,
+    "opseg": 18.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941519": {
+    "povrsina": 44.68,
+    "oblik": "16.512559,45.251623 16.512670,45.251631 16.512677,45.251585 16.512565,45.251578 16.512559,45.251623",
+    "vrhova": 4,
+    "opseg": 27.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941520": {
+    "povrsina": 115.93,
+    "oblik": "16.512898,45.250571 16.512933,45.250572 16.512980,45.250572 16.512981,45.250538 16.513016,45.250532 16.512986,45.250448 16.512862,45.250470 16.512898,45.250571",
+    "vrhova": 7,
+    "opseg": 44.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561941521": {
+    "povrsina": 93.71,
+    "oblik": "16.512857,45.250571 16.512855,45.250688 16.512974,45.250689 16.512975,45.250646 16.512931,45.250645 16.512933,45.250572 16.512898,45.250571 16.512857,45.250571",
+    "vrhova": 7,
+    "opseg": 44.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941522": {
+    "povrsina": 28.59,
+    "oblik": "16.512824,45.250811 16.512754,45.250808 16.512751,45.250855 16.512820,45.250858 16.512824,45.250811",
+    "vrhova": 4,
+    "opseg": 21.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941523": {
+    "povrsina": 51.95,
+    "oblik": "16.512763,45.250711 16.512756,45.250797 16.512825,45.250800 16.512832,45.250714 16.512763,45.250711",
+    "vrhova": 4,
+    "opseg": 30,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941524": {
+    "povrsina": 20.05,
+    "oblik": "16.512386,45.250827 16.512376,45.250862 16.512440,45.250870 16.512449,45.250835 16.512386,45.250827",
+    "vrhova": 4,
+    "opseg": 18,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941525": {
+    "povrsina": 152.88,
+    "oblik": "16.512497,45.250829 16.512579,45.250834 16.512551,45.251046 16.512469,45.251041 16.512497,45.250829",
+    "vrhova": 4,
+    "opseg": 60.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941526": {
+    "povrsina": 149.01,
+    "oblik": "16.512512,45.250716 16.512497,45.250829 16.512579,45.250834 16.512629,45.250838 16.512638,45.250770 16.512673,45.250772 16.512678,45.250732 16.512643,45.250730 16.512645,45.250720 16.512512,45.250711 16.512512,45.250716",
+    "vrhova": 10,
+    "opseg": 52.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561941527": {
+    "povrsina": 30.56,
+    "oblik": "16.512117,45.251188 16.512112,45.251227 16.512200,45.251233 16.512205,45.251193 16.512117,45.251188",
+    "vrhova": 4,
+    "opseg": 22.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941528": {
+    "povrsina": 157.74,
+    "oblik": "16.512123,45.250993 16.512266,45.251006 16.512272,45.250970 16.512300,45.250973 16.512315,45.250888 16.512288,45.250885 16.512286,45.250898 16.512142,45.250885 16.512123,45.250993",
+    "vrhova": 8,
+    "opseg": 54.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561941529": {
+    "povrsina": 96.17,
+    "oblik": "16.512121,45.251003 16.512096,45.251135 16.512178,45.251143 16.512203,45.251011 16.512121,45.251003",
+    "vrhova": 4,
+    "opseg": 42.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561941530": {
+    "povrsina": 47.46,
+    "oblik": "16.511642,45.251169 16.511601,45.251220 16.511707,45.251263 16.511720,45.251246 16.511660,45.251221 16.511667,45.251212 16.511698,45.251225 16.511718,45.251200 16.511642,45.251169",
+    "vrhova": 8,
+    "opseg": 37.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561943466": {
+    "povrsina": 431.17,
+    "oblik": "15.350384,45.575681 15.350200,45.575826 15.350222,45.575843 15.350137,45.575911 15.349988,45.575823 15.350006,45.575808 15.350264,45.575606 15.350384,45.575681",
+    "vrhova": 7,
+    "opseg": 94.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561943467": {
+    "povrsina": 512.51,
+    "oblik": "15.350137,45.575911 15.350290,45.576004 15.350131,45.576131 15.350250,45.576204 15.350493,45.576009 15.350222,45.575843 15.350137,45.575911",
+    "vrhova": 6,
+    "opseg": 113.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561943468": {
+    "povrsina": 143.76,
+    "oblik": "15.350480,45.575614 15.350577,45.575531 15.350459,45.575462 15.350361,45.575546 15.350480,45.575614",
+    "vrhova": 4,
+    "opseg": 48,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561943469": {
+    "povrsina": 9.91,
+    "oblik": "15.350060,45.575581 15.350101,45.575549 15.350121,45.575561 15.350081,45.575593 15.350060,45.575581",
+    "vrhova": 4,
+    "opseg": 13.7,
+    "tags": {
+      "amenity": "shelter",
+      "building": "yes",
+      "shelter_type": "public_transport"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561945253": {
+    "povrsina": 219.32,
+    "oblik": "16.504676,45.254624 16.504860,45.254521 16.504785,45.254455 16.504753,45.254473 16.504718,45.254441 16.504611,45.254501 16.504650,45.254535 16.504604,45.254560 16.504676,45.254624",
+    "vrhova": 8,
+    "opseg": 64.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561945254": {
+    "povrsina": 80.52,
+    "oblik": "16.504662,45.254630 16.504762,45.254712 16.504697,45.254751 16.504597,45.254669 16.504662,45.254630",
+    "vrhova": 4,
+    "opseg": 37.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561945255": {
+    "povrsina": 87.22,
+    "oblik": "16.504922,45.254799 16.504829,45.254713 16.504756,45.254753 16.504849,45.254839 16.504922,45.254799",
+    "vrhova": 4,
+    "opseg": 38.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561945256": {
+    "povrsina": 28.94,
+    "oblik": "16.505018,45.254742 16.504951,45.254777 16.504985,45.254809 16.505052,45.254773 16.505018,45.254742",
+    "vrhova": 4,
+    "opseg": 22,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561945257": {
+    "povrsina": 178.43,
+    "oblik": "16.504984,45.254568 16.504870,45.254637 16.504920,45.254679 16.504938,45.254668 16.505026,45.254741 16.505123,45.254683 16.504984,45.254568",
+    "vrhova": 6,
+    "opseg": 57.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561945258": {
+    "povrsina": 219.09,
+    "oblik": "16.505077,45.254513 16.504997,45.254563 16.504802,45.254407 16.504909,45.254342 16.504990,45.254407 16.504964,45.254423 16.505077,45.254513",
+    "vrhova": 6,
+    "opseg": 68.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1561945259": {
+    "povrsina": 101.21,
+    "oblik": "16.505102,45.254575 16.505262,45.254473 16.505211,45.254433 16.505051,45.254535 16.505102,45.254575",
+    "vrhova": 4,
+    "opseg": 45.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561975891": {
+    "povrsina": 17.1,
+    "oblik": "15.544168,45.378988 15.544168,45.378996 15.544161,45.379002 15.544150,45.379007 15.544135,45.379007 15.544119,45.379003 15.544108,45.378995 15.544104,45.378985 15.544109,45.378974 15.544119,45.378968 15.544136,45.378967 15.544151,45.378970 15.544161,45.378979 15.544168,45.378988",
+    "vrhova": 13,
+    "opseg": 15,
+    "tags": {
+      "building": "yes",
+      "man_made": "tower",
+      "tower:type": "defensive",
+      "wikimedia_commons": "File:Stari grad Barilović.jpg"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1561992277": {
+    "povrsina": 278.5,
+    "oblik": "13.915980,44.796389 13.915784,44.796344 13.915850,44.796198 13.915867,44.796202 13.916047,44.796243 13.915980,44.796389",
+    "vrhova": 5,
+    "opseg": 66.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562001320": {
+    "povrsina": 139.28,
+    "oblik": "13.916538,44.795741 13.916740,44.795794 13.916776,44.795725 13.916575,44.795672 13.916538,44.795741",
+    "vrhova": 4,
+    "opseg": 50.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562001321": {
+    "povrsina": 31.02,
+    "oblik": "13.915786,44.795968 13.915869,44.795969 13.915869,44.795926 13.915786,44.795926 13.915786,44.795968",
+    "vrhova": 4,
+    "opseg": 22.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562001322": {
+    "povrsina": 108.25,
+    "oblik": "13.918829,44.798896 13.918743,44.798867 13.918821,44.798751 13.918908,44.798780 13.918829,44.798896",
+    "vrhova": 4,
+    "opseg": 43.8,
+    "tags": {
+      "building": "yes",
+      "opening_hours": "Jun 15-Sep 01 24/7",
+      "ref": "Sanitar 5"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562001323": {
+    "povrsina": 160.85,
+    "oblik": "13.918955,44.799632 13.918953,44.799563 13.919218,44.799559 13.919220,44.799628 13.918955,44.799632",
+    "vrhova": 4,
+    "opseg": 57.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562024453": {
+    "povrsina": 16.11,
+    "oblik": "16.406530,45.488367 16.406522,45.488351 16.406514,45.488335 16.406566,45.488322 16.406582,45.488353 16.406530,45.488367",
+    "vrhova": 5,
+    "opseg": 16.1,
+    "tags": {
+      "building": "garage",
+      "building:levels": "1"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562123673": {
+    "povrsina": 60.14,
+    "oblik": "16.109264,46.001757 16.109217,46.001708 16.109316,46.001662 16.109363,46.001710 16.109264,46.001757",
+    "vrhova": 4,
+    "opseg": 31.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562123674": {
+    "povrsina": 60.22,
+    "oblik": "16.109487,46.001636 16.109443,46.001571 16.109531,46.001542 16.109575,46.001607 16.109487,46.001636",
+    "vrhova": 4,
+    "opseg": 31.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562123675": {
+    "povrsina": 69.33,
+    "oblik": "16.109188,46.001506 16.109130,46.001460 16.109229,46.001400 16.109287,46.001447 16.109188,46.001506",
+    "vrhova": 4,
+    "opseg": 33.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562123676": {
+    "povrsina": 81.2,
+    "oblik": "16.109989,46.001217 16.109963,46.001125 16.110061,46.001111 16.110088,46.001203 16.109989,46.001217",
+    "vrhova": 4,
+    "opseg": 36.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562123679": {
+    "povrsina": 76.09,
+    "oblik": "16.112824,46.000083 16.112757,46.000026 16.112850,45.999973 16.112917,46.000029 16.112824,46.000083",
+    "vrhova": 4,
+    "opseg": 35,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562123680": {
+    "povrsina": 63.53,
+    "oblik": "16.112527,45.999787 16.112523,45.999723 16.112639,45.999720 16.112643,45.999783 16.112527,45.999787",
+    "vrhova": 4,
+    "opseg": 32.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562123681": {
+    "povrsina": 57.79,
+    "oblik": "16.112430,45.999601 16.112530,45.999624 16.112559,45.999564 16.112460,45.999540 16.112430,45.999601",
+    "vrhova": 4,
+    "opseg": 30.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562123682": {
+    "povrsina": 43.68,
+    "oblik": "16.111936,45.999395 16.111872,45.999362 16.111927,45.999311 16.111991,45.999345 16.111936,45.999395",
+    "vrhova": 4,
+    "opseg": 26.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562123684": {
+    "povrsina": 72.38,
+    "oblik": "16.112838,46.000694 16.112773,46.000638 16.112863,46.000587 16.112929,46.000643 16.112838,46.000694",
+    "vrhova": 4,
+    "opseg": 34.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562125757": {
+    "povrsina": 77.11,
+    "oblik": "16.109335,45.997811 16.109358,45.997740 16.109478,45.997759 16.109455,45.997830 16.109335,45.997811",
+    "vrhova": 4,
+    "opseg": 35.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562125758": {
+    "povrsina": 74.06,
+    "oblik": "16.109202,45.997919 16.109202,45.997842 16.109091,45.997842 16.109091,45.997920 16.109202,45.997919",
+    "vrhova": 4,
+    "opseg": 34.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562126588": {
+    "povrsina": 1397.24,
+    "oblik": "16.110116,46.003884 16.109775,46.003568 16.109923,46.003491 16.109973,46.003537 16.110167,46.003435 16.110363,46.003617 16.110416,46.003589 16.110511,46.003677 16.110116,46.003884",
+    "vrhova": 8,
+    "opseg": 164.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562128727": {
+    "povrsina": 155.74,
+    "oblik": "16.109238,45.996007 16.109346,45.996053 16.109452,45.995931 16.109343,45.995885 16.109238,45.996007",
+    "vrhova": 4,
+    "opseg": 51.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562128728": {
+    "povrsina": 156.02,
+    "oblik": "16.108754,45.996619 16.108830,45.996650 16.108914,45.996550 16.108862,45.996529 16.108899,45.996484 16.108834,45.996458 16.108735,45.996577 16.108776,45.996594 16.108754,45.996619",
+    "vrhova": 8,
+    "opseg": 58.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562128729": {
+    "povrsina": 68.56,
+    "oblik": "16.109758,45.996575 16.109825,45.996600 16.109897,45.996508 16.109830,45.996483 16.109758,45.996575",
+    "vrhova": 4,
+    "opseg": 35.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562128730": {
+    "povrsina": 143.71,
+    "oblik": "16.110396,45.996564 16.110482,45.996596 16.110570,45.996482 16.110492,45.996453 16.110512,45.996427 16.110459,45.996407 16.110409,45.996473 16.110453,45.996490 16.110396,45.996564",
+    "vrhova": 8,
+    "opseg": 58.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562128731": {
+    "povrsina": 84.03,
+    "oblik": "16.107623,45.993477 16.107790,45.993532 16.107823,45.993485 16.107655,45.993429 16.107623,45.993477",
+    "vrhova": 4,
+    "opseg": 40.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562128732": {
+    "povrsina": 33.56,
+    "oblik": "16.108366,45.993793 16.108445,45.993823 16.108475,45.993785 16.108397,45.993755 16.108366,45.993793",
+    "vrhova": 4,
+    "opseg": 23.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562128733": {
+    "povrsina": 34.42,
+    "oblik": "16.108598,45.993837 16.108661,45.993884 16.108615,45.993913 16.108552,45.993867 16.108598,45.993837",
+    "vrhova": 4,
+    "opseg": 23.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562128734": {
+    "povrsina": 59.08,
+    "oblik": "16.109421,45.994290 16.109468,45.994337 16.109566,45.994289 16.109519,45.994242 16.109421,45.994290",
+    "vrhova": 4,
+    "opseg": 31.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562128735": {
+    "povrsina": 18.58,
+    "oblik": "16.109392,45.994342 16.109367,45.994300 16.109323,45.994313 16.109349,45.994355 16.109392,45.994342",
+    "vrhova": 4,
+    "opseg": 17.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562139898": {
+    "povrsina": 81.37,
+    "oblik": "16.106566,45.995211 16.106480,45.995168 16.106399,45.995246 16.106470,45.995282 16.106506,45.995247 16.106521,45.995255 16.106566,45.995211",
+    "vrhova": 6,
+    "opseg": 38,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562139901": {
+    "povrsina": 20.08,
+    "oblik": "16.107939,45.995341 16.107994,45.995350 16.108007,45.995310 16.107951,45.995301 16.107939,45.995341",
+    "vrhova": 4,
+    "opseg": 17.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562139902": {
+    "povrsina": 91.53,
+    "oblik": "16.108075,45.995163 16.108179,45.995169 16.108191,45.995067 16.108088,45.995061 16.108075,45.995163",
+    "vrhova": 4,
+    "opseg": 38.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562139904": {
+    "povrsina": 50.34,
+    "oblik": "16.103527,45.997473 16.103541,45.997418 16.103644,45.997431 16.103630,45.997486 16.103527,45.997473",
+    "vrhova": 4,
+    "opseg": 28.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562142153": {
+    "povrsina": 95.63,
+    "oblik": "16.103574,45.998791 16.103652,45.998830 16.103734,45.998754 16.103615,45.998693 16.103583,45.998723 16.103624,45.998744 16.103574,45.998791",
+    "vrhova": 6,
+    "opseg": 44,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562142154": {
+    "povrsina": 43.08,
+    "oblik": "16.103894,45.998764 16.103820,45.998731 16.103864,45.998683 16.103938,45.998716 16.103894,45.998764",
+    "vrhova": 4,
+    "opseg": 26.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562142159": {
+    "povrsina": 76.07,
+    "oblik": "16.104890,45.999538 16.104983,45.999552 16.105012,45.999462 16.104919,45.999447 16.104890,45.999538",
+    "vrhova": 4,
+    "opseg": 35.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562142231": {
+    "povrsina": 56.65,
+    "oblik": "13.916106,44.798573 13.916102,44.798509 13.916203,44.798506 13.916206,44.798570 13.916106,44.798573",
+    "vrhova": 4,
+    "opseg": 30.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562142234": {
+    "povrsina": 72.05,
+    "oblik": "13.912819,44.797413 13.912876,44.797346 13.912785,44.797308 13.912729,44.797374 13.912819,44.797413",
+    "vrhova": 4,
+    "opseg": 34,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562144900": {
+    "povrsina": 49.33,
+    "oblik": "16.095927,45.999898 16.095988,45.999927 16.096051,45.999863 16.095990,45.999834 16.095927,45.999898",
+    "vrhova": 4,
+    "opseg": 28.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562150363": {
+    "povrsina": 94.88,
+    "oblik": "13.889772,44.826315 13.889772,44.826214 13.889884,44.826219 13.889875,44.826318 13.889857,44.826318 13.889772,44.826315",
+    "vrhova": 5,
+    "opseg": 39.3,
+    "tags": {
+      "addr:city": "Pula",
+      "addr:housenumber": "350B",
+      "addr:postcode": "52100",
+      "addr:street": "Pomer",
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562150364": {
+    "povrsina": 35.09,
+    "oblik": "13.889857,44.826318 13.889855,44.826365 13.889772,44.826363 13.889772,44.826315 13.889857,44.826318",
+    "vrhova": 4,
+    "opseg": 23.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562150365": {
+    "povrsina": 37.37,
+    "oblik": "13.889689,44.826306 13.889585,44.826300 13.889588,44.826260 13.889693,44.826265 13.889689,44.826306",
+    "vrhova": 4,
+    "opseg": 25.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562165141": {
+    "povrsina": 100.04,
+    "oblik": "16.099584,45.997646 16.099585,45.997561 16.099723,45.997563 16.099721,45.997647 16.099584,45.997646",
+    "vrhova": 4,
+    "opseg": 40.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562165143": {
+    "povrsina": 73.29,
+    "oblik": "16.100265,45.998085 16.100206,45.997977 16.100275,45.997959 16.100334,45.998067 16.100265,45.998085",
+    "vrhova": 4,
+    "opseg": 37.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562165144": {
+    "povrsina": 29.8,
+    "oblik": "16.100104,45.998082 16.100094,45.998041 16.100176,45.998031 16.100186,45.998072 16.100104,45.998082",
+    "vrhova": 4,
+    "opseg": 22.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562165146": {
+    "povrsina": 127.73,
+    "oblik": "16.099712,45.994730 16.099696,45.994638 16.099855,45.994625 16.099871,45.994717 16.099712,45.994730",
+    "vrhova": 4,
+    "opseg": 45.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562165148": {
+    "povrsina": 42.28,
+    "oblik": "16.099684,45.994543 16.099648,45.994498 16.099731,45.994466 16.099767,45.994512 16.099684,45.994543",
+    "vrhova": 4,
+    "opseg": 26.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562211305": {
+    "povrsina": 349.81,
+    "oblik": "15.873077,46.016470 15.872877,46.016218 15.872753,46.016265 15.872953,46.016517 15.873077,46.016470",
+    "vrhova": 4,
+    "opseg": 85.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562233403": {
+    "povrsina": 98.79,
+    "oblik": "13.918430,44.797810 13.918573,44.797750 13.918622,44.797808 13.918479,44.797868 13.918430,44.797810",
+    "vrhova": 4,
+    "opseg": 41.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562236119": {
+    "povrsina": 47.46,
+    "oblik": "13.891006,44.826771 13.891024,44.826701 13.891099,44.826711 13.891080,44.826781 13.891006,44.826771",
+    "vrhova": 4,
+    "opseg": 27.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562279151": {
+    "povrsina": 33.75,
+    "oblik": "16.114548,46.005975 16.114594,46.005970 16.114612,46.005941 16.114591,46.005916 16.114540,46.005921 16.114517,46.005952 16.114548,46.005975",
+    "vrhova": 6,
+    "opseg": 21.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562296541": {
+    "povrsina": 72.22,
+    "oblik": "15.108631,44.049974 15.108702,44.050016 15.108730,44.050030 15.108784,44.049978 15.108684,44.049924 15.108631,44.049974",
+    "vrhova": 5,
+    "opseg": 34.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562314545": {
+    "povrsina": 27.52,
+    "oblik": "15.169406,45.421401 15.169489,45.421402 15.169488,45.421440 15.169405,45.421439 15.169405,45.421420 15.169406,45.421401",
+    "vrhova": 5,
+    "opseg": 21.4,
+    "tags": {
+      "addr:city": "Severin na Kupi",
+      "amenity": "place_of_worship",
+      "building": "church",
+      "denomination": "roman_catholic",
+      "name": "crkva svetog Florijana",
+      "religion": "christian"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562314546": {
+    "povrsina": 439.54,
+    "oblik": "15.169759,45.421443 15.170065,45.421514 15.169954,45.421728 15.169834,45.421703 15.169891,45.421592 15.169712,45.421553 15.169759,45.421443",
+    "vrhova": 6,
+    "opseg": 100.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562314547": {
+    "povrsina": 36.27,
+    "oblik": "15.169543,45.421545 15.169600,45.421502 15.169652,45.421536 15.169594,45.421579 15.169543,45.421545",
+    "vrhova": 4,
+    "opseg": 24.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562488461": {
+    "povrsina": 6.75,
+    "oblik": "15.948505,45.859799 15.948507,45.859769 15.948533,45.859770 15.948531,45.859800 15.948505,45.859799",
+    "vrhova": 4,
+    "opseg": 10.7,
+    "tags": {
+      "amenity": "shelter",
+      "bench": "yes",
+      "building": "shelter",
+      "panoramax": "087f0b4a-fef4-47f2-a152-f0c576b2f3c8"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562491444": {
+    "povrsina": 74.09,
+    "oblik": "15.957347,45.791622 15.957339,45.791603 15.957348,45.791581 15.957546,45.791541 15.957561,45.791579 15.957505,45.791590 15.957347,45.791622",
+    "vrhova": 6,
+    "opseg": 42.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562491445": {
+    "povrsina": 333.55,
+    "oblik": "15.957562,45.791512 15.957285,45.791576 15.957276,45.791579 15.957262,45.791558 15.957272,45.791555 15.957292,45.791548 15.957267,45.791512 15.957237,45.791522 15.957197,45.791464 15.957509,45.791390 15.957562,45.791512",
+    "vrhova": 10,
+    "opseg": 82.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562491446": {
+    "povrsina": 233.65,
+    "oblik": "15.957718,45.791475 15.957838,45.791450 15.958053,45.791406 15.958072,45.791501 15.957870,45.791518 15.957839,45.791525 15.957749,45.791547 15.957722,45.791485 15.957718,45.791475",
+    "vrhova": 8,
+    "opseg": 71.9,
+    "tags": {
+      "building": "roof",
+      "layer": "1"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562491447": {
+    "povrsina": 478.29,
+    "oblik": "15.957718,45.791475 15.957838,45.791450 15.958053,45.791406 15.958023,45.791237 15.957840,45.791253 15.957848,45.791319 15.957668,45.791356 15.957718,45.791475",
+    "vrhova": 7,
+    "opseg": 96.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562561674": {
+    "povrsina": 7.91,
+    "oblik": "16.166681,46.039593 16.166697,46.039569 16.166665,46.039559 16.166649,46.039582 16.166681,46.039593",
+    "vrhova": 4,
+    "opseg": 11.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562584465": {
+    "povrsina": 74.08,
+    "oblik": "16.100533,46.026214 16.100564,46.026204 16.100617,46.026153 16.100555,46.026122 16.100531,46.026146 16.100490,46.026126 16.100452,46.026163 16.100485,46.026179 16.100488,46.026198 16.100533,46.026214",
+    "vrhova": 9,
+    "opseg": 36.9,
+    "tags": {
+      "amenity": "place_of_worship",
+      "building": "chapel",
+      "name": "Sv. Rok",
+      "religion": "christian"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562603120": {
+    "povrsina": 43.2,
+    "oblik": "17.942303,42.689319 17.942287,42.689273 17.942186,42.689310 17.942208,42.689348 17.942303,42.689319",
+    "vrhova": 4,
+    "opseg": 27.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562603121": {
+    "povrsina": 244.69,
+    "oblik": "17.942345,42.688311 17.942179,42.688353 17.942106,42.688198 17.942244,42.688163 17.942273,42.688226 17.942302,42.688218 17.942345,42.688311",
+    "vrhova": 6,
+    "opseg": 65.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562603122": {
+    "povrsina": 70.2,
+    "oblik": "17.942338,42.688381 17.942316,42.688342 17.942147,42.688393 17.942168,42.688432 17.942338,42.688381",
+    "vrhova": 4,
+    "opseg": 39.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562603123": {
+    "povrsina": 25.38,
+    "oblik": "17.942119,42.688599 17.942175,42.688581 17.942150,42.688539 17.942094,42.688558 17.942119,42.688599",
+    "vrhova": 4,
+    "opseg": 20.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562603124": {
+    "povrsina": 68.35,
+    "oblik": "17.941931,42.688682 17.941928,42.688677 17.941892,42.688616 17.941796,42.688647 17.941810,42.688669 17.941836,42.688713 17.941931,42.688682",
+    "vrhova": 6,
+    "opseg": 33.1,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562603125": {
+    "povrsina": 14.26,
+    "oblik": "17.941750,42.688688 17.941737,42.688666 17.941796,42.688647 17.941810,42.688669 17.941750,42.688688",
+    "vrhova": 4,
+    "opseg": 16,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562603126": {
+    "povrsina": 19.03,
+    "oblik": "17.942264,42.689078 17.942238,42.689039 17.942280,42.689023 17.942307,42.689063 17.942264,42.689078",
+    "vrhova": 4,
+    "opseg": 17.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562603127": {
+    "povrsina": 17.27,
+    "oblik": "17.942678,42.688015 17.942653,42.687962 17.942685,42.687954 17.942710,42.688007 17.942678,42.688015",
+    "vrhova": 4,
+    "opseg": 18,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562606430": {
+    "povrsina": 12.38,
+    "oblik": "15.138500,44.028404 15.138478,44.028453 15.138494,44.028457 15.138504,44.028459 15.138525,44.028409 15.138517,44.028407 15.138500,44.028404",
+    "vrhova": 6,
+    "opseg": 15.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562606431": {
+    "povrsina": 16.19,
+    "oblik": "15.138525,44.028409 15.138535,44.028411 15.138558,44.028415 15.138539,44.028465 15.138504,44.028459 15.138525,44.028409",
+    "vrhova": 5,
+    "opseg": 17.2,
+    "tags": {
+      "addr:housenumber": "133A",
+      "addr:place": "Mali Iž",
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562606432": {
+    "povrsina": 4.83,
+    "oblik": "15.137592,44.028005 15.137609,44.027989 15.137630,44.028001 15.137614,44.028017 15.137592,44.028005",
+    "vrhova": 4,
+    "opseg": 8.8,
+    "tags": {
+      "building": "service",
+      "building:levels": "1",
+      "height": "1.2",
+      "power": "substation"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562623822": {
+    "povrsina": 85.07,
+    "oblik": "15.983527,45.808090 15.983493,45.808089 15.983492,45.808100 15.983410,45.808097 15.983413,45.808066 15.983417,45.808000 15.983491,45.808002 15.983490,45.808028 15.983531,45.808029 15.983527,45.808090",
+    "vrhova": 9,
+    "opseg": 39.7,
+    "tags": {
+      "addr:city": "Zagreb",
+      "addr:housenumber": "60/1",
+      "addr:postcode": "10000",
+      "addr:street": "Draškovićeva ulica",
+      "building": "yes",
+      "ref:HR:kucni_broj": "22078425"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562695769": {
+    "povrsina": 26.28,
+    "oblik": "15.710873,45.663165 15.710920,45.663184 15.710961,45.663136 15.710914,45.663117 15.710873,45.663165",
+    "vrhova": 4,
+    "opseg": 20.9,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562695770": {
+    "povrsina": 61.22,
+    "oblik": "15.711465,45.663393 15.711502,45.663408 15.711625,45.663263 15.711589,45.663248 15.711490,45.663365 15.711465,45.663393",
+    "vrhova": 5,
+    "opseg": 44.2,
+    "tags": {
+      "building": "roof",
+      "layer": "1"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562701316": {
+    "povrsina": 54.48,
+    "oblik": "13.917999,44.798135 13.918097,44.798105 13.918065,44.798052 13.917966,44.798082 13.917999,44.798135",
+    "vrhova": 4,
+    "opseg": 29.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562705182": {
+    "povrsina": 127.13,
+    "oblik": "15.106928,44.343373 15.106947,44.343446 15.107137,44.343421 15.107118,44.343348 15.106928,44.343373",
+    "vrhova": 4,
+    "opseg": 47.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562705183": {
+    "povrsina": 126.7,
+    "oblik": "15.106961,44.343492 15.106979,44.343565 15.107169,44.343540 15.107150,44.343467 15.106961,44.343492",
+    "vrhova": 4,
+    "opseg": 47.2,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562707901": {
+    "povrsina": 47.43,
+    "oblik": "15.679360,45.715852 15.679383,45.715801 15.679464,45.715818 15.679429,45.715896 15.679397,45.715889 15.679409,45.715863 15.679360,45.715852",
+    "vrhova": 6,
+    "opseg": 31.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562707928": {
+    "povrsina": 43.21,
+    "oblik": "15.670757,45.714475 15.670723,45.714431 15.670811,45.714398 15.670845,45.714442 15.670757,45.714475",
+    "vrhova": 4,
+    "opseg": 26.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562707936": {
+    "povrsina": 23.18,
+    "oblik": "15.670352,45.716712 15.670350,45.716659 15.670299,45.716660 15.670302,45.716713 15.670352,45.716712",
+    "vrhova": 4,
+    "opseg": 19.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562707937": {
+    "povrsina": 17.25,
+    "oblik": "15.670420,45.716801 15.670418,45.716773 15.670489,45.716770 15.670491,45.716798 15.670420,45.716801",
+    "vrhova": 4,
+    "opseg": 17.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562707938": {
+    "povrsina": 10.96,
+    "oblik": "15.670546,45.716664 15.670544,45.716642 15.670600,45.716638 15.670602,45.716661 15.670546,45.716664",
+    "vrhova": 4,
+    "opseg": 13.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562707940": {
+    "povrsina": 10.6,
+    "oblik": "15.674437,45.715025 15.674456,45.715051 15.674418,45.715064 15.674400,45.715037 15.674437,45.715025",
+    "vrhova": 4,
+    "opseg": 13,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562707941": {
+    "povrsina": 5.51,
+    "oblik": "15.674636,45.714823 15.674622,45.714804 15.674595,45.714814 15.674608,45.714832 15.674636,45.714823",
+    "vrhova": 4,
+    "opseg": 9.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562707945": {
+    "povrsina": 40.95,
+    "oblik": "15.676465,45.714075 15.676437,45.714036 15.676533,45.714002 15.676562,45.714041 15.676465,45.714075",
+    "vrhova": 4,
+    "opseg": 26.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562707946": {
+    "povrsina": 45.84,
+    "oblik": "15.677004,45.713966 15.676970,45.713900 15.677041,45.713882 15.677075,45.713948 15.677004,45.713966",
+    "vrhova": 4,
+    "opseg": 27.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562707947": {
+    "povrsina": 23.47,
+    "oblik": "15.677095,45.713771 15.677067,45.713726 15.677017,45.713742 15.677044,45.713787 15.677095,45.713771",
+    "vrhova": 4,
+    "opseg": 19.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562737550": {
+    "povrsina": 689.76,
+    "oblik": "18.668821,45.505103 18.668990,45.504844 18.669270,45.504931 18.669147,45.505116 18.669062,45.505091 18.669012,45.505163 18.668821,45.505103",
+    "vrhova": 6,
+    "opseg": 110.8,
+    "tags": {
+      "building": "yes",
+      "name": "Mlakar Viličari"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562758328": {
+    "povrsina": 305.38,
+    "oblik": "15.983332,45.808274 15.983398,45.808274 15.983401,45.808258 15.983407,45.808212 15.983355,45.808212 15.983087,45.808204 15.983086,45.808154 15.983087,45.808103 15.982989,45.808102 15.982988,45.808228 15.982985,45.808261 15.983332,45.808274",
+    "vrhova": 11,
+    "opseg": 100.4,
+    "tags": {
+      "addr:city": "Zagreb",
+      "addr:housenumber": "58/2",
+      "addr:postcode": "10000",
+      "addr:street": "Draškovićeva ulica",
+      "building": "yes",
+      "ref:HR:kucni_broj": "22123413",
+      "roof:material": "roof_tiles",
+      "roof:shape": "gabled"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562758329": {
+    "povrsina": 133.39,
+    "oblik": "15.983386,45.808164 15.983387,45.808158 15.983391,45.808113 15.983087,45.808103 15.983086,45.808154 15.983386,45.808164",
+    "vrhova": 5,
+    "opseg": 58.3,
+    "tags": {
+      "addr:city": "Zagreb",
+      "addr:housenumber": "58/1",
+      "addr:postcode": "10000",
+      "addr:street": "Draškovićeva ulica",
+      "building": "yes",
+      "ref:HR:kucni_broj": "22123412"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562758330": {
+    "povrsina": 26.74,
+    "oblik": "15.983387,45.808158 15.983455,45.808161 15.983460,45.808116 15.983391,45.808113 15.983387,45.808158",
+    "vrhova": 4,
+    "opseg": 20.7,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562763958": {
+    "povrsina": 152.17,
+    "oblik": "15.983345,45.809226 15.983346,45.809215 15.983347,45.809158 15.983349,45.809147 15.983246,45.809141 15.983123,45.809119 15.983112,45.809198 15.983154,45.809205 15.983296,45.809219 15.983345,45.809226",
+    "vrhova": 9,
+    "opseg": 53.9,
+    "tags": {
+      "addr:city": "Zagreb",
+      "addr:housenumber": "46/2",
+      "addr:postcode": "10000",
+      "addr:street": "Draškovićeva ulica",
+      "building": "yes",
+      "ref:HR:kucni_broj": "22123410"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562767368": {
+    "povrsina": 43,
+    "oblik": "15.983362,45.809065 15.983357,45.809083 15.983130,45.809062 15.983137,45.809039 15.983196,45.809044 15.983362,45.809065",
+    "vrhova": 5,
+    "opseg": 40.1,
+    "tags": {
+      "addr:city": "Zagreb",
+      "addr:housenumber": "46/1",
+      "addr:postcode": "10000",
+      "addr:street": "Draškovićeva ulica",
+      "building": "yes",
+      "ref:HR:kucni_broj": "22123409"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562767895": {
+    "povrsina": 41.1,
+    "oblik": "15.983230,45.809006 15.983234,45.808979 15.983148,45.808973 15.983137,45.809039 15.983196,45.809044 15.983205,45.809004 15.983230,45.809006",
+    "vrhova": 6,
+    "opseg": 28.2,
+    "tags": {
+      "addr:city": "Zagreb",
+      "addr:housenumber": "48/1",
+      "addr:postcode": "10000",
+      "addr:street": "Draškovićeva ulica",
+      "building": "yes",
+      "ref:HR:kucni_broj": "22134750"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771639": {
+    "povrsina": 340.59,
+    "oblik": "15.102222,44.348609 15.102251,44.348658 15.102322,44.348636 15.102349,44.348679 15.102472,44.348641 15.102452,44.348608 15.102520,44.348587 15.102429,44.348437 15.102347,44.348462 15.102366,44.348493 15.102289,44.348517 15.102308,44.348548 15.102258,44.348564 15.102275,44.348592 15.102222,44.348609",
+    "vrhova": 14,
+    "opseg": 89.8,
+    "tags": {
+      "addr:city": "Povljana",
+      "addr:housenumber": "13",
+      "addr:postcode": "23249",
+      "addr:street": "Zadarska ulica",
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771640": {
+    "povrsina": 237.74,
+    "oblik": "15.102688,44.348590 15.102758,44.348676 15.102991,44.348579 15.102921,44.348493 15.102688,44.348590",
+    "vrhova": 4,
+    "opseg": 65.1,
+    "tags": {
+      "addr:city": "Povljana",
+      "addr:housenumber": "11",
+      "addr:postcode": "23249",
+      "addr:street": "Zadarska ulica",
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771641": {
+    "povrsina": 210.3,
+    "oblik": "15.102886,44.348675 15.102944,44.348752 15.103183,44.348660 15.103126,44.348583 15.102886,44.348675",
+    "vrhova": 4,
+    "opseg": 62.7,
+    "tags": {
+      "addr:city": "Povljana",
+      "addr:housenumber": "10",
+      "addr:postcode": "23249",
+      "addr:street": "Splitska ulica",
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771653": {
+    "povrsina": 79.16,
+    "oblik": "15.118135,44.397477 15.118238,44.397536 15.118297,44.397483 15.118194,44.397424 15.118135,44.397477",
+    "vrhova": 4,
+    "opseg": 36.1,
+    "tags": {
+      "addr:city": "Gorica",
+      "addr:housenumber": "5A",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771654": {
+    "povrsina": 68.26,
+    "oblik": "15.119627,44.398237 15.119577,44.398172 15.119485,44.398208 15.119535,44.398272 15.119627,44.398237",
+    "vrhova": 4,
+    "opseg": 33,
+    "tags": {
+      "addr:city": "Gorica",
+      "addr:housenumber": "24B",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771655": {
+    "povrsina": 38.83,
+    "oblik": "15.118754,44.398588 15.118804,44.398623 15.118865,44.398578 15.118815,44.398543 15.118754,44.398588",
+    "vrhova": 4,
+    "opseg": 25.1,
+    "tags": {
+      "addr:city": "Gorica",
+      "addr:housenumber": "47",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771656": {
+    "povrsina": 62.38,
+    "oblik": "15.118688,44.398542 15.118609,44.398487 15.118673,44.398441 15.118750,44.398497 15.118688,44.398542",
+    "vrhova": 4,
+    "opseg": 31.8,
+    "tags": {
+      "addr:city": "Gorica",
+      "addr:housenumber": "43",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771657": {
+    "povrsina": 70.54,
+    "oblik": "15.118257,44.398762 15.118326,44.398838 15.118400,44.398803 15.118331,44.398728 15.118257,44.398762",
+    "vrhova": 4,
+    "opseg": 34.1,
+    "tags": {
+      "addr:city": "Gorica",
+      "addr:housenumber": "55",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771658": {
+    "povrsina": 49.46,
+    "oblik": "15.119286,44.399332 15.119342,44.399375 15.119412,44.399329 15.119356,44.399286 15.119286,44.399332",
+    "vrhova": 4,
+    "opseg": 28.2,
+    "tags": {
+      "addr:city": "Gorica",
+      "addr:housenumber": "79",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562771659": {
+    "povrsina": 36.5,
+    "oblik": "15.118992,44.399434 15.119041,44.399467 15.118991,44.399509 15.118931,44.399472 15.118992,44.399434",
+    "vrhova": 4,
+    "opseg": 24.2,
+    "tags": {
+      "addr:city": "Gorica",
+      "addr:housenumber": "71",
+      "addr:postcode": "23249",
+      "addr:street": "Gorica",
+      "building": "house"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562774678": {
+    "povrsina": 21.23,
+    "oblik": "16.437672,46.305209 16.437667,46.305230 16.437689,46.305233 16.437685,46.305247 16.437741,46.305253 16.437749,46.305218 16.437672,46.305209",
+    "vrhova": 6,
+    "opseg": 20,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562774679": {
+    "povrsina": 21.45,
+    "oblik": "16.437748,46.305263 16.437807,46.305270 16.437817,46.305229 16.437757,46.305222 16.437748,46.305263",
+    "vrhova": 4,
+    "opseg": 18.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562774680": {
+    "povrsina": 123.62,
+    "oblik": "16.437485,46.305341 16.437735,46.305371 16.437748,46.305320 16.437608,46.305304 16.437612,46.305292 16.437500,46.305278 16.437485,46.305341",
+    "vrhova": 6,
+    "opseg": 53.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562774682": {
+    "povrsina": 41.66,
+    "oblik": "16.436850,46.305284 16.436958,46.305281 16.436956,46.305236 16.436848,46.305239 16.436850,46.305284",
+    "vrhova": 4,
+    "opseg": 26.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562774683": {
+    "povrsina": 31.05,
+    "oblik": "16.436981,46.305105 16.437074,46.305105 16.437074,46.305066 16.436981,46.305066 16.436981,46.305105",
+    "vrhova": 4,
+    "opseg": 23,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562774684": {
+    "povrsina": 130.83,
+    "oblik": "16.437278,46.304937 16.437419,46.304938 16.437420,46.304830 16.437278,46.304829 16.437278,46.304937",
+    "vrhova": 4,
+    "opseg": 45.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 1,
+    "dguAdresa": null
+  },
+  "way/1562774685": {
+    "povrsina": 74.58,
+    "oblik": "16.436981,46.304831 16.436893,46.304831 16.436892,46.304930 16.436980,46.304930 16.436981,46.304831",
+    "vrhova": 4,
+    "opseg": 35.6,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562774686": {
+    "povrsina": 145.59,
+    "oblik": "16.437117,46.304819 16.436981,46.304818 16.436981,46.304831 16.436980,46.304930 16.436980,46.304944 16.437115,46.304944 16.437117,46.304819",
+    "vrhova": 6,
+    "opseg": 48.8,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562774687": {
+    "povrsina": 103.36,
+    "oblik": "16.436580,46.305349 16.436803,46.305346 16.436802,46.305292 16.436578,46.305295 16.436580,46.305349",
+    "vrhova": 4,
+    "opseg": 46.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562776649": {
+    "povrsina": 48.76,
+    "oblik": "13.625754,45.299465 13.625859,45.299485 13.625872,45.299430 13.625772,45.299416 13.625754,45.299465",
+    "vrhova": 4,
+    "opseg": 28.3,
+    "tags": {
+      "building": "roof",
+      "leisure": "outdoor_seating",
+      "weather_protection": "roof"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562776651": {
+    "povrsina": 24.72,
+    "oblik": "13.625545,45.299714 13.625535,45.299685 13.625553,45.299668 13.625603,45.299664 13.625612,45.299703 13.625545,45.299714",
+    "vrhova": 5,
+    "opseg": 19.4,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562776652": {
+    "povrsina": 126.7,
+    "oblik": "13.625533,45.299364 13.625496,45.299433 13.625547,45.299442 13.625635,45.299455 13.625750,45.299473 13.625754,45.299465 13.625772,45.299416 13.625604,45.299400 13.625533,45.299364",
+    "vrhova": 8,
+    "opseg": 55.3,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562776664": {
+    "povrsina": 805.94,
+    "oblik": "18.681671,45.560719 18.681762,45.560974 18.682186,45.560895 18.682219,45.560869 18.682223,45.560707 18.682070,45.560735 18.682078,45.560773 18.681858,45.560814 18.681823,45.560694 18.681671,45.560719",
+    "vrhova": 9,
+    "opseg": 145.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": 2,
+    "dguAdresa": null
+  },
+  "way/1562805075": {
+    "povrsina": 11.13,
+    "oblik": "16.211819,45.959328 16.211867,45.959317 16.211856,45.959293 16.211808,45.959303 16.211819,45.959328",
+    "vrhova": 4,
+    "opseg": 13.5,
+    "tags": {
+      "building": "yes"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562892044": {
+    "povrsina": 13.85,
+    "oblik": "16.200842,45.949551 16.200876,45.949521 16.200842,45.949503 16.200809,45.949532 16.200842,45.949551",
+    "vrhova": 4,
+    "opseg": 15,
+    "tags": {
+      "amenity": "place_of_worship",
+      "building": "chapel",
+      "religion": "christian"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562912778": {
+    "povrsina": 197.03,
+    "oblik": "16.322590,46.301392 16.322625,46.301334 16.322735,46.301366 16.322748,46.301345 16.322914,46.301394 16.322866,46.301473 16.322590,46.301392",
+    "vrhova": 6,
+    "opseg": 65.2,
+    "tags": {
+      "addr:housenumber": "8",
+      "addr:street": "Ulica Matka Laginje",
+      "building": "yes",
+      "ref:HR:kucni_broj": "1180940"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1562934045": {
+    "povrsina": 23.11,
+    "oblik": "16.182415,45.943981 16.182466,45.943957 16.182432,45.943921 16.182380,45.943945 16.182415,45.943981",
+    "vrhova": 4,
+    "opseg": 19.2,
+    "tags": {
+      "amenity": "place_of_worship",
+      "building": "chapel",
+      "religion": "christian"
+    },
+    "jedinica": null,
+    "dguAdresa": null
+  },
+  "way/1563082517": {
+    "povrsina": 26.25,
+    "oblik": "15.475037,44.017928 15.475085,44.017899 15.475043,44.017863 15.474995,44.017892 15.475037,44.017928",
+    "vrhova": 4,
+    "opseg": 20.5,
+    "tags": {
+      "building": "yes",
+      "name": "Dva kuma"
+    },
+    "jedinica": null,
     "dguAdresa": null
   }
 }
