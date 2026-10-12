@@ -376540,6 +376540,13 @@
         "udaljenostM": 0,
         "povrsinaMs": 62,
         "iou": 1
+      },
+      "dguNovaAdresaPoklapanje": {
+        "street": "Hrvoja Vukčić - Hrvatinića",
+        "houseNumber": "17/1",
+        "datum": "2026-10-12",
+        "udaljenostM": 7.1,
+        "unutarObrisa": false
       }
     },
     {
