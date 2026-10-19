@@ -114498,6 +114498,13 @@
         "udaljenostM": 0,
         "povrsinaMs": 90,
         "iou": 1
+      },
+      "dguNovaAdresaPoklapanje": {
+        "street": "Matije Gupca",
+        "houseNumber": "7",
+        "datum": "2026-10-19",
+        "udaljenostM": 0,
+        "unutarObrisa": true
       }
     },
     {
@@ -446330,6 +446337,13 @@
         "udaljenostM": 0,
         "povrsinaMs": 633,
         "iou": 1
+      },
+      "dguNovaAdresaPoklapanje": {
+        "street": "Josipa Juraja Strossmayera",
+        "houseNumber": "1",
+        "datum": "2026-10-19",
+        "udaljenostM": 0,
+        "unutarObrisa": true
       }
     },
     {
