@@ -1,0 +1,2537 @@
+{
+  "datum": "2026-10-26",
+  "izvor": "nove-2026-10-26.geojson",
+  "msIzdanje": "2026-08-13",
+  "nacin": "blago",
+  "ukupno": 144,
+  "brojNovogradnja": 100,
+  "brojLegalizacija": 44,
+  "novogradnja": [
+    {
+      "idStabilan": "geo/45.17786_18.02960",
+      "lat": 45.177865,
+      "lon": 18.029602,
+      "adresa": "Ulica Augustina Kažotića 133",
+      "naselje": "Slavonski Brod",
+      "grad": "Slavonski Brod",
+      "postanskiBroj": "35000",
+      "ms": {
+        "ima": false,
+        "pregledano": 6729
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.17765_18.02140",
+      "lat": 45.177654,
+      "lon": 18.021396,
+      "adresa": "Ulica Nikole Nalješkovića 1E",
+      "naselje": "Slavonski Brod",
+      "grad": "Slavonski Brod",
+      "postanskiBroj": "35000",
+      "ms": {
+        "ima": false,
+        "pregledano": 6729
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.17780_18.03001",
+      "lat": 45.177798,
+      "lon": 18.030014,
+      "adresa": "Ulica Augustina Kažotića 129",
+      "naselje": "Slavonski Brod",
+      "grad": "Slavonski Brod",
+      "postanskiBroj": "35000",
+      "ms": {
+        "ima": false,
+        "pregledano": 6183
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/42.97926_17.17678",
+      "lat": 42.979259,
+      "lon": 17.176776,
+      "adresa": "Kralja Tomislava 35",
+      "naselje": "Podgorje",
+      "grad": "Orebić",
+      "postanskiBroj": "20250",
+      "ms": {
+        "ima": false,
+        "pregledano": 1543
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/42.97088_17.23851",
+      "lat": 42.970879,
+      "lon": 17.238509,
+      "adresa": "Postup 28A",
+      "naselje": "Donja Banda",
+      "grad": "Oskorušno",
+      "postanskiBroj": "20242",
+      "ms": {
+        "ima": false,
+        "pregledano": 261
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/42.98109_17.19046",
+      "lat": 42.981093,
+      "lon": 17.190456,
+      "adresa": "Iva Dulčića 22",
+      "naselje": "Orebić",
+      "grad": "Orebić",
+      "postanskiBroj": "20250",
+      "ms": {
+        "ima": false,
+        "pregledano": 1256
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/42.90351_16.83670",
+      "lat": 42.90351,
+      "lon": 16.836704,
+      "adresa": "Vinačac 23/1",
+      "naselje": "Blato",
+      "grad": "Blato",
+      "postanskiBroj": "20271",
+      "ms": {
+        "ima": false,
+        "pregledano": 91
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.75463_15.88152",
+      "lat": 45.754626,
+      "lon": 15.881519,
+      "adresa": "Dolenica 55A",
+      "naselje": "Hrvatski Leskovac",
+      "grad": "Lučko",
+      "postanskiBroj": "10250",
+      "ms": {
+        "ima": false,
+        "pregledano": 3499
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.67721_15.87312",
+      "lat": 45.677215,
+      "lon": 15.873121,
+      "adresa": "Kraljevečki brijegi 50B",
+      "naselje": "Kupinečki Kraljevec",
+      "grad": "Brezovica",
+      "postanskiBroj": "10257",
+      "ms": {
+        "ima": false,
+        "pregledano": 924
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.77248_15.95087",
+      "lat": 45.77248,
+      "lon": 15.950871,
+      "adresa": "Ulica Ive Robića 1",
+      "naselje": "Zagreb",
+      "grad": "Zagreb-Novi Zagreb",
+      "postanskiBroj": "10020",
+      "ms": {
+        "ima": false,
+        "pregledano": 3737
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.77232_15.95116",
+      "lat": 45.772317,
+      "lon": 15.951157,
+      "adresa": "Ulica Ive Robića 1A",
+      "naselje": "Zagreb",
+      "grad": "Zagreb-Novi Zagreb",
+      "postanskiBroj": "10020",
+      "ms": {
+        "ima": false,
+        "pregledano": 3737
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.80815_15.94642",
+      "lat": 45.808148,
+      "lon": 15.946415,
+      "adresa": "Zagorska ulica 2A",
+      "naselje": "Zagreb",
+      "grad": "Zagreb",
+      "postanskiBroj": "10110",
+      "ms": {
+        "ima": false,
+        "pregledano": 6227
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.80825_15.94643",
+      "lat": 45.808252,
+      "lon": 15.946432,
+      "adresa": "Zagorska ulica 2A/1",
+      "naselje": "Zagreb",
+      "grad": "Zagreb",
+      "postanskiBroj": "10110",
+      "ms": {
+        "ima": false,
+        "pregledano": 6227
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.85451_16.03968",
+      "lat": 45.854509,
+      "lon": 16.039679,
+      "adresa": "Cuglini 58",
+      "naselje": "Zagreb",
+      "grad": "Zagreb-Dubrava",
+      "postanskiBroj": "10040",
+      "ms": {
+        "ima": false,
+        "pregledano": 2988
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.24578_13.95438",
+      "lat": 45.245777,
+      "lon": 13.954384,
+      "adresa": "Poljoprivredne škole 13",
+      "naselje": "Pazin",
+      "grad": "Pazin",
+      "postanskiBroj": "52000",
+      "ms": {
+        "ima": false,
+        "pregledano": 819
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.96043_13.96453",
+      "lat": 44.960432,
+      "lon": 13.964525,
+      "adresa": "Marčana 574",
+      "naselje": "Marčana",
+      "grad": "Marčana",
+      "postanskiBroj": "52206",
+      "ms": {
+        "ima": false,
+        "pregledano": 723
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.20299_13.68109",
+      "lat": 45.202988,
+      "lon": 13.681088,
+      "adresa": "Radmani 43D",
+      "naselje": "Radmani",
+      "grad": "Poreč (Parenzo)",
+      "postanskiBroj": "52440",
+      "ms": {
+        "ima": false,
+        "pregledano": 747
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.99528_13.86130",
+      "lat": 44.995281,
+      "lon": 13.861303,
+      "adresa": "Cirka 57",
+      "naselje": "Cukrići",
+      "grad": "Svetvinčenat",
+      "postanskiBroj": "52342",
+      "ms": {
+        "ima": false,
+        "pregledano": 343
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.32715_13.57231",
+      "lat": 45.327154,
+      "lon": 13.572306,
+      "adresa": "Slavonska ulica - Via Slavonia 38",
+      "naselje": "Novigrad - Cittanova",
+      "grad": "Novigrad-Cittanova",
+      "postanskiBroj": "52466",
+      "ms": {
+        "ima": false,
+        "pregledano": 2273
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.42115_13.96265",
+      "lat": 45.421145,
+      "lon": 13.962648,
+      "adresa": "Franečići 71F",
+      "naselje": "Buzet",
+      "grad": "Buzet",
+      "postanskiBroj": "52420",
+      "ms": {
+        "ima": false,
+        "pregledano": 733
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.44708_13.64737",
+      "lat": 45.447083,
+      "lon": 13.647368,
+      "adresa": "Vižinada - Visinada 58A",
+      "naselje": "Kaštel - Castelvenere",
+      "grad": "Buje (Buie)",
+      "postanskiBroj": "52460",
+      "ms": {
+        "ima": false,
+        "pregledano": 639
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.39096_15.64262",
+      "lat": 45.390961,
+      "lon": 15.642616,
+      "adresa": "Vukmanić 124",
+      "naselje": "Vukmanić",
+      "grad": "Karlovac",
+      "postanskiBroj": "47000",
+      "ms": {
+        "ima": false,
+        "pregledano": 52
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.95380_15.64802",
+      "lat": 44.953802,
+      "lon": 15.648016,
+      "adresa": "Čatrnja 147E",
+      "naselje": "Čatrnja",
+      "grad": "Rakovica",
+      "postanskiBroj": "47245",
+      "ms": {
+        "ima": false,
+        "pregledano": 815
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.05356_17.08545",
+      "lat": 46.053558,
+      "lon": 17.08545,
+      "adresa": "Međašna 14B",
+      "naselje": "Đurđevac",
+      "grad": "Đurđevac",
+      "postanskiBroj": "48350",
+      "ms": {
+        "ima": false,
+        "pregledano": 1384
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.10687_16.38932",
+      "lat": 46.106868,
+      "lon": 16.389325,
+      "adresa": "Radnička ulica 17",
+      "naselje": "Gornja Rijeka",
+      "grad": "Gornja Rijeka",
+      "postanskiBroj": "48268",
+      "ms": {
+        "ima": false,
+        "pregledano": 930
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.16522_16.84198",
+      "lat": 46.165221,
+      "lon": 16.841978,
+      "adresa": "Ulica Herešinska 2E",
+      "naselje": "Koprivnica",
+      "grad": "Koprivnica",
+      "postanskiBroj": "48000",
+      "ms": {
+        "ima": false,
+        "pregledano": 3252
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.20158_16.80619",
+      "lat": 46.201582,
+      "lon": 16.806194,
+      "adresa": "Vinogradska 36D",
+      "naselje": "Koprivnički Ivanec",
+      "grad": "Koprivnički Ivanec",
+      "postanskiBroj": "48314",
+      "ms": {
+        "ima": false,
+        "pregledano": 1053
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.14898_15.76965",
+      "lat": 46.148975,
+      "lon": 15.769647,
+      "adresa": "Ulica Dobrava 10",
+      "naselje": "Pregrada",
+      "grad": "Pregrada",
+      "postanskiBroj": "49218",
+      "ms": {
+        "ima": false,
+        "pregledano": 912
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.02396_15.75045",
+      "lat": 46.02396,
+      "lon": 15.750448,
+      "adresa": "Gorkovec 18B",
+      "naselje": "Gorkovec",
+      "grad": "Klanjec",
+      "postanskiBroj": "49290",
+      "ms": {
+        "ima": false,
+        "pregledano": 506
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.19642_15.78627",
+      "lat": 46.196421,
+      "lon": 15.786274,
+      "adresa": "Hlevnica 40A",
+      "naselje": "Hlevnica",
+      "grad": "Đurmanec",
+      "postanskiBroj": "49225",
+      "ms": {
+        "ima": false,
+        "pregledano": 908
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.21003_15.89945",
+      "lat": 46.210032,
+      "lon": 15.899453,
+      "adresa": "Gornje Jesenje 207B",
+      "naselje": "Gornje Jesenje",
+      "grad": "Gornje Jesenje",
+      "postanskiBroj": "49233",
+      "ms": {
+        "ima": false,
+        "pregledano": 751
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.73636_15.71253",
+      "lat": 44.736362,
+      "lon": 15.712531,
+      "adresa": "Kalebovac 29C",
+      "naselje": "Kalebovac",
+      "grad": "Korenica",
+      "postanskiBroj": "53230",
+      "ms": {
+        "ima": false,
+        "pregledano": 1225
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.87654_15.18047",
+      "lat": 44.876541,
+      "lon": 15.180469,
+      "adresa": "Švica 60B",
+      "naselje": "Švica",
+      "grad": "Švica",
+      "postanskiBroj": "53225",
+      "ms": {
+        "ima": false,
+        "pregledano": 580
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.87783_15.24617",
+      "lat": 44.877825,
+      "lon": 15.246174,
+      "adresa": "Donja Dubrava 27A",
+      "naselje": "Otočac",
+      "grad": "Otočac",
+      "postanskiBroj": "53220",
+      "ms": {
+        "ima": false,
+        "pregledano": 1954
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.42113_16.43361",
+      "lat": 46.421128,
+      "lon": 16.433608,
+      "adresa": "Trg sv. Petra i Pavla 17",
+      "naselje": "Mačkovec",
+      "grad": "Čakovec",
+      "postanskiBroj": "40000",
+      "ms": {
+        "ima": false,
+        "pregledano": 1467
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.45949_16.46939",
+      "lat": 46.459495,
+      "lon": 16.469392,
+      "adresa": "Potočna ulica 13",
+      "naselje": "Gornji Kraljevec",
+      "grad": "Vratišinec",
+      "postanskiBroj": "40316",
+      "ms": {
+        "ima": false,
+        "pregledano": 863
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.46738_16.36468",
+      "lat": 46.467379,
+      "lon": 16.364682,
+      "adresa": "Ulica Zrinskih 17A",
+      "naselje": "Praporčan",
+      "grad": "Selnica",
+      "postanskiBroj": "40314",
+      "ms": {
+        "ima": false,
+        "pregledano": 907
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.52521_17.97484",
+      "lat": 45.52521,
+      "lon": 17.974841,
+      "adresa": "Kolodvorska 5/3",
+      "naselje": "Feričanci",
+      "grad": "Feričanci",
+      "postanskiBroj": "31512",
+      "ms": {
+        "ima": false,
+        "pregledano": 1379
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.62569_18.68388",
+      "lat": 45.625694,
+      "lon": 18.683877,
+      "adresa": "Braće Radić 8A",
+      "naselje": "Darda",
+      "grad": "Darda",
+      "postanskiBroj": "31326",
+      "ms": {
+        "ima": false,
+        "pregledano": 3267
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.34944_17.98847",
+      "lat": 45.349438,
+      "lon": 17.988472,
+      "adresa": "Kralja Tomislava 79A",
+      "naselje": "Čaglin",
+      "grad": "Čaglin",
+      "postanskiBroj": "34350",
+      "ms": {
+        "ima": false,
+        "pregledano": 708
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.35100_17.98745",
+      "lat": 45.350998,
+      "lon": 17.987447,
+      "adresa": "Braće Radića 3",
+      "naselje": "Čaglin",
+      "grad": "Čaglin",
+      "postanskiBroj": "34350",
+      "ms": {
+        "ima": false,
+        "pregledano": 861
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.05187_14.60024",
+      "lat": 45.051869,
+      "lon": 14.600243,
+      "adresa": "Muraj 22E",
+      "naselje": "Muraj",
+      "grad": "Kornić",
+      "postanskiBroj": "51517",
+      "ms": {
+        "ima": false,
+        "pregledano": 820
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.07636_14.46502",
+      "lat": 45.076359,
+      "lon": 14.465016,
+      "adresa": "Linardići 121A",
+      "naselje": "Linardići",
+      "grad": "Malinska",
+      "postanskiBroj": "51511",
+      "ms": {
+        "ima": false,
+        "pregledano": 559
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.07680_14.66758",
+      "lat": 45.076796,
+      "lon": 14.667579,
+      "adresa": "Vrani 16A",
+      "naselje": "Vrbnik",
+      "grad": "Vrbnik",
+      "postanskiBroj": "51516",
+      "ms": {
+        "ima": false,
+        "pregledano": 779
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.07632_14.66654",
+      "lat": 45.076317,
+      "lon": 14.666536,
+      "adresa": "Vrani 24",
+      "naselje": "Vrbnik",
+      "grad": "Vrbnik",
+      "postanskiBroj": "51516",
+      "ms": {
+        "ima": false,
+        "pregledano": 779
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.72973_14.81213",
+      "lat": 44.72973,
+      "lon": 14.812127,
+      "adresa": "Barbat 637B",
+      "naselje": "Barbat",
+      "grad": "Rab",
+      "postanskiBroj": "51280",
+      "ms": {
+        "ima": false,
+        "pregledano": 852
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.35267_14.30927",
+      "lat": 45.352667,
+      "lon": 14.309269,
+      "adresa": "Pužev breg 33A",
+      "naselje": "Pobri",
+      "grad": "Matulji",
+      "postanskiBroj": "51211",
+      "ms": {
+        "ima": false,
+        "pregledano": 3038
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.38787_14.92313",
+      "lat": 45.387866,
+      "lon": 14.923131,
+      "adresa": "Hlevci 14",
+      "naselje": "Hlevci",
+      "grad": "Ravna Gora",
+      "postanskiBroj": "51314",
+      "ms": {
+        "ima": false,
+        "pregledano": 793
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.37180_14.84107",
+      "lat": 45.371801,
+      "lon": 14.841067,
+      "adresa": "Polane 30A",
+      "naselje": "Dedin",
+      "grad": "Kupjak",
+      "postanskiBroj": "51313",
+      "ms": {
+        "ima": false,
+        "pregledano": 153
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.76586_15.73337",
+      "lat": 43.765859,
+      "lon": 15.733366,
+      "adresa": "Kamenska ulica 21",
+      "naselje": "Tribunj",
+      "grad": "Tribunj",
+      "postanskiBroj": "22212",
+      "ms": {
+        "ima": false,
+        "pregledano": 1253
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.53524_15.96314",
+      "lat": 43.535239,
+      "lon": 15.963137,
+      "adresa": "Put Šepurine 4B",
+      "naselje": "Rogoznica",
+      "grad": "Rogoznica",
+      "postanskiBroj": "22203",
+      "ms": {
+        "ima": false,
+        "pregledano": 2255
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.48987_16.54736",
+      "lat": 43.48987,
+      "lon": 16.547361,
+      "adresa": "Hercegovačka ulica 22A",
+      "naselje": "Podstrana - Grljevac",
+      "grad": "Podstrana",
+      "postanskiBroj": "21312",
+      "ms": {
+        "ima": false,
+        "pregledano": 1560
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.48982_16.54754",
+      "lat": 43.489821,
+      "lon": 16.547542,
+      "adresa": "Hercegovačka ulica 22B",
+      "naselje": "Podstrana - Grljevac",
+      "grad": "Podstrana",
+      "postanskiBroj": "21312",
+      "ms": {
+        "ima": false,
+        "pregledano": 1560
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.48968_16.54745",
+      "lat": 43.489681,
+      "lon": 16.547448,
+      "adresa": "Hercegovačka ulica 22C",
+      "naselje": "Podstrana - Grljevac",
+      "grad": "Podstrana",
+      "postanskiBroj": "21312",
+      "ms": {
+        "ima": false,
+        "pregledano": 1560
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.48973_16.54727",
+      "lat": 43.489729,
+      "lon": 16.547275,
+      "adresa": "Hercegovačka ulica 22D",
+      "naselje": "Podstrana - Grljevac",
+      "grad": "Podstrana",
+      "postanskiBroj": "21312",
+      "ms": {
+        "ima": false,
+        "pregledano": 1560
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.58546_16.58769",
+      "lat": 43.585461,
+      "lon": 16.587691,
+      "adresa": "Ulica kneza Višeslava 19",
+      "naselje": "Dugopolje",
+      "grad": "Dugopolje",
+      "postanskiBroj": "21204",
+      "ms": {
+        "ima": false,
+        "pregledano": 1393
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.33135_16.57849",
+      "lat": 43.331348,
+      "lon": 16.578486,
+      "adresa": "Pod Njivicu 23",
+      "naselje": "Nerežišća",
+      "grad": "Nerežišća",
+      "postanskiBroj": "21423",
+      "ms": {
+        "ima": false,
+        "pregledano": 659
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.46891_16.57789",
+      "lat": 43.468911,
+      "lon": 16.577887,
+      "adresa": "Put Vučipolja 8C",
+      "naselje": "Podstrana - Mutogras",
+      "grad": "Podstrana",
+      "postanskiBroj": "21312",
+      "ms": {
+        "ima": false,
+        "pregledano": 699
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.56342_16.32500",
+      "lat": 43.563422,
+      "lon": 16.324997,
+      "adresa": "Bufaline III 1B",
+      "naselje": "Kaštel Novi",
+      "grad": "Kaštel Stari",
+      "postanskiBroj": "21216",
+      "ms": {
+        "ima": false,
+        "pregledano": 2760
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.58553_16.59386",
+      "lat": 43.585531,
+      "lon": 16.593857,
+      "adresa": "Ulica sv. Mihovila 29",
+      "naselje": "Dugopolje",
+      "grad": "Dugopolje",
+      "postanskiBroj": "21204",
+      "ms": {
+        "ima": false,
+        "pregledano": 1613
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.59385_16.56103",
+      "lat": 43.593848,
+      "lon": 16.561033,
+      "adresa": "Kninska ulica 35",
+      "naselje": "Dugopolje",
+      "grad": "Dugopolje",
+      "postanskiBroj": "21204",
+      "ms": {
+        "ima": false,
+        "pregledano": 543
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.53552_16.49669",
+      "lat": 43.535523,
+      "lon": 16.496686,
+      "adresa": "Ulica hrvatskih branitelja 14",
+      "naselje": "Solin",
+      "grad": "Solin",
+      "postanskiBroj": "21210",
+      "ms": {
+        "ima": false,
+        "pregledano": 4172
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.46355_17.15777",
+      "lat": 43.463555,
+      "lon": 17.157768,
+      "adresa": "Ulica hrvatskih branitelja 57C",
+      "naselje": "Donji Proložac",
+      "grad": "Donji Proložac",
+      "postanskiBroj": "21264",
+      "ms": {
+        "ima": false,
+        "pregledano": 1316
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.49260_16.54473",
+      "lat": 43.492595,
+      "lon": 16.544729,
+      "adresa": "Ulica Bartola Kašića 19C",
+      "naselje": "Podstrana - Miljevac",
+      "grad": "Podstrana",
+      "postanskiBroj": "21312",
+      "ms": {
+        "ima": false,
+        "pregledano": 2265
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.49268_16.54480",
+      "lat": 43.492682,
+      "lon": 16.544798,
+      "adresa": "Ulica Bartola Kašića 19D",
+      "naselje": "Podstrana - Miljevac",
+      "grad": "Podstrana",
+      "postanskiBroj": "21312",
+      "ms": {
+        "ima": false,
+        "pregledano": 2265
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.47553_16.57417",
+      "lat": 43.475527,
+      "lon": 16.574165,
+      "adresa": "Ulica Pojatište 26D",
+      "naselje": "Podstrana - Sv. Martin",
+      "grad": "Podstrana",
+      "postanskiBroj": "21312",
+      "ms": {
+        "ima": false,
+        "pregledano": 934
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.47568_16.57383",
+      "lat": 43.47568,
+      "lon": 16.57383,
+      "adresa": "Ulica Pojatište 26B",
+      "naselje": "Podstrana - Sv. Martin",
+      "grad": "Podstrana",
+      "postanskiBroj": "21312",
+      "ms": {
+        "ima": false,
+        "pregledano": 934
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.56150_16.51350",
+      "lat": 43.561501,
+      "lon": 16.513499,
+      "adresa": "Kliških uskoka 30A",
+      "naselje": "Klis",
+      "grad": "Klis",
+      "postanskiBroj": "21231",
+      "ms": {
+        "ima": false,
+        "pregledano": 921
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.19211_16.49009",
+      "lat": 43.192112,
+      "lon": 16.490089,
+      "adresa": "Ulica kroz Brusje 51",
+      "naselje": "Brusje",
+      "grad": "Brusje",
+      "postanskiBroj": "21454",
+      "ms": {
+        "ima": false,
+        "pregledano": 208
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.29396_16.18131",
+      "lat": 46.293964,
+      "lon": 16.181313,
+      "adresa": "Čalinec 205",
+      "naselje": "Čalinec",
+      "grad": "Maruševec",
+      "postanskiBroj": "42243",
+      "ms": {
+        "ima": false,
+        "pregledano": 1599
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.31204_16.32404",
+      "lat": 46.312044,
+      "lon": 16.324042,
+      "adresa": "Ulica Ivana Nepomuka Petrovića 12",
+      "naselje": "Varaždin",
+      "grad": "Varaždin",
+      "postanskiBroj": "42000",
+      "ms": {
+        "ima": false,
+        "pregledano": 4955
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.24610_16.33050",
+      "lat": 46.2461,
+      "lon": 16.330505,
+      "adresa": "Ulica Vladimira Nazora 10C",
+      "naselje": "Žigrovec",
+      "grad": "Sveti Ilija",
+      "postanskiBroj": "42214",
+      "ms": {
+        "ima": false,
+        "pregledano": 1745
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.21723_16.31805",
+      "lat": 46.217234,
+      "lon": 16.318054,
+      "adresa": "Livadska ulica 4",
+      "naselje": "Krušljevec",
+      "grad": "Sveti Ilija",
+      "postanskiBroj": "42214",
+      "ms": {
+        "ima": false,
+        "pregledano": 1236
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.22378_16.31336",
+      "lat": 46.223775,
+      "lon": 16.313355,
+      "adresa": "Ulica Matije Gupca 7",
+      "naselje": "Beletinec",
+      "grad": "Sveti Ilija",
+      "postanskiBroj": "42214",
+      "ms": {
+        "ima": false,
+        "pregledano": 1328
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/46.22794_16.14409",
+      "lat": 46.227944,
+      "lon": 16.144087,
+      "adresa": "Punikve 2S",
+      "naselje": "Punikve",
+      "grad": "Ivanec",
+      "postanskiBroj": "42240",
+      "ms": {
+        "ima": false,
+        "pregledano": 1393
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.80945_17.36539",
+      "lat": 45.809449,
+      "lon": 17.365394,
+      "adresa": "Mlinska ulica 110",
+      "naselje": "Sveti Đurađ",
+      "grad": "Virovitica",
+      "postanskiBroj": "33000",
+      "ms": {
+        "ima": false,
+        "pregledano": 841
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.12577_15.40850",
+      "lat": 44.125767,
+      "lon": 15.408505,
+      "adresa": "Gornji Zemunik ulica V 6B",
+      "naselje": "Zemunik Gornji",
+      "grad": "Zemunik",
+      "postanskiBroj": "23222",
+      "ms": {
+        "ima": false,
+        "pregledano": 332
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.94122_15.57961",
+      "lat": 43.941224,
+      "lon": 15.57961,
+      "adresa": "Kardinala Alojzija Stepinca 156",
+      "naselje": "Vrana",
+      "grad": "Pakoštane",
+      "postanskiBroj": "23211",
+      "ms": {
+        "ima": false,
+        "pregledano": 344
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.11116_15.36640",
+      "lat": 44.111161,
+      "lon": 15.3664,
+      "adresa": "Donji Zemunik ulica II 51D",
+      "naselje": "Zemunik Donji",
+      "grad": "Zemunik",
+      "postanskiBroj": "23222",
+      "ms": {
+        "ima": false,
+        "pregledano": 905
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.28435_15.45645",
+      "lat": 44.284346,
+      "lon": 15.45645,
+      "adresa": "Put Selina 33",
+      "naselje": "Starigrad",
+      "grad": "Starigrad Paklenica",
+      "postanskiBroj": "23244",
+      "ms": {
+        "ima": false,
+        "pregledano": 1085
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.18909_15.17465",
+      "lat": 44.189093,
+      "lon": 15.174649,
+      "adresa": "Petrčane ulica XXX 1F",
+      "naselje": "Petrčane",
+      "grad": "Petrčane",
+      "postanskiBroj": "23231",
+      "ms": {
+        "ima": false,
+        "pregledano": 837
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.12105_15.24951",
+      "lat": 44.121052,
+      "lon": 15.249506,
+      "adresa": "Splitska ulica 47A",
+      "naselje": "Zadar",
+      "grad": "Zadar",
+      "postanskiBroj": "23000",
+      "ms": {
+        "ima": false,
+        "pregledano": 5924
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.10911_15.36854",
+      "lat": 44.109108,
+      "lon": 15.368543,
+      "adresa": "Donji Zemunik ulica IX 23A",
+      "naselje": "Zemunik Donji",
+      "grad": "Zemunik",
+      "postanskiBroj": "23222",
+      "ms": {
+        "ima": false,
+        "pregledano": 778
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.95092_15.54330",
+      "lat": 43.950916,
+      "lon": 15.5433,
+      "adresa": "Kneza Domagoja 47",
+      "naselje": "Vrana",
+      "grad": "Pakoštane",
+      "postanskiBroj": "23211",
+      "ms": {
+        "ima": false,
+        "pregledano": 403
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.09076_15.45610",
+      "lat": 44.090765,
+      "lon": 15.456096,
+      "adresa": "Put Ražovljeve glavice 27B",
+      "naselje": "Škabrnja",
+      "grad": "Škabrnja",
+      "postanskiBroj": "23223",
+      "ms": {
+        "ima": false,
+        "pregledano": 817
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.29767_15.29278",
+      "lat": 44.297669,
+      "lon": 15.292779,
+      "adresa": "Ulica Mirka Miočića hrvatskog erudita i enigmata (1956-2017) 135H",
+      "naselje": "Rtina",
+      "grad": "Ražanac",
+      "postanskiBroj": "23248",
+      "ms": {
+        "ima": false,
+        "pregledano": 567
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.04030_15.36741",
+      "lat": 44.040298,
+      "lon": 15.367408,
+      "adresa": "Dr. Franje Tuđmana 93",
+      "naselje": "Debeljak",
+      "grad": "Sukošan",
+      "postanskiBroj": "23206",
+      "ms": {
+        "ima": false,
+        "pregledano": 904
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.45522_15.02695",
+      "lat": 44.455217,
+      "lon": 15.026951,
+      "adresa": "Ul. Augusta Šenoe 44F",
+      "naselje": "Pag",
+      "grad": "Pag",
+      "postanskiBroj": "23250",
+      "ms": {
+        "ima": false,
+        "pregledano": 674
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/43.90317_15.52041",
+      "lat": 43.903171,
+      "lon": 15.520412,
+      "adresa": "Ul. kar. dr. A. Stepinca 111A",
+      "naselje": "Pakoštane",
+      "grad": "Pakoštane",
+      "postanskiBroj": "23211",
+      "ms": {
+        "ima": false,
+        "pregledano": 802
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/44.02986_15.49929",
+      "lat": 44.029862,
+      "lon": 15.499286,
+      "adresa": "Polača 244B",
+      "naselje": "Polača",
+      "grad": "Polača",
+      "postanskiBroj": "23423",
+      "ms": {
+        "ima": false,
+        "pregledano": 582
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.81921_15.72617",
+      "lat": 45.819212,
+      "lon": 15.726173,
+      "adresa": "Ulica Nikole Šubića Zrinskog 28",
+      "naselje": "Samobor",
+      "grad": "Samobor",
+      "postanskiBroj": "10430",
+      "ms": {
+        "ima": false,
+        "pregledano": 2410
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.86828_15.77384",
+      "lat": 45.86828,
+      "lon": 15.773845,
+      "adresa": "Ravnice 11",
+      "naselje": "Šibice",
+      "grad": "Zaprešić",
+      "postanskiBroj": "10290",
+      "ms": {
+        "ima": false,
+        "pregledano": 2152
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.72498_16.08581",
+      "lat": 45.724975,
+      "lon": 16.085814,
+      "adresa": "Rakarska 54A",
+      "naselje": "Velika Gorica",
+      "grad": "Velika Gorica",
+      "postanskiBroj": "10410",
+      "ms": {
+        "ima": false,
+        "pregledano": 2331
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.75409_15.83024",
+      "lat": 45.75409,
+      "lon": 15.830245,
+      "adresa": "Voćarska ulica 13",
+      "naselje": "Gornji Stupnik",
+      "grad": "Gornji Stupnik",
+      "postanskiBroj": "10255",
+      "ms": {
+        "ima": false,
+        "pregledano": 1540
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.75414_15.83040",
+      "lat": 45.754143,
+      "lon": 15.830402,
+      "adresa": "Voćarska ulica 15",
+      "naselje": "Gornji Stupnik",
+      "grad": "Gornji Stupnik",
+      "postanskiBroj": "10255",
+      "ms": {
+        "ima": false,
+        "pregledano": 1540
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.75420_15.83054",
+      "lat": 45.754196,
+      "lon": 15.83054,
+      "adresa": "Voćarska ulica 17",
+      "naselje": "Gornji Stupnik",
+      "grad": "Gornji Stupnik",
+      "postanskiBroj": "10255",
+      "ms": {
+        "ima": false,
+        "pregledano": 1540
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.61120_16.06873",
+      "lat": 45.611198,
+      "lon": 16.068725,
+      "adresa": "Podvornička cesta 54",
+      "naselje": "Podvornica",
+      "grad": "Kravarsko",
+      "postanskiBroj": "10413",
+      "ms": {
+        "ima": false,
+        "pregledano": 928
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.91396_16.23750",
+      "lat": 45.913957,
+      "lon": 16.237498,
+      "adresa": "Ulica Stjepana Radića 6",
+      "naselje": "Donja Zelina",
+      "grad": "Donja Zelina",
+      "postanskiBroj": "10382",
+      "ms": {
+        "ima": false,
+        "pregledano": 882
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.80389_16.24721",
+      "lat": 45.803893,
+      "lon": 16.247205,
+      "adresa": "Ulica Josipa Zorića 100A",
+      "naselje": "Dugo Selo",
+      "grad": "Dugo Selo",
+      "postanskiBroj": "10370",
+      "ms": {
+        "ima": false,
+        "pregledano": 4239
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    },
+    {
+      "idStabilan": "geo/45.93578_15.87849",
+      "lat": 45.93578,
+      "lon": 15.878492,
+      "adresa": "Ulica svete Doroteje 214A",
+      "naselje": "Jakovlje",
+      "grad": "Jakovlje",
+      "postanskiBroj": "10297",
+      "ms": {
+        "ima": false,
+        "pregledano": 898
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "novogradnja",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) nema zgradu na ovoj lokaciji, a adresa je dodijeljena 2026-10-26. - vjerojatno sagrađeno nakon 2024."
+    }
+  ],
+  "legalizacija": [
+    {
+      "idStabilan": "geo/45.15273_17.67923",
+      "lat": 45.152735,
+      "lon": 17.679234,
+      "adresa": "Ulica Živike 9",
+      "naselje": "Živike",
+      "grad": "Lužani",
+      "postanskiBroj": "35257",
+      "ms": {
+        "ima": true,
+        "pregledano": 414,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 11,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 218,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/42.98988_17.19876",
+      "lat": 42.989876,
+      "lon": 17.19876,
+      "adresa": "Podvlaštica 10A",
+      "naselje": "Stanković",
+      "grad": "Orebić",
+      "postanskiBroj": "20250",
+      "ms": {
+        "ima": true,
+        "pregledano": 1256,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 81,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.79956_15.91154",
+      "lat": 45.799557,
+      "lon": 15.911543,
+      "adresa": "Pavlenski put 3A",
+      "naselje": "Zagreb",
+      "grad": "Zagreb-Susedgrad",
+      "postanskiBroj": "10090",
+      "ms": {
+        "ima": true,
+        "pregledano": 5807,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 354,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.90400_16.04831",
+      "lat": 45.903996,
+      "lon": 16.048314,
+      "adresa": "Bokanjščica 34D",
+      "naselje": "Zagreb",
+      "grad": "Zagreb-Dubrava",
+      "postanskiBroj": "10040",
+      "ms": {
+        "ima": true,
+        "pregledano": 1452,
+        "kako": "blizu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 4,
+        "povrsinaMs": 40,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.82343_16.01208",
+      "lat": 45.823427,
+      "lon": 16.01208,
+      "adresa": "Ulica Mije Kišpatića 2",
+      "naselje": "Zagreb",
+      "grad": "Zagreb",
+      "postanskiBroj": "10123",
+      "ms": {
+        "ima": true,
+        "pregledano": 4943,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 176,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.79499_16.04612",
+      "lat": 45.794988,
+      "lon": 16.046124,
+      "adresa": "II. Radnički put 50/1",
+      "naselje": "Zagreb",
+      "grad": "Zagreb",
+      "postanskiBroj": "10135",
+      "ms": {
+        "ima": true,
+        "pregledano": 4246,
+        "kako": "blizu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 60,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.07220_13.89935",
+      "lat": 45.072196,
+      "lon": 13.899349,
+      "adresa": "Pajkovići 11A",
+      "naselje": "Pajkovići",
+      "grad": "Svetvinčenat",
+      "postanskiBroj": "52342",
+      "ms": {
+        "ima": true,
+        "pregledano": 558,
+        "kako": "blizu",
+        "udaljenostCentara": 9,
+        "udaljenostDoRuba": 7,
+        "povrsinaMs": 26,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.46805_13.56904",
+      "lat": 45.468051,
+      "lon": 13.569041,
+      "adresa": "Valica - Valizza 23K",
+      "naselje": "Valica - Valizza",
+      "grad": "Umag (Umago)",
+      "postanskiBroj": "52470",
+      "ms": {
+        "ima": true,
+        "pregledano": 585,
+        "kako": "blizu",
+        "udaljenostCentara": 10,
+        "udaljenostDoRuba": 7,
+        "povrsinaMs": 15,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.46814_13.56909",
+      "lat": 45.468139,
+      "lon": 13.56909,
+      "adresa": "Valica - Valizza 23K/1",
+      "naselje": "Valica - Valizza",
+      "grad": "Umag (Umago)",
+      "postanskiBroj": "52470",
+      "ms": {
+        "ima": true,
+        "pregledano": 585,
+        "kako": "blizu",
+        "udaljenostCentara": 9,
+        "udaljenostDoRuba": 7,
+        "povrsinaMs": 15,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.42121_15.47541",
+      "lat": 45.421214,
+      "lon": 15.47541,
+      "adresa": "Belavići 115",
+      "naselje": "Belavići",
+      "grad": "Duga Resa",
+      "postanskiBroj": "47250",
+      "ms": {
+        "ima": true,
+        "pregledano": 958,
+        "kako": "blizu",
+        "udaljenostCentara": 9,
+        "udaljenostDoRuba": 4,
+        "povrsinaMs": 162,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.73670_15.71248",
+      "lat": 44.736699,
+      "lon": 15.712479,
+      "adresa": "Kalebovac 29",
+      "naselje": "Kalebovac",
+      "grad": "Korenica",
+      "postanskiBroj": "53230",
+      "ms": {
+        "ima": true,
+        "pregledano": 1225,
+        "kako": "blizu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 2,
+        "povrsinaMs": 80,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.98466_15.06456",
+      "lat": 44.984658,
+      "lon": 15.064556,
+      "adresa": "Prokike 18B",
+      "naselje": "Prokike",
+      "grad": "Brinje",
+      "postanskiBroj": "53260",
+      "ms": {
+        "ima": true,
+        "pregledano": 230,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 56,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/46.33324_16.35772",
+      "lat": 46.333239,
+      "lon": 16.357718,
+      "adresa": "Obrtnička ulica 7",
+      "naselje": "Pušćine",
+      "grad": "Nedelišće",
+      "postanskiBroj": "40305",
+      "ms": {
+        "ima": true,
+        "pregledano": 1269,
+        "kako": "blizu",
+        "udaljenostCentara": 16,
+        "udaljenostDoRuba": 2,
+        "povrsinaMs": 946,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.78544_18.54042",
+      "lat": 45.785437,
+      "lon": 18.540421,
+      "adresa": "Marka Oreškovića 1",
+      "naselje": "Luč",
+      "grad": "Beli Manastir",
+      "postanskiBroj": "31300",
+      "ms": {
+        "ima": true,
+        "pregledano": 565,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 177,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.83963_18.76468",
+      "lat": 45.839632,
+      "lon": 18.764679,
+      "adresa": "Šovakova 63",
+      "naselje": "Gajić",
+      "grad": "Draž",
+      "postanskiBroj": "31305",
+      "ms": {
+        "ima": true,
+        "pregledano": 707,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 1,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 176,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.76993_18.61535",
+      "lat": 45.769932,
+      "lon": 18.615347,
+      "adresa": "Osječka ulica 62",
+      "naselje": "Beli Manastir",
+      "grad": "Beli Manastir",
+      "postanskiBroj": "31300",
+      "ms": {
+        "ima": true,
+        "pregledano": 4461,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 48,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.34741_17.98740",
+      "lat": 45.347409,
+      "lon": 17.987401,
+      "adresa": "Vladimira Nazora 1",
+      "naselje": "Čaglin",
+      "grad": "Čaglin",
+      "postanskiBroj": "34350",
+      "ms": {
+        "ima": true,
+        "pregledano": 708,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 1504,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.05286_14.52191",
+      "lat": 45.052855,
+      "lon": 14.521912,
+      "adresa": "Gušternica 120",
+      "naselje": "Vrh",
+      "grad": "Krk",
+      "postanskiBroj": "51500",
+      "ms": {
+        "ima": true,
+        "pregledano": 606,
+        "kako": "blizu",
+        "udaljenostCentara": 5,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 62,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.93133_15.83532",
+      "lat": 43.931335,
+      "lon": 15.835317,
+      "adresa": "Ulica Pavići, Ćoraši, Pakići 52",
+      "naselje": "Bribir",
+      "grad": "Skradin",
+      "postanskiBroj": "22222",
+      "ms": {
+        "ima": true,
+        "pregledano": 240,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 134,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.87374_15.99256",
+      "lat": 43.873741,
+      "lon": 15.992559,
+      "adresa": "Malenice 22A",
+      "naselje": "Brištani",
+      "grad": "Drinovci",
+      "postanskiBroj": "22324",
+      "ms": {
+        "ima": true,
+        "pregledano": 325,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 35,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.86692_15.92805",
+      "lat": 43.866917,
+      "lon": 15.928051,
+      "adresa": "Plastovo 17A",
+      "naselje": "Plastovo",
+      "grad": "Skradin",
+      "postanskiBroj": "22222",
+      "ms": {
+        "ima": true,
+        "pregledano": 646,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 75,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.51267_16.25223",
+      "lat": 45.512674,
+      "lon": 16.252233,
+      "adresa": "Petrovec 39C",
+      "naselje": "Petrovec",
+      "grad": "Lekenik",
+      "postanskiBroj": "44272",
+      "ms": {
+        "ima": true,
+        "pregledano": 485,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 3,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 72,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.55830_16.34593",
+      "lat": 43.558295,
+      "lon": 16.345934,
+      "adresa": "Cesta pape Ivana Pavla II. 233",
+      "naselje": "Kaštel Stari",
+      "grad": "Kaštel Stari",
+      "postanskiBroj": "21216",
+      "ms": {
+        "ima": true,
+        "pregledano": 4192,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 823,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.52430_16.49412",
+      "lat": 43.5243,
+      "lon": 16.494122,
+      "adresa": "Mostine 7B",
+      "naselje": "Split",
+      "grad": "Split",
+      "postanskiBroj": "21000",
+      "ms": {
+        "ima": true,
+        "pregledano": 3845,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 27,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.26281_16.66246",
+      "lat": 43.262805,
+      "lon": 16.662463,
+      "adresa": "David-cesta 16A",
+      "naselje": "Bol",
+      "grad": "Bol",
+      "postanskiBroj": "21420",
+      "ms": {
+        "ima": true,
+        "pregledano": 878,
+        "kako": "blizu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 2,
+        "povrsinaMs": 43,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.53370_16.51521",
+      "lat": 43.533701,
+      "lon": 16.515213,
+      "adresa": "Gajeva ulica 37A",
+      "naselje": "Mravince",
+      "grad": "Solin",
+      "postanskiBroj": "21210",
+      "ms": {
+        "ima": true,
+        "pregledano": 1814,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 43,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.31739_18.73467",
+      "lat": 45.317391,
+      "lon": 18.734675,
+      "adresa": "Vinkovačka 1",
+      "naselje": "Jarmina",
+      "grad": "Jarmina",
+      "postanskiBroj": "32280",
+      "ms": {
+        "ima": true,
+        "pregledano": 2043,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 3,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 65,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.31334_18.73531",
+      "lat": 45.313336,
+      "lon": 18.735307,
+      "adresa": "Vinkovačka 51",
+      "naselje": "Jarmina",
+      "grad": "Jarmina",
+      "postanskiBroj": "32280",
+      "ms": {
+        "ima": true,
+        "pregledano": 2043,
+        "kako": "blizu",
+        "udaljenostCentara": 13,
+        "udaljenostDoRuba": 6,
+        "povrsinaMs": 112,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.22436_19.36586",
+      "lat": 45.224362,
+      "lon": 19.365863,
+      "adresa": "Dr. Franje Tuđmana 26",
+      "naselje": "Ilok",
+      "grad": "Ilok",
+      "postanskiBroj": "32236",
+      "ms": {
+        "ima": true,
+        "pregledano": 2036,
+        "kako": "blizu",
+        "udaljenostCentara": 6,
+        "udaljenostDoRuba": 3,
+        "povrsinaMs": 92,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.06985_15.19764",
+      "lat": 44.069854,
+      "lon": 15.197641,
+      "adresa": "Otočka cesta 13",
+      "naselje": "Kali",
+      "grad": "Preko",
+      "postanskiBroj": "23273",
+      "ms": {
+        "ima": true,
+        "pregledano": 1480,
+        "kako": "blizu",
+        "udaljenostCentara": 7,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 121,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.03800_15.24355",
+      "lat": 44.038,
+      "lon": 15.243548,
+      "adresa": "Kukljica ulica II 3F",
+      "naselje": "Kukljica",
+      "grad": "Kukljica",
+      "postanskiBroj": "23271",
+      "ms": {
+        "ima": true,
+        "pregledano": 805,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 56,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.04691_15.35668",
+      "lat": 44.046905,
+      "lon": 15.356679,
+      "adresa": "Poginulih hrvatskih branitelja 21B",
+      "naselje": "Debeljak",
+      "grad": "Sukošan",
+      "postanskiBroj": "23206",
+      "ms": {
+        "ima": true,
+        "pregledano": 772,
+        "kako": "blizu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 6,
+        "povrsinaMs": 22,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.25101_16.19715",
+      "lat": 44.251014,
+      "lon": 16.19715,
+      "adresa": "Drenovac Osredački 5B",
+      "naselje": "Drenovac Osredački",
+      "grad": "Kaldrma",
+      "postanskiBroj": "23446",
+      "ms": {
+        "ima": true,
+        "pregledano": 47,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 2,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 52,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.13238_15.24238",
+      "lat": 44.132375,
+      "lon": 15.242379,
+      "adresa": "Put kotarskih serdara 52",
+      "naselje": "Zadar",
+      "grad": "Zadar",
+      "postanskiBroj": "23000",
+      "ms": {
+        "ima": true,
+        "pregledano": 4744,
+        "kako": "blizu",
+        "udaljenostCentara": 9,
+        "udaljenostDoRuba": 6,
+        "povrsinaMs": 27,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.28053_15.47040",
+      "lat": 44.280527,
+      "lon": 15.470399,
+      "adresa": "Put jaza 21",
+      "naselje": "Seline",
+      "grad": "Starigrad Paklenica",
+      "postanskiBroj": "23244",
+      "ms": {
+        "ima": true,
+        "pregledano": 1037,
+        "kako": "blizu",
+        "udaljenostCentara": 12,
+        "udaljenostDoRuba": 7,
+        "povrsinaMs": 157,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/44.21436_15.48268",
+      "lat": 44.214361,
+      "lon": 15.482683,
+      "adresa": "Ulica Ivana Gorana Kovačića 10",
+      "naselje": "Posedarje",
+      "grad": "Posedarje",
+      "postanskiBroj": "23242",
+      "ms": {
+        "ima": true,
+        "pregledano": 875,
+        "kako": "blizu",
+        "udaljenostCentara": 3,
+        "udaljenostDoRuba": 1,
+        "povrsinaMs": 42,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/43.96397_15.54521",
+      "lat": 43.963973,
+      "lon": 15.545207,
+      "adresa": "Blajburških žrtava 43",
+      "naselje": "Vrana",
+      "grad": "Pakoštane",
+      "postanskiBroj": "23211",
+      "ms": {
+        "ima": true,
+        "pregledano": 373,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 1,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 82,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.79528_15.71886",
+      "lat": 45.795281,
+      "lon": 15.718862,
+      "adresa": "Mirnovečka cesta 42",
+      "naselje": "Samobor",
+      "grad": "Samobor",
+      "postanskiBroj": "10430",
+      "ms": {
+        "ima": true,
+        "pregledano": 4194,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 312,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.77381_16.11658",
+      "lat": 45.773805,
+      "lon": 16.116584,
+      "adresa": "Trg sv. Martina 9",
+      "naselje": "Šćitarjevo",
+      "grad": "Velika Gorica",
+      "postanskiBroj": "10410",
+      "ms": {
+        "ima": true,
+        "pregledano": 1373,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 64,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.77410_16.11649",
+      "lat": 45.774096,
+      "lon": 16.116487,
+      "adresa": "Trg sv. Martina 10",
+      "naselje": "Šćitarjevo",
+      "grad": "Velika Gorica",
+      "postanskiBroj": "10410",
+      "ms": {
+        "ima": true,
+        "pregledano": 1373,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 8,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 472,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.83040_16.29463",
+      "lat": 45.830401,
+      "lon": 16.294631,
+      "adresa": "Templarska ulica 43",
+      "naselje": "Brckovljani",
+      "grad": "Dugo Selo",
+      "postanskiBroj": "10370",
+      "ms": {
+        "ima": true,
+        "pregledano": 2693,
+        "kako": "blizu",
+        "udaljenostCentara": 9,
+        "udaljenostDoRuba": 7,
+        "povrsinaMs": 15,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.75670_16.44855",
+      "lat": 45.756697,
+      "lon": 16.44855,
+      "adresa": "Duga ulica 27A",
+      "naselje": "Bešlinec",
+      "grad": "Kloštar Ivanić",
+      "postanskiBroj": "10312",
+      "ms": {
+        "ima": true,
+        "pregledano": 1134,
+        "kako": "centar-u-obrisu",
+        "udaljenostCentara": 3,
+        "udaljenostDoRuba": 0,
+        "povrsinaMs": 88,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.53444_15.89289",
+      "lat": 45.534442,
+      "lon": 15.892893,
+      "adresa": "Zdenac 5",
+      "naselje": "Lijevo Sredičko",
+      "grad": "Pisarovina",
+      "postanskiBroj": "10451",
+      "ms": {
+        "ima": true,
+        "pregledano": 626,
+        "kako": "blizu",
+        "udaljenostCentara": 4,
+        "udaljenostDoRuba": 2,
+        "povrsinaMs": 52,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    },
+    {
+      "idStabilan": "geo/45.80421_16.24699",
+      "lat": 45.804205,
+      "lon": 16.246995,
+      "adresa": "Ulica Josipa Zorića 100",
+      "naselje": "Dugo Selo",
+      "grad": "Dugo Selo",
+      "postanskiBroj": "10370",
+      "ms": {
+        "ima": true,
+        "pregledano": 4239,
+        "kako": "blizu",
+        "udaljenostCentara": 10,
+        "udaljenostDoRuba": 6,
+        "povrsinaMs": 68,
+        "visinaMs": null
+      },
+      "msIzdanje": "2026-08-13",
+      "presuda": "legalizacija",
+      "obrazlozenje": "Microsoft (izdanje 2026-08-13, snimke do 2024.) ima zgradu na ovoj lokaciji - objekt je postojao prije, adresa je naknadno dodijeljena."
+    }
+  ]
+}

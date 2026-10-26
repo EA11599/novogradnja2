@@ -265434,7 +265434,14 @@
           "lon": 16.842148,
           "lat": 46.165398
         }
-      ]
+      ],
+      "dguNovaAdresaPoklapanje": {
+        "street": "Ulica Herešinska",
+        "houseNumber": "2E",
+        "datum": "2026-10-26",
+        "udaljenostM": 21.1,
+        "unutarObrisa": false
+      }
     },
     {
       "id": "way/1547658727",

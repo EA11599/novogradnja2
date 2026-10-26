@@ -100788,6 +100788,13 @@
         "udaljenostM": 0,
         "povrsinaMs": 112,
         "iou": 1
+      },
+      "dguNovaAdresaPoklapanje": {
+        "street": "Vinkovačka",
+        "houseNumber": "51",
+        "datum": "2026-10-26",
+        "udaljenostM": 13.4,
+        "unutarObrisa": false
       }
     },
     {
@@ -322223,6 +322230,13 @@
         "udaljenostM": 0,
         "povrsinaMs": 65,
         "iou": 1
+      },
+      "dguNovaAdresaPoklapanje": {
+        "street": "Vinkovačka",
+        "houseNumber": "1",
+        "datum": "2026-10-26",
+        "udaljenostM": 0,
+        "unutarObrisa": true
       }
     },
     {

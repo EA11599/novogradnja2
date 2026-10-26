@@ -1,0 +1,2455 @@
+{
+  "type": "FeatureCollection",
+  "datum": "2026-10-26",
+  "count": 144,
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.029602,
+          45.177865
+        ]
+      },
+      "properties": {
+        "street": "Ulica Augustina Kažotića",
+        "houseNumber": "133",
+        "settlement": "Slavonski Brod",
+        "postcode": "35000",
+        "city": "Slavonski Brod"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.021396,
+          45.177654
+        ]
+      },
+      "properties": {
+        "street": "Ulica Nikole Nalješkovića",
+        "houseNumber": "1E",
+        "settlement": "Slavonski Brod",
+        "postcode": "35000",
+        "city": "Slavonski Brod"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.679234,
+          45.152735
+        ]
+      },
+      "properties": {
+        "street": "Ulica Živike",
+        "houseNumber": "9",
+        "settlement": "Živike",
+        "postcode": "35257",
+        "city": "Lužani"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.030014,
+          45.177798
+        ]
+      },
+      "properties": {
+        "street": "Ulica Augustina Kažotića",
+        "houseNumber": "129",
+        "settlement": "Slavonski Brod",
+        "postcode": "35000",
+        "city": "Slavonski Brod"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.176776,
+          42.979259
+        ]
+      },
+      "properties": {
+        "street": "Kralja Tomislava",
+        "houseNumber": "35",
+        "settlement": "Podgorje",
+        "postcode": "20250",
+        "city": "Orebić"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.238509,
+          42.970879
+        ]
+      },
+      "properties": {
+        "street": "Postup",
+        "houseNumber": "28A",
+        "settlement": "Donja Banda",
+        "postcode": "20242",
+        "city": "Oskorušno"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.19876,
+          42.989876
+        ]
+      },
+      "properties": {
+        "street": "Podvlaštica",
+        "houseNumber": "10A",
+        "settlement": "Stanković",
+        "postcode": "20250",
+        "city": "Orebić"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.190456,
+          42.981093
+        ]
+      },
+      "properties": {
+        "street": "Iva Dulčića",
+        "houseNumber": "22",
+        "settlement": "Orebić",
+        "postcode": "20250",
+        "city": "Orebić"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.836704,
+          42.90351
+        ]
+      },
+      "properties": {
+        "street": "Vinačac",
+        "houseNumber": "23/1",
+        "settlement": "Blato",
+        "postcode": "20271",
+        "city": "Blato"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.881519,
+          45.754626
+        ]
+      },
+      "properties": {
+        "street": "Dolenica",
+        "houseNumber": "55A",
+        "settlement": "Hrvatski Leskovac",
+        "postcode": "10250",
+        "city": "Lučko"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.911543,
+          45.799557
+        ]
+      },
+      "properties": {
+        "street": "Pavlenski put",
+        "houseNumber": "3A",
+        "settlement": "Zagreb",
+        "postcode": "10090",
+        "city": "Zagreb-Susedgrad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.873121,
+          45.677215
+        ]
+      },
+      "properties": {
+        "street": "Kraljevečki brijegi",
+        "houseNumber": "50B",
+        "settlement": "Kupinečki Kraljevec",
+        "postcode": "10257",
+        "city": "Brezovica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.048314,
+          45.903996
+        ]
+      },
+      "properties": {
+        "street": "Bokanjščica",
+        "houseNumber": "34D",
+        "settlement": "Zagreb",
+        "postcode": "10040",
+        "city": "Zagreb-Dubrava"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.01208,
+          45.823427
+        ]
+      },
+      "properties": {
+        "street": "Ulica Mije Kišpatića",
+        "houseNumber": "2",
+        "settlement": "Zagreb",
+        "postcode": "10123",
+        "city": "Zagreb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.950871,
+          45.77248
+        ]
+      },
+      "properties": {
+        "street": "Ulica Ive Robića",
+        "houseNumber": "1",
+        "settlement": "Zagreb",
+        "postcode": "10020",
+        "city": "Zagreb-Novi Zagreb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.951157,
+          45.772317
+        ]
+      },
+      "properties": {
+        "street": "Ulica Ive Robića",
+        "houseNumber": "1A",
+        "settlement": "Zagreb",
+        "postcode": "10020",
+        "city": "Zagreb-Novi Zagreb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.046124,
+          45.794988
+        ]
+      },
+      "properties": {
+        "street": "II. Radnički put",
+        "houseNumber": "50/1",
+        "settlement": "Zagreb",
+        "postcode": "10135",
+        "city": "Zagreb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.946415,
+          45.808148
+        ]
+      },
+      "properties": {
+        "street": "Zagorska ulica",
+        "houseNumber": "2A",
+        "settlement": "Zagreb",
+        "postcode": "10110",
+        "city": "Zagreb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.946432,
+          45.808252
+        ]
+      },
+      "properties": {
+        "street": "Zagorska ulica",
+        "houseNumber": "2A/1",
+        "settlement": "Zagreb",
+        "postcode": "10110",
+        "city": "Zagreb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.039679,
+          45.854509
+        ]
+      },
+      "properties": {
+        "street": "Cuglini",
+        "houseNumber": "58",
+        "settlement": "Zagreb",
+        "postcode": "10040",
+        "city": "Zagreb-Dubrava"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.954384,
+          45.245777
+        ]
+      },
+      "properties": {
+        "street": "Poljoprivredne škole",
+        "houseNumber": "13",
+        "settlement": "Pazin",
+        "postcode": "52000",
+        "city": "Pazin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.964525,
+          44.960432
+        ]
+      },
+      "properties": {
+        "street": "Marčana",
+        "houseNumber": "574",
+        "settlement": "Marčana",
+        "postcode": "52206",
+        "city": "Marčana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.681088,
+          45.202988
+        ]
+      },
+      "properties": {
+        "street": "Radmani",
+        "houseNumber": "43D",
+        "settlement": "Radmani",
+        "postcode": "52440",
+        "city": "Poreč (Parenzo)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.899349,
+          45.072196
+        ]
+      },
+      "properties": {
+        "street": "Pajkovići",
+        "houseNumber": "11A",
+        "settlement": "Pajkovići",
+        "postcode": "52342",
+        "city": "Svetvinčenat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.861303,
+          44.995281
+        ]
+      },
+      "properties": {
+        "street": "Cirka",
+        "houseNumber": "57",
+        "settlement": "Cukrići",
+        "postcode": "52342",
+        "city": "Svetvinčenat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.569041,
+          45.468051
+        ]
+      },
+      "properties": {
+        "street": "Valica - Valizza",
+        "houseNumber": "23K",
+        "settlement": "Valica - Valizza",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.56909,
+          45.468139
+        ]
+      },
+      "properties": {
+        "street": "Valica - Valizza",
+        "houseNumber": "23K/1",
+        "settlement": "Valica - Valizza",
+        "postcode": "52470",
+        "city": "Umag (Umago)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.572306,
+          45.327154
+        ]
+      },
+      "properties": {
+        "street": "Slavonska ulica - Via Slavonia",
+        "houseNumber": "38",
+        "settlement": "Novigrad - Cittanova",
+        "postcode": "52466",
+        "city": "Novigrad-Cittanova"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.962648,
+          45.421145
+        ]
+      },
+      "properties": {
+        "street": "Franečići",
+        "houseNumber": "71F",
+        "settlement": "Buzet",
+        "postcode": "52420",
+        "city": "Buzet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.647368,
+          45.447083
+        ]
+      },
+      "properties": {
+        "street": "Vižinada - Visinada",
+        "houseNumber": "58A",
+        "settlement": "Kaštel - Castelvenere",
+        "postcode": "52460",
+        "city": "Buje (Buie)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.642616,
+          45.390961
+        ]
+      },
+      "properties": {
+        "street": "Vukmanić",
+        "houseNumber": "124",
+        "settlement": "Vukmanić",
+        "postcode": "47000",
+        "city": "Karlovac"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.47541,
+          45.421214
+        ]
+      },
+      "properties": {
+        "street": "Belavići",
+        "houseNumber": "115",
+        "settlement": "Belavići",
+        "postcode": "47250",
+        "city": "Duga Resa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.648016,
+          44.953802
+        ]
+      },
+      "properties": {
+        "street": "Čatrnja",
+        "houseNumber": "147E",
+        "settlement": "Čatrnja",
+        "postcode": "47245",
+        "city": "Rakovica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.08545,
+          46.053558
+        ]
+      },
+      "properties": {
+        "street": "Međašna",
+        "houseNumber": "14B",
+        "settlement": "Đurđevac",
+        "postcode": "48350",
+        "city": "Đurđevac"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.389325,
+          46.106868
+        ]
+      },
+      "properties": {
+        "street": "Radnička ulica",
+        "houseNumber": "17",
+        "settlement": "Gornja Rijeka",
+        "postcode": "48268",
+        "city": "Gornja Rijeka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.841978,
+          46.165221
+        ]
+      },
+      "properties": {
+        "street": "Ulica Herešinska",
+        "houseNumber": "2E",
+        "settlement": "Koprivnica",
+        "postcode": "48000",
+        "city": "Koprivnica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.806194,
+          46.201582
+        ]
+      },
+      "properties": {
+        "street": "Vinogradska",
+        "houseNumber": "36D",
+        "settlement": "Koprivnički Ivanec",
+        "postcode": "48314",
+        "city": "Koprivnički Ivanec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.769647,
+          46.148975
+        ]
+      },
+      "properties": {
+        "street": "Ulica Dobrava",
+        "houseNumber": "10",
+        "settlement": "Pregrada",
+        "postcode": "49218",
+        "city": "Pregrada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.750448,
+          46.02396
+        ]
+      },
+      "properties": {
+        "street": "Gorkovec",
+        "houseNumber": "18B",
+        "settlement": "Gorkovec",
+        "postcode": "49290",
+        "city": "Klanjec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.786274,
+          46.196421
+        ]
+      },
+      "properties": {
+        "street": "Hlevnica",
+        "houseNumber": "40A",
+        "settlement": "Hlevnica",
+        "postcode": "49225",
+        "city": "Đurmanec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.899453,
+          46.210032
+        ]
+      },
+      "properties": {
+        "street": "Gornje Jesenje",
+        "houseNumber": "207B",
+        "settlement": "Gornje Jesenje",
+        "postcode": "49233",
+        "city": "Gornje Jesenje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.712479,
+          44.736699
+        ]
+      },
+      "properties": {
+        "street": "Kalebovac",
+        "houseNumber": "29",
+        "settlement": "Kalebovac",
+        "postcode": "53230",
+        "city": "Korenica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.064556,
+          44.984658
+        ]
+      },
+      "properties": {
+        "street": "Prokike",
+        "houseNumber": "18B",
+        "settlement": "Prokike",
+        "postcode": "53260",
+        "city": "Brinje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.712531,
+          44.736362
+        ]
+      },
+      "properties": {
+        "street": "Kalebovac",
+        "houseNumber": "29C",
+        "settlement": "Kalebovac",
+        "postcode": "53230",
+        "city": "Korenica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.180469,
+          44.876541
+        ]
+      },
+      "properties": {
+        "street": "Švica",
+        "houseNumber": "60B",
+        "settlement": "Švica",
+        "postcode": "53225",
+        "city": "Švica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.246174,
+          44.877825
+        ]
+      },
+      "properties": {
+        "street": "Donja Dubrava",
+        "houseNumber": "27A",
+        "settlement": "Otočac",
+        "postcode": "53220",
+        "city": "Otočac"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.433608,
+          46.421128
+        ]
+      },
+      "properties": {
+        "street": "Trg sv. Petra i Pavla",
+        "houseNumber": "17",
+        "settlement": "Mačkovec",
+        "postcode": "40000",
+        "city": "Čakovec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.469392,
+          46.459495
+        ]
+      },
+      "properties": {
+        "street": "Potočna ulica",
+        "houseNumber": "13",
+        "settlement": "Gornji Kraljevec",
+        "postcode": "40316",
+        "city": "Vratišinec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.364682,
+          46.467379
+        ]
+      },
+      "properties": {
+        "street": "Ulica Zrinskih",
+        "houseNumber": "17A",
+        "settlement": "Praporčan",
+        "postcode": "40314",
+        "city": "Selnica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.357718,
+          46.333239
+        ]
+      },
+      "properties": {
+        "street": "Obrtnička ulica",
+        "houseNumber": "7",
+        "settlement": "Pušćine",
+        "postcode": "40305",
+        "city": "Nedelišće"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.974841,
+          45.52521
+        ]
+      },
+      "properties": {
+        "street": "Kolodvorska",
+        "houseNumber": "5/3",
+        "settlement": "Feričanci",
+        "postcode": "31512",
+        "city": "Feričanci"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.540421,
+          45.785437
+        ]
+      },
+      "properties": {
+        "street": "Marka Oreškovića",
+        "houseNumber": "1",
+        "settlement": "Luč",
+        "postcode": "31300",
+        "city": "Beli Manastir"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.683877,
+          45.625694
+        ]
+      },
+      "properties": {
+        "street": "Braće Radić",
+        "houseNumber": "8A",
+        "settlement": "Darda",
+        "postcode": "31326",
+        "city": "Darda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.764679,
+          45.839632
+        ]
+      },
+      "properties": {
+        "street": "Šovakova",
+        "houseNumber": "63",
+        "settlement": "Gajić",
+        "postcode": "31305",
+        "city": "Draž"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.615347,
+          45.769932
+        ]
+      },
+      "properties": {
+        "street": "Osječka ulica",
+        "houseNumber": "62",
+        "settlement": "Beli Manastir",
+        "postcode": "31300",
+        "city": "Beli Manastir"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.987401,
+          45.347409
+        ]
+      },
+      "properties": {
+        "street": "Vladimira Nazora",
+        "houseNumber": "1",
+        "settlement": "Čaglin",
+        "postcode": "34350",
+        "city": "Čaglin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.988472,
+          45.349438
+        ]
+      },
+      "properties": {
+        "street": "Kralja Tomislava",
+        "houseNumber": "79A",
+        "settlement": "Čaglin",
+        "postcode": "34350",
+        "city": "Čaglin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.987447,
+          45.350998
+        ]
+      },
+      "properties": {
+        "street": "Braće Radića",
+        "houseNumber": "3",
+        "settlement": "Čaglin",
+        "postcode": "34350",
+        "city": "Čaglin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.600243,
+          45.051869
+        ]
+      },
+      "properties": {
+        "street": "Muraj",
+        "houseNumber": "22E",
+        "settlement": "Muraj",
+        "postcode": "51517",
+        "city": "Kornić"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.465016,
+          45.076359
+        ]
+      },
+      "properties": {
+        "street": "Linardići",
+        "houseNumber": "121A",
+        "settlement": "Linardići",
+        "postcode": "51511",
+        "city": "Malinska"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.667579,
+          45.076796
+        ]
+      },
+      "properties": {
+        "street": "Vrani",
+        "houseNumber": "16A",
+        "settlement": "Vrbnik",
+        "postcode": "51516",
+        "city": "Vrbnik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.666536,
+          45.076317
+        ]
+      },
+      "properties": {
+        "street": "Vrani",
+        "houseNumber": "24",
+        "settlement": "Vrbnik",
+        "postcode": "51516",
+        "city": "Vrbnik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.812127,
+          44.72973
+        ]
+      },
+      "properties": {
+        "street": "Barbat",
+        "houseNumber": "637B",
+        "settlement": "Barbat",
+        "postcode": "51280",
+        "city": "Rab"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.309269,
+          45.352667
+        ]
+      },
+      "properties": {
+        "street": "Pužev breg",
+        "houseNumber": "33A",
+        "settlement": "Pobri",
+        "postcode": "51211",
+        "city": "Matulji"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.521912,
+          45.052855
+        ]
+      },
+      "properties": {
+        "street": "Gušternica",
+        "houseNumber": "120",
+        "settlement": "Vrh",
+        "postcode": "51500",
+        "city": "Krk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.923131,
+          45.387866
+        ]
+      },
+      "properties": {
+        "street": "Hlevci",
+        "houseNumber": "14",
+        "settlement": "Hlevci",
+        "postcode": "51314",
+        "city": "Ravna Gora"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.841067,
+          45.371801
+        ]
+      },
+      "properties": {
+        "street": "Polane",
+        "houseNumber": "30A",
+        "settlement": "Dedin",
+        "postcode": "51313",
+        "city": "Kupjak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.733366,
+          43.765859
+        ]
+      },
+      "properties": {
+        "street": "Kamenska ulica",
+        "houseNumber": "21",
+        "settlement": "Tribunj",
+        "postcode": "22212",
+        "city": "Tribunj"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.963137,
+          43.535239
+        ]
+      },
+      "properties": {
+        "street": "Put Šepurine",
+        "houseNumber": "4B",
+        "settlement": "Rogoznica",
+        "postcode": "22203",
+        "city": "Rogoznica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.835317,
+          43.931335
+        ]
+      },
+      "properties": {
+        "street": "Ulica Pavići, Ćoraši, Pakići",
+        "houseNumber": "52",
+        "settlement": "Bribir",
+        "postcode": "22222",
+        "city": "Skradin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.992559,
+          43.873741
+        ]
+      },
+      "properties": {
+        "street": "Malenice",
+        "houseNumber": "22A",
+        "settlement": "Brištani",
+        "postcode": "22324",
+        "city": "Drinovci"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.928051,
+          43.866917
+        ]
+      },
+      "properties": {
+        "street": "Plastovo",
+        "houseNumber": "17A",
+        "settlement": "Plastovo",
+        "postcode": "22222",
+        "city": "Skradin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.252233,
+          45.512674
+        ]
+      },
+      "properties": {
+        "street": "Petrovec",
+        "houseNumber": "39C",
+        "settlement": "Petrovec",
+        "postcode": "44272",
+        "city": "Lekenik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.547361,
+          43.48987
+        ]
+      },
+      "properties": {
+        "street": "Hercegovačka ulica",
+        "houseNumber": "22A",
+        "settlement": "Podstrana - Grljevac",
+        "postcode": "21312",
+        "city": "Podstrana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.547542,
+          43.489821
+        ]
+      },
+      "properties": {
+        "street": "Hercegovačka ulica",
+        "houseNumber": "22B",
+        "settlement": "Podstrana - Grljevac",
+        "postcode": "21312",
+        "city": "Podstrana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.547448,
+          43.489681
+        ]
+      },
+      "properties": {
+        "street": "Hercegovačka ulica",
+        "houseNumber": "22C",
+        "settlement": "Podstrana - Grljevac",
+        "postcode": "21312",
+        "city": "Podstrana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.547275,
+          43.489729
+        ]
+      },
+      "properties": {
+        "street": "Hercegovačka ulica",
+        "houseNumber": "22D",
+        "settlement": "Podstrana - Grljevac",
+        "postcode": "21312",
+        "city": "Podstrana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.587691,
+          43.585461
+        ]
+      },
+      "properties": {
+        "street": "Ulica kneza Višeslava",
+        "houseNumber": "19",
+        "settlement": "Dugopolje",
+        "postcode": "21204",
+        "city": "Dugopolje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.345934,
+          43.558295
+        ]
+      },
+      "properties": {
+        "street": "Cesta pape Ivana Pavla II.",
+        "houseNumber": "233",
+        "settlement": "Kaštel Stari",
+        "postcode": "21216",
+        "city": "Kaštel Stari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.578486,
+          43.331348
+        ]
+      },
+      "properties": {
+        "street": "Pod Njivicu",
+        "houseNumber": "23",
+        "settlement": "Nerežišća",
+        "postcode": "21423",
+        "city": "Nerežišća"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.577887,
+          43.468911
+        ]
+      },
+      "properties": {
+        "street": "Put Vučipolja",
+        "houseNumber": "8C",
+        "settlement": "Podstrana - Mutogras",
+        "postcode": "21312",
+        "city": "Podstrana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.324997,
+          43.563422
+        ]
+      },
+      "properties": {
+        "street": "Bufaline III",
+        "houseNumber": "1B",
+        "settlement": "Kaštel Novi",
+        "postcode": "21216",
+        "city": "Kaštel Stari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.593857,
+          43.585531
+        ]
+      },
+      "properties": {
+        "street": "Ulica sv. Mihovila",
+        "houseNumber": "29",
+        "settlement": "Dugopolje",
+        "postcode": "21204",
+        "city": "Dugopolje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.561033,
+          43.593848
+        ]
+      },
+      "properties": {
+        "street": "Kninska ulica",
+        "houseNumber": "35",
+        "settlement": "Dugopolje",
+        "postcode": "21204",
+        "city": "Dugopolje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.496686,
+          43.535523
+        ]
+      },
+      "properties": {
+        "street": "Ulica hrvatskih branitelja",
+        "houseNumber": "14",
+        "settlement": "Solin",
+        "postcode": "21210",
+        "city": "Solin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.494122,
+          43.5243
+        ]
+      },
+      "properties": {
+        "street": "Mostine",
+        "houseNumber": "7B",
+        "settlement": "Split",
+        "postcode": "21000",
+        "city": "Split"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.157768,
+          43.463555
+        ]
+      },
+      "properties": {
+        "street": "Ulica hrvatskih branitelja",
+        "houseNumber": "57C",
+        "settlement": "Donji Proložac",
+        "postcode": "21264",
+        "city": "Donji Proložac"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.544729,
+          43.492595
+        ]
+      },
+      "properties": {
+        "street": "Ulica Bartola Kašića",
+        "houseNumber": "19C",
+        "settlement": "Podstrana - Miljevac",
+        "postcode": "21312",
+        "city": "Podstrana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.544798,
+          43.492682
+        ]
+      },
+      "properties": {
+        "street": "Ulica Bartola Kašića",
+        "houseNumber": "19D",
+        "settlement": "Podstrana - Miljevac",
+        "postcode": "21312",
+        "city": "Podstrana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.574165,
+          43.475527
+        ]
+      },
+      "properties": {
+        "street": "Ulica Pojatište",
+        "houseNumber": "26D",
+        "settlement": "Podstrana - Sv. Martin",
+        "postcode": "21312",
+        "city": "Podstrana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.57383,
+          43.47568
+        ]
+      },
+      "properties": {
+        "street": "Ulica Pojatište",
+        "houseNumber": "26B",
+        "settlement": "Podstrana - Sv. Martin",
+        "postcode": "21312",
+        "city": "Podstrana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.513499,
+          43.561501
+        ]
+      },
+      "properties": {
+        "street": "Kliških uskoka",
+        "houseNumber": "30A",
+        "settlement": "Klis",
+        "postcode": "21231",
+        "city": "Klis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.662463,
+          43.262805
+        ]
+      },
+      "properties": {
+        "street": "David-cesta",
+        "houseNumber": "16A",
+        "settlement": "Bol",
+        "postcode": "21420",
+        "city": "Bol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.515213,
+          43.533701
+        ]
+      },
+      "properties": {
+        "street": "Gajeva ulica",
+        "houseNumber": "37A",
+        "settlement": "Mravince",
+        "postcode": "21210",
+        "city": "Solin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.490089,
+          43.192112
+        ]
+      },
+      "properties": {
+        "street": "Ulica kroz Brusje",
+        "houseNumber": "51",
+        "settlement": "Brusje",
+        "postcode": "21454",
+        "city": "Brusje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.181313,
+          46.293964
+        ]
+      },
+      "properties": {
+        "street": "Čalinec",
+        "houseNumber": "205",
+        "settlement": "Čalinec",
+        "postcode": "42243",
+        "city": "Maruševec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.324042,
+          46.312044
+        ]
+      },
+      "properties": {
+        "street": "Ulica Ivana Nepomuka Petrovića",
+        "houseNumber": "12",
+        "settlement": "Varaždin",
+        "postcode": "42000",
+        "city": "Varaždin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.330505,
+          46.2461
+        ]
+      },
+      "properties": {
+        "street": "Ulica Vladimira Nazora",
+        "houseNumber": "10C",
+        "settlement": "Žigrovec",
+        "postcode": "42214",
+        "city": "Sveti Ilija"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.318054,
+          46.217234
+        ]
+      },
+      "properties": {
+        "street": "Livadska ulica",
+        "houseNumber": "4",
+        "settlement": "Krušljevec",
+        "postcode": "42214",
+        "city": "Sveti Ilija"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.313355,
+          46.223775
+        ]
+      },
+      "properties": {
+        "street": "Ulica Matije Gupca",
+        "houseNumber": "7",
+        "settlement": "Beletinec",
+        "postcode": "42214",
+        "city": "Sveti Ilija"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.144087,
+          46.227944
+        ]
+      },
+      "properties": {
+        "street": "Punikve",
+        "houseNumber": "2S",
+        "settlement": "Punikve",
+        "postcode": "42240",
+        "city": "Ivanec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.365394,
+          45.809449
+        ]
+      },
+      "properties": {
+        "street": "Mlinska ulica",
+        "houseNumber": "110",
+        "settlement": "Sveti Đurađ",
+        "postcode": "33000",
+        "city": "Virovitica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.734675,
+          45.317391
+        ]
+      },
+      "properties": {
+        "street": "Vinkovačka",
+        "houseNumber": "1",
+        "settlement": "Jarmina",
+        "postcode": "32280",
+        "city": "Jarmina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.735307,
+          45.313336
+        ]
+      },
+      "properties": {
+        "street": "Vinkovačka",
+        "houseNumber": "51",
+        "settlement": "Jarmina",
+        "postcode": "32280",
+        "city": "Jarmina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.365863,
+          45.224362
+        ]
+      },
+      "properties": {
+        "street": "Dr. Franje Tuđmana",
+        "houseNumber": "26",
+        "settlement": "Ilok",
+        "postcode": "32236",
+        "city": "Ilok"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.408505,
+          44.125767
+        ]
+      },
+      "properties": {
+        "street": "Gornji Zemunik ulica V",
+        "houseNumber": "6B",
+        "settlement": "Zemunik Gornji",
+        "postcode": "23222",
+        "city": "Zemunik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.197641,
+          44.069854
+        ]
+      },
+      "properties": {
+        "street": "Otočka cesta",
+        "houseNumber": "13",
+        "settlement": "Kali",
+        "postcode": "23273",
+        "city": "Preko"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.57961,
+          43.941224
+        ]
+      },
+      "properties": {
+        "street": "Kardinala Alojzija Stepinca",
+        "houseNumber": "156",
+        "settlement": "Vrana",
+        "postcode": "23211",
+        "city": "Pakoštane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.243548,
+          44.038
+        ]
+      },
+      "properties": {
+        "street": "Kukljica ulica II",
+        "houseNumber": "3F",
+        "settlement": "Kukljica",
+        "postcode": "23271",
+        "city": "Kukljica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3664,
+          44.111161
+        ]
+      },
+      "properties": {
+        "street": "Donji Zemunik ulica II",
+        "houseNumber": "51D",
+        "settlement": "Zemunik Donji",
+        "postcode": "23222",
+        "city": "Zemunik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.356679,
+          44.046905
+        ]
+      },
+      "properties": {
+        "street": "Poginulih hrvatskih branitelja",
+        "houseNumber": "21B",
+        "settlement": "Debeljak",
+        "postcode": "23206",
+        "city": "Sukošan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.45645,
+          44.284346
+        ]
+      },
+      "properties": {
+        "street": "Put Selina",
+        "houseNumber": "33",
+        "settlement": "Starigrad",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.174649,
+          44.189093
+        ]
+      },
+      "properties": {
+        "street": "Petrčane ulica XXX",
+        "houseNumber": "1F",
+        "settlement": "Petrčane",
+        "postcode": "23231",
+        "city": "Petrčane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.249506,
+          44.121052
+        ]
+      },
+      "properties": {
+        "street": "Splitska ulica",
+        "houseNumber": "47A",
+        "settlement": "Zadar",
+        "postcode": "23000",
+        "city": "Zadar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.19715,
+          44.251014
+        ]
+      },
+      "properties": {
+        "street": "Drenovac Osredački",
+        "houseNumber": "5B",
+        "settlement": "Drenovac Osredački",
+        "postcode": "23446",
+        "city": "Kaldrma"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.368543,
+          44.109108
+        ]
+      },
+      "properties": {
+        "street": "Donji Zemunik ulica IX",
+        "houseNumber": "23A",
+        "settlement": "Zemunik Donji",
+        "postcode": "23222",
+        "city": "Zemunik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5433,
+          43.950916
+        ]
+      },
+      "properties": {
+        "street": "Kneza Domagoja",
+        "houseNumber": "47",
+        "settlement": "Vrana",
+        "postcode": "23211",
+        "city": "Pakoštane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.456096,
+          44.090765
+        ]
+      },
+      "properties": {
+        "street": "Put Ražovljeve glavice",
+        "houseNumber": "27B",
+        "settlement": "Škabrnja",
+        "postcode": "23223",
+        "city": "Škabrnja"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.292779,
+          44.297669
+        ]
+      },
+      "properties": {
+        "street": "Ulica Mirka Miočića hrvatskog erudita i enigmata (1956-2017)",
+        "houseNumber": "135H",
+        "settlement": "Rtina",
+        "postcode": "23248",
+        "city": "Ražanac"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.242379,
+          44.132375
+        ]
+      },
+      "properties": {
+        "street": "Put kotarskih serdara",
+        "houseNumber": "52",
+        "settlement": "Zadar",
+        "postcode": "23000",
+        "city": "Zadar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.470399,
+          44.280527
+        ]
+      },
+      "properties": {
+        "street": "Put jaza",
+        "houseNumber": "21",
+        "settlement": "Seline",
+        "postcode": "23244",
+        "city": "Starigrad Paklenica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.367408,
+          44.040298
+        ]
+      },
+      "properties": {
+        "street": "Dr. Franje Tuđmana",
+        "houseNumber": "93",
+        "settlement": "Debeljak",
+        "postcode": "23206",
+        "city": "Sukošan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.482683,
+          44.214361
+        ]
+      },
+      "properties": {
+        "street": "Ulica Ivana Gorana Kovačića",
+        "houseNumber": "10",
+        "settlement": "Posedarje",
+        "postcode": "23242",
+        "city": "Posedarje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.026951,
+          44.455217
+        ]
+      },
+      "properties": {
+        "street": "Ul. Augusta Šenoe",
+        "houseNumber": "44F",
+        "settlement": "Pag",
+        "postcode": "23250",
+        "city": "Pag"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.520412,
+          43.903171
+        ]
+      },
+      "properties": {
+        "street": "Ul. kar. dr. A. Stepinca",
+        "houseNumber": "111A",
+        "settlement": "Pakoštane",
+        "postcode": "23211",
+        "city": "Pakoštane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.545207,
+          43.963973
+        ]
+      },
+      "properties": {
+        "street": "Blajburških žrtava",
+        "houseNumber": "43",
+        "settlement": "Vrana",
+        "postcode": "23211",
+        "city": "Pakoštane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.499286,
+          44.029862
+        ]
+      },
+      "properties": {
+        "street": "Polača",
+        "houseNumber": "244B",
+        "settlement": "Polača",
+        "postcode": "23423",
+        "city": "Polača"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.718862,
+          45.795281
+        ]
+      },
+      "properties": {
+        "street": "Mirnovečka cesta",
+        "houseNumber": "42",
+        "settlement": "Samobor",
+        "postcode": "10430",
+        "city": "Samobor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.116584,
+          45.773805
+        ]
+      },
+      "properties": {
+        "street": "Trg sv. Martina",
+        "houseNumber": "9",
+        "settlement": "Šćitarjevo",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.116487,
+          45.774096
+        ]
+      },
+      "properties": {
+        "street": "Trg sv. Martina",
+        "houseNumber": "10",
+        "settlement": "Šćitarjevo",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.726173,
+          45.819212
+        ]
+      },
+      "properties": {
+        "street": "Ulica Nikole Šubića Zrinskog",
+        "houseNumber": "28",
+        "settlement": "Samobor",
+        "postcode": "10430",
+        "city": "Samobor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.773845,
+          45.86828
+        ]
+      },
+      "properties": {
+        "street": "Ravnice",
+        "houseNumber": "11",
+        "settlement": "Šibice",
+        "postcode": "10290",
+        "city": "Zaprešić"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.294631,
+          45.830401
+        ]
+      },
+      "properties": {
+        "street": "Templarska ulica",
+        "houseNumber": "43",
+        "settlement": "Brckovljani",
+        "postcode": "10370",
+        "city": "Dugo Selo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.085814,
+          45.724975
+        ]
+      },
+      "properties": {
+        "street": "Rakarska",
+        "houseNumber": "54A",
+        "settlement": "Velika Gorica",
+        "postcode": "10410",
+        "city": "Velika Gorica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.830245,
+          45.75409
+        ]
+      },
+      "properties": {
+        "street": "Voćarska ulica",
+        "houseNumber": "13",
+        "settlement": "Gornji Stupnik",
+        "postcode": "10255",
+        "city": "Gornji Stupnik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.830402,
+          45.754143
+        ]
+      },
+      "properties": {
+        "street": "Voćarska ulica",
+        "houseNumber": "15",
+        "settlement": "Gornji Stupnik",
+        "postcode": "10255",
+        "city": "Gornji Stupnik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.83054,
+          45.754196
+        ]
+      },
+      "properties": {
+        "street": "Voćarska ulica",
+        "houseNumber": "17",
+        "settlement": "Gornji Stupnik",
+        "postcode": "10255",
+        "city": "Gornji Stupnik"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.44855,
+          45.756697
+        ]
+      },
+      "properties": {
+        "street": "Duga ulica",
+        "houseNumber": "27A",
+        "settlement": "Bešlinec",
+        "postcode": "10312",
+        "city": "Kloštar Ivanić"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.068725,
+          45.611198
+        ]
+      },
+      "properties": {
+        "street": "Podvornička cesta",
+        "houseNumber": "54",
+        "settlement": "Podvornica",
+        "postcode": "10413",
+        "city": "Kravarsko"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.237498,
+          45.913957
+        ]
+      },
+      "properties": {
+        "street": "Ulica Stjepana Radića",
+        "houseNumber": "6",
+        "settlement": "Donja Zelina",
+        "postcode": "10382",
+        "city": "Donja Zelina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.247205,
+          45.803893
+        ]
+      },
+      "properties": {
+        "street": "Ulica Josipa Zorića",
+        "houseNumber": "100A",
+        "settlement": "Dugo Selo",
+        "postcode": "10370",
+        "city": "Dugo Selo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.878492,
+          45.93578
+        ]
+      },
+      "properties": {
+        "street": "Ulica svete Doroteje",
+        "houseNumber": "214A",
+        "settlement": "Jakovlje",
+        "postcode": "10297",
+        "city": "Jakovlje"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.892893,
+          45.534442
+        ]
+      },
+      "properties": {
+        "street": "Zdenac",
+        "houseNumber": "5",
+        "settlement": "Lijevo Sredičko",
+        "postcode": "10451",
+        "city": "Pisarovina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.246995,
+          45.804205
+        ]
+      },
+      "properties": {
+        "street": "Ulica Josipa Zorića",
+        "houseNumber": "100",
+        "settlement": "Dugo Selo",
+        "postcode": "10370",
+        "city": "Dugo Selo"
+      }
+    }
+  ]
+}
