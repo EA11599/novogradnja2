@@ -41508,6 +41508,13 @@
         "udaljenostM": 7,
         "povrsinaMs": 275,
         "iou": 0.28
+      },
+      "dguNovaAdresaPoklapanje": {
+        "street": "Črnec Biškupečki",
+        "houseNumber": "190",
+        "datum": "2026-11-09",
+        "udaljenostM": 20.5,
+        "unutarObrisa": false
       }
     },
     {
